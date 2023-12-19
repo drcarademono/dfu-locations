@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Howling Rascal Inn",
+    "Name": "The Graves of Yeomwing",
     "RegionName": "Ykalon",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 707000000630,
-        "Latitude": 28712,
-        "Longitude": 80680,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 105915557,
+        "Latitude": 62760,
+        "Longitude": 48808,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20658176,
-                "Y": 23181313,
+                "X": 12498944,
+                "Y": 16070657,
                 "IsExterior": 32768,
-                "Unknown2": 39,
-                "LocationId": 10121,
+                "Unknown2": 101,
+                "LocationId": 10373,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Howling Rascal Inn"
+                "LocationName": "The Graves of Yeomwing"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 16432,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 10121,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 23185,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 10121,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 15137,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 10121,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 13531,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 10121,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 6515,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 10121,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 20709,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 10121,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 31587,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 10121,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 31587,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 10121,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 31587,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 10121,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 31587,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 10121,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 29794,
-                "FactionId": 510,
-                "Sector": 55,
-                "LocationId": 10121,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 18381,
-                "FactionId": 510,
-                "Sector": 71,
-                "LocationId": 10121,
-                "BuildingType": 15,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "29794",
-            "MapId": 707000000630,
+            "AnotherName": "The Graves of Yeomwing",
+            "MapId": 9381,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS07.RMB"
+                "GRVEAS23.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 12498944,
+                "Y": 16070657,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 29,
+                "LocationId": 10374,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10373,
+                "LocationName": "The Graves of Yeomwing"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
         "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

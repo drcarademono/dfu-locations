@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Doct Farmstead",
+    "Name": "The Nazam Graveyard",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 256000000653,
-        "Latitude": 86440,
-        "Longitude": 83624,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 699850927,
+        "Latitude": 6312,
+        "Longitude": 94120,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21411840,
-                "Y": 8402945,
+                "X": 24098816,
+                "Y": 1619969,
                 "IsExterior": 32768,
-                "Unknown2": 256,
-                "LocationId": 26054,
+                "Unknown2": 667,
+                "LocationId": 28066,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Doct Farmstead"
+                "LocationName": "The Nazam Graveyard"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 12929,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 26054,
-                "BuildingType": 18,
-                "Quality": 5
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Doct Farmstead",
-            "MapId": 256000000653,
+            "AnotherName": "The Nazam Graveyard",
+            "MapId": 450735,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA05.RMB"
+                "GRVEAS26.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 24098816,
+                "Y": 1619969,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 221,
+                "LocationId": 28067,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28066,
+                "LocationName": "The Nazam Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

@@ -1,136 +1,71 @@
 {
     "Loaded": true,
-    "Name": "The Tower of Nhorc",
+    "Name": "Shrine of Ephen",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 242000000803,
-        "Latitude": 88232,
-        "Longitude": 102824,
-        "LocationType": 4,
-        "DungeonType": 11,
-        "Discovered": false,
+        "MapId": 758491267,
+        "Latitude": 16552,
+        "Longitude": 104872,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26327040,
-                "Y": 7944193,
+                "X": 26851328,
+                "Y": 4241409,
                 "IsExterior": 32768,
-                "Unknown2": 14,
-                "LocationId": 23756,
+                "Unknown2": 723,
+                "LocationId": 25581,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tower of Nhorc"
+                "LocationName": "Shrine of Ephen"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Tower of Nhorc",
-            "MapId": 242000000803,
+            "AnotherName": "Shrine of Ephen",
+            "MapId": 370819,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA00.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27015168,
-                "Y": 5912577,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 2,
-                "LocationId": 23757,
-                "IsInterior": 1,
-                "ExteriorLocationId": 23756,
-                "LocationName": "The Tower of Nhorc"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

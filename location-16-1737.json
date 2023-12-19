@@ -1,176 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Fortress of Greensly",
+    "Name": "Wickcroft Grange",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 581000000827,
-        "Latitude": 44840,
-        "Longitude": 105896,
-        "LocationType": 7,
-        "DungeonType": 9,
-        "Discovered": false,
+        "MapId": 1821550434,
+        "Latitude": 41768,
+        "Longitude": 118056,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27113472,
-                "Y": 19052545,
+                "X": 30226432,
+                "Y": 10696705,
                 "IsExterior": 32768,
-                "Unknown2": 192,
-                "LocationId": 10650,
+                "Unknown2": 1737,
+                "LocationId": 20055,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Fortress of Greensly"
+                "LocationName": "Wickcroft Grange"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 27622,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 20055,
+                "BuildingType": "House2",
+                "Quality": 15
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Fortress of Greensly",
-            "MapId": 581000000827,
+            "AnotherName": "Wickcroft Grange",
+            "MapId": 173922,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA06.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 22165504,
-                "Y": 15906817,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 70,
-                "LocationId": 10651,
-                "IsInterior": 1,
-                "ExteriorLocationId": 10650,
-                "LocationName": "The Fortress of Greensly"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000081.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000035.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

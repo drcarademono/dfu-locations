@@ -1,146 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Caorchom Farmstead",
+    "Name": "Sashthrac",
     "RegionName": "Alik'r Desert",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 296000000573,
-        "Latitude": 81320,
-        "Longitude": 73384,
-        "LocationType": 10,
-        "DungeonType": 0,
+        "MapId": 97942118,
+        "Latitude": 9640,
+        "Longitude": 70440,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "OrcStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18790400,
-                "Y": 9713665,
+                "X": 18036736,
+                "Y": 2471937,
                 "IsExterior": 32768,
-                "Unknown2": 2,
-                "LocationId": 26219,
+                "Unknown2": 93,
+                "LocationId": 27353,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Caorchom Farmstead"
+                "LocationName": "Sashthrac"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Caorchom Farmstead",
-            "MapId": 296000000573,
+            "AnotherName": "Sashthrac",
+            "MapId": 424550,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA24.RMB"
+                "DUNGAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19609600,
-                "Y": 3684353,
+                "X": 18036736,
+                "Y": 2471937,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 26220,
+                "Unknown2": 48,
+                "LocationId": 27354,
                 "IsInterior": 1,
-                "ExteriorLocationId": 26219,
-                "LocationName": "Ruins of The Caorchom Farmstead"
+                "ExteriorLocationId": 27353,
+                "LocationName": "Sashthrac"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 8
         },
         "Blocks": [
-            {
-                "X": -3,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000065.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000031.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000006.RDB",
+                "BlockName": "N0000045.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -148,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -156,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

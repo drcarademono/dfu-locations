@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Bat and Castle Inn",
+    "Name": "Bedistyr Laboratory",
     "RegionName": "Urvaius",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 632000000563,
-        "Latitude": 38312,
-        "Longitude": 72104,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 152134956,
+        "Latitude": 52264,
+        "Longitude": 55848,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18462720,
-                "Y": 20723713,
+                "X": 14301184,
+                "Y": 13383681,
                 "IsExterior": 32768,
-                "Unknown2": 178,
-                "LocationId": 15973,
+                "Unknown2": 145,
+                "LocationId": 15277,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Bat and Castle Inn"
+                "LocationName": "Bedistyr Laboratory"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 24679,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 15973,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 27468,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 15973,
-                "BuildingType": 15,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 29154,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 15973,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 233,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 15973,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 3129,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 15973,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 21526,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 15973,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 4050,
-                "FactionId": 0,
-                "Sector": 73,
-                "LocationId": 15973,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 4031,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 15973,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 20049,
-                "FactionId": 0,
-                "Sector": 83,
-                "LocationId": 15973,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 1370,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 15973,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 5550,
-                "FactionId": 0,
-                "Sector": 94,
-                "LocationId": 15973,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 11230,
-                "FactionId": 0,
-                "Sector": 100,
-                "LocationId": 15973,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 7929,
-                "FactionId": 0,
-                "Sector": 110,
-                "LocationId": 15973,
-                "BuildingType": 18,
-                "Quality": 9
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "24679",
-            "MapId": 632000000563,
+            "AnotherName": "Bedistyr Laboratory",
+            "MapId": 91436,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS02.RMB"
+                "DUNGAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 14301184,
+                "Y": 13383681,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 35,
+                "LocationId": 15278,
+                "IsInterior": 1,
+                "ExteriorLocationId": 15277,
+                "LocationName": "Bedistyr Laboratory"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000081.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 167,
     "RegionIndex": 39,

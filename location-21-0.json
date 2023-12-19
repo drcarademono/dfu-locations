@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Hawkwing Palace",
+    "Name": "The Masterford Graveyard",
     "RegionName": "Anticlere",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 544000000602,
-        "Latitude": 49576,
-        "Longitude": 77096,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 118395,
+        "Latitude": 48808,
+        "Longitude": 50600,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19740672,
-                "Y": 17840129,
+                "X": 12957696,
+                "Y": 12498945,
                 "IsExterior": 32768,
-                "Unknown2": 472,
-                "LocationId": 19217,
+                "Unknown2": 0,
+                "LocationId": 16994,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hawkwing Palace"
+                "LocationName": "The Masterford Graveyard"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 21049,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 19217,
-                "BuildingType": 17,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 21808,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 19217,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 20690,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 19217,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 4798,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 19217,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 10073,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 19217,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 22623,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 19217,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 16873,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 19217,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 8149,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 19217,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 1391,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 19217,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 21204,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 19217,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 21380,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 19217,
-                "BuildingType": 15,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Hawkwing Palace",
-            "MapId": 544000000602,
+            "AnotherName": "The Masterford Graveyard",
+            "MapId": 118395,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 3,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "GRVEAS11.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 12957696,
+                "Y": 12498945,
                 "IsExterior": 0,
                 "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "LocationId": 16995,
+                "IsInterior": 1,
+                "ExteriorLocationId": 16994,
+                "LocationName": "The Masterford Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

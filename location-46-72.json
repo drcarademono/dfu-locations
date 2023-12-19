@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Old V'ozca's Shack",
+    "Name": "Ruins of Old Fharht-si's Farm",
     "RegionName": "Myrkwasa",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 423000000239,
-        "Latitude": 65064,
-        "Longitude": 30632,
-        "LocationType": 11,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 75921739,
+        "Latitude": 9640,
+        "Longitude": 34216,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "RuinedCastle",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 7845888,
-                "Y": 13875201,
+                "X": 8763392,
+                "Y": 2471937,
                 "IsExterior": 32768,
-                "Unknown2": 125,
-                "LocationId": 27904,
+                "Unknown2": 72,
+                "LocationId": 27335,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old V'ozca's Shack"
+                "LocationName": "Ruins of Old Fharht-si's Farm"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 30474,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27904,
-                "BuildingType": 19,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old V'ozca's Shack",
-            "MapId": 423000000239,
+            "AnotherName": "Ruins of Old Fharht-si's Farm",
+            "MapId": 424267,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "RUINAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 8763392,
+                "Y": 2471937,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 18,
+                "LocationId": 27336,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27335,
+                "LocationName": "Ruins of Old Fharht-si's Farm"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000022.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

@@ -1,114 +1,90 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Gaerhouse's Guard",
+    "Name": "The Barrow of Magnovulon",
     "RegionName": "Ilessan Hills",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 746000000409,
-        "Latitude": 23720,
-        "Longitude": 52392,
-        "LocationType": 10,
-        "DungeonType": 11,
+        "MapId": 525440864,
+        "Latitude": 50600,
+        "Longitude": 36904,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Crypt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13416448,
-                "Y": 24459265,
+                "X": 9451520,
+                "Y": 12957697,
                 "IsExterior": 32768,
-                "Unknown2": 273,
-                "LocationId": 14502,
+                "Unknown2": 501,
+                "LocationId": 16107,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Gaerhouse's Guard"
+                "LocationName": "The Barrow of Magnovulon"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Gaerhouse's Guard",
-            "MapId": 746000000409,
+            "AnotherName": "The Barrow of Magnovulon",
+            "MapId": 104288,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA17.RMB"
+                "DUNGAA18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 7583744,
-                "Y": 13744129,
+                "X": 9451520,
+                "Y": 12957697,
                 "IsExterior": 0,
-                "Unknown2": 102,
-                "LocationId": 14503,
+                "Unknown2": 188,
+                "LocationId": 16108,
                 "IsInterior": 1,
-                "ExteriorLocationId": 14502,
-                "LocationName": "Ruins of Gaerhouse's Guard"
+                "ExteriorLocationId": 16107,
+                "LocationName": "The Barrow of Magnovulon"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 8
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "W0000029.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000054.RDB",
+                "BlockName": "W0000018.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,61 +92,21 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000081.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
+        "GroundArchive": 302,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

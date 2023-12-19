@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Buckingwing Hall",
+    "Name": "Ruins of Tower Wicking",
     "RegionName": "Bhoriane",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 538000000678,
-        "Latitude": 50344,
-        "Longitude": 86824,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 124900095,
+        "Latitude": 48680,
+        "Longitude": 70568,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "SpiderNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22231040,
-                "Y": 17643521,
+                "X": 18069504,
+                "Y": 12466177,
                 "IsExterior": 32768,
-                "Unknown2": 143,
-                "LocationId": 17434,
+                "Unknown2": 119,
+                "LocationId": 17069,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Buckingwing Hall"
+                "LocationName": "Ruins of Tower Wicking"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 9877,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 17434,
-                "BuildingType": 17,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 2071,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 17434,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 24269,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 17434,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 29416,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 17434,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 30643,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 17434,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 27724,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 17434,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 7605,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 17434,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 3039,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 17434,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 26865,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 17434,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 13873,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 17434,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 11640,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 17434,
-                "BuildingType": 15,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Buckingwing Hall",
-            "MapId": 538000000678,
+            "AnotherName": "Ruins of Tower Wicking",
+            "MapId": 119551,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "RUINAA19.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 18069504,
+                "Y": 12466177,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 28,
+                "LocationId": 17070,
+                "IsInterior": 1,
+                "ExteriorLocationId": 17069,
+                "LocationName": "Ruins of Tower Wicking"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000042.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 164,
     "RegionIndex": 36,

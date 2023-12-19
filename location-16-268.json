@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Gaerhouse Manor",
+    "Name": "Castle Gaerfield",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 349000001007,
-        "Latitude": 74536,
-        "Longitude": 128936,
-        "LocationType": 10,
-        "DungeonType": 14,
+        "MapId": 281038291,
+        "Latitude": 61480,
+        "Longitude": 118184,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "OrcStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33011712,
-                "Y": 11450369,
+                "X": 30259200,
+                "Y": 15742977,
                 "IsExterior": 32768,
-                "Unknown2": 1479,
-                "LocationId": 17401,
+                "Unknown2": 268,
+                "LocationId": 10924,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Gaerhouse Manor"
+                "LocationName": "Castle Gaerfield"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Gaerhouse Manor",
-            "MapId": 349000001007,
+            "AnotherName": "Castle Gaerfield",
+            "MapId": 19923,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA09.RMB"
+                "CASTAA18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31045632,
-                "Y": 12269569,
+                "X": 30259200,
+                "Y": 15742977,
                 "IsExterior": 0,
-                "Unknown2": 551,
-                "LocationId": 17402,
+                "Unknown2": 103,
+                "LocationId": 10925,
                 "IsInterior": 1,
-                "ExteriorLocationId": 17401,
-                "LocationName": "Ruins of Gaerhouse Manor"
+                "ExteriorLocationId": 10924,
+                "LocationName": "Castle Gaerfield"
             }
         },
         "Header": {
@@ -57,58 +57,10 @@
         },
         "Blocks": [
             {
-                "X": -3,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000024.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -121,10 +73,18 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000073.RDB",
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -135,26 +95,18 @@
                 "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
             }
         ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

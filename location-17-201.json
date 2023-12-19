@@ -1,98 +1,90 @@
 {
     "Loaded": true,
-    "Name": "The Haunt of Magnoghan",
+    "Name": "The Dungeon of Peristair",
     "RegionName": "Daggerfall",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 635000000341,
-        "Latitude": 37928,
-        "Longitude": 43688,
-        "LocationType": 4,
-        "DungeonType": 8,
+        "MapId": 210922913,
+        "Latitude": 43560,
+        "Longitude": 17576,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Prison",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11188224,
-                "Y": 20822017,
+                "X": 4503552,
+                "Y": 11155457,
                 "IsExterior": 32768,
-                "Unknown2": 1190,
-                "LocationId": 21613,
+                "Unknown2": 201,
+                "LocationId": 19239,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Haunt of Magnoghan"
+                "LocationName": "The Dungeon of Peristair"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Haunt of Magnoghan",
-            "MapId": 635000000341,
+            "AnotherName": "The Dungeon of Peristair",
+            "MapId": 159137,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA10.RMB"
+                "DUNGAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 7452672,
-                "Y": 9484289,
+                "X": 4503552,
+                "Y": 11155457,
                 "IsExterior": 0,
-                "Unknown2": 235,
-                "LocationId": 21614,
+                "Unknown2": 34,
+                "LocationId": 19240,
                 "IsInterior": 1,
-                "ExteriorLocationId": 21613,
-                "LocationName": "The Haunt of Magnoghan"
+                "ExteriorLocationId": 19239,
+                "LocationName": "The Dungeon of Peristair"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 12
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000040.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000027.RDB",
+                "BlockName": "N0000034.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,39 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000058.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

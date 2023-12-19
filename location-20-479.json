@@ -1,74 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Dancing Priest Tavern",
+    "Name": "The Old Glog Hovel",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 436000000378,
-        "Latitude": 63400,
-        "Longitude": 48424,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 502674301,
+        "Latitude": 11944,
+        "Longitude": 50856,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12400640,
-                "Y": 14301185,
+                "X": 13023232,
+                "Y": 3061761,
                 "IsExterior": 32768,
-                "Unknown2": 62,
-                "LocationId": 25302,
+                "Unknown2": 479,
+                "LocationId": 26812,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dancing Priest Tavern"
+                "LocationName": "The Old Glog Hovel"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 16135,
-                "FactionId": 510,
+                "NameSeed": 22215,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25302,
-                "BuildingType": 15,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 29243,
-                "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 25302,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 28210,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 25302,
-                "BuildingType": 20,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 29138,
-                "FactionId": 0,
-                "Sector": 37,
-                "LocationId": 25302,
-                "BuildingType": 20,
-                "Quality": 6
+                "LocationId": 26812,
+                "BuildingType": "House3",
+                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "16135",
-            "MapId": 436000000378,
+            "AnotherName": "The Old Glog Hovel",
+            "MapId": 406397,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -91,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

@@ -1,152 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Woodcroft Palace",
+    "Name": "The Ashsmith Farmstead",
     "RegionName": "Isle of Balfiera",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 379000000747,
-        "Latitude": 70696,
-        "Longitude": 95656,
-        "LocationType": 10,
-        "DungeonType": 11,
-        "Discovered": false,
+        "MapId": 7504661,
+        "Latitude": 42920,
+        "Longitude": 80552,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24492032,
-                "Y": 12433409,
+                "X": 20625408,
+                "Y": 10991617,
                 "IsExterior": 32768,
-                "Unknown2": 64,
-                "LocationId": 22155,
+                "Unknown2": 7,
+                "LocationId": 19596,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Woodcroft Palace"
+                "LocationName": "The Ashsmith Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 1199,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 19596,
+                "BuildingType": "House2",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Woodcroft Palace",
-            "MapId": 379000000747,
+            "AnotherName": "The Ashsmith Farmstead",
+            "MapId": 164629,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA28.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23181312,
-                "Y": 8861697,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 46,
-                "LocationId": 22156,
-                "IsInterior": 1,
-                "ExteriorLocationId": 22155,
-                "LocationName": "Ruins of Woodcroft Palace"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000015.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000026.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
-        "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
+        "SkyBase": 16,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 137,
     "RegionIndex": 9,

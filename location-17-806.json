@@ -1,106 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Jubanxia Cavern",
+    "Name": "The Moorwing Cemetery",
     "RegionName": "Daggerfall",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 683000000298,
-        "Latitude": 31784,
-        "Longitude": 38184,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 845342496,
+        "Latitude": 39592,
+        "Longitude": 30760,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9779200,
-                "Y": 22394881,
+                "X": 7878656,
+                "Y": 10139649,
                 "IsExterior": 32768,
-                "Unknown2": 796,
-                "LocationId": 20696,
+                "Unknown2": 806,
+                "LocationId": 20708,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Jubanxia Cavern"
+                "LocationName": "The Moorwing Cemetery"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Jubanxia Cavern",
-            "MapId": 683000000298,
+            "AnotherName": "The Moorwing Cemetery",
+            "MapId": 190240,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA09.RMB"
+                "GRVEAS12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 5453824,
+                "X": 7878656,
                 "Y": 10139649,
                 "IsExterior": 0,
-                "Unknown2": 153,
-                "LocationId": 20697,
+                "Unknown2": 155,
+                "LocationId": 20709,
                 "IsInterior": 1,
-                "ExteriorLocationId": 20696,
-                "LocationName": "The Jubanxia Cavern"
+                "ExteriorLocationId": 20708,
+                "LocationName": "The Moorwing Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 5
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": -1,
-                "Z": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000079.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000034.RDB",
+                "BlockName": "M0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,15 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -132,7 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

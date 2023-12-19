@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Wickcroft Grange",
+    "Name": "The Bat and Bird Hostel",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 320000000961,
-        "Latitude": 78248,
-        "Longitude": 123048,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 158346795,
+        "Latitude": 62504,
+        "Longitude": 104872,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31504384,
-                "Y": 10500097,
+                "X": 26851328,
+                "Y": 16005121,
                 "IsExterior": 32768,
-                "Unknown2": 1737,
-                "LocationId": 20055,
+                "Unknown2": 151,
+                "LocationId": 10498,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Wickcroft Grange"
+                "LocationName": "The Bat and Bird Hostel"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 27622,
-                "FactionId": 0,
+                "NameSeed": 25199,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 20055,
-                "BuildingType": 18,
+                "LocationId": 10498,
+                "BuildingType": "Tavern",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 8954,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 10498,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 20114,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 10498,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 21373,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 10498,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 11019,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 10498,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 32189,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 10498,
+                "BuildingType": "House2",
                 "Quality": 15
+            },
+            {
+                "NameSeed": 19449,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 10498,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 12517,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 10498,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 7716,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 10498,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 768,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 10498,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 17688,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 10498,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 20262,
+                "FactionId": 0,
+                "Sector": 91,
+                "LocationId": 10498,
+                "BuildingType": "House2",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Wickcroft Grange",
-            "MapId": 320000000961,
+            "AnotherName": "25199",
+            "MapId": 11819,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "TVRNAS09.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

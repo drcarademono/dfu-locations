@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Gaersly Crypts",
+    "Name": "The Gaerston Cabin",
     "RegionName": "Wayrest",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 246000000913,
-        "Latitude": 87720,
-        "Longitude": 116904,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 152247409,
+        "Latitude": 37928,
+        "Longitude": 113832,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29931520,
-                "Y": 8075265,
+                "X": 29145088,
+                "Y": 9713665,
                 "IsExterior": 32768,
-                "Unknown2": 806,
-                "LocationId": 22650,
+                "Unknown2": 145,
+                "LocationId": 21341,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Gaersly Crypts"
+                "LocationName": "The Gaerston Cabin"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 8337,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 21341,
+                "BuildingType": "House3",
+                "Quality": 13
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Gaersly Crypts",
-            "MapId": 246000000913,
+            "AnotherName": "The Gaerston Cabin",
+            "MapId": 203889,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS37.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 30062592,
-                "Y": 7813121,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 177,
-                "LocationId": 22651,
-                "IsInterior": 1,
-                "ExteriorLocationId": 22650,
-                "LocationName": "The Gaersly Crypts"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

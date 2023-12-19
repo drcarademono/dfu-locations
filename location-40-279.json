@@ -1,160 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Yeomford Manor",
+    "Name": "The Mastersmith Farmstead",
     "RegionName": "Ykalon",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 730000000568,
-        "Latitude": 25768,
-        "Longitude": 72744,
-        "LocationType": 10,
-        "DungeonType": 15,
-        "Discovered": false,
+        "MapId": 292576006,
+        "Latitude": 60968,
+        "Longitude": 38696,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18626560,
-                "Y": 23934977,
+                "X": 9910272,
+                "Y": 15611905,
                 "IsExterior": 32768,
-                "Unknown2": 162,
-                "LocationId": 10621,
+                "Unknown2": 279,
+                "LocationId": 11111,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Yeomford Manor"
+                "LocationName": "The Mastersmith Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 26699,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 11111,
+                "BuildingType": "House2",
+                "Quality": 7
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Yeomford Manor",
-            "MapId": 730000000568,
+            "AnotherName": "The Mastersmith Farmstead",
+            "MapId": 23302,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA10.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 12367872,
-                "Y": 15906817,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 39,
-                "LocationId": 10622,
-                "IsInterior": 1,
-                "ExteriorLocationId": 10621,
-                "LocationName": "Ruins of Yeomford Manor"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 11
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000071.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000015.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
         "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

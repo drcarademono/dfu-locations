@@ -1,106 +1,114 @@
 {
     "Loaded": true,
-    "Name": "Tlircem Court",
+    "Name": "The Tomb of Lithelaus",
     "RegionName": "Kairou",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 406000000213,
-        "Latitude": 67240,
-        "Longitude": 27304,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 422217,
+        "Latitude": 9896,
+        "Longitude": 27816,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Crypt",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 6993920,
-                "Y": 13318145,
+                "X": 7124992,
+                "Y": 2537473,
                 "IsExterior": 32768,
-                "Unknown2": 117,
-                "LocationId": 28725,
+                "Unknown2": 0,
+                "LocationId": 27264,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Tlircem Court"
+                "LocationName": "The Tomb of Lithelaus"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 11680,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 28725,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 6466,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 28725,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 11753,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 28725,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 23396,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 28725,
-                "BuildingType": 17,
-                "Quality": 4
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Tlircem Court",
-            "MapId": 406000000213,
+            "AnotherName": "The Tomb of Lithelaus",
+            "MapId": 422217,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 12,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "DUNGAA09.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 7124992,
+                "Y": 2537473,
                 "IsExterior": 0,
                 "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "LocationId": 27265,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27264,
+                "LocationName": "The Tomb of Lithelaus"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 172,
+    "Politic": 64,
     "RegionIndex": 44,
     "LocationIndex": 0
 }

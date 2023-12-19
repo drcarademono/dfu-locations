@@ -1,50 +1,41 @@
 {
     "Loaded": true,
-    "Name": "Old Rivja's Place",
+    "Name": "Shrine of Bandi",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 426000000168,
-        "Latitude": 64680,
-        "Longitude": 21544,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 133652330,
+        "Latitude": 2088,
+        "Longitude": 22824,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5519360,
-                "Y": 13973505,
+                "X": 5847040,
+                "Y": 538625,
                 "IsExterior": 32768,
-                "Unknown2": 102,
-                "LocationId": 28893,
+                "Unknown2": 127,
+                "LocationId": 29031,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Rivja's Place"
+                "LocationName": "Shrine of Bandi"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 3772,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 28893,
-                "BuildingType": 19,
-                "Quality": 15
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Rivja's Place",
-            "MapId": 426000000168,
+            "AnotherName": "Shrine of Bandi",
+            "MapId": 483178,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -68,13 +59,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

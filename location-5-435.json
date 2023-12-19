@@ -1,71 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Jhim Sei Shrine",
+    "Name": "Ruins of Moorwing Hall",
     "RegionName": "Dwynnen",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 612000000665,
-        "Latitude": 40872,
-        "Longitude": 85160,
-        "LocationType": 9,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 456203084,
+        "Latitude": 54696,
+        "Longitude": 67112,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "RuinedCastle",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21805056,
-                "Y": 20068353,
+                "X": 17184768,
+                "Y": 14006273,
                 "IsExterior": 32768,
-                "Unknown2": 410,
-                "LocationId": 13697,
+                "Unknown2": 435,
+                "LocationId": 13964,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Jhim Sei Shrine"
+                "LocationName": "Ruins of Moorwing Hall"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Jhim Sei Shrine",
-            "MapId": 612000000665,
+            "AnotherName": "Ruins of Moorwing Hall",
+            "MapId": 72524,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "RUINAA23.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 17184768,
+                "Y": 14006273,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 75,
+                "LocationId": 13965,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13964,
+                "LocationName": "Ruins of Moorwing Hall"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Sahebrothulla Cave",
+    "Name": "The Aviary of Norhoth",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 386000001038,
-        "Latitude": 69800,
-        "Longitude": 132904,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 462454958,
+        "Latitude": 59816,
+        "Longitude": 120616,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "HarpyNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 34027520,
-                "Y": 12662785,
+                "X": 30881792,
+                "Y": 15316993,
                 "IsExterior": 32768,
-                "Unknown2": 972,
-                "LocationId": 14342,
+                "Unknown2": 441,
+                "LocationId": 11648,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Sahebrothulla Cave"
+                "LocationName": "The Aviary of Norhoth"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Sahebrothulla Cave",
-            "MapId": 386000001038,
+            "AnotherName": "The Aviary of Norhoth",
+            "MapId": 32942,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA06.RMB"
+                "DUNGAA15.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31340544,
-                "Y": 13842433,
+                "X": 30881792,
+                "Y": 15316993,
                 "IsExterior": 0,
-                "Unknown2": 351,
-                "LocationId": 14343,
+                "Unknown2": 164,
+                "LocationId": 11649,
                 "IsInterior": 1,
-                "ExteriorLocationId": 14342,
-                "LocationName": "The Sahebrothulla Cave"
+                "ExteriorLocationId": 11648,
+                "LocationName": "The Aviary of Norhoth"
             }
         },
         "Header": {
@@ -57,18 +57,10 @@
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000024.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,31 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000066.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,15 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Tomb of Invereham",
+    "Name": "The T'irman Cabin",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 309000000459,
-        "Latitude": 79656,
-        "Longitude": 58792,
-        "LocationType": 4,
-        "DungeonType": 0,
-        "Discovered": false,
+        "MapId": 134649286,
+        "Latitude": 8744,
+        "Longitude": 71464,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15054848,
-                "Y": 10139649,
+                "X": 18298880,
+                "Y": 2242561,
                 "IsExterior": 32768,
-                "Unknown2": 133,
-                "LocationId": 27608,
+                "Unknown2": 128,
+                "LocationId": 27551,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tomb of Invereham"
+                "LocationName": "The T'irman Cabin"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 7265,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 27551,
+                "BuildingType": "House3",
+                "Quality": 14
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Tomb of Invereham",
-            "MapId": 309000000459,
+            "AnotherName": "The T'irman Cabin",
+            "MapId": 431558,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA17.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16168960,
-                "Y": 2177025,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 66,
-                "LocationId": 27609,
-                "IsInterior": 1,
-                "ExteriorLocationId": 27608,
-                "LocationName": "The Tomb of Invereham"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000071.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

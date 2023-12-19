@@ -1,98 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Agristyr Quarry",
+    "Name": "The Tower of Ashton",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 522000000866,
-        "Latitude": 52392,
-        "Longitude": 110888,
-        "LocationType": 4,
-        "DungeonType": 5,
+        "MapId": 1601306514,
+        "Latitude": 47272,
+        "Longitude": 123176,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Mine",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28391424,
-                "Y": 17119233,
+                "X": 31537152,
+                "Y": 12105729,
                 "IsExterior": 32768,
-                "Unknown2": 617,
-                "LocationId": 12380,
+                "Unknown2": 1527,
+                "LocationId": 17667,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Agristyr Quarry"
+                "LocationName": "The Tower of Ashton"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Agristyr Quarry",
-            "MapId": 522000000866,
+            "AnotherName": "The Tower of Ashton",
+            "MapId": 130962,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA02.RMB"
+                "CASTAA29.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 24229888,
-                "Y": 14891009,
+                "X": 31537152,
+                "Y": 12105729,
                 "IsExterior": 0,
-                "Unknown2": 221,
-                "LocationId": 12381,
+                "Unknown2": 568,
+                "LocationId": 17668,
                 "IsInterior": 1,
-                "ExteriorLocationId": 12380,
-                "LocationName": "The Agristyr Quarry"
+                "ExteriorLocationId": 17667,
+                "LocationName": "The Tower of Ashton"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "W0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000033.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,44 +68,12 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000056.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000025.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
+                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000002.RDB",
@@ -146,17 +82,17 @@
             },
             {
                 "X": 1,
-                "Z": 1,
+                "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": 2,
+                "X": 0,
+                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

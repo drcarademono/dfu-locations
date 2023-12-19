@@ -1,114 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Vosh Manor",
+    "Name": "The Gold Dog Pub",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 213000000778,
-        "Latitude": 91944,
-        "Longitude": 99624,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 502623699,
+        "Latitude": 18472,
+        "Longitude": 101800,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25507840,
-                "Y": 6993921,
+                "X": 26064896,
+                "Y": 4732929,
                 "IsExterior": 32768,
-                "Unknown2": 513,
-                "LocationId": 25046,
+                "Unknown2": 479,
+                "LocationId": 24958,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Vosh Manor"
+                "LocationName": "The Gold Dog Pub"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 9114,
+                "NameSeed": 12729,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25046,
-                "BuildingType": 18,
-                "Quality": 15
+                "LocationId": 24958,
+                "BuildingType": "House2",
+                "Quality": 3
             },
             {
-                "NameSeed": 10869,
+                "NameSeed": 25715,
                 "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 25046,
-                "BuildingType": 18,
-                "Quality": 11
+                "Sector": 9,
+                "LocationId": 24958,
+                "BuildingType": "House2",
+                "Quality": 8
             },
             {
-                "NameSeed": 2055,
+                "NameSeed": 28838,
                 "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 25046,
-                "BuildingType": 18,
-                "Quality": 10
+                "Sector": 15,
+                "LocationId": 24958,
+                "BuildingType": "House2",
+                "Quality": 5
             },
             {
-                "NameSeed": 17475,
+                "NameSeed": 11293,
                 "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 25046,
-                "BuildingType": 19,
-                "Quality": 1
+                "Sector": 20,
+                "LocationId": 24958,
+                "BuildingType": "House2",
+                "Quality": 14
             },
             {
-                "NameSeed": 21979,
+                "NameSeed": 32268,
                 "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 25046,
-                "BuildingType": 18,
-                "Quality": 13
+                "Sector": 29,
+                "LocationId": 24958,
+                "BuildingType": "House2",
+                "Quality": 5
             },
             {
-                "NameSeed": 10288,
+                "NameSeed": 1884,
                 "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 25046,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 7223,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 25046,
-                "BuildingType": 18,
+                "Sector": 34,
+                "LocationId": 24958,
+                "BuildingType": "House2",
                 "Quality": 4
             },
             {
-                "NameSeed": 22377,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 25046,
-                "BuildingType": 15,
-                "Quality": 9
+                "NameSeed": 14493,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 24958,
+                "BuildingType": "House2",
+                "Quality": 1
             },
             {
-                "NameSeed": 11461,
+                "NameSeed": 10290,
                 "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 25046,
-                "BuildingType": 17,
-                "Quality": 6
+                "Sector": 42,
+                "LocationId": 24958,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 12926,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 24958,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 12950,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 24958,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 13894,
+                "FactionId": 510,
+                "Sector": 55,
+                "LocationId": 24958,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 25983,
+                "FactionId": 510,
+                "Sector": 71,
+                "LocationId": 24958,
+                "BuildingType": "Tavern",
+                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Vosh Manor",
-            "MapId": 213000000778,
+            "AnotherName": "13894",
+            "MapId": 355795,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "TVRNAS07.RMB"
             ]
         }
     },
@@ -132,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

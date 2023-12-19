@@ -1,168 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Moorcroft Manor",
+    "Name": "Old Gwynayne's Shack",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 695000000472,
-        "Latitude": 30248,
-        "Longitude": 60456,
-        "LocationType": 10,
-        "DungeonType": 11,
-        "Discovered": false,
+        "MapId": 76612257,
+        "Latitude": 55464,
+        "Longitude": 26792,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15480832,
-                "Y": 22788097,
+                "X": 6862848,
+                "Y": 14202881,
                 "IsExterior": 32768,
-                "Unknown2": 406,
-                "LocationId": 15332,
+                "Unknown2": 73,
+                "LocationId": 13542,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Moorcroft Manor"
+                "LocationName": "Old Gwynayne's Shack"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 14366,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 13542,
+                "BuildingType": "House3",
+                "Quality": 15
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Moorcroft Manor",
-            "MapId": 695000000472,
+            "AnotherName": "Old Gwynayne's Shack",
+            "MapId": 66209,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA17.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 10205184,
-                "Y": 13350913,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 154,
-                "LocationId": 15333,
-                "IsInterior": 1,
-                "ExteriorLocationId": 15332,
-                "LocationName": "Ruins of Moorcroft Manor"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000062.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000079.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000019.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000073.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
-        "NatureArchive": 508,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Feather and Porcupine Inn",
+    "Name": "The Copperford Graveyard",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 467000000982,
-        "Latitude": 59432,
-        "Longitude": 125736,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 1211200108,
+        "Latitude": 51880,
+        "Longitude": 106024,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 32192512,
-                "Y": 15316993,
+                "X": 27146240,
+                "Y": 13285377,
                 "IsExterior": 32768,
-                "Unknown2": 484,
-                "LocationId": 11816,
+                "Unknown2": 1155,
+                "LocationId": 15476,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Feather and Porcupine Inn"
+                "LocationName": "The Copperford Graveyard"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 7083,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 11816,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 4411,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 11816,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 9906,
-                "FactionId": 0,
-                "Sector": 13,
-                "LocationId": 11816,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 1625,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 11816,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 5717,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 11816,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 32228,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 11816,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 2247,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 11816,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 26071,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 11816,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 7376,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 11816,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 14987,
-                "FactionId": 510,
-                "Sector": 68,
-                "LocationId": 11816,
-                "BuildingType": 15,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 18673,
-                "FactionId": 510,
-                "Sector": 80,
-                "LocationId": 11816,
-                "BuildingType": 15,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 11859,
-                "FactionId": 510,
-                "Sector": 93,
-                "LocationId": 11816,
-                "BuildingType": 15,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "14987",
-            "MapId": 467000000982,
+            "AnotherName": "The Copperford Graveyard",
+            "MapId": 94828,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS00.RMB"
+                "GRVEAS38.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 27146240,
+                "Y": 13285377,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 424,
+                "LocationId": 15477,
+                "IsInterior": 1,
+                "ExteriorLocationId": 15476,
+                "LocationName": "The Copperford Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

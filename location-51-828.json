@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Screaming Rascal Tavern",
+    "Name": "Ruins of The Tower of Vlovke",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 260000000722,
-        "Latitude": 85928,
-        "Longitude": 92456,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 868599836,
+        "Latitude": 15528,
+        "Longitude": 116264,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "OrcStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23672832,
-                "Y": 8534017,
+                "X": 29767680,
+                "Y": 3979265,
                 "IsExterior": 32768,
-                "Unknown2": 303,
-                "LocationId": 24567,
+                "Unknown2": 828,
+                "LocationId": 25921,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Screaming Rascal Tavern"
+                "LocationName": "Ruins of The Tower of Vlovke"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 26368,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 24567,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 15429,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 24567,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 30360,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 24567,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 24467,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 24567,
-                "BuildingType": 19,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 16102,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 24567,
-                "BuildingType": 19,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 23009,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 24567,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 30173,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 24567,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 10439,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 24567,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 3009,
-                "FactionId": 510,
-                "Sector": 63,
-                "LocationId": 24567,
-                "BuildingType": 1,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 17701,
-                "FactionId": 510,
-                "Sector": 67,
-                "LocationId": 24567,
-                "BuildingType": 15,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 27519,
-                "FactionId": 510,
-                "Sector": 84,
-                "LocationId": 24567,
-                "BuildingType": 15,
-                "Quality": 4
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "17701",
-            "MapId": 260000000722,
+            "AnotherName": "Ruins of The Tower of Vlovke",
+            "MapId": 378908,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS08.RMB"
+                "RUINAA23.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 29767680,
+                "Y": 3979265,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 219,
+                "LocationId": 25922,
+                "IsInterior": 1,
+                "ExteriorLocationId": 25921,
+                "LocationName": "Ruins of The Tower of Vlovke"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000015.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

@@ -1,71 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Shrine of Jone",
+    "Name": "The Citadel of Masterfield",
     "RegionName": "Dwynnen",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 544000000651,
-        "Latitude": 49576,
-        "Longitude": 83368,
-        "LocationType": 9,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 19941459,
+        "Latitude": 61608,
+        "Longitude": 65960,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "VampireHaunt",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21346304,
-                "Y": 17840129,
+                "X": 16889856,
+                "Y": 15775745,
                 "IsExterior": 32768,
-                "Unknown2": 742,
-                "LocationId": 17897,
+                "Unknown2": 19,
+                "LocationId": 10850,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shrine of Jone"
+                "LocationName": "The Citadel of Masterfield"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Shrine of Jone",
-            "MapId": 544000000651,
+            "AnotherName": "The Citadel of Masterfield",
+            "MapId": 18515,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "CASTAA06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 16889856,
+                "Y": 15775745,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 4,
+                "LocationId": 10851,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10850,
+                "LocationName": "The Citadel of Masterfield"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

@@ -1,82 +1,90 @@
 {
     "Loaded": true,
-    "Name": "Coppersmith's Guard",
+    "Name": "The Hold of Woodfield",
     "RegionName": "Kambria",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 571000000736,
-        "Latitude": 46120,
-        "Longitude": 94248,
-        "LocationType": 7,
-        "DungeonType": 3,
+        "MapId": 201404179,
+        "Latitude": 54056,
+        "Longitude": 75176,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "RuinedCastle",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24131584,
-                "Y": 18724865,
+                "X": 19249152,
+                "Y": 13842433,
                 "IsExterior": 32768,
-                "Unknown2": 129,
-                "LocationId": 13707,
+                "Unknown2": 192,
+                "LocationId": 14320,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Coppersmith's Guard"
+                "LocationName": "The Hold of Woodfield"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Coppersmith's Guard",
-            "MapId": 571000000736,
+            "AnotherName": "The Hold of Woodfield",
+            "MapId": 77587,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA16.RMB"
+                "CASTAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19740672,
-                "Y": 14137345,
+                "X": 19249152,
+                "Y": 13842433,
                 "IsExterior": 0,
-                "Unknown2": 49,
-                "LocationId": 13708,
+                "Unknown2": 70,
+                "LocationId": 14321,
                 "IsInterior": 1,
-                "ExteriorLocationId": 13707,
-                "LocationName": "Coppersmith's Guard"
+                "ExteriorLocationId": 14320,
+                "LocationName": "The Hold of Woodfield"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 12
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000010.RDB",
+                "BlockName": "N0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,39 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

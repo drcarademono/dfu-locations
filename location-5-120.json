@@ -1,50 +1,41 @@
 {
     "Loaded": true,
-    "Name": "The Yeoming Farmstead",
+    "Name": "Jhim Sei Shrine",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 569000000638,
-        "Latitude": 46376,
-        "Longitude": 81704,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 125859671,
+        "Latitude": 60072,
+        "Longitude": 70568,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20920320,
-                "Y": 18659329,
+                "X": 18069504,
+                "Y": 15382529,
                 "IsExterior": 32768,
-                "Unknown2": 706,
-                "LocationId": 17067,
+                "Unknown2": 120,
+                "LocationId": 11515,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Yeoming Farmstead"
+                "LocationName": "Jhim Sei Shrine"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 28071,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 17067,
-                "BuildingType": 18,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Yeoming Farmstead",
-            "MapId": 569000000638,
+            "AnotherName": "Jhim Sei Shrine",
+            "MapId": 30551,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -68,13 +59,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

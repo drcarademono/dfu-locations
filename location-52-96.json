@@ -1,160 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Disper Hollow",
+    "Name": "The Old M'ork Hovel",
     "RegionName": "Mournoth",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 156000000919,
-        "Latitude": 99240,
-        "Longitude": 117672,
-        "LocationType": 4,
-        "DungeonType": 6,
-        "Discovered": false,
+        "MapId": 100966283,
+        "Latitude": 25256,
+        "Longitude": 126376,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30128128,
-                "Y": 5126145,
+                "X": 32356352,
+                "Y": 6469633,
                 "IsExterior": 32768,
-                "Unknown2": 254,
-                "LocationId": 24307,
+                "Unknown2": 96,
+                "LocationId": 23305,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Disper Hollow"
+                "LocationName": "The Old M'ork Hovel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 29740,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 23305,
+                "BuildingType": "House3",
+                "Quality": 8
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Disper Hollow",
-            "MapId": 156000000919,
+            "AnotherName": "The Old M'ork Hovel",
+            "MapId": 302987,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31733760,
-                "Y": 5355521,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 61,
-                "LocationId": 24308,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24307,
-                "LocationName": "Disper Hollow"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 11
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000053.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000035.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

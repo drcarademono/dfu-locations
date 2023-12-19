@@ -1,146 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Buckingsmith Manor",
+    "Name": "Wickfield Grange",
     "RegionName": "Ilessan Hills",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 694000000487,
-        "Latitude": 30376,
-        "Longitude": 62376,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 69271346,
+        "Latitude": 55592,
+        "Longitude": 42280,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15972352,
-                "Y": 22755329,
+                "X": 10827776,
+                "Y": 14235649,
                 "IsExterior": 32768,
-                "Unknown2": 351,
-                "LocationId": 14965,
+                "Unknown2": 66,
+                "LocationId": 13495,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Buckingsmith Manor"
+                "LocationName": "Wickfield Grange"
             }
         },
-        "BuildingCount": 13,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 4354,
+                "NameSeed": 1233,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 14965,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 32538,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 14965,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 13098,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 14965,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 15931,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 14965,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 20028,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 14965,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 18484,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 14965,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 3039,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 14965,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 26865,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 14965,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 13873,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 14965,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 12478,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 14965,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 18118,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 14965,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 7715,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 14965,
-                "BuildingType": 15,
+                "LocationId": 13495,
+                "BuildingType": "House2",
                 "Quality": 14
-            },
-            {
-                "NameSeed": 31923,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 14965,
-                "BuildingType": 17,
-                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Buckingsmith Manor",
-            "MapId": 694000000487,
+            "AnotherName": "Wickfield Grange",
+            "MapId": 65330,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -164,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

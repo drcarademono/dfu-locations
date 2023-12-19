@@ -1,96 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Howling Huntsman Tavern",
+    "Name": "Drugod",
     "RegionName": "Myrkwasa",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 432000000247,
-        "Latitude": 63912,
-        "Longitude": 31656,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 111584354,
+        "Latitude": 8232,
+        "Longitude": 38184,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "GiantStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8108032,
-                "Y": 14170113,
+                "X": 9779200,
+                "Y": 2111489,
                 "IsExterior": 32768,
-                "Unknown2": 97,
-                "LocationId": 27600,
+                "Unknown2": 106,
+                "LocationId": 27660,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Howling Huntsman Tavern"
+                "LocationName": "Drugod"
             }
         },
-        "BuildingCount": 3,
-        "Buildings": [
-            {
-                "NameSeed": 14174,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27600,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 9756,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 27600,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 3422,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 27600,
-                "BuildingType": 15,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "3422",
-            "MapId": 432000000247,
+            "AnotherName": "Drugod",
+            "MapId": 435298,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "DUNGAA13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 9779200,
+                "Y": 2111489,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 28,
+                "LocationId": 27661,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27660,
+                "LocationName": "Drugod"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000076.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

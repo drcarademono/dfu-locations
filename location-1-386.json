@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Old Blilp Hovel",
+    "Name": "The Gravten Cemetery",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 150000000711,
-        "Latitude": 100008,
-        "Longitude": 91048,
-        "LocationType": 11,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 405155141,
+        "Latitude": 12200,
+        "Longitude": 103080,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23312384,
-                "Y": 4929537,
+                "X": 26392576,
+                "Y": 3127297,
                 "IsExterior": 32768,
-                "Unknown2": 641,
-                "LocationId": 27920,
+                "Unknown2": 386,
+                "LocationId": 26748,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Blilp Hovel"
+                "LocationName": "The Gravten Cemetery"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 16683,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27920,
-                "BuildingType": 19,
-                "Quality": 4
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Old Blilp Hovel",
-            "MapId": 150000000711,
+            "AnotherName": "The Gravten Cemetery",
+            "MapId": 404805,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "GRVEAS21.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 26392576,
+                "Y": 3127297,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 125,
+                "LocationId": 26749,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26748,
+                "LocationName": "The Gravten Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

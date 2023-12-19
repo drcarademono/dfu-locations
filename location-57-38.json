@@ -1,90 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Community of Vannorya",
+    "Name": "The Gaerwing Cemetery",
     "RegionName": "Gavaudon",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 265000000990,
-        "Latitude": 85288,
-        "Longitude": 126760,
-        "LocationType": 4,
-        "DungeonType": 15,
+        "MapId": 40076870,
+        "Latitude": 34472,
+        "Longitude": 125736,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 32454656,
-                "Y": 8697857,
+                "X": 32192512,
+                "Y": 8828929,
                 "IsExterior": 32768,
-                "Unknown2": 7,
-                "LocationId": 21467,
+                "Unknown2": 38,
+                "LocationId": 22190,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Community of Vannorya"
+                "LocationName": "The Gaerwing Cemetery"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Community of Vannorya",
-            "MapId": 265000000990,
+            "AnotherName": "The Gaerwing Cemetery",
+            "MapId": 230982,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA17.RMB"
+                "GRVEAS22.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31930368,
-                "Y": 9615361,
+                "X": 32192512,
+                "Y": 8828929,
                 "IsExterior": 0,
-                "Unknown2": 2,
-                "LocationId": 21468,
+                "Unknown2": 7,
+                "LocationId": 22191,
                 "IsInterior": 1,
-                "ExteriorLocationId": 21467,
-                "LocationName": "The Community of Vannorya"
+                "ExteriorLocationId": 22190,
+                "LocationName": "The Gaerwing Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 11
+            "BlockCount": 5
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000026.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000054.RDB",
+                "BlockName": "M0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,15 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -124,37 +92,21 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000036.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "NatureArchive": 506,
+        "SkyBase": 16,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 185,
     "RegionIndex": 57,

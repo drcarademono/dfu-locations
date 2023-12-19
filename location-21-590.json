@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The White Chasm Hostel",
+    "Name": "The Tower of Woodston",
     "RegionName": "Anticlere",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 621000000484,
-        "Latitude": 39720,
-        "Longitude": 61992,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 618827299,
+        "Latitude": 42536,
+        "Longitude": 58792,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "HumanStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15874048,
-                "Y": 20363265,
+                "X": 15054848,
+                "Y": 10893313,
                 "IsExterior": 32768,
-                "Unknown2": 360,
-                "LocationId": 18840,
+                "Unknown2": 590,
+                "LocationId": 19763,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The White Chasm Hostel"
+                "LocationName": "The Tower of Woodston"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 9969,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 18840,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 22618,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 18840,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18051,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 18840,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 9110,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 18840,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 28886,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 18840,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 27490,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 18840,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 23093,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 18840,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 27359,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 18840,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 19748,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 18840,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 4092,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 18840,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 14000,
-                "FactionId": 510,
-                "Sector": 55,
-                "LocationId": 18840,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 7928,
-                "FactionId": 510,
-                "Sector": 71,
-                "LocationId": 18840,
-                "BuildingType": 15,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "14000",
-            "MapId": 621000000484,
+            "AnotherName": "The Tower of Woodston",
+            "MapId": 167459,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS07.RMB"
+                "CASTAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 15054848,
+                "Y": 10893313,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 143,
+                "LocationId": 19764,
+                "IsInterior": 1,
+                "ExteriorLocationId": 19763,
+                "LocationName": "The Tower of Woodston"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000087.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

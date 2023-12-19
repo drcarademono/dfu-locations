@@ -1,106 +1,90 @@
 {
     "Loaded": true,
-    "Name": "Castle Kingcroft",
+    "Name": "Ruins of Old Vyctara's Farm",
     "RegionName": "Orsinium Area",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 371000000946,
-        "Latitude": 71720,
-        "Longitude": 121128,
-        "LocationType": 7,
-        "DungeonType": 0,
+        "MapId": 74625770,
+        "Latitude": 41384,
+        "Longitude": 111912,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "VolcanicCaves",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31012864,
-                "Y": 12171265,
+                "X": 28653568,
+                "Y": 10598401,
                 "IsExterior": 32768,
-                "Unknown2": 2,
-                "LocationId": 18052,
+                "Unknown2": 71,
+                "LocationId": 20171,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle Kingcroft"
+                "LocationName": "Ruins of Old Vyctara's Farm"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Castle Kingcroft",
-            "MapId": 371000000946,
+            "AnotherName": "Ruins of Old Vyctara's Farm",
+            "MapId": 176874,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA05.RMB"
+                "RUINAA12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 28948480,
-                "Y": 11909121,
+                "X": 28653568,
+                "Y": 10598401,
                 "IsExterior": 0,
-                "Unknown2": 2,
-                "LocationId": 18053,
+                "Unknown2": 50,
+                "LocationId": 20172,
                 "IsInterior": 1,
-                "ExteriorLocationId": 18052,
-                "LocationName": "Castle Kingcroft"
+                "ExteriorLocationId": 20171,
+                "LocationName": "Ruins of Old Vyctara's Farm"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 10
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000055.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000009.RDB",
+                "BlockName": "W0000025.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,69 +92,21 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000089.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "NatureArchive": 506,
+        "SkyBase": 16,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 154,
     "RegionIndex": 26,

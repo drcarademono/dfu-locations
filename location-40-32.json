@@ -1,176 +1,176 @@
 {
     "Loaded": true,
-    "Name": "Castle Hearthing",
+    "Name": "Wooding Manor",
     "RegionName": "Ykalon",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 693000000600,
-        "Latitude": 30504,
-        "Longitude": 76840,
-        "LocationType": 7,
-        "DungeonType": 8,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 33557745,
+        "Latitude": 63528,
+        "Longitude": 40104,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19675136,
-                "Y": 22722561,
+                "X": 10270720,
+                "Y": 16267265,
                 "IsExterior": 32768,
-                "Unknown2": 374,
-                "LocationId": 11498,
+                "Unknown2": 32,
+                "LocationId": 10110,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle Hearthing"
+                "LocationName": "Wooding Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 2245,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 10110,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 20368,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 10110,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 1905,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 10110,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 20109,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 10110,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 9966,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 10110,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 16915,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 10110,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 29418,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 10110,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 3578,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 10110,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 16357,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 10110,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 13137,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 10110,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 5529,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 10110,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 4931,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 10110,
+                "BuildingType": "Tavern",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 32105,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 10110,
+                "BuildingType": "House1",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Castle Hearthing",
-            "MapId": 693000000600,
+            "AnotherName": "Wooding Manor",
+            "MapId": 3313,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA04.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 13875200,
-                "Y": 15382529,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 86,
-                "LocationId": 11499,
-                "IsInterior": 1,
-                "ExteriorLocationId": 11498,
-                "LocationName": "Castle Hearthing"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000071.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000076.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
-        "NatureArchive": 504,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

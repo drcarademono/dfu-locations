@@ -1,168 +1,145 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The F'igta Farmstead",
+    "Name": "Osopaisa",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 287000000585,
-        "Latitude": 82472,
-        "Longitude": 74920,
-        "LocationType": 10,
-        "DungeonType": 4,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 74868381,
+        "Latitude": 10272,
+        "Longitude": 62120,
+        "LocationType": "TownVillage",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16777216
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19183616,
-                "Y": 9418753,
+                "X": 15906816,
+                "Y": 2633729,
                 "IsExterior": 32768,
-                "Unknown2": 6,
-                "LocationId": 26278,
+                "Unknown2": 71,
+                "LocationId": 27187,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The F'igta Farmstead"
+                "LocationName": "Osopaisa"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 17823,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 27187,
+                "BuildingType": "GeneralStore",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 16688,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 27187,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 32592,
+                "FactionId": 0,
+                "Sector": 19,
+                "LocationId": 27187,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 13825,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 27187,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 6318,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 27187,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 20090,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 27187,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 10054,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 27187,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 22710,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 27187,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 5830,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 27187,
+                "BuildingType": "House2",
+                "Quality": 6
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of The F'igta Farmstead",
-            "MapId": 287000000585,
+            "AnotherName": "Osopaisa",
+            "MapId": 419485,
             "LocationId": 0,
             "Width": 1,
-            "Height": 1,
+            "Height": 2,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA12.RMB"
+                "GENRBS01.RMB",
+                "RESIBS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 20101120,
-                "Y": 3618817,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 1,
-                "LocationId": 26279,
-                "IsInterior": 1,
-                "ExteriorLocationId": 26278,
-                "LocationName": "Ruins of The F'igta Farmstead"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000050.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000074.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000035.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000050.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
-        "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
+        "GroundArchive": 2,
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

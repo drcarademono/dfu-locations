@@ -1,50 +1,41 @@
 {
     "Loaded": true,
-    "Name": "Old Elyn's Hovel",
+    "Name": "Shrine of Vigryl",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 618000000677,
-        "Latitude": 40104,
-        "Longitude": 86696,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 519126666,
+        "Latitude": 53544,
+        "Longitude": 69928,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22198272,
-                "Y": 20264961,
+                "X": 17905664,
+                "Y": 13711361,
                 "IsExterior": 32768,
-                "Unknown2": 348,
-                "LocationId": 13046,
+                "Unknown2": 495,
+                "LocationId": 14622,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Elyn's Hovel"
+                "LocationName": "Shrine of Vigryl"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 26263,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 13046,
-                "BuildingType": 19,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Elyn's Hovel",
-            "MapId": 618000000677,
+            "AnotherName": "Shrine of Vigryl",
+            "MapId": 81546,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -68,13 +59,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

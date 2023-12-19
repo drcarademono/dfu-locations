@@ -1,130 +1,114 @@
 {
     "Loaded": true,
-    "Name": "Caghtrn Manor",
+    "Name": "Gerdun Hall",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 265000000731,
-        "Latitude": 85288,
-        "Longitude": 93608,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 905306015,
+        "Latitude": 14760,
+        "Longitude": 118696,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23967744,
-                "Y": 8697857,
+                "X": 30390272,
+                "Y": 3782657,
                 "IsExterior": 32768,
-                "Unknown2": 194,
-                "LocationId": 24290,
+                "Unknown2": 863,
+                "LocationId": 26131,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Caghtrn Manor"
+                "LocationName": "Gerdun Hall"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 28603,
+                "NameSeed": 215,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 24290,
-                "BuildingType": 17,
-                "Quality": 8
+                "LocationId": 26131,
+                "BuildingType": "House2",
+                "Quality": 5
             },
             {
-                "NameSeed": 14195,
+                "NameSeed": 25946,
                 "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 24290,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18716,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 24290,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 11272,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 24290,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 16614,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 24290,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 32140,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 24290,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 13290,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 24290,
-                "BuildingType": 18,
+                "Sector": 10,
+                "LocationId": 26131,
+                "BuildingType": "House2",
                 "Quality": 14
             },
             {
-                "NameSeed": 24528,
+                "NameSeed": 24486,
                 "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 24290,
-                "BuildingType": 18,
-                "Quality": 2
+                "Sector": 22,
+                "LocationId": 26131,
+                "BuildingType": "House2",
+                "Quality": 8
             },
             {
-                "NameSeed": 21354,
+                "NameSeed": 85,
                 "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 24290,
-                "BuildingType": 18,
-                "Quality": 7
+                "Sector": 30,
+                "LocationId": 26131,
+                "BuildingType": "House3",
+                "Quality": 11
             },
             {
-                "NameSeed": 1069,
+                "NameSeed": 31650,
                 "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 24290,
-                "BuildingType": 18,
+                "Sector": 36,
+                "LocationId": 26131,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 13119,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 26131,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 21547,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 26131,
+                "BuildingType": "House2",
                 "Quality": 3
             },
             {
-                "NameSeed": 30406,
+                "NameSeed": 32068,
                 "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 24290,
-                "BuildingType": 15,
-                "Quality": 1
+                "Sector": 69,
+                "LocationId": 26131,
+                "BuildingType": "Tavern",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 15063,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 26131,
+                "BuildingType": "House1",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Caghtrn Manor",
-            "MapId": 265000000731,
+            "AnotherName": "Gerdun Hall",
+            "MapId": 384927,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -148,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

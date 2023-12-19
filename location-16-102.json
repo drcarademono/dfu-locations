@@ -1,154 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Infinite Seer of Kynareth",
+    "Name": "The Wickford Farmstead",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 308000000959,
-        "Latitude": 79784,
-        "Longitude": 122792,
-        "LocationType": 5,
-        "DungeonType": 255,
+        "MapId": 106963610,
+        "Latitude": 62888,
+        "Longitude": 109864,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 16
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31438848,
-                "Y": 10106881,
+                "X": 28129280,
+                "Y": 16103425,
                 "IsExterior": 32768,
-                "Unknown2": 1778,
-                "LocationId": 20484,
+                "Unknown2": 102,
+                "LocationId": 10362,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Infinite Seer of Kynareth"
+                "LocationName": "The Wickford Farmstead"
             }
         },
-        "BuildingCount": 14,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 8503,
+                "NameSeed": 5950,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 20484,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 19579,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 20484,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 6814,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 20484,
-                "BuildingType": 19,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 2245,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 20484,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 20368,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 20484,
-                "BuildingType": 18,
+                "LocationId": 10362,
+                "BuildingType": "House2",
                 "Quality": 8
-            },
-            {
-                "NameSeed": 1905,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 20484,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 20109,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 20484,
-                "BuildingType": 19,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 9966,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 20484,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 16915,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 20484,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 29418,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 20484,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 3578,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 20484,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 16357,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 20484,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 13137,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 20484,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 481,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 20484,
-                "BuildingType": 14,
-                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Infinite Seer of Kynareth",
-            "MapId": 308000000959,
+            "AnotherName": "The Wickford Farmstead",
+            "MapId": 8858,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -172,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

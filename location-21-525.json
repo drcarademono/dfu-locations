@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Wickwing Manor",
+    "Name": "The Mines of Rodynak",
     "RegionName": "Anticlere",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 614000000480,
-        "Latitude": 40616,
-        "Longitude": 61480,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 550664828,
+        "Latitude": 43176,
+        "Longitude": 54824,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15742976,
-                "Y": 20133889,
+                "X": 14039040,
+                "Y": 11057153,
                 "IsExterior": 32768,
-                "Unknown2": 476,
-                "LocationId": 19261,
+                "Unknown2": 525,
+                "LocationId": 19460,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Wickwing Manor"
+                "LocationName": "The Mines of Rodynak"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 25601,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 19261,
-                "BuildingType": 17,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 12820,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 19261,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 14042,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 19261,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 9756,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 19261,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31136,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 19261,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31052,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 19261,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 17028,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 19261,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 22812,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 19261,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 19766,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 19261,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 20842,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 19261,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 25090,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 19261,
-                "BuildingType": 15,
-                "Quality": 9
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Wickwing Manor",
-            "MapId": 614000000480,
+            "AnotherName": "The Mines of Rodynak",
+            "MapId": 162428,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "DUNGAA04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 14039040,
+                "Y": 11057153,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 128,
+                "LocationId": 19461,
+                "IsInterior": 1,
+                "ExteriorLocationId": 19460,
+                "LocationName": "The Mines of Rodynak"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

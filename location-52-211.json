@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Boarg Palace",
+    "Name": "The Vault of Magnehoth",
     "RegionName": "Mournoth",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 191000000928,
-        "Latitude": 94760,
-        "Longitude": 118824,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 221576454,
+        "Latitude": 22184,
+        "Longitude": 117544,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Crypt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30423040,
-                "Y": 6273025,
+                "X": 30095360,
+                "Y": 5683201,
                 "IsExterior": 32768,
-                "Unknown2": 90,
-                "LocationId": 23277,
+                "Unknown2": 211,
+                "LocationId": 23972,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Boarg Palace"
+                "LocationName": "The Vault of Magnehoth"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 31937,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 23277,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 15197,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 23277,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 22127,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 23277,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 17880,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 23277,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 6129,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 23277,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 17197,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 23277,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 20090,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 23277,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 10054,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 23277,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 22710,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 23277,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 5830,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 23277,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 25622,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 23277,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 23432,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 23277,
-                "BuildingType": 15,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 12124,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 23277,
-                "BuildingType": 17,
-                "Quality": 5
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Boarg Palace",
-            "MapId": 191000000928,
+            "AnotherName": "The Vault of Magnehoth",
+            "MapId": 326918,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "DUNGAA12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 30095360,
+                "Y": 5683201,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 53,
+                "LocationId": 23973,
+                "IsInterior": 1,
+                "ExteriorLocationId": 23972,
+                "LocationName": "The Vault of Magnehoth"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

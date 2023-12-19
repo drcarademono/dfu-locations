@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Knave and Goat Tavern",
+    "Name": "The Woodwing Graveyard",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 650000000408,
-        "Latitude": 36008,
-        "Longitude": 52264,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 389188796,
+        "Latitude": 42536,
+        "Longitude": 12840,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13383680,
-                "Y": 21313537,
+                "X": 3291136,
+                "Y": 10893313,
                 "IsExterior": 32768,
-                "Unknown2": 303,
-                "LocationId": 19509,
+                "Unknown2": 371,
+                "LocationId": 19721,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Knave and Goat Tavern"
+                "LocationName": "The Woodwing Graveyard"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 6664,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 19509,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 31756,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 19509,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 28865,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 19509,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 11836,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 19509,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 20581,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 19509,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 10225,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 19509,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 8853,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 19509,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 9883,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 19509,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 19729,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 19509,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 4180,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 19509,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 8963,
-                "FactionId": 510,
-                "Sector": 55,
-                "LocationId": 19509,
-                "BuildingType": 15,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 29115,
-                "FactionId": 510,
-                "Sector": 71,
-                "LocationId": 19509,
-                "BuildingType": 15,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "8963",
-            "MapId": 650000000408,
+            "AnotherName": "The Woodwing Graveyard",
+            "MapId": 167100,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS07.RMB"
+                "GRVEAS38.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 3291136,
+                "Y": 10893313,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 67,
+                "LocationId": 19722,
+                "IsInterior": 1,
+                "ExteriorLocationId": 19721,
+                "LocationName": "The Woodwing Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

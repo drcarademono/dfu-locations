@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Hearthsly Plantation",
+    "Name": "Gaerhart Manor",
     "RegionName": "Urvaius",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 662000000623,
-        "Latitude": 34472,
-        "Longitude": 79784,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 264366591,
+        "Latitude": 47912,
+        "Longitude": 56232,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20428800,
-                "Y": 21706753,
+                "X": 14399488,
+                "Y": 12269569,
                 "IsExterior": 32768,
-                "Unknown2": 13,
-                "LocationId": 12419,
+                "Unknown2": 252,
+                "LocationId": 17376,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hearthsly Plantation"
+                "LocationName": "Gaerhart Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 17585,
+                "NameSeed": 11075,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 12419,
-                "BuildingType": 17,
+                "LocationId": 17376,
+                "BuildingType": "House1",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 26034,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 17376,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 13443,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 17376,
+                "BuildingType": "House2",
                 "Quality": 7
+            },
+            {
+                "NameSeed": 17558,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 17376,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 25965,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 17376,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 24398,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 17376,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 27057,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 17376,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 22470,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 17376,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 13804,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 17376,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 23433,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 17376,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 8694,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 17376,
+                "BuildingType": "Tavern",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Hearthsly Plantation",
-            "MapId": 662000000623,
+            "AnotherName": "Gaerhart Manor",
+            "MapId": 125439,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA09.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 167,
     "RegionIndex": 39,

@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Old Elyzorya's Hovel",
+    "Name": "Copperton Tower",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 681000000328,
-        "Latitude": 32040,
-        "Longitude": 42024,
-        "LocationType": 11,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 819126989,
+        "Latitude": 39720,
+        "Longitude": 17064,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "VampireHaunt",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10762240,
-                "Y": 22329345,
+                "X": 4372480,
+                "Y": 10172417,
                 "IsExterior": 32768,
-                "Unknown2": 567,
-                "LocationId": 20189,
+                "Unknown2": 781,
+                "LocationId": 20670,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Elyzorya's Hovel"
+                "LocationName": "Copperton Tower"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 24401,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 20189,
-                "BuildingType": 19,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Elyzorya's Hovel",
-            "MapId": 681000000328,
+            "AnotherName": "Copperton Tower",
+            "MapId": 189133,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "CASTAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 4372480,
+                "Y": 10172417,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 150,
+                "LocationId": 20671,
+                "IsInterior": 1,
+                "ExteriorLocationId": 20670,
+                "LocationName": "Copperton Tower"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000053.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

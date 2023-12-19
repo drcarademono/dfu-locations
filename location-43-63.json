@@ -1,82 +1,41 @@
 {
     "Loaded": true,
-    "Name": "The Dirty Dragon Hostel",
+    "Name": "Reliquary of Raen",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 415000000192,
-        "Latitude": 66088,
-        "Longitude": 24616,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 66531463,
+        "Latitude": 3624,
+        "Longitude": 22440,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 6305792,
-                "Y": 13613057,
+                "X": 5748736,
+                "Y": 931841,
                 "IsExterior": 32768,
-                "Unknown2": 85,
-                "LocationId": 28790,
+                "Unknown2": 63,
+                "LocationId": 28660,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dirty Dragon Hostel"
+                "LocationName": "Reliquary of Raen"
             }
         },
-        "BuildingCount": 5,
-        "Buildings": [
-            {
-                "NameSeed": 1696,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 28790,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 465,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 28790,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 11362,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 28790,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 11274,
-                "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 28790,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 25381,
-                "FactionId": 510,
-                "Sector": 23,
-                "LocationId": 28790,
-                "BuildingType": 15,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "25381",
-            "MapId": 415000000192,
+            "AnotherName": "Reliquary of Raen",
+            "MapId": 471175,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS01.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -100,13 +59,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

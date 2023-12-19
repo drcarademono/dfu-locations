@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Moorfield Hall",
+    "Name": "The Tower of Mordyctor",
     "RegionName": "Glenpoint",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 703000000388,
-        "Latitude": 29224,
-        "Longitude": 49704,
-        "LocationType": 10,
-        "DungeonType": 8,
+        "MapId": 18948530,
+        "Latitude": 54440,
+        "Longitude": 20776,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "HumanStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12728320,
-                "Y": 23050241,
+                "X": 5322752,
+                "Y": 13940737,
                 "IsExterior": 32768,
-                "Unknown2": 317,
-                "LocationId": 17526,
+                "Unknown2": 18,
+                "LocationId": 14063,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Moorfield Hall"
+                "LocationName": "The Tower of Mordyctor"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Moorfield Hall",
-            "MapId": 703000000388,
+            "AnotherName": "The Tower of Mordyctor",
+            "MapId": 74162,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA16.RMB"
+                "DUNGAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 7682048,
-                "Y": 12171265,
+                "X": 5322752,
+                "Y": 13940737,
                 "IsExterior": 0,
-                "Unknown2": 103,
-                "LocationId": 17527,
+                "Unknown2": 3,
+                "LocationId": 14064,
                 "IsInterior": 1,
-                "ExteriorLocationId": 17526,
-                "LocationName": "Ruins of Moorfield Hall"
+                "ExteriorLocationId": 14063,
+                "LocationName": "The Tower of Mordyctor"
             }
         },
         "Header": {
@@ -57,64 +57,40 @@
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000051.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000073.RDB",
+                "BlockName": "N0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
                 "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
@@ -123,14 +99,14 @@
         ]
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

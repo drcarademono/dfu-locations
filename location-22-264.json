@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Glugim Palace",
+    "Name": "The Lheghtt Excavation",
     "RegionName": "Lainlyn",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 324000000721,
-        "Latitude": 77736,
-        "Longitude": 92328,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 277130734,
+        "Latitude": 24744,
+        "Longitude": 85800,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23640064,
-                "Y": 10631169,
+                "X": 21968896,
+                "Y": 6338561,
                 "IsExterior": 32768,
-                "Unknown2": 99,
-                "LocationId": 22964,
+                "Unknown2": 264,
+                "LocationId": 23388,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Glugim Palace"
+                "LocationName": "The Lheghtt Excavation"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 2495,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 22964,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 5784,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 22964,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 5532,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 22964,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 1279,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 22964,
-                "BuildingType": 19,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 10890,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 22964,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 5124,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 22964,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 8082,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 22964,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 16593,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 22964,
-                "BuildingType": 15,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 2157,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 22964,
-                "BuildingType": 17,
-                "Quality": 11
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Glugim Palace",
-            "MapId": 324000000721,
+            "AnotherName": "The Lheghtt Excavation",
+            "MapId": 306670,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "DUNGAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 21968896,
+                "Y": 6338561,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 51,
+                "LocationId": 23389,
+                "IsInterior": 1,
+                "ExteriorLocationId": 23388,
+                "LocationName": "The Lheghtt Excavation"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000092.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
-        "GroundArchive": 402,
-        "NatureArchive": 500,
-        "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

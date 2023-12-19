@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Selpar Farmstead",
+    "Name": "The Hold of Nuchta",
     "RegionName": "Sentinel",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 446000000438,
-        "Latitude": 62120,
-        "Longitude": 56104,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 572942907,
+        "Latitude": 10152,
+        "Longitude": 52648,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "RuinedCastle",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14366720,
-                "Y": 14628865,
+                "X": 13481984,
+                "Y": 2603009,
                 "IsExterior": 32768,
-                "Unknown2": 1,
-                "LocationId": 23917,
+                "Unknown2": 546,
+                "LocationId": 27209,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Selpar Farmstead"
+                "LocationName": "The Hold of Nuchta"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 27001,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 23917,
-                "BuildingType": 18,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Selpar Farmstead",
-            "MapId": 446000000438,
+            "AnotherName": "The Hold of Nuchta",
+            "MapId": 420411,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 8,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "DUNGAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 13481984,
+                "Y": 2603009,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 110,
+                "LocationId": 27210,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27209,
+                "LocationName": "The Hold of Nuchta"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000024.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

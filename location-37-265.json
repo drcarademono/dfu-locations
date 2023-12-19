@@ -1,176 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Copperhouse Hall",
+    "Name": "The Mole and Fairy Tavern",
     "RegionName": "Kambria",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 583000000753,
-        "Latitude": 44584,
-        "Longitude": 96424,
-        "LocationType": 10,
-        "DungeonType": 11,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 277959218,
+        "Latitude": 52904,
+        "Longitude": 74024,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24688640,
-                "Y": 19118081,
+                "X": 18954240,
+                "Y": 13547521,
                 "IsExterior": 32768,
-                "Unknown2": 39,
-                "LocationId": 12596,
+                "Unknown2": 265,
+                "LocationId": 14982,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Copperhouse Hall"
+                "LocationName": "The Mole and Fairy Tavern"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 23356,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 14982,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 17636,
+                "FactionId": 0,
+                "Sector": 21,
+                "LocationId": 14982,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 18986,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 14982,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 25474,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 14982,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 20882,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 14982,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 10848,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 14982,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 29208,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 14982,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 960,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 14982,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 26284,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 14982,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 31627,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 14982,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 14385,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 14982,
+                "BuildingType": "House2",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Copperhouse Hall",
-            "MapId": 583000000753,
+            "AnotherName": "23356",
+            "MapId": 86578,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA21.RMB"
+                "TVRNAS03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 20002816,
-                "Y": 14759937,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 14,
-                "LocationId": 12597,
-                "IsInterior": 1,
-                "ExteriorLocationId": 12596,
-                "LocationName": "Ruins of Copperhouse Hall"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000055.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000017.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000070.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

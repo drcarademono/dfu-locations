@@ -1,50 +1,41 @@
 {
     "Loaded": true,
-    "Name": "Old Vlorc-e's Hovel",
+    "Name": "Altar of I'ric",
     "RegionName": "Lainlyn",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 306000000755,
-        "Latitude": 80040,
-        "Longitude": 96680,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 138704786,
+        "Latitude": 26536,
+        "Longitude": 96552,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24754176,
-                "Y": 10041345,
+                "X": 24721408,
+                "Y": 6797313,
                 "IsExterior": 32768,
-                "Unknown2": 92,
-                "LocationId": 22943,
+                "Unknown2": 132,
+                "LocationId": 23036,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Vlorc-e's Hovel"
+                "LocationName": "Altar of I'ric"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 27040,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 22943,
-                "BuildingType": 19,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Vlorc-e's Hovel",
-            "MapId": 306000000755,
+            "AnotherName": "Altar of I'ric",
+            "MapId": 292754,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -68,13 +59,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

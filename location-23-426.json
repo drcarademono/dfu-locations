@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Screaming Barbarian Tavern",
+    "Name": "The House of Copperhart",
     "RegionName": "Wayrest",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 281000000895,
-        "Latitude": 83240,
-        "Longitude": 114600,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 446922237,
+        "Latitude": 34728,
+        "Longitude": 110248,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "RuinedCastle",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29341696,
-                "Y": 9222145,
+                "X": 28227584,
+                "Y": 8894465,
                 "IsExterior": 32768,
-                "Unknown2": 553,
-                "LocationId": 22319,
+                "Unknown2": 426,
+                "LocationId": 22142,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Screaming Barbarian Tavern"
+                "LocationName": "The House of Copperhart"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 15660,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 22319,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 12159,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 22319,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 23475,
-                "FactionId": 0,
-                "Sector": 13,
-                "LocationId": 22319,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 22919,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 22319,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 2744,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 22319,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 4332,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 22319,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 7288,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 22319,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 11552,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 22319,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 8276,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 22319,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 28853,
-                "FactionId": 510,
-                "Sector": 68,
-                "LocationId": 22319,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 28107,
-                "FactionId": 510,
-                "Sector": 80,
-                "LocationId": 22319,
-                "BuildingType": 15,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 11666,
-                "FactionId": 510,
-                "Sector": 93,
-                "LocationId": 22319,
-                "BuildingType": 15,
-                "Quality": 5
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "28853",
-            "MapId": 281000000895,
+            "AnotherName": "The House of Copperhart",
+            "MapId": 228861,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS00.RMB"
+                "DUNGAA10.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 28227584,
+                "Y": 8894465,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 95,
+                "LocationId": 22143,
+                "IsInterior": 1,
+                "ExteriorLocationId": 22142,
+                "LocationName": "The House of Copperhart"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 14
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

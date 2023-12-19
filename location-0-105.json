@@ -1,41 +1,41 @@
 {
     "Loaded": true,
-    "Name": "Shastar's Guard",
+    "Name": "The Sahuagex Cave",
     "RegionName": "Alik'r Desert",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 303000000364,
-        "Latitude": 80424,
-        "Longitude": 46632,
-        "LocationType": 7,
-        "DungeonType": 6,
+        "MapId": 110527893,
+        "Latitude": 9256,
+        "Longitude": 52904,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11941888,
-                "Y": 9943041,
+                "X": 13547520,
+                "Y": 2373633,
                 "IsExterior": 32768,
-                "Unknown2": 286,
-                "LocationId": 29131,
+                "Unknown2": 105,
+                "LocationId": 27438,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shastar's Guard"
+                "LocationName": "The Sahuagex Cave"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Shastar's Guard",
-            "MapId": 303000000364,
+            "AnotherName": "The Sahuagex Cave",
+            "MapId": 427413,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA07.RMB"
+                "DUNGAA02.RMB"
             ]
         }
     },
@@ -43,96 +43,40 @@
         "RecordElement": {
             "Header": {
                 "X": 13547520,
-                "Y": 440321,
+                "Y": 2373633,
                 "IsExterior": 0,
-                "Unknown2": 130,
-                "LocationId": 29132,
+                "Unknown2": 56,
+                "LocationId": 27439,
                 "IsInterior": 1,
-                "ExteriorLocationId": 29131,
-                "LocationName": "Shastar's Guard"
+                "ExteriorLocationId": 27438,
+                "LocationName": "The Sahuagex Cave"
             }
         },
         "Header": {
-            "BlockCount": 11
+            "BlockCount": 13
         },
         "Blocks": [
-            {
-                "X": -3,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000008.RDB",
+                "BlockName": "N0000047.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -140,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -148,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

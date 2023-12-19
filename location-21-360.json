@@ -1,176 +1,168 @@
 {
     "Loaded": true,
-    "Name": "Uthard's Guard",
+    "Name": "The White Chasm Hostel",
     "RegionName": "Anticlere",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 596000000527,
-        "Latitude": 42920,
-        "Longitude": 67496,
-        "LocationType": 4,
-        "DungeonType": 2,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 377638718,
+        "Latitude": 44584,
+        "Longitude": 45864,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17283072,
-                "Y": 19544065,
+                "X": 11745280,
+                "Y": 11417601,
                 "IsExterior": 32768,
-                "Unknown2": 363,
-                "LocationId": 18843,
+                "Unknown2": 360,
+                "LocationId": 18840,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Uthard's Guard"
+                "LocationName": "The White Chasm Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 12,
+        "Buildings": [
+            {
+                "NameSeed": 9969,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 18840,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 22618,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 18840,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 18051,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 18840,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 9110,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 18840,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 28886,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 18840,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 27490,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 18840,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 23093,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 18840,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 27359,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 18840,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 19748,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 18840,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 4092,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 18840,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 14000,
+                "FactionId": 510,
+                "Sector": 55,
+                "LocationId": 18840,
+                "BuildingType": "Tavern",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7928,
+                "FactionId": 510,
+                "Sector": 71,
+                "LocationId": 18840,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Uthard's Guard",
-            "MapId": 596000000527,
+            "AnotherName": "14000",
+            "MapId": 151358,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA09.RMB"
+                "TVRNAS07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 13383680,
-                "Y": 11417601,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 87,
-                "LocationId": 18844,
-                "IsInterior": 1,
-                "ExteriorLocationId": 18843,
-                "LocationName": "Uthard's Guard"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000085.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

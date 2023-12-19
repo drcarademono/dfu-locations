@@ -1,152 +1,176 @@
 {
     "Loaded": true,
-    "Name": "Mareriva Minster",
+    "Name": "Buckingcroft Palace",
     "RegionName": "Urvaius",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 656000000590,
-        "Latitude": 35240,
-        "Longitude": 75560,
-        "LocationType": 4,
-        "DungeonType": 4,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 250728157,
+        "Latitude": 48808,
+        "Longitude": 63144,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19347456,
-                "Y": 21510145,
+                "X": 16168960,
+                "Y": 12498945,
                 "IsExterior": 32768,
-                "Unknown2": 64,
-                "LocationId": 13624,
+                "Unknown2": 239,
+                "LocationId": 17002,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Mareriva Minster"
+                "LocationName": "Buckingcroft Palace"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 16010,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 17002,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 12607,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 17002,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 15760,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 17002,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 17047,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 17002,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 32763,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 17002,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 16806,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 17002,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7969,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 17002,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 14616,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 17002,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 7112,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 17002,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 26588,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 17002,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 5184,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 17002,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 26378,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 17002,
+                "BuildingType": "Tavern",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 28856,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 17002,
+                "BuildingType": "House1",
+                "Quality": 10
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Mareriva Minster",
-            "MapId": 656000000590,
+            "AnotherName": "Buckingcroft Palace",
+            "MapId": 118493,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA00.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 14202880,
-                "Y": 14170113,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 16,
-                "LocationId": 13625,
-                "IsInterior": 1,
-                "ExteriorLocationId": 13624,
-                "LocationName": "Mareriva Minster"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000045.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 167,
     "RegionIndex": 39,

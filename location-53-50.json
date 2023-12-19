@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Castle Grarm",
+    "Name": "Castle Bleghtur",
     "RegionName": "Ephesus",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 92000000773,
-        "Latitude": 107432,
-        "Longitude": 98984,
-        "LocationType": 7,
-        "DungeonType": 2,
+        "MapId": 52865633,
+        "Latitude": 8104,
+        "Longitude": 106664,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "RuinedCastle",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25344000,
-                "Y": 3028993,
+                "X": 27310080,
+                "Y": 2078721,
                 "IsExterior": 32768,
-                "Unknown2": 183,
-                "LocationId": 28474,
+                "Unknown2": 50,
+                "LocationId": 27690,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle Grarm"
+                "LocationName": "Castle Bleghtur"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Castle Grarm",
-            "MapId": 92000000773,
+            "AnotherName": "Castle Bleghtur",
+            "MapId": 436833,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA15.RMB"
+                "CASTAA26.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 28620800,
-                "Y": 1161217,
+                "X": 27310080,
+                "Y": 2078721,
                 "IsExterior": 0,
-                "Unknown2": 54,
-                "LocationId": 28475,
+                "Unknown2": 10,
+                "LocationId": 27691,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28474,
-                "LocationName": "Castle Grarm"
+                "ExteriorLocationId": 27690,
+                "LocationName": "Castle Bleghtur"
             }
         },
         "Header": {
@@ -57,18 +57,10 @@
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000026.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,36 +68,12 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000044.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
+                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000014.RDB",
@@ -114,9 +82,17 @@
             },
             {
                 "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 181,
     "RegionIndex": 53,

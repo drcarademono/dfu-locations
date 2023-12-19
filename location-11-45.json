@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Rhurnam Farmstead",
+    "Name": "Ruins of The Gavir Farmstead",
     "RegionName": "Dak'fron",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 196000000609,
-        "Latitude": 94120,
-        "Longitude": 77992,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 47645482,
+        "Latitude": 5160,
+        "Longitude": 71976,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Crypt",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19970048,
-                "Y": 6436865,
+                "X": 18429952,
+                "Y": 1325057,
                 "IsExterior": 32768,
-                "Unknown2": 37,
-                "LocationId": 28236,
+                "Unknown2": 45,
+                "LocationId": 28320,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rhurnam Farmstead"
+                "LocationName": "Ruins of The Gavir Farmstead"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 2585,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 28236,
-                "BuildingType": 18,
-                "Quality": 7
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Rhurnam Farmstead",
-            "MapId": 196000000609,
+            "AnotherName": "Ruins of The Gavir Farmstead",
+            "MapId": 459562,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA03.RMB"
+                "RUINAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 18429952,
+                "Y": 1325057,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 31,
+                "LocationId": 28321,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28320,
+                "LocationName": "Ruins of The Gavir Farmstead"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000090.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

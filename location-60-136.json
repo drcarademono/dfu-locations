@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Old Vyctabyth's Hovel",
+    "Name": "The Buckingham Crypts",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 702000000395,
-        "Latitude": 29352,
-        "Longitude": 50600,
-        "LocationType": 11,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 142677529,
+        "Latitude": 54824,
+        "Longitude": 24744,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12957696,
-                "Y": 23017473,
+                "X": 6338560,
+                "Y": 14039041,
                 "IsExterior": 32768,
-                "Unknown2": 584,
-                "LocationId": 17363,
+                "Unknown2": 136,
+                "LocationId": 13860,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Vyctabyth's Hovel"
+                "LocationName": "The Buckingham Crypts"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 27802,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 17363,
-                "BuildingType": 19,
-                "Quality": 4
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Vyctabyth's Hovel",
-            "MapId": 702000000395,
+            "AnotherName": "The Buckingham Crypts",
+            "MapId": 71193,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "GRVEAS32.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 6338560,
+                "Y": 14039041,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 51,
+                "LocationId": 13861,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13860,
+                "LocationName": "The Buckingham Crypts"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

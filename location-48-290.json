@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Dancing Giant Hostel",
+    "Name": "Ruins of Thircrn Manor",
     "RegionName": "Tigonus",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 393000000520,
-        "Latitude": 68904,
-        "Longitude": 66600,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 304452639,
+        "Latitude": 17192,
+        "Longitude": 76712,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "OrcStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17053696,
-                "Y": 12892161,
+                "X": 19642368,
+                "Y": 4405249,
                 "IsExterior": 32768,
-                "Unknown2": 120,
-                "LocationId": 24077,
+                "Unknown2": 290,
+                "LocationId": 25357,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dancing Giant Hostel"
+                "LocationName": "Ruins of Thircrn Manor"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 1992,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 24077,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 7351,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 24077,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 22507,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 24077,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 7737,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 24077,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 23222,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 24077,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 9070,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 24077,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 29250,
-                "FactionId": 0,
-                "Sector": 56,
-                "LocationId": 24077,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 6300,
-                "FactionId": 0,
-                "Sector": 64,
-                "LocationId": 24077,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 20178,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 24077,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 31779,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 24077,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 7416,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 24077,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 145,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 24077,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 14172,
-                "FactionId": 0,
-                "Sector": 85,
-                "LocationId": 24077,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 4052,
-                "FactionId": 0,
-                "Sector": 90,
-                "LocationId": 24077,
-                "BuildingType": 18,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "1992",
-            "MapId": 393000000520,
+            "AnotherName": "Ruins of Thircrn Manor",
+            "MapId": 365599,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS01.RMB"
+                "RUINAA25.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 19642368,
+                "Y": 4405249,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 73,
+                "LocationId": 25358,
+                "IsInterior": 1,
+                "ExteriorLocationId": 25357,
+                "LocationName": "Ruins of Thircrn Manor"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 14
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000028.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 228,
-        "ClimateType": 400,
-        "NatureSet": 502,
-        "GroundArchive": 402,
-        "NatureArchive": 502,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
+        "GroundArchive": 2,
+        "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

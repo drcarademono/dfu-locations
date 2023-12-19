@@ -1,114 +1,130 @@
 {
     "Loaded": true,
-    "Name": "T'ast Hall",
+    "Name": "The Dancing Fairy Tavern",
     "RegionName": "Ephesus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 127000000759,
-        "Latitude": 102952,
-        "Longitude": 97192,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 186060849,
+        "Latitude": 4776,
+        "Longitude": 114856,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24885248,
-                "Y": 4175873,
+                "X": 29407232,
+                "Y": 1226753,
                 "IsExterior": 32768,
-                "Unknown2": 72,
-                "LocationId": 27830,
+                "Unknown2": 177,
+                "LocationId": 28428,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "T'ast Hall"
+                "LocationName": "The Dancing Fairy Tavern"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 21544,
-                "FactionId": 0,
+                "NameSeed": 12904,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 27830,
-                "BuildingType": 18,
-                "Quality": 10
+                "LocationId": 28428,
+                "BuildingType": "Tavern",
+                "Quality": 13
             },
             {
-                "NameSeed": 14001,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 27830,
-                "BuildingType": 18,
-                "Quality": 12
+                "NameSeed": 2883,
+                "FactionId": 510,
+                "Sector": 20,
+                "LocationId": 28428,
+                "BuildingType": "Tavern",
+                "Quality": 6
             },
             {
-                "NameSeed": 1071,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 27830,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 24014,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 27830,
-                "BuildingType": 19,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 22449,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 27830,
-                "BuildingType": 18,
+                "NameSeed": 24708,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 28428,
+                "BuildingType": "Tavern",
                 "Quality": 4
             },
             {
-                "NameSeed": 20774,
+                "NameSeed": 30089,
                 "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 27830,
-                "BuildingType": 18,
-                "Quality": 3
+                "Sector": 49,
+                "LocationId": 28428,
+                "BuildingType": "House3",
+                "Quality": 15
             },
             {
-                "NameSeed": 18822,
+                "NameSeed": 16598,
                 "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 27830,
-                "BuildingType": 18,
+                "Sector": 55,
+                "LocationId": 28428,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 5163,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 28428,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 7719,
+                "FactionId": 0,
+                "Sector": 70,
+                "LocationId": 28428,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 6471,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 28428,
+                "BuildingType": "House2",
                 "Quality": 9
             },
             {
-                "NameSeed": 15062,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 27830,
-                "BuildingType": 15,
-                "Quality": 14
+                "NameSeed": 6321,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 28428,
+                "BuildingType": "House3",
+                "Quality": 1
             },
             {
-                "NameSeed": 19495,
+                "NameSeed": 25794,
                 "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 27830,
-                "BuildingType": 17,
-                "Quality": 7
+                "Sector": 87,
+                "LocationId": 28428,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 31455,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 28428,
+                "BuildingType": "House2",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "T'ast Hall",
-            "MapId": 127000000759,
+            "AnotherName": "12904",
+            "MapId": 462897,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "TVRNAS06.RMB"
             ]
         }
     },
@@ -132,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 181,
     "RegionIndex": 53,

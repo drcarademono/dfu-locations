@@ -1,112 +1,71 @@
 {
     "Loaded": true,
-    "Name": "The Moorwing Cemetery",
+    "Name": "Shrine of Mai",
     "RegionName": "Glenumbra Moors",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 778000000321,
-        "Latitude": 19624,
-        "Longitude": 41128,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 5300002,
+        "Latitude": 56616,
+        "Longitude": 15656,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10532864,
-                "Y": 25507841,
+                "X": 4012032,
+                "Y": 14497793,
                 "IsExterior": 32768,
-                "Unknown2": 151,
-                "LocationId": 15552,
+                "Unknown2": 5,
+                "LocationId": 13022,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Moorwing Cemetery"
+                "LocationName": "Shrine of Mai"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Moorwing Cemetery",
-            "MapId": 778000000321,
+            "AnotherName": "Shrine of Mai",
+            "MapId": 57122,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS09.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 4569088,
-                "Y": 13219841,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 34,
-                "LocationId": 15553,
-                "IsInterior": 1,
-                "ExteriorLocationId": 15552,
-                "LocationName": "The Moorwing Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 187,
     "RegionIndex": 59,

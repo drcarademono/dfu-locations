@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Old Gaering Hovel",
+    "Name": "The Moorhouse Cemetery",
     "RegionName": "Wayrest",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 281000000881,
-        "Latitude": 83240,
-        "Longitude": 112808,
-        "LocationType": 11,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 442727005,
+        "Latitude": 34856,
+        "Longitude": 119464,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28882944,
-                "Y": 9222145,
+                "X": 30586880,
+                "Y": 8927233,
                 "IsExterior": 32768,
-                "Unknown2": 646,
-                "LocationId": 22435,
+                "Unknown2": 422,
+                "LocationId": 22134,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Gaering Hovel"
+                "LocationName": "The Moorhouse Cemetery"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 8221,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 22435,
-                "BuildingType": 19,
-                "Quality": 7
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Old Gaering Hovel",
-            "MapId": 281000000881,
+            "AnotherName": "The Moorhouse Cemetery",
+            "MapId": 227933,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "GRVEAS26.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 30586880,
+                "Y": 8927233,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 94,
+                "LocationId": 22135,
+                "IsInterior": 1,
+                "ExteriorLocationId": 22134,
+                "LocationName": "The Moorhouse Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

@@ -1,50 +1,146 @@
 {
     "Loaded": true,
-    "Name": "The Moorcroft Farmstead",
+    "Name": "Copperfield Manor",
     "RegionName": "Anticlere",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 581000000538,
-        "Latitude": 44840,
-        "Longitude": 68904,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 249703566,
+        "Latitude": 45736,
+        "Longitude": 61224,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17643520,
-                "Y": 19052545,
+                "X": 15677440,
+                "Y": 11712513,
                 "IsExterior": 32768,
-                "Unknown2": 468,
-                "LocationId": 19213,
+                "Unknown2": 238,
+                "LocationId": 18392,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Moorcroft Farmstead"
+                "LocationName": "Copperfield Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 13,
         "Buildings": [
             {
-                "NameSeed": 31439,
+                "NameSeed": 12957,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 19213,
-                "BuildingType": 18,
+                "LocationId": 18392,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 28793,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 18392,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 27127,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 18392,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 11515,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 18392,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 14343,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 18392,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 7034,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 18392,
+                "BuildingType": "House2",
                 "Quality": 1
+            },
+            {
+                "NameSeed": 21424,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 18392,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 22882,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 18392,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 8811,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 18392,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 4543,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 18392,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 25836,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 18392,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 1249,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 18392,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 2713,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 18392,
+                "BuildingType": "House1",
+                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Moorcroft Farmstead",
-            "MapId": 581000000538,
+            "AnotherName": "Copperfield Manor",
+            "MapId": 142478,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
@@ -68,13 +164,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

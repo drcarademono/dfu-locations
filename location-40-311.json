@@ -4,19 +4,19 @@
     "RegionName": "Ykalon",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 734000000539,
-        "Latitude": 25256,
-        "Longitude": 69032,
-        "LocationType": 4,
-        "DungeonType": 9,
+        "MapId": 326132485,
+        "Latitude": 60712,
+        "Longitude": 44712,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Laboratory",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17676288,
-                "Y": 24066049,
+                "X": 11450368,
+                "Y": 15546369,
                 "IsExterior": 32768,
                 "Unknown2": 311,
                 "LocationId": 11227,
@@ -29,7 +29,7 @@
         "Buildings": [],
         "ExteriorData": {
             "AnotherName": "Gondyrick Laboratory",
-            "MapId": 734000000539,
+            "MapId": 25349,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
@@ -57,7 +57,31 @@
         },
         "Blocks": [
             {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
                 "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000003.RDB",
@@ -66,71 +90,7 @@
             },
             {
                 "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000045.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
                 "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
         "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

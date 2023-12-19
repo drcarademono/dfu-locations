@@ -1,154 +1,106 @@
 {
     "Loaded": true,
-    "Name": "The Monastery of Baalebron",
+    "Name": "Rest'kern Manor",
     "RegionName": "Sentinel",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 441000000393,
-        "Latitude": 62760,
-        "Longitude": 50344,
-        "LocationType": 4,
-        "DungeonType": 4,
-        "Discovered": false,
+        "MapId": 550916807,
+        "Latitude": 10920,
+        "Longitude": 52136,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12892160,
-                "Y": 14465025,
+                "X": 13350912,
+                "Y": 2799617,
                 "IsExterior": 32768,
-                "Unknown2": 25,
-                "LocationId": 24830,
+                "Unknown2": 525,
+                "LocationId": 27035,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Monastery of Baalebron"
+                "LocationName": "Rest'kern Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 4,
+        "Buildings": [
+            {
+                "NameSeed": 27687,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 27035,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 13672,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 27035,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 20088,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 27035,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 4351,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 27035,
+                "BuildingType": "House1",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Monastery of Baalebron",
-            "MapId": 441000000393,
+            "AnotherName": "Rest'kern Manor",
+            "MapId": 414407,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 4,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA12.RMB"
+                "MANRBS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 12105728,
-                "Y": 4831233,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 6,
-                "LocationId": 24831,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24830,
-                "LocationName": "The Monastery of Baalebron"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000027.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000027.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
-    "Politic": 64,
+    "Politic": 148,
     "RegionIndex": 20,
     "LocationIndex": 525
 }

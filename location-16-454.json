@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Dwarf and Chasm Hostel",
+    "Name": "The Copperfield Farmstead",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 388000001007,
-        "Latitude": 69544,
-        "Longitude": 128936,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 476088092,
+        "Latitude": 59560,
+        "Longitude": 75304,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33011712,
-                "Y": 12728321,
+                "X": 19281920,
+                "Y": 15251457,
                 "IsExterior": 32768,
-                "Unknown2": 1134,
-                "LocationId": 15306,
+                "Unknown2": 454,
+                "LocationId": 11739,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dwarf and Chasm Hostel"
+                "LocationName": "The Copperfield Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 32588,
-                "FactionId": 510,
+                "NameSeed": 19508,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 15306,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 17276,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 15306,
-                "BuildingType": 15,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 13454,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 15306,
-                "BuildingType": 15,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 5222,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 15306,
-                "BuildingType": 19,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 26902,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 15306,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 7807,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 15306,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 12267,
-                "FactionId": 0,
-                "Sector": 70,
-                "LocationId": 15306,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 15501,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 15306,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 25108,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 15306,
-                "BuildingType": 19,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 3601,
-                "FactionId": 0,
-                "Sector": 87,
-                "LocationId": 15306,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 25129,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 15306,
-                "BuildingType": 18,
-                "Quality": 11
+                "LocationId": 11739,
+                "BuildingType": "House2",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "32588",
-            "MapId": 388000001007,
+            "AnotherName": "The Copperfield Farmstead",
+            "MapId": 34588,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS06.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
@@ -147,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
-        "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
+        "SkyBase": 16,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

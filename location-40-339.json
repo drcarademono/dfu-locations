@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Silver Wolf Hostel",
+    "Name": "The Yedoth Web",
     "RegionName": "Ykalon",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 737000000510,
-        "Latitude": 24872,
-        "Longitude": 65320,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 355495572,
+        "Latitude": 60328,
+        "Longitude": 39464,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "SpiderNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16726016,
-                "Y": 24164353,
+                "X": 10106880,
+                "Y": 15448065,
                 "IsExterior": 32768,
-                "Unknown2": 458,
-                "LocationId": 11889,
+                "Unknown2": 339,
+                "LocationId": 11376,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Silver Wolf Hostel"
+                "LocationName": "The Yedoth Web"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 28191,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 11889,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 9591,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 11889,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 15841,
-                "FactionId": 0,
-                "Sector": 13,
-                "LocationId": 11889,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 25367,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 11889,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 28307,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 11889,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 28323,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 11889,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 32571,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 11889,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 8210,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 11889,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 6643,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 11889,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 26,
-                "FactionId": 510,
-                "Sector": 68,
-                "LocationId": 11889,
-                "BuildingType": 15,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 12284,
-                "FactionId": 510,
-                "Sector": 80,
-                "LocationId": 11889,
-                "BuildingType": 15,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 26466,
-                "FactionId": 510,
-                "Sector": 93,
-                "LocationId": 11889,
-                "BuildingType": 15,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "26",
-            "MapId": 737000000510,
+            "AnotherName": "The Yedoth Web",
+            "MapId": 28308,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS00.RMB"
+                "DUNGAA16.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 10106880,
+                "Y": 15448065,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 74,
+                "LocationId": 11377,
+                "IsInterior": 1,
+                "ExteriorLocationId": 11376,
+                "LocationName": "The Yedoth Web"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000065.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
-        "NatureArchive": 504,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

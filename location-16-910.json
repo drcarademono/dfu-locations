@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Buckingsly Manor",
+    "Name": "Ruins of Tower Greenham",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 440000001066,
-        "Latitude": 62888,
-        "Longitude": 136488,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 954275965,
+        "Latitude": 54824,
+        "Longitude": 103080,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "OrcStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 34945024,
-                "Y": 14432257,
+                "X": 26392576,
+                "Y": 14039041,
                 "IsExterior": 32768,
-                "Unknown2": 232,
-                "LocationId": 10760,
+                "Unknown2": 910,
+                "LocationId": 13902,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Buckingsly Manor"
+                "LocationName": "Ruins of Tower Greenham"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 26263,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 10760,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 15973,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 10760,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 28712,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 10760,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 18806,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 10760,
-                "BuildingType": 19,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 15971,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 10760,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 2826,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 10760,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 15200,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 10760,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 15749,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 10760,
-                "BuildingType": 15,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 24073,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 10760,
-                "BuildingType": 17,
-                "Quality": 3
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Buckingsly Manor",
-            "MapId": 440000001066,
+            "AnotherName": "Ruins of Tower Greenham",
+            "MapId": 71805,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "RUINAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 26392576,
+                "Y": 14039041,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 322,
+                "LocationId": 13903,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13902,
+                "LocationName": "Ruins of Tower Greenham"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

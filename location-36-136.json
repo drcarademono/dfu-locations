@@ -1,168 +1,168 @@
 {
     "Loaded": true,
-    "Name": "The Lysyna Cabal",
+    "Name": "The Flying Giant Hostel",
     "RegionName": "Bhoriane",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 540000000704,
-        "Latitude": 50088,
-        "Longitude": 90152,
-        "LocationType": 4,
-        "DungeonType": 7,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 142730887,
+        "Latitude": 48040,
+        "Longitude": 70568,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23083008,
-                "Y": 17709057,
+                "X": 18069504,
+                "Y": 12302337,
                 "IsExterior": 32768,
-                "Unknown2": 87,
-                "LocationId": 16606,
+                "Unknown2": 136,
+                "LocationId": 17326,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Lysyna Cabal"
+                "LocationName": "The Flying Giant Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 12,
+        "Buildings": [
+            {
+                "NameSeed": 17477,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 17326,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 27683,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 17326,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 31689,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 17326,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 12755,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 17326,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 9969,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 17326,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 22618,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 17326,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 18051,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 17326,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 9110,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 17326,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 28886,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 17326,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 27490,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 17326,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 26250,
+                "FactionId": 510,
+                "Sector": 55,
+                "LocationId": 17326,
+                "BuildingType": "Tavern",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 19388,
+                "FactionId": 510,
+                "Sector": 71,
+                "LocationId": 17326,
+                "BuildingType": "Tavern",
+                "Quality": 5
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Lysyna Cabal",
-            "MapId": 540000000704,
+            "AnotherName": "26250",
+            "MapId": 124551,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA09.RMB"
+                "TVRNAS07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19314688,
-                "Y": 12728321,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 22,
-                "LocationId": 16607,
-                "IsInterior": 1,
-                "ExteriorLocationId": 16606,
-                "LocationName": "The Lysyna Cabal"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000046.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000063.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 164,
     "RegionIndex": 36,

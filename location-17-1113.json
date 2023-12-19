@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Silent Sunrise of Kynareth",
+    "Name": "Castle Kingwing",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 710000000287,
-        "Latitude": 28328,
-        "Longitude": 36776,
-        "LocationType": 5,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16
+        "MapId": 1167271297,
+        "Latitude": 37544,
+        "Longitude": 26792,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Crypt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9418752,
-                "Y": 23279617,
+                "X": 6862848,
+                "Y": 9615361,
                 "IsExterior": 32768,
-                "Unknown2": 478,
-                "LocationId": 19987,
+                "Unknown2": 1113,
+                "LocationId": 21441,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Silent Sunrise of Kynareth"
+                "LocationName": "Castle Kingwing"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 12309,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 19987,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 20840,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 19987,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 2164,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 19987,
-                "BuildingType": 19,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 12047,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 19987,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 23199,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 19987,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 298,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 19987,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 23132,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 19987,
-                "BuildingType": 19,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 16956,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 19987,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 5335,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 19987,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 10700,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 19987,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 24960,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 19987,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 9392,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 19987,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 19558,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 19987,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 26221,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 19987,
-                "BuildingType": 14,
-                "Quality": 4
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Silent Sunrise of Kynareth",
-            "MapId": 710000000287,
+            "AnotherName": "Castle Kingwing",
+            "MapId": 206209,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "CASTAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 6862848,
+                "Y": 9615361,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 219,
+                "LocationId": 21442,
+                "IsInterior": 1,
+                "ExteriorLocationId": 21441,
+                "LocationName": "Castle Kingwing"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000034.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

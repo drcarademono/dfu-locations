@@ -1,154 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Vojphang",
+    "Name": "The Pit of Jubonah",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 432000001034,
-        "Latitude": 63912,
-        "Longitude": 132392,
-        "LocationType": 4,
-        "DungeonType": 13,
+        "MapId": 854651250,
+        "Latitude": 56104,
+        "Longitude": 103720,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33896448,
-                "Y": 14170113,
+                "X": 26556416,
+                "Y": 14366721,
                 "IsExterior": 32768,
-                "Unknown2": 552,
-                "LocationId": 12036,
+                "Unknown2": 815,
+                "LocationId": 13309,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Vojphang"
+                "LocationName": "The Pit of Jubonah"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Vojphang",
-            "MapId": 432000001034,
+            "AnotherName": "The Pit of Jubonah",
+            "MapId": 61810,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA00.RMB"
+                "DUNGAA02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 30455808,
-                "Y": 15087617,
+                "X": 26556416,
+                "Y": 14366721,
                 "IsExterior": 0,
-                "Unknown2": 202,
-                "LocationId": 12037,
+                "Unknown2": 287,
+                "LocationId": 13310,
                 "IsInterior": 1,
-                "ExteriorLocationId": 12036,
-                "LocationName": "Vojphang"
+                "ExteriorLocationId": 13309,
+                "LocationName": "The Pit of Jubonah"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 10
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "W0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000076.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000004.RDB",
+                "BlockName": "W0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -156,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

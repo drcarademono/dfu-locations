@@ -1,98 +1,90 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Hearthwing Manor",
+    "Name": "Ruins of The Wickford Farmstead",
     "RegionName": "Glenpoint",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 751000000346,
-        "Latitude": 23080,
-        "Longitude": 44328,
-        "LocationType": 10,
-        "DungeonType": 11,
+        "MapId": 288481539,
+        "Latitude": 48168,
+        "Longitude": 17832,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "VampireHaunt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11352064,
-                "Y": 24623105,
+                "X": 4569088,
+                "Y": 12335105,
                 "IsExterior": 32768,
-                "Unknown2": 164,
-                "LocationId": 16300,
+                "Unknown2": 275,
+                "LocationId": 17246,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Hearthwing Manor"
+                "LocationName": "Ruins of The Wickford Farmstead"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Hearthwing Manor",
-            "MapId": 751000000346,
+            "AnotherName": "Ruins of The Wickford Farmstead",
+            "MapId": 123139,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA04.RMB"
+                "RUINAA21.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 5715968,
-                "Y": 12859393,
+                "X": 4569088,
+                "Y": 12335105,
                 "IsExterior": 0,
-                "Unknown2": 51,
-                "LocationId": 16301,
+                "Unknown2": 90,
+                "LocationId": 17247,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16300,
-                "LocationName": "Ruins of Hearthwing Manor"
+                "ExteriorLocationId": 17246,
+                "LocationName": "Ruins of The Wickford Farmstead"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 11
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000015.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000006.RDB",
+                "BlockName": "N0000091.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -103,34 +95,18 @@
                 "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
             }
         ]
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

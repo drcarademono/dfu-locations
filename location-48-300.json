@@ -1,176 +1,145 @@
 {
     "Loaded": true,
-    "Name": "The Haunt of Verezezzar",
+    "Name": "Tasogu-Korom",
     "RegionName": "Tigonus",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 394000000554,
-        "Latitude": 68776,
-        "Longitude": 70952,
-        "LocationType": 4,
-        "DungeonType": 8,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 314941360,
+        "Latitude": 16800,
+        "Longitude": 71720,
+        "LocationType": "TownVillage",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16777472
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18167808,
-                "Y": 12924929,
+                "X": 18364416,
+                "Y": 4304897,
                 "IsExterior": 32768,
-                "Unknown2": 42,
-                "LocationId": 23557,
+                "Unknown2": 300,
+                "LocationId": 25480,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Haunt of Verezezzar"
+                "LocationName": "Tasogu-Korom"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 15274,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 25480,
+                "BuildingType": "House4",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 25170,
+                "FactionId": 510,
+                "Sector": 21,
+                "LocationId": 25480,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 24798,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 25480,
+                "BuildingType": "House4",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 12934,
+                "FactionId": 0,
+                "Sector": 56,
+                "LocationId": 25480,
+                "BuildingType": "House4",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 17475,
+                "FactionId": 0,
+                "Sector": 77,
+                "LocationId": 25480,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 24716,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 25480,
+                "BuildingType": "GeneralStore",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 32733,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 25480,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 17801,
+                "FactionId": 0,
+                "Sector": 97,
+                "LocationId": 25480,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 23694,
+                "FactionId": 0,
+                "Sector": 103,
+                "LocationId": 25480,
+                "BuildingType": "House2",
+                "Quality": 3
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Haunt of Verezezzar",
-            "MapId": 394000000554,
+            "AnotherName": "Tasogu-Korom",
+            "MapId": 368560,
             "LocationId": 0,
             "Width": 1,
-            "Height": 1,
+            "Height": 2,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA01.RMB"
+                "GENRGS00.RMB",
+                "RESIGS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 17446912,
-                "Y": 6141953,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 6,
-                "LocationId": 23558,
-                "IsInterior": 1,
-                "ExteriorLocationId": 23557,
-                "LocationName": "The Haunt of Verezezzar"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000045.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000031.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 228,
-        "ClimateType": 400,
-        "NatureSet": 502,
-        "GroundArchive": 402,
-        "NatureArchive": 502,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
+        "GroundArchive": 2,
+        "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

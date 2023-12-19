@@ -1,74 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Fox and Gnome Lodge",
+    "Name": "Vornem Grange",
     "RegionName": "Myrkwasa",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 423000000295,
-        "Latitude": 65064,
-        "Longitude": 37800,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 80117069,
+        "Latitude": 9512,
+        "Longitude": 37544,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9680896,
-                "Y": 13875201,
+                "X": 9615360,
+                "Y": 2439169,
                 "IsExterior": 32768,
-                "Unknown2": 54,
-                "LocationId": 27129,
+                "Unknown2": 76,
+                "LocationId": 27366,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Fox and Gnome Lodge"
+                "LocationName": "Vornem Grange"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 7416,
+                "NameSeed": 11170,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27129,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 145,
-                "FactionId": 0,
-                "Sector": 11,
-                "LocationId": 27129,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 28197,
-                "FactionId": 510,
-                "Sector": 19,
-                "LocationId": 27129,
-                "BuildingType": 1,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 7495,
-                "FactionId": 510,
-                "Sector": 30,
-                "LocationId": 27129,
-                "BuildingType": 15,
-                "Quality": 2
+                "LocationId": 27366,
+                "BuildingType": "House2",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "7495",
-            "MapId": 423000000295,
+            "AnotherName": "Vornem Grange",
+            "MapId": 425293,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS02.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -92,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

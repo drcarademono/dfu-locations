@@ -1,98 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Tower of Mastering",
+    "Name": "The Copperton Cemetery",
     "RegionName": "Dwynnen",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 645000000687,
-        "Latitude": 36648,
-        "Longitude": 87976,
-        "LocationType": 10,
-        "DungeonType": 3,
+        "MapId": 722583379,
+        "Latitude": 49320,
+        "Longitude": 65960,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22525952,
-                "Y": 21149697,
+                "X": 16889856,
+                "Y": 12630017,
                 "IsExterior": 32768,
-                "Unknown2": 99,
-                "LocationId": 11397,
+                "Unknown2": 689,
+                "LocationId": 16797,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Tower of Mastering"
+                "LocationName": "The Copperton Cemetery"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Tower of Mastering",
-            "MapId": 645000000687,
+            "AnotherName": "The Copperton Cemetery",
+            "MapId": 114515,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA05.RMB"
+                "GRVEAS33.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 17119232,
-                "Y": 15448065,
+                "X": 16889856,
+                "Y": 12630017,
                 "IsExterior": 0,
-                "Unknown2": 17,
-                "LocationId": 11398,
+                "Unknown2": 129,
+                "LocationId": 16798,
                 "IsInterior": 1,
-                "ExteriorLocationId": 11397,
-                "LocationName": "Ruins of The Tower of Mastering"
+                "ExteriorLocationId": 16797,
+                "LocationName": "The Copperton Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 5
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000017.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000056.RDB",
+                "BlockName": "M0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,23 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000046.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -140,15 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -156,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

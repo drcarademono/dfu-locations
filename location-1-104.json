@@ -1,176 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Tower of Glashke",
+    "Name": "Dhart Manor",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 63000000799,
-        "Latitude": 111144,
-        "Longitude": 102312,
-        "LocationType": 10,
-        "DungeonType": 16,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 109388506,
+        "Latitude": 20904,
+        "Longitude": 77096,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26195968,
-                "Y": 2078721,
+                "X": 19740672,
+                "Y": 5355521,
                 "IsExterior": 32768,
-                "Unknown2": 793,
-                "LocationId": 28881,
+                "Unknown2": 104,
+                "LocationId": 24283,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Tower of Glashke"
+                "LocationName": "Dhart Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 3677,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 24283,
+                "BuildingType": "House1",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 1861,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 24283,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 15760,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 24283,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 17047,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 24283,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 32763,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 24283,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 16806,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 24283,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7969,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 24283,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 14616,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 24283,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 7112,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 24283,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 26588,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 24283,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 30882,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 24283,
+                "BuildingType": "Tavern",
+                "Quality": 14
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Tower of Glashke",
-            "MapId": 63000000799,
+            "AnotherName": "Dhart Manor",
+            "MapId": 336602,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA07.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 29833216,
-                "Y": 735233,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 266,
-                "LocationId": 28882,
-                "IsInterior": 1,
-                "ExteriorLocationId": 28881,
-                "LocationName": "Ruins of The Tower of Glashke"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000041.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000051.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

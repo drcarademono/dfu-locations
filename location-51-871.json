@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Shrine of Dugrod",
+    "Name": "The Old Nharm Hovel",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 266000000734,
-        "Latitude": 85160,
-        "Longitude": 93992,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 913696601,
+        "Latitude": 14504,
+        "Longitude": 115880,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24066048,
-                "Y": 8730625,
+                "X": 29669376,
+                "Y": 3717121,
                 "IsExterior": 32768,
-                "Unknown2": 147,
-                "LocationId": 24167,
+                "Unknown2": 871,
+                "LocationId": 26195,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shrine of Dugrod"
+                "LocationName": "The Old Nharm Hovel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 1367,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 26195,
+                "BuildingType": "House3",
+                "Quality": 10
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Shrine of Dugrod",
-            "MapId": 266000000734,
+            "AnotherName": "The Old Nharm Hovel",
+            "MapId": 386905,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

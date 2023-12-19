@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Old Carolanna's Shack",
+    "Name": "Old Barborya's Farm",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 651000000338,
-        "Latitude": 35880,
-        "Longitude": 43304,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 400723229,
+        "Latitude": 42536,
+        "Longitude": 25256,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11089920,
-                "Y": 21346305,
+                "X": 6469632,
+                "Y": 10893313,
                 "IsExterior": 32768,
-                "Unknown2": 962,
-                "LocationId": 21088,
+                "Unknown2": 382,
+                "LocationId": 19734,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Carolanna's Shack"
+                "LocationName": "Old Barborya's Farm"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 32556,
+                "NameSeed": 9281,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 21088,
-                "BuildingType": 19,
-                "Quality": 15
+                "LocationId": 19734,
+                "BuildingType": "House2",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Carolanna's Shack",
-            "MapId": 651000000338,
+            "AnotherName": "Old Barborya's Farm",
+            "MapId": 167197,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA03.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

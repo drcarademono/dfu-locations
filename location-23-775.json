@@ -1,176 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Mordynak Tunnel",
+    "Name": "The Lion and Mug Pub",
     "RegionName": "Wayrest",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 323000000858,
-        "Latitude": 77864,
-        "Longitude": 109864,
-        "LocationType": 4,
-        "DungeonType": 5,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 812904336,
+        "Latitude": 31016,
+        "Longitude": 119848,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28129280,
-                "Y": 10598401,
+                "X": 30685184,
+                "Y": 7944193,
                 "IsExterior": 32768,
-                "Unknown2": 348,
-                "LocationId": 22001,
+                "Unknown2": 775,
+                "LocationId": 22603,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mordynak Tunnel"
+                "LocationName": "The Lion and Mug Pub"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 31948,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 22603,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 4694,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 22603,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 23201,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 22603,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 6001,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 22603,
+                "BuildingType": "House3",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 28603,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 22603,
+                "BuildingType": "House3",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 14195,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 22603,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 18716,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 22603,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 11272,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 22603,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 10459,
+                "FactionId": 510,
+                "Sector": 63,
+                "LocationId": 22603,
+                "BuildingType": "HouseForSale",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 9489,
+                "FactionId": 510,
+                "Sector": 67,
+                "LocationId": 22603,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 3333,
+                "FactionId": 510,
+                "Sector": 84,
+                "LocationId": 22603,
+                "BuildingType": "Tavern",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Mordynak Tunnel",
-            "MapId": 323000000858,
+            "AnotherName": "9489",
+            "MapId": 257936,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA12.RMB"
+                "TVRNAS08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27244544,
-                "Y": 9091073,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 77,
-                "LocationId": 22002,
-                "IsInterior": 1,
-                "ExteriorLocationId": 22001,
-                "LocationName": "The Mordynak Tunnel"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000074.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000017.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

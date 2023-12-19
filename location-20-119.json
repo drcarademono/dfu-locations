@@ -1,145 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Hidax",
+    "Name": "The Cavern of Homuneusuna",
     "RegionName": "Sentinel",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 385000000413,
-        "Latitude": 69928,
-        "Longitude": 52896,
-        "LocationType": 2,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16777216
+        "MapId": 125153973,
+        "Latitude": 16168,
+        "Longitude": 54952,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13545472,
-                "Y": 12630017,
+                "X": 14071808,
+                "Y": 4143105,
                 "IsExterior": 32768,
-                "Unknown2": 318,
-                "LocationId": 26333,
+                "Unknown2": 119,
+                "LocationId": 25699,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hidax"
+                "LocationName": "The Cavern of Homuneusuna"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 7297,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 26333,
-                "BuildingType": 9,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 5302,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 26333,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 21922,
-                "FactionId": 0,
-                "Sector": 19,
-                "LocationId": 26333,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 10739,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 26333,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 7758,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 26333,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 6108,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 26333,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 27511,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 26333,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 5978,
-                "FactionId": 0,
-                "Sector": 52,
-                "LocationId": 26333,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 29870,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 26333,
-                "BuildingType": 18,
-                "Quality": 9
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Hidax",
-            "MapId": 385000000413,
+            "AnotherName": "The Cavern of Homuneusuna",
+            "MapId": 373429,
             "LocationId": 0,
-            "Width": 2,
+            "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 8,
             "BlockNames": [
-                "GENRGS01.RMB",
-                "RESIGS02.RMB"
+                "DUNGAA13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 14071808,
+                "Y": 4143105,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 23,
+                "LocationId": 25700,
+                "IsInterior": 1,
+                "ExteriorLocationId": 25699,
+                "LocationName": "The Cavern of Homuneusuna"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000026.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

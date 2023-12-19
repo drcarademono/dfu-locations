@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Old Evelorya's Shack",
+    "Name": "Kingcroft Manor",
     "RegionName": "Wayrest",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 275000000915,
-        "Latitude": 84008,
+        "MapId": 391342763,
+        "Latitude": 35368,
         "Longitude": 117160,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
                 "X": 29997056,
-                "Y": 9025537,
+                "Y": 9058305,
                 "IsExterior": 32768,
-                "Unknown2": 510,
-                "LocationId": 22260,
+                "Unknown2": 373,
+                "LocationId": 22042,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Evelorya's Shack"
+                "LocationName": "Kingcroft Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 14234,
+                "NameSeed": 20630,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 22260,
-                "BuildingType": 19,
+                "LocationId": 22042,
+                "BuildingType": "House1",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 16385,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 22042,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 13681,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 22042,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 3881,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 22042,
+                "BuildingType": "House2",
                 "Quality": 4
+            },
+            {
+                "NameSeed": 6753,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 22042,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 29761,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 22042,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 32270,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 22042,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 10932,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 22042,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 16355,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 22042,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 7434,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 22042,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 32696,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 22042,
+                "BuildingType": "Tavern",
+                "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Evelorya's Shack",
-            "MapId": 275000000915,
+            "AnotherName": "Kingcroft Manor",
+            "MapId": 223915,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

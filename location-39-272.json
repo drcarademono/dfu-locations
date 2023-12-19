@@ -1,50 +1,114 @@
 {
     "Loaded": true,
-    "Name": "Old Morgorya's Farm",
+    "Name": "Hearthham Manor",
     "RegionName": "Urvaius",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 675000000594,
-        "Latitude": 32808,
-        "Longitude": 76072,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 285343172,
+        "Latitude": 47272,
+        "Longitude": 64040,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19478528,
-                "Y": 22132737,
+                "X": 16398336,
+                "Y": 12105729,
                 "IsExterior": 32768,
-                "Unknown2": 18,
-                "LocationId": 12582,
+                "Unknown2": 272,
+                "LocationId": 17647,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Morgorya's Farm"
+                "LocationName": "Hearthham Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 17727,
+                "NameSeed": 31287,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 12582,
-                "BuildingType": 18,
-                "Quality": 3
+                "LocationId": 17647,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 7793,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 17647,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 27106,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 17647,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 5899,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 17647,
+                "BuildingType": "House3",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 14667,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 17647,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 18975,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 17647,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 3210,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 17647,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 22858,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 17647,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 18795,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 17647,
+                "BuildingType": "House1",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Morgorya's Farm",
-            "MapId": 675000000594,
+            "AnotherName": "Hearthham Manor",
+            "MapId": 130500,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -68,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 167,
     "RegionIndex": 39,

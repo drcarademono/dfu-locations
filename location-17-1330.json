@@ -1,136 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Hawkham's Hold",
+    "Name": "Masterston Court",
     "RegionName": "Daggerfall",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 745000000248,
-        "Latitude": 23848,
-        "Longitude": 31784,
-        "LocationType": 7,
-        "DungeonType": 0,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 1394847220,
+        "Latitude": 33064,
+        "Longitude": 17960,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8140800,
-                "Y": 24426497,
+                "X": 4601856,
+                "Y": 8468481,
                 "IsExterior": 32768,
-                "Unknown2": 233,
-                "LocationId": 19350,
+                "Unknown2": 1330,
+                "LocationId": 22334,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hawkham's Hold"
+                "LocationName": "Masterston Court"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 31175,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 22334,
+                "BuildingType": "House1",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 3812,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 22334,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 17708,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 22334,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 23331,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 22334,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 3643,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 22334,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 30469,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 22334,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 29078,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 22334,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 3319,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 22334,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 24419,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 22334,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 16743,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 22334,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 14456,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 22334,
+                "BuildingType": "Tavern",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Hawkham's Hold",
-            "MapId": 745000000248,
+            "AnotherName": "Masterston Court",
+            "MapId": 241140,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 6,
             "BlockNames": [
-                "CASTAA14.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 3028992,
-                "Y": 11089921,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 39,
-                "LocationId": 19351,
-                "IsInterior": 1,
-                "ExteriorLocationId": 19350,
-                "LocationName": "Hawkham's Hold"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000081.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 64,
     "RegionIndex": 17,

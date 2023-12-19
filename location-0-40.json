@@ -1,98 +1,90 @@
 {
     "Loaded": true,
-    "Name": "Castle Lhishen",
+    "Name": "Ruins of Old Lerkfa's Shack",
     "RegionName": "Alik'r Desert",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 279000000584,
-        "Latitude": 83496,
-        "Longitude": 74792,
-        "LocationType": 7,
-        "DungeonType": 13,
+        "MapId": 42353413,
+        "Latitude": 11432,
+        "Longitude": 47784,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Coven",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19150848,
-                "Y": 9156609,
+                "X": 12236800,
+                "Y": 2930689,
                 "IsExterior": 32768,
-                "Unknown2": 21,
-                "LocationId": 26544,
+                "Unknown2": 40,
+                "LocationId": 26919,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle Lhishen"
+                "LocationName": "Ruins of Old Lerkfa's Shack"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Castle Lhishen",
-            "MapId": 279000000584,
+            "AnotherName": "Ruins of Old Lerkfa's Shack",
+            "MapId": 410373,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA10.RMB"
+                "RUINAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 20199424,
-                "Y": 3356673,
+                "X": 12236800,
+                "Y": 2930689,
                 "IsExterior": 0,
-                "Unknown2": 7,
-                "LocationId": 26545,
+                "Unknown2": 18,
+                "LocationId": 26920,
                 "IsInterior": 1,
-                "ExteriorLocationId": 26544,
-                "LocationName": "Castle Lhishen"
+                "ExteriorLocationId": 26919,
+                "LocationName": "Ruins of Old Lerkfa's Shack"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 10
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000004.RDB",
+                "BlockName": "W0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -103,34 +95,18 @@
                 "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
             }
         ]
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

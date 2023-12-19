@@ -1,90 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Cairn of Inveromaus",
+    "Name": "Ruins of Masterhart Hall",
     "RegionName": "Ykalon",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 738000000484,
-        "Latitude": 24744,
-        "Longitude": 61992,
-        "LocationType": 4,
-        "DungeonType": 0,
+        "MapId": 362835713,
+        "Latitude": 60328,
+        "Longitude": 53416,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "SpiderNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15874048,
-                "Y": 24197121,
+                "X": 13678592,
+                "Y": 15448065,
                 "IsExterior": 32768,
-                "Unknown2": 546,
-                "LocationId": 12570,
+                "Unknown2": 346,
+                "LocationId": 11386,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Cairn of Inveromaus"
+                "LocationName": "Ruins of Masterhart Hall"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Cairn of Inveromaus",
-            "MapId": 738000000484,
+            "AnotherName": "Ruins of Masterhart Hall",
+            "MapId": 28417,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA09.RMB"
+                "RUINAA21.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 9844736,
-                "Y": 14759937,
+                "X": 13678592,
+                "Y": 15448065,
                 "IsExterior": 0,
-                "Unknown2": 132,
-                "LocationId": 12571,
+                "Unknown2": 77,
+                "LocationId": 11387,
                 "IsInterior": 1,
-                "ExteriorLocationId": 12570,
-                "LocationName": "The Cairn of Inveromaus"
+                "ExteriorLocationId": 11386,
+                "LocationName": "Ruins of Masterhart Hall"
             }
         },
         "Header": {
-            "BlockCount": 14
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000020.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,79 +68,31 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000063.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000057.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "N0000052.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 4,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 3,
                 "IsStartingBlock": false,
                 "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -172,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

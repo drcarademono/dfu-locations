@@ -1,128 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Mantellan Crux",
+    "Name": "Your Ship",
     "RegionName": "High Rock sea coast",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 929000000249,
-        "Latitude": 295,
-        "Longitude": 31928,
-        "LocationType": 4,
-        "DungeonType": 10,
-        "Discovered": false,
+        "MapId": 2102157,
+        "Latitude": 63271,
+        "Longitude": 696,
+        "LocationType": "HomeYourShips",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8177664,
-                "Y": 30455553,
+                "X": 182272,
+                "Y": 16201473,
                 "IsExterior": 32768,
-                "Unknown2": 0,
-                "LocationId": 50000,
+                "Unknown2": 2,
+                "LocationId": 992,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Mantellan Crux"
+                "LocationName": "Your Ship"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 979,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 992,
+                "BuildingType": "Ship",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Mantellan Crux",
-            "MapId": 929000000249,
-            "LocationId": 50000,
+            "AnotherName": "Your Ship",
+            "MapId": 5005,
+            "LocationId": 992,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA00.RMB"
+                "SHIPAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 51200,
-                "Y": 16332545,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
                 "Unknown2": 0,
-                "LocationId": 50001,
-                "IsInterior": 1,
-                "ExteriorLocationId": 50000,
-                "LocationName": "Mantellan Crux"
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 7
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "S0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "S0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "S0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -3,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "S0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -4,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "S0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -4,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "S0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -5,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "S0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 223,
-        "ClimateType": 400,
-        "NatureSet": 504,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 402,
         "NatureArchive": 504,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 64,
     "RegionIndex": 31,

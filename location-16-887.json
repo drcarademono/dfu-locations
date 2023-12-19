@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Old Hearthhouse Shack",
+    "Name": "Uthane Laboratory",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 438000000950,
-        "Latitude": 63144,
-        "Longitude": 121640,
-        "LocationType": 11,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 930155848,
+        "Latitude": 55208,
+        "Longitude": 119848,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31143936,
-                "Y": 14366721,
+                "X": 30685184,
+                "Y": 14137345,
                 "IsExterior": 32768,
-                "Unknown2": 961,
-                "LocationId": 14274,
+                "Unknown2": 887,
+                "LocationId": 13724,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Hearthhouse Shack"
+                "LocationName": "Uthane Laboratory"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 31157,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 14274,
-                "BuildingType": 19,
-                "Quality": 11
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Old Hearthhouse Shack",
-            "MapId": 438000000950,
+            "AnotherName": "Uthane Laboratory",
+            "MapId": 68936,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "DUNGAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 30685184,
+                "Y": 14137345,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 312,
+                "LocationId": 13725,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13724,
+                "LocationName": "Uthane Laboratory"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

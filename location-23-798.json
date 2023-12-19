@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Kingham Hall",
+    "Name": "The Moorston Cabin",
     "RegionName": "Wayrest",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 327000000858,
-        "Latitude": 77352,
-        "Longitude": 109864,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 837024560,
+        "Latitude": 30632,
+        "Longitude": 116776,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28129280,
-                "Y": 10729473,
+                "X": 29898752,
+                "Y": 7845889,
                 "IsExterior": 32768,
-                "Unknown2": 295,
-                "LocationId": 21895,
+                "Unknown2": 798,
+                "LocationId": 22639,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kingham Hall"
+                "LocationName": "The Moorston Cabin"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 1071,
+                "NameSeed": 27241,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 21895,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 24014,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 21895,
-                "BuildingType": 18,
+                "LocationId": 22639,
+                "BuildingType": "House3",
                 "Quality": 15
-            },
-            {
-                "NameSeed": 22449,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 21895,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 20774,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 21895,
-                "BuildingType": 19,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 18822,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 21895,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 27018,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 21895,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 22833,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 21895,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 31201,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 21895,
-                "BuildingType": 15,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 8385,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 21895,
-                "BuildingType": 17,
-                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Kingham Hall",
-            "MapId": 327000000858,
+            "AnotherName": "The Moorston Cabin",
+            "MapId": 260912,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -132,15 +68,15 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 161,
+    "Politic": 151,
     "RegionIndex": 23,
     "LocationIndex": 798
 }

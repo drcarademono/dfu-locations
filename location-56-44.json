@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Divad Monument",
+    "Name": "Old Rafylsa's Shack",
     "RegionName": "Bergama",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 327000000387,
-        "Latitude": 77352,
-        "Longitude": 49576,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 46610755,
+        "Latitude": 3368,
+        "Longitude": 52648,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12695552,
-                "Y": 10729473,
+                "X": 13481984,
+                "Y": 866305,
                 "IsExterior": 32768,
-                "Unknown2": 13,
-                "LocationId": 28175,
+                "Unknown2": 44,
+                "LocationId": 28726,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Divad Monument"
+                "LocationName": "Old Rafylsa's Shack"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 7716,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 28726,
+                "BuildingType": "House3",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Divad Monument",
-            "MapId": 327000000387,
+            "AnotherName": "Old Rafylsa's Shack",
+            "MapId": 473411,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 184,
     "RegionIndex": 56,

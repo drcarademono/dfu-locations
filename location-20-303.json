@@ -1,104 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Red Giant Tavern",
+    "Name": "The Tosom Mines",
     "RegionName": "Sentinel",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 411000000383,
-        "Latitude": 66600,
-        "Longitude": 49064,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 318108927,
+        "Latitude": 13992,
+        "Longitude": 51112,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12564480,
-                "Y": 13481985,
+                "X": 13088768,
+                "Y": 3586049,
                 "IsExterior": 32768,
-                "Unknown2": 218,
-                "LocationId": 26066,
+                "Unknown2": 303,
+                "LocationId": 26297,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Red Giant Tavern"
+                "LocationName": "The Tosom Mines"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 14857,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 26066,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 21868,
-                "FactionId": 0,
-                "Sector": 11,
-                "LocationId": 26066,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 23751,
-                "FactionId": 510,
-                "Sector": 19,
-                "LocationId": 26066,
-                "BuildingType": 1,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 22169,
-                "FactionId": 510,
-                "Sector": 30,
-                "LocationId": 26066,
-                "BuildingType": 15,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "22169",
-            "MapId": 411000000383,
+            "AnotherName": "The Tosom Mines",
+            "MapId": 390399,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS02.RMB"
+                "DUNGAA11.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 13088768,
+                "Y": 3586049,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 51,
+                "LocationId": 26298,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26297,
+                "LocationName": "The Tosom Mines"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

@@ -1,98 +1,90 @@
 {
     "Loaded": true,
-    "Name": "The Hole of Gerilasuna",
+    "Name": "Ruins of Copperfield Hall",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 578000000803,
-        "Latitude": 45224,
-        "Longitude": 102824,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 1811061704,
+        "Latitude": 42152,
+        "Longitude": 121896,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26327040,
-                "Y": 18954241,
+                "X": 31209472,
+                "Y": 10795009,
                 "IsExterior": 32768,
-                "Unknown2": 375,
-                "LocationId": 11407,
+                "Unknown2": 1727,
+                "LocationId": 19930,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hole of Gerilasuna"
+                "LocationName": "Ruins of Copperfield Hall"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Hole of Gerilasuna",
-            "MapId": 578000000803,
+            "AnotherName": "Ruins of Copperfield Hall",
+            "MapId": 170952,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA06.RMB"
+                "RUINAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 21510144,
-                "Y": 15448065,
+                "X": 31209472,
+                "Y": 10795009,
                 "IsExterior": 0,
-                "Unknown2": 142,
-                "LocationId": 11408,
+                "Unknown2": 650,
+                "LocationId": 19931,
                 "IsInterior": 1,
-                "ExteriorLocationId": 11407,
-                "LocationName": "The Hole of Gerilasuna"
+                "ExteriorLocationId": 19930,
+                "LocationName": "Ruins of Copperfield Hall"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 12
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000073.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000029.RDB",
+                "BlockName": "N0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -103,34 +95,18 @@
                 "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
             }
         ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

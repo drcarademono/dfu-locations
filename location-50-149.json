@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Northoth",
+    "Name": "The Drurock Web",
     "RegionName": "Satakalaam",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 288000000787,
-        "Latitude": 82344,
-        "Longitude": 100776,
-        "LocationType": 4,
-        "DungeonType": 13,
+        "MapId": 156554628,
+        "Latitude": 23464,
+        "Longitude": 102952,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "SpiderNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25802752,
-                "Y": 9451521,
+                "X": 26359808,
+                "Y": 6010881,
                 "IsExterior": 32768,
-                "Unknown2": 31,
-                "LocationId": 22947,
+                "Unknown2": 149,
+                "LocationId": 23674,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Northoth"
+                "LocationName": "The Drurock Web"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Northoth",
-            "MapId": 288000000787,
+            "AnotherName": "The Drurock Web",
+            "MapId": 316804,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA02.RMB"
+                "DUNGAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 25802752,
-                "Y": 6928385,
+                "X": 26359808,
+                "Y": 6010881,
                 "IsExterior": 0,
-                "Unknown2": 10,
-                "LocationId": 22948,
+                "Unknown2": 37,
+                "LocationId": 23675,
                 "IsInterior": 1,
-                "ExteriorLocationId": 22947,
-                "LocationName": "Northoth"
+                "ExteriorLocationId": 23674,
+                "LocationName": "The Drurock Web"
             }
         },
         "Header": {
@@ -57,26 +57,34 @@
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000030.RDB",
+                "BlockName": "N0000048.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,39 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 178,
     "RegionIndex": 50,

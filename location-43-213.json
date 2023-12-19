@@ -1,66 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Flying Goat Pub",
+    "Name": "The Cort Farmstead",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 441000000171,
-        "Latitude": 62760,
-        "Longitude": 21928,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 223843833,
+        "Latitude": 296,
+        "Longitude": 18600,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5617664,
-                "Y": 14465025,
+                "X": 4765696,
+                "Y": 79873,
                 "IsExterior": 32768,
-                "Unknown2": 26,
-                "LocationId": 28434,
+                "Unknown2": 213,
+                "LocationId": 29416,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Flying Goat Pub"
+                "LocationName": "The Cort Farmstead"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 19102,
+                "NameSeed": 1233,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28434,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 24572,
-                "FactionId": 510,
-                "Sector": 11,
-                "LocationId": 28434,
-                "BuildingType": 17,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 26388,
-                "FactionId": 510,
-                "Sector": 24,
-                "LocationId": 28434,
-                "BuildingType": 15,
-                "Quality": 5
+                "LocationId": 29416,
+                "BuildingType": "House2",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "26388",
-            "MapId": 441000000171,
+            "AnotherName": "The Cort Farmstead",
+            "MapId": 497145,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS03.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
@@ -84,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

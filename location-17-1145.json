@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Old Lysyvyra's Shack",
+    "Name": "The Tower of Buckinghart",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 714000000294,
-        "Latitude": 27816,
-        "Longitude": 37672,
-        "LocationType": 11,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 1200827710,
+        "Latitude": 37288,
+        "Longitude": 24360,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "GiantStronghold",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9648128,
-                "Y": 23410689,
+                "X": 6240256,
+                "Y": 9549825,
                 "IsExterior": 32768,
-                "Unknown2": 341,
-                "LocationId": 19621,
+                "Unknown2": 1145,
+                "LocationId": 21516,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Lysyvyra's Shack"
+                "LocationName": "The Tower of Buckinghart"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 8587,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 19621,
-                "BuildingType": 19,
-                "Quality": 15
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Lysyvyra's Shack",
-            "MapId": 714000000294,
+            "AnotherName": "The Tower of Buckinghart",
+            "MapId": 208190,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "CASTAA24.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 6240256,
+                "Y": 9549825,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 227,
+                "LocationId": 21517,
+                "IsInterior": 1,
+                "ExteriorLocationId": 21516,
+                "LocationName": "The Tower of Buckinghart"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000015.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

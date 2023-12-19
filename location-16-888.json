@@ -1,71 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Reliquary of Sai",
+    "Name": "The Hold of Hawkford",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 438000001068,
-        "Latitude": 63144,
-        "Longitude": 136744,
-        "LocationType": 9,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 931204432,
+        "Latitude": 55208,
+        "Longitude": 120872,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 35010560,
-                "Y": 14366721,
+                "X": 30947328,
+                "Y": 14137345,
                 "IsExterior": 32768,
-                "Unknown2": 248,
-                "LocationId": 10824,
+                "Unknown2": 888,
+                "LocationId": 13726,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Reliquary of Sai"
+                "LocationName": "The Hold of Hawkford"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Reliquary of Sai",
-            "MapId": 438000001068,
+            "AnotherName": "The Hold of Hawkford",
+            "MapId": 68944,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "CASTAA10.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 30947328,
+                "Y": 14137345,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 313,
+                "LocationId": 13727,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13726,
+                "LocationName": "The Hold of Hawkford"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000015.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

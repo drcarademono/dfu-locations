@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Old Maarhtfa's Shack",
+    "Name": "Glosun Hall",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 172000000871,
-        "Latitude": 97192,
-        "Longitude": 111528,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 223684515,
+        "Latitude": 20776,
+        "Longitude": 105896,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28555264,
-                "Y": 5650433,
+                "X": 27113472,
+                "Y": 5322753,
                 "IsExterior": 32768,
-                "Unknown2": 341,
-                "LocationId": 24640,
+                "Unknown2": 213,
+                "LocationId": 24331,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Maarhtfa's Shack"
+                "LocationName": "Glosun Hall"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 1868,
+                "NameSeed": 10739,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 24640,
-                "BuildingType": 19,
-                "Quality": 7
+                "LocationId": 24331,
+                "BuildingType": "House1",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 7758,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 24331,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 6108,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 24331,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 27511,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 24331,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 5978,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 24331,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 29870,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 24331,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 4113,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 24331,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 30916,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 24331,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 11873,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 24331,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 14514,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 24331,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 27141,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 24331,
+                "BuildingType": "Tavern",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Maarhtfa's Shack",
-            "MapId": 172000000871,
+            "AnotherName": "Glosun Hall",
+            "MapId": 337827,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 2,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

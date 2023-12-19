@@ -1,178 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Bleeding Prophet of Zenithar",
+    "Name": "The T'ash Farmstead",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 240000000719,
-        "Latitude": 88488,
-        "Longitude": 92072,
-        "LocationType": 5,
-        "DungeonType": 255,
+        "MapId": 745907383,
+        "Latitude": 16680,
+        "Longitude": 108456,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 128
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23574528,
-                "Y": 7878657,
+                "X": 27768832,
+                "Y": 4274177,
                 "IsExterior": 32768,
-                "Unknown2": 606,
-                "LocationId": 25275,
+                "Unknown2": 711,
+                "LocationId": 25543,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Bleeding Prophet of Zenithar"
+                "LocationName": "The T'ash Farmstead"
             }
         },
-        "BuildingCount": 17,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 16653,
+                "NameSeed": 17688,
                 "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 25275,
-                "BuildingType": 19,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 31777,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 1712,
-                "FactionId": 0,
-                "Sector": 13,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 11512,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 8640,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 25275,
-                "BuildingType": 19,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 1562,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 24185,
-                "FactionId": 0,
-                "Sector": 43,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 15392,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 3659,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 24678,
-                "FactionId": 0,
-                "Sector": 65,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 8681,
-                "FactionId": 0,
-                "Sector": 75,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 10246,
-                "FactionId": 0,
-                "Sector": 83,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 31307,
-                "FactionId": 0,
-                "Sector": 87,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 7156,
-                "FactionId": 0,
-                "Sector": 90,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 8207,
-                "FactionId": 0,
-                "Sector": 100,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 939,
-                "FactionId": 0,
-                "Sector": 113,
-                "LocationId": 25275,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 30303,
-                "FactionId": 22,
-                "Sector": 121,
-                "LocationId": 25275,
-                "BuildingType": 14,
-                "Quality": 12
+                "Sector": 10,
+                "LocationId": 25543,
+                "BuildingType": "House2",
+                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Bleeding Prophet of Zenithar",
-            "MapId": 240000000719,
+            "AnotherName": "The T'ash Farmstead",
+            "MapId": 369847,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAB0.RMB"
+                "FARMAA00.RMB"
             ]
         }
     },
@@ -196,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

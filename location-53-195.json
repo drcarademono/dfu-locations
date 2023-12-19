@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Sactem Hall",
+    "Name": "The Fhectten Farmstead",
     "RegionName": "Ephesus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 134000000760,
-        "Latitude": 102056,
-        "Longitude": 97320,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 204940220,
+        "Latitude": 4136,
+        "Longitude": 115240,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24918016,
-                "Y": 4405249,
+                "X": 29505536,
+                "Y": 1062913,
                 "IsExterior": 32768,
-                "Unknown2": 43,
-                "LocationId": 27649,
+                "Unknown2": 195,
+                "LocationId": 28551,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Sactem Hall"
+                "LocationName": "The Fhectten Farmstead"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 24285,
+                "NameSeed": 10998,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27649,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 20280,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 27649,
-                "BuildingType": 18,
+                "LocationId": 28551,
+                "BuildingType": "House2",
                 "Quality": 8
-            },
-            {
-                "NameSeed": 12947,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 27649,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 2636,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 27649,
-                "BuildingType": 19,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 15651,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 27649,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 28365,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 27649,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 5142,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 27649,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 21137,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 27649,
-                "BuildingType": 15,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 31013,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 27649,
-                "BuildingType": 17,
-                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Sactem Hall",
-            "MapId": 134000000760,
+            "AnotherName": "The Fhectten Farmstead",
+            "MapId": 467900,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "FARMAA02.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 181,
     "RegionIndex": 53,

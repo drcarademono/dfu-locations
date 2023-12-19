@@ -1,41 +1,41 @@
 {
     "Loaded": true,
-    "Name": "Yeomton Tower",
+    "Name": "The Cabal of Gwynona",
     "RegionName": "Betony",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 643000000218,
-        "Latitude": 36904,
-        "Longitude": 27944,
-        "LocationType": 7,
-        "DungeonType": 0,
+        "MapId": 11795453,
+        "Latitude": 30504,
+        "Longitude": 15016,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Coven",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 7157760,
-                "Y": 21084161,
+                "X": 3848192,
+                "Y": 7813121,
                 "IsExterior": 32768,
-                "Unknown2": 17,
-                "LocationId": 22689,
+                "Unknown2": 11,
+                "LocationId": 22647,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Yeomton Tower"
+                "LocationName": "The Cabal of Gwynona"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Yeomton Tower",
-            "MapId": 643000000218,
+            "AnotherName": "The Cabal of Gwynona",
+            "MapId": 261117,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA27.RMB"
+                "DUNGAA11.RMB"
             ]
         }
     },
@@ -43,118 +43,54 @@
         "RecordElement": {
             "Header": {
                 "X": 3848192,
-                "Y": 7682049,
+                "Y": 7813121,
                 "IsExterior": 0,
-                "Unknown2": 5,
-                "LocationId": 22690,
+                "Unknown2": 2,
+                "LocationId": 22648,
                 "IsInterior": 1,
-                "ExteriorLocationId": 22689,
-                "LocationName": "Yeomton Tower"
+                "ExteriorLocationId": 22647,
+                "LocationName": "The Cabal of Gwynona"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 11
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000041.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000024.RDB",
+                "BlockName": "N0000045.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
                 "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000042.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 147,
     "RegionIndex": 19,

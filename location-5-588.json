@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Vladulus Hall",
+    "Name": "Ruins of Copperhart Manor",
     "RegionName": "Dwynnen",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 630000000720,
-        "Latitude": 38568,
-        "Longitude": 92200,
-        "LocationType": 4,
-        "DungeonType": 8,
+        "MapId": 616661214,
+        "Latitude": 51368,
+        "Longitude": 67368,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Crypt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23607296,
-                "Y": 20658177,
+                "X": 17250304,
+                "Y": 13154305,
                 "IsExterior": 32768,
-                "Unknown2": 78,
-                "LocationId": 11246,
+                "Unknown2": 588,
+                "LocationId": 15723,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Vladulus Hall"
+                "LocationName": "Ruins of Copperhart Manor"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Vladulus Hall",
-            "MapId": 630000000720,
+            "AnotherName": "Ruins of Copperhart Manor",
+            "MapId": 98526,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA16.RMB"
+                "RUINAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18298880,
-                "Y": 15546369,
+                "X": 17250304,
+                "Y": 13154305,
                 "IsExterior": 0,
-                "Unknown2": 12,
-                "LocationId": 11247,
+                "Unknown2": 105,
+                "LocationId": 15724,
                 "IsInterior": 1,
-                "ExteriorLocationId": 11246,
-                "LocationName": "Vladulus Hall"
+                "ExteriorLocationId": 15723,
+                "LocationName": "Ruins of Copperhart Manor"
             }
         },
         "Header": {
@@ -57,42 +57,34 @@
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000056.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000004.RDB",
+                "BlockName": "N0000051.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,23 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

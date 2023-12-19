@@ -1,162 +1,82 @@
 {
     "Loaded": true,
-    "Name": "The Tower of Buckington",
+    "Name": "Gaerwing's Guard",
     "RegionName": "Wayrest",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 230000000945,
-        "Latitude": 89768,
-        "Longitude": 121000,
-        "LocationType": 7,
-        "DungeonType": 11,
+        "MapId": 58912152,
+        "Latitude": 39464,
+        "Longitude": 114728,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "RuinedCastle",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30980096,
-                "Y": 7550977,
+                "X": 29374464,
+                "Y": 10106881,
                 "IsExterior": 32768,
-                "Unknown2": 793,
-                "LocationId": 22630,
+                "Unknown2": 56,
+                "LocationId": 20771,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tower of Buckington"
+                "LocationName": "Gaerwing's Guard"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Tower of Buckington",
-            "MapId": 230000000945,
+            "AnotherName": "Gaerwing's Guard",
+            "MapId": 191896,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA05.RMB"
+                "CASTAA27.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31242240,
-                "Y": 7878657,
+                "X": 29374464,
+                "Y": 10106881,
                 "IsExterior": 0,
-                "Unknown2": 174,
-                "LocationId": 22631,
+                "Unknown2": 12,
+                "LocationId": 20772,
                 "IsInterior": 1,
-                "ExteriorLocationId": 22630,
-                "LocationName": "The Tower of Buckington"
+                "ExteriorLocationId": 20771,
+                "LocationName": "Gaerwing's Guard"
             }
         },
         "Header": {
-            "BlockCount": 14
+            "BlockCount": 11
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": -4,
+                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "N0000040.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000084.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000065.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000065.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
                 "IsStartingBlock": false,
                 "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -167,18 +87,26 @@
                 "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

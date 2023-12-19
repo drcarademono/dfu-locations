@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Wickcroft Graveyard",
+    "Name": "Ruins of Castle Wickford",
     "RegionName": "Urvaius",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 595000000601,
-        "Latitude": 43048,
-        "Longitude": 76968,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 48290956,
+        "Latitude": 56744,
+        "Longitude": 58920,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19707904,
-                "Y": 19511297,
+                "X": 15087616,
+                "Y": 14530561,
                 "IsExterior": 32768,
-                "Unknown2": 228,
-                "LocationId": 16853,
+                "Unknown2": 46,
+                "LocationId": 12992,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Wickcroft Graveyard"
+                "LocationName": "Ruins of Castle Wickford"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Wickcroft Graveyard",
-            "MapId": 595000000601,
+            "AnotherName": "Ruins of Castle Wickford",
+            "MapId": 56460,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS37.RMB"
+                "RUINAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 15513600,
-                "Y": 12597249,
+                "X": 15087616,
+                "Y": 14530561,
                 "IsExterior": 0,
-                "Unknown2": 54,
-                "LocationId": 16854,
+                "Unknown2": 11,
+                "LocationId": 12993,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16853,
-                "LocationName": "The Wickcroft Graveyard"
+                "ExteriorLocationId": 12992,
+                "LocationName": "Ruins of Castle Wickford"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 13
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -95,18 +87,26 @@
                 "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
             }
         ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 167,
     "RegionIndex": 39,

@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Pit of Geryon",
+    "Name": "Ruins of Hearthhouse's Guard",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 448000000859,
-        "Latitude": 61864,
-        "Longitude": 109992,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 1030829169,
+        "Latitude": 53928,
+        "Longitude": 123048,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28162048,
-                "Y": 14694401,
+                "X": 31504384,
+                "Y": 13809665,
                 "IsExterior": 32768,
-                "Unknown2": 1364,
-                "LocationId": 16760,
+                "Unknown2": 983,
+                "LocationId": 14416,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Pit of Geryon"
+                "LocationName": "Ruins of Hearthhouse's Guard"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Pit of Geryon",
-            "MapId": 448000000859,
+            "AnotherName": "Ruins of Hearthhouse's Guard",
+            "MapId": 78961,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA03.RMB"
+                "RUINAA21.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 25245696,
-                "Y": 12662785,
+                "X": 31504384,
+                "Y": 13809665,
                 "IsExterior": 0,
-                "Unknown2": 504,
-                "LocationId": 16761,
+                "Unknown2": 356,
+                "LocationId": 14417,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16760,
-                "LocationName": "The Pit of Geryon"
+                "ExteriorLocationId": 14416,
+                "LocationName": "Ruins of Hearthhouse's Guard"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 14
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000071.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,47 +68,31 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
                 "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000089.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

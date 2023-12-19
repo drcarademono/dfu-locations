@@ -1,112 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Pig and Muskrat Lodge",
+    "Name": "The Hold of Raerct",
     "RegionName": "Tigonus",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 385000000485,
-        "Latitude": 69928,
-        "Longitude": 62120,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 244670793,
+        "Latitude": 18856,
+        "Longitude": 74920,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "SpiderNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15906816,
-                "Y": 12630017,
+                "X": 19183616,
+                "Y": 4831233,
                 "IsExterior": 32768,
-                "Unknown2": 241,
-                "LocationId": 24945,
+                "Unknown2": 233,
+                "LocationId": 24841,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Pig and Muskrat Lodge"
+                "LocationName": "The Hold of Raerct"
             }
         },
-        "BuildingCount": 5,
-        "Buildings": [
-            {
-                "NameSeed": 6302,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 24945,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 29226,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 24945,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 17711,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 24945,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 29034,
-                "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 24945,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 19822,
-                "FactionId": 510,
-                "Sector": 23,
-                "LocationId": 24945,
-                "BuildingType": 15,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "19822",
-            "MapId": 385000000485,
+            "AnotherName": "The Hold of Raerct",
+            "MapId": 352585,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS01.RMB"
+                "CASTAA16.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 19183616,
+                "Y": 4831233,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 63,
+                "LocationId": 24842,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24841,
+                "LocationName": "The Hold of Raerct"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 14
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

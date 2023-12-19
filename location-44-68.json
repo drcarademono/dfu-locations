@@ -1,104 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Mijke Manor",
+    "Name": "The Gerexulla Hermitage",
     "RegionName": "Kairou",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 433000000245,
-        "Latitude": 63784,
-        "Longitude": 31400,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 71752409,
+        "Latitude": 6440,
+        "Longitude": 30888,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "DesecratedTemple",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8042496,
-                "Y": 14202881,
+                "X": 7911424,
+                "Y": 1652737,
                 "IsExterior": 32768,
-                "Unknown2": 22,
-                "LocationId": 27599,
+                "Unknown2": 68,
+                "LocationId": 28021,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Mijke Manor"
+                "LocationName": "The Gerexulla Hermitage"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 15562,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27599,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 29812,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 27599,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 4564,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 27599,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 25560,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 27599,
-                "BuildingType": 17,
-                "Quality": 7
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Mijke Manor",
-            "MapId": 433000000245,
+            "AnotherName": "The Gerexulla Hermitage",
+            "MapId": 449241,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "DUNGAA18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 7911424,
+                "Y": 1652737,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 12,
+                "LocationId": 28022,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28021,
+                "LocationName": "The Gerexulla Hermitage"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000051.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 172,
     "RegionIndex": 44,

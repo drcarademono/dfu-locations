@@ -1,138 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Wicking Palace",
+    "Name": "The Gromlath Nest",
     "RegionName": "Anticlere",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 613000000467,
-        "Latitude": 40744,
-        "Longitude": 59816,
-        "LocationType": 10,
-        "DungeonType": 7,
+        "MapId": 544373332,
+        "Latitude": 43176,
+        "Longitude": 49704,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "SpiderNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15316992,
-                "Y": 20101121,
+                "X": 12728320,
+                "Y": 11057153,
                 "IsExterior": 32768,
-                "Unknown2": 568,
-                "LocationId": 19692,
+                "Unknown2": 519,
+                "LocationId": 19452,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Wicking Palace"
+                "LocationName": "The Gromlath Nest"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Wicking Palace",
-            "MapId": 613000000467,
+            "AnotherName": "The Gromlath Nest",
+            "MapId": 162388,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA16.RMB"
+                "DUNGAA04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 11384832,
-                "Y": 10926081,
+                "X": 12728320,
+                "Y": 11057153,
                 "IsExterior": 0,
-                "Unknown2": 138,
-                "LocationId": 19693,
+                "Unknown2": 126,
+                "LocationId": 19453,
                 "IsInterior": 1,
-                "ExteriorLocationId": 19692,
-                "LocationName": "Ruins of Wicking Palace"
+                "ExteriorLocationId": 19452,
+                "LocationName": "The Gromlath Nest"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 10
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000089.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000029.RDB",
+                "BlockName": "N0000044.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000006.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": 2,
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -140,15 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -156,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

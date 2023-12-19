@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Jubebras Grotto",
+    "Name": "Ruins of The Old Chighten Shack",
     "RegionName": "Totambu",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 211000000766,
-        "Latitude": 92200,
-        "Longitude": 98088,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 493185634,
+        "Latitude": 18600,
+        "Longitude": 117032,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "OrcStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25114624,
-                "Y": 6928385,
+                "X": 29964288,
+                "Y": 4765697,
                 "IsExterior": 32768,
-                "Unknown2": 647,
-                "LocationId": 25373,
+                "Unknown2": 470,
+                "LocationId": 24933,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Jubebras Grotto"
+                "LocationName": "Ruins of The Old Chighten Shack"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Jubebras Grotto",
-            "MapId": 211000000766,
+            "AnotherName": "Ruins of The Old Chighten Shack",
+            "MapId": 354914,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA12.RMB"
+                "RUINAA18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 26490880,
-                "Y": 4405249,
+                "X": 29964288,
+                "Y": 4765697,
                 "IsExterior": 0,
-                "Unknown2": 172,
-                "LocationId": 25374,
+                "Unknown2": 122,
+                "LocationId": 24934,
                 "IsInterior": 1,
-                "ExteriorLocationId": 25373,
-                "LocationName": "The Jubebras Grotto"
+                "ExteriorLocationId": 24933,
+                "LocationName": "Ruins of The Old Chighten Shack"
             }
         },
         "Header": {
@@ -57,42 +57,34 @@
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000014.RDB",
+                "BlockName": "N0000071.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,39 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000024.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

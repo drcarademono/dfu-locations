@@ -1,50 +1,114 @@
 {
     "Loaded": true,
-    "Name": "Old Rlugsa's Place",
+    "Name": "Gorcrn Hall",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 151000000862,
-        "Latitude": 99880,
-        "Longitude": 110376,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 82116717,
+        "Latitude": 22056,
+        "Longitude": 101032,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28260352,
-                "Y": 4962305,
+                "X": 25868288,
+                "Y": 5650433,
                 "IsExterior": 32768,
-                "Unknown2": 714,
-                "LocationId": 25547,
+                "Unknown2": 78,
+                "LocationId": 23997,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Rlugsa's Place"
+                "LocationName": "Gorcrn Hall"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 15047,
+                "NameSeed": 19234,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25547,
-                "BuildingType": 19,
-                "Quality": 13
+                "LocationId": 23997,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 11987,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 23997,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 7908,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 23997,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 26203,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 23997,
+                "BuildingType": "House3",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 10721,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 23997,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 7846,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 23997,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 27833,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 23997,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 24407,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 23997,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 12612,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 23997,
+                "BuildingType": "House1",
+                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Rlugsa's Place",
-            "MapId": 151000000862,
+            "AnotherName": "Gorcrn Hall",
+            "MapId": 327789,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -68,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

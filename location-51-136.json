@@ -1,35 +1,35 @@
 {
     "Loaded": true,
-    "Name": "The Hold of Kirp",
+    "Name": "Mathim Tower",
     "RegionName": "Totambu",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 162000000850,
-        "Latitude": 98472,
-        "Longitude": 108840,
-        "LocationType": 7,
-        "DungeonType": 4,
+        "MapId": 142939129,
+        "Latitude": 21416,
+        "Longitude": 101544,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "DesecratedTemple",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27867136,
-                "Y": 5322753,
+                "X": 25999360,
+                "Y": 5486593,
                 "IsExterior": 32768,
-                "Unknown2": 656,
-                "LocationId": 25383,
+                "Unknown2": 136,
+                "LocationId": 24144,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hold of Kirp"
+                "LocationName": "Mathim Tower"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Hold of Kirp",
-            "MapId": 162000000850,
+            "AnotherName": "Mathim Tower",
+            "MapId": 332793,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
@@ -42,81 +42,41 @@
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 29669376,
-                "Y": 4405249,
+                "X": 25999360,
+                "Y": 5486593,
                 "IsExterior": 0,
-                "Unknown2": 173,
-                "LocationId": 25384,
+                "Unknown2": 34,
+                "LocationId": 24145,
                 "IsInterior": 1,
-                "ExteriorLocationId": 25383,
-                "LocationName": "The Hold of Kirp"
+                "ExteriorLocationId": 24144,
+                "LocationName": "Mathim Tower"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 8
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000037.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000004.RDB",
+                "BlockName": "W0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000045.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": 2,
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -124,15 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

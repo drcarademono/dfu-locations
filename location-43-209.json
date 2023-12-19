@@ -1,50 +1,74 @@
 {
     "Loaded": true,
-    "Name": "Shuchim Grange",
+    "Name": "The Restless Mug Hostel",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 440000000173,
-        "Latitude": 62888,
-        "Longitude": 22184,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 219648564,
+        "Latitude": 424,
+        "Longitude": 23080,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5683200,
-                "Y": 14432257,
+                "X": 5912576,
+                "Y": 112641,
                 "IsExterior": 32768,
-                "Unknown2": 27,
-                "LocationId": 28435,
+                "Unknown2": 209,
+                "LocationId": 29401,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shuchim Grange"
+                "LocationName": "The Restless Mug Hostel"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 20323,
-                "FactionId": 0,
+                "NameSeed": 29749,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 28435,
-                "BuildingType": 18,
-                "Quality": 15
+                "LocationId": 29401,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 30445,
+                "FactionId": 0,
+                "Sector": 18,
+                "LocationId": 29401,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 7721,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 29401,
+                "BuildingType": "House4",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 12174,
+                "FactionId": 0,
+                "Sector": 37,
+                "LocationId": 29401,
+                "BuildingType": "House4",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Shuchim Grange",
-            "MapId": 440000000173,
+            "AnotherName": "29749",
+            "MapId": 496180,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA04.RMB"
+                "TVRNGS00.RMB"
             ]
         }
     },
@@ -68,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

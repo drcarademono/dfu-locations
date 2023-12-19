@@ -1,152 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Cabal of Elorya",
+    "Name": "Old Vyctanna's Shack",
     "RegionName": "Daggerfall",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 665000000309,
-        "Latitude": 34088,
-        "Longitude": 39592,
-        "LocationType": 4,
-        "DungeonType": 7,
-        "Discovered": false,
+        "MapId": 585282531,
+        "Latitude": 41256,
+        "Longitude": 15784,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10139648,
-                "Y": 21805057,
+                "X": 4044800,
+                "Y": 10565633,
                 "IsExterior": 32768,
-                "Unknown2": 999,
-                "LocationId": 21171,
+                "Unknown2": 558,
+                "LocationId": 20178,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Cabal of Elorya"
+                "LocationName": "Old Vyctanna's Shack"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 4140,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 20178,
+                "BuildingType": "House3",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Cabal of Elorya",
-            "MapId": 665000000309,
+            "AnotherName": "Old Vyctanna's Shack",
+            "MapId": 177123,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA02.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 6076416,
-                "Y": 9811969,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 195,
-                "LocationId": 21172,
-                "IsInterior": 1,
-                "ExteriorLocationId": 21171,
-                "LocationName": "The Cabal of Elorya"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000061.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

@@ -1,98 +1,90 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Old Ashsly Hovel",
+    "Name": "Ruins of Woodham Tower",
     "RegionName": "Ilessan Hills",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 711000000433,
-        "Latitude": 28200,
-        "Longitude": 55464,
-        "LocationType": 10,
-        "DungeonType": 7,
+        "MapId": 236006804,
+        "Latitude": 54056,
+        "Longitude": 26152,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "GiantStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14202880,
-                "Y": 23312385,
+                "X": 6699008,
+                "Y": 13842433,
                 "IsExterior": 32768,
-                "Unknown2": 451,
-                "LocationId": 15706,
+                "Unknown2": 225,
+                "LocationId": 14288,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Old Ashsly Hovel"
+                "LocationName": "Ruins of Woodham Tower"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Old Ashsly Hovel",
-            "MapId": 711000000433,
+            "AnotherName": "Ruins of Woodham Tower",
+            "MapId": 77204,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA03.RMB"
+                "RUINAA15.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 8828928,
-                "Y": 13154305,
+                "X": 6699008,
+                "Y": 13842433,
                 "IsExterior": 0,
-                "Unknown2": 173,
-                "LocationId": 15707,
+                "Unknown2": 85,
+                "LocationId": 14289,
                 "IsInterior": 1,
-                "ExteriorLocationId": 15706,
-                "LocationName": "Ruins of The Old Ashsly Hovel"
+                "ExteriorLocationId": 14288,
+                "LocationName": "Ruins of Woodham Tower"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 11
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000004.RDB",
+                "BlockName": "N0000054.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,39 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

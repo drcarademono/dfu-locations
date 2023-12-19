@@ -1,112 +1,96 @@
 {
     "Loaded": true,
-    "Name": "The Khallrn Cemetery",
+    "Name": "The Dwarf and Guard Tavern",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 342000000274,
-        "Latitude": 75432,
-        "Longitude": 35112,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 205977264,
+        "Latitude": 5544,
+        "Longitude": 47144,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8992768,
-                "Y": 11220993,
+                "X": 12072960,
+                "Y": 1423361,
                 "IsExterior": 32768,
-                "Unknown2": 336,
-                "LocationId": 29427,
+                "Unknown2": 196,
+                "LocationId": 28231,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Khallrn Cemetery"
+                "LocationName": "The Dwarf and Guard Tavern"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 3,
+        "Buildings": [
+            {
+                "NameSeed": 26852,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 28231,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 8529,
+                "FactionId": 0,
+                "Sector": 14,
+                "LocationId": 28231,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 1005,
+                "FactionId": 510,
+                "Sector": 20,
+                "LocationId": 28231,
+                "BuildingType": "Tavern",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Khallrn Cemetery",
-            "MapId": 342000000274,
+            "AnotherName": "1005",
+            "MapId": 456368,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS19.RMB"
+                "TVRNBS04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 10369024,
-                "Y": 79873,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 149,
-                "LocationId": 29428,
-                "IsInterior": 1,
-                "ExteriorLocationId": 29427,
-                "LocationName": "The Khallrn Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

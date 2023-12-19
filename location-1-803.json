@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Castle Flarcke",
+    "Name": "The Grison Quarry",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 318000000638,
-        "Latitude": 78504,
-        "Longitude": 81704,
-        "LocationType": 7,
-        "DungeonType": 5,
+        "MapId": 842485460,
+        "Latitude": 2728,
+        "Longitude": 119336,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20920320,
-                "Y": 10434561,
+                "X": 30554112,
+                "Y": 702465,
                 "IsExterior": 32768,
-                "Unknown2": 107,
-                "LocationId": 24287,
+                "Unknown2": 803,
+                "LocationId": 28913,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle Flarcke"
+                "LocationName": "The Grison Quarry"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Castle Flarcke",
-            "MapId": 318000000638,
+            "AnotherName": "The Grison Quarry",
+            "MapId": 478932,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA11.RMB"
+                "DUNGAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 21084160,
-                "Y": 5355521,
+                "X": 30554112,
+                "Y": 702465,
                 "IsExterior": 0,
-                "Unknown2": 26,
-                "LocationId": 24288,
+                "Unknown2": 270,
+                "LocationId": 28914,
                 "IsInterior": 1,
-                "ExteriorLocationId": 24287,
-                "LocationName": "Castle Flarcke"
+                "ExteriorLocationId": 28913,
+                "LocationName": "The Grison Quarry"
             }
         },
         "Header": {
@@ -57,10 +57,10 @@
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -73,50 +73,26 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000057.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 2,
-                "Z": 0,
+                "X": 0,
+                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

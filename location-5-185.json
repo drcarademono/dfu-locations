@@ -1,50 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Wooding Plantation",
+    "Name": "Copperfield Manor",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 580000000668,
-        "Latitude": 44968,
-        "Longitude": 85544,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 194025113,
+        "Latitude": 59048,
+        "Longitude": 70824,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21903360,
-                "Y": 19019777,
+                "X": 18135040,
+                "Y": 15120385,
                 "IsExterior": 32768,
-                "Unknown2": 567,
-                "LocationId": 15460,
+                "Unknown2": 185,
+                "LocationId": 11964,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Wooding Plantation"
+                "LocationName": "Copperfield Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 27490,
+                "NameSeed": 24878,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 15460,
-                "BuildingType": 18,
-                "Quality": 12
+                "LocationId": 11964,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 27588,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 11964,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 5439,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 11964,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 13501,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 11964,
+                "BuildingType": "House3",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 27145,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 11964,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 11427,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 11964,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 25386,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 11964,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 25978,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 11964,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 31735,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 11964,
+                "BuildingType": "House1",
+                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Wooding Plantation",
-            "MapId": 580000000668,
+            "AnotherName": "Copperfield Manor",
+            "MapId": 38553,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -68,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

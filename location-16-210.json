@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Kingwing Cemetery",
+    "Name": "The Old Moorton Hovel",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 334000001013,
-        "Latitude": 76456,
-        "Longitude": 129704,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 220216600,
+        "Latitude": 61992,
+        "Longitude": 81960,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33208320,
-                "Y": 10958849,
+                "X": 20985856,
+                "Y": 15874049,
                 "IsExterior": 32768,
-                "Unknown2": 1568,
-                "LocationId": 18005,
+                "Unknown2": 210,
+                "LocationId": 10693,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Kingwing Cemetery"
+                "LocationName": "The Old Moorton Hovel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 30381,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 10693,
+                "BuildingType": "House3",
+                "Quality": 11
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Kingwing Cemetery",
-            "MapId": 334000001013,
+            "AnotherName": "The Old Moorton Hovel",
+            "MapId": 15640,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS16.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31471616,
-                "Y": 11941889,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 587,
-                "LocationId": 18006,
-                "IsInterior": 1,
-                "ExteriorLocationId": 18005,
-                "LocationName": "The Kingwing Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

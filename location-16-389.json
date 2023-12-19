@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The King's Dagger Inn",
+    "Name": "Old Morgara's Farm",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 379000000999,
-        "Latitude": 70696,
-        "Longitude": 127912,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 407925710,
+        "Latitude": 60200,
+        "Longitude": 82728,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 32749568,
-                "Y": 12433409,
+                "X": 21182464,
+                "Y": 15415297,
                 "IsExterior": 32768,
-                "Unknown2": 1255,
-                "LocationId": 16072,
+                "Unknown2": 389,
+                "LocationId": 11460,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The King's Dagger Inn"
+                "LocationName": "Old Morgara's Farm"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 29311,
-                "FactionId": 510,
+                "NameSeed": 4543,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 16072,
-                "BuildingType": 15,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 16133,
-                "FactionId": 510,
-                "Sector": 16,
-                "LocationId": 16072,
-                "BuildingType": 15,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 23669,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 16072,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 497,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 16072,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 26657,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 16072,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 16959,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 16072,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 11038,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 16072,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 32101,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 16072,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 13654,
-                "FactionId": 0,
-                "Sector": 84,
-                "LocationId": 16072,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 3337,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 16072,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18440,
-                "FactionId": 0,
-                "Sector": 96,
-                "LocationId": 16072,
-                "BuildingType": 18,
-                "Quality": 3
+                "LocationId": 11460,
+                "BuildingType": "House2",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "29311",
-            "MapId": 379000000999,
+            "AnotherName": "Old Morgara's Farm",
+            "MapId": 29646,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS04.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

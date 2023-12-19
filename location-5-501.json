@@ -1,112 +1,71 @@
 {
     "Loaded": true,
-    "Name": "The Coppering Graveyard",
+    "Name": "Djen Lodge",
     "RegionName": "Dwynnen",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 619000000652,
-        "Latitude": 39976,
-        "Longitude": 83496,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 525419085,
+        "Latitude": 53416,
+        "Longitude": 65192,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21379072,
-                "Y": 20297729,
+                "X": 16693248,
+                "Y": 13678593,
                 "IsExterior": 32768,
-                "Unknown2": 405,
-                "LocationId": 13691,
+                "Unknown2": 501,
+                "LocationId": 14696,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Coppering Graveyard"
+                "LocationName": "Djen Lodge"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Coppering Graveyard",
-            "MapId": 619000000652,
+            "AnotherName": "Djen Lodge",
+            "MapId": 82509,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS13.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16562176,
-                "Y": 14137345,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 67,
-                "LocationId": 13692,
-                "IsInterior": 1,
-                "ExteriorLocationId": 13691,
-                "LocationName": "The Coppering Graveyard"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

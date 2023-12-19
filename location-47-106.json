@@ -1,74 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Boull Palace",
+    "Name": "Old Cectti's Place",
     "RegionName": "Ayasofya",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 363000000486,
-        "Latitude": 72744,
-        "Longitude": 62248,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 111540558,
+        "Latitude": 13864,
+        "Longitude": 64296,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15939584,
-                "Y": 11909121,
+                "X": 16463872,
+                "Y": 3553281,
                 "IsExterior": 32768,
-                "Unknown2": 42,
-                "LocationId": 25702,
+                "Unknown2": 106,
+                "LocationId": 26336,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Boull Palace"
+                "LocationName": "Old Cectti's Place"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 10609,
+                "NameSeed": 10869,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25702,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 3865,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 25702,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 28474,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 25702,
-                "BuildingType": 18,
+                "LocationId": 26336,
+                "BuildingType": "House3",
                 "Quality": 11
-            },
-            {
-                "NameSeed": 32483,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 25702,
-                "BuildingType": 17,
-                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Boull Palace",
-            "MapId": 363000000486,
+            "AnotherName": "Old Cectti's Place",
+            "MapId": 391502,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -91,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 175,
     "RegionIndex": 47,

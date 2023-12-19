@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Pit of Gerodon",
+    "Name": "Ruins of The Shirkim Farmstead",
     "RegionName": "Dak'fron",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 278000000453,
-        "Latitude": 83624,
-        "Longitude": 58024,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 203922349,
+        "Latitude": 168,
+        "Longitude": 77480,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "RuinedCastle",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14858240,
-                "Y": 9123841,
+                "X": 19838976,
+                "Y": 47105,
                 "IsExterior": 32768,
-                "Unknown2": 59,
-                "LocationId": 28450,
+                "Unknown2": 194,
+                "LocationId": 29474,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Pit of Gerodon"
+                "LocationName": "Ruins of The Shirkim Farmstead"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Pit of Gerodon",
-            "MapId": 278000000453,
+            "AnotherName": "Ruins of The Shirkim Farmstead",
+            "MapId": 498605,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA15.RMB"
+                "RUINAA25.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16496640,
-                "Y": 1193985,
+                "X": 19838976,
+                "Y": 47105,
                 "IsExterior": 0,
-                "Unknown2": 40,
-                "LocationId": 28451,
+                "Unknown2": 126,
+                "LocationId": 29475,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28450,
-                "LocationName": "The Pit of Gerodon"
+                "ExteriorLocationId": 29474,
+                "LocationName": "Ruins of The Shirkim Farmstead"
             }
         },
         "Header": {
@@ -57,26 +57,34 @@
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000082.RDB",
+                "BlockName": "N0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,55 +92,23 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 225,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
-    "Politic": 128,
+    "Politic": 139,
     "RegionIndex": 11,
     "LocationIndex": 194
 }

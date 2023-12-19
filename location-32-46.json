@@ -1,50 +1,41 @@
 {
     "Loaded": true,
-    "Name": "Wicksly Orchard",
+    "Name": "Shrine of Jone",
     "RegionName": "Northmoor",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 764000000428,
-        "Latitude": 21416,
-        "Longitude": 54824,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 48247738,
+        "Latitude": 62248,
+        "Longitude": 31016,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14039040,
-                "Y": 25049089,
+                "X": 7944192,
+                "Y": 15939585,
                 "IsExterior": 32768,
-                "Unknown2": 304,
-                "LocationId": 12924,
+                "Unknown2": 46,
+                "LocationId": 10547,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Wicksly Orchard"
+                "LocationName": "Shrine of Jone"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 1657,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 12924,
-                "BuildingType": 18,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Wicksly Orchard",
-            "MapId": 764000000428,
+            "AnotherName": "Shrine of Jone",
+            "MapId": 13242,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA03.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -68,13 +59,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 160,
     "RegionIndex": 32,

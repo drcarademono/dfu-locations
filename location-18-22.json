@@ -1,98 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Morivus Hall",
+    "Name": "The Coppering Graveyard",
     "RegionName": "Glenpoint",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 704000000375,
-        "Latitude": 29096,
-        "Longitude": 48040,
-        "LocationType": 4,
-        "DungeonType": 8,
-        "Discovered": false,
+        "MapId": 23143854,
+        "Latitude": 54312,
+        "Longitude": 23336,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12302336,
-                "Y": 23083009,
+                "X": 5978112,
+                "Y": 13907969,
                 "IsExterior": 32768,
-                "Unknown2": 353,
-                "LocationId": 17792,
+                "Unknown2": 22,
+                "LocationId": 14151,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Morivus Hall"
+                "LocationName": "The Coppering Graveyard"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Morivus Hall",
-            "MapId": 704000000375,
+            "AnotherName": "The Coppering Graveyard",
+            "MapId": 75182,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA00.RMB"
+                "GRVEAS24.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 7288832,
-                "Y": 12007425,
+                "X": 5978112,
+                "Y": 13907969,
                 "IsExterior": 0,
-                "Unknown2": 113,
-                "LocationId": 17793,
+                "Unknown2": 4,
+                "LocationId": 14152,
                 "IsInterior": 1,
-                "ExteriorLocationId": 17792,
-                "LocationName": "Morivus Hall"
+                "ExteriorLocationId": 14151,
+                "LocationName": "The Coppering Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 5
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000081.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000026.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000002.RDB",
+                "BlockName": "M0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,23 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
                 "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000023.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -140,15 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -156,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

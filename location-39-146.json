@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Homunatorgon Cave",
+    "Name": "The Cult of Vannolda",
     "RegionName": "Urvaius",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 632000000602,
-        "Latitude": 38312,
-        "Longitude": 77096,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 153183556,
+        "Latitude": 52264,
+        "Longitude": 58920,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Coven",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19740672,
-                "Y": 20723713,
+                "X": 15087616,
+                "Y": 13383681,
                 "IsExterior": 32768,
-                "Unknown2": 121,
-                "LocationId": 14691,
+                "Unknown2": 146,
+                "LocationId": 15279,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Homunatorgon Cave"
+                "LocationName": "The Cult of Vannolda"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Homunatorgon Cave",
-            "MapId": 632000000602,
+            "AnotherName": "The Cult of Vannolda",
+            "MapId": 91460,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA10.RMB"
+                "DUNGAA02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 14923776,
-                "Y": 13678593,
+                "X": 15087616,
+                "Y": 13383681,
                 "IsExterior": 0,
-                "Unknown2": 29,
-                "LocationId": 14692,
+                "Unknown2": 36,
+                "LocationId": 15280,
                 "IsInterior": 1,
-                "ExteriorLocationId": 14691,
-                "LocationName": "The Homunatorgon Cave"
+                "ExteriorLocationId": 15279,
+                "LocationName": "The Cult of Vannolda"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 13
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000062.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,29 +68,13 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
                 "IsStartingBlock": false,
                 "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
@@ -108,47 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000039.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000050.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 3,
-                "IsStartingBlock": false,
                 "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -156,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 167,
     "RegionIndex": 39,

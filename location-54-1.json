@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Flavte Graveyard",
+    "Name": "The Khurnen Vaults",
     "RegionName": "Santaki",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 218000000591,
-        "Latitude": 91304,
-        "Longitude": 75688,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 1463221,
+        "Latitude": 10920,
+        "Longitude": 82600,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19380224,
-                "Y": 7157761,
+                "X": 21149696,
+                "Y": 2799617,
                 "IsExterior": 32768,
-                "Unknown2": 35,
-                "LocationId": 27943,
+                "Unknown2": 1,
+                "LocationId": 27048,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Flavte Graveyard"
+                "LocationName": "The Khurnen Vaults"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Flavte Graveyard",
-            "MapId": 218000000591,
+            "AnotherName": "The Khurnen Vaults",
+            "MapId": 414645,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS12.RMB"
+                "GRVEAS41.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 21379072,
-                "Y": 1751041,
+                "X": 21149696,
+                "Y": 2799617,
                 "IsExterior": 0,
-                "Unknown2": 14,
-                "LocationId": 27944,
+                "Unknown2": 0,
+                "LocationId": 27049,
                 "IsInterior": 1,
-                "ExteriorLocationId": 27943,
-                "LocationName": "The Flavte Graveyard"
+                "ExteriorLocationId": 27048,
+                "LocationName": "The Khurnen Vaults"
             }
         },
         "Header": {
@@ -60,7 +60,7 @@
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "M0000000.RDB",
+                "BlockName": "M0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,7 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,21 +92,21 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
-        "GroundArchive": 2,
-        "NatureArchive": 503,
-        "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 182,
     "RegionIndex": 54,

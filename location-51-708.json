@@ -1,138 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The King's Ogre Tavern",
+    "Name": "The Bught Farmstead",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 239000000800,
-        "Latitude": 88616,
-        "Longitude": 102440,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 742760740,
+        "Latitude": 16808,
+        "Longitude": 119336,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26228736,
-                "Y": 7845889,
+                "X": 30554112,
+                "Y": 4306945,
                 "IsExterior": 32768,
-                "Unknown2": 41,
-                "LocationId": 23867,
+                "Unknown2": 708,
+                "LocationId": 25513,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The King's Ogre Tavern"
+                "LocationName": "The Bught Farmstead"
             }
         },
-        "BuildingCount": 12,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 14216,
+                "NameSeed": 3319,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23867,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 18440,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 23867,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31458,
-                "FactionId": 0,
-                "Sector": 13,
-                "LocationId": 23867,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 17107,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 23867,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 5247,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 23867,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 4904,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 23867,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 15780,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 23867,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 10077,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 23867,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 4606,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 23867,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 13227,
-                "FactionId": 510,
-                "Sector": 68,
-                "LocationId": 23867,
-                "BuildingType": 15,
+                "LocationId": 25513,
+                "BuildingType": "House1",
                 "Quality": 12
-            },
-            {
-                "NameSeed": 22729,
-                "FactionId": 510,
-                "Sector": 80,
-                "LocationId": 23867,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 14200,
-                "FactionId": 510,
-                "Sector": 93,
-                "LocationId": 23867,
-                "BuildingType": 15,
-                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "13227",
-            "MapId": 239000000800,
+            "AnotherName": "The Bught Farmstead",
+            "MapId": 368932,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS00.RMB"
+                "FARMAA09.RMB"
             ]
         }
     },
@@ -156,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

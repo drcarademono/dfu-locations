@@ -1,114 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Bugar Manor",
+    "Name": "The Toad and Griffin Tavern",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 139000000657,
-        "Latitude": 101416,
-        "Longitude": 84136,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 349573491,
+        "Latitude": 13096,
+        "Longitude": 87464,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21542912,
-                "Y": 4569089,
+                "X": 22394880,
+                "Y": 3356673,
                 "IsExterior": 32768,
-                "Unknown2": 826,
-                "LocationId": 29015,
+                "Unknown2": 333,
+                "LocationId": 26546,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Bugar Manor"
+                "LocationName": "The Toad and Griffin Tavern"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 5983,
+                "NameSeed": 9354,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 29015,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 11853,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 29015,
-                "BuildingType": 18,
+                "LocationId": 26546,
+                "BuildingType": "House2",
                 "Quality": 4
             },
             {
-                "NameSeed": 11446,
+                "NameSeed": 3444,
                 "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 29015,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 25298,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 29015,
-                "BuildingType": 19,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 16533,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 29015,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 7890,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 29015,
-                "BuildingType": 18,
+                "Sector": 9,
+                "LocationId": 26546,
+                "BuildingType": "House2",
                 "Quality": 14
             },
             {
-                "NameSeed": 9452,
+                "NameSeed": 7309,
                 "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 29015,
-                "BuildingType": 18,
-                "Quality": 9
+                "Sector": 15,
+                "LocationId": 26546,
+                "BuildingType": "House2",
+                "Quality": 10
             },
             {
-                "NameSeed": 9323,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 29015,
-                "BuildingType": 15,
+                "NameSeed": 17167,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 26546,
+                "BuildingType": "House2",
                 "Quality": 13
             },
             {
-                "NameSeed": 17585,
+                "NameSeed": 30682,
                 "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 29015,
-                "BuildingType": 17,
+                "Sector": 29,
+                "LocationId": 26546,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 30705,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 26546,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 19294,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 26546,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 10439,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 26546,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 7135,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 26546,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 2592,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 26546,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 18423,
+                "FactionId": 510,
+                "Sector": 55,
+                "LocationId": 26546,
+                "BuildingType": "Tavern",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 5734,
+                "FactionId": 510,
+                "Sector": 71,
+                "LocationId": 26546,
+                "BuildingType": "Tavern",
                 "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Bugar Manor",
-            "MapId": 139000000657,
+            "AnotherName": "18423",
+            "MapId": 397683,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "TVRNAS07.RMB"
             ]
         }
     },
@@ -132,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

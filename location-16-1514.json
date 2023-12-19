@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Devil's Scorpion Lodge",
+    "Name": "Ruins of Masterham Manor",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 519000000936,
-        "Latitude": 52776,
-        "Longitude": 119848,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 1587673998,
+        "Latitude": 47400,
+        "Longitude": 119592,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30685184,
-                "Y": 17020929,
+                "X": 30619648,
+                "Y": 12138497,
                 "IsExterior": 32768,
-                "Unknown2": 176,
-                "LocationId": 10592,
+                "Unknown2": 1514,
+                "LocationId": 17617,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Devil's Scorpion Lodge"
+                "LocationName": "Ruins of Masterham Manor"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 7736,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 10592,
-                "BuildingType": 15,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 27108,
-                "FactionId": 0,
-                "Sector": 21,
-                "LocationId": 10592,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 11603,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 10592,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 3300,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 10592,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 24507,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 10592,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 15739,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 10592,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 1393,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 10592,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 14322,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 10592,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 7309,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 10592,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 17167,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 10592,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 30682,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 10592,
-                "BuildingType": 18,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "7736",
-            "MapId": 519000000936,
+            "AnotherName": "Ruins of Masterham Manor",
+            "MapId": 129934,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS03.RMB"
+                "RUINAA15.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 30619648,
+                "Y": 12138497,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 561,
+                "LocationId": 17618,
+                "IsInterior": 1,
+                "ExteriorLocationId": 17617,
+                "LocationName": "Ruins of Masterham Manor"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000023.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

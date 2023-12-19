@@ -1,112 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Black Bird Tavern",
+    "Name": "The B'irmca Convergence",
     "RegionName": "Tigonus",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 374000000499,
-        "Latitude": 71336,
-        "Longitude": 63912,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 190134813,
+        "Latitude": 20136,
+        "Longitude": 71336,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "BarbarianStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16365568,
-                "Y": 12269569,
+                "X": 18266112,
+                "Y": 5158913,
                 "IsExterior": 32768,
-                "Unknown2": 252,
-                "LocationId": 25026,
+                "Unknown2": 181,
+                "LocationId": 24491,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Black Bird Tavern"
+                "LocationName": "The B'irmca Convergence"
             }
         },
-        "BuildingCount": 5,
-        "Buildings": [
-            {
-                "NameSeed": 28263,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 25026,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 23974,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 25026,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 6883,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 25026,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 24058,
-                "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 25026,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 13979,
-                "FactionId": 510,
-                "Sector": 23,
-                "LocationId": 25026,
-                "BuildingType": 15,
-                "Quality": 9
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "13979",
-            "MapId": 374000000499,
+            "AnotherName": "The B'irmca Convergence",
+            "MapId": 342557,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS01.RMB"
+                "DUNGAA16.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 18266112,
+                "Y": 5158913,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 48,
+                "LocationId": 24492,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24491,
+                "LocationName": "The B'irmca Convergence"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

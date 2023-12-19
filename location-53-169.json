@@ -1,71 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Kieran Theatre",
+    "Name": "The Rattdon Web",
     "RegionName": "Ephesus",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 125000000757,
-        "Latitude": 103208,
-        "Longitude": 96936,
-        "LocationType": 9,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 177671170,
+        "Latitude": 4904,
+        "Longitude": 105768,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "SpiderNest",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24819712,
-                "Y": 4110337,
+                "X": 27080704,
+                "Y": 1259521,
                 "IsExterior": 32768,
-                "Unknown2": 84,
-                "LocationId": 27899,
+                "Unknown2": 169,
+                "LocationId": 28399,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kieran Theatre"
+                "LocationName": "The Rattdon Web"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Kieran Theatre",
-            "MapId": 125000000757,
+            "AnotherName": "The Rattdon Web",
+            "MapId": 461826,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "DUNGAA13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 27080704,
+                "Y": 1259521,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 51,
+                "LocationId": 28400,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28399,
+                "LocationName": "The Rattdon Web"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000029.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 181,
     "RegionIndex": 53,

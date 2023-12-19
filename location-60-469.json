@@ -1,152 +1,144 @@
 {
     "Loaded": true,
-    "Name": "Hawkcroft Hall",
+    "Name": "Hearthston Palace",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 740000000466,
-        "Latitude": 24488,
-        "Longitude": 59688,
-        "LocationType": 4,
-        "DungeonType": 11,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 491882372,
+        "Latitude": 51112,
+        "Longitude": 29224,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15284224,
-                "Y": 24262657,
+                "X": 7485440,
+                "Y": 13088769,
                 "IsExterior": 32768,
-                "Unknown2": 17,
-                "LocationId": 13033,
+                "Unknown2": 469,
+                "LocationId": 15840,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hawkcroft Hall"
+                "LocationName": "Hearthston Palace"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 15720,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 15840,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 17410,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 15840,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 11573,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 15840,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 13892,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 15840,
+                "BuildingType": "House3",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 22428,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 15840,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 15158,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 15840,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 19146,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 15840,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 7010,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 15840,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 32121,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 15840,
+                "BuildingType": "House1",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Hawkcroft Hall",
-            "MapId": 740000000466,
+            "AnotherName": "Hearthston Palace",
+            "MapId": 100228,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA12.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 9287680,
-                "Y": 14497793,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 8,
-                "LocationId": 13034,
-                "IsInterior": 1,
-                "ExteriorLocationId": 13033,
-                "LocationName": "Hawkcroft Hall"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000029.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000076.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

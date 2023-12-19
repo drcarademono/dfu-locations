@@ -1,50 +1,74 @@
 {
     "Loaded": true,
-    "Name": "Ruch'kern Grange",
+    "Name": "Cave Manor",
     "RegionName": "Ayasofya",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 357000000510,
-        "Latitude": 73512,
-        "Longitude": 65320,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 97904104,
+        "Latitude": 14504,
+        "Longitude": 68648,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16726016,
-                "Y": 11712513,
+                "X": 17577984,
+                "Y": 3717121,
                 "IsExterior": 32768,
-                "Unknown2": 11,
-                "LocationId": 25401,
+                "Unknown2": 93,
+                "LocationId": 26179,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruch'kern Grange"
+                "LocationName": "Cave Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 16614,
+                "NameSeed": 3177,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25401,
-                "BuildingType": 18,
-                "Quality": 9
+                "LocationId": 26179,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 31029,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 26179,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 15306,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 26179,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 10809,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 26179,
+                "BuildingType": "House1",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Ruch'kern Grange",
-            "MapId": 357000000510,
+            "AnotherName": "Cave Manor",
+            "MapId": 386536,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA02.RMB"
+                "MANRGS00.RMB"
             ]
         }
     },
@@ -68,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 175,
     "RegionIndex": 47,

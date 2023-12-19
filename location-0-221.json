@@ -1,66 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Sahuagex Cave",
+    "Name": "Ruins of C'orc Court",
     "RegionName": "Alik'r Desert",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 354000000393,
-        "Latitude": 73896,
-        "Longitude": 50344,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 232200795,
+        "Latitude": 4392,
+        "Longitude": 63912,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12892160,
-                "Y": 11614209,
+                "X": 16365568,
+                "Y": 1128449,
                 "IsExterior": 32768,
-                "Unknown2": 105,
-                "LocationId": 27438,
+                "Unknown2": 221,
+                "LocationId": 28494,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Sahuagex Cave"
+                "LocationName": "Ruins of C'orc Court"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Sahuagex Cave",
-            "MapId": 354000000393,
+            "AnotherName": "Ruins of C'orc Court",
+            "MapId": 465499,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA02.RMB"
+                "RUINAA21.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 13547520,
-                "Y": 2373633,
+                "X": 16365568,
+                "Y": 1128449,
                 "IsExterior": 0,
-                "Unknown2": 56,
-                "LocationId": 27439,
+                "Unknown2": 103,
+                "LocationId": 28495,
                 "IsInterior": 1,
-                "ExteriorLocationId": 27438,
-                "LocationName": "The Sahuagex Cave"
+                "ExteriorLocationId": 28494,
+                "LocationName": "Ruins of C'orc Court"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000058.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -73,26 +81,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000047.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
+                "X": 1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000048.RDB",
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,63 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000019.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000026.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

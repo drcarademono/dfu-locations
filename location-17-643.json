@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Ashwing Manor",
+    "Name": "Edworyan Laboratory",
     "RegionName": "Daggerfall",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 672000000287,
-        "Latitude": 33192,
-        "Longitude": 36776,
-        "LocationType": 10,
-        "DungeonType": 8,
+        "MapId": 674415505,
+        "Latitude": 40744,
+        "Longitude": 17576,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Laboratory",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9418752,
-                "Y": 22034433,
+                "X": 4503552,
+                "Y": 10434561,
                 "IsExterior": 32768,
-                "Unknown2": 1090,
-                "LocationId": 21390,
+                "Unknown2": 643,
+                "LocationId": 20348,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Ashwing Manor"
+                "LocationName": "Edworyan Laboratory"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Ashwing Manor",
-            "MapId": 672000000287,
+            "AnotherName": "Edworyan Laboratory",
+            "MapId": 181137,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA18.RMB"
+                "DUNGAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 5322752,
-                "Y": 9648129,
+                "X": 4503552,
+                "Y": 10434561,
                 "IsExterior": 0,
-                "Unknown2": 212,
-                "LocationId": 21391,
+                "Unknown2": 121,
+                "LocationId": 20349,
                 "IsInterior": 1,
-                "ExteriorLocationId": 21390,
-                "LocationName": "Ruins of Ashwing Manor"
+                "ExteriorLocationId": 20348,
+                "LocationName": "Edworyan Laboratory"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 12
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000068.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000021.RDB",
+                "BlockName": "N0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": -1,
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
@@ -116,47 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000062.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000067.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
                 "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 3,
-                "Z": 0,
+                "X": 0,
+                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

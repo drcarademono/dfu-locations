@@ -1,176 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Hold of Moorton",
+    "Name": "Hawkwing Manor",
     "RegionName": "Ykalon",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 709000000595,
-        "Latitude": 28456,
-        "Longitude": 76200,
-        "LocationType": 7,
-        "DungeonType": 11,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 113256521,
+        "Latitude": 62632,
+        "Longitude": 40104,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19511296,
-                "Y": 23246849,
+                "X": 10270720,
+                "Y": 16037889,
                 "IsExterior": 32768,
-                "Unknown2": 227,
-                "LocationId": 10886,
+                "Unknown2": 108,
+                "LocationId": 10419,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hold of Moorton"
+                "LocationName": "Hawkwing Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 298,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 10419,
+                "BuildingType": "House1",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 23132,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 10419,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 16956,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 10419,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 5335,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 10419,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 10700,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 10419,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 24960,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 10419,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 9392,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 10419,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 19558,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 10419,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 1199,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 10419,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 12607,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 10419,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 31511,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 10419,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Hold of Moorton",
-            "MapId": 709000000595,
+            "AnotherName": "Hawkwing Manor",
+            "MapId": 10313,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA29.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 13481984,
-                "Y": 15742977,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 52,
-                "LocationId": 10887,
-                "IsInterior": 1,
-                "ExteriorLocationId": 10886,
-                "LocationName": "The Hold of Moorton"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000037.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000025.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "W0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000080.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
         "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

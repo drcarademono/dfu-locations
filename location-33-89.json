@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Woodsly Farmstead",
+    "Name": "The Rusty Fawn Lodge",
     "RegionName": "Menevia",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 357000000885,
-        "Latitude": 73512,
-        "Longitude": 113320,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 93502081,
+        "Latitude": 41128,
+        "Longitude": 104616,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29014016,
-                "Y": 11712513,
+                "X": 26785792,
+                "Y": 10532865,
                 "IsExterior": 32768,
-                "Unknown2": 91,
-                "LocationId": 20291,
+                "Unknown2": 89,
+                "LocationId": 20261,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Woodsly Farmstead"
+                "LocationName": "The Rusty Fawn Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 24539,
-                "FactionId": 0,
+                "NameSeed": 6240,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 20291,
-                "BuildingType": 18,
+                "LocationId": 20261,
+                "BuildingType": "Tavern",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 19006,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 20261,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 2691,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 20261,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 3521,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 20261,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 20514,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 20261,
+                "BuildingType": "House2",
                 "Quality": 15
+            },
+            {
+                "NameSeed": 17287,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 20261,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 14751,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 20261,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 231,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 20261,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 30194,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 20261,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 124,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 20261,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 31286,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 20261,
+                "BuildingType": "House2",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Woodsly Farmstead",
-            "MapId": 357000000885,
+            "AnotherName": "6240",
+            "MapId": 178817,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA04.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 161,
     "RegionIndex": 33,

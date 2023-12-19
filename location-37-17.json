@@ -1,162 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Unfortunate Stag Lodge",
+    "Name": "Kingham's Hold",
     "RegionName": "Kambria",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 540000000770,
-        "Latitude": 50088,
-        "Longitude": 98600,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 17870382,
+        "Latitude": 58280,
+        "Longitude": 75560,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "OrcStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25245696,
-                "Y": 17709057,
+                "X": 19347456,
+                "Y": 14923777,
                 "IsExterior": 32768,
-                "Unknown2": 204,
-                "LocationId": 14397,
+                "Unknown2": 17,
+                "LocationId": 12318,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Unfortunate Stag Lodge"
+                "LocationName": "Kingham's Hold"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 8582,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 14397,
-                "BuildingType": 15,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 25988,
-                "FactionId": 0,
-                "Sector": 21,
-                "LocationId": 14397,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 12987,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 14397,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 18202,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 14397,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 29205,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 14397,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 12096,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 14397,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 29358,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 14397,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 21056,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 14397,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 9494,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 14397,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 726,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 14397,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 29187,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 14397,
-                "BuildingType": 18,
-                "Quality": 11
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "8582",
-            "MapId": 540000000770,
+            "AnotherName": "Kingham's Hold",
+            "MapId": 44590,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS03.RMB"
+                "CASTAA23.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 19347456,
+                "Y": 14923777,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 6,
+                "LocationId": 12319,
+                "IsInterior": 1,
+                "ExteriorLocationId": 12318,
+                "LocationName": "Kingham's Hold"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000017.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 165,
+    "Politic": 133,
     "RegionIndex": 37,
     "LocationIndex": 17
 }

@@ -1,152 +1,144 @@
 {
     "Loaded": true,
-    "Name": "The Hole of Sahatexah",
+    "Name": "Hearthsley Manor",
     "RegionName": "Shalgora",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 670000000412,
-        "Latitude": 33448,
-        "Longitude": 52776,
-        "LocationType": 4,
-        "DungeonType": 6,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 186814834,
+        "Latitude": 42408,
+        "Longitude": 39208,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13514752,
-                "Y": 21968897,
+                "X": 10041344,
+                "Y": 10860545,
                 "IsExterior": 32768,
-                "Unknown2": 118,
-                "LocationId": 18485,
+                "Unknown2": 178,
+                "LocationId": 19800,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hole of Sahatexah"
+                "LocationName": "Hearthsley Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 16956,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 19800,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 5335,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 19800,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 10700,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 19800,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 24960,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 19800,
+                "BuildingType": "House3",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 9392,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 19800,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 19558,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 19800,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 1199,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 19800,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 30141,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 19800,
+                "BuildingType": "Tavern",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 6212,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 19800,
+                "BuildingType": "House1",
+                "Quality": 11
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Hole of Sahatexah",
-            "MapId": 670000000412,
+            "AnotherName": "Hearthsley Manor",
+            "MapId": 168306,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA17.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 8894464,
-                "Y": 11646977,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 28,
-                "LocationId": 18486,
-                "IsInterior": 1,
-                "ExteriorLocationId": 18485,
-                "LocationName": "The Hole of Sahatexah"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000044.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000047.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 170,
     "RegionIndex": 42,

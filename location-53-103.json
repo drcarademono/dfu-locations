@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "V'ag Hall",
+    "Name": "The Web of Hellas",
     "RegionName": "Ephesus",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 109000000801,
-        "Latitude": 105256,
-        "Longitude": 102568,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 108452188,
+        "Latitude": 6568,
+        "Longitude": 110120,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "SpiderNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26261504,
-                "Y": 3586049,
+                "X": 28194816,
+                "Y": 1685505,
                 "IsExterior": 32768,
-                "Unknown2": 48,
-                "LocationId": 27675,
+                "Unknown2": 103,
+                "LocationId": 28010,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "V'ag Hall"
+                "LocationName": "The Web of Hellas"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 27996,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27675,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 28060,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 27675,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 25881,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 27675,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 4483,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 27675,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 4654,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 27675,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 23565,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 27675,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 17579,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 27675,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 8851,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 27675,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 4180,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 27675,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 14258,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 27675,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 6941,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 27675,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 2901,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 27675,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 12607,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 27675,
-                "BuildingType": 17,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "V'ag Hall",
-            "MapId": 109000000801,
+            "AnotherName": "The Web of Hellas",
+            "MapId": 448860,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "DUNGAA09.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 28194816,
+                "Y": 1685505,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 28,
+                "LocationId": 28011,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28010,
+                "LocationName": "The Web of Hellas"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000084.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 181,
     "RegionIndex": 53,

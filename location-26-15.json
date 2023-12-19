@@ -1,66 +1,74 @@
 {
     "Loaded": true,
-    "Name": "Gromotten",
+    "Name": "The Hold of Hawkston",
     "RegionName": "Orsinium Area",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 345000000926,
-        "Latitude": 75048,
-        "Longitude": 118568,
-        "LocationType": 4,
-        "DungeonType": 1,
+        "MapId": 15874516,
+        "Latitude": 45352,
+        "Longitude": 112168,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30357504,
-                "Y": 11319297,
+                "X": 28719104,
+                "Y": 11614209,
                 "IsExterior": 32768,
-                "Unknown2": 58,
-                "LocationId": 19873,
+                "Unknown2": 15,
+                "LocationId": 18572,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Gromotten"
+                "LocationName": "The Hold of Hawkston"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Gromotten",
-            "MapId": 345000000926,
+            "AnotherName": "The Hold of Hawkston",
+            "MapId": 145876,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA00.RMB"
+                "CASTAA21.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 28817408,
-                "Y": 10827777,
+                "X": 28719104,
+                "Y": 11614209,
                 "IsExterior": 0,
-                "Unknown2": 42,
-                "LocationId": 19874,
+                "Unknown2": 10,
+                "LocationId": 18573,
                 "IsInterior": 1,
-                "ExteriorLocationId": 19873,
-                "LocationName": "Gromotten"
+                "ExteriorLocationId": 18572,
+                "LocationName": "The Hold of Hawkston"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000074.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -73,80 +81,32 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
+                "X": 1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000089.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000041.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
-        "NatureArchive": 506,
-        "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 154,
     "RegionIndex": 26,

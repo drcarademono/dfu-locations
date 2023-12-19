@@ -1,82 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Laughing Cat Inn",
+    "Name": "Old Kreghttha's Farm",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 391000000399,
-        "Latitude": 69160,
-        "Longitude": 51112,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 161858063,
+        "Latitude": 15656,
+        "Longitude": 45992,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13088768,
-                "Y": 12826625,
+                "X": 11778048,
+                "Y": 4012033,
                 "IsExterior": 32768,
-                "Unknown2": 331,
-                "LocationId": 26370,
+                "Unknown2": 154,
+                "LocationId": 25848,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Laughing Cat Inn"
+                "LocationName": "Old Kreghttha's Farm"
             }
         },
-        "BuildingCount": 5,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 10742,
+                "NameSeed": 19336,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26370,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 13461,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 26370,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 27509,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 26370,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 275,
-                "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 26370,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 15332,
-                "FactionId": 510,
-                "Sector": 23,
-                "LocationId": 26370,
-                "BuildingType": 15,
-                "Quality": 10
+                "LocationId": 25848,
+                "BuildingType": "House2",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "15332",
-            "MapId": 391000000399,
+            "AnotherName": "Old Kreghttha's Farm",
+            "MapId": 377359,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS01.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -100,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

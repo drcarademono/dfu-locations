@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The King's Castle Inn",
+    "Name": "The Khurkon Cemetery",
     "RegionName": "Satakalaam",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 279000000778,
-        "Latitude": 83496,
-        "Longitude": 99624,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 139772466,
+        "Latitude": 24104,
+        "Longitude": 109864,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25507840,
-                "Y": 9156609,
+                "X": 28129280,
+                "Y": 6174721,
                 "IsExterior": 32768,
-                "Unknown2": 80,
-                "LocationId": 23242,
+                "Unknown2": 133,
+                "LocationId": 23546,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The King's Castle Inn"
+                "LocationName": "The Khurkon Cemetery"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 613,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 23242,
-                "BuildingType": 15,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 24676,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 23242,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 10523,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 23242,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 20611,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 23242,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 32402,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 23242,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 10932,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 23242,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 16355,
-                "FactionId": 0,
-                "Sector": 73,
-                "LocationId": 23242,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 7434,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 23242,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 10096,
-                "FactionId": 0,
-                "Sector": 83,
-                "LocationId": 23242,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 11212,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 23242,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 8017,
-                "FactionId": 0,
-                "Sector": 94,
-                "LocationId": 23242,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 30814,
-                "FactionId": 0,
-                "Sector": 100,
-                "LocationId": 23242,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 30705,
-                "FactionId": 0,
-                "Sector": 110,
-                "LocationId": 23242,
-                "BuildingType": 18,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "613",
-            "MapId": 279000000778,
+            "AnotherName": "The Khurkon Cemetery",
+            "MapId": 311858,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS02.RMB"
+                "GRVEAS21.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 28129280,
+                "Y": 6174721,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 34,
+                "LocationId": 23547,
+                "IsInterior": 1,
+                "ExteriorLocationId": 23546,
+                "LocationName": "The Khurkon Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 178,
     "RegionIndex": 50,

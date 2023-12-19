@@ -1,50 +1,154 @@
 {
     "Loaded": true,
-    "Name": "Old Evelara's Shack",
+    "Name": "Burning Martyr of Kynareth",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 681000000310,
-        "Latitude": 32040,
-        "Longitude": 39720,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 815981225,
+        "Latitude": 39720,
+        "Longitude": 12456,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10172416,
-                "Y": 22329345,
+                "X": 3192832,
+                "Y": 10172417,
                 "IsExterior": 32768,
-                "Unknown2": 726,
-                "LocationId": 20538,
+                "Unknown2": 778,
+                "LocationId": 20667,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Evelara's Shack"
+                "LocationName": "Burning Martyr of Kynareth"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 14,
         "Buildings": [
             {
-                "NameSeed": 21468,
+                "NameSeed": 19555,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 20538,
-                "BuildingType": 19,
+                "LocationId": 20667,
+                "BuildingType": "House2",
                 "Quality": 14
+            },
+            {
+                "NameSeed": 28263,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 20667,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 23974,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 20667,
+                "BuildingType": "House3",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 6883,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 20667,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 24058,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 20667,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 26798,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 20667,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 30531,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 20667,
+                "BuildingType": "House3",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 27448,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 20667,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 17753,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 20667,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 17535,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 20667,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 27231,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 20667,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 31154,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 20667,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 30964,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 20667,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 27326,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 20667,
+                "BuildingType": "Temple",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Evelara's Shack",
-            "MapId": 681000000310,
+            "AnotherName": "Burning Martyr of Kynareth",
+            "MapId": 189097,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 4,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
@@ -68,15 +172,15 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 145,
+    "Politic": 64,
     "RegionIndex": 17,
     "LocationIndex": 778
 }

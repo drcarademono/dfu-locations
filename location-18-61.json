@@ -1,112 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Hearthhart Crypts",
+    "Name": "Wicksmith Hall",
     "RegionName": "Glenpoint",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 715000000380,
-        "Latitude": 27688,
-        "Longitude": 48680,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 64048332,
+        "Latitude": 53032,
+        "Longitude": 25128,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12466176,
-                "Y": 23443457,
+                "X": 6436864,
+                "Y": 13580289,
                 "IsExterior": 32768,
-                "Unknown2": 268,
-                "LocationId": 17153,
+                "Unknown2": 61,
+                "LocationId": 14885,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hearthhart Crypts"
+                "LocationName": "Wicksmith Hall"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 27403,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 14885,
+                "BuildingType": "House1",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 1367,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 14885,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 32615,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 14885,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 22597,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 14885,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 2398,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 14885,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 29328,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 14885,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 31647,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 14885,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 7416,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 14885,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 145,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 14885,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 14172,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 14885,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 16454,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 14885,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Hearthhart Crypts",
-            "MapId": 715000000380,
+            "AnotherName": "Wicksmith Hall",
+            "MapId": 85196,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS22.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 7256064,
-                "Y": 12400641,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 87,
-                "LocationId": 17154,
-                "IsInterior": 1,
-                "ExteriorLocationId": 17153,
-                "LocationName": "The Hearthhart Crypts"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

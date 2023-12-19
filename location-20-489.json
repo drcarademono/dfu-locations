@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Klercba Cultus",
+    "Name": "The Chosh Farmstead",
     "RegionName": "Sentinel",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 437000000389,
-        "Latitude": 63272,
-        "Longitude": 49832,
-        "LocationType": 4,
-        "DungeonType": 7,
-        "Discovered": false,
+        "MapId": 513161063,
+        "Latitude": 11816,
+        "Longitude": 51112,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12761088,
-                "Y": 14333953,
+                "X": 13088768,
+                "Y": 3028993,
                 "IsExterior": 32768,
-                "Unknown2": 40,
-                "LocationId": 25022,
+                "Unknown2": 489,
+                "LocationId": 26842,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Klercba Cultus"
+                "LocationName": "The Chosh Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 15971,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 26842,
+                "BuildingType": "House2",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Klercba Cultus",
-            "MapId": 437000000389,
+            "AnotherName": "The Chosh Farmstead",
+            "MapId": 407399,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA00.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 12072960,
-                "Y": 4667393,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 9,
-                "LocationId": 25023,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25022,
-                "LocationName": "Klercba Cultus"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000082.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000058.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Queen's Scorpion Tavern",
+    "Name": "The Maurhtum Graveyard",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 175000000817,
-        "Latitude": 96808,
-        "Longitude": 104616,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 237316919,
+        "Latitude": 20648,
+        "Longitude": 95144,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26785792,
-                "Y": 5748737,
+                "X": 24360960,
+                "Y": 5289985,
                 "IsExterior": 32768,
-                "Unknown2": 728,
-                "LocationId": 25588,
+                "Unknown2": 226,
+                "LocationId": 24370,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Queen's Scorpion Tavern"
+                "LocationName": "The Maurhtum Graveyard"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 9580,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 25588,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 270,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 25588,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 29830,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 25588,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 21315,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 25588,
-                "BuildingType": 19,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 1432,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 25588,
-                "BuildingType": 19,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 29888,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 25588,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 20863,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 25588,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 897,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 25588,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 25062,
-                "FactionId": 510,
-                "Sector": 63,
-                "LocationId": 25588,
-                "BuildingType": 1,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 14829,
-                "FactionId": 510,
-                "Sector": 67,
-                "LocationId": 25588,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 30003,
-                "FactionId": 510,
-                "Sector": 84,
-                "LocationId": 25588,
-                "BuildingType": 15,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "14829",
-            "MapId": 175000000817,
+            "AnotherName": "The Maurhtum Graveyard",
+            "MapId": 338743,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS08.RMB"
+                "GRVEAS32.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 24360960,
+                "Y": 5289985,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 65,
+                "LocationId": 24371,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24370,
+                "LocationName": "The Maurhtum Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

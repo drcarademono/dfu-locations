@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Copperford Cemetery",
+    "Name": "The Old Coppersley Hovel",
     "RegionName": "Urvaius",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 627000000560,
-        "Latitude": 38952,
-        "Longitude": 71720,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 131156425,
+        "Latitude": 53160,
+        "Longitude": 54440,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18364416,
-                "Y": 20559873,
+                "X": 13940736,
+                "Y": 13613057,
                 "IsExterior": 32768,
-                "Unknown2": 201,
-                "LocationId": 16322,
+                "Unknown2": 125,
+                "LocationId": 14830,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Copperford Cemetery"
+                "LocationName": "The Old Coppersley Hovel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 3448,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 14830,
+                "BuildingType": "House3",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Copperford Cemetery",
-            "MapId": 627000000560,
+            "AnotherName": "The Old Coppersley Hovel",
+            "MapId": 84425,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS04.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 13809664,
-                "Y": 12859393,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 47,
-                "LocationId": 16323,
-                "IsInterior": 1,
-                "ExteriorLocationId": 16322,
-                "LocationName": "The Copperford Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 167,
     "RegionIndex": 39,

@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Ruins of F'orch Manor",
+    "Name": "Old Ligsa's Shack",
     "RegionName": "Mournoth",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 227000000912,
-        "Latitude": 90152,
-        "Longitude": 116776,
-        "LocationType": 10,
-        "DungeonType": 1,
-        "Discovered": false,
+        "MapId": 353738088,
+        "Latitude": 16936,
+        "Longitude": 124968,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29898752,
-                "Y": 7452673,
+                "X": 31995904,
+                "Y": 4339713,
                 "IsExterior": 32768,
-                "Unknown2": 7,
-                "LocationId": 22749,
+                "Unknown2": 337,
+                "LocationId": 25466,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of F'orch Manor"
+                "LocationName": "Old Ligsa's Shack"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 22681,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 25466,
+                "BuildingType": "House3",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of F'orch Manor",
-            "MapId": 227000000912,
+            "AnotherName": "Old Ligsa's Shack",
+            "MapId": 367976,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA16.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 30357504,
-                "Y": 7256065,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 1,
-                "LocationId": 22750,
-                "IsInterior": 1,
-                "ExteriorLocationId": 22749,
-                "LocationName": "Ruins of F'orch Manor"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000020.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000087.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

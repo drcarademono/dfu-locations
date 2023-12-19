@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Shrine of Bandi",
+    "Name": "Old Evelolda's Shack",
     "RegionName": "Tulune",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 761000000254,
-        "Latitude": 21800,
-        "Longitude": 32552,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 37862834,
+        "Latitude": 49320,
+        "Longitude": 12584,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8337408,
-                "Y": 24950785,
+                "X": 3225600,
+                "Y": 12630017,
                 "IsExterior": 32768,
-                "Unknown2": 111,
-                "LocationId": 18468,
+                "Unknown2": 36,
+                "LocationId": 16774,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shrine of Bandi"
+                "LocationName": "Old Evelolda's Shack"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 29349,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 16774,
+                "BuildingType": "House3",
+                "Quality": 14
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Shrine of Bandi",
-            "MapId": 761000000254,
+            "AnotherName": "Old Evelolda's Shack",
+            "MapId": 114098,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 186,
     "RegionIndex": 58,

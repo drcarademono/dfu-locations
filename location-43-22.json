@@ -1,112 +1,104 @@
 {
     "Loaded": true,
-    "Name": "The Chujam Graveyard",
+    "Name": "The Lynx and Dragon Pub",
     "RegionName": "Abibon-Gora",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 405000000164,
-        "Latitude": 67368,
-        "Longitude": 21032,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 23530863,
+        "Latitude": 4776,
+        "Longitude": 24488,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5388288,
-                "Y": 13285377,
+                "X": 6273024,
+                "Y": 1226753,
                 "IsExterior": 32768,
-                "Unknown2": 226,
-                "LocationId": 29456,
+                "Unknown2": 22,
+                "LocationId": 28410,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Chujam Graveyard"
+                "LocationName": "The Lynx and Dragon Pub"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 4,
+        "Buildings": [
+            {
+                "NameSeed": 23144,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 28410,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 8074,
+                "FactionId": 0,
+                "Sector": 18,
+                "LocationId": 28410,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 8181,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 28410,
+                "BuildingType": "House4",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 13341,
+                "FactionId": 0,
+                "Sector": 37,
+                "LocationId": 28410,
+                "BuildingType": "House4",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Chujam Graveyard",
-            "MapId": 405000000164,
+            "AnotherName": "23144",
+            "MapId": 462191,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS08.RMB"
+                "TVRNGS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 6207488,
-                "Y": 47105,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 62,
-                "LocationId": 29457,
-                "IsInterior": 1,
-                "ExteriorLocationId": 29456,
-                "LocationName": "The Chujam Graveyard"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

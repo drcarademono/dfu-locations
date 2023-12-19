@@ -1,50 +1,154 @@
 {
     "Loaded": true,
-    "Name": "The Wicksly Farmstead",
+    "Name": "Perpetual Soul of Kynareth",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 366000000957,
-        "Latitude": 72360,
-        "Longitude": 122536,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 345006451,
+        "Latitude": 60840,
+        "Longitude": 121256,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31373312,
-                "Y": 12007425,
+                "X": 31045632,
+                "Y": 15579137,
                 "IsExterior": 32768,
-                "Unknown2": 1563,
-                "LocationId": 17999,
+                "Unknown2": 329,
+                "LocationId": 11217,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Wicksly Farmstead"
+                "LocationName": "Perpetual Soul of Kynareth"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 14,
         "Buildings": [
             {
-                "NameSeed": 30718,
+                "NameSeed": 3643,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 17999,
-                "BuildingType": 18,
-                "Quality": 2
+                "LocationId": 11217,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 30469,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 11217,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 29078,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 11217,
+                "BuildingType": "House3",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 3319,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 11217,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 24419,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 11217,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 16743,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 11217,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 13852,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 11217,
+                "BuildingType": "House3",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 6862,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 11217,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 18442,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 11217,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 4393,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 11217,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 22579,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 11217,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 2485,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 11217,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 12394,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 11217,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 20926,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 11217,
+                "BuildingType": "Temple",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Wicksly Farmstead",
-            "MapId": 366000000957,
+            "AnotherName": "Perpetual Soul of Kynareth",
+            "MapId": 24947,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
@@ -68,13 +172,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

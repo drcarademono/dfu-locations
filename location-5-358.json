@@ -1,80 +1,64 @@
 {
     "Loaded": true,
-    "Name": "The Den of Uthastyr",
+    "Name": "The Greenton Cemetery",
     "RegionName": "Dwynnen",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 604000000667,
-        "Latitude": 41896,
-        "Longitude": 85416,
-        "LocationType": 4,
-        "DungeonType": 14,
+        "MapId": 375448793,
+        "Latitude": 56488,
+        "Longitude": 74920,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21870592,
-                "Y": 19806209,
+                "X": 19183616,
+                "Y": 14465025,
                 "IsExterior": 32768,
-                "Unknown2": 446,
-                "LocationId": 14107,
+                "Unknown2": 358,
+                "LocationId": 13113,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Den of Uthastyr"
+                "LocationName": "The Greenton Cemetery"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Den of Uthastyr",
-            "MapId": 604000000667,
+            "AnotherName": "The Greenton Cemetery",
+            "MapId": 58585,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA13.RMB"
+                "GRVEAS31.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 17217536,
-                "Y": 13940737,
+                "X": 19183616,
+                "Y": 14465025,
                 "IsExterior": 0,
-                "Unknown2": 77,
-                "LocationId": 14108,
+                "Unknown2": 58,
+                "LocationId": 13114,
                 "IsInterior": 1,
-                "ExteriorLocationId": 14107,
-                "LocationName": "The Den of Uthastyr"
+                "ExteriorLocationId": 13113,
+                "LocationName": "The Greenton Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 5
         },
         "Blocks": [
             {
                 "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
                 "IsStartingBlock": false,
                 "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
@@ -84,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000005.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000076.RDB",
+                "BlockName": "M0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,15 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

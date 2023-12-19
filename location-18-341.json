@@ -1,112 +1,71 @@
 {
     "Loaded": true,
-    "Name": "The Wickcroft Crypts",
+    "Name": "Shrine of Vigryl",
     "RegionName": "Glenpoint",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 761000000329,
-        "Latitude": 21800,
-        "Longitude": 42152,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 357696598,
+        "Latitude": 47016,
+        "Longitude": 23336,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10795008,
-                "Y": 24950785,
+                "X": 5978112,
+                "Y": 12040193,
                 "IsExterior": 32768,
-                "Unknown2": 162,
-                "LocationId": 16296,
+                "Unknown2": 341,
+                "LocationId": 17724,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Wickcroft Crypts"
+                "LocationName": "Shrine of Vigryl"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Wickcroft Crypts",
-            "MapId": 761000000329,
+            "AnotherName": "Shrine of Vigryl",
+            "MapId": 132182,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS39.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 5060608,
-                "Y": 12859393,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 49,
-                "LocationId": 16297,
-                "IsInterior": 1,
-                "ExteriorLocationId": 16296,
-                "LocationName": "The Wickcroft Crypts"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

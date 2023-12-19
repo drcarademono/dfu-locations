@@ -1,168 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Ashhart Manor",
+    "Name": "The Dead Muskrat Tavern",
     "RegionName": "Shalgora",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 686000000444,
-        "Latitude": 31400,
-        "Longitude": 56872,
-        "LocationType": 10,
-        "DungeonType": 6,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 230887052,
+        "Latitude": 38312,
+        "Longitude": 42536,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14563328,
-                "Y": 22493185,
+                "X": 10893312,
+                "Y": 9811969,
                 "IsExterior": 32768,
-                "Unknown2": 33,
-                "LocationId": 16782,
+                "Unknown2": 220,
+                "LocationId": 21189,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Ashhart Manor"
+                "LocationName": "The Dead Muskrat Tavern"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 14656,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 21189,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 22123,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 21189,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 12725,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 21189,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 20560,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 21189,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 27340,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 21189,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 23180,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 21189,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 386,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 21189,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 28928,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 21189,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 3407,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 21189,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7485,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 21189,
+                "BuildingType": "House3",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 21958,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 21189,
+                "BuildingType": "House3",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Ashhart Manor",
-            "MapId": 686000000444,
+            "AnotherName": "14656",
+            "MapId": 200332,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA10.RMB"
+                "TVRNAS05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 9549824,
-                "Y": 12630017,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 9,
-                "LocationId": 16783,
-                "IsInterior": 1,
-                "ExteriorLocationId": 16782,
-                "LocationName": "Ruins of Ashhart Manor"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000085.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000075.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
-        "NatureArchive": 508,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 170,
     "RegionIndex": 42,

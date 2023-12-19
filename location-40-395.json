@@ -1,130 +1,114 @@
 {
     "Loaded": true,
-    "Name": "Ashston Manor",
+    "Name": "Yeomwing Manor",
     "RegionName": "Ykalon",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 744000000499,
-        "Latitude": 23976,
-        "Longitude": 63912,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 414219824,
+        "Latitude": 59816,
+        "Longitude": 38952,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16365568,
-                "Y": 24393729,
+                "X": 9975808,
+                "Y": 15316993,
                 "IsExterior": 32768,
-                "Unknown2": 457,
-                "LocationId": 11888,
+                "Unknown2": 395,
+                "LocationId": 11606,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ashston Manor"
+                "LocationName": "Yeomwing Manor"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 9175,
+                "NameSeed": 14397,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 11888,
-                "BuildingType": 17,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 16121,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 11888,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 22921,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 11888,
-                "BuildingType": 18,
+                "LocationId": 11606,
+                "BuildingType": "House2",
                 "Quality": 11
             },
             {
-                "NameSeed": 8448,
+                "NameSeed": 27395,
                 "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 11888,
-                "BuildingType": 18,
-                "Quality": 5
+                "Sector": 10,
+                "LocationId": 11606,
+                "BuildingType": "House2",
+                "Quality": 10
             },
             {
-                "NameSeed": 25734,
+                "NameSeed": 29611,
                 "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 11888,
-                "BuildingType": 18,
-                "Quality": 12
+                "Sector": 22,
+                "LocationId": 11606,
+                "BuildingType": "House2",
+                "Quality": 4
             },
             {
-                "NameSeed": 12820,
+                "NameSeed": 12174,
                 "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 11888,
-                "BuildingType": 18,
-                "Quality": 8
+                "Sector": 30,
+                "LocationId": 11606,
+                "BuildingType": "House3",
+                "Quality": 10
             },
             {
-                "NameSeed": 14042,
+                "NameSeed": 11792,
                 "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 11888,
-                "BuildingType": 18,
-                "Quality": 1
+                "Sector": 36,
+                "LocationId": 11606,
+                "BuildingType": "House2",
+                "Quality": 4
             },
             {
-                "NameSeed": 9756,
+                "NameSeed": 6194,
                 "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 11888,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31136,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 11888,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31052,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 11888,
-                "BuildingType": 18,
+                "Sector": 42,
+                "LocationId": 11606,
+                "BuildingType": "House2",
                 "Quality": 15
             },
             {
-                "NameSeed": 21820,
+                "NameSeed": 4432,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 11606,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 29881,
                 "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 11888,
-                "BuildingType": 15,
-                "Quality": 7
+                "Sector": 69,
+                "LocationId": 11606,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 31275,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 11606,
+                "BuildingType": "House1",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Ashston Manor",
-            "MapId": 744000000499,
+            "AnotherName": "Yeomwing Manor",
+            "MapId": 32304,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -147,14 +131,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
-        "NatureArchive": 504,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

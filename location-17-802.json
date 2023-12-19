@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Knave and Dragon Pub",
+    "Name": "The Old Gaercroft Shack",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 683000000258,
-        "Latitude": 31784,
-        "Longitude": 33064,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 841148145,
+        "Latitude": 39592,
+        "Longitude": 24744,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8468480,
-                "Y": 22394881,
+                "X": 6338560,
+                "Y": 10139649,
                 "IsExterior": 32768,
-                "Unknown2": 1176,
-                "LocationId": 21597,
+                "Unknown2": 802,
+                "LocationId": 20703,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Knave and Dragon Pub"
+                "LocationName": "The Old Gaercroft Shack"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 32245,
-                "FactionId": 510,
+                "NameSeed": 25301,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 21597,
-                "BuildingType": 15,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 1021,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 21597,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 31536,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 21597,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 9686,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 21597,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 9323,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 21597,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 30513,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 21597,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 659,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 21597,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 13077,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 21597,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 277,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 21597,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 17517,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 21597,
-                "BuildingType": 19,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 27319,
-                "FactionId": 0,
-                "Sector": 93,
-                "LocationId": 21597,
-                "BuildingType": 19,
-                "Quality": 14
+                "LocationId": 20703,
+                "BuildingType": "House3",
+                "Quality": 9
             }
         ],
         "ExteriorData": {
-            "AnotherName": "32245",
-            "MapId": 683000000258,
+            "AnotherName": "The Old Gaercroft Shack",
+            "MapId": 190193,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 4,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS05.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -148,15 +68,15 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 64,
+    "Politic": 145,
     "RegionIndex": 17,
     "LocationIndex": 802
 }

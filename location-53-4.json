@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "The Old Glorte Hovel",
+    "Name": "The Pig and Mug Pub",
     "RegionName": "Ephesus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 73000000820,
-        "Latitude": 109864,
-        "Longitude": 105000,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 4619204,
+        "Latitude": 9640,
+        "Longitude": 115240,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26884096,
-                "Y": 2406401,
+                "X": 29505536,
+                "Y": 2471937,
                 "IsExterior": 32768,
-                "Unknown2": 156,
-                "LocationId": 28272,
+                "Unknown2": 4,
+                "LocationId": 27361,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Glorte Hovel"
+                "LocationName": "The Pig and Mug Pub"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 16422,
+                "NameSeed": 298,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28272,
-                "BuildingType": 19,
-                "Quality": 6
+                "LocationId": 27361,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 23132,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 27361,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 16956,
+                "FactionId": 0,
+                "Sector": 13,
+                "LocationId": 27361,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 5335,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 27361,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 10700,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 27361,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 24960,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 27361,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 9392,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 27361,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 19558,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 27361,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 1199,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 27361,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 10268,
+                "FactionId": 510,
+                "Sector": 68,
+                "LocationId": 27361,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 22138,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 27361,
+                "BuildingType": "Tavern",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 2371,
+                "FactionId": 510,
+                "Sector": 93,
+                "LocationId": 27361,
+                "BuildingType": "Tavern",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Glorte Hovel",
-            "MapId": 73000000820,
+            "AnotherName": "10268",
+            "MapId": 424900,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNAS00.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 181,
     "RegionIndex": 53,

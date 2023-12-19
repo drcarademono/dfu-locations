@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Givem Farmstead",
+    "Name": "Khafylir Manor",
     "RegionName": "Mournoth",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 190000000925,
-        "Latitude": 94888,
-        "Longitude": 118440,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 217382114,
+        "Latitude": 22184,
+        "Longitude": 112936,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30324736,
-                "Y": 6240257,
+                "X": 28915712,
+                "Y": 5683201,
                 "IsExterior": 32768,
-                "Unknown2": 99,
-                "LocationId": 23328,
+                "Unknown2": 207,
+                "LocationId": 23967,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Givem Farmstead"
+                "LocationName": "Khafylir Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 21082,
+                "NameSeed": 1562,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23328,
-                "BuildingType": 18,
+                "LocationId": 23967,
+                "BuildingType": "House1",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 24185,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 23967,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 15392,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 23967,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 3659,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 23967,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 24678,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 23967,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 8681,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 23967,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 10246,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 23967,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 31307,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 23967,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 7156,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 23967,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 8207,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 23967,
+                "BuildingType": "House2",
                 "Quality": 12
+            },
+            {
+                "NameSeed": 15798,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 23967,
+                "BuildingType": "Tavern",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Givem Farmstead",
-            "MapId": 190000000925,
+            "AnotherName": "Khafylir Manor",
+            "MapId": 326882,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA08.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

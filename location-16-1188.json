@@ -1,114 +1,82 @@
 {
     "Loaded": true,
-    "Name": "The Crypt of Darkimor",
+    "Name": "Ruins of Moorhart Court",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 471000000966,
-        "Latitude": 58920,
-        "Longitude": 123688,
-        "LocationType": 4,
-        "DungeonType": 0,
+        "MapId": 1245806148,
+        "Latitude": 51496,
+        "Longitude": 110120,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "OrcStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31668224,
-                "Y": 15448065,
+                "X": 28194816,
+                "Y": 13187073,
                 "IsExterior": 32768,
-                "Unknown2": 559,
-                "LocationId": 12082,
+                "Unknown2": 1188,
+                "LocationId": 15681,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Crypt of Darkimor"
+                "LocationName": "Ruins of Moorhart Court"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Crypt of Darkimor",
-            "MapId": 471000000966,
+            "AnotherName": "Ruins of Moorhart Court",
+            "MapId": 97860,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA01.RMB"
+                "RUINAA27.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27899904,
-                "Y": 15054849,
+                "X": 28194816,
+                "Y": 13187073,
                 "IsExterior": 0,
-                "Unknown2": 207,
-                "LocationId": 12083,
+                "Unknown2": 445,
+                "LocationId": 15682,
                 "IsInterior": 1,
-                "ExteriorLocationId": 12082,
-                "LocationName": "The Crypt of Darkimor"
+                "ExteriorLocationId": 15681,
+                "LocationName": "Ruins of Moorhart Court"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 12
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000048.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000029.RDB",
+                "BlockName": "N0000053.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

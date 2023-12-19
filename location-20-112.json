@@ -1,66 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Screaming Rascal Lodge",
+    "Name": "The Old Mesrn Place",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 384000000445,
-        "Latitude": 70056,
-        "Longitude": 57000,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 117813883,
+        "Latitude": 16168,
+        "Longitude": 47528,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14596096,
-                "Y": 12597249,
+                "X": 12171264,
+                "Y": 4143105,
                 "IsExterior": 32768,
-                "Unknown2": 136,
-                "LocationId": 25777,
+                "Unknown2": 112,
+                "LocationId": 25692,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Screaming Rascal Lodge"
+                "LocationName": "The Old Mesrn Place"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 24553,
+                "NameSeed": 12704,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25777,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 25791,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 25777,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 24508,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 25777,
-                "BuildingType": 15,
-                "Quality": 13
+                "LocationId": 25692,
+                "BuildingType": "House3",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "24508",
-            "MapId": 384000000445,
+            "AnotherName": "The Old Mesrn Place",
+            "MapId": 373371,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -84,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

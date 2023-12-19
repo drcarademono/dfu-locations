@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Buckingsly Manor",
+    "Name": "Buckinging's Hold",
     "RegionName": "Glenpoint",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 761000000349,
-        "Latitude": 21800,
-        "Longitude": 44712,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 360842370,
+        "Latitude": 47016,
+        "Longitude": 28968,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Coven",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11450368,
-                "Y": 24950785,
+                "X": 7419904,
+                "Y": 12040193,
                 "IsExterior": 32768,
-                "Unknown2": 106,
-                "LocationId": 15624,
+                "Unknown2": 344,
+                "LocationId": 17727,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Buckingsly Manor"
+                "LocationName": "Buckinging's Hold"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 937,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 15624,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 14966,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 15624,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 10550,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 15624,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 4865,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 15624,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 16144,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 15624,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 21655,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 15624,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 1691,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 15624,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 5897,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 15624,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 8964,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 15624,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 30342,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 15624,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 7717,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 15624,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 19036,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 15624,
-                "BuildingType": 15,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 32756,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 15624,
-                "BuildingType": 17,
-                "Quality": 9
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Buckingsly Manor",
-            "MapId": 761000000349,
+            "AnotherName": "Buckinging's Hold",
+            "MapId": 132226,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "CASTAA29.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 7419904,
+                "Y": 12040193,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 111,
+                "LocationId": 17728,
+                "IsInterior": 1,
+                "ExteriorLocationId": 17727,
+                "LocationName": "Buckinging's Hold"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

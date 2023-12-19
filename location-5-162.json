@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Shrine of Jephre",
+    "Name": "Old Morganna's Farm",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 576000000667,
-        "Latitude": 45480,
-        "Longitude": 85416,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 169904857,
+        "Latitude": 59432,
+        "Longitude": 69800,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21870592,
-                "Y": 18888705,
+                "X": 17872896,
+                "Y": 15218689,
                 "IsExterior": 32768,
-                "Unknown2": 589,
-                "LocationId": 15725,
+                "Unknown2": 162,
+                "LocationId": 11793,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shrine of Jephre"
+                "LocationName": "Old Morganna's Farm"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 21143,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 11793,
+                "BuildingType": "House2",
+                "Quality": 15
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Shrine of Jephre",
-            "MapId": 576000000667,
+            "AnotherName": "Old Morganna's Farm",
+            "MapId": 35545,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "FARMAA05.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

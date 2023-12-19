@@ -1,160 +1,145 @@
 {
     "Loaded": true,
-    "Name": "The Cavern of Maelebranxulla",
+    "Name": "Akhahadisu",
     "RegionName": "Tigonus",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 387000000521,
-        "Latitude": 69672,
-        "Longitude": 66728,
-        "LocationType": 4,
-        "DungeonType": 6,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 259354807,
+        "Latitude": 18344,
+        "Longitude": 68512,
+        "LocationType": "TownVillage",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16777216
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17086464,
-                "Y": 12695553,
+                "X": 17543168,
+                "Y": 4700161,
                 "IsExterior": 32768,
-                "Unknown2": 143,
-                "LocationId": 24229,
+                "Unknown2": 247,
+                "LocationId": 24977,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Cavern of Maelebranxulla"
+                "LocationName": "Akhahadisu"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 29439,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 24977,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 9193,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 24977,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 16033,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 24977,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 1196,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 24977,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 6904,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 24977,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 30958,
+                "FactionId": 510,
+                "Sector": 34,
+                "LocationId": 24977,
+                "BuildingType": "HouseForSale",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 24064,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 24977,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 21727,
+                "FactionId": 0,
+                "Sector": 52,
+                "LocationId": 24977,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 21955,
+                "FactionId": 510,
+                "Sector": 66,
+                "LocationId": 24977,
+                "BuildingType": "GeneralStore",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Cavern of Maelebranxulla",
-            "MapId": 387000000521,
+            "AnotherName": "Akhahadisu",
+            "MapId": 356535,
             "LocationId": 0,
-            "Width": 1,
+            "Width": 2,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA09.RMB"
+                "RESIGS00.RMB",
+                "GENRGS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16627712,
-                "Y": 5388289,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 32,
-                "LocationId": 24230,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24229,
-                "LocationName": "The Cavern of Maelebranxulla"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 11
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000080.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000059.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000024.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 228,
-        "ClimateType": 400,
-        "NatureSet": 502,
-        "GroundArchive": 402,
-        "NatureArchive": 502,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
+        "GroundArchive": 2,
+        "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

@@ -1,50 +1,146 @@
 {
     "Loaded": true,
-    "Name": "The Old Merkten Shack",
+    "Name": "Rlajem Hall",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 277000000629,
-        "Latitude": 83752,
-        "Longitude": 80552,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 752291972,
+        "Latitude": 4776,
+        "Longitude": 125480,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20625408,
-                "Y": 9091073,
+                "X": 32126976,
+                "Y": 1226753,
                 "IsExterior": 32768,
-                "Unknown2": 224,
-                "LocationId": 25826,
+                "Unknown2": 717,
+                "LocationId": 28431,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Merkten Shack"
+                "LocationName": "Rlajem Hall"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 13,
         "Buildings": [
             {
-                "NameSeed": 73,
+                "NameSeed": 21589,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25826,
-                "BuildingType": 19,
+                "LocationId": 28431,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 30935,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 28431,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 21824,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 28431,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 11554,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 28431,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 29909,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 28431,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 3749,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 28431,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 19338,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 28431,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 24826,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 28431,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 12929,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 28431,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 18653,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 28431,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 29740,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 28431,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 20037,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 28431,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 22957,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 28431,
+                "BuildingType": "House1",
                 "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Merkten Shack",
-            "MapId": 277000000629,
+            "AnotherName": "Rlajem Hall",
+            "MapId": 462980,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
@@ -68,13 +164,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

@@ -1,152 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Copperham's Guard",
+    "Name": "Hearthfield Manor",
     "RegionName": "Urvaius",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 570000000616,
-        "Latitude": 46248,
-        "Longitude": 78888,
-        "LocationType": 7,
-        "DungeonType": 4,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 9481667,
+        "Latitude": 58280,
+        "Longitude": 61864,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20199424,
-                "Y": 18692097,
+                "X": 15841280,
+                "Y": 14923777,
                 "IsExterior": 32768,
-                "Unknown2": 267,
-                "LocationId": 17591,
+                "Unknown2": 9,
+                "LocationId": 12308,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Copperham's Guard"
+                "LocationName": "Hearthfield Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 8243,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 12308,
+                "BuildingType": "House1",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 28189,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 12308,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 23523,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 12308,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 12240,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 12308,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 31795,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 12308,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 1625,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 12308,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 5717,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 12308,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 32228,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 12308,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 2247,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 12308,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 26071,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 12308,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 14586,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 12308,
+                "BuildingType": "Tavern",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Copperham's Guard",
-            "MapId": 570000000616,
+            "AnotherName": "Hearthfield Manor",
+            "MapId": 44483,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA19.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16332800,
-                "Y": 12138497,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 62,
-                "LocationId": 17592,
-                "IsInterior": 1,
-                "ExteriorLocationId": 17591,
-                "LocationName": "Copperham's Guard"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000021.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000073.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000026.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 167,
     "RegionIndex": 39,

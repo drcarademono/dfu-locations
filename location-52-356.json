@@ -1,152 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Klolpum Farmstead",
+    "Name": "The King's Sword Lodge",
     "RegionName": "Mournoth",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 239000000896,
-        "Latitude": 88616,
-        "Longitude": 114728,
-        "LocationType": 10,
-        "DungeonType": 9,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 373680997,
+        "Latitude": 14376,
+        "Longitude": 120488,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29374464,
-                "Y": 7845889,
+                "X": 30849024,
+                "Y": 3684353,
                 "IsExterior": 32768,
-                "Unknown2": 2,
-                "LocationId": 22734,
+                "Unknown2": 356,
+                "LocationId": 26229,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Klolpum Farmstead"
+                "LocationName": "The King's Sword Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 27225,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 26229,
+                "BuildingType": "Tavern",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 9838,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 26229,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 8687,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 26229,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 21653,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 26229,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 8573,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 26229,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 18220,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 26229,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 29117,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 26229,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 6300,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 26229,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 20178,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 26229,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 31779,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 26229,
+                "BuildingType": "House3",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 7416,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 26229,
+                "BuildingType": "House3",
+                "Quality": 7
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Klolpum Farmstead",
-            "MapId": 239000000896,
+            "AnotherName": "27225",
+            "MapId": 387941,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA04.RMB"
+                "TVRNAS05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 29702144,
-                "Y": 7354369,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
                 "Unknown2": 0,
-                "LocationId": 22735,
-                "IsInterior": 1,
-                "ExteriorLocationId": 22734,
-                "LocationName": "Ruins of The Klolpum Farmstead"
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000064.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000072.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

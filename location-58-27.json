@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Yeomston Manor",
+    "Name": "The Tombs of Copperhouse",
     "RegionName": "Tulune",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 757000000274,
-        "Latitude": 22312,
-        "Longitude": 35112,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 28422632,
+        "Latitude": 49704,
+        "Longitude": 10280,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8992768,
-                "Y": 24819713,
+                "X": 2635776,
+                "Y": 12728321,
                 "IsExterior": 32768,
-                "Unknown2": 96,
-                "LocationId": 18128,
+                "Unknown2": 27,
+                "LocationId": 16564,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Yeomston Manor"
+                "LocationName": "The Tombs of Copperhouse"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 21898,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 18128,
-                "BuildingType": 17,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 32189,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 18128,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 19449,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 18128,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 12517,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 18128,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 7716,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 18128,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 768,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 18128,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 17688,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 18128,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 20262,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 18128,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 2997,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 18128,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 21526,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 18128,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 13064,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 18128,
-                "BuildingType": 15,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Yeomston Manor",
-            "MapId": 757000000274,
+            "AnotherName": "The Tombs of Copperhouse",
+            "MapId": 111080,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "GRVEAS41.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 2635776,
+                "Y": 12728321,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 3,
+                "LocationId": 16565,
+                "IsInterior": 1,
+                "ExteriorLocationId": 16564,
+                "LocationName": "The Tombs of Copperhouse"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 186,
     "RegionIndex": 58,

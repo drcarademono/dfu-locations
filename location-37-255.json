@@ -1,146 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Buckingcroft Hall",
+    "Name": "Mastersmith Grange",
     "RegionName": "Kambria",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 582000000700,
-        "Latitude": 44712,
-        "Longitude": 89640,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 267472443,
+        "Latitude": 53032,
+        "Longitude": 72104,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22951936,
-                "Y": 19085313,
+                "X": 18462720,
+                "Y": 13580289,
                 "IsExterior": 32768,
-                "Unknown2": 184,
-                "LocationId": 14256,
+                "Unknown2": 255,
+                "LocationId": 14925,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Buckingcroft Hall"
+                "LocationName": "Mastersmith Grange"
             }
         },
-        "BuildingCount": 13,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 27272,
+                "NameSeed": 1567,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 14256,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 20204,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 14256,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 3448,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 14256,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 6131,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 14256,
-                "BuildingType": 18,
+                "LocationId": 14925,
+                "BuildingType": "House1",
                 "Quality": 15
-            },
-            {
-                "NameSeed": 26245,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 14256,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 16060,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 14256,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 17669,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 14256,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 20349,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 14256,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 1993,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 14256,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 19105,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 14256,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 30275,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 14256,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 22305,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 14256,
-                "BuildingType": 15,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 16958,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 14256,
-                "BuildingType": 17,
-                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Buckingcroft Hall",
-            "MapId": 582000000700,
+            "AnotherName": "Mastersmith Grange",
+            "MapId": 85563,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "FARMAA09.RMB"
             ]
         }
     },
@@ -164,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

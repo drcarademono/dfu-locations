@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Altar of I'ric",
+    "Name": "The Coppersly Farmstead",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 276000001000,
-        "Latitude": 83880,
-        "Longitude": 128040,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 9439137,
+        "Latitude": 63784,
+        "Longitude": 122024,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 32782336,
-                "Y": 9058305,
+                "X": 31242240,
+                "Y": 16332801,
                 "IsExterior": 32768,
-                "Unknown2": 1797,
-                "LocationId": 20778,
+                "Unknown2": 9,
+                "LocationId": 10048,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Altar of I'ric"
+                "LocationName": "The Coppersly Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 29270,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 10048,
+                "BuildingType": "House2",
+                "Quality": 3
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Altar of I'ric",
-            "MapId": 276000001000,
+            "AnotherName": "The Coppersly Farmstead",
+            "MapId": 1953,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "FARMAA05.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Baerpe Manor",
+    "Name": "The Queen's Fawn Inn",
     "RegionName": "Alik'r Desert",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 308000000484,
-        "Latitude": 79784,
-        "Longitude": 61992,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 128356798,
+        "Latitude": 8872,
+        "Longitude": 67368,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15874048,
-                "Y": 10106881,
+                "X": 17250304,
+                "Y": 2275329,
                 "IsExterior": 32768,
-                "Unknown2": 83,
-                "LocationId": 27279,
+                "Unknown2": 122,
+                "LocationId": 27524,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Baerpe Manor"
+                "LocationName": "The Queen's Fawn Inn"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 3,
         "Buildings": [
             {
-                "NameSeed": 10265,
+                "NameSeed": 16455,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27279,
-                "BuildingType": 18,
-                "Quality": 3
+                "LocationId": 27524,
+                "BuildingType": "House2",
+                "Quality": 5
             },
             {
-                "NameSeed": 8490,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 27279,
-                "BuildingType": 18,
-                "Quality": 14
+                "NameSeed": 12322,
+                "FactionId": 510,
+                "Sector": 11,
+                "LocationId": 27524,
+                "BuildingType": "House1",
+                "Quality": 12
             },
             {
-                "NameSeed": 21035,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 27279,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 3879,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 27279,
-                "BuildingType": 17,
-                "Quality": 4
+                "NameSeed": 30913,
+                "FactionId": 510,
+                "Sector": 24,
+                "LocationId": 27524,
+                "BuildingType": "Tavern",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Baerpe Manor",
-            "MapId": 308000000484,
+            "AnotherName": "30913",
+            "MapId": 430526,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRBS00.RMB"
+                "TVRNBS03.RMB"
             ]
         }
     },
@@ -92,13 +84,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

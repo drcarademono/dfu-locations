@@ -1,71 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Shelter of Phen",
+    "Name": "The Quarry of Perard",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 753000000403,
-        "Latitude": 22824,
-        "Longitude": 51624,
-        "LocationType": 9,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 554804995,
+        "Latitude": 50088,
+        "Longitude": 37288,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13219840,
-                "Y": 24688641,
+                "X": 9549824,
+                "Y": 12826625,
                 "IsExterior": 32768,
-                "Unknown2": 227,
-                "LocationId": 14291,
+                "Unknown2": 529,
+                "LocationId": 16394,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shelter of Phen"
+                "LocationName": "The Quarry of Perard"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Shelter of Phen",
-            "MapId": 753000000403,
+            "AnotherName": "The Quarry of Perard",
+            "MapId": 108291,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "DUNGAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 9549824,
+                "Y": 12826625,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 199,
+                "LocationId": 16395,
+                "IsInterior": 1,
+                "ExteriorLocationId": 16394,
+                "LocationName": "The Quarry of Perard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000074.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
+        "GroundArchive": 302,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

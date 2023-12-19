@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Dirty Badger Tavern",
+    "Name": "Hearthfield Grange",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 330000001018,
-        "Latitude": 76968,
-        "Longitude": 130344,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 203438449,
+        "Latitude": 62120,
+        "Longitude": 90280,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33372160,
-                "Y": 10827777,
+                "X": 23115776,
+                "Y": 15906817,
                 "IsExterior": 32768,
-                "Unknown2": 1575,
-                "LocationId": 18055,
+                "Unknown2": 194,
+                "LocationId": 10653,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dirty Badger Tavern"
+                "LocationName": "Hearthfield Grange"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 3978,
-                "FactionId": 510,
+                "NameSeed": 27229,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 18055,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 10445,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 18055,
-                "BuildingType": 15,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 32112,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 18055,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 19846,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 18055,
-                "BuildingType": 19,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 2729,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 18055,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 16015,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 18055,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 7175,
-                "FactionId": 0,
-                "Sector": 70,
-                "LocationId": 18055,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 8119,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 18055,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 11982,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 18055,
-                "BuildingType": 19,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 25925,
-                "FactionId": 0,
-                "Sector": 87,
-                "LocationId": 18055,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 18870,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 18055,
-                "BuildingType": 18,
+                "LocationId": 10653,
+                "BuildingType": "House2",
                 "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "3978",
-            "MapId": 330000001018,
+            "AnotherName": "Hearthfield Grange",
+            "MapId": 14705,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS06.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

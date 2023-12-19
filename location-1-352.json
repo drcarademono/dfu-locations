@@ -1,152 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Cavern of Morkitherulla",
+    "Name": "Old Vlort-i's Place",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 143000000726,
-        "Latitude": 100904,
-        "Longitude": 92968,
-        "LocationType": 4,
-        "DungeonType": 6,
-        "Discovered": false,
+        "MapId": 369498677,
+        "Latitude": 12840,
+        "Longitude": 118440,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23803904,
-                "Y": 4700161,
+                "X": 30324736,
+                "Y": 3291137,
                 "IsExterior": 32768,
-                "Unknown2": 633,
-                "LocationId": 27870,
+                "Unknown2": 352,
+                "LocationId": 26611,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Cavern of Morkitherulla"
+                "LocationName": "Old Vlort-i's Place"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 10633,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 26611,
+                "BuildingType": "House3",
+                "Quality": 6
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Cavern of Morkitherulla",
-            "MapId": 143000000726,
+            "AnotherName": "Old Vlort-i's Place",
+            "MapId": 399925,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA04.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 26458112,
-                "Y": 1849345,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 212,
-                "LocationId": 27871,
-                "IsInterior": 1,
-                "ExteriorLocationId": 27870,
-                "LocationName": "The Cavern of Morkitherulla"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000048.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000050.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

@@ -1,50 +1,41 @@
 {
     "Loaded": true,
-    "Name": "Old Barbolda's Farm",
+    "Name": "Shrine of Vigryl",
     "RegionName": "Ilessan Hills",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 729000000402,
-        "Latitude": 25896,
-        "Longitude": 51496,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 388061450,
+        "Latitude": 52648,
+        "Longitude": 42280,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13187072,
-                "Y": 23902209,
+                "X": 10827776,
+                "Y": 13481985,
                 "IsExterior": 32768,
-                "Unknown2": 449,
-                "LocationId": 15704,
+                "Unknown2": 370,
+                "LocationId": 15089,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Barbolda's Farm"
+                "LocationName": "Shrine of Vigryl"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 850,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 15704,
-                "BuildingType": 17,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Barbolda's Farm",
-            "MapId": 729000000402,
+            "AnotherName": "Shrine of Vigryl",
+            "MapId": 88330,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA09.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -67,14 +58,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

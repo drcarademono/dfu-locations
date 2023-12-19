@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Boldt Burial Ground",
+    "Name": "Old Fhurchtha's Farm",
     "RegionName": "Lainlyn",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 348000000671,
-        "Latitude": 74664,
-        "Longitude": 85928,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 358927682,
+        "Latitude": 23720,
+        "Longitude": 88360,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22001664,
-                "Y": 11417601,
+                "X": 22624256,
+                "Y": 6076417,
                 "IsExterior": 32768,
-                "Unknown2": 135,
-                "LocationId": 23043,
+                "Unknown2": 342,
+                "LocationId": 23611,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Boldt Burial Ground"
+                "LocationName": "Old Fhurchtha's Farm"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 20703,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 23611,
+                "BuildingType": "House2",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Boldt Burial Ground",
-            "MapId": 348000000671,
+            "AnotherName": "Old Fhurchtha's Farm",
+            "MapId": 314690,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS25.RMB"
+                "FARMAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 21542912,
-                "Y": 6764545,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 25,
-                "LocationId": 23044,
-                "IsInterior": 1,
-                "ExteriorLocationId": 23043,
-                "LocationName": "The Boldt Burial Ground"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
-        "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "WorldClimate": 227,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
+        "GroundArchive": 402,
+        "NatureArchive": 500,
+        "SkyBase": 24,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Ashsly Orchard",
+    "Name": "The Grave of Verobor",
     "RegionName": "Glenpoint",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 788000000350,
-        "Latitude": 18344,
-        "Longitude": 44840,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 456279697,
+        "Latitude": 44840,
+        "Longitude": 17576,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Crypt",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11483136,
-                "Y": 25835521,
+                "X": 4503552,
+                "Y": 11483137,
                 "IsExterior": 32768,
-                "Unknown2": 15,
-                "LocationId": 13999,
+                "Unknown2": 435,
+                "LocationId": 18711,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ashsly Orchard"
+                "LocationName": "The Grave of Verobor"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 31923,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 13999,
-                "BuildingType": 18,
-                "Quality": 7
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ashsly Orchard",
-            "MapId": 788000000350,
+            "AnotherName": "The Grave of Verobor",
+            "MapId": 149137,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA02.RMB"
+                "DUNGAA09.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 4503552,
+                "Y": 11483137,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 139,
+                "LocationId": 18712,
+                "IsInterior": 1,
+                "ExteriorLocationId": 18711,
+                "LocationName": "The Grave of Verobor"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000017.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

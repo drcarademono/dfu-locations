@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Hole of Baalucherunah",
+    "Name": "The Lair of Disporgoniva",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 89000000888,
-        "Latitude": 107816,
-        "Longitude": 113704,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 185960624,
+        "Latitude": 17576,
+        "Longitude": 86056,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "VolcanicCaves",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29112320,
-                "Y": 2930689,
+                "X": 22034432,
+                "Y": 4503553,
                 "IsExterior": 32768,
-                "Unknown2": 429,
-                "LocationId": 26935,
+                "Unknown2": 177,
+                "LocationId": 25204,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hole of Baalucherunah"
+                "LocationName": "The Lair of Disporgoniva"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Hole of Baalucherunah",
-            "MapId": 89000000888,
+            "AnotherName": "The Lair of Disporgoniva",
+            "MapId": 362672,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA05.RMB"
+                "DUNGAA09.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31930368,
-                "Y": 2930689,
+                "X": 22034432,
+                "Y": 4503553,
                 "IsExterior": 0,
-                "Unknown2": 138,
-                "LocationId": 26936,
+                "Unknown2": 52,
+                "LocationId": 25205,
                 "IsInterior": 1,
-                "ExteriorLocationId": 26935,
-                "LocationName": "The Hole of Baalucherunah"
+                "ExteriorLocationId": 25204,
+                "LocationName": "The Lair of Disporgoniva"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 13
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,31 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000067.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,15 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

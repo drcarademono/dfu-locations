@@ -1,44 +1,44 @@
 {
     "Loaded": true,
-    "Name": "The Old Coppering Hovel",
+    "Name": "Old Elyzanna's Shack",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 387000001018,
-        "Latitude": 69672,
-        "Longitude": 130344,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 465601526,
+        "Latitude": 59688,
+        "Longitude": 100136,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33372160,
-                "Y": 12695553,
+                "X": 25638912,
+                "Y": 15284225,
                 "IsExterior": 32768,
-                "Unknown2": 1083,
-                "LocationId": 14997,
+                "Unknown2": 444,
+                "LocationId": 11686,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Coppering Hovel"
+                "LocationName": "Old Elyzanna's Shack"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 28569,
+                "NameSeed": 17060,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 14997,
-                "BuildingType": 19,
-                "Quality": 12
+                "LocationId": 11686,
+                "BuildingType": "House3",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Coppering Hovel",
-            "MapId": 387000001018,
+            "AnotherName": "Old Elyzanna's Shack",
+            "MapId": 33782,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

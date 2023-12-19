@@ -1,111 +1,63 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Gaersly Manor",
+    "Name": "The Kingford Tombs",
     "RegionName": "Ilessan Hills",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 745000000397,
-        "Latitude": 23848,
-        "Longitude": 50856,
-        "LocationType": 10,
-        "DungeonType": 9,
+        "MapId": 519149362,
+        "Latitude": 50600,
+        "Longitude": 31016,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13023232,
-                "Y": 24426497,
+                "X": 7944192,
+                "Y": 12957697,
                 "IsExterior": 32768,
-                "Unknown2": 355,
-                "LocationId": 15009,
+                "Unknown2": 495,
+                "LocationId": 16098,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Gaersly Manor"
+                "LocationName": "The Kingford Tombs"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Gaersly Manor",
-            "MapId": 745000000397,
+            "AnotherName": "The Kingford Tombs",
+            "MapId": 104242,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA05.RMB"
+                "GRVEAS21.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 7256064,
-                "Y": 13514753,
+                "X": 7944192,
+                "Y": 12957697,
                 "IsExterior": 0,
-                "Unknown2": 131,
-                "LocationId": 15010,
+                "Unknown2": 185,
+                "LocationId": 16099,
                 "IsInterior": 1,
-                "ExteriorLocationId": 15009,
-                "LocationName": "Ruins of Gaersly Manor"
+                "ExteriorLocationId": 16098,
+                "LocationName": "The Kingford Tombs"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 5
         },
         "Blocks": [
             {
                 "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000006.RDB",
@@ -113,10 +65,34 @@
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

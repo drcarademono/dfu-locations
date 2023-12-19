@@ -1,74 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Vuch Hall",
+    "Name": "Old Blugta's Shack",
     "RegionName": "Pothago",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 436000000245,
-        "Latitude": 63400,
-        "Longitude": 31400,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 2503410,
+        "Latitude": 11944,
+        "Longitude": 33064,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8042496,
-                "Y": 14301185,
+                "X": 8468480,
+                "Y": 3061761,
                 "IsExterior": 32768,
-                "Unknown2": 51,
-                "LocationId": 27514,
+                "Unknown2": 2,
+                "LocationId": 26794,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Vuch Hall"
+                "LocationName": "Old Blugta's Shack"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 25245,
+                "NameSeed": 25520,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27514,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18352,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 27514,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 32462,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 27514,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 3598,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 27514,
-                "BuildingType": 17,
-                "Quality": 2
+                "LocationId": 26794,
+                "BuildingType": "House3",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Vuch Hall",
-            "MapId": 436000000245,
+            "AnotherName": "Old Blugta's Shack",
+            "MapId": 406258,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -92,15 +68,15 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 172,
+    "Politic": 173,
     "RegionIndex": 45,
     "LocationIndex": 2
 }

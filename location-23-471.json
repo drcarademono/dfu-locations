@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Tombs of Masterhart",
+    "Name": "The Old Greenton Hovel",
     "RegionName": "Wayrest",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 284000000957,
-        "Latitude": 82856,
-        "Longitude": 122536,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 494112148,
+        "Latitude": 34216,
+        "Longitude": 109096,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31373312,
-                "Y": 9320449,
+                "X": 27932672,
+                "Y": 8763393,
                 "IsExterior": 32768,
-                "Unknown2": 169,
-                "LocationId": 21464,
+                "Unknown2": 471,
+                "LocationId": 22205,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tombs of Masterhart"
+                "LocationName": "The Old Greenton Hovel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 12241,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 22205,
+                "BuildingType": "House3",
+                "Quality": 8
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Tombs of Masterhart",
-            "MapId": 284000000957,
+            "AnotherName": "The Old Greenton Hovel",
+            "MapId": 232852,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS16.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 30685184,
-                "Y": 9615361,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 34,
-                "LocationId": 21465,
-                "IsInterior": 1,
-                "ExteriorLocationId": 21464,
-                "LocationName": "The Tombs of Masterhart"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

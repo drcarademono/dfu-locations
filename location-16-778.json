@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Rattgabith",
+    "Name": "The Kinging Cabin",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 429000000894,
-        "Latitude": 64296,
-        "Longitude": 114472,
-        "LocationType": 4,
-        "DungeonType": 1,
-        "Discovered": false,
+        "MapId": 815851009,
+        "Latitude": 56488,
+        "Longitude": 112808,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29308928,
-                "Y": 14071809,
+                "X": 28882944,
+                "Y": 14465025,
                 "IsExterior": 32768,
-                "Unknown2": 1355,
-                "LocationId": 16701,
+                "Unknown2": 778,
+                "LocationId": 13130,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Rattgabith"
+                "LocationName": "The Kinging Cabin"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 1220,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 13130,
+                "BuildingType": "House3",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Rattgabith",
-            "MapId": 429000000894,
+            "AnotherName": "The Kinging Cabin",
+            "MapId": 58881,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA11.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 26523648,
-                "Y": 12695553,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 502,
-                "LocationId": 16702,
-                "IsInterior": 1,
-                "ExteriorLocationId": 16701,
-                "LocationName": "Rattgabith"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000077.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

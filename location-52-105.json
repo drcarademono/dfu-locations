@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The M'ojum Vaults",
+    "Name": "The C'irmun Plantation",
     "RegionName": "Mournoth",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 158000000943,
-        "Latitude": 98984,
-        "Longitude": 120744,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 110406373,
+        "Latitude": 24872,
+        "Longitude": 114344,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30914560,
-                "Y": 5191681,
+                "X": 29276160,
+                "Y": 6371329,
                 "IsExterior": 32768,
-                "Unknown2": 189,
-                "LocationId": 23853,
+                "Unknown2": 105,
+                "LocationId": 23375,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The M'ojum Vaults"
+                "LocationName": "The C'irmun Plantation"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 15329,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 23375,
+                "BuildingType": "House2",
+                "Quality": 15
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The M'ojum Vaults",
-            "MapId": 158000000943,
+            "AnotherName": "The C'irmun Plantation",
+            "MapId": 305893,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS06.RMB"
+                "FARMAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 32356352,
-                "Y": 5814273,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 44,
-                "LocationId": 23854,
-                "IsInterior": 1,
-                "ExteriorLocationId": 23853,
-                "LocationName": "The M'ojum Vaults"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

@@ -1,106 +1,114 @@
 {
     "Loaded": true,
-    "Name": "Ghasun Manor",
+    "Name": "The Glircham Graveyard",
     "RegionName": "Antiphyllos",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 359000000396,
-        "Latitude": 73256,
-        "Longitude": 50728,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 50796123,
+        "Latitude": 4520,
+        "Longitude": 60840,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12990464,
-                "Y": 11778049,
+                "X": 15579136,
+                "Y": 1161217,
                 "IsExterior": 32768,
-                "Unknown2": 4,
-                "LocationId": 27275,
+                "Unknown2": 48,
+                "LocationId": 28467,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ghasun Manor"
+                "LocationName": "The Glircham Graveyard"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 17109,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27275,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31133,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 27275,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 25349,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 27275,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 28395,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 27275,
-                "BuildingType": 17,
-                "Quality": 15
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ghasun Manor",
-            "MapId": 359000000396,
+            "AnotherName": "The Glircham Graveyard",
+            "MapId": 464475,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRBS00.RMB"
+                "GRVEAS18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 15579136,
+                "Y": 1161217,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 7,
+                "LocationId": 28468,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28467,
+                "LocationName": "The Glircham Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
-    "Politic": 148,
+    "Politic": 183,
     "RegionIndex": 55,
     "LocationIndex": 48
 }

@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Mole and Dog Pub",
+    "Name": "Ruins of Hearthhouse's Hold",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 539000000835,
-        "Latitude": 50216,
-        "Longitude": 106920,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 1686251123,
+        "Latitude": 45992,
+        "Longitude": 117160,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "VolcanicCaves",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27375616,
-                "Y": 17676289,
+                "X": 29997056,
+                "Y": 11778049,
                 "IsExterior": 32768,
-                "Unknown2": 631,
-                "LocationId": 12442,
+                "Unknown2": 1608,
+                "LocationId": 18306,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mole and Dog Pub"
+                "LocationName": "Ruins of Hearthhouse's Hold"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 9112,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 12442,
-                "BuildingType": 15,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 30326,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 12442,
-                "BuildingType": 15,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 25045,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 12442,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 25414,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 12442,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 15630,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 12442,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 22750,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 12442,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 5467,
-                "FactionId": 0,
-                "Sector": 73,
-                "LocationId": 12442,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 14045,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 12442,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 15459,
-                "FactionId": 0,
-                "Sector": 83,
-                "LocationId": 12442,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 19769,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 12442,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 9707,
-                "FactionId": 0,
-                "Sector": 94,
-                "LocationId": 12442,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 24977,
-                "FactionId": 0,
-                "Sector": 100,
-                "LocationId": 12442,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 16186,
-                "FactionId": 0,
-                "Sector": 110,
-                "LocationId": 12442,
-                "BuildingType": 18,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "9112",
-            "MapId": 539000000835,
+            "AnotherName": "Ruins of Hearthhouse's Hold",
+            "MapId": 140915,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS02.RMB"
+                "RUINAA11.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 29997056,
+                "Y": 11778049,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 601,
+                "LocationId": 18307,
+                "IsInterior": 1,
+                "ExteriorLocationId": 18306,
+                "LocationName": "Ruins of Hearthhouse's Hold"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000018.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

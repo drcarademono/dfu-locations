@@ -1,50 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Copperton Farmstead",
+    "Name": "Ashsmith Palace",
     "RegionName": "Ilessan Hills",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 700000000408,
-        "Latitude": 29608,
-        "Longitude": 52264,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 122752653,
+        "Latitude": 55080,
+        "Longitude": 33448,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13383680,
-                "Y": 22951937,
+                "X": 8566784,
+                "Y": 14104577,
                 "IsExterior": 32768,
-                "Unknown2": 570,
-                "LocationId": 17106,
+                "Unknown2": 117,
+                "LocationId": 13743,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Copperton Farmstead"
+                "LocationName": "Ashsmith Palace"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 13121,
+                "NameSeed": 24398,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 17106,
-                "BuildingType": 18,
-                "Quality": 1
+                "LocationId": 13743,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 27057,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 13743,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 22470,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 13743,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 13804,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 13743,
+                "BuildingType": "House3",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 23433,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 13743,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 17579,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 13743,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 8851,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 13743,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 31565,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 13743,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 6199,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 13743,
+                "BuildingType": "House1",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Copperton Farmstead",
-            "MapId": 700000000408,
+            "AnotherName": "Ashsmith Palace",
+            "MapId": 69261,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -67,14 +131,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

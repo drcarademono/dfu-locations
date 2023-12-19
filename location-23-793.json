@@ -1,120 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Nest of Dagubith",
+    "Name": "The Tower of Buckington",
     "RegionName": "Wayrest",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 326000000870,
-        "Latitude": 77480,
-        "Longitude": 111400,
-        "LocationType": 4,
-        "DungeonType": 10,
+        "MapId": 831780721,
+        "Latitude": 30760,
+        "Longitude": 122024,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "RuinedCastle",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28522496,
-                "Y": 10696705,
+                "X": 31242240,
+                "Y": 7878657,
                 "IsExterior": 32768,
-                "Unknown2": 230,
-                "LocationId": 21741,
+                "Unknown2": 793,
+                "LocationId": 22630,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Nest of Dagubith"
+                "LocationName": "The Tower of Buckington"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Nest of Dagubith",
-            "MapId": 326000000870,
+            "AnotherName": "The Tower of Buckington",
+            "MapId": 259953,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA04.RMB"
+                "CASTAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27539456,
-                "Y": 9385985,
+                "X": 31242240,
+                "Y": 7878657,
                 "IsExterior": 0,
-                "Unknown2": 48,
-                "LocationId": 21742,
+                "Unknown2": 174,
+                "LocationId": 22631,
                 "IsInterior": 1,
-                "ExteriorLocationId": 21741,
-                "LocationName": "The Nest of Dagubith"
+                "ExteriorLocationId": 22630,
+                "LocationName": "The Tower of Buckington"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 14
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000070.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000015.RDB",
+                "BlockName": "N0000065.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
@@ -122,33 +82,17 @@
             },
             {
                 "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000080.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -156,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

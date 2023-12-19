@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Old Hawkston Hovel",
+    "Name": "Hawksly Grange",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 433000000867,
-        "Latitude": 63784,
-        "Longitude": 111016,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 861991375,
+        "Latitude": 56104,
+        "Longitude": 115624,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28424192,
-                "Y": 14202881,
+                "X": 29603840,
+                "Y": 14366721,
                 "IsExterior": 32768,
-                "Unknown2": 1443,
-                "LocationId": 17229,
+                "Unknown2": 822,
+                "LocationId": 13318,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Hawkston Hovel"
+                "LocationName": "Hawksly Grange"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 18511,
+                "NameSeed": 22660,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 17229,
-                "BuildingType": 19,
-                "Quality": 15
+                "LocationId": 13318,
+                "BuildingType": "House2",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Hawkston Hovel",
-            "MapId": 433000000867,
+            "AnotherName": "Hawksly Grange",
+            "MapId": 61903,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA07.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

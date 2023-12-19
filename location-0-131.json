@@ -1,146 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Glork's Hold",
+    "Name": "Daghoth",
     "RegionName": "Alik'r Desert",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 312000000410,
-        "Latitude": 79272,
-        "Longitude": 52520,
-        "LocationType": 4,
-        "DungeonType": 2,
+        "MapId": 137796000,
+        "Latitude": 8616,
+        "Longitude": 69672,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "GiantStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13449216,
-                "Y": 10237953,
+                "X": 17840128,
+                "Y": 2209793,
                 "IsExterior": 32768,
-                "Unknown2": 194,
-                "LocationId": 28198,
+                "Unknown2": 131,
+                "LocationId": 27574,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Glork's Hold"
+                "LocationName": "Daghoth"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Glork's Hold",
-            "MapId": 312000000410,
+            "AnotherName": "Daghoth",
+            "MapId": 432544,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA03.RMB"
+                "DUNGAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 14727168,
-                "Y": 1456129,
+                "X": 17840128,
+                "Y": 2209793,
                 "IsExterior": 0,
-                "Unknown2": 91,
-                "LocationId": 28199,
+                "Unknown2": 64,
+                "LocationId": 27575,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28198,
-                "LocationName": "Glork's Hold"
+                "ExteriorLocationId": 27574,
+                "LocationName": "Daghoth"
             }
         },
         "Header": {
-            "BlockCount": 14
+            "BlockCount": 8
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000059.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000024.RDB",
+                "BlockName": "N0000023.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -148,23 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -172,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

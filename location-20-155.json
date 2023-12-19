@@ -1,96 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Pig and Scorpion Pub",
+    "Name": "Blurk's Guard",
     "RegionName": "Sentinel",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 391000000403,
-        "Latitude": 69160,
-        "Longitude": 51624,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 162906654,
+        "Latitude": 15656,
+        "Longitude": 47912,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13219840,
-                "Y": 12826625,
+                "X": 12269568,
+                "Y": 4012033,
                 "IsExterior": 32768,
-                "Unknown2": 304,
-                "LocationId": 26299,
+                "Unknown2": 155,
+                "LocationId": 25849,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Pig and Scorpion Pub"
+                "LocationName": "Blurk's Guard"
             }
         },
-        "BuildingCount": 3,
-        "Buildings": [
-            {
-                "NameSeed": 31689,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 26299,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 12755,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 26299,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 13812,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 26299,
-                "BuildingType": 15,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "13812",
-            "MapId": 391000000403,
+            "AnotherName": "Blurk's Guard",
+            "MapId": 377374,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "CASTAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 12269568,
+                "Y": 4012033,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 29,
+                "LocationId": 25850,
+                "IsInterior": 1,
+                "ExteriorLocationId": 25849,
+                "LocationName": "Blurk's Guard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000036.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

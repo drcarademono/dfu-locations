@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Old Therg-e's Farm",
+    "Name": "The Hold of Slernem",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 218000000794,
-        "Latitude": 91304,
-        "Longitude": 101672,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 541423051,
+        "Latitude": 18216,
+        "Longitude": 106920,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "ScorpionNest",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26032128,
-                "Y": 7157761,
+                "X": 27375616,
+                "Y": 4667393,
                 "IsExterior": 32768,
-                "Unknown2": 326,
-                "LocationId": 24609,
+                "Unknown2": 516,
+                "LocationId": 25050,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Therg-e's Farm"
+                "LocationName": "The Hold of Slernem"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 23009,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 24609,
-                "BuildingType": 18,
-                "Quality": 3
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Therg-e's Farm",
-            "MapId": 218000000794,
+            "AnotherName": "The Hold of Slernem",
+            "MapId": 357835,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "CASTAA31.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 27375616,
+                "Y": 4667393,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 134,
+                "LocationId": 25051,
+                "IsInterior": 1,
+                "ExteriorLocationId": 25050,
+                "LocationName": "The Hold of Slernem"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000058.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Old Yeomston Place",
+    "Name": "Castle Wickhouse",
     "RegionName": "Ykalon",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 724000000528,
-        "Latitude": 26536,
-        "Longitude": 67624,
-        "LocationType": 11,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 232803218,
+        "Latitude": 61480,
+        "Longitude": 44328,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "SpiderNest",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17315840,
-                "Y": 23738369,
+                "X": 11352064,
+                "Y": 15742977,
                 "IsExterior": 32768,
-                "Unknown2": 482,
-                "LocationId": 11997,
+                "Unknown2": 222,
+                "LocationId": 10879,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Yeomston Place"
+                "LocationName": "Castle Wickhouse"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 21248,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 11997,
-                "BuildingType": 19,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Old Yeomston Place",
-            "MapId": 724000000528,
+            "AnotherName": "Castle Wickhouse",
+            "MapId": 19346,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "CASTAA19.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 11352064,
+                "Y": 15742977,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 50,
+                "LocationId": 10880,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10879,
+                "LocationName": "Castle Wickhouse"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000020.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
-        "NatureArchive": 504,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

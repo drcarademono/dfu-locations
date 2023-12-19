@@ -1,114 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Hearthsmith Manor",
+    "Name": "Moorston Hall",
     "RegionName": "Glenpoint",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 714000000371,
-        "Latitude": 27816,
-        "Longitude": 47528,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 58804469,
+        "Latitude": 53160,
+        "Longitude": 27304,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12171264,
-                "Y": 23410689,
+                "X": 6993920,
+                "Y": 13613057,
                 "IsExterior": 32768,
-                "Unknown2": 304,
-                "LocationId": 17453,
+                "Unknown2": 56,
+                "LocationId": 14817,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hearthsmith Manor"
+                "LocationName": "Moorston Hall"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 15371,
+                "NameSeed": 3386,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 17453,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 30812,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 17453,
-                "BuildingType": 18,
+                "LocationId": 14817,
+                "BuildingType": "House1",
                 "Quality": 7
             },
             {
-                "NameSeed": 25002,
+                "NameSeed": 7761,
                 "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 17453,
-                "BuildingType": 18,
-                "Quality": 10
+                "Sector": 16,
+                "LocationId": 14817,
+                "BuildingType": "House2",
+                "Quality": 11
             },
             {
-                "NameSeed": 30661,
+                "NameSeed": 11811,
                 "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 17453,
-                "BuildingType": 19,
+                "Sector": 26,
+                "LocationId": 14817,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 215,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 14817,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 25946,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 14817,
+                "BuildingType": "House2",
                 "Quality": 14
             },
             {
-                "NameSeed": 4907,
+                "NameSeed": 24486,
                 "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 17453,
-                "BuildingType": 18,
-                "Quality": 13
+                "Sector": 51,
+                "LocationId": 14817,
+                "BuildingType": "House2",
+                "Quality": 8
             },
             {
-                "NameSeed": 4645,
+                "NameSeed": 85,
                 "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 17453,
-                "BuildingType": 18,
-                "Quality": 15
+                "Sector": 54,
+                "LocationId": 14817,
+                "BuildingType": "House2",
+                "Quality": 11
             },
             {
-                "NameSeed": 7004,
+                "NameSeed": 31650,
                 "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 17453,
-                "BuildingType": 18,
-                "Quality": 1
+                "Sector": 61,
+                "LocationId": 14817,
+                "BuildingType": "House2",
+                "Quality": 8
             },
             {
-                "NameSeed": 27514,
-                "FactionId": 510,
+                "NameSeed": 13119,
+                "FactionId": 0,
                 "Sector": 69,
-                "LocationId": 17453,
-                "BuildingType": 15,
-                "Quality": 2
+                "LocationId": 14817,
+                "BuildingType": "House2",
+                "Quality": 8
             },
             {
-                "NameSeed": 6964,
+                "NameSeed": 21547,
                 "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 17453,
-                "BuildingType": 17,
-                "Quality": 7
+                "Sector": 78,
+                "LocationId": 14817,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 32068,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 14817,
+                "BuildingType": "Tavern",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Hearthsmith Manor",
-            "MapId": 714000000371,
+            "AnotherName": "Moorston Hall",
+            "MapId": 84213,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -132,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

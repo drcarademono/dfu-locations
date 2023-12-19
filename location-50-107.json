@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Restless Dagger Lodge",
+    "Name": "The Maegem Farmstead",
     "RegionName": "Satakalaam",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 271000000799,
-        "Latitude": 84520,
-        "Longitude": 102312,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 112504462,
+        "Latitude": 24744,
+        "Longitude": 106280,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26195968,
-                "Y": 8894465,
+                "X": 27211776,
+                "Y": 6338561,
                 "IsExterior": 32768,
-                "Unknown2": 53,
-                "LocationId": 23125,
+                "Unknown2": 107,
+                "LocationId": 23403,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Restless Dagger Lodge"
+                "LocationName": "The Maegem Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 27421,
-                "FactionId": 510,
+                "NameSeed": 15177,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23125,
-                "BuildingType": 15,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 20115,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 23125,
-                "BuildingType": 15,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 23069,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 23125,
-                "BuildingType": 15,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 25103,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 23125,
-                "BuildingType": 19,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 24963,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 23125,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 15095,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 23125,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 8191,
-                "FactionId": 0,
-                "Sector": 70,
-                "LocationId": 23125,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 6730,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 23125,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 15098,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 23125,
-                "BuildingType": 19,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 13894,
-                "FactionId": 0,
-                "Sector": 87,
-                "LocationId": 23125,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 28131,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 23125,
-                "BuildingType": 18,
-                "Quality": 15
+                "LocationId": 23403,
+                "BuildingType": "House2",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "27421",
-            "MapId": 271000000799,
+            "AnotherName": "The Maegem Farmstead",
+            "MapId": 306830,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS06.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 178,
     "RegionIndex": 50,

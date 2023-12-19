@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Cyoghter Manor",
+    "Name": "Fluvan Orchard",
     "RegionName": "Santaki",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 217000000609,
-        "Latitude": 91432,
-        "Longitude": 77992,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 412637,
+        "Latitude": 11176,
+        "Longitude": 81576,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19970048,
-                "Y": 7124993,
+                "X": 20887552,
+                "Y": 2865153,
                 "IsExterior": 32768,
-                "Unknown2": 29,
-                "LocationId": 27733,
+                "Unknown2": 0,
+                "LocationId": 26989,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Cyoghter Manor"
+                "LocationName": "Fluvan Orchard"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 19477,
+                "NameSeed": 534,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27733,
-                "BuildingType": 17,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 13061,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 27733,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 6068,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 27733,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 11945,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 27733,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 9263,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 27733,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 5078,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 27733,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 7626,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 27733,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 2763,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 27733,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 4245,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 27733,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 18331,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 27733,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 18668,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 27733,
-                "BuildingType": 15,
-                "Quality": 9
+                "LocationId": 26989,
+                "BuildingType": "House1",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Cyoghter Manor",
-            "MapId": 217000000609,
+            "AnotherName": "Fluvan Orchard",
+            "MapId": 412637,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "FARMAA09.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 182,
     "RegionIndex": 54,

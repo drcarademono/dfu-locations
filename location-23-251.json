@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Strenner Haven",
+    "Name": "The Old Buckinghouse Place",
     "RegionName": "Wayrest",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 262000000960,
-        "Latitude": 85672,
-        "Longitude": 122920,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 263407472,
+        "Latitude": 36520,
+        "Longitude": 114728,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31471616,
-                "Y": 8599553,
+                "X": 29374464,
+                "Y": 9353217,
                 "IsExterior": 32768,
-                "Unknown2": 387,
-                "LocationId": 22079,
+                "Unknown2": 251,
+                "LocationId": 21788,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Strenner Haven"
+                "LocationName": "The Old Buckinghouse Place"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 29968,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 21788,
+                "BuildingType": "House3",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Strenner Haven",
-            "MapId": 262000000960,
+            "AnotherName": "The Old Buckinghouse Place",
+            "MapId": 214896,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

@@ -1,112 +1,184 @@
 {
     "Loaded": true,
-    "Name": "The Masterfield Cemetery",
+    "Name": "Sacred Ascencion of Kynareth",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 482000000950,
-        "Latitude": 57512,
-        "Longitude": 121640,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 1338088956,
+        "Latitude": 50472,
+        "Longitude": 125480,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31143936,
-                "Y": 15808513,
+                "X": 32126976,
+                "Y": 12924929,
                 "IsExterior": 32768,
-                "Unknown2": 531,
-                "LocationId": 11976,
+                "Unknown2": 1276,
+                "LocationId": 16219,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Masterfield Cemetery"
+                "LocationName": "Sacred Ascencion of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 29161,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 16219,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 1053,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 16219,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 14063,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 16219,
+                "BuildingType": "House3",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 15371,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 16219,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 30812,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 16219,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 25002,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 16219,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 30661,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 16219,
+                "BuildingType": "House3",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 4907,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 16219,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 4645,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 16219,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 7004,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 16219,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 15177,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 16219,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 29097,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 16219,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 3231,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 16219,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 9094,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 16219,
+                "BuildingType": "Temple",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Masterfield Cemetery",
-            "MapId": 482000000950,
+            "AnotherName": "Sacred Ascencion of Kynareth",
+            "MapId": 105980,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS29.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27244544,
-                "Y": 15120385,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 194,
-                "LocationId": 11977,
-                "IsInterior": 1,
-                "ExteriorLocationId": 11976,
-                "LocationName": "The Masterfield Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

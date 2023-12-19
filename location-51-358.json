@@ -1,114 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Des'kern Manor",
+    "Name": "Castle Sesir",
     "RegionName": "Totambu",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 191000000850,
-        "Latitude": 94760,
-        "Longitude": 108840,
-        "LocationType": 10,
-        "DungeonType": 11,
+        "MapId": 375738950,
+        "Latitude": 19368,
+        "Longitude": 95016,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Crypt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27867136,
-                "Y": 6273025,
+                "X": 24328192,
+                "Y": 4962305,
                 "IsExterior": 32768,
-                "Unknown2": 257,
-                "LocationId": 24439,
+                "Unknown2": 358,
+                "LocationId": 24695,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Des'kern Manor"
+                "LocationName": "Castle Sesir"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Des'kern Manor",
-            "MapId": 191000000850,
+            "AnotherName": "Castle Sesir",
+            "MapId": 348742,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA22.RMB"
+                "CASTAA13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 29177856,
-                "Y": 5224449,
+                "X": 24328192,
+                "Y": 4962305,
                 "IsExterior": 0,
-                "Unknown2": 73,
-                "LocationId": 24440,
+                "Unknown2": 92,
+                "LocationId": 24696,
                 "IsInterior": 1,
-                "ExteriorLocationId": 24439,
-                "LocationName": "Ruins of Des'kern Manor"
+                "ExteriorLocationId": 24695,
+                "LocationName": "Castle Sesir"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 12
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000003.RDB",
+                "BlockName": "W0000020.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

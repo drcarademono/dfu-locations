@@ -1,50 +1,41 @@
 {
     "Loaded": true,
-    "Name": "Old M'ormta's Farm",
+    "Name": "Shrine of Ephen",
     "RegionName": "Alik'r Desert",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 343000000362,
-        "Latitude": 75304,
-        "Longitude": 46376,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 210173448,
+        "Latitude": 5288,
+        "Longitude": 31784,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11876352,
-                "Y": 11253761,
+                "X": 8140800,
+                "Y": 1357825,
                 "IsExterior": 32768,
-                "Unknown2": 187,
-                "LocationId": 28115,
+                "Unknown2": 200,
+                "LocationId": 28278,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old M'ormta's Farm"
+                "LocationName": "Shrine of Ephen"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 25800,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 28115,
-                "BuildingType": 18,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old M'ormta's Farm",
-            "MapId": 343000000362,
+            "AnotherName": "Shrine of Ephen",
+            "MapId": 458248,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA05.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -68,13 +59,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

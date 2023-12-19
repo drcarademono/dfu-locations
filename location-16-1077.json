@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Tower of Greensly",
+    "Name": "The Ashsly Graveyard",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 458000000844,
-        "Latitude": 60584,
-        "Longitude": 108072,
-        "LocationType": 10,
-        "DungeonType": 6,
+        "MapId": 1129402300,
+        "Latitude": 53032,
+        "Longitude": 121384,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27670528,
-                "Y": 15022081,
+                "X": 31078400,
+                "Y": 13580289,
                 "IsExterior": 32768,
-                "Unknown2": 1350,
-                "LocationId": 16693,
+                "Unknown2": 1077,
+                "LocationId": 14948,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Tower of Greensly"
+                "LocationName": "The Ashsly Graveyard"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Tower of Greensly",
-            "MapId": 458000000844,
+            "AnotherName": "The Ashsly Graveyard",
+            "MapId": 85948,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA19.RMB"
+                "GRVEAS14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 24655872,
-                "Y": 12695553,
+                "X": 31078400,
+                "Y": 13580289,
                 "IsExterior": 0,
-                "Unknown2": 499,
-                "LocationId": 16694,
+                "Unknown2": 392,
+                "LocationId": 14949,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16693,
-                "LocationName": "Ruins of The Tower of Greensly"
+                "ExteriorLocationId": 14948,
+                "LocationName": "The Ashsly Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 5
         },
         "Blocks": [
             {
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000027.RDB",
+                "BlockName": "M0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,15 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000074.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,15 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

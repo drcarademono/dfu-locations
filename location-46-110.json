@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Tlirkt Farmstead",
+    "Name": "The Tombs of Chijun",
     "RegionName": "Myrkwasa",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 433000000256,
-        "Latitude": 63784,
-        "Longitude": 32808,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 115781626,
+        "Latitude": 7848,
+        "Longitude": 34088,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8402944,
-                "Y": 14202881,
+                "X": 8730624,
+                "Y": 2013185,
                 "IsExterior": 32768,
-                "Unknown2": 80,
-                "LocationId": 27429,
+                "Unknown2": 110,
+                "LocationId": 27722,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tlirkt Farmstead"
+                "LocationName": "The Tombs of Chijun"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 22407,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 27429,
-                "BuildingType": 18,
-                "Quality": 9
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Tlirkt Farmstead",
-            "MapId": 433000000256,
+            "AnotherName": "The Tombs of Chijun",
+            "MapId": 438266,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA00.RMB"
+                "GRVEAS24.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 8730624,
+                "Y": 2013185,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 30,
+                "LocationId": 27723,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27722,
+                "LocationName": "The Tombs of Chijun"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

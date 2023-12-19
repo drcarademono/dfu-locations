@@ -1,136 +1,176 @@
 {
     "Loaded": true,
-    "Name": "The Web of Skoiker",
+    "Name": "Moorham Palace",
     "RegionName": "Glenumbra Moors",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 806000000295,
-        "Latitude": 16040,
-        "Longitude": 37800,
-        "LocationType": 4,
-        "DungeonType": 12,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 75575591,
+        "Latitude": 53928,
+        "Longitude": 15272,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9680896,
-                "Y": 26425345,
+                "X": 3913728,
+                "Y": 13809665,
                 "IsExterior": 32768,
-                "Unknown2": 99,
-                "LocationId": 14876,
+                "Unknown2": 72,
+                "LocationId": 14349,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Web of Skoiker"
+                "LocationName": "Moorham Palace"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 12984,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 14349,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 12499,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 14349,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 23734,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 14349,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 14857,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 14349,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 21868,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 14349,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 25942,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 14349,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 25664,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 14349,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 1046,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 14349,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 26377,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 14349,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 19405,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 14349,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 30898,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 14349,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 19068,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 14349,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 27266,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 14349,
+                "BuildingType": "House1",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Web of Skoiker",
-            "MapId": 806000000295,
+            "AnotherName": "Moorham Palace",
+            "MapId": 78119,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA01.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 3356672,
-                "Y": 13580289,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 24,
-                "LocationId": 14877,
-                "IsInterior": 1,
-                "ExteriorLocationId": 14876,
-                "LocationName": "The Web of Skoiker"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000049.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 187,
     "RegionIndex": 59,

@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "The Chalp Plantation",
+    "Name": "The Dwarf and Bird Pub",
     "RegionName": "Dak'fron",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 209000000538,
-        "Latitude": 92456,
-        "Longitude": 68904,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 77016666,
+        "Latitude": 3752,
+        "Longitude": 79144,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17643520,
-                "Y": 6862849,
+                "X": 20264960,
+                "Y": 964609,
                 "IsExterior": 32768,
-                "Unknown2": 120,
-                "LocationId": 28956,
+                "Unknown2": 73,
+                "LocationId": 28646,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Chalp Plantation"
+                "LocationName": "The Dwarf and Bird Pub"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 22988,
+                "NameSeed": 709,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28956,
-                "BuildingType": 18,
-                "Quality": 1
+                "LocationId": 28646,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 18688,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 28646,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 17970,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 28646,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 20972,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 28646,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 5509,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 28646,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 2546,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 28646,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 808,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 28646,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 17324,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 28646,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 8684,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 28646,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 15950,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 28646,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 25293,
+                "FactionId": 510,
+                "Sector": 55,
+                "LocationId": 28646,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 26576,
+                "FactionId": 510,
+                "Sector": 71,
+                "LocationId": 28646,
+                "BuildingType": "Tavern",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Chalp Plantation",
-            "MapId": 209000000538,
+            "AnotherName": "25293",
+            "MapId": 470618,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "TVRNAS07.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Pit of Maron",
+    "Name": "The Tombs of Moorston",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 379000001026,
-        "Latitude": 70696,
-        "Longitude": 131368,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 411071537,
+        "Latitude": 60200,
+        "Longitude": 95400,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33634304,
-                "Y": 12433409,
+                "X": 24426496,
+                "Y": 15415297,
                 "IsExterior": 32768,
-                "Unknown2": 1115,
-                "LocationId": 15193,
+                "Unknown2": 392,
+                "LocationId": 11465,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Pit of Maron"
+                "LocationName": "The Tombs of Moorston"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Pit of Maron",
-            "MapId": 379000001026,
+            "AnotherName": "The Tombs of Moorston",
+            "MapId": 29745,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA00.RMB"
+                "GRVEAS24.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31111168,
-                "Y": 13449217,
+                "X": 24426496,
+                "Y": 15415297,
                 "IsExterior": 0,
-                "Unknown2": 408,
-                "LocationId": 15194,
+                "Unknown2": 150,
+                "LocationId": 11466,
                 "IsInterior": 1,
-                "ExteriorLocationId": 15193,
-                "LocationName": "The Pit of Maron"
+                "ExteriorLocationId": 11465,
+                "LocationName": "The Tombs of Moorston"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 5
         },
         "Blocks": [
             {
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,79 +76,23 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000055.RDB",
+                "BlockName": "M0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
                 "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 2,
                 "IsStartingBlock": false,
                 "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 3,
-                "Z": 1,
+                "X": 1,
+                "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

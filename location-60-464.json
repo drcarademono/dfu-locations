@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Kingwing Palace",
+    "Name": "The Agrard Prison",
     "RegionName": "Ilessan Hills",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 740000000389,
-        "Latitude": 24488,
-        "Longitude": 49832,
-        "LocationType": 10,
-        "DungeonType": 11,
+        "MapId": 486638586,
+        "Latitude": 51240,
+        "Longitude": 41256,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Prison",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12761088,
-                "Y": 24262657,
+                "X": 10565632,
+                "Y": 13121537,
                 "IsExterior": 32768,
-                "Unknown2": 423,
-                "LocationId": 15497,
+                "Unknown2": 464,
+                "LocationId": 15766,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Kingwing Palace"
+                "LocationName": "The Agrard Prison"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Kingwing Palace",
-            "MapId": 740000000389,
+            "AnotherName": "The Agrard Prison",
+            "MapId": 99322,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA21.RMB"
+                "DUNGAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 7124992,
-                "Y": 13252609,
+                "X": 10565632,
+                "Y": 13121537,
                 "IsExterior": 0,
-                "Unknown2": 162,
-                "LocationId": 15498,
+                "Unknown2": 177,
+                "LocationId": 15767,
                 "IsInterior": 1,
-                "ExteriorLocationId": 15497,
-                "LocationName": "Ruins of Kingwing Palace"
+                "ExteriorLocationId": 15766,
+                "LocationName": "The Agrard Prison"
             }
         },
         "Header": {
@@ -57,56 +57,24 @@
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000009.RDB",
+                "BlockName": "N0000074.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": -3,
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
@@ -114,57 +82,33 @@
             },
             {
                 "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "W0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 2,
-                "Z": -2,
+                "X": 0,
+                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
+        "GroundArchive": 302,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 146,
+    "Politic": 188,
     "RegionIndex": 60,
     "LocationIndex": 464
 }

@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Gaersly Farmstead",
+    "Name": "THe Crypts of Yeomsmith",
     "RegionName": "Menevia",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 355000000875,
-        "Latitude": 73768,
-        "Longitude": 112040,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 85110472,
+        "Latitude": 41512,
+        "Longitude": 104488,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28686336,
-                "Y": 11646977,
+                "X": 26753024,
+                "Y": 10631169,
                 "IsExterior": 32768,
-                "Unknown2": 111,
-                "LocationId": 20556,
+                "Unknown2": 81,
+                "LocationId": 20125,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Gaersly Farmstead"
+                "LocationName": "THe Crypts of Yeomsmith"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 15838,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 20556,
-                "BuildingType": 18,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Gaersly Farmstead",
-            "MapId": 355000000875,
+            "AnotherName": "THe Crypts of Yeomsmith",
+            "MapId": 175816,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "GRVEAS30.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 26753024,
+                "Y": 10631169,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 13,
+                "LocationId": 20126,
+                "IsInterior": 1,
+                "ExteriorLocationId": 20125,
+                "LocationName": "THe Crypts of Yeomsmith"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 161,
     "RegionIndex": 33,

@@ -1,152 +1,144 @@
 {
     "Loaded": true,
-    "Name": "Tower Ashcroft",
+    "Name": "Greenwing Manor",
     "RegionName": "Kambria",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 581000000757,
-        "Latitude": 44840,
-        "Longitude": 96936,
-        "LocationType": 7,
-        "DungeonType": 4,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 264325780,
+        "Latitude": 53160,
+        "Longitude": 80424,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24819712,
-                "Y": 19052545,
+                "X": 20592640,
+                "Y": 13613057,
                 "IsExterior": 32768,
-                "Unknown2": 40,
-                "LocationId": 12598,
+                "Unknown2": 252,
+                "LocationId": 14846,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Tower Ashcroft"
+                "LocationName": "Greenwing Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 7906,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 14846,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 317,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 14846,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 7114,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 14846,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 2867,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 14846,
+                "BuildingType": "House3",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 23884,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 14846,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 2184,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 14846,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 15116,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 14846,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 4899,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 14846,
+                "BuildingType": "Tavern",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 4827,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 14846,
+                "BuildingType": "House1",
+                "Quality": 5
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Tower Ashcroft",
-            "MapId": 581000000757,
+            "AnotherName": "Greenwing Manor",
+            "MapId": 84628,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA10.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 20166656,
-                "Y": 14759937,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 15,
-                "LocationId": 12599,
-                "IsInterior": 1,
-                "ExteriorLocationId": 12598,
-                "LocationName": "Tower Ashcroft"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000039.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000078.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000069.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

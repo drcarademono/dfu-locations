@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Vorp Palace",
+    "Name": "Ruins of Old Nhornki's Shack",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 44000000869,
-        "Latitude": 113576,
-        "Longitude": 111272,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 43300230,
+        "Latitude": 24488,
+        "Longitude": 78632,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28489728,
-                "Y": 1456129,
+                "X": 20133888,
+                "Y": 6273025,
                 "IsExterior": 32768,
-                "Unknown2": 701,
-                "LocationId": 28305,
+                "Unknown2": 41,
+                "LocationId": 23442,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Vorp Palace"
+                "LocationName": "Ruins of Old Nhornki's Shack"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 22600,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 28305,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 8101,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 28305,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 2031,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 28305,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 12047,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 28305,
-                "BuildingType": 19,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 23199,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 28305,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 298,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 28305,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 23132,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 28305,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 3247,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 28305,
-                "BuildingType": 15,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 6067,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 28305,
-                "BuildingType": 17,
-                "Quality": 11
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Vorp Palace",
-            "MapId": 44000000869,
+            "AnotherName": "Ruins of Old Nhornki's Shack",
+            "MapId": 308614,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "RUINAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 20133888,
+                "Y": 6273025,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 6,
+                "LocationId": 23443,
+                "IsInterior": 1,
+                "ExteriorLocationId": 23442,
+                "LocationName": "Ruins of Old Nhornki's Shack"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 11
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000026.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

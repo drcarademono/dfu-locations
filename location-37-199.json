@@ -1,136 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Greenwing Tower",
+    "Name": "The Silver Goblin Hostel",
     "RegionName": "Kambria",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 572000000742,
-        "Latitude": 45992,
-        "Longitude": 95016,
-        "LocationType": 7,
-        "DungeonType": 2,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 208745187,
+        "Latitude": 53928,
+        "Longitude": 72104,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24328192,
-                "Y": 18757633,
+                "X": 18462720,
+                "Y": 13809665,
                 "IsExterior": 32768,
-                "Unknown2": 102,
-                "LocationId": 13452,
+                "Unknown2": 199,
+                "LocationId": 14391,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Greenwing Tower"
+                "LocationName": "The Silver Goblin Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 9824,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 14391,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 15173,
+                "FactionId": 510,
+                "Sector": 20,
+                "LocationId": 14391,
+                "BuildingType": "Tavern",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 28494,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 14391,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 12525,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 14391,
+                "BuildingType": "House3",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 7987,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 14391,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 8637,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 14391,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 28627,
+                "FactionId": 0,
+                "Sector": 70,
+                "LocationId": 14391,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 2784,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 14391,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 9860,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 14391,
+                "BuildingType": "House3",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 18007,
+                "FactionId": 0,
+                "Sector": 87,
+                "LocationId": 14391,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 30835,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 14391,
+                "BuildingType": "House2",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Greenwing Tower",
-            "MapId": 572000000742,
+            "AnotherName": "9824",
+            "MapId": 78563,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA16.RMB"
+                "TVRNAS06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19871744,
-                "Y": 14268417,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 35,
-                "LocationId": 13453,
-                "IsInterior": 1,
-                "ExteriorLocationId": 13452,
-                "LocationName": "Greenwing Tower"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000037.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Buckington Grange",
+    "Name": "The Old Kingford Shack",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 635000000333,
-        "Latitude": 37928,
-        "Longitude": 42664,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 209874333,
+        "Latitude": 43560,
+        "Longitude": 17064,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10926080,
-                "Y": 20822017,
+                "X": 4372480,
+                "Y": 11155457,
                 "IsExterior": 32768,
-                "Unknown2": 1248,
-                "LocationId": 21775,
+                "Unknown2": 200,
+                "LocationId": 19238,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Buckington Grange"
+                "LocationName": "The Old Kingford Shack"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 26368,
+                "NameSeed": 23876,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 21775,
-                "BuildingType": 18,
-                "Quality": 5
+                "LocationId": 19238,
+                "BuildingType": "House3",
+                "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Buckington Grange",
-            "MapId": 635000000333,
+            "AnotherName": "The Old Kingford Shack",
+            "MapId": 159133,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Shrine of Mai",
+    "Name": "The Hearthsmith Farmstead",
     "RegionName": "Wayrest",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 317000000891,
-        "Latitude": 78632,
-        "Longitude": 114088,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 758373431,
+        "Latitude": 31656,
+        "Longitude": 125864,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29210624,
-                "Y": 10401793,
+                "X": 32225280,
+                "Y": 8108033,
                 "IsExterior": 32768,
-                "Unknown2": 200,
-                "LocationId": 21632,
+                "Unknown2": 723,
+                "LocationId": 22529,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shrine of Mai"
+                "LocationName": "The Hearthsmith Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 22597,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 22529,
+                "BuildingType": "House2",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Shrine of Mai",
-            "MapId": 317000000891,
+            "AnotherName": "The Hearthsmith Farmstead",
+            "MapId": 252983,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "FARMAA00.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

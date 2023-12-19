@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Copperwing Graveyard",
+    "Name": "Ruins of Tower Moorsley",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 320000001027,
-        "Latitude": 78248,
-        "Longitude": 131496,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": true,
+        "MapId": 162541235,
+        "Latitude": 62504,
+        "Longitude": 122280,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "OrcStronghold",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33667072,
-                "Y": 10500097,
+                "X": 31307776,
+                "Y": 16005121,
                 "IsExterior": 32768,
-                "Unknown2": 1613,
-                "LocationId": 18313,
+                "Unknown2": 155,
+                "LocationId": 10502,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Copperwing Graveyard"
+                "LocationName": "Ruins of Tower Moorsley"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Copperwing Graveyard",
-            "MapId": 320000001027,
+            "AnotherName": "Ruins of Tower Moorsley",
+            "MapId": 11955,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS15.RMB"
+                "RUINAA22.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 32094208,
-                "Y": 11778049,
+                "X": 31307776,
+                "Y": 16005121,
                 "IsExterior": 0,
-                "Unknown2": 603,
-                "LocationId": 18314,
+                "Unknown2": 55,
+                "LocationId": 10503,
                 "IsInterior": 1,
-                "ExteriorLocationId": 18313,
-                "LocationName": "The Copperwing Graveyard"
+                "ExteriorLocationId": 10502,
+                "LocationName": "Ruins of Tower Moorsley"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000086.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

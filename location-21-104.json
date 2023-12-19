@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Greencroft Farmstead",
+    "Name": "The Old Woodcroft Hovel",
     "RegionName": "Anticlere",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 566000000580,
+        "MapId": 109186310,
         "Latitude": 46760,
-        "Longitude": 74280,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "Longitude": 52008,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19019776,
-                "Y": 18561025,
+                "X": 13318144,
+                "Y": 11974657,
                 "IsExterior": 32768,
-                "Unknown2": 353,
-                "LocationId": 18805,
+                "Unknown2": 104,
+                "LocationId": 17881,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Greencroft Farmstead"
+                "LocationName": "The Old Woodcroft Hovel"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 22824,
+                "NameSeed": 15290,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 18805,
-                "BuildingType": 18,
-                "Quality": 2
+                "LocationId": 17881,
+                "BuildingType": "House3",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Greencroft Farmstead",
-            "MapId": 566000000580,
+            "AnotherName": "The Old Woodcroft Hovel",
+            "MapId": 134406,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

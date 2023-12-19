@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Old Gwynara's Farm",
+    "Name": "Castle Ashham",
     "RegionName": "Wayrest",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 289000000929,
-        "Latitude": 82216,
-        "Longitude": 118952,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 536058262,
+        "Latitude": 33832,
+        "Longitude": 118568,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "OrcStronghold",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30455808,
-                "Y": 9484289,
+                "X": 30357504,
+                "Y": 8665089,
                 "IsExterior": 32768,
-                "Unknown2": 274,
-                "LocationId": 21842,
+                "Unknown2": 511,
+                "LocationId": 22261,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Gwynara's Farm"
+                "LocationName": "Castle Ashham"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 11880,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 21842,
-                "BuildingType": 18,
-                "Quality": 7
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Gwynara's Farm",
-            "MapId": 289000000929,
+            "AnotherName": "Castle Ashham",
+            "MapId": 235926,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "CASTAA24.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 30357504,
+                "Y": 8665089,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 113,
+                "LocationId": 22262,
+                "IsInterior": 1,
+                "ExteriorLocationId": 22261,
+                "LocationName": "Castle Ashham"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000045.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

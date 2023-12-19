@@ -1,168 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Vojvor Web",
+    "Name": "The Devil's Scorpion Pub",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 196000000821,
-        "Latitude": 94120,
-        "Longitude": 105128,
-        "LocationType": 4,
-        "DungeonType": 17,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 410343131,
+        "Latitude": 19240,
+        "Longitude": 117160,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26916864,
-                "Y": 6436865,
+                "X": 29997056,
+                "Y": 4929537,
                 "IsExterior": 32768,
-                "Unknown2": 401,
-                "LocationId": 24790,
+                "Unknown2": 391,
+                "LocationId": 24751,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Vojvor Web"
+                "LocationName": "The Devil's Scorpion Pub"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 27649,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 24751,
+                "BuildingType": "Tavern",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 465,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 24751,
+                "BuildingType": "Tavern",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 23959,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 24751,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 26232,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 24751,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 678,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 24751,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 23027,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 24751,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 30085,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 24751,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 21481,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 24751,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 22430,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 24751,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 8276,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 24751,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 22752,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 24751,
+                "BuildingType": "House2",
+                "Quality": 13
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Vojvor Web",
-            "MapId": 196000000821,
+            "AnotherName": "27649",
+            "MapId": 349915,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA14.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 28293120,
-                "Y": 4896769,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 105,
-                "LocationId": 24791,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24790,
-                "LocationName": "The Vojvor Web"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000059.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000087.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000033.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

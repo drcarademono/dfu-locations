@@ -1,66 +1,82 @@
 {
     "Loaded": true,
-    "Name": "The Bat and Djinn Pub",
+    "Name": "The Howling Huntsman Pub",
     "RegionName": "Tigonus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 376000000518,
-        "Latitude": 71080,
-        "Longitude": 66344,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 199573971,
+        "Latitude": 19880,
+        "Longitude": 68008,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16988160,
-                "Y": 12335105,
+                "X": 17414144,
+                "Y": 5093377,
                 "IsExterior": 32768,
-                "Unknown2": 199,
-                "LocationId": 24619,
+                "Unknown2": 190,
+                "LocationId": 24552,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Bat and Djinn Pub"
+                "LocationName": "The Howling Huntsman Pub"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 5,
         "Buildings": [
             {
-                "NameSeed": 15390,
+                "NameSeed": 29911,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 24619,
-                "BuildingType": 18,
-                "Quality": 14
+                "LocationId": 24552,
+                "BuildingType": "House2",
+                "Quality": 6
             },
             {
-                "NameSeed": 27379,
-                "FactionId": 510,
-                "Sector": 11,
-                "LocationId": 24619,
-                "BuildingType": 17,
-                "Quality": 7
+                "NameSeed": 12797,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 24552,
+                "BuildingType": "House2",
+                "Quality": 2
             },
             {
-                "NameSeed": 12933,
+                "NameSeed": 15308,
+                "FactionId": 0,
+                "Sector": 14,
+                "LocationId": 24552,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 16512,
+                "FactionId": 0,
+                "Sector": 18,
+                "LocationId": 24552,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 13848,
                 "FactionId": 510,
-                "Sector": 24,
-                "LocationId": 24619,
-                "BuildingType": 15,
-                "Quality": 3
+                "Sector": 23,
+                "LocationId": 24552,
+                "BuildingType": "Tavern",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "12933",
-            "MapId": 376000000518,
+            "AnotherName": "13848",
+            "MapId": 344531,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS03.RMB"
+                "TVRNGS01.RMB"
             ]
         }
     },
@@ -84,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

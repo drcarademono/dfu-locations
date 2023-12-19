@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Dwarf and Muskrat Pub",
+    "Name": "The Klortim Crypts",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 161000000807,
-        "Latitude": 98600,
-        "Longitude": 103336,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 137696221,
+        "Latitude": 21416,
+        "Longitude": 97960,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26458112,
-                "Y": 5289985,
+                "X": 25081856,
+                "Y": 5486593,
                 "IsExterior": 32768,
-                "Unknown2": 876,
-                "LocationId": 26250,
+                "Unknown2": 131,
+                "LocationId": 24137,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dwarf and Muskrat Pub"
+                "LocationName": "The Klortim Crypts"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 18332,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 26250,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 6664,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 26250,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 31756,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 26250,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 28865,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 26250,
-                "BuildingType": 19,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 11836,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 26250,
-                "BuildingType": 19,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 20581,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 26250,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 10225,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 26250,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 8853,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 26250,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 31830,
-                "FactionId": 510,
-                "Sector": 63,
-                "LocationId": 26250,
-                "BuildingType": 1,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 10876,
-                "FactionId": 510,
-                "Sector": 67,
-                "LocationId": 26250,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 21717,
-                "FactionId": 510,
-                "Sector": 84,
-                "LocationId": 26250,
-                "BuildingType": 15,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "10876",
-            "MapId": 161000000807,
+            "AnotherName": "The Klortim Crypts",
+            "MapId": 332765,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS08.RMB"
+                "GRVEAS21.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 25081856,
+                "Y": 5486593,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 32,
+                "LocationId": 24138,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24137,
+                "LocationName": "The Klortim Crypts"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

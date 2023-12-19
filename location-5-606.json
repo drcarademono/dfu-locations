@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Wickhart Court",
+    "Name": "Greenham Grange",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 633000000697,
-        "Latitude": 38184,
-        "Longitude": 89256,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 635538552,
+        "Latitude": 50984,
+        "Longitude": 63528,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22853632,
-                "Y": 20756481,
+                "X": 16267264,
+                "Y": 13056001,
                 "IsExterior": 32768,
-                "Unknown2": 151,
-                "LocationId": 11734,
+                "Unknown2": 606,
+                "LocationId": 15914,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Wickhart Court"
+                "LocationName": "Greenham Grange"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 2485,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 11734,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 12394,
+                "NameSeed": 17672,
                 "FactionId": 0,
                 "Sector": 10,
-                "LocationId": 11734,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 4094,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 11734,
-                "BuildingType": 18,
+                "LocationId": 15914,
+                "BuildingType": "House2",
                 "Quality": 11
-            },
-            {
-                "NameSeed": 31004,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 11734,
-                "BuildingType": 19,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 10869,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 11734,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 2055,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 11734,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 17475,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 11734,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 24716,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 11734,
-                "BuildingType": 15,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 32733,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 11734,
-                "BuildingType": 17,
-                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Wickhart Court",
-            "MapId": 633000000697,
+            "AnotherName": "Greenham Grange",
+            "MapId": 101496,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "FARMAA00.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

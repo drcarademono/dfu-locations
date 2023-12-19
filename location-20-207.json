@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The V'uchin Farmstead",
+    "Name": "Old Rluctsa's Hovel",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 397000000425,
-        "Latitude": 68392,
-        "Longitude": 54440,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 217437562,
+        "Latitude": 15016,
+        "Longitude": 42280,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13940736,
-                "Y": 13023233,
+                "X": 10827776,
+                "Y": 3848193,
                 "IsExterior": 32768,
-                "Unknown2": 125,
-                "LocationId": 25731,
+                "Unknown2": 207,
+                "LocationId": 26034,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The V'uchin Farmstead"
+                "LocationName": "Old Rluctsa's Hovel"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 31458,
+                "NameSeed": 29328,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25731,
-                "BuildingType": 18,
-                "Quality": 3
+                "LocationId": 26034,
+                "BuildingType": "House3",
+                "Quality": 9
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The V'uchin Farmstead",
-            "MapId": 397000000425,
+            "AnotherName": "Old Rluctsa's Hovel",
+            "MapId": 382330,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 9,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA08.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

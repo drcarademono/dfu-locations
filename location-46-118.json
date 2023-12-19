@@ -1,50 +1,74 @@
 {
     "Loaded": true,
-    "Name": "Old Lhazba's Farm",
+    "Name": "T'irchum Manor",
     "RegionName": "Myrkwasa",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 434000000312,
-        "Latitude": 63656,
-        "Longitude": 39976,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 124173250,
+        "Latitude": 7464,
+        "Longitude": 36136,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10237952,
-                "Y": 14235649,
+                "X": 9254912,
+                "Y": 1914881,
                 "IsExterior": 32768,
-                "Unknown2": 9,
-                "LocationId": 26551,
+                "Unknown2": 118,
+                "LocationId": 27815,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Lhazba's Farm"
+                "LocationName": "T'irchum Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 2031,
+                "NameSeed": 12660,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26551,
-                "BuildingType": 18,
+                "LocationId": 27815,
+                "BuildingType": "House2",
                 "Quality": 6
+            },
+            {
+                "NameSeed": 557,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 27815,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 31909,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 27815,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 5057,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 27815,
+                "BuildingType": "House1",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Lhazba's Farm",
-            "MapId": 434000000312,
+            "AnotherName": "T'irchum Manor",
+            "MapId": 441282,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "MANRBS00.RMB"
             ]
         }
     },
@@ -67,14 +91,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

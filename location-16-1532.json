@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Weeping Omen of Kynareth",
+    "Name": "Ruins of Kinging's Hold",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 522000000955,
-        "Latitude": 52392,
-        "Longitude": 122280,
-        "LocationType": 5,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16
+        "MapId": 1606551323,
+        "Latitude": 47016,
+        "Longitude": 114088,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "OrcStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31307776,
-                "Y": 17119233,
+                "X": 29210624,
+                "Y": 12040193,
                 "IsExterior": 32768,
-                "Unknown2": 5,
-                "LocationId": 10042,
+                "Unknown2": 1532,
+                "LocationId": 17768,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Weeping Omen of Kynareth"
+                "LocationName": "Ruins of Kinging's Hold"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 7348,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 10042,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 7207,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 10042,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 20069,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 10042,
-                "BuildingType": 19,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 27168,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 10042,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 20199,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 10042,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 4627,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 10042,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 7091,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 10042,
-                "BuildingType": 19,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 20972,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 10042,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 5509,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 10042,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 2546,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 10042,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 808,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 10042,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 17324,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 10042,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 8684,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 10042,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 27119,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 10042,
-                "BuildingType": 14,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Weeping Omen of Kynareth",
-            "MapId": 522000000955,
+            "AnotherName": "Ruins of Kinging's Hold",
+            "MapId": 132891,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "RUINAA13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 29210624,
+                "Y": 12040193,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 570,
+                "LocationId": 17769,
+                "IsInterior": 1,
+                "ExteriorLocationId": 17768,
+                "LocationName": "Ruins of Kinging's Hold"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000059.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Buckingsmith Manor",
+    "Name": "Ruins of Ashham's Hold",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 433000000879,
-        "Latitude": 63784,
-        "Longitude": 112552,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 864089331,
+        "Latitude": 55976,
+        "Longitude": 90536,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28817408,
-                "Y": 14202881,
+                "X": 23181312,
+                "Y": 14333953,
                 "IsExterior": 32768,
-                "Unknown2": 1387,
-                "LocationId": 16915,
+                "Unknown2": 824,
+                "LocationId": 13363,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Buckingsmith Manor"
+                "LocationName": "Ruins of Ashham's Hold"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 22386,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 16915,
-                "BuildingType": 17,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 26657,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 16915,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 16959,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 16915,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 11038,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 16915,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 32101,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 16915,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 13654,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 16915,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 3337,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 16915,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18440,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 16915,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31458,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 16915,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 17107,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 16915,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 11011,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 16915,
-                "BuildingType": 15,
-                "Quality": 3
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Buckingsmith Manor",
-            "MapId": 433000000879,
+            "AnotherName": "Ruins of Ashham's Hold",
+            "MapId": 62707,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "RUINAA26.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 23181312,
+                "Y": 14333953,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 289,
+                "LocationId": 13364,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13363,
+                "LocationName": "Ruins of Ashham's Hold"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000078.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Wickford Manor",
+    "Name": "Hawksmith Grange",
     "RegionName": "Ilessan Hills",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 696000000436,
-        "Latitude": 30120,
-        "Longitude": 55848,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 85000945,
+        "Latitude": 55464,
+        "Longitude": 37032,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14301184,
-                "Y": 22820865,
+                "X": 9484288,
+                "Y": 14202881,
                 "IsExterior": 32768,
-                "Unknown2": 540,
-                "LocationId": 16505,
+                "Unknown2": 81,
+                "LocationId": 13551,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Wickford Manor"
+                "LocationName": "Hawksmith Grange"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 18755,
+                "NameSeed": 28155,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 16505,
-                "BuildingType": 17,
+                "LocationId": 13551,
+                "BuildingType": "House2",
                 "Quality": 7
-            },
-            {
-                "NameSeed": 10908,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 16505,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 5036,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 16505,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 19125,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 16505,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 576,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 16505,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31821,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 16505,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 16100,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 16505,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 17306,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 16505,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 8772,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 16505,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 21745,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 16505,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 7926,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 16505,
-                "BuildingType": 15,
-                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Wickford Manor",
-            "MapId": 696000000436,
+            "AnotherName": "Hawksmith Grange",
+            "MapId": 66289,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "FARMAA02.RMB"
             ]
         }
     },
@@ -147,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
-        "NatureArchive": 508,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

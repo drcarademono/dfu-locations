@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Greenton Manor",
+    "Name": "The Woodsly Farmstead",
     "RegionName": "Glenumbra Moors",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 794000000288,
-        "Latitude": 17576,
-        "Longitude": 36904,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 28374679,
+        "Latitude": 55848,
+        "Longitude": 16296,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9451520,
-                "Y": 26032129,
+                "X": 4175872,
+                "Y": 14301185,
                 "IsExterior": 32768,
-                "Unknown2": 159,
-                "LocationId": 15750,
+                "Unknown2": 27,
+                "LocationId": 13379,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Greenton Manor"
+                "LocationName": "The Woodsly Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 8417,
+                "NameSeed": 16512,
                 "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 15750,
-                "BuildingType": 17,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 20035,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 15750,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 6170,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 15750,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 25881,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 15750,
-                "BuildingType": 18,
+                "Sector": 10,
+                "LocationId": 13379,
+                "BuildingType": "House2",
                 "Quality": 6
-            },
-            {
-                "NameSeed": 4483,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 15750,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 4654,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 15750,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 23565,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 15750,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 17579,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 15750,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 8851,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 15750,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 4180,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 15750,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 13952,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 15750,
-                "BuildingType": 15,
-                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Greenton Manor",
-            "MapId": 794000000288,
+            "AnotherName": "The Woodsly Farmstead",
+            "MapId": 63127,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "FARMAA00.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 187,
     "RegionIndex": 59,

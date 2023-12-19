@@ -1,50 +1,41 @@
 {
     "Loaded": true,
-    "Name": "The Yeomton Cabin",
+    "Name": "Djen Lodge",
     "RegionName": "Glenpoint",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 723000000389,
-        "Latitude": 26664,
-        "Longitude": 49832,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 106002326,
+        "Latitude": 51624,
+        "Longitude": 19240,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12761088,
-                "Y": 23705601,
+                "X": 4929536,
+                "Y": 13219841,
                 "IsExterior": 32768,
-                "Unknown2": 190,
-                "LocationId": 16500,
+                "Unknown2": 101,
+                "LocationId": 15554,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Yeomton Cabin"
+                "LocationName": "Djen Lodge"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 14878,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 16500,
-                "BuildingType": 19,
-                "Quality": 15
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Yeomton Cabin",
-            "MapId": 723000000389,
+            "AnotherName": "Djen Lodge",
+            "MapId": 96150,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 1,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -68,15 +59,15 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 146,
+    "Politic": 187,
     "RegionIndex": 18,
     "LocationIndex": 101
 }

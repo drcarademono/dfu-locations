@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Old Evelorya's Shack",
+    "Name": "Ruins of Old Carolyssa's Hovel",
     "RegionName": "Orsinium Area",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 347000000942,
-        "Latitude": 74792,
-        "Longitude": 120616,
-        "LocationType": 11,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 20070818,
+        "Latitude": 45096,
+        "Longitude": 111912,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Mine",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30881792,
-                "Y": 11384833,
+                "X": 28653568,
+                "Y": 11548673,
                 "IsExterior": 32768,
-                "Unknown2": 36,
-                "LocationId": 19292,
+                "Unknown2": 19,
+                "LocationId": 18657,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Evelorya's Shack"
+                "LocationName": "Ruins of Old Carolyssa's Hovel"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 7647,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 19292,
-                "BuildingType": 19,
-                "Quality": 4
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Evelorya's Shack",
-            "MapId": 347000000942,
+            "AnotherName": "Ruins of Old Carolyssa's Hovel",
+            "MapId": 147874,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "RUINAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 28653568,
+                "Y": 11548673,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 14,
+                "LocationId": 18658,
+                "IsInterior": 1,
+                "ExteriorLocationId": 18657,
+                "LocationName": "Ruins of Old Carolyssa's Hovel"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 154,
     "RegionIndex": 26,

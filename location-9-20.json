@@ -1,146 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Direnni Tower",
+    "Name": "Ruins of Old Ysyvyra's Hovel",
     "RegionName": "Isle of Balfiera",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 395000000769,
-        "Latitude": 68647,
-        "Longitude": 98488,
-        "LocationType": 4,
-        "DungeonType": 8,
+        "MapId": 21164199,
+        "Latitude": 39336,
+        "Longitude": 86952,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "HarpyNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25217024,
-                "Y": 12957441,
+                "X": 22263808,
+                "Y": 10074113,
                 "IsExterior": 32768,
-                "Unknown2": 41,
-                "LocationId": 50020,
+                "Unknown2": 20,
+                "LocationId": 20811,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Direnni Tower"
+                "LocationName": "Ruins of Old Ysyvyra's Hovel"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Direnni Tower",
-            "MapId": 395000000769,
-            "LocationId": 50020,
+            "AnotherName": "Ruins of Old Ysyvyra's Hovel",
+            "MapId": 192679,
+            "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CUSTAA06.RMB"
+                "RUINAA22.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23545856,
-                "Y": 9680641,
+                "X": 22263808,
+                "Y": 10074113,
                 "IsExterior": 0,
-                "Unknown2": 28,
-                "LocationId": 50021,
+                "Unknown2": 12,
+                "LocationId": 20812,
                 "IsInterior": 1,
-                "ExteriorLocationId": 50020,
-                "LocationName": "Direnni Tower"
+                "ExteriorLocationId": 20811,
+                "LocationName": "Ruins of Old Ysyvyra's Hovel"
             }
         },
         "Header": {
-            "BlockCount": 16
+            "BlockCount": 8
         },
         "Blocks": [
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "S0000181.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "S0000180.RDB",
+                "BlockName": "N0000070.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
                 "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000020.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -3,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
                 "IsStartingBlock": false,
                 "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": 1,
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -148,39 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": -2,
+                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -188,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 137,
     "RegionIndex": 9,

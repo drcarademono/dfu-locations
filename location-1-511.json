@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Lion and Ogre Tavern",
+    "Name": "The Pit of Marodas",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 182000000639,
-        "Latitude": 95912,
-        "Longitude": 81832,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 536243174,
+        "Latitude": 10152,
+        "Longitude": 107304,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "VolcanicCaves",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20953088,
-                "Y": 5978113,
+                "X": 27473920,
+                "Y": 2603009,
                 "IsExterior": 32768,
-                "Unknown2": 678,
-                "LocationId": 28149,
+                "Unknown2": 511,
+                "LocationId": 27219,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Lion and Ogre Tavern"
+                "LocationName": "The Pit of Marodas"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 8310,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 28149,
-                "BuildingType": 15,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 12465,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 28149,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 19026,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 28149,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 25111,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 28149,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 9304,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 28149,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 30601,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 28149,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 16493,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 28149,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 18292,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 28149,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 23866,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 28149,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 18202,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 28149,
-                "BuildingType": 19,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 29205,
-                "FactionId": 0,
-                "Sector": 93,
-                "LocationId": 28149,
-                "BuildingType": 19,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "8310",
-            "MapId": 182000000639,
+            "AnotherName": "The Pit of Marodas",
+            "MapId": 420838,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS05.RMB"
+                "DUNGAA06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 27473920,
+                "Y": 2603009,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 167,
+                "LocationId": 27220,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27219,
+                "LocationName": "The Pit of Marodas"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000030.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

@@ -1,115 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Mogakareg",
+    "Name": "The Blorcom Plantation",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 427000000139,
-        "Latitude": 64544,
-        "Longitude": 17832,
-        "LocationType": 2,
-        "DungeonType": 255,
+        "MapId": 139945768,
+        "Latitude": 1832,
+        "Longitude": 20520,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 16777472
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 4569088,
-                "Y": 14004225,
+                "X": 5257216,
+                "Y": 473089,
                 "IsExterior": 32768,
-                "Unknown2": 175,
-                "LocationId": 29270,
+                "Unknown2": 133,
+                "LocationId": 29087,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Mogakareg"
+                "LocationName": "The Blorcom Plantation"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 7866,
+                "NameSeed": 30189,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 29270,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 11267,
-                "FactionId": 0,
-                "Sector": 11,
-                "LocationId": 29270,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 1863,
-                "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 29270,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 24808,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 29270,
-                "BuildingType": 20,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 1953,
-                "FactionId": 510,
-                "Sector": 39,
-                "LocationId": 29270,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 18446,
-                "FactionId": 0,
-                "Sector": 53,
-                "LocationId": 29270,
-                "BuildingType": 20,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 19692,
-                "FactionId": 0,
-                "Sector": 74,
-                "LocationId": 29270,
-                "BuildingType": 20,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 10246,
-                "FactionId": 0,
-                "Sector": 95,
-                "LocationId": 29270,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 11429,
-                "FactionId": 510,
-                "Sector": 98,
-                "LocationId": 29270,
-                "BuildingType": 9,
-                "Quality": 2
+                "LocationId": 29087,
+                "BuildingType": "House2",
+                "Quality": 9
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Mogakareg",
-            "MapId": 427000000139,
+            "AnotherName": "The Blorcom Plantation",
+            "MapId": 485160,
             "LocationId": 0,
             "Width": 1,
-            "Height": 2,
+            "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RESIGS03.RMB",
-                "GENRGS00.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -133,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

@@ -1,74 +1,74 @@
 {
     "Loaded": true,
-    "Name": "T'us Court",
+    "Name": "The Toad and Ogre Lodge",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 431000000175,
-        "Latitude": 64040,
-        "Longitude": 22440,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 174552797,
+        "Latitude": 1320,
+        "Longitude": 23208,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5748736,
-                "Y": 14137345,
+                "X": 5945344,
+                "Y": 342017,
                 "IsExterior": 32768,
-                "Unknown2": 56,
-                "LocationId": 28623,
+                "Unknown2": 166,
+                "LocationId": 29207,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "T'us Court"
+                "LocationName": "The Toad and Ogre Lodge"
             }
         },
         "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 24961,
-                "FactionId": 0,
+                "NameSeed": 22075,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 28623,
-                "BuildingType": 18,
+                "LocationId": 29207,
+                "BuildingType": "Tavern",
                 "Quality": 4
             },
             {
-                "NameSeed": 31573,
+                "NameSeed": 1719,
                 "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 28623,
-                "BuildingType": 18,
-                "Quality": 4
+                "Sector": 18,
+                "LocationId": 29207,
+                "BuildingType": "House2",
+                "Quality": 2
             },
             {
-                "NameSeed": 3619,
+                "NameSeed": 22370,
                 "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 28623,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 9112,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 28623,
-                "BuildingType": 17,
+                "Sector": 24,
+                "LocationId": 29207,
+                "BuildingType": "House4",
                 "Quality": 15
+            },
+            {
+                "NameSeed": 5571,
+                "FactionId": 0,
+                "Sector": 37,
+                "LocationId": 29207,
+                "BuildingType": "House4",
+                "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "T'us Court",
-            "MapId": 431000000175,
+            "AnotherName": "22075",
+            "MapId": 489181,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "TVRNGS00.RMB"
             ]
         }
     },
@@ -92,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

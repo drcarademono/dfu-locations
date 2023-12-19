@@ -1,136 +1,184 @@
 {
     "Loaded": true,
-    "Name": "The Fortress of Faujem",
+    "Name": "The Dirty Pit Lodge",
     "RegionName": "Mournoth",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 134000000897,
-        "Latitude": 102056,
-        "Longitude": 114856,
-        "LocationType": 7,
-        "DungeonType": 0,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 45378664,
+        "Latitude": 26920,
+        "Longitude": 114728,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29407232,
-                "Y": 4405249,
+                "X": 29374464,
+                "Y": 6895617,
                 "IsExterior": 32768,
-                "Unknown2": 332,
-                "LocationId": 25429,
+                "Unknown2": 43,
+                "LocationId": 22975,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Fortress of Faujem"
+                "LocationName": "The Dirty Pit Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 7418,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 22975,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 21682,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 22975,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 18165,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 22975,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 2504,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 22975,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 12306,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 22975,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 15137,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 22975,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 13531,
+                "FactionId": 0,
+                "Sector": 56,
+                "LocationId": 22975,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 6515,
+                "FactionId": 0,
+                "Sector": 64,
+                "LocationId": 22975,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 20709,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 22975,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 31587,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 22975,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 31587,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 22975,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 31587,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 22975,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 31587,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 22975,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 31587,
+                "FactionId": 0,
+                "Sector": 90,
+                "LocationId": 22975,
+                "BuildingType": "House2",
+                "Quality": 7
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Fortress of Faujem",
-            "MapId": 134000000897,
+            "AnotherName": "7418",
+            "MapId": 289896,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA19.RMB"
+                "TVRNAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31438848,
-                "Y": 4372481,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 83,
-                "LocationId": 25430,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25429,
-                "LocationName": "The Fortress of Faujem"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000015.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

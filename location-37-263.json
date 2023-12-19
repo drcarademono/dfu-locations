@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Ashfield Orchard",
+    "Name": "Buckingham's Hold",
     "RegionName": "Kambria",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 583000000715,
-        "Latitude": 44584,
-        "Longitude": 91560,
-        "LocationType": 10,
-        "DungeonType": 11,
+        "MapId": 275861145,
+        "Latitude": 53032,
+        "Longitude": 84136,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Coven",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23443456,
-                "Y": 19118081,
+                "X": 21542912,
+                "Y": 13580289,
                 "IsExterior": 32768,
-                "Unknown2": 127,
-                "LocationId": 13703,
+                "Unknown2": 263,
+                "LocationId": 14935,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Ashfield Orchard"
+                "LocationName": "Buckingham's Hold"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Ashfield Orchard",
-            "MapId": 583000000715,
+            "AnotherName": "Buckingham's Hold",
+            "MapId": 85657,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA15.RMB"
+                "CASTAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18921472,
-                "Y": 14137345,
+                "X": 21542912,
+                "Y": 13580289,
                 "IsExterior": 0,
-                "Unknown2": 47,
-                "LocationId": 13704,
+                "Unknown2": 89,
+                "LocationId": 14936,
                 "IsInterior": 1,
-                "ExteriorLocationId": 13703,
-                "LocationName": "Ruins of Ashfield Orchard"
+                "ExteriorLocationId": 14935,
+                "LocationName": "Buckingham's Hold"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 11
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000056.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,31 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000020.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,15 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

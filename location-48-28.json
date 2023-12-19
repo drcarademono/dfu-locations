@@ -1,74 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Gold Cat Pub",
+    "Name": "The Rat and Barbarian Tavern",
     "RegionName": "Tigonus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 317000000567,
-        "Latitude": 78632,
-        "Longitude": 72616,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 29668652,
+        "Latitude": 24488,
+        "Longitude": 67112,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18593792,
-                "Y": 10401793,
+                "X": 17184768,
+                "Y": 6273025,
                 "IsExterior": 32768,
-                "Unknown2": 313,
-                "LocationId": 25708,
+                "Unknown2": 28,
+                "LocationId": 23437,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Gold Cat Pub"
+                "LocationName": "The Rat and Barbarian Tavern"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 25607,
+                "NameSeed": 19881,
                 "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 25708,
-                "BuildingType": 15,
-                "Quality": 11
+                "LocationId": 23437,
+                "BuildingType": "Tavern",
+                "Quality": 2
             },
             {
-                "NameSeed": 16227,
-                "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 25708,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 9244,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 25708,
-                "BuildingType": 20,
+                "NameSeed": 2055,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 23437,
+                "BuildingType": "Tavern",
                 "Quality": 9
             },
             {
-                "NameSeed": 5166,
+                "NameSeed": 17943,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 23437,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 26485,
                 "FactionId": 0,
-                "Sector": 37,
-                "LocationId": 25708,
-                "BuildingType": 20,
-                "Quality": 11
+                "Sector": 44,
+                "LocationId": 23437,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 1393,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 23437,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 14322,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 23437,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 7309,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 23437,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 17167,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 23437,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 30682,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 23437,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 30705,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 23437,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 19294,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 23437,
+                "BuildingType": "House2",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "25607",
-            "MapId": 317000000567,
+            "AnotherName": "19881",
+            "MapId": 308524,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 8,
             "BlockNames": [
-                "TVRNGS00.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
@@ -91,14 +147,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
-        "GroundArchive": 2,
-        "NatureArchive": 501,
+        "WorldClimate": 228,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_Swamp",
+        "GroundArchive": 402,
+        "NatureArchive": 502,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

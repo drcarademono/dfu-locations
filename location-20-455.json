@@ -1,50 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Old Furkum Place",
+    "Name": "Lavar Court",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 433000000397,
-        "Latitude": 63784,
-        "Longitude": 50856,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 477505490,
+        "Latitude": 12328,
+        "Longitude": 52520,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13023232,
-                "Y": 14202881,
+                "X": 13449216,
+                "Y": 3160065,
                 "IsExterior": 32768,
-                "Unknown2": 42,
-                "LocationId": 25025,
+                "Unknown2": 455,
+                "LocationId": 26712,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Furkum Place"
+                "LocationName": "Lavar Court"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 19555,
+                "NameSeed": 23029,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25025,
-                "BuildingType": 19,
+                "LocationId": 26712,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 13607,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 26712,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 16015,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 26712,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 7175,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 26712,
+                "BuildingType": "House1",
                 "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Furkum Place",
-            "MapId": 433000000397,
+            "AnotherName": "Lavar Court",
+            "MapId": 403410,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "MANRBS00.RMB"
             ]
         }
     },
@@ -67,14 +91,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

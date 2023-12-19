@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Wickford Hall",
+    "Name": "Ruins of The Mooring Farmstead",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 711000000480,
-        "Latitude": 28200,
-        "Longitude": 61480,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 239152554,
+        "Latitude": 54056,
+        "Longitude": 28968,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "BarbarianStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15742976,
-                "Y": 23312385,
+                "X": 7419904,
+                "Y": 13842433,
                 "IsExterior": 32768,
-                "Unknown2": 203,
-                "LocationId": 14165,
+                "Unknown2": 228,
+                "LocationId": 14292,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Wickford Hall"
+                "LocationName": "Ruins of The Mooring Farmstead"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 8830,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 14165,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 4455,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 14165,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 4110,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 14165,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 25213,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 14165,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 23240,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 14165,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 8983,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 14165,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 7524,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 14165,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 21595,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 14165,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 9025,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 14165,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 18755,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 14165,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 10908,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 14165,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 13535,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 14165,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 27208,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 14165,
-                "BuildingType": 17,
-                "Quality": 9
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Wickford Hall",
-            "MapId": 711000000480,
+            "AnotherName": "Ruins of The Mooring Farmstead",
+            "MapId": 77226,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "RUINAA24.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 7419904,
+                "Y": 13842433,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 86,
+                "LocationId": 14293,
+                "IsInterior": 1,
+                "ExteriorLocationId": 14292,
+                "LocationName": "Ruins of The Mooring Farmstead"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000059.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

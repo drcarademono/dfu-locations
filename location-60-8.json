@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Hold of Hawksly",
+    "Name": "The Gaercroft Farmstead",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 682000000489,
-        "Latitude": 31912,
-        "Longitude": 62632,
-        "LocationType": 10,
-        "DungeonType": 11,
-        "Discovered": false,
+        "MapId": 8443894,
+        "Latitude": 56872,
+        "Longitude": 36648,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16037888,
-                "Y": 22362113,
+                "X": 9385984,
+                "Y": 14563329,
                 "IsExterior": 32768,
-                "Unknown2": 431,
-                "LocationId": 15508,
+                "Unknown2": 8,
+                "LocationId": 12928,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Hold of Hawksly"
+                "LocationName": "The Gaercroft Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 14646,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 12928,
+                "BuildingType": "House2",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Hold of Hawksly",
-            "MapId": 682000000489,
+            "AnotherName": "The Gaercroft Farmstead",
+            "MapId": 55286,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA02.RMB"
+                "FARMAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 10893312,
-                "Y": 13252609,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 165,
-                "LocationId": 15509,
-                "IsInterior": 1,
-                "ExteriorLocationId": 15508,
-                "LocationName": "Ruins of The Hold of Hawksly"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000017.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000069.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

@@ -1,96 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Lion and Dagger Hostel",
+    "Name": "The Hold of Raerhter",
     "RegionName": "Abibon-Gora",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 407000000173,
-        "Latitude": 67112,
-        "Longitude": 22184,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 29823311,
+        "Latitude": 4648,
+        "Longitude": 23464,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "ScorpionNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5683200,
-                "Y": 13350913,
+                "X": 6010880,
+                "Y": 1193985,
                 "IsExterior": 32768,
-                "Unknown2": 177,
-                "LocationId": 29272,
+                "Unknown2": 28,
+                "LocationId": 28436,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Lion and Dagger Hostel"
+                "LocationName": "The Hold of Raerhter"
             }
         },
-        "BuildingCount": 3,
-        "Buildings": [
-            {
-                "NameSeed": 4711,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 29272,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 932,
-                "FactionId": 510,
-                "Sector": 11,
-                "LocationId": 29272,
-                "BuildingType": 17,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 8381,
-                "FactionId": 510,
-                "Sector": 24,
-                "LocationId": 29272,
-                "BuildingType": 15,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "8381",
-            "MapId": 407000000173,
+            "AnotherName": "The Hold of Raerhter",
+            "MapId": 463183,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS03.RMB"
+                "CASTAA18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 6010880,
+                "Y": 1193985,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 10,
+                "LocationId": 28437,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28436,
+                "LocationName": "The Hold of Raerhter"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 11
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

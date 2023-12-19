@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Woodwing Court",
+    "Name": "Yeomwing Tower",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 675000000308,
-        "Latitude": 32808,
-        "Longitude": 39464,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 720555893,
+        "Latitude": 40360,
+        "Longitude": 23208,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "GiantStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10106880,
-                "Y": 22132737,
+                "X": 5945344,
+                "Y": 10336257,
                 "IsExterior": 32768,
-                "Unknown2": 836,
-                "LocationId": 20788,
+                "Unknown2": 687,
+                "LocationId": 20447,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Woodwing Court"
+                "LocationName": "Yeomwing Tower"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 21424,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 20788,
-                "BuildingType": 17,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 22882,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 20788,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 8811,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 20788,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 4543,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 20788,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 25836,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 20788,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 26756,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 20788,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 25192,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 20788,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 787,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 20788,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 17600,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 20788,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 31304,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 20788,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 4980,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 20788,
-                "BuildingType": 15,
-                "Quality": 7
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Woodwing Court",
-            "MapId": 675000000308,
+            "AnotherName": "Yeomwing Tower",
+            "MapId": 184181,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "CASTAA25.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 5945344,
+                "Y": 10336257,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 129,
+                "LocationId": 20448,
+                "IsInterior": 1,
+                "ExteriorLocationId": 20447,
+                "LocationName": "Yeomwing Tower"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

@@ -1,98 +1,82 @@
 {
     "Loaded": true,
-    "Name": "The Den of Fhorkun",
+    "Name": "The Web of Gromtor",
     "RegionName": "Dak'fron",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 225000000532,
-        "Latitude": 90408,
-        "Longitude": 68136,
-        "LocationType": 4,
-        "DungeonType": 14,
+        "MapId": 114772378,
+        "Latitude": 2856,
+        "Longitude": 76072,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "ScorpionNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17446912,
-                "Y": 7387137,
+                "X": 19478528,
+                "Y": 735233,
                 "IsExterior": 32768,
-                "Unknown2": 70,
-                "LocationId": 28641,
+                "Unknown2": 109,
+                "LocationId": 28869,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Den of Fhorkun"
+                "LocationName": "The Web of Gromtor"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Den of Fhorkun",
-            "MapId": 225000000532,
+            "AnotherName": "The Web of Gromtor",
+            "MapId": 477594,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA04.RMB"
+                "DUNGAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19609600,
-                "Y": 964609,
+                "X": 19478528,
+                "Y": 735233,
                 "IsExterior": 0,
-                "Unknown2": 47,
-                "LocationId": 28642,
+                "Unknown2": 73,
+                "LocationId": 28870,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28641,
-                "LocationName": "The Den of Fhorkun"
+                "ExteriorLocationId": 28869,
+                "LocationName": "The Web of Gromtor"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 8
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000021.RDB",
+                "BlockName": "N0000054.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,36 +84,12 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000035.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000085.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000014.RDB",
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

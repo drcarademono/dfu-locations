@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Choldam's Guard",
+    "Name": "Ruins of Cyifylun Manor",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 267000000672,
-        "Latitude": 85032,
-        "Longitude": 86056,
-        "LocationType": 7,
-        "DungeonType": 1,
+        "MapId": 733413397,
+        "Latitude": 5288,
+        "Longitude": 98984,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Prison",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22034432,
-                "Y": 8763393,
+                "X": 25344000,
+                "Y": 1357825,
                 "IsExterior": 32768,
-                "Unknown2": 183,
-                "LocationId": 25267,
+                "Unknown2": 699,
+                "LocationId": 28297,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Choldam's Guard"
+                "LocationName": "Ruins of Cyifylun Manor"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Choldam's Guard",
-            "MapId": 267000000672,
+            "AnotherName": "Ruins of Cyifylun Manor",
+            "MapId": 458773,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA27.RMB"
+                "RUINAA07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 22886400,
-                "Y": 4470785,
+                "X": 25344000,
+                "Y": 1357825,
                 "IsExterior": 0,
-                "Unknown2": 55,
-                "LocationId": 25268,
+                "Unknown2": 230,
+                "LocationId": 28298,
                 "IsInterior": 1,
-                "ExteriorLocationId": 25267,
-                "LocationName": "Choldam's Guard"
+                "ExteriorLocationId": 28297,
+                "LocationName": "Ruins of Cyifylun Manor"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 10
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000043.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -73,10 +73,18 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000083.RDB",
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,39 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000017.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

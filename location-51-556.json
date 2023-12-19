@@ -1,112 +1,176 @@
 {
     "Loaded": true,
-    "Name": "The Raughtte Cemetery",
+    "Name": "The Black Muskrat Tavern",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 223000000760,
-        "Latitude": 90664,
-        "Longitude": 97320,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 583369031,
+        "Latitude": 17832,
+        "Longitude": 99240,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24918016,
-                "Y": 7321601,
+                "X": 25409536,
+                "Y": 4569089,
                 "IsExterior": 32768,
-                "Unknown2": 511,
-                "LocationId": 25043,
+                "Unknown2": 556,
+                "LocationId": 25156,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Raughtte Cemetery"
+                "LocationName": "The Black Muskrat Tavern"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 16795,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 25156,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 20154,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 25156,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 18984,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 25156,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 13438,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 25156,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 6152,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 25156,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 31860,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 25156,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 15736,
+                "FactionId": 0,
+                "Sector": 73,
+                "LocationId": 25156,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 28458,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 25156,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 8851,
+                "FactionId": 0,
+                "Sector": 83,
+                "LocationId": 25156,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 4180,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 25156,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 14258,
+                "FactionId": 0,
+                "Sector": 94,
+                "LocationId": 25156,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 6941,
+                "FactionId": 0,
+                "Sector": 100,
+                "LocationId": 25156,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 23606,
+                "FactionId": 0,
+                "Sector": 110,
+                "LocationId": 25156,
+                "BuildingType": "House2",
+                "Quality": 11
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Raughtte Cemetery",
-            "MapId": 223000000760,
+            "AnotherName": "16795",
+            "MapId": 360775,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS35.RMB"
+                "TVRNAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 26097664,
-                "Y": 4667393,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 132,
-                "LocationId": 25044,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25043,
-                "LocationName": "The Raughtte Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

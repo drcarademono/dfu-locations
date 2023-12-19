@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Coppersmith Plantation",
+    "Name": "Ruins of Old Evelorya's Shack",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 340000001041,
-        "Latitude": 75688,
-        "Longitude": 133288,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 246433092,
+        "Latitude": 61736,
+        "Longitude": 93736,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "VampireHaunt",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 34125824,
-                "Y": 11155457,
+                "X": 24000512,
+                "Y": 15808513,
                 "IsExterior": 32768,
-                "Unknown2": 1396,
-                "LocationId": 16924,
+                "Unknown2": 235,
+                "LocationId": 10806,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Coppersmith Plantation"
+                "LocationName": "Ruins of Old Evelorya's Shack"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 14084,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 16924,
-                "BuildingType": 18,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Coppersmith Plantation",
-            "MapId": 340000001041,
+            "AnotherName": "Ruins of Old Evelorya's Shack",
+            "MapId": 17732,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "RUINAA04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 24000512,
+                "Y": 15808513,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 86,
+                "LocationId": 10807,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10806,
+                "LocationName": "Ruins of Old Evelorya's Shack"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 11
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000022.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

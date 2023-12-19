@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Mastersmith Court",
+    "Name": "The Yeomsley Cemetery",
     "RegionName": "Bhoriane",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 527000000708,
-        "Latitude": 51752,
-        "Longitude": 90664,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 65118317,
+        "Latitude": 50344,
+        "Longitude": 77480,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23214080,
-                "Y": 17283073,
+                "X": 19838976,
+                "Y": 12892161,
                 "IsExterior": 32768,
-                "Unknown2": 124,
-                "LocationId": 17114,
+                "Unknown2": 62,
+                "LocationId": 16263,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Mastersmith Court"
+                "LocationName": "The Yeomsley Cemetery"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 12607,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 17114,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 12415,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 17114,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 26548,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 17114,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 22386,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 17114,
-                "BuildingType": 19,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 26657,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 17114,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 16959,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 17114,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 11038,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 17114,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 13270,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 17114,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 31319,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 17114,
-                "BuildingType": 17,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Mastersmith Court",
-            "MapId": 527000000708,
+            "AnotherName": "The Yeomsley Cemetery",
+            "MapId": 106605,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "GRVEAS20.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 19838976,
+                "Y": 12892161,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 16,
+                "LocationId": 16264,
+                "IsInterior": 1,
+                "ExteriorLocationId": 16263,
+                "LocationName": "The Yeomsley Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 164,
     "RegionIndex": 36,

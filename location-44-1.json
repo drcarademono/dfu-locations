@@ -1,152 +1,104 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Old Caermim Hovel",
+    "Name": "The Thirsty Stag Lodge",
     "RegionName": "Kairou",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 407000000204,
-        "Latitude": 67112,
-        "Longitude": 26152,
-        "LocationType": 10,
-        "DungeonType": 3,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 1472793,
+        "Latitude": 9640,
+        "Longitude": 27816,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 6699008,
-                "Y": 13350913,
+                "X": 7124992,
+                "Y": 2471937,
                 "IsExterior": 32768,
-                "Unknown2": 119,
-                "LocationId": 28819,
+                "Unknown2": 1,
+                "LocationId": 27333,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Old Caermim Hovel"
+                "LocationName": "The Thirsty Stag Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 4,
+        "Buildings": [
+            {
+                "NameSeed": 2299,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 27333,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 4617,
+                "FactionId": 0,
+                "Sector": 11,
+                "LocationId": 27333,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 20298,
+                "FactionId": 510,
+                "Sector": 19,
+                "LocationId": 27333,
+                "BuildingType": "HouseForSale",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 21474,
+                "FactionId": 510,
+                "Sector": 30,
+                "LocationId": 27333,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Old Caermim Hovel",
-            "MapId": 407000000204,
+            "AnotherName": "21474",
+            "MapId": 424217,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA05.RMB"
+                "TVRNGS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 7321600,
-                "Y": 768001,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 28,
-                "LocationId": 28820,
-                "IsInterior": 1,
-                "ExteriorLocationId": 28819,
-                "LocationName": "Ruins of The Old Caermim Hovel"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000059.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000020.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000015.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 172,
     "RegionIndex": 44,

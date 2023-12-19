@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Castle F'ergin",
+    "Name": "Ruins of T'elpir Palace",
     "RegionName": "Myrkwasa",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 408000000264,
-        "Latitude": 66984,
-        "Longitude": 33832,
-        "LocationType": 7,
-        "DungeonType": 6,
+        "MapId": 24523552,
+        "Latitude": 11944,
+        "Longitude": 38952,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "GiantStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8665088,
-                "Y": 13383681,
+                "X": 9975808,
+                "Y": 3061761,
                 "IsExterior": 32768,
-                "Unknown2": 128,
-                "LocationId": 27907,
+                "Unknown2": 23,
+                "LocationId": 26798,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle F'ergin"
+                "LocationName": "Ruins of T'elpir Palace"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Castle F'ergin",
-            "MapId": 408000000264,
+            "AnotherName": "Ruins of T'elpir Palace",
+            "MapId": 406304,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA30.RMB"
+                "RUINAA23.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 8992768,
-                "Y": 1783809,
+                "X": 9975808,
+                "Y": 3061761,
                 "IsExterior": 0,
-                "Unknown2": 33,
-                "LocationId": 27908,
+                "Unknown2": 5,
+                "LocationId": 26799,
                 "IsInterior": 1,
-                "ExteriorLocationId": 27907,
-                "LocationName": "Castle F'ergin"
+                "ExteriorLocationId": 26798,
+                "LocationName": "Ruins of T'elpir Palace"
             }
         },
         "Header": {
@@ -57,10 +57,18 @@
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -73,26 +81,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
+                "X": 1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000062.RDB",
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,77 +92,21 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
-        "NatureArchive": 503,
-        "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "NatureArchive": 501,
+        "SkyBase": 24,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

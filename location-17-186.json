@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Coppercroft Hall",
+    "Name": "Bedard Laboratory",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 633000000421,
-        "Latitude": 38184,
-        "Longitude": 53928,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 195193307,
+        "Latitude": 43688,
+        "Longitude": 21928,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13809664,
-                "Y": 20756481,
+                "X": 5617664,
+                "Y": 11188225,
                 "IsExterior": 32768,
-                "Unknown2": 483,
-                "LocationId": 19993,
+                "Unknown2": 186,
+                "LocationId": 19183,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Coppercroft Hall"
+                "LocationName": "Bedard Laboratory"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 32713,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 19993,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 1599,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 19993,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 18118,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 19993,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 15181,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 19993,
-                "BuildingType": 19,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 27918,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 19993,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 12309,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 19993,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 20840,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 19993,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 24456,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 19993,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 11477,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 19993,
-                "BuildingType": 17,
-                "Quality": 3
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Coppercroft Hall",
-            "MapId": 633000000421,
+            "AnotherName": "Bedard Laboratory",
+            "MapId": 158171,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "DUNGAA06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 5617664,
+                "Y": 11188225,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 32,
+                "LocationId": 19184,
+                "IsInterior": 1,
+                "ExteriorLocationId": 19183,
+                "LocationName": "Bedard Laboratory"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 14
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000037.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

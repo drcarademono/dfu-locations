@@ -1,130 +1,82 @@
 {
     "Loaded": true,
-    "Name": "The Tower of Caect'kern",
+    "Name": "The Baalateusessa Cavern",
     "RegionName": "Alik'r Desert",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 317000000493,
-        "Latitude": 78632,
-        "Longitude": 63144,
-        "LocationType": 7,
-        "DungeonType": 6,
+        "MapId": 152480861,
+        "Latitude": 7976,
+        "Longitude": 43688,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16168960,
-                "Y": 10401793,
+                "X": 11188224,
+                "Y": 2045953,
                 "IsExterior": 32768,
-                "Unknown2": 42,
-                "LocationId": 26930,
+                "Unknown2": 145,
+                "LocationId": 27702,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tower of Caect'kern"
+                "LocationName": "The Baalateusessa Cavern"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Tower of Caect'kern",
-            "MapId": 317000000493,
+            "AnotherName": "The Baalateusessa Cavern",
+            "MapId": 437341,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA27.RMB"
+                "DUNGAA04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16988160,
-                "Y": 2930689,
+                "X": 11188224,
+                "Y": 2045953,
                 "IsExterior": 0,
-                "Unknown2": 20,
-                "LocationId": 26931,
+                "Unknown2": 74,
+                "LocationId": 27703,
                 "IsInterior": 1,
-                "ExteriorLocationId": 26930,
-                "LocationName": "The Tower of Caect'kern"
+                "ExteriorLocationId": 27702,
+                "LocationName": "The Baalateusessa Cavern"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 8
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000004.RDB",
+                "BlockName": "N0000049.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000021.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -132,23 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000032.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -156,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

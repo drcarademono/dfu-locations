@@ -1,168 +1,184 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Old Gwynona's Place",
+    "Name": "Silent Rebirth of Kynareth",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 357000001030,
-        "Latitude": 73512,
-        "Longitude": 131880,
-        "LocationType": 10,
-        "DungeonType": 5,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 310401241,
+        "Latitude": 61096,
+        "Longitude": 95400,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33765376,
-                "Y": 11712513,
+                "X": 24426496,
+                "Y": 15644673,
                 "IsExterior": 32768,
-                "Unknown2": 1286,
-                "LocationId": 16287,
+                "Unknown2": 296,
+                "LocationId": 11089,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Old Gwynona's Place"
+                "LocationName": "Silent Rebirth of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 2341,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 11089,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 25886,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 11089,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 31819,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 11089,
+                "BuildingType": "House3",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 7052,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 11089,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 21336,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 11089,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 17086,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 11089,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 32400,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 11089,
+                "BuildingType": "House3",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 5228,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 11089,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 4992,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 11089,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 4738,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 11089,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 27550,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 11089,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 31689,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 11089,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 12755,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 11089,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 17585,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 11089,
+                "BuildingType": "Temple",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Old Gwynona's Place",
-            "MapId": 357000001030,
+            "AnotherName": "Silent Rebirth of Kynareth",
+            "MapId": 22745,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA04.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31569920,
-                "Y": 12892161,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 483,
-                "LocationId": 16288,
-                "IsInterior": 1,
-                "ExteriorLocationId": 16287,
-                "LocationName": "Ruins of Old Gwynona's Place"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000090.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000075.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000017.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,152 +1,80 @@
 {
     "Loaded": true,
-    "Name": "B'ostur's Guard",
+    "Name": "Old Cafyli's Farm",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 181000000796,
-        "Latitude": 96040,
-        "Longitude": 101928,
-        "LocationType": 7,
-        "DungeonType": 0,
-        "Discovered": false,
+        "MapId": 291846048,
+        "Latitude": 20264,
+        "Longitude": 117800,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26097664,
-                "Y": 5945345,
+                "X": 30160896,
+                "Y": 5191681,
                 "IsExterior": 32768,
-                "Unknown2": 806,
-                "LocationId": 25834,
+                "Unknown2": 278,
+                "LocationId": 24480,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "B'ostur's Guard"
+                "LocationName": "Old Cafyli's Farm"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 9807,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 24480,
+                "BuildingType": "House2",
+                "Quality": 7
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "B'ostur's Guard",
-            "MapId": 181000000796,
+            "AnotherName": "Old Cafyli's Farm",
+            "MapId": 341920,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA08.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27834368,
-                "Y": 4044801,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 210,
-                "LocationId": 25835,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25834,
-                "LocationName": "B'ostur's Guard"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000045.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000063.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000050.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

@@ -1,35 +1,35 @@
 {
     "Loaded": true,
-    "Name": "The Mard House of Correction",
+    "Name": "Homunasessa Hollow",
     "RegionName": "Ayasofya",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 372000000491,
-        "Latitude": 71592,
-        "Longitude": 62888,
-        "LocationType": 4,
-        "DungeonType": 3,
+        "MapId": 124129437,
+        "Latitude": 13096,
+        "Longitude": 60072,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16103424,
-                "Y": 12204033,
+                "X": 15382528,
+                "Y": 3356673,
                 "IsExterior": 32768,
-                "Unknown2": 2,
-                "LocationId": 25249,
+                "Unknown2": 118,
+                "LocationId": 26533,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mard House of Correction"
+                "LocationName": "Homunasessa Hollow"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Mard House of Correction",
-            "MapId": 372000000491,
+            "AnotherName": "Homunasessa Hollow",
+            "MapId": 397469,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
@@ -42,113 +42,41 @@
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16037888,
-                "Y": 4470785,
+                "X": 15382528,
+                "Y": 3356673,
                 "IsExterior": 0,
-                "Unknown2": 1,
-                "LocationId": 25250,
+                "Unknown2": 42,
+                "LocationId": 26534,
                 "IsInterior": 1,
-                "ExteriorLocationId": 25249,
-                "LocationName": "The Mard House of Correction"
+                "ExteriorLocationId": 26533,
+                "LocationName": "Homunasessa Hollow"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 8
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000092.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000021.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000027.RDB",
+                "BlockName": "N0000025.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -156,21 +84,29 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 175,
     "RegionIndex": 47,

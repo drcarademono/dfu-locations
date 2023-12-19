@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Gaerton Grange",
+    "Name": "The Mouse and Dragon Lodge",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 311000001018,
-        "Latitude": 79400,
-        "Longitude": 130344,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 125839025,
+        "Latitude": 62760,
+        "Longitude": 115880,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33372160,
-                "Y": 10205185,
+                "X": 29669376,
+                "Y": 16070657,
                 "IsExterior": 32768,
-                "Unknown2": 1663,
-                "LocationId": 18912,
+                "Unknown2": 120,
+                "LocationId": 10407,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Gaerton Grange"
+                "LocationName": "The Mouse and Dragon Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 19336,
-                "FactionId": 0,
+                "NameSeed": 21601,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 18912,
-                "BuildingType": 18,
-                "Quality": 11
+                "LocationId": 10407,
+                "BuildingType": "Tavern",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 5032,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 10407,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 7170,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 10407,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 3407,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 10407,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7485,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 10407,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 21958,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 10407,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 20602,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 10407,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 15841,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 10407,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 25367,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 10407,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 28307,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 10407,
+                "BuildingType": "House3",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 28323,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 10407,
+                "BuildingType": "House3",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Gaerton Grange",
-            "MapId": 311000001018,
+            "AnotherName": "21601",
+            "MapId": 9905,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "TVRNAS05.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

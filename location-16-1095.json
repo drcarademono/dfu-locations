@@ -1,136 +1,184 @@
 {
     "Loaded": true,
-    "Name": "The Rodoryan Excavation",
+    "Name": "Perpetual Martyr of Kynareth",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 460000000877,
-        "Latitude": 60328,
-        "Longitude": 112296,
-        "LocationType": 4,
-        "DungeonType": 5,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 1148279491,
+        "Latitude": 52648,
+        "Longitude": 98728,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28751872,
-                "Y": 15087617,
+                "X": 25278464,
+                "Y": 13481985,
                 "IsExterior": 32768,
-                "Unknown2": 1154,
-                "LocationId": 15474,
+                "Unknown2": 1095,
+                "LocationId": 15118,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rodoryan Excavation"
+                "LocationName": "Perpetual Martyr of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 9089,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 15118,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 13232,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 15118,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 24979,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 15118,
+                "BuildingType": "House3",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 21889,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 15118,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 15628,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 15118,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 17047,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 15118,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 32763,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 15118,
+                "BuildingType": "House3",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 16806,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 15118,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7969,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 15118,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 14616,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 15118,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 7112,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 15118,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 26588,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 15118,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 5184,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 15118,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 26378,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 15118,
+                "BuildingType": "Temple",
+                "Quality": 5
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Rodoryan Excavation",
-            "MapId": 460000000877,
+            "AnotherName": "Perpetual Martyr of Kynareth",
+            "MapId": 88771,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA06.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 25540608,
-                "Y": 13285377,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 423,
-                "LocationId": 15475,
-                "IsInterior": 1,
-                "ExteriorLocationId": 15474,
-                "LocationName": "The Rodoryan Excavation"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000025.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000037.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

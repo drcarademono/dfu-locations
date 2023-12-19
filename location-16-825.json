@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Greenston Farmstead",
+    "Name": "The Mole and Badger Inn",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 433000000889,
-        "Latitude": 63784,
-        "Longitude": 113832,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 865137932,
+        "Latitude": 55976,
+        "Longitude": 93736,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29145088,
-                "Y": 14202881,
+                "X": 24000512,
+                "Y": 14333953,
                 "IsExterior": 32768,
-                "Unknown2": 1338,
-                "LocationId": 16622,
+                "Unknown2": 825,
+                "LocationId": 13365,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Greenston Farmstead"
+                "LocationName": "The Mole and Badger Inn"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 12027,
-                "FactionId": 0,
+                "NameSeed": 29716,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 16622,
-                "BuildingType": 17,
+                "LocationId": 13365,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 3207,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 13365,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 4910,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 13365,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 10369,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 13365,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 28129,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 13365,
+                "BuildingType": "House2",
                 "Quality": 15
+            },
+            {
+                "NameSeed": 14926,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 13365,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 10913,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 13365,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 16443,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 13365,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 29159,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 13365,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 11640,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 13365,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 30002,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 13365,
+                "BuildingType": "House2",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Greenston Farmstead",
-            "MapId": 433000000889,
+            "AnotherName": "29716",
+            "MapId": 62732,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA09.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

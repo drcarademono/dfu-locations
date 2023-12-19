@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Moorsly Manor",
+    "Name": "Masterhart Grange",
     "RegionName": "Bhoriane",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 535000000747,
-        "Latitude": 50728,
-        "Longitude": 95656,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 110216061,
+        "Latitude": 49192,
+        "Longitude": 74408,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24492032,
-                "Y": 17545217,
+                "X": 19052544,
+                "Y": 12597249,
                 "IsExterior": 32768,
-                "Unknown2": 22,
-                "LocationId": 15470,
+                "Unknown2": 105,
+                "LocationId": 16864,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Moorsly Manor"
+                "LocationName": "Masterhart Grange"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 32763,
+                "NameSeed": 20671,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 15470,
-                "BuildingType": 17,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 16806,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 15470,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 7969,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 15470,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 14616,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 15470,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 7112,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 15470,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 26588,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 15470,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 5184,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 15470,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 23373,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 15470,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 8983,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 15470,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 7524,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 15470,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 27456,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 15470,
-                "BuildingType": 15,
-                "Quality": 4
+                "LocationId": 16864,
+                "BuildingType": "House2",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Moorsly Manor",
-            "MapId": 535000000747,
+            "AnotherName": "Masterhart Grange",
+            "MapId": 115581,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 164,
     "RegionIndex": 36,

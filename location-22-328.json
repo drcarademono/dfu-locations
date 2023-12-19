@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Shrogem Grange",
+    "Name": "The Maartem Cabin",
     "RegionName": "Lainlyn",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 341000000690,
-        "Latitude": 75560,
-        "Longitude": 88360,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 344245636,
+        "Latitude": 23976,
+        "Longitude": 90664,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22624256,
-                "Y": 11188225,
+                "X": 23214080,
+                "Y": 6141953,
                 "IsExterior": 32768,
-                "Unknown2": 108,
-                "LocationId": 22987,
+                "Unknown2": 328,
+                "LocationId": 23563,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shrogem Grange"
+                "LocationName": "The Maartem Cabin"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 21469,
+                "NameSeed": 5467,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 22987,
-                "BuildingType": 18,
-                "Quality": 10
+                "LocationId": 23563,
+                "BuildingType": "House3",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Shrogem Grange",
-            "MapId": 341000000690,
+            "AnotherName": "The Maartem Cabin",
+            "MapId": 312708,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA08.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

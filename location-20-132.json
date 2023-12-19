@@ -1,104 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Vloj Manor",
+    "Name": "Jubinxa Hollow",
     "RegionName": "Sentinel",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 387000000440,
-        "Latitude": 69672,
-        "Longitude": 56360,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 138787459,
+        "Latitude": 15912,
+        "Longitude": 54696,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14432256,
-                "Y": 12695553,
+                "X": 14006272,
+                "Y": 4077569,
                 "IsExterior": 32768,
-                "Unknown2": 134,
-                "LocationId": 25775,
+                "Unknown2": 132,
+                "LocationId": 25772,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Vloj Manor"
+                "LocationName": "Jubinxa Hollow"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 4094,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 25775,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 31004,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 25775,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 10869,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 25775,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 2055,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 25775,
-                "BuildingType": 17,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Vloj Manor",
-            "MapId": 387000000440,
+            "AnotherName": "Jubinxa Hollow",
+            "MapId": 375427,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "DUNGAA07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 14006272,
+                "Y": 4077569,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 24,
+                "LocationId": 25773,
+                "IsInterior": 1,
+                "ExteriorLocationId": 25772,
+                "LocationName": "Jubinxa Hollow"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000069.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

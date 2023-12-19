@@ -1,82 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The House of Lithivam",
+    "Name": "The Tombs of Hearthston",
     "RegionName": "Bhoriane",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 504000000685,
-        "Latitude": 54696,
-        "Longitude": 87720,
-        "LocationType": 4,
-        "DungeonType": 8,
+        "MapId": 4282925,
+        "Latitude": 52648,
+        "Longitude": 79528,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22460416,
-                "Y": 16529409,
+                "X": 20363264,
+                "Y": 13481985,
                 "IsExterior": 32768,
-                "Unknown2": 188,
-                "LocationId": 18852,
+                "Unknown2": 4,
+                "LocationId": 15107,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The House of Lithivam"
+                "LocationName": "The Tombs of Hearthston"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The House of Lithivam",
-            "MapId": 504000000685,
+            "AnotherName": "The Tombs of Hearthston",
+            "MapId": 88621,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 1,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA18.RMB"
+                "GRVEAS32.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19380224,
-                "Y": 11417601,
+                "X": 20363264,
+                "Y": 13481985,
                 "IsExterior": 0,
-                "Unknown2": 44,
-                "LocationId": 18853,
+                "Unknown2": 1,
+                "LocationId": 15108,
                 "IsInterior": 1,
-                "ExteriorLocationId": 18852,
-                "LocationName": "The House of Lithivam"
+                "ExteriorLocationId": 15107,
+                "LocationName": "The Tombs of Hearthston"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 5
         },
         "Blocks": [
             {
                 "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000091.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000006.RDB",
+                "BlockName": "M0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,15 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 164,
     "RegionIndex": 36,

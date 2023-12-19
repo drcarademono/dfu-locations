@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Korgum Manor",
+    "Name": "Old Flellfa's Farm",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 156000000876,
-        "Latitude": 99240,
-        "Longitude": 112168,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 108333159,
+        "Latitude": 21800,
+        "Longitude": 106408,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28719104,
-                "Y": 5126145,
+                "X": 27244544,
+                "Y": 5584897,
                 "IsExterior": 32768,
-                "Unknown2": 522,
-                "LocationId": 25059,
+                "Unknown2": 103,
+                "LocationId": 24065,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Korgum Manor"
+                "LocationName": "Old Flellfa's Farm"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 13240,
+                "NameSeed": 28050,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25059,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 9321,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 25059,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 4627,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 25059,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 7091,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 25059,
-                "BuildingType": 19,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 20972,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 25059,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 5509,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 25059,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 2546,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 25059,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 20486,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 25059,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 3013,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 25059,
-                "BuildingType": 17,
-                "Quality": 3
+                "LocationId": 24065,
+                "BuildingType": "House2",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Korgum Manor",
-            "MapId": 156000000876,
+            "AnotherName": "Old Flellfa's Farm",
+            "MapId": 329831,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "FARMAA05.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

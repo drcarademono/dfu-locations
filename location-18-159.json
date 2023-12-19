@@ -1,66 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Tower of Hearthsley",
+    "Name": "The Edwyval Academy",
     "RegionName": "Glenpoint",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 734000000363,
-        "Latitude": 25256,
-        "Longitude": 46504,
-        "LocationType": 4,
-        "DungeonType": 11,
+        "MapId": 166829794,
+        "Latitude": 50344,
+        "Longitude": 26920,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Laboratory",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11909120,
-                "Y": 24066049,
+                "X": 6895616,
+                "Y": 12892161,
                 "IsExterior": 32768,
-                "Unknown2": 210,
-                "LocationId": 16723,
+                "Unknown2": 159,
+                "LocationId": 16231,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tower of Hearthsley"
+                "LocationName": "The Edwyval Academy"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Tower of Hearthsley",
-            "MapId": 734000000363,
+            "AnotherName": "The Edwyval Academy",
+            "MapId": 106210,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA11.RMB"
+                "DUNGAA18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 6469632,
-                "Y": 12662785,
+                "X": 6895616,
+                "Y": 12892161,
                 "IsExterior": 0,
-                "Unknown2": 69,
-                "LocationId": 16724,
+                "Unknown2": 48,
+                "LocationId": 16232,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16723,
-                "LocationName": "The Tower of Hearthsley"
+                "ExteriorLocationId": 16231,
+                "LocationName": "The Edwyval Academy"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 11
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000076.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -73,26 +81,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000046.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
+                "X": 1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000049.RDB",
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,23 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

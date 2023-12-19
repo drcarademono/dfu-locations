@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Lhallur Manor",
+    "Name": "The M'arkta Farmstead",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 232000000766,
-        "Latitude": 89512,
-        "Longitude": 98088,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 669356417,
+        "Latitude": 17320,
+        "Longitude": 118952,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25114624,
-                "Y": 7616513,
+                "X": 30455808,
+                "Y": 4438017,
                 "IsExterior": 32768,
-                "Unknown2": 350,
-                "LocationId": 24672,
+                "Unknown2": 638,
+                "LocationId": 25340,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Lhallur Manor"
+                "LocationName": "The M'arkta Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 2807,
+                "NameSeed": 30276,
                 "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 24672,
-                "BuildingType": 17,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 18632,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 24672,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 24125,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 24672,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 10140,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 24672,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 25599,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 24672,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 3772,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 24672,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 28110,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 24672,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 20905,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 24672,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 22167,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 24672,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 17517,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 24672,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 29957,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 24672,
-                "BuildingType": 15,
-                "Quality": 14
+                "Sector": 10,
+                "LocationId": 25340,
+                "BuildingType": "House2",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Lhallur Manor",
-            "MapId": 232000000766,
+            "AnotherName": "The M'arkta Farmstead",
+            "MapId": 364929,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "FARMAA00.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

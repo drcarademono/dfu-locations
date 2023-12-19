@@ -1,138 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Citadel of Tlernrn",
+    "Name": "Gereborgonuna's Den",
     "RegionName": "Dak'fron",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 254000000512,
-        "Latitude": 86696,
-        "Longitude": 65576,
-        "LocationType": 10,
-        "DungeonType": 17,
+        "MapId": 174555224,
+        "Latitude": 1064,
+        "Longitude": 77864,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "DragonsDen",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16791552,
-                "Y": 8337409,
+                "X": 19937280,
+                "Y": 276481,
                 "IsExterior": 32768,
-                "Unknown2": 29,
-                "LocationId": 28180,
+                "Unknown2": 166,
+                "LocationId": 29281,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Citadel of Tlernrn"
+                "LocationName": "Gereborgonuna's Den"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Citadel of Tlernrn",
-            "MapId": 254000000512,
+            "AnotherName": "Gereborgonuna's Den",
+            "MapId": 491608,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA03.RMB"
+                "DUNGAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18561024,
-                "Y": 1488897,
+                "X": 19937280,
+                "Y": 276481,
                 "IsExterior": 0,
-                "Unknown2": 20,
-                "LocationId": 28181,
+                "Unknown2": 113,
+                "LocationId": 29282,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28180,
-                "LocationName": "Ruins of The Citadel of Tlernrn"
+                "ExteriorLocationId": 29281,
+                "LocationName": "Gereborgonuna's Den"
             }
         },
         "Header": {
-            "BlockCount": 11
+            "BlockCount": 8
         },
         "Blocks": [
-            {
-                "X": -3,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000067.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000073.RDB",
+                "BlockName": "W0000017.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -140,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -148,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

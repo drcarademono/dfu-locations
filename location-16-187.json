@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Kingford Grange",
+    "Name": "The Dispogul Grotto",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 328000000968,
-        "Latitude": 77224,
-        "Longitude": 123944,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 196097657,
+        "Latitude": 62248,
+        "Longitude": 121000,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31733760,
-                "Y": 10762241,
+                "X": 30980096,
+                "Y": 15939585,
                 "IsExterior": 32768,
-                "Unknown2": 1698,
-                "LocationId": 19478,
+                "Unknown2": 187,
+                "LocationId": 10607,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kingford Grange"
+                "LocationName": "The Dispogul Grotto"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 17429,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 19478,
-                "BuildingType": 18,
-                "Quality": 3
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Kingford Grange",
-            "MapId": 328000000968,
+            "AnotherName": "The Dispogul Grotto",
+            "MapId": 13945,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "DUNGAA06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 30980096,
+                "Y": 15939585,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 69,
+                "LocationId": 10608,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10607,
+                "LocationName": "The Dispogul Grotto"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 11
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,41 +1,154 @@
 {
     "Loaded": true,
-    "Name": "Shrine of Dugrod",
+    "Name": "Inner Seer of Kynareth",
     "RegionName": "Alcaire",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 469000000804,
-        "Latitude": 59176,
-        "Longitude": 102952,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 80861071,
+        "Latitude": 48552,
+        "Longitude": 92072,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26359808,
-                "Y": 15382529,
+                "X": 23574528,
+                "Y": 12433409,
                 "IsExterior": 32768,
-                "Unknown2": 81,
-                "LocationId": 17219,
+                "Unknown2": 77,
+                "LocationId": 17121,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shrine of Dugrod"
+                "LocationName": "Inner Seer of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 32491,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 17121,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 19524,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 17121,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 12968,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 17121,
+                "BuildingType": "House3",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 18290,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 17121,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 18162,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 17121,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 29569,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 17121,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 23673,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 17121,
+                "BuildingType": "House3",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 9605,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 17121,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 11040,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 17121,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 5036,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 17121,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 19125,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 17121,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 576,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 17121,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 31821,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 17121,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 21277,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 17121,
+                "BuildingType": "Temple",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Shrine of Dugrod",
-            "MapId": 469000000804,
+            "AnotherName": "Inner Seer of Kynareth",
+            "MapId": 120719,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
@@ -59,13 +172,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 162,
     "RegionIndex": 34,

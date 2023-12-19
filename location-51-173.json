@@ -1,160 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Vig Farmstead",
+    "Name": "The Dirty Dragon Inn",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 167000000799,
-        "Latitude": 97832,
-        "Longitude": 102312,
-        "LocationType": 10,
-        "DungeonType": 13,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 181739387,
+        "Latitude": 21032,
+        "Longitude": 94632,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26195968,
-                "Y": 5486593,
+                "X": 24229888,
+                "Y": 5388289,
                 "IsExterior": 32768,
-                "Unknown2": 867,
-                "LocationId": 26189,
+                "Unknown2": 173,
+                "LocationId": 24244,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Vig Farmstead"
+                "LocationName": "The Dirty Dragon Inn"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 121,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 24244,
+                "BuildingType": "Tavern",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 10364,
+                "FactionId": 0,
+                "Sector": 21,
+                "LocationId": 24244,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 16723,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 24244,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 20822,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 24244,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 24981,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 24244,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 15007,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 24244,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 19234,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 24244,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 11987,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 24244,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 7908,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 24244,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 26203,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 24244,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 10721,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 24244,
+                "BuildingType": "House2",
+                "Quality": 5
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Vig Farmstead",
-            "MapId": 167000000799,
+            "AnotherName": "121",
+            "MapId": 335739,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA02.RMB"
+                "TVRNAS03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 28129280,
-                "Y": 3717121,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 229,
-                "LocationId": 26190,
-                "IsInterior": 1,
-                "ExteriorLocationId": 26189,
-                "LocationName": "Ruins of The Vig Farmstead"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 11
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000029.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000044.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000017.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

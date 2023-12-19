@@ -1,82 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Mouse and Chasm Tavern",
+    "Name": "Flertte Hall",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 403000000389,
-        "Latitude": 67624,
-        "Longitude": 49832,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 259383674,
+        "Latitude": 14632,
+        "Longitude": 51496,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12761088,
-                "Y": 13219841,
+                "X": 13187072,
+                "Y": 3749889,
                 "IsExterior": 32768,
-                "Unknown2": 273,
-                "LocationId": 26206,
+                "Unknown2": 247,
+                "LocationId": 26140,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mouse and Chasm Tavern"
+                "LocationName": "Flertte Hall"
             }
         },
-        "BuildingCount": 5,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 30531,
+                "NameSeed": 6619,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26206,
-                "BuildingType": 18,
-                "Quality": 5
+                "LocationId": 26140,
+                "BuildingType": "House2",
+                "Quality": 3
             },
             {
-                "NameSeed": 27448,
+                "NameSeed": 20713,
                 "FactionId": 0,
                 "Sector": 9,
-                "LocationId": 26206,
-                "BuildingType": 18,
-                "Quality": 2
+                "LocationId": 26140,
+                "BuildingType": "House2",
+                "Quality": 4
             },
             {
-                "NameSeed": 17753,
+                "NameSeed": 13570,
                 "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 26206,
-                "BuildingType": 18,
-                "Quality": 9
+                "Sector": 12,
+                "LocationId": 26140,
+                "BuildingType": "House2",
+                "Quality": 8
             },
             {
-                "NameSeed": 17535,
+                "NameSeed": 6152,
                 "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 26206,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 14753,
-                "FactionId": 510,
-                "Sector": 23,
-                "LocationId": 26206,
-                "BuildingType": 15,
-                "Quality": 7
+                "Sector": 15,
+                "LocationId": 26140,
+                "BuildingType": "House1",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "14753",
-            "MapId": 403000000389,
+            "AnotherName": "Flertte Hall",
+            "MapId": 385402,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS01.RMB"
+                "MANRGS00.RMB"
             ]
         }
     },
@@ -100,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

@@ -1,64 +1,72 @@
 {
     "Loaded": true,
-    "Name": "The Tower of Andoryan",
+    "Name": "Castle Andistyr",
     "RegionName": "Daenia",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 654000000499,
-        "Latitude": 35496,
-        "Longitude": 63912,
-        "LocationType": 4,
-        "DungeonType": 2,
+        "MapId": 74509275,
+        "Latitude": 56232,
+        "Longitude": 48552,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "HumanStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16365568,
-                "Y": 21444609,
+                "X": 12433408,
+                "Y": 14399489,
                 "IsExterior": 32768,
-                "Unknown2": 274,
-                "LocationId": 16839,
+                "Unknown2": 71,
+                "LocationId": 13213,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tower of Andoryan"
+                "LocationName": "Castle Andistyr"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Tower of Andoryan",
-            "MapId": 654000000499,
+            "AnotherName": "Castle Andistyr",
+            "MapId": 60379,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA18.RMB"
+                "DUNGAA12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 11646976,
-                "Y": 12597249,
+                "X": 12433408,
+                "Y": 14399489,
                 "IsExterior": 0,
-                "Unknown2": 56,
-                "LocationId": 16840,
+                "Unknown2": 17,
+                "LocationId": 13214,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16839,
-                "LocationName": "The Tower of Andoryan"
+                "ExteriorLocationId": 13213,
+                "LocationName": "Castle Andistyr"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -2,
+                "X": 0,
                 "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000062.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
@@ -66,73 +74,9 @@
             },
             {
                 "X": -1,
-                "Z": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000036.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "W0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -145,18 +89,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 169,
     "RegionIndex": 41,

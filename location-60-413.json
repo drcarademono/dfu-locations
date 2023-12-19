@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Gaerham Farmstead",
+    "Name": "Ruins of The Old Wickston Shack",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 733000000458,
-        "Latitude": 25384,
-        "Longitude": 58664,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 433155207,
+        "Latitude": 52008,
+        "Longitude": 40872,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "BarbarianStronghold",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15022080,
-                "Y": 24033281,
+                "X": 10467328,
+                "Y": 13318145,
                 "IsExterior": 32768,
-                "Unknown2": 90,
-                "LocationId": 13612,
+                "Unknown2": 413,
+                "LocationId": 15391,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Gaerham Farmstead"
+                "LocationName": "Ruins of The Old Wickston Shack"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 9798,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 13612,
-                "BuildingType": 18,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Gaerham Farmstead",
-            "MapId": 733000000458,
+            "AnotherName": "Ruins of The Old Wickston Shack",
+            "MapId": 93319,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "RUINAA09.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 10467328,
+                "Y": 13318145,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 159,
+                "LocationId": 15392,
+                "IsInterior": 1,
+                "ExteriorLocationId": 15391,
+                "LocationName": "Ruins of The Old Wickston Shack"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000068.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
-        "NatureArchive": 504,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

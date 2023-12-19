@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Malpem Plantation",
+    "Name": "Krull Hall",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 203000000788,
-        "Latitude": 93224,
-        "Longitude": 100904,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 451240524,
+        "Latitude": 18856,
+        "Longitude": 108072,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25835520,
-                "Y": 6666241,
+                "X": 27670528,
+                "Y": 4831233,
                 "IsExterior": 32768,
-                "Unknown2": 573,
-                "LocationId": 25188,
+                "Unknown2": 430,
+                "LocationId": 24857,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Malpem Plantation"
+                "LocationName": "Krull Hall"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 2823,
+                "NameSeed": 10480,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25188,
-                "BuildingType": 18,
-                "Quality": 15
+                "LocationId": 24857,
+                "BuildingType": "House1",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 15820,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 24857,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 25643,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 24857,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 18160,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 24857,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 23866,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 24857,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 18202,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 24857,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 29205,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 24857,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 12096,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 24857,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 29358,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 24857,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 21056,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 24857,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 2906,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 24857,
+                "BuildingType": "Tavern",
+                "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Malpem Plantation",
-            "MapId": 203000000788,
+            "AnotherName": "Krull Hall",
+            "MapId": 352844,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA03.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

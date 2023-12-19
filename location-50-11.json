@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Morkasuna Grotto",
+    "Name": "Ruins of The Hold of Cyarkta",
     "RegionName": "Satakalaam",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 236000000847,
-        "Latitude": 89000,
-        "Longitude": 108456,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 11815161,
+        "Latitude": 28072,
+        "Longitude": 105640,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "ScorpionNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27768832,
-                "Y": 7747585,
+                "X": 27047936,
+                "Y": 7190529,
                 "IsExterior": 32768,
-                "Unknown2": 96,
-                "LocationId": 23324,
+                "Unknown2": 11,
+                "LocationId": 22773,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Morkasuna Grotto"
+                "LocationName": "Ruins of The Hold of Cyarkta"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Morkasuna Grotto",
-            "MapId": 236000000847,
+            "AnotherName": "Ruins of The Hold of Cyarkta",
+            "MapId": 280825,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA06.RMB"
+                "RUINAA27.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 28358656,
-                "Y": 6436865,
+                "X": 27047936,
+                "Y": 7190529,
                 "IsExterior": 0,
-                "Unknown2": 28,
-                "LocationId": 23325,
+                "Unknown2": 1,
+                "LocationId": 22774,
                 "IsInterior": 1,
-                "ExteriorLocationId": 23324,
-                "LocationName": "The Morkasuna Grotto"
+                "ExteriorLocationId": 22773,
+                "LocationName": "Ruins of The Hold of Cyarkta"
             }
         },
         "Header": {
@@ -57,58 +57,34 @@
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000052.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000020.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000016.RDB",
+                "BlockName": "W0000025.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,23 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 178,
     "RegionIndex": 50,

@@ -1,68 +1,68 @@
 {
     "Loaded": true,
-    "Name": "Grejon Palace",
+    "Name": "Thorm'kern Manor",
     "RegionName": "Alik'r Desert",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 308000000496,
-        "Latitude": 79784,
-        "Longitude": 63528,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 129405455,
+        "Latitude": 8872,
+        "Longitude": 77736,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16267264,
-                "Y": 10106881,
+                "X": 19904512,
+                "Y": 2275329,
                 "IsExterior": 32768,
-                "Unknown2": 58,
-                "LocationId": 27099,
+                "Unknown2": 123,
+                "LocationId": 27525,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Grejon Palace"
+                "LocationName": "Thorm'kern Manor"
             }
         },
         "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 21697,
+                "NameSeed": 9795,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27099,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 22961,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 27099,
-                "BuildingType": 18,
+                "LocationId": 27525,
+                "BuildingType": "House2",
                 "Quality": 13
             },
             {
-                "NameSeed": 24014,
+                "NameSeed": 13934,
                 "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 27099,
-                "BuildingType": 18,
-                "Quality": 15
+                "Sector": 9,
+                "LocationId": 27525,
+                "BuildingType": "House2",
+                "Quality": 2
             },
             {
-                "NameSeed": 22449,
+                "NameSeed": 17729,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 27525,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 28946,
                 "FactionId": 0,
                 "Sector": 15,
-                "LocationId": 27099,
-                "BuildingType": 17,
+                "LocationId": 27525,
+                "BuildingType": "House1",
                 "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Grejon Palace",
-            "MapId": 308000000496,
+            "AnotherName": "Thorm'kern Manor",
+            "MapId": 430607,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
@@ -92,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

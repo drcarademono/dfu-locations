@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Gaersley Grange",
+    "Name": "The Howling Guard Lodge",
     "RegionName": "Tulune",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 803000000261,
-        "Latitude": 16424,
-        "Longitude": 33448,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 140670259,
+        "Latitude": 43304,
+        "Longitude": 9640,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8566784,
-                "Y": 26327041,
+                "X": 2471936,
+                "Y": 11089921,
                 "IsExterior": 32768,
-                "Unknown2": 6,
-                "LocationId": 16152,
+                "Unknown2": 134,
+                "LocationId": 19349,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Gaersley Grange"
+                "LocationName": "The Howling Guard Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 27272,
+                "NameSeed": 13380,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 16152,
-                "BuildingType": 18,
+                "LocationId": 19349,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 3258,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 19349,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 19167,
+                "FactionId": 0,
+                "Sector": 13,
+                "LocationId": 19349,
+                "BuildingType": "House2",
                 "Quality": 12
+            },
+            {
+                "NameSeed": 21845,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 19349,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 1240,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 19349,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 11253,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 19349,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 16702,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 19349,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 5168,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 19349,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 22470,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 19349,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 16660,
+                "FactionId": 510,
+                "Sector": 68,
+                "LocationId": 19349,
+                "BuildingType": "Tavern",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 7252,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 19349,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 25264,
+                "FactionId": 510,
+                "Sector": 93,
+                "LocationId": 19349,
+                "BuildingType": "Tavern",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Gaersley Grange",
-            "MapId": 803000000261,
+            "AnotherName": "16660",
+            "MapId": 161075,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA03.RMB"
+                "TVRNAS00.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 186,
     "RegionIndex": 58,

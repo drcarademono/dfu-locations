@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "The Buckinghart Cabin",
+    "Name": "The King's Fawn Tavern",
     "RegionName": "Shalgora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 636000000449,
-        "Latitude": 37800,
-        "Longitude": 57512,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 74580205,
+        "Latitude": 47144,
+        "Longitude": 39592,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14727168,
-                "Y": 20854785,
+                "X": 10139648,
+                "Y": 12072961,
                 "IsExterior": 32768,
-                "Unknown2": 146,
-                "LocationId": 19028,
+                "Unknown2": 71,
+                "LocationId": 17682,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Buckinghart Cabin"
+                "LocationName": "The King's Fawn Tavern"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 16514,
+                "NameSeed": 14063,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 19028,
-                "BuildingType": 19,
+                "LocationId": 17682,
+                "BuildingType": "House2",
                 "Quality": 6
+            },
+            {
+                "NameSeed": 15371,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 17682,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 30812,
+                "FactionId": 0,
+                "Sector": 13,
+                "LocationId": 17682,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 25002,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 17682,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 30661,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 17682,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 4907,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 17682,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 4645,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 17682,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 7004,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 17682,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 15177,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 17682,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 26847,
+                "FactionId": 510,
+                "Sector": 68,
+                "LocationId": 17682,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 22756,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 17682,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 9533,
+                "FactionId": 510,
+                "Sector": 93,
+                "LocationId": 17682,
+                "BuildingType": "Tavern",
+                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Buckinghart Cabin",
-            "MapId": 636000000449,
+            "AnotherName": "26847",
+            "MapId": 131309,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNAS00.RMB"
             ]
         }
     },
@@ -67,14 +155,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 170,
     "RegionIndex": 42,

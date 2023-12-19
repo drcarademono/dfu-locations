@@ -4,19 +4,19 @@
     "RegionName": "Isle of Balfiera",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 412000000743,
-        "Latitude": 66472,
-        "Longitude": 95144,
-        "LocationType": 10,
-        "DungeonType": 0,
+        "MapId": 36902847,
+        "Latitude": 38056,
+        "Longitude": 87976,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Crypt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24360960,
-                "Y": 13514753,
+                "X": 22525952,
+                "Y": 9746433,
                 "IsExterior": 32768,
                 "Unknown2": 35,
                 "LocationId": 21279,
@@ -29,7 +29,7 @@
         "Buildings": [],
         "ExteriorData": {
             "AnotherName": "Ruins of Masterford's Guard",
-            "MapId": 412000000743,
+            "MapId": 202687,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
@@ -57,38 +57,6 @@
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000023.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
@@ -98,17 +66,17 @@
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": -1,
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -119,18 +87,26 @@
                 "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
             }
         ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 137,
     "RegionIndex": 9,

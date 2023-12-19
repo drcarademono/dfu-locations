@@ -1,50 +1,154 @@
 {
     "Loaded": true,
-    "Name": "Old Evelara's Farm",
+    "Name": "Blessed Star of Kynareth",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 394000001061,
-        "Latitude": 68776,
-        "Longitude": 135848,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 518033336,
+        "Latitude": 59304,
+        "Longitude": 101416,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 34781184,
-                "Y": 12924929,
+                "X": 25966592,
+                "Y": 15185921,
                 "IsExterior": 32768,
-                "Unknown2": 794,
-                "LocationId": 13190,
+                "Unknown2": 494,
+                "LocationId": 11868,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Evelara's Farm"
+                "LocationName": "Blessed Star of Kynareth"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 14,
         "Buildings": [
             {
-                "NameSeed": 17708,
+                "NameSeed": 14741,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 13190,
-                "BuildingType": 18,
+                "LocationId": 11868,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 22771,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 11868,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 11082,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 11868,
+                "BuildingType": "House3",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 13720,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 11868,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 19447,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 11868,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 3469,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 11868,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 21785,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 11868,
+                "BuildingType": "House3",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 28756,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 11868,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 426,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 11868,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 11726,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 11868,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 22852,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 11868,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 19403,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 11868,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 9265,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 11868,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 18641,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 11868,
+                "BuildingType": "Temple",
                 "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Evelara's Farm",
-            "MapId": 394000001061,
+            "AnotherName": "Blessed Star of Kynareth",
+            "MapId": 36792,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA02.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
@@ -68,13 +172,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,50 +1,154 @@
 {
     "Loaded": true,
-    "Name": "The Gaerston Cabin",
+    "Name": "Holy Redeemer of Kynareth",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 500000000891,
-        "Latitude": 55208,
-        "Longitude": 114088,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 1460783238,
+        "Latitude": 49064,
+        "Longitude": 111400,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29210624,
-                "Y": 16398337,
+                "X": 28522496,
+                "Y": 12564481,
                 "IsExterior": 32768,
-                "Unknown2": 709,
-                "LocationId": 12788,
+                "Unknown2": 1393,
+                "LocationId": 16921,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Gaerston Cabin"
+                "LocationName": "Holy Redeemer of Kynareth"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 14,
         "Buildings": [
             {
-                "NameSeed": 17239,
+                "NameSeed": 13340,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 12788,
-                "BuildingType": 19,
-                "Quality": 15
+                "LocationId": 16921,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 23805,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 16921,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 12950,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 16921,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 24269,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 16921,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 29416,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 16921,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 30643,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 16921,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 27724,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 16921,
+                "BuildingType": "House3",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 7605,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 16921,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 3039,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 16921,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 26865,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 16921,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 13873,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 16921,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 12478,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 16921,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 18118,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 16921,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7715,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 16921,
+                "BuildingType": "Temple",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Gaerston Cabin",
-            "MapId": 500000000891,
+            "AnotherName": "Holy Redeemer of Kynareth",
+            "MapId": 116870,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
@@ -68,13 +172,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

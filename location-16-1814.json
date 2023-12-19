@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Stronghold of Kinghart",
+    "Name": "The Gaerston Cemetery",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 607000000749,
-        "Latitude": 41512,
-        "Longitude": 95912,
-        "LocationType": 7,
-        "DungeonType": 0,
+        "MapId": 1902315802,
+        "Latitude": 38568,
+        "Longitude": 120104,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24557568,
-                "Y": 19904513,
+                "X": 30750720,
+                "Y": 9877505,
                 "IsExterior": 32768,
-                "Unknown2": 403,
-                "LocationId": 11521,
+                "Unknown2": 1814,
+                "LocationId": 21107,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Stronghold of Kinghart"
+                "LocationName": "The Gaerston Cemetery"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Stronghold of Kinghart",
-            "MapId": 607000000749,
+            "AnotherName": "The Gaerston Cemetery",
+            "MapId": 198938,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA23.RMB"
+                "GRVEAS18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19511296,
-                "Y": 15382529,
+                "X": 30750720,
+                "Y": 9877505,
                 "IsExterior": 0,
-                "Unknown2": 153,
-                "LocationId": 11522,
+                "Unknown2": 677,
+                "LocationId": 21108,
                 "IsInterior": 1,
-                "ExteriorLocationId": 11521,
-                "LocationName": "The Stronghold of Kinghart"
+                "ExteriorLocationId": 21107,
+                "LocationName": "The Gaerston Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 5
         },
         "Blocks": [
             {
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000004.RDB",
+                "BlockName": "M0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,15 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,23 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "W0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

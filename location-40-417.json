@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Hearthhouse Manor",
+    "Name": "Hearthfield Orchard",
     "RegionName": "Ykalon",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 747000000475,
-        "Latitude": 23592,
-        "Longitude": 60840,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 437290471,
+        "Latitude": 59560,
+        "Longitude": 35752,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15579136,
-                "Y": 24492033,
+                "X": 9156608,
+                "Y": 15251457,
                 "IsExterior": 32768,
-                "Unknown2": 529,
-                "LocationId": 12407,
+                "Unknown2": 417,
+                "LocationId": 11709,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hearthhouse Manor"
+                "LocationName": "Hearthfield Orchard"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 21424,
+                "NameSeed": 15165,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 12407,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 22882,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 12407,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 8811,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 12407,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 4543,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 12407,
-                "BuildingType": 19,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 25836,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 12407,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 26756,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 12407,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 25192,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 12407,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 18250,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 12407,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 3523,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 12407,
-                "BuildingType": 17,
-                "Quality": 3
+                "LocationId": 11709,
+                "BuildingType": "House2",
+                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Hearthhouse Manor",
-            "MapId": 747000000475,
+            "AnotherName": "Hearthfield Orchard",
+            "MapId": 34279,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

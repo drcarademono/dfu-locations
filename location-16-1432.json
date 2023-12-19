@@ -1,114 +1,90 @@
 {
     "Loaded": true,
-    "Name": "Morirrugoth",
+    "Name": "The Hold of Kinghart",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 505000000830,
-        "Latitude": 54568,
-        "Longitude": 106280,
-        "LocationType": 4,
-        "DungeonType": 1,
+        "MapId": 1501681732,
+        "Latitude": 48552,
+        "Longitude": 115240,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27211776,
-                "Y": 16562177,
+                "X": 29505536,
+                "Y": 12433409,
                 "IsExterior": 32768,
-                "Unknown2": 974,
-                "LocationId": 14404,
+                "Unknown2": 1432,
+                "LocationId": 17134,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Morirrugoth"
+                "LocationName": "The Hold of Kinghart"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Morirrugoth",
-            "MapId": 505000000830,
+            "AnotherName": "The Hold of Kinghart",
+            "MapId": 120900,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA13.RMB"
+                "CASTAA12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23476224,
-                "Y": 13809665,
+                "X": 29505536,
+                "Y": 12433409,
                 "IsExterior": 0,
-                "Unknown2": 353,
-                "LocationId": 14405,
+                "Unknown2": 528,
+                "LocationId": 17135,
                 "IsInterior": 1,
-                "ExteriorLocationId": 14404,
-                "LocationName": "Morirrugoth"
+                "ExteriorLocationId": 17134,
+                "LocationName": "The Hold of Kinghart"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000045.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
+                "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000028.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": -1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
                 "IsStartingBlock": false,
                 "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
+                "X": 1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000068.RDB",
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,23 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

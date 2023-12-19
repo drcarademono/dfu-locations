@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Mhurp Orchard",
+    "Name": "Ruins of Fherkin's Guard",
     "RegionName": "Alik'r Desert",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 321000000503,
-        "Latitude": 78120,
-        "Longitude": 64424,
-        "LocationType": 10,
-        "DungeonType": 6,
+        "MapId": 157725708,
+        "Latitude": 7720,
+        "Longitude": 39464,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "RuinedCastle",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16496640,
-                "Y": 10532865,
+                "X": 10106880,
+                "Y": 1980417,
                 "IsExterior": 32768,
-                "Unknown2": 29,
-                "LocationId": 26661,
+                "Unknown2": 150,
+                "LocationId": 27752,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Mhurp Orchard"
+                "LocationName": "Ruins of Fherkin's Guard"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Mhurp Orchard",
-            "MapId": 321000000503,
+            "AnotherName": "Ruins of Fherkin's Guard",
+            "MapId": 439308,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA10.RMB"
+                "RUINAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 17217536,
-                "Y": 3225601,
+                "X": 10106880,
+                "Y": 1980417,
                 "IsExterior": 0,
-                "Unknown2": 12,
-                "LocationId": 26662,
+                "Unknown2": 77,
+                "LocationId": 27753,
                 "IsInterior": 1,
-                "ExteriorLocationId": 26661,
-                "LocationName": "Ruins of Mhurp Orchard"
+                "ExteriorLocationId": 27752,
+                "LocationName": "Ruins of Fherkin's Guard"
             }
         },
         "Header": {
@@ -57,18 +57,10 @@
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000091.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,31 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -113,50 +89,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000056.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
                 "IsStartingBlock": false,
                 "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000062.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

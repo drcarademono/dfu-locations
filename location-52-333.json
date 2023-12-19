@@ -1,112 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Khightar Cemetery",
+    "Name": "The Thirsty Griffin Lodge",
     "RegionName": "Mournoth",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 226000000882,
-        "Latitude": 90280,
-        "Longitude": 112936,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 349542774,
+        "Latitude": 17064,
+        "Longitude": 123688,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28915712,
-                "Y": 7419905,
+                "X": 31668224,
+                "Y": 4372481,
                 "IsExterior": 32768,
-                "Unknown2": 62,
-                "LocationId": 23083,
+                "Unknown2": 333,
+                "LocationId": 25431,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Khightar Cemetery"
+                "LocationName": "The Thirsty Griffin Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 5038,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 25431,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 17054,
+                "FactionId": 0,
+                "Sector": 21,
+                "LocationId": 25431,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 17105,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 25431,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 32312,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 25431,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 16271,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 25431,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 10248,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 25431,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 7587,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 25431,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 3127,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 25431,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 15822,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 25431,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 31346,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 25431,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 6793,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 25431,
+                "BuildingType": "House2",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Khightar Cemetery",
-            "MapId": 226000000882,
+            "AnotherName": "5038",
+            "MapId": 366966,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS10.RMB"
+                "TVRNAS03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 29538304,
-                "Y": 6731777,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 17,
-                "LocationId": 23084,
-                "IsInterior": 1,
-                "ExteriorLocationId": 23083,
-                "LocationName": "The Khightar Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

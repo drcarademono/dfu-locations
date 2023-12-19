@@ -1,50 +1,146 @@
 {
     "Loaded": true,
-    "Name": "Copperford Grange",
+    "Name": "The Unfortunate Wolf Hostel",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 331000000990,
-        "Latitude": 76840,
-        "Longitude": 126760,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 209730038,
+        "Latitude": 62120,
+        "Longitude": 107304,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 32454656,
-                "Y": 10860545,
+                "X": 27473920,
+                "Y": 15906817,
                 "IsExterior": 32768,
-                "Unknown2": 1650,
-                "LocationId": 18762,
+                "Unknown2": 200,
+                "LocationId": 10662,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Copperford Grange"
+                "LocationName": "The Unfortunate Wolf Hostel"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 13,
         "Buildings": [
             {
-                "NameSeed": 15116,
-                "FactionId": 0,
+                "NameSeed": 23001,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 18762,
-                "BuildingType": 18,
+                "LocationId": 10662,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 18420,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 10662,
+                "BuildingType": "Tavern",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 11009,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 10662,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 9376,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 10662,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 8511,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 10662,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 3921,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 10662,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 22320,
+                "FactionId": 0,
+                "Sector": 73,
+                "LocationId": 10662,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 10547,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 10662,
+                "BuildingType": "House2",
                 "Quality": 8
+            },
+            {
+                "NameSeed": 31930,
+                "FactionId": 0,
+                "Sector": 83,
+                "LocationId": 10662,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 27511,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 10662,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 16123,
+                "FactionId": 0,
+                "Sector": 94,
+                "LocationId": 10662,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 31969,
+                "FactionId": 0,
+                "Sector": 100,
+                "LocationId": 10662,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 10309,
+                "FactionId": 0,
+                "Sector": 110,
+                "LocationId": 10662,
+                "BuildingType": "House2",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Copperford Grange",
-            "MapId": 331000000990,
+            "AnotherName": "23001",
+            "MapId": 14838,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA08.RMB"
+                "TVRNAS02.RMB"
             ]
         }
     },
@@ -68,13 +164,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

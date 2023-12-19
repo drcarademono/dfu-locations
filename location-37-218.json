@@ -1,138 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Feather and Barbarian TavernGentle Martyr of Zenithar",
+    "Name": "The Yeomhart Farmstead",
     "RegionName": "Kambria",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 576000000689,
-        "Latitude": 45480,
-        "Longitude": 88232,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 228670176,
+        "Latitude": 53672,
+        "Longitude": 77864,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22591488,
-                "Y": 18888705,
+                "X": 19937280,
+                "Y": 13744129,
                 "IsExterior": 32768,
-                "Unknown2": 270,
-                "LocationId": 15041,
+                "Unknown2": 218,
+                "LocationId": 14552,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Feather and Barbarian Tavern"
+                "LocationName": "The Yeomhart Farmstead"
             }
         },
-        "BuildingCount": 12,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 1861,
+                "NameSeed": 11853,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 15041,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 15760,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 15041,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 17047,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 15041,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 32763,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 15041,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 16806,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 15041,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 7969,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 15041,
-                "BuildingType": 18,
+                "LocationId": 14552,
+                "BuildingType": "House2",
                 "Quality": 4
-            },
-            {
-                "NameSeed": 14616,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 15041,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 7112,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 15041,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 26588,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 15041,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 5184,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 15041,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 12035,
-                "FactionId": 510,
-                "Sector": 55,
-                "LocationId": 15041,
-                "BuildingType": 15,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 23126,
-                "FactionId": 510,
-                "Sector": 71,
-                "LocationId": 15041,
-                "BuildingType": 15,
-                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "12035",
-            "MapId": 576000000689,
+            "AnotherName": "The Yeomhart Farmstead",
+            "MapId": 80608,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS07.RMB"
+                "FARMAA03.RMB"
             ]
         }
     },
@@ -156,15 +68,15 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 133,
+    "Politic": 165,
     "RegionIndex": 37,
     "LocationIndex": 218
 }

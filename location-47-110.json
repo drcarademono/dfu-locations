@@ -1,96 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Savage Gnome Hostel",
+    "Name": "The Tower of Chogom",
     "RegionName": "Ayasofya",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 366000000471,
-        "Latitude": 72360,
-        "Longitude": 60328,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 115735840,
+        "Latitude": 13736,
+        "Longitude": 61480,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "RuinedCastle",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15448064,
-                "Y": 12007425,
+                "X": 15742976,
+                "Y": 3520513,
                 "IsExterior": 32768,
-                "Unknown2": 63,
-                "LocationId": 25898,
+                "Unknown2": 110,
+                "LocationId": 26377,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Savage Gnome Hostel"
+                "LocationName": "The Tower of Chogom"
             }
         },
-        "BuildingCount": 3,
-        "Buildings": [
-            {
-                "NameSeed": 4052,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 25898,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 9735,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 25898,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 30854,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 25898,
-                "BuildingType": 15,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "30854",
-            "MapId": 366000000471,
+            "AnotherName": "The Tower of Chogom",
+            "MapId": 392480,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "DUNGAA13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 15742976,
+                "Y": 3520513,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 36,
+                "LocationId": 26378,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26377,
+                "LocationName": "The Tower of Chogom"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000017.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 175,
     "RegionIndex": 47,

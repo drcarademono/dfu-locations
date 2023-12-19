@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Flalp'kern Palace",
+    "Name": "The Restless Muskrat Inn",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 442000000359,
-        "Latitude": 62632,
-        "Longitude": 45992,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 554063529,
+        "Latitude": 10792,
+        "Longitude": 51368,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11778048,
-                "Y": 14497793,
+                "X": 13154304,
+                "Y": 2766849,
                 "IsExterior": 32768,
-                "Unknown2": 78,
-                "LocationId": 25467,
+                "Unknown2": 528,
+                "LocationId": 27067,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Flalp'kern Palace"
+                "LocationName": "The Restless Muskrat Inn"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 3,
         "Buildings": [
             {
-                "NameSeed": 16422,
+                "NameSeed": 19959,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25467,
-                "BuildingType": 18,
-                "Quality": 6
+                "LocationId": 27067,
+                "BuildingType": "House2",
+                "Quality": 9
             },
             {
-                "NameSeed": 23544,
+                "NameSeed": 6709,
                 "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 25467,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 11964,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 25467,
-                "BuildingType": 18,
+                "Sector": 14,
+                "LocationId": 27067,
+                "BuildingType": "House2",
                 "Quality": 2
             },
             {
-                "NameSeed": 9175,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 25467,
-                "BuildingType": 17,
+                "NameSeed": 7860,
+                "FactionId": 510,
+                "Sector": 20,
+                "LocationId": 27067,
+                "BuildingType": "Tavern",
                 "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Flalp'kern Palace",
-            "MapId": 442000000359,
+            "AnotherName": "7860",
+            "MapId": 415401,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "TVRNBS04.RMB"
             ]
         }
     },
@@ -91,16 +83,16 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
-    "Politic": 148,
+    "Politic": 128,
     "RegionIndex": 20,
     "LocationIndex": 528
 }

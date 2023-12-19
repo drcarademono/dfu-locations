@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Greenfield Court",
+    "Name": "The Elyzanna Assembly",
     "RegionName": "Tulune",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 788000000259,
-        "Latitude": 18344,
-        "Longitude": 33192,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 115487419,
+        "Latitude": 45480,
+        "Longitude": 7592,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "BarbarianStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8501248,
-                "Y": 25835521,
+                "X": 1947648,
+                "Y": 11646977,
                 "IsExterior": 32768,
-                "Unknown2": 50,
-                "LocationId": 17038,
+                "Unknown2": 110,
+                "LocationId": 18466,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Greenfield Court"
+                "LocationName": "The Elyzanna Assembly"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 15438,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 17038,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 14153,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 17038,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 20070,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 17038,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 6985,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 17038,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 5226,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 17038,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 32057,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 17038,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 32034,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 17038,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 7582,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 17038,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 21143,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 17038,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 8490,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 17038,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 21035,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 17038,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 16670,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 17038,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 4061,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 17038,
-                "BuildingType": 17,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Greenfield Court",
-            "MapId": 788000000259,
+            "AnotherName": "The Elyzanna Assembly",
+            "MapId": 144059,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 8,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "DUNGAA15.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 1947648,
+                "Y": 11646977,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 29,
+                "LocationId": 18467,
+                "IsInterior": 1,
+                "ExteriorLocationId": 18466,
+                "LocationName": "The Elyzanna Assembly"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000061.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 186,
     "RegionIndex": 58,

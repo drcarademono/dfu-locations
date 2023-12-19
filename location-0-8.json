@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Tower Dasen",
+    "Name": "Maorn's Guard",
     "RegionName": "Alik'r Desert",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 253000000586,
-        "Latitude": 86824,
-        "Longitude": 75048,
-        "LocationType": 4,
-        "DungeonType": 2,
+        "MapId": 8779219,
+        "Latitude": 13992,
+        "Longitude": 78248,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "RuinedCastle",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19216384,
-                "Y": 8304641,
+                "X": 20035584,
+                "Y": 3586049,
                 "IsExterior": 32768,
-                "Unknown2": 67,
-                "LocationId": 27160,
+                "Unknown2": 8,
+                "LocationId": 26310,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Tower Dasen"
+                "LocationName": "Maorn's Guard"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Tower Dasen",
-            "MapId": 253000000586,
+            "AnotherName": "Maorn's Guard",
+            "MapId": 390611,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA10.RMB"
+                "DUNGAA13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 20690944,
-                "Y": 2668545,
+                "X": 20035584,
+                "Y": 3586049,
                 "IsExterior": 0,
-                "Unknown2": 35,
-                "LocationId": 27161,
+                "Unknown2": 2,
+                "LocationId": 26311,
                 "IsInterior": 1,
-                "ExteriorLocationId": 27160,
-                "LocationName": "Tower Dasen"
+                "ExteriorLocationId": 26310,
+                "LocationName": "Maorn's Guard"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 11
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,31 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000088.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000025.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,15 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

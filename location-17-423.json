@@ -1,139 +1,82 @@
 {
     "Loaded": true,
-    "Name": "The Citadel of Gaersley",
+    "Name": "Kinghart's Hold",
     "RegionName": "Daggerfall",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 654000000292,
-        "Latitude": 35496,
-        "Longitude": 37416,
-        "LocationType": 7,
-        "DungeonType": 14,
+        "MapId": 443716877,
+        "Latitude": 42280,
+        "Longitude": 29352,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Laboratory",
         "Discovered": false,
-        "Key": 2048
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9582592,
-                "Y": 21444609,
+                "X": 7518208,
+                "Y": 10827777,
                 "IsExterior": 32768,
-                "Unknown2": 1272,
-                "LocationId": 21887,
+                "Unknown2": 423,
+                "LocationId": 19844,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Citadel of Gaersley"
+                "LocationName": "Kinghart's Hold"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 28842,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 21887,
-                "BuildingType": 0,
-                "Quality": 15
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Citadel of Gaersley",
-            "MapId": 654000000292,
+            "AnotherName": "Kinghart's Hold",
+            "MapId": 169229,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA02.RMB"
+                "CASTAA27.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 5748736,
-                "Y": 9222145,
+                "X": 7518208,
+                "Y": 10827777,
                 "IsExterior": 0,
-                "Unknown2": 254,
-                "LocationId": 21888,
+                "Unknown2": 77,
+                "LocationId": 19845,
                 "IsInterior": 1,
-                "ExteriorLocationId": 21887,
-                "LocationName": "The Citadel of Gaersley"
+                "ExteriorLocationId": 19844,
+                "LocationName": "Kinghart's Hold"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 12
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000032.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000075.RDB",
+                "BlockName": "W0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -141,21 +84,29 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

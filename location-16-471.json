@@ -1,152 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Old Vannolda's Hovel",
+    "Name": "The Feather and Griffin Lodge",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 391000000892,
-        "Latitude": 69160,
-        "Longitude": 114216,
-        "LocationType": 10,
-        "DungeonType": 7,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 493914215,
+        "Latitude": 59560,
+        "Longitude": 117672,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29243392,
-                "Y": 12826625,
+                "X": 30128128,
+                "Y": 15251457,
                 "IsExterior": 32768,
-                "Unknown2": 1643,
-                "LocationId": 18608,
+                "Unknown2": 471,
+                "LocationId": 11762,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Old Vannolda's Hovel"
+                "LocationName": "The Feather and Griffin Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 29929,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 11762,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 4962,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 11762,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 8529,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 11762,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 3833,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 11762,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 594,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 11762,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 9004,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 11762,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 13140,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 11762,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 11232,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 11762,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 1048,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 11762,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 2657,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 11762,
+                "BuildingType": "House3",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 21266,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 11762,
+                "BuildingType": "House3",
+                "Quality": 15
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Old Vannolda's Hovel",
-            "MapId": 391000000892,
+            "AnotherName": "29929",
+            "MapId": 34919,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA01.RMB"
+                "TVRNAS05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27113472,
-                "Y": 11581441,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 614,
-                "LocationId": 18609,
-                "IsInterior": 1,
-                "ExteriorLocationId": 18608,
-                "LocationName": "Ruins of Old Vannolda's Hovel"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000060.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000073.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000017.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

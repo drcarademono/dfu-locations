@@ -1,50 +1,41 @@
 {
     "Loaded": true,
-    "Name": "The Ashsley Farmstead",
+    "Name": "Shrine of Bandi",
     "RegionName": "Koegria",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 526000000787,
-        "Latitude": 51880,
-        "Longitude": 100776,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 83973771,
+        "Latitude": 52776,
+        "Longitude": 88488,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25802752,
-                "Y": 17250305,
+                "X": 22657024,
+                "Y": 13514753,
                 "IsExterior": 32768,
-                "Unknown2": 62,
-                "LocationId": 14634,
+                "Unknown2": 80,
+                "LocationId": 15053,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Ashsley Farmstead"
+                "LocationName": "Shrine of Bandi"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 15797,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 14634,
-                "BuildingType": 17,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Ashsley Farmstead",
-            "MapId": 526000000787,
+            "AnotherName": "Shrine of Bandi",
+            "MapId": 87691,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA09.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -68,13 +59,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 163,
     "RegionIndex": 35,

@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Greenford Hall",
+    "Name": "Woodham Grange",
     "RegionName": "Ilessan Hills",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 757000000394,
-        "Latitude": 22312,
-        "Longitude": 50472,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 572633753,
+        "Latitude": 49704,
+        "Longitude": 32936,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12924928,
-                "Y": 24819713,
+                "X": 8435712,
+                "Y": 12728321,
                 "IsExterior": 32768,
-                "Unknown2": 239,
-                "LocationId": 14352,
+                "Unknown2": 546,
+                "LocationId": 16579,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Greenford Hall"
+                "LocationName": "Woodham Grange"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 5103,
+                "NameSeed": 14234,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 14352,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 2467,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 14352,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 18373,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 14352,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 15348,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 14352,
-                "BuildingType": 19,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 22039,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 14352,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 28923,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 14352,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 21424,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 14352,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 16243,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 14352,
-                "BuildingType": 15,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 17227,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 14352,
-                "BuildingType": 17,
-                "Quality": 6
+                "LocationId": 16579,
+                "BuildingType": "House2",
+                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Greenford Hall",
-            "MapId": 757000000394,
+            "AnotherName": "Woodham Grange",
+            "MapId": 111257,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

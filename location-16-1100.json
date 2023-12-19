@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Kingcroft Burial Ground",
+    "Name": "The Coppersly Crypts",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 460000000959,
-        "Latitude": 60328,
-        "Longitude": 122792,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 1153522423,
+        "Latitude": 52648,
+        "Longitude": 105384,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31438848,
-                "Y": 15087617,
+                "X": 26982400,
+                "Y": 13481985,
                 "IsExterior": 32768,
-                "Unknown2": 731,
-                "LocationId": 12861,
+                "Unknown2": 1100,
+                "LocationId": 15124,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Kingcroft Burial Ground"
+                "LocationName": "The Coppersly Crypts"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Kingcroft Burial Ground",
-            "MapId": 460000000959,
+            "AnotherName": "The Coppersly Crypts",
+            "MapId": 88823,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS26.RMB"
+                "GRVEAS29.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27867136,
-                "Y": 14628865,
+                "X": 26982400,
+                "Y": 13481985,
                 "IsExterior": 0,
-                "Unknown2": 255,
-                "LocationId": 12862,
+                "Unknown2": 401,
+                "LocationId": 15125,
                 "IsInterior": 1,
-                "ExteriorLocationId": 12861,
-                "LocationName": "The Kingcroft Burial Ground"
+                "ExteriorLocationId": 15124,
+                "LocationName": "The Coppersly Crypts"
             }
         },
         "Header": {
@@ -60,7 +60,7 @@
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "M0000003.RDB",
+                "BlockName": "M0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,7 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

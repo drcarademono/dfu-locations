@@ -1,74 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Restless Mug Hostel",
+    "Name": "The Dirty Fawn Pub",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 411000000157,
-        "Latitude": 66600,
-        "Longitude": 20136,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 45555953,
+        "Latitude": 4136,
+        "Longitude": 23720,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5158912,
-                "Y": 13481985,
+                "X": 6076416,
+                "Y": 1062913,
                 "IsExterior": 32768,
-                "Unknown2": 209,
-                "LocationId": 29401,
+                "Unknown2": 43,
+                "LocationId": 28534,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Restless Mug Hostel"
+                "LocationName": "The Dirty Fawn Pub"
             }
         },
         "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 29749,
-                "FactionId": 510,
+                "NameSeed": 22653,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 29401,
-                "BuildingType": 15,
+                "LocationId": 28534,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 6282,
+                "FactionId": 0,
+                "Sector": 11,
+                "LocationId": 28534,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 1428,
+                "FactionId": 510,
+                "Sector": 19,
+                "LocationId": 28534,
+                "BuildingType": "HouseForSale",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 7174,
+                "FactionId": 510,
+                "Sector": 30,
+                "LocationId": 28534,
+                "BuildingType": "Tavern",
                 "Quality": 2
-            },
-            {
-                "NameSeed": 30445,
-                "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 29401,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 7721,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 29401,
-                "BuildingType": 20,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 12174,
-                "FactionId": 0,
-                "Sector": 37,
-                "LocationId": 29401,
-                "BuildingType": 20,
-                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "29749",
-            "MapId": 411000000157,
+            "AnotherName": "7174",
+            "MapId": 467185,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS00.RMB"
+                "TVRNGS02.RMB"
             ]
         }
     },
@@ -92,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

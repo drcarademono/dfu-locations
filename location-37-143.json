@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Greenston Palace",
+    "Name": "Ruins of Castle Copperhart",
     "RegionName": "Kambria",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 565000000717,
-        "Latitude": 46888,
-        "Longitude": 91816,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 150016960,
+        "Latitude": 54952,
+        "Longitude": 75816,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Crypt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23508992,
-                "Y": 18528257,
+                "X": 19412992,
+                "Y": 14071809,
                 "IsExterior": 32768,
-                "Unknown2": 239,
-                "LocationId": 14778,
+                "Unknown2": 143,
+                "LocationId": 13833,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Greenston Palace"
+                "LocationName": "Ruins of Castle Copperhart"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 13284,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 14778,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 13670,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 14778,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 14385,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 14778,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 15718,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 14778,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 11707,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 14778,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 22940,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 14778,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 8360,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 14778,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 26738,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 14778,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 25280,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 14778,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 6582,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 14778,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 26780,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 14778,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 22462,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 14778,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 16432,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 14778,
-                "BuildingType": 17,
-                "Quality": 4
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Greenston Palace",
-            "MapId": 565000000717,
+            "AnotherName": "Ruins of Castle Copperhart",
+            "MapId": 70592,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "RUINAA04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 19412992,
+                "Y": 14071809,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 56,
+                "LocationId": 13834,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13833,
+                "LocationName": "Ruins of Castle Copperhart"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

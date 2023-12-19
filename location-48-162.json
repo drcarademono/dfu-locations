@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Yagotvor Nest",
+    "Name": "The Sirdam Farmstead",
     "RegionName": "Tigonus",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 370000000508,
-        "Latitude": 71848,
-        "Longitude": 65064,
-        "LocationType": 4,
-        "DungeonType": 17,
-        "Discovered": false,
+        "MapId": 170208808,
+        "Latitude": 20520,
+        "Longitude": 63528,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16660480,
-                "Y": 12138497,
+                "X": 16267264,
+                "Y": 5257217,
                 "IsExterior": 32768,
-                "Unknown2": 245,
-                "LocationId": 24974,
+                "Unknown2": 162,
+                "LocationId": 24388,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Yagotvor Nest"
+                "LocationName": "The Sirdam Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 30697,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 24388,
+                "BuildingType": "House2",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Yagotvor Nest",
-            "MapId": 370000000508,
+            "AnotherName": "The Sirdam Farmstead",
+            "MapId": 339496,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 2,
             "BlockNames": [
-                "DUNGAA18.RMB"
+                "FARMAA07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16562176,
-                "Y": 4700161,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 64,
-                "LocationId": 24975,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24974,
-                "LocationName": "The Yagotvor Nest"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000040.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
-        "GroundArchive": 2,
-        "NatureArchive": 501,
+        "WorldClimate": 228,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_Swamp",
+        "GroundArchive": 402,
+        "NatureArchive": 502,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

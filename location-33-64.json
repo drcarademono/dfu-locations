@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Ashford Cemetery",
+    "Name": "The Kingford Farmstead",
     "RegionName": "Menevia",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 352000000859,
-        "Latitude": 74152,
-        "Longitude": 109992,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 67275685,
+        "Latitude": 42664,
+        "Longitude": 105128,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28162048,
-                "Y": 11548673,
+                "X": 26916864,
+                "Y": 10926081,
                 "IsExterior": 32768,
-                "Unknown2": 146,
-                "LocationId": 21017,
+                "Unknown2": 64,
+                "LocationId": 19711,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Ashford Cemetery"
+                "LocationName": "The Kingford Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 32742,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 19711,
+                "BuildingType": "House2",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Ashford Cemetery",
-            "MapId": 352000000859,
+            "AnotherName": "The Kingford Farmstead",
+            "MapId": 166821,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS21.RMB"
+                "FARMAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 26785792,
-                "Y": 9943041,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 26,
-                "LocationId": 21018,
-                "IsInterior": 1,
-                "ExteriorLocationId": 21017,
-                "LocationName": "The Ashford Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 161,
     "RegionIndex": 33,

@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Old Nurti's Farm",
+    "Name": "Castle Chevrn",
     "RegionName": "Myrkwasa",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 406000000259,
-        "Latitude": 67240,
-        "Longitude": 33192,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 18231074,
+        "Latitude": 12072,
+        "Longitude": 36136,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "HarpyNest",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8501248,
-                "Y": 13318145,
+                "X": 9254912,
+                "Y": 3094529,
                 "IsExterior": 32768,
-                "Unknown2": 138,
-                "LocationId": 28024,
+                "Unknown2": 17,
+                "LocationId": 26762,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Nurti's Farm"
+                "LocationName": "Castle Chevrn"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 9737,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 28024,
-                "BuildingType": 18,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Nurti's Farm",
-            "MapId": 406000000259,
+            "AnotherName": "Castle Chevrn",
+            "MapId": 405282,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA08.RMB"
+                "CASTAA15.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 9254912,
+                "Y": 3094529,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 3,
+                "LocationId": 26763,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26762,
+                "LocationName": "Castle Chevrn"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000089.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
-        "NatureArchive": 503,
-        "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "NatureArchive": 501,
+        "SkyBase": 24,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

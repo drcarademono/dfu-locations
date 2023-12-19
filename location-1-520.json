@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Old M'all-si's Hovel",
+    "Name": "The Silver Skull Lodge",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 184000000658,
-        "Latitude": 95656,
-        "Longitude": 84264,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 545681192,
+        "Latitude": 10024,
+        "Longitude": 86056,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21575680,
-                "Y": 6043649,
+                "X": 22034432,
+                "Y": 2570241,
                 "IsExterior": 32768,
-                "Unknown2": 628,
-                "LocationId": 27853,
+                "Unknown2": 520,
+                "LocationId": 27249,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old M'all-si's Hovel"
+                "LocationName": "The Silver Skull Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 29802,
-                "FactionId": 0,
+                "NameSeed": 29104,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 27853,
-                "BuildingType": 19,
-                "Quality": 11
+                "LocationId": 27249,
+                "BuildingType": "Tavern",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 8467,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 27249,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 9168,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 27249,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 28435,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 27249,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 16917,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 27249,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 22537,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 27249,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 29914,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 27249,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 18500,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 27249,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 3942,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 27249,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 27935,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 27249,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 10223,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 27249,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 19988,
+                "FactionId": 0,
+                "Sector": 91,
+                "LocationId": 27249,
+                "BuildingType": "House2",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old M'all-si's Hovel",
-            "MapId": 184000000658,
+            "AnotherName": "29104",
+            "MapId": 421672,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNAS09.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

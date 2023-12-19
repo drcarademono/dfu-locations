@@ -1,96 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Lucky Fairy Hostel",
+    "Name": "The Slarmim Crypts",
     "RegionName": "Myrkwasa",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 410000000313,
-        "Latitude": 66728,
-        "Longitude": 40104,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 38160033,
+        "Latitude": 11304,
+        "Longitude": 38056,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10270720,
-                "Y": 13449217,
+                "X": 9746432,
+                "Y": 2897921,
                 "IsExterior": 32768,
-                "Unknown2": 58,
-                "LocationId": 27175,
+                "Unknown2": 36,
+                "LocationId": 26945,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Lucky Fairy Hostel"
+                "LocationName": "The Slarmim Crypts"
             }
         },
-        "BuildingCount": 3,
-        "Buildings": [
-            {
-                "NameSeed": 26224,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27175,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 16336,
-                "FactionId": 510,
-                "Sector": 11,
-                "LocationId": 27175,
-                "BuildingType": 17,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 20043,
-                "FactionId": 510,
-                "Sector": 24,
-                "LocationId": 27175,
-                "BuildingType": 15,
-                "Quality": 8
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "20043",
-            "MapId": 410000000313,
+            "AnotherName": "The Slarmim Crypts",
+            "MapId": 411297,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS03.RMB"
+                "GRVEAS42.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 9746432,
+                "Y": 2897921,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 10,
+                "LocationId": 26946,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26945,
+                "LocationName": "The Slarmim Crypts"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

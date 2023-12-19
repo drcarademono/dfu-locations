@@ -1,146 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Fhorg'kern Manor",
+    "Name": "The Mharpte Farmstead",
     "RegionName": "Lainlyn",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 307000000723,
-        "Latitude": 79912,
-        "Longitude": 92584,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 142900002,
+        "Latitude": 26408,
+        "Longitude": 85288,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23705600,
-                "Y": 10074113,
+                "X": 21837824,
+                "Y": 6764545,
                 "IsExterior": 32768,
-                "Unknown2": 238,
-                "LocationId": 23315,
+                "Unknown2": 136,
+                "LocationId": 23045,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Fhorg'kern Manor"
+                "LocationName": "The Mharpte Farmstead"
             }
         },
-        "BuildingCount": 13,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 3754,
+                "NameSeed": 24775,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23315,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 18160,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 23315,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 23866,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 23315,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 18202,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 23315,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 29205,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 23315,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 12096,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 23315,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 29358,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 23315,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 21056,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 23315,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 9494,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 23315,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 726,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 23315,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 29187,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 23315,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 31798,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 23315,
-                "BuildingType": 15,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 29211,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 23315,
-                "BuildingType": 17,
-                "Quality": 15
+                "LocationId": 23045,
+                "BuildingType": "House2",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Fhorg'kern Manor",
-            "MapId": 307000000723,
+            "AnotherName": "The Mharpte Farmstead",
+            "MapId": 293666,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
@@ -163,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
-        "GroundArchive": 402,
-        "NatureArchive": 500,
-        "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

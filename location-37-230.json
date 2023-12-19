@@ -1,106 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Wickcroft Grange",
+    "Name": "Ruins of The Wicksly Cabin",
     "RegionName": "Kambria",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 578000000701,
-        "Latitude": 45224,
-        "Longitude": 89768,
-        "LocationType": 10,
-        "DungeonType": 6,
+        "MapId": 241255074,
+        "Latitude": 53416,
+        "Longitude": 76072,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Mine",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22984704,
-                "Y": 18954241,
+                "X": 19478528,
+                "Y": 13678593,
                 "IsExterior": 32768,
-                "Unknown2": 208,
-                "LocationId": 14460,
+                "Unknown2": 230,
+                "LocationId": 14706,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Wickcroft Grange"
+                "LocationName": "Ruins of The Wicksly Cabin"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Wickcroft Grange",
-            "MapId": 578000000701,
+            "AnotherName": "Ruins of The Wicksly Cabin",
+            "MapId": 82594,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA03.RMB"
+                "RUINAA27.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18626560,
-                "Y": 13776897,
+                "X": 19478528,
+                "Y": 13678593,
                 "IsExterior": 0,
-                "Unknown2": 75,
-                "LocationId": 14461,
+                "Unknown2": 81,
+                "LocationId": 14707,
                 "IsInterior": 1,
-                "ExteriorLocationId": 14460,
-                "LocationName": "Ruins of Wickcroft Grange"
+                "ExteriorLocationId": 14706,
+                "LocationName": "Ruins of The Wicksly Cabin"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000026.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "W0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,31 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -140,15 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -156,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

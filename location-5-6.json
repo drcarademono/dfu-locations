@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Hawking Palace",
+    "Name": "The Fortress of Ashsly",
     "RegionName": "Dwynnen",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 539000000641,
-        "Latitude": 50216,
-        "Longitude": 82088,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 6306975,
+        "Latitude": 61992,
+        "Longitude": 66472,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "BarbarianStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21018624,
-                "Y": 17676289,
+                "X": 17020928,
+                "Y": 15874049,
                 "IsExterior": 32768,
-                "Unknown2": 767,
-                "LocationId": 18455,
+                "Unknown2": 6,
+                "LocationId": 10683,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hawking Palace"
+                "LocationName": "The Fortress of Ashsly"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 32571,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 18455,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 8210,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 18455,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 6643,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 18455,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 9302,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 18455,
-                "BuildingType": 19,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 4715,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 18455,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 28817,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 18455,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 5677,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 18455,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 23405,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 18455,
-                "BuildingType": 15,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 19123,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 18455,
-                "BuildingType": 17,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Hawking Palace",
-            "MapId": 539000000641,
+            "AnotherName": "The Fortress of Ashsly",
+            "MapId": 15519,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 2,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "CASTAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 17020928,
+                "Y": 15874049,
                 "IsExterior": 0,
                 "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "LocationId": 10684,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10683,
+                "LocationName": "The Fortress of Ashsly"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000029.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

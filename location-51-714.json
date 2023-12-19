@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Citadel of T'irge",
+    "Name": "Old Rlugsa's Place",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 241000000753,
-        "Latitude": 88360,
-        "Longitude": 96424,
-        "LocationType": 7,
-        "DungeonType": 9,
-        "Discovered": false,
+        "MapId": 749053185,
+        "Latitude": 16680,
+        "Longitude": 117928,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24688640,
-                "Y": 7911425,
+                "X": 30193664,
+                "Y": 4274177,
                 "IsExterior": 32768,
-                "Unknown2": 321,
-                "LocationId": 24603,
+                "Unknown2": 714,
+                "LocationId": 25547,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Citadel of T'irge"
+                "LocationName": "Old Rlugsa's Place"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 15047,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 25547,
+                "BuildingType": "House3",
+                "Quality": 13
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Citadel of T'irge",
-            "MapId": 241000000753,
+            "AnotherName": "Old Rlugsa's Place",
+            "MapId": 369921,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA13.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 25606144,
-                "Y": 5060609,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 85,
-                "LocationId": 24604,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24603,
-                "LocationName": "The Citadel of T'irge"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000050.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

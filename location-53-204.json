@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The V'urmon Tombs",
+    "Name": "The Rlusem Farmstead",
     "RegionName": "Ephesus",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 138000000775,
-        "Latitude": 101544,
-        "Longitude": 99240,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 214379359,
+        "Latitude": 3880,
+        "Longitude": 109480,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25409536,
-                "Y": 4536321,
+                "X": 28030976,
+                "Y": 997377,
                 "IsExterior": 32768,
-                "Unknown2": 0,
-                "LocationId": 27322,
+                "Unknown2": 204,
+                "LocationId": 28614,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The V'urmon Tombs"
+                "LocationName": "The Rlusem Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 18819,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 28614,
+                "BuildingType": "House2",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The V'urmon Tombs",
-            "MapId": 138000000775,
+            "AnotherName": "The Rlusem Farmstead",
+            "MapId": 469855,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS09.RMB"
+                "FARMAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27932672,
-                "Y": 2504705,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
                 "Unknown2": 0,
-                "LocationId": 27323,
-                "IsInterior": 1,
-                "ExteriorLocationId": 27322,
-                "LocationName": "The V'urmon Tombs"
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 181,
     "RegionIndex": 53,

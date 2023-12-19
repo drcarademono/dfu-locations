@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Kingham Cemetery",
+    "Name": "Woodford Orchard",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 515000000904,
-        "Latitude": 53288,
-        "Longitude": 115752,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 1563554704,
+        "Latitude": 47656,
+        "Longitude": 113704,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29636608,
-                "Y": 16889857,
+                "X": 29112320,
+                "Y": 12204033,
                 "IsExterior": 32768,
-                "Unknown2": 436,
-                "LocationId": 11639,
+                "Unknown2": 1491,
+                "LocationId": 17502,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Kingham Cemetery"
+                "LocationName": "Woodford Orchard"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 8015,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 17502,
+                "BuildingType": "House2",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Kingham Cemetery",
-            "MapId": 515000000904,
+            "AnotherName": "Woodford Orchard",
+            "MapId": 127888,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS32.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 25409536,
-                "Y": 15316993,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 160,
-                "LocationId": 11640,
-                "IsInterior": 1,
-                "ExteriorLocationId": 11639,
-                "LocationName": "The Kingham Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

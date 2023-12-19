@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Citadel of Kherdar",
+    "Name": "The Fortress of Therdke",
     "RegionName": "Alik'r Desert",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 314000000482,
-        "Latitude": 79016,
-        "Longitude": 61736,
-        "LocationType": 7,
-        "DungeonType": 4,
+        "MapId": 149333306,
+        "Latitude": 8232,
+        "Longitude": 65832,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "RuinedCastle",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15808512,
-                "Y": 10303489,
+                "X": 16857088,
+                "Y": 2111489,
                 "IsExterior": 32768,
-                "Unknown2": 66,
-                "LocationId": 27158,
+                "Unknown2": 142,
+                "LocationId": 27666,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Citadel of Kherdar"
+                "LocationName": "The Fortress of Therdke"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Citadel of Kherdar",
-            "MapId": 314000000482,
+            "AnotherName": "The Fortress of Therdke",
+            "MapId": 435514,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA27.RMB"
+                "DUNGAA11.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16726016,
-                "Y": 2668545,
+                "X": 16857088,
+                "Y": 2111489,
                 "IsExterior": 0,
-                "Unknown2": 34,
-                "LocationId": 27159,
+                "Unknown2": 72,
+                "LocationId": 27667,
                 "IsInterior": 1,
-                "ExteriorLocationId": 27158,
-                "LocationName": "The Citadel of Kherdar"
+                "ExteriorLocationId": 27666,
+                "LocationName": "The Fortress of Therdke"
             }
         },
         "Header": {
@@ -57,42 +57,10 @@
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000059.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000022.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,39 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000067.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000081.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000020.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -145,18 +89,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

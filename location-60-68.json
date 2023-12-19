@@ -1,114 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Moorwing Orchard",
+    "Name": "Ruins of The Old Wicking Hovel",
     "RegionName": "Ilessan Hills",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 694000000509,
-        "Latitude": 30376,
-        "Longitude": 65192,
-        "LocationType": 10,
-        "DungeonType": 3,
+        "MapId": 71368503,
+        "Latitude": 55592,
+        "Longitude": 42920,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Crypt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16693248,
-                "Y": 22755329,
+                "X": 10991616,
+                "Y": 14235649,
                 "IsExterior": 32768,
-                "Unknown2": 205,
-                "LocationId": 14167,
+                "Unknown2": 68,
+                "LocationId": 13498,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Moorwing Orchard"
+                "LocationName": "Ruins of The Old Wicking Hovel"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Moorwing Orchard",
-            "MapId": 694000000509,
+            "AnotherName": "Ruins of The Old Wicking Hovel",
+            "MapId": 65335,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA19.RMB"
+                "RUINAA02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 11253760,
-                "Y": 13907969,
+                "X": 10991616,
+                "Y": 14235649,
                 "IsExterior": 0,
-                "Unknown2": 78,
-                "LocationId": 14168,
+                "Unknown2": 27,
+                "LocationId": 13499,
                 "IsInterior": 1,
-                "ExteriorLocationId": 14167,
-                "LocationName": "Ruins of Moorwing Orchard"
+                "ExteriorLocationId": 13498,
+                "LocationName": "Ruins of The Old Wicking Hovel"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 13
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000020.RDB",
+                "BlockName": "N0000023.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

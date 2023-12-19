@@ -1,154 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Bat and Rascal Inn",
+    "Name": "The Old Copperhouse Hovel",
     "RegionName": "Kambria",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 565000000741,
-        "Latitude": 46888,
-        "Longitude": 94888,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 151065577,
+        "Latitude": 54952,
+        "Longitude": 81064,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24295424,
-                "Y": 18528257,
+                "X": 20756480,
+                "Y": 14071809,
                 "IsExterior": 32768,
-                "Unknown2": 152,
-                "LocationId": 13892,
+                "Unknown2": 144,
+                "LocationId": 13835,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Bat and Rascal Inn"
+                "LocationName": "The Old Copperhouse Hovel"
             }
         },
-        "BuildingCount": 14,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 3589,
-                "FactionId": 510,
+                "NameSeed": 1341,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 13892,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 25721,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 13892,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 17072,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 13892,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 4432,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 13892,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 25560,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 13892,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 14174,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 13892,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 9756,
-                "FactionId": 0,
-                "Sector": 56,
-                "LocationId": 13892,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31136,
-                "FactionId": 0,
-                "Sector": 64,
-                "LocationId": 13892,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31052,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 13892,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 17028,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 13892,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 22812,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 13892,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 19766,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 13892,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 20842,
-                "FactionId": 0,
-                "Sector": 85,
-                "LocationId": 13892,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 28050,
-                "FactionId": 0,
-                "Sector": 90,
-                "LocationId": 13892,
-                "BuildingType": 18,
-                "Quality": 11
+                "LocationId": 13835,
+                "BuildingType": "House3",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "3589",
-            "MapId": 565000000741,
+            "AnotherName": "The Old Copperhouse Hovel",
+            "MapId": 70633,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS01.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -172,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

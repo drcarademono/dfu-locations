@@ -1,136 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Moorham Plantation",
+    "Name": "The King's Ogre Hostel",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 407000001063,
-        "Latitude": 67112,
-        "Longitude": 136104,
-        "LocationType": 10,
-        "DungeonType": 11,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 613459696,
+        "Latitude": 58536,
+        "Longitude": 94248,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 34846720,
-                "Y": 13350913,
+                "X": 24131584,
+                "Y": 14989313,
                 "IsExterior": 32768,
-                "Unknown2": 641,
-                "LocationId": 12454,
+                "Unknown2": 585,
+                "LocationId": 12218,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Moorham Plantation"
+                "LocationName": "The King's Ogre Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 12007,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 12218,
+                "BuildingType": "Tavern",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 16382,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 12218,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 24038,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 12218,
+                "BuildingType": "Tavern",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 13579,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 12218,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 10128,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 12218,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 26507,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 12218,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 13702,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 12218,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 9496,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 12218,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 6429,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 12218,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 17820,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 12218,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 23606,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 12218,
+                "BuildingType": "House2",
+                "Quality": 11
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Moorham Plantation",
-            "MapId": 407000001063,
+            "AnotherName": "12007",
+            "MapId": 42736,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA21.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31700992,
-                "Y": 14858241,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 231,
-                "LocationId": 12455,
-                "IsInterior": 1,
-                "ExteriorLocationId": 12454,
-                "LocationName": "Ruins of The Moorham Plantation"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Yeomcroft Tower",
+    "Name": "Ruins of Castle Ashfield",
     "RegionName": "Orsinium Area",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 346000000922,
-        "Latitude": 74920,
-        "Longitude": 118056,
-        "LocationType": 10,
-        "DungeonType": 0,
+        "MapId": 16924073,
+        "Latitude": 45224,
+        "Longitude": 109736,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "DesecratedTemple",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30226432,
-                "Y": 11352065,
+                "X": 28096512,
+                "Y": 11581441,
                 "IsExterior": 32768,
-                "Unknown2": 60,
-                "LocationId": 19928,
+                "Unknown2": 16,
+                "LocationId": 18610,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Yeomcroft Tower"
+                "LocationName": "Ruins of Castle Ashfield"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Yeomcroft Tower",
-            "MapId": 346000000922,
+            "AnotherName": "Ruins of Castle Ashfield",
+            "MapId": 146857,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA09.RMB"
+                "RUINAA27.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 28686336,
-                "Y": 10795009,
+                "X": 28096512,
+                "Y": 11581441,
                 "IsExterior": 0,
-                "Unknown2": 44,
-                "LocationId": 19929,
+                "Unknown2": 11,
+                "LocationId": 18611,
                 "IsInterior": 1,
-                "ExteriorLocationId": 19928,
-                "LocationName": "Ruins of Yeomcroft Tower"
+                "ExteriorLocationId": 18610,
+                "LocationName": "Ruins of Castle Ashfield"
             }
         },
         "Header": {
@@ -57,18 +57,10 @@
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000029.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,31 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000023.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -113,7 +89,7 @@
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000005.RDB",
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 154,
     "RegionIndex": 26,

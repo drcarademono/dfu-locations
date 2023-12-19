@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Buckingsmith Tombs",
+    "Name": "The Dunyctor Pit",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 431000001019,
-        "Latitude": 64040,
-        "Longitude": 130472,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 845213167,
+        "Latitude": 56232,
+        "Longitude": 116648,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33404928,
-                "Y": 14137345,
+                "X": 29865984,
+                "Y": 14399489,
                 "IsExterior": 32768,
-                "Unknown2": 668,
-                "LocationId": 12556,
+                "Unknown2": 806,
+                "LocationId": 13254,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Buckingsmith Tombs"
+                "LocationName": "The Dunyctor Pit"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Buckingsmith Tombs",
-            "MapId": 431000001019,
+            "AnotherName": "The Dunyctor Pit",
+            "MapId": 60911,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS24.RMB"
+                "DUNGAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 30062592,
-                "Y": 14792705,
+                "X": 29865984,
+                "Y": 14399489,
                 "IsExterior": 0,
-                "Unknown2": 239,
-                "LocationId": 12557,
+                "Unknown2": 281,
+                "LocationId": 13255,
                 "IsInterior": 1,
-                "ExteriorLocationId": 12556,
-                "LocationName": "The Buckingsmith Tombs"
+                "ExteriorLocationId": 13254,
+                "LocationName": "The Dunyctor Pit"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "The Blurgur Farmstead",
+    "Name": "The Laughing Muskrat Inn",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 23000000847,
-        "Latitude": 116264,
-        "Longitude": 108456,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 9724788,
+        "Latitude": 27176,
+        "Longitude": 77352,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27768832,
-                "Y": 768001,
+                "X": 19806208,
+                "Y": 6961153,
                 "IsExterior": 32768,
-                "Unknown2": 861,
-                "LocationId": 29175,
+                "Unknown2": 9,
+                "LocationId": 22922,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Blurgur Farmstead"
+                "LocationName": "The Laughing Muskrat Inn"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 11834,
+                "NameSeed": 3828,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 29175,
-                "BuildingType": 18,
-                "Quality": 14
+                "LocationId": 22922,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 21956,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 22922,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 31737,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 22922,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 2076,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 22922,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 23090,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 22922,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 5726,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 22922,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 5983,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 22922,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 11853,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 22922,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 11446,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 22922,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 25298,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 22922,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 8244,
+                "FactionId": 510,
+                "Sector": 55,
+                "LocationId": 22922,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 27010,
+                "FactionId": 510,
+                "Sector": 71,
+                "LocationId": 22922,
+                "BuildingType": "Tavern",
+                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Blurgur Farmstead",
-            "MapId": 23000000847,
+            "AnotherName": "8244",
+            "MapId": 287604,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA03.RMB"
+                "TVRNAS07.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

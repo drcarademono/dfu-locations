@@ -1,98 +1,90 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Old Kroshti's Hovel",
+    "Name": "The Challur Lode",
     "RegionName": "Dak'fron",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 251000000562,
-        "Latitude": 87080,
-        "Longitude": 71976,
-        "LocationType": 10,
-        "DungeonType": 6,
+        "MapId": 170359865,
+        "Latitude": 1192,
+        "Longitude": 70824,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18429952,
-                "Y": 8239105,
+                "X": 18135040,
+                "Y": 309249,
                 "IsExterior": 32768,
-                "Unknown2": 1,
-                "LocationId": 27576,
+                "Unknown2": 162,
+                "LocationId": 29251,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Old Kroshti's Hovel"
+                "LocationName": "The Challur Lode"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Old Kroshti's Hovel",
-            "MapId": 251000000562,
+            "AnotherName": "The Challur Lode",
+            "MapId": 490553,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA22.RMB"
+                "DUNGAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 20035584,
-                "Y": 2209793,
+                "X": 18135040,
+                "Y": 309249,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 27577,
+                "Unknown2": 110,
+                "LocationId": 29252,
                 "IsInterior": 1,
-                "ExteriorLocationId": 27576,
-                "LocationName": "Ruins of Old Kroshti's Hovel"
+                "ExteriorLocationId": 29251,
+                "LocationName": "The Challur Lode"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000016.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -1,
-                "Z": 0,
+                "X": 0,
+                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000072.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000003.RDB",
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,71 +92,23 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000089.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -2,
-                "IsStartingBlock": false,
                 "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 225,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
-    "Politic": 128,
+    "Politic": 139,
     "RegionIndex": 11,
     "LocationIndex": 162
 }

@@ -1,152 +1,184 @@
 {
     "Loaded": true,
-    "Name": "The Cave of Demerena",
+    "Name": "Burning Tree of Kynareth",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 394000000892,
-        "Latitude": 68776,
-        "Longitude": 114216,
-        "LocationType": 4,
-        "DungeonType": 6,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 513838945,
+        "Latitude": 59304,
+        "Longitude": 90280,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29243392,
-                "Y": 12924929,
+                "X": 23115776,
+                "Y": 15185921,
                 "IsExterior": 32768,
-                "Unknown2": 1628,
-                "LocationId": 18457,
+                "Unknown2": 490,
+                "LocationId": 11862,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Cave of Demerena"
+                "LocationName": "Burning Tree of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 26544,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 11862,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 23565,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 11862,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 17579,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 11862,
+                "BuildingType": "House3",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 8851,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 11862,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 4180,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 11862,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 14258,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 11862,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 6941,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 11862,
+                "BuildingType": "House3",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 23606,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 11862,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 26263,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 11862,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 15973,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 11862,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 28712,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 11862,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 18806,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 11862,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 15971,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 11862,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 30985,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 11862,
+                "BuildingType": "Temple",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Cave of Demerena",
-            "MapId": 394000000892,
+            "AnotherName": "Burning Tree of Kynareth",
+            "MapId": 36705,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA02.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27047936,
-                "Y": 11679745,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 608,
-                "LocationId": 18458,
-                "IsInterior": 1,
-                "ExteriorLocationId": 18457,
-                "LocationName": "The Cave of Demerena"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000033.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000079.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000088.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

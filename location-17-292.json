@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "The Kingfield Cabin",
+    "Name": "The White Muskrat Lodge",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 645000000354,
-        "Latitude": 36648,
-        "Longitude": 45352,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 306347343,
+        "Latitude": 43048,
+        "Longitude": 19368,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11614208,
-                "Y": 21149697,
+                "X": 4962304,
+                "Y": 11024385,
                 "IsExterior": 32768,
-                "Unknown2": 909,
-                "LocationId": 20950,
+                "Unknown2": 292,
+                "LocationId": 19495,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Kingfield Cabin"
+                "LocationName": "The White Muskrat Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 32284,
+                "NameSeed": 22812,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 20950,
-                "BuildingType": 19,
-                "Quality": 1
+                "LocationId": 19495,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 19766,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 19495,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 20842,
+                "FactionId": 0,
+                "Sector": 13,
+                "LocationId": 19495,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 28050,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 19495,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 15654,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 19495,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 1300,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 19495,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 26544,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 19495,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 23565,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 19495,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 17579,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 19495,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 17751,
+                "FactionId": 510,
+                "Sector": 68,
+                "LocationId": 19495,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 16334,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 19495,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 2982,
+                "FactionId": 510,
+                "Sector": 93,
+                "LocationId": 19495,
+                "BuildingType": "Tavern",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Kingfield Cabin",
-            "MapId": 645000000354,
+            "AnotherName": "17751",
+            "MapId": 163151,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNAS00.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

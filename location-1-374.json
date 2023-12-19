@@ -1,130 +1,90 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Sharn Manor",
+    "Name": "The Shrifylin Lode",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 148000000711,
-        "Latitude": 100264,
-        "Longitude": 91048,
-        "LocationType": 10,
-        "DungeonType": 16,
+        "MapId": 392570291,
+        "Latitude": 12456,
+        "Longitude": 111016,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23312384,
-                "Y": 4864001,
+                "X": 28424192,
+                "Y": 3192833,
                 "IsExterior": 32768,
-                "Unknown2": 652,
-                "LocationId": 27971,
+                "Unknown2": 374,
+                "LocationId": 26697,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Sharn Manor"
+                "LocationName": "The Shrifylin Lode"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Sharn Manor",
-            "MapId": 148000000711,
+            "AnotherName": "The Shrifylin Lode",
+            "MapId": 402867,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA12.RMB"
+                "DUNGAA11.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 25933824,
-                "Y": 1718273,
+                "X": 28424192,
+                "Y": 3192833,
                 "IsExterior": 0,
-                "Unknown2": 217,
-                "LocationId": 27972,
+                "Unknown2": 119,
+                "LocationId": 26698,
                 "IsInterior": 1,
-                "ExteriorLocationId": 27971,
-                "LocationName": "Ruins of Sharn Manor"
+                "ExteriorLocationId": 26697,
+                "LocationName": "The Shrifylin Lode"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 14
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000016.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -2,
+                "X": 0,
                 "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "W0000026.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000050.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
+                "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000090.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -132,23 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -156,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

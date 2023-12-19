@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Kinging Palace",
+    "Name": "The Graves of Wickham",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 711000000496,
-        "Latitude": 28200,
-        "Longitude": 63528,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 240201138,
+        "Latitude": 54056,
+        "Longitude": 29992,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16267264,
-                "Y": 23312385,
+                "X": 7682048,
+                "Y": 13842433,
                 "IsExterior": 32768,
-                "Unknown2": 96,
-                "LocationId": 13620,
+                "Unknown2": 229,
+                "LocationId": 14294,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kinging Palace"
+                "LocationName": "The Graves of Wickham"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 19664,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 13620,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 6906,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 13620,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 62,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 13620,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 148,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 13620,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 19875,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 13620,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 25453,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 13620,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 31196,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 13620,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 19466,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 13620,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 13420,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 13620,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 18824,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 13620,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 32721,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 13620,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 3849,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 13620,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 28403,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 13620,
-                "BuildingType": 17,
-                "Quality": 7
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Kinging Palace",
-            "MapId": 711000000496,
+            "AnotherName": "The Graves of Wickham",
+            "MapId": 77234,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "GRVEAS20.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 7682048,
+                "Y": 13842433,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 87,
+                "LocationId": 14295,
+                "IsInterior": 1,
+                "ExteriorLocationId": 14294,
+                "LocationName": "The Graves of Wickham"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

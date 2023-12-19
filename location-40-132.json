@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Castle Greensley",
+    "Name": "The Tower of Ashston",
     "RegionName": "Ykalon",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 713000000583,
-        "Latitude": 27944,
-        "Longitude": 74664,
-        "LocationType": 10,
-        "DungeonType": 8,
+        "MapId": 138424364,
+        "Latitude": 62376,
+        "Longitude": 42536,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Laboratory",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19118080,
-                "Y": 23377921,
+                "X": 10893312,
+                "Y": 15972353,
                 "IsExterior": 32768,
-                "Unknown2": 255,
-                "LocationId": 11001,
+                "Unknown2": 132,
+                "LocationId": 10512,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Castle Greensley"
+                "LocationName": "The Tower of Ashston"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Castle Greensley",
-            "MapId": 713000000583,
+            "AnotherName": "The Tower of Ashston",
+            "MapId": 12332,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA06.RMB"
+                "CASTAA13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 13056000,
-                "Y": 15677441,
+                "X": 10893312,
+                "Y": 15972353,
                 "IsExterior": 0,
-                "Unknown2": 58,
-                "LocationId": 11002,
+                "Unknown2": 33,
+                "LocationId": 10513,
                 "IsInterior": 1,
-                "ExteriorLocationId": 11001,
-                "LocationName": "Ruins of Castle Greensley"
+                "ExteriorLocationId": 10512,
+                "LocationName": "The Tower of Ashston"
             }
         },
         "Header": {
@@ -57,58 +57,26 @@
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000046.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000006.RDB",
+                "BlockName": "N0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
         "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

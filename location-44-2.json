@@ -1,74 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Rhostan Court",
+    "Name": "Old Chistka's Farm",
     "RegionName": "Kairou",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 407000000214,
-        "Latitude": 67112,
-        "Longitude": 27432,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 2522384,
+        "Latitude": 9512,
+        "Longitude": 29736,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 7026688,
-                "Y": 13350913,
+                "X": 7616512,
+                "Y": 2439169,
                 "IsExterior": 32768,
-                "Unknown2": 115,
-                "LocationId": 28665,
+                "Unknown2": 2,
+                "LocationId": 27365,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Rhostan Court"
+                "LocationName": "Old Chistka's Farm"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 20135,
+                "NameSeed": 22752,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28665,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 26988,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 28665,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 10695,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 28665,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 26139,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 28665,
-                "BuildingType": 17,
-                "Quality": 10
+                "LocationId": 27365,
+                "BuildingType": "House2",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Rhostan Court",
-            "MapId": 407000000214,
+            "AnotherName": "Old Chistka's Farm",
+            "MapId": 425232,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "FARMAA07.RMB"
             ]
         }
     },
@@ -92,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 172,
     "RegionIndex": 44,

@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Bleeding Oracle of Kynareth",
+    "Name": "Ruins of Greencroft Manor",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 716000000293,
-        "Latitude": 27560,
-        "Longitude": 37544,
-        "LocationType": 5,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16
+        "MapId": 1224945992,
+        "Latitude": 37160,
+        "Longitude": 28712,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "DragonsDen",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9615360,
-                "Y": 23476225,
+                "X": 7354368,
+                "Y": 9517057,
                 "IsExterior": 32768,
-                "Unknown2": 311,
-                "LocationId": 19555,
+                "Unknown2": 1168,
+                "LocationId": 21566,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Bleeding Oracle of Kynareth"
+                "LocationName": "Ruins of Greencroft Manor"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 21769,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 19555,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 17709,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 19555,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 3148,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 19555,
-                "BuildingType": 19,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 31476,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 19555,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 1090,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 19555,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 7996,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 19555,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 15160,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 19555,
-                "BuildingType": 19,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 28194,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 19555,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 2161,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 19555,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 6344,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 19555,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 1798,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 19555,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 27534,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 19555,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 4712,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 19555,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 15955,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 19555,
-                "BuildingType": 14,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Bleeding Oracle of Kynareth",
-            "MapId": 716000000293,
+            "AnotherName": "Ruins of Greencroft Manor",
+            "MapId": 209224,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "RUINAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 7354368,
+                "Y": 9517057,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 231,
+                "LocationId": 21567,
+                "IsInterior": 1,
+                "ExteriorLocationId": 21566,
+                "LocationName": "Ruins of Greencroft Manor"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000073.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Woodford Farmstead",
+    "Name": "The Laboratory of Perore",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 522000000842,
-        "Latitude": 52392,
-        "Longitude": 107816,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 1599209293,
+        "Latitude": 47272,
+        "Longitude": 114344,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27604992,
-                "Y": 17119233,
+                "X": 29276160,
+                "Y": 12105729,
                 "IsExterior": 32768,
-                "Unknown2": 758,
-                "LocationId": 13055,
+                "Unknown2": 1525,
+                "LocationId": 17663,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Woodford Farmstead"
+                "LocationName": "The Laboratory of Perore"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 1090,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 13055,
-                "BuildingType": 18,
-                "Quality": 8
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Woodford Farmstead",
-            "MapId": 522000000842,
+            "AnotherName": "The Laboratory of Perore",
+            "MapId": 130893,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA08.RMB"
+                "DUNGAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 29276160,
+                "Y": 12105729,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 566,
+                "LocationId": 17664,
+                "IsInterior": 1,
+                "ExteriorLocationId": 17663,
+                "LocationName": "The Laboratory of Perore"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 14
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000024.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

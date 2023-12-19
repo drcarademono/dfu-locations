@@ -1,136 +1,184 @@
 {
     "Loaded": true,
-    "Name": "The Andoryan Quarry",
+    "Name": "Holy Oracle of Kynareth",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 478000000927,
-        "Latitude": 58024,
-        "Longitude": 118696,
-        "LocationType": 4,
-        "DungeonType": 5,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 1306629545,
+        "Latitude": 50728,
+        "Longitude": 108712,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30390272,
-                "Y": 15677441,
+                "X": 27834368,
+                "Y": 12990465,
                 "IsExterior": 32768,
-                "Unknown2": 728,
-                "LocationId": 12856,
+                "Unknown2": 1246,
+                "LocationId": 16058,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Andoryan Quarry"
+                "LocationName": "Holy Oracle of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 26245,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 16058,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 16060,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 16058,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 17669,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 16058,
+                "BuildingType": "House3",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 20349,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 16058,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 1993,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 16058,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 19105,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 16058,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 30275,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 16058,
+                "BuildingType": "House3",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 24375,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 16058,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 28324,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 16058,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 29226,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 16058,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 17711,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 16058,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 29034,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 16058,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 9114,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 16058,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 32301,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 16058,
+                "BuildingType": "Temple",
+                "Quality": 8
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Andoryan Quarry",
-            "MapId": 478000000927,
+            "AnotherName": "Holy Oracle of Kynareth",
+            "MapId": 103849,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA15.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 26654720,
-                "Y": 14628865,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 253,
-                "LocationId": 12857,
-                "IsInterior": 1,
-                "ExteriorLocationId": 12856,
-                "LocationName": "The Andoryan Quarry"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000029.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

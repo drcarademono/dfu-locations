@@ -1,160 +1,96 @@
 {
     "Loaded": true,
-    "Name": "Khirhtten's Hold",
+    "Name": "The Lucky Badger Lodge",
     "RegionName": "Tigonus",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 349000000544,
-        "Latitude": 74536,
-        "Longitude": 69672,
-        "LocationType": 7,
-        "DungeonType": 5,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 93646836,
+        "Latitude": 22568,
+        "Longitude": 73256,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17840128,
-                "Y": 11450369,
+                "X": 18757632,
+                "Y": 5781505,
                 "IsExterior": 32768,
-                "Unknown2": 248,
-                "LocationId": 24978,
+                "Unknown2": 89,
+                "LocationId": 23861,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Khirhtten's Hold"
+                "LocationName": "The Lucky Badger Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 3,
+        "Buildings": [
+            {
+                "NameSeed": 16806,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 23861,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7969,
+                "FactionId": 510,
+                "Sector": 11,
+                "LocationId": 23861,
+                "BuildingType": "House1",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 27826,
+                "FactionId": 510,
+                "Sector": 24,
+                "LocationId": 23861,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Khirhtten's Hold",
-            "MapId": 349000000544,
+            "AnotherName": "27826",
+            "MapId": 323572,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA13.RMB"
+                "TVRNGS03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 17905664,
-                "Y": 4700161,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 65,
-                "LocationId": 24979,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24978,
-                "LocationName": "Khirhtten's Hold"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 11
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000052.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000053.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000090.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Old Cilp-e's Hovel",
+    "Name": "Ruins of The Tower of M'ofylom",
     "RegionName": "Satakalaam",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 272000000830,
-        "Latitude": 84392,
-        "Longitude": 106280,
-        "LocationType": 10,
-        "DungeonType": 7,
+        "MapId": 115650214,
+        "Latitude": 24744,
+        "Longitude": 109352,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27211776,
-                "Y": 8927233,
+                "X": 27998208,
+                "Y": 6338561,
                 "IsExterior": 32768,
-                "Unknown2": 12,
-                "LocationId": 22775,
+                "Unknown2": 110,
+                "LocationId": 23407,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Old Cilp-e's Hovel"
+                "LocationName": "Ruins of The Tower of M'ofylom"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Old Cilp-e's Hovel",
-            "MapId": 272000000830,
+            "AnotherName": "Ruins of The Tower of M'ofylom",
+            "MapId": 306854,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 8,
             "BlockNames": [
-                "RUINAA26.RMB"
+                "RUINAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27310080,
-                "Y": 7190529,
+                "X": 27998208,
+                "Y": 6338561,
                 "IsExterior": 0,
-                "Unknown2": 2,
-                "LocationId": 22776,
+                "Unknown2": 31,
+                "LocationId": 23408,
                 "IsInterior": 1,
-                "ExteriorLocationId": 22775,
-                "LocationName": "Ruins of Old Cilp-e's Hovel"
+                "ExteriorLocationId": 23407,
+                "LocationName": "Ruins of The Tower of M'ofylom"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 10
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000059.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,31 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000058.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000084.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,12 +84,12 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000012.RDB",
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 178,
     "RegionIndex": 50,

@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Tower of Sitht",
+    "Name": "The Cijum Farmstead",
     "RegionName": "Dak'fron",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 214000000503,
-        "Latitude": 91816,
-        "Longitude": 64424,
-        "LocationType": 10,
-        "DungeonType": 14,
-        "Discovered": false,
+        "MapId": 83309126,
+        "Latitude": 3624,
+        "Longitude": 79656,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16496640,
-                "Y": 7026689,
+                "X": 20396032,
+                "Y": 931841,
                 "IsExterior": 32768,
-                "Unknown2": 177,
-                "LocationId": 29359,
+                "Unknown2": 79,
+                "LocationId": 28673,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Tower of Sitht"
+                "LocationName": "The Cijum Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 314,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 28673,
+                "BuildingType": "House2",
+                "Quality": 8
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Tower of Sitht",
-            "MapId": 214000000503,
+            "AnotherName": "The Cijum Farmstead",
+            "MapId": 471622,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA16.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18954240,
-                "Y": 178177,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 118,
-                "LocationId": 29360,
-                "IsInterior": 1,
-                "ExteriorLocationId": 29359,
-                "LocationName": "Ruins of The Tower of Sitht"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

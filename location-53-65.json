@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Dirchta Palace",
+    "Name": "Old Klild-i's Hovel",
     "RegionName": "Ephesus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 97000000786,
-        "Latitude": 106792,
-        "Longitude": 100648,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 68597363,
+        "Latitude": 7720,
+        "Longitude": 118184,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25769984,
-                "Y": 3192833,
+                "X": 30259200,
+                "Y": 1980417,
                 "IsExterior": 32768,
-                "Unknown2": 130,
-                "LocationId": 28156,
+                "Unknown2": 65,
+                "LocationId": 27777,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Dirchta Palace"
+                "LocationName": "Old Klild-i's Hovel"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 20407,
+                "NameSeed": 31587,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28156,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 1541,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 28156,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 8531,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 28156,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 29719,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 28156,
-                "BuildingType": 19,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 26930,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 28156,
-                "BuildingType": 18,
+                "LocationId": 27777,
+                "BuildingType": "House3",
                 "Quality": 7
-            },
-            {
-                "NameSeed": 1108,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 28156,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 7908,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 28156,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 10985,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 28156,
-                "BuildingType": 15,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 16125,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 28156,
-                "BuildingType": 17,
-                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Dirchta Palace",
-            "MapId": 97000000786,
+            "AnotherName": "Old Klild-i's Hovel",
+            "MapId": 439923,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 181,
     "RegionIndex": 53,

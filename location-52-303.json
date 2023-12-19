@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Rat and Rascal Pub",
+    "Name": "Border Laboratory",
     "RegionName": "Mournoth",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 216000000893,
-        "Latitude": 91560,
-        "Longitude": 114344,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 318075484,
+        "Latitude": 18344,
+        "Longitude": 122408,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29276160,
-                "Y": 7092225,
+                "X": 31340544,
+                "Y": 4700161,
                 "IsExterior": 32768,
-                "Unknown2": 72,
-                "LocationId": 23157,
+                "Unknown2": 303,
+                "LocationId": 25016,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rat and Rascal Pub"
+                "LocationName": "Border Laboratory"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 6086,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 23157,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 10891,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 23157,
-                "BuildingType": 15,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 3544,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 23157,
-                "BuildingType": 15,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 15375,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 23157,
-                "BuildingType": 19,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 25928,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 23157,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 7735,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 23157,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 30104,
-                "FactionId": 0,
-                "Sector": 70,
-                "LocationId": 23157,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 21394,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 23157,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 16635,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 23157,
-                "BuildingType": 19,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 21826,
-                "FactionId": 0,
-                "Sector": 87,
-                "LocationId": 23157,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 4673,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 23157,
-                "BuildingType": 18,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "6086",
-            "MapId": 216000000893,
+            "AnotherName": "Border Laboratory",
+            "MapId": 356956,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS06.RMB"
+                "DUNGAA02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 31340544,
+                "Y": 4700161,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 76,
+                "LocationId": 25017,
+                "IsInterior": 1,
+                "ExteriorLocationId": 25016,
+                "LocationName": "Border Laboratory"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000028.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

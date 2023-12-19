@@ -1,136 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Castle Gaerham",
+    "Name": "The Dirty Goat Hostel",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 485000000835,
-        "Latitude": 57128,
-        "Longitude": 106920,
-        "LocationType": 10,
-        "DungeonType": 5,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 1355916686,
+        "Latitude": 50216,
+        "Longitude": 117544,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27375616,
-                "Y": 15906817,
+                "X": 30095360,
+                "Y": 12859393,
                 "IsExterior": 32768,
-                "Unknown2": 1143,
-                "LocationId": 15418,
+                "Unknown2": 1293,
+                "LocationId": 16354,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Castle Gaerham"
+                "LocationName": "The Dirty Goat Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 24690,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 16354,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 6931,
+                "FactionId": 510,
+                "Sector": 20,
+                "LocationId": 16354,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 6759,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 16354,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 3167,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 16354,
+                "BuildingType": "House3",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 4872,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 16354,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 3830,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 16354,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 27659,
+                "FactionId": 0,
+                "Sector": 70,
+                "LocationId": 16354,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 20370,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 16354,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 7608,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 16354,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 8742,
+                "FactionId": 0,
+                "Sector": 87,
+                "LocationId": 16354,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 15498,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 16354,
+                "BuildingType": "House2",
+                "Quality": 13
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Castle Gaerham",
-            "MapId": 485000000835,
+            "AnotherName": "24690",
+            "MapId": 107918,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA20.RMB"
+                "TVRNAS06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23934976,
-                "Y": 13318145,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 421,
-                "LocationId": 15419,
-                "IsInterior": 1,
-                "ExteriorLocationId": 15418,
-                "LocationName": "Ruins of Castle Gaerham"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000027.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

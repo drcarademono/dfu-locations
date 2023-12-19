@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Masterhouse Hall",
+    "Name": "Castle Ashfield",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 755000000393,
-        "Latitude": 22568,
-        "Longitude": 50344,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 565292698,
+        "Latitude": 49832,
+        "Longitude": 29992,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "RuinedCastle",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12892160,
-                "Y": 24754177,
+                "X": 7682048,
+                "Y": 12761089,
                 "IsExterior": 32768,
-                "Unknown2": 272,
-                "LocationId": 14501,
+                "Unknown2": 539,
+                "LocationId": 16503,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Masterhouse Hall"
+                "LocationName": "Castle Ashfield"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 127,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 14501,
-                "BuildingType": 17,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 4221,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 14501,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 22942,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 14501,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 14063,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 14501,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 15371,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 14501,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 30812,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 14501,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 25002,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 14501,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 30661,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 14501,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 4907,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 14501,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 4645,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 14501,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 7697,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 14501,
-                "BuildingType": 15,
-                "Quality": 9
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Masterhouse Hall",
-            "MapId": 755000000393,
+            "AnotherName": "Castle Ashfield",
+            "MapId": 110234,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "CASTAA27.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 7682048,
+                "Y": 12761089,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 200,
+                "LocationId": 16504,
+                "IsInterior": 1,
+                "ExteriorLocationId": 16503,
+                "LocationName": "Castle Ashfield"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000023.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

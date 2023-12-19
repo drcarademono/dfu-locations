@@ -1,41 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Shrine of Ephen",
+    "Name": "The Rat and Cat Pub",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 616000000639,
-        "Latitude": 40360,
-        "Longitude": 81832,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 499201721,
+        "Latitude": 53800,
+        "Longitude": 69800,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20953088,
-                "Y": 20199425,
+                "X": 17872896,
+                "Y": 13776897,
                 "IsExterior": 32768,
-                "Unknown2": 468,
-                "LocationId": 14384,
+                "Unknown2": 476,
+                "LocationId": 14458,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shrine of Ephen"
+                "LocationName": "The Rat and Cat Pub"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 12,
+        "Buildings": [
+            {
+                "NameSeed": 16519,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 14458,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 22729,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 14458,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 5742,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 14458,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 3897,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 14458,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 11001,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 14458,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 5400,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 14458,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 30703,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 14458,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 30429,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 14458,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 13512,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 14458,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 6603,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 14458,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 6017,
+                "FactionId": 510,
+                "Sector": 55,
+                "LocationId": 14458,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 14853,
+                "FactionId": 510,
+                "Sector": 71,
+                "LocationId": 14458,
+                "BuildingType": "Tavern",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Shrine of Ephen",
-            "MapId": 616000000639,
+            "AnotherName": "6017",
+            "MapId": 79545,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "TVRNAS07.RMB"
             ]
         }
     },
@@ -59,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

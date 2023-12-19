@@ -1,130 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Citadel of Ashing",
+    "Name": "The Uthore Tunnel",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 575000000819,
-        "Latitude": 45608,
-        "Longitude": 104872,
-        "LocationType": 10,
-        "DungeonType": 3,
+        "MapId": 1803719679,
+        "Latitude": 42408,
+        "Longitude": 122792,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26851328,
-                "Y": 18855937,
+                "X": 31438848,
+                "Y": 10860545,
                 "IsExterior": 32768,
-                "Unknown2": 309,
-                "LocationId": 11150,
+                "Unknown2": 1720,
+                "LocationId": 19826,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Citadel of Ashing"
+                "LocationName": "The Uthore Tunnel"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Citadel of Ashing",
-            "MapId": 575000000819,
+            "AnotherName": "The Uthore Tunnel",
+            "MapId": 168959,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA24.RMB"
+                "DUNGAA04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 22001664,
-                "Y": 15611905,
+                "X": 31438848,
+                "Y": 10860545,
                 "IsExterior": 0,
-                "Unknown2": 122,
-                "LocationId": 11151,
+                "Unknown2": 646,
+                "LocationId": 19827,
                 "IsInterior": 1,
-                "ExteriorLocationId": 11150,
-                "LocationName": "Ruins of The Citadel of Ashing"
+                "ExteriorLocationId": 19826,
+                "LocationName": "The Uthore Tunnel"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 13
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
+                "X": 0,
                 "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000027.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000015.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -132,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

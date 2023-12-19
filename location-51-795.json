@@ -1,41 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Altar of I'ric",
+    "Name": "The Fox and Goat Hostel",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 254000000729,
-        "Latitude": 86696,
-        "Longitude": 93352,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 833992850,
+        "Latitude": 16040,
+        "Longitude": 119080,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23902208,
-                "Y": 8337409,
+                "X": 30488576,
+                "Y": 4110337,
                 "IsExterior": 32768,
-                "Unknown2": 332,
-                "LocationId": 24630,
+                "Unknown2": 795,
+                "LocationId": 25762,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Altar of I'ric"
+                "LocationName": "The Fox and Goat Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 12,
+        "Buildings": [
+            {
+                "NameSeed": 26222,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 25762,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 24129,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 25762,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 8962,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 25762,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 24638,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 25762,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 19084,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 25762,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 24659,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 25762,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 24699,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 25762,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 24335,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 25762,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 12758,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 25762,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 15672,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 25762,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 28089,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 25762,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 15290,
+                "FactionId": 0,
+                "Sector": 91,
+                "LocationId": 25762,
+                "BuildingType": "House2",
+                "Quality": 5
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Altar of I'ric",
-            "MapId": 254000000729,
+            "AnotherName": "26222",
+            "MapId": 374930,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "TVRNAS09.RMB"
             ]
         }
     },
@@ -59,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

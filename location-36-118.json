@@ -1,152 +1,176 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Woodsley Grange",
+    "Name": "Buckingsly Manor",
     "RegionName": "Bhoriane",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 538000000671,
-        "Latitude": 50344,
-        "Longitude": 85928,
-        "LocationType": 10,
-        "DungeonType": 2,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 123850577,
+        "Latitude": 48808,
+        "Longitude": 77992,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22001664,
-                "Y": 17643521,
+                "X": 19970048,
+                "Y": 12498945,
                 "IsExterior": 32768,
-                "Unknown2": 152,
-                "LocationId": 17598,
+                "Unknown2": 118,
+                "LocationId": 17013,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Woodsley Grange"
+                "LocationName": "Buckingsly Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 766,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 17013,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 11985,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 17013,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 31629,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 17013,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 7503,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 17013,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 21871,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 17013,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 31645,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 17013,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 31136,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 17013,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 31052,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 17013,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 17028,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 17013,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 22812,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 17013,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 19766,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 17013,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 3508,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 17013,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 446,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 17013,
+                "BuildingType": "House1",
+                "Quality": 5
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Woodsley Grange",
-            "MapId": 538000000671,
+            "AnotherName": "Buckingsly Manor",
+            "MapId": 118609,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA10.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18429952,
-                "Y": 12138497,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 37,
-                "LocationId": 17599,
-                "IsInterior": 1,
-                "ExteriorLocationId": 17598,
-                "LocationName": "Ruins of Woodsley Grange"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000052.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000017.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 164,
     "RegionIndex": 36,

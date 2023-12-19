@@ -1,112 +1,160 @@
 {
     "Loaded": true,
-    "Name": "THe Crypts of Yeomham",
+    "Name": "The Silver Wolf Tavern",
     "RegionName": "Daggerfall",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 686000000392,
-        "Latitude": 31400,
-        "Longitude": 50216,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 895677035,
+        "Latitude": 39208,
+        "Longitude": 16808,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12859392,
-                "Y": 22493185,
+                "X": 4306944,
+                "Y": 10041345,
                 "IsExterior": 32768,
-                "Unknown2": 36,
-                "LocationId": 18268,
+                "Unknown2": 854,
+                "LocationId": 20837,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "THe Crypts of Yeomham"
+                "LocationName": "The Silver Wolf Tavern"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 25286,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 20837,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 29331,
+                "FactionId": 510,
+                "Sector": 20,
+                "LocationId": 20837,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 16769,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 20837,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 14942,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 20837,
+                "BuildingType": "House3",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 31999,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 20837,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 16556,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 20837,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 32592,
+                "FactionId": 0,
+                "Sector": 70,
+                "LocationId": 20837,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 13825,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 20837,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 6318,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 20837,
+                "BuildingType": "House3",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 20090,
+                "FactionId": 0,
+                "Sector": 87,
+                "LocationId": 20837,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 10054,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 20837,
+                "BuildingType": "House2",
+                "Quality": 10
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "THe Crypts of Yeomham",
-            "MapId": 686000000392,
+            "AnotherName": "25286",
+            "MapId": 193131,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS24.RMB"
+                "TVRNAS06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 8075264,
-                "Y": 11778049,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 5,
-                "LocationId": 18269,
-                "IsInterior": 1,
-                "ExteriorLocationId": 18268,
-                "LocationName": "THe Crypts of Yeomham"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

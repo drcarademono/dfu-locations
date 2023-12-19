@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Laboratory of Tlutham",
+    "Name": "Old Dhuchfa's Place",
     "RegionName": "Sentinel",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 408000000402,
-        "Latitude": 66984,
-        "Longitude": 51496,
-        "LocationType": 4,
-        "DungeonType": 9,
-        "Discovered": false,
+        "MapId": 298183985,
+        "Latitude": 14248,
+        "Longitude": 51368,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13187072,
-                "Y": 13383681,
+                "X": 13154304,
+                "Y": 3651585,
                 "IsExterior": 32768,
-                "Unknown2": 146,
-                "LocationId": 25810,
+                "Unknown2": 284,
+                "LocationId": 26236,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Laboratory of Tlutham"
+                "LocationName": "Old Dhuchfa's Place"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 23884,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 26236,
+                "BuildingType": "House3",
+                "Quality": 6
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Laboratory of Tlutham",
-            "MapId": 408000000402,
+            "AnotherName": "Old Dhuchfa's Place",
+            "MapId": 388401,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA12.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 12924928,
-                "Y": 4044801,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 26,
-                "LocationId": 25811,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25810,
-                "LocationName": "The Laboratory of Tlutham"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

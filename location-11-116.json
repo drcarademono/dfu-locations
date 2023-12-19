@@ -1,138 +1,82 @@
 {
     "Loaded": true,
-    "Name": "The Cairn of Magnezus",
+    "Name": "The Lair of Thact",
     "RegionName": "Dak'fron",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 229000000511,
-        "Latitude": 89896,
-        "Longitude": 65448,
-        "LocationType": 4,
-        "DungeonType": 0,
+        "MapId": 122113441,
+        "Latitude": 2728,
+        "Longitude": 80040,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "DragonsDen",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16758784,
-                "Y": 7518209,
+                "X": 20494336,
+                "Y": 702465,
                 "IsExterior": 32768,
-                "Unknown2": 108,
-                "LocationId": 28867,
+                "Unknown2": 116,
+                "LocationId": 28904,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Cairn of Magnezus"
+                "LocationName": "The Lair of Thact"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Cairn of Magnezus",
-            "MapId": 229000000511,
+            "AnotherName": "The Lair of Thact",
+            "MapId": 478625,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA14.RMB"
+                "DUNGAA12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18954240,
-                "Y": 735233,
+                "X": 20494336,
+                "Y": 702465,
                 "IsExterior": 0,
-                "Unknown2": 72,
-                "LocationId": 28868,
+                "Unknown2": 76,
+                "LocationId": 28905,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28867,
-                "LocationName": "The Cairn of Magnezus"
+                "ExteriorLocationId": 28904,
+                "LocationName": "The Lair of Thact"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 10
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000003.RDB",
+                "BlockName": "N0000067.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000032.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": 2,
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000017.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -140,23 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

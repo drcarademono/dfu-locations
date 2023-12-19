@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Woodham Grange",
+    "Name": "Ruins of The Gaerham Farmstead",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 706000000416,
-        "Latitude": 28840,
-        "Longitude": 53288,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 186720720,
+        "Latitude": 54440,
+        "Longitude": 24616,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13645824,
-                "Y": 23148545,
+                "X": 6305792,
+                "Y": 13940737,
                 "IsExterior": 32768,
-                "Unknown2": 546,
-                "LocationId": 16579,
+                "Unknown2": 178,
+                "LocationId": 14066,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Woodham Grange"
+                "LocationName": "Ruins of The Gaerham Farmstead"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 14234,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 16579,
-                "BuildingType": 18,
-                "Quality": 4
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Woodham Grange",
-            "MapId": 706000000416,
+            "AnotherName": "Ruins of The Gaerham Farmstead",
+            "MapId": 74192,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "RUINAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 6305792,
+                "Y": 13940737,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 68,
+                "LocationId": 14067,
+                "IsInterior": 1,
+                "ExteriorLocationId": 14066,
+                "LocationName": "Ruins of The Gaerham Farmstead"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 11
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

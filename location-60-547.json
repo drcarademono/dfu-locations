@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Kinghouse Manor",
+    "Name": "Ruins of Old Elyrrya's Place",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 758000000392,
-        "Latitude": 22184,
-        "Longitude": 50216,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 573682332,
+        "Latitude": 49704,
+        "Longitude": 33320,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "SpiderNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12859392,
-                "Y": 24852481,
+                "X": 8534016,
+                "Y": 12728321,
                 "IsExterior": 32768,
-                "Unknown2": 238,
-                "LocationId": 14351,
+                "Unknown2": 547,
+                "LocationId": 16580,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kinghouse Manor"
+                "LocationName": "Ruins of Old Elyrrya's Place"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 25282,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 14351,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 12285,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 14351,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 32251,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 14351,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 11019,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 14351,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 32189,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 14351,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 19449,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 14351,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 12517,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 14351,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 7716,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 14351,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 768,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 14351,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 17688,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 14351,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 20262,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 14351,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 800,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 14351,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 22657,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 14351,
-                "BuildingType": 17,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Kinghouse Manor",
-            "MapId": 758000000392,
+            "AnotherName": "Ruins of Old Elyrrya's Place",
+            "MapId": 111260,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "RUINAA09.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 8534016,
+                "Y": 12728321,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 202,
+                "LocationId": 16581,
+                "IsInterior": 1,
+                "ExteriorLocationId": 16580,
+                "LocationName": "Ruins of Old Elyrrya's Place"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 11
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000078.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

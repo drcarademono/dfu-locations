@@ -1,74 +1,123 @@
 {
     "Loaded": true,
-    "Name": "Glirt Manor",
+    "Name": "Appoguza",
     "RegionName": "Kairou",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 433000000218,
-        "Latitude": 63784,
-        "Longitude": 27944,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 69655238,
+        "Latitude": 6432,
+        "Longitude": 28456,
+        "LocationType": "TownVillage",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16777472
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 7157760,
-                "Y": 14202881,
+                "X": 7288832,
+                "Y": 1650689,
                 "IsExterior": 32768,
-                "Unknown2": 56,
-                "LocationId": 27936,
+                "Unknown2": 66,
+                "LocationId": 28018,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Glirt Manor"
+                "LocationName": "Appoguza"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 10,
         "Buildings": [
             {
-                "NameSeed": 7885,
+                "NameSeed": 3791,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27936,
-                "BuildingType": 18,
-                "Quality": 12
+                "LocationId": 28018,
+                "BuildingType": "House4",
+                "Quality": 5
             },
             {
-                "NameSeed": 27469,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 27936,
-                "BuildingType": 18,
-                "Quality": 7
+                "NameSeed": 14379,
+                "FactionId": 510,
+                "Sector": 21,
+                "LocationId": 28018,
+                "BuildingType": "Tavern",
+                "Quality": 14
             },
             {
-                "NameSeed": 17477,
+                "NameSeed": 31260,
                 "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 27936,
-                "BuildingType": 18,
+                "Sector": 35,
+                "LocationId": 28018,
+                "BuildingType": "House4",
                 "Quality": 8
             },
             {
-                "NameSeed": 27683,
+                "NameSeed": 29872,
                 "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 27936,
-                "BuildingType": 17,
-                "Quality": 14
+                "Sector": 56,
+                "LocationId": 28018,
+                "BuildingType": "House4",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 9816,
+                "FactionId": 0,
+                "Sector": 77,
+                "LocationId": 28018,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 6247,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 28018,
+                "BuildingType": "GeneralStore",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 18839,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 28018,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 4749,
+                "FactionId": 0,
+                "Sector": 98,
+                "LocationId": 28018,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 17047,
+                "FactionId": 0,
+                "Sector": 103,
+                "LocationId": 28018,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 32763,
+                "FactionId": 0,
+                "Sector": 108,
+                "LocationId": 28018,
+                "BuildingType": "House2",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Glirt Manor",
-            "MapId": 433000000218,
+            "AnotherName": "Appoguza",
+            "MapId": 449222,
             "LocationId": 0,
             "Width": 1,
-            "Height": 1,
+            "Height": 2,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "GENRGS00.RMB",
+                "RESIGS00.RMB"
             ]
         }
     },
@@ -92,13 +141,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 172,
     "RegionIndex": 44,

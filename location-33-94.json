@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Thirsty Badger Hostel",
+    "Name": "Morirdoth",
     "RegionName": "Menevia",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 358000000873,
-        "Latitude": 73384,
-        "Longitude": 111784,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 98746985,
+        "Latitude": 40872,
+        "Longitude": 107688,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "OrcStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28620800,
-                "Y": 11745281,
+                "X": 27572224,
+                "Y": 10467329,
                 "IsExterior": 32768,
-                "Unknown2": 106,
-                "LocationId": 20471,
+                "Unknown2": 94,
+                "LocationId": 20340,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Thirsty Badger Hostel"
+                "LocationName": "Morirdoth"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 10115,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 20471,
-                "BuildingType": 15,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 7575,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 20471,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 4034,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 20471,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 25752,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 20471,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 22771,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 20471,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 11082,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 20471,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 13720,
-                "FactionId": 0,
-                "Sector": 56,
-                "LocationId": 20471,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 19447,
-                "FactionId": 0,
-                "Sector": 64,
-                "LocationId": 20471,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 3469,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 20471,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 21785,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 20471,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 28756,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 20471,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 426,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 20471,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 11726,
-                "FactionId": 0,
-                "Sector": 85,
-                "LocationId": 20471,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 22852,
-                "FactionId": 0,
-                "Sector": 90,
-                "LocationId": 20471,
-                "BuildingType": 18,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "10115",
-            "MapId": 358000000873,
+            "AnotherName": "Morirdoth",
+            "MapId": 180841,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS01.RMB"
+                "DUNGAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 27572224,
+                "Y": 10467329,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 17,
+                "LocationId": 20341,
+                "IsInterior": 1,
+                "ExteriorLocationId": 20340,
+                "LocationName": "Morirdoth"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000026.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 161,
     "RegionIndex": 33,

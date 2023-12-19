@@ -1,79 +1,71 @@
 {
     "Loaded": true,
-    "Name": "The Citadel of Kingston",
+    "Name": "The Stronghold of Greenton",
     "RegionName": "Wayrest",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 288000000918,
-        "Latitude": 82344,
-        "Longitude": 117544,
-        "LocationType": 7,
-        "DungeonType": 9,
+        "MapId": 530815338,
+        "Latitude": 33832,
+        "Longitude": 112936,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Prison",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30095360,
-                "Y": 9451521,
+                "X": 28915712,
+                "Y": 8665089,
                 "IsExterior": 32768,
-                "Unknown2": 355,
-                "LocationId": 22009,
+                "Unknown2": 506,
+                "LocationId": 22255,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Citadel of Kingston"
+                "LocationName": "The Stronghold of Greenton"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Citadel of Kingston",
-            "MapId": 288000000918,
+            "AnotherName": "The Stronghold of Greenton",
+            "MapId": 235882,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA23.RMB"
+                "CASTAA18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 29538304,
-                "Y": 9091073,
+                "X": 28915712,
+                "Y": 8665089,
                 "IsExterior": 0,
-                "Unknown2": 78,
-                "LocationId": 22010,
+                "Unknown2": 112,
+                "LocationId": 22256,
                 "IsInterior": 1,
-                "ExteriorLocationId": 22009,
-                "LocationName": "The Citadel of Kingston"
+                "ExteriorLocationId": 22255,
+                "LocationName": "The Stronghold of Greenton"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -2,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000062.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
+                "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000006.RDB",
@@ -84,47 +76,7 @@
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000055.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000023.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000033.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -132,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

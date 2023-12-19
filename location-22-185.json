@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Old Move Place",
+    "Name": "The Stronghold of D'eld",
     "RegionName": "Lainlyn",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 313000000713,
-        "Latitude": 79144,
-        "Longitude": 91304,
-        "LocationType": 11,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 194285220,
+        "Latitude": 25768,
+        "Longitude": 84520,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "ScorpionNest",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23377920,
-                "Y": 10270721,
+                "X": 21641216,
+                "Y": 6600705,
                 "IsExterior": 32768,
-                "Unknown2": 237,
-                "LocationId": 23314,
+                "Unknown2": 185,
+                "LocationId": 23162,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Move Place"
+                "LocationName": "The Stronghold of D'eld"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 7991,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 23314,
-                "BuildingType": 19,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Old Move Place",
-            "MapId": 313000000713,
+            "AnotherName": "The Stronghold of D'eld",
+            "MapId": 298660,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "CASTAA30.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 21641216,
+                "Y": 6600705,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 32,
+                "LocationId": 23163,
+                "IsInterior": 1,
+                "ExteriorLocationId": 23162,
+                "LocationName": "The Stronghold of D'eld"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000025.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
-        "GroundArchive": 402,
-        "NatureArchive": 500,
-        "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

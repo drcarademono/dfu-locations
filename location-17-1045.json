@@ -1,50 +1,146 @@
 {
     "Loaded": true,
-    "Name": "The Old Ashcroft Place",
+    "Name": "Hearthwing Manor",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 702000000273,
-        "Latitude": 29352,
-        "Longitude": 34984,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 1095964127,
+        "Latitude": 38056,
+        "Longitude": 26536,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8960000,
-                "Y": 23017473,
+                "X": 6797312,
+                "Y": 9746433,
                 "IsExterior": 32768,
-                "Unknown2": 719,
-                "LocationId": 20530,
+                "Unknown2": 1045,
+                "LocationId": 21262,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Ashcroft Place"
+                "LocationName": "Hearthwing Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 13,
         "Buildings": [
             {
-                "NameSeed": 16482,
+                "NameSeed": 22407,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 20530,
-                "BuildingType": 19,
-                "Quality": 6
+                "LocationId": 21262,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 32272,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 21262,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 16635,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 21262,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 21826,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 21262,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 4673,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 21262,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 7547,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 21262,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 3490,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 21262,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 27400,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 21262,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 28432,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 21262,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 11214,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 21262,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 17065,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 21262,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 5771,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 21262,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 13014,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 21262,
+                "BuildingType": "House1",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Ashcroft Place",
-            "MapId": 702000000273,
+            "AnotherName": "Hearthwing Manor",
+            "MapId": 202207,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
@@ -68,13 +164,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

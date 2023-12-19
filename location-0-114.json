@@ -1,176 +1,145 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Tlurn'kern Palace",
+    "Name": "Wadijehnu",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 305000000533,
-        "Latitude": 80168,
-        "Longitude": 68264,
-        "LocationType": 10,
-        "DungeonType": 11,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 119966282,
+        "Latitude": 9128,
+        "Longitude": 79136,
+        "LocationType": "TownVillage",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16777216
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17479680,
-                "Y": 10008577,
+                "X": 20262912,
+                "Y": 2340865,
                 "IsExterior": 32768,
-                "Unknown2": 26,
-                "LocationId": 26628,
+                "Unknown2": 114,
+                "LocationId": 27469,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Tlurn'kern Palace"
+                "LocationName": "Wadijehnu"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 13952,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 27469,
+                "BuildingType": "GeneralStore",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 11658,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 27469,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 29914,
+                "FactionId": 0,
+                "Sector": 19,
+                "LocationId": 27469,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 18500,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 27469,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 3942,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 27469,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 27935,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 27469,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 10223,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 27469,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 19988,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 27469,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 31403,
+                "FactionId": 510,
+                "Sector": 66,
+                "LocationId": 27469,
+                "BuildingType": "HouseForSale",
+                "Quality": 10
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Tlurn'kern Palace",
-            "MapId": 305000000533,
+            "AnotherName": "Wadijehnu",
+            "MapId": 428618,
             "LocationId": 0,
-            "Width": 1,
+            "Width": 2,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA24.RMB"
+                "GENRBS01.RMB",
+                "RESIBS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18331648,
-                "Y": 3258369,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 11,
-                "LocationId": 26629,
-                "IsInterior": 1,
-                "ExteriorLocationId": 26628,
-                "LocationName": "Ruins of Tlurn'kern Palace"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000064.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000074.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000086.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

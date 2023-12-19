@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Sacred Light of Kynareth",
+    "Name": "The Citadel of Gaersly",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 276000001009,
-        "Latitude": 83880,
-        "Longitude": 129192,
-        "LocationType": 5,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16
+        "MapId": 10487729,
+        "Latitude": 63784,
+        "Longitude": 124072,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "GiantStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33077248,
-                "Y": 9058305,
+                "X": 31766528,
+                "Y": 16332801,
                 "IsExterior": 32768,
-                "Unknown2": 1788,
-                "LocationId": 20620,
+                "Unknown2": 10,
+                "LocationId": 10049,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Sacred Light of Kynareth"
+                "LocationName": "The Citadel of Gaersly"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 23839,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 20620,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 14313,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 20620,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 787,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 20620,
-                "BuildingType": 19,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 17600,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 20620,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 31304,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 20620,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 1453,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 20620,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 19574,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 20620,
-                "BuildingType": 19,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 28176,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 20620,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 8140,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 20620,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 17598,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 20620,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 25601,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 20620,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 12820,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 20620,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 14042,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 20620,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 16719,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 20620,
-                "BuildingType": 14,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Sacred Light of Kynareth",
-            "MapId": 276000001009,
+            "AnotherName": "The Citadel of Gaersly",
+            "MapId": 1969,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "CASTAA26.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 31766528,
+                "Y": 16332801,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 4,
+                "LocationId": 10050,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10049,
+                "LocationName": "The Citadel of Gaersly"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000037.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

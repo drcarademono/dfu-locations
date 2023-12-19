@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Black Scorpion Inn",
+    "Name": "Noctem Orchard",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 150000000840,
-        "Latitude": 100008,
-        "Longitude": 107560,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 73727128,
+        "Latitude": 22184,
+        "Longitude": 103464,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27539456,
-                "Y": 4929537,
+                "X": 26490880,
+                "Y": 5683201,
                 "IsExterior": 32768,
-                "Unknown2": 844,
-                "LocationId": 26026,
+                "Unknown2": 70,
+                "LocationId": 23962,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Black Scorpion Inn"
+                "LocationName": "Noctem Orchard"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 17389,
-                "FactionId": 510,
+                "NameSeed": 7156,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26026,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 22650,
-                "FactionId": 0,
-                "Sector": 21,
-                "LocationId": 26026,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 578,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 26026,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 4756,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 26026,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 4733,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 26026,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 12799,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 26026,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 24356,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 26026,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 18373,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 26026,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 15348,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 26026,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 22039,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 26026,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 28923,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 26026,
-                "BuildingType": 18,
-                "Quality": 12
+                "LocationId": 23962,
+                "BuildingType": "House2",
+                "Quality": 9
             }
         ],
         "ExteriorData": {
-            "AnotherName": "17389",
-            "MapId": 150000000840,
+            "AnotherName": "Noctem Orchard",
+            "MapId": 326808,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS03.RMB"
+                "FARMAA06.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

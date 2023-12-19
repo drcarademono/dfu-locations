@@ -1,79 +1,71 @@
 {
     "Loaded": true,
-    "Name": "The Grave of Vladingezzar",
+    "Name": "Ruins of Buckingcroft's Hold",
     "RegionName": "Glenumbra Moors",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 810000000302,
-        "Latitude": 15528,
-        "Longitude": 38696,
-        "LocationType": 4,
-        "DungeonType": 0,
+        "MapId": 95503523,
+        "Latitude": 53288,
+        "Longitude": 13736,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "SpiderNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9910272,
-                "Y": 26556417,
+                "X": 3520512,
+                "Y": 13645825,
                 "IsExterior": 32768,
-                "Unknown2": 71,
-                "LocationId": 14347,
+                "Unknown2": 91,
+                "LocationId": 14737,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Grave of Vladingezzar"
+                "LocationName": "Ruins of Buckingcroft's Hold"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Grave of Vladingezzar",
-            "MapId": 810000000302,
+            "AnotherName": "Ruins of Buckingcroft's Hold",
+            "MapId": 83107,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA02.RMB"
+                "RUINAA15.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 3487744,
-                "Y": 13809665,
+                "X": 3520512,
+                "Y": 13645825,
                 "IsExterior": 0,
-                "Unknown2": 18,
-                "LocationId": 14348,
+                "Unknown2": 23,
+                "LocationId": 14738,
                 "IsInterior": 1,
-                "ExteriorLocationId": 14347,
-                "LocationName": "The Grave of Vladingezzar"
+                "ExteriorLocationId": 14737,
+                "LocationName": "Ruins of Buckingcroft's Hold"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -2,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000022.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
+                "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000010.RDB",
@@ -84,47 +76,7 @@
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "W0000024.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
                 "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -132,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 187,
     "RegionIndex": 59,

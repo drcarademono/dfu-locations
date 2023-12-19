@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Mouse and Ogre Pub",
+    "Name": "The Citadel of T'irge",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 186000000857,
-        "Latitude": 95400,
-        "Longitude": 109736,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 336938677,
+        "Latitude": 19752,
+        "Longitude": 100008,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28096512,
-                "Y": 6109185,
+                "X": 25606144,
+                "Y": 5060609,
                 "IsExterior": 32768,
-                "Unknown2": 275,
-                "LocationId": 24477,
+                "Unknown2": 321,
+                "LocationId": 24603,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mouse and Ogre Pub"
+                "LocationName": "The Citadel of T'irge"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 28965,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 24477,
-                "BuildingType": 15,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 29811,
-                "FactionId": 0,
-                "Sector": 21,
-                "LocationId": 24477,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 5113,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 24477,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 28624,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 24477,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 29849,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 24477,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 21227,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 24477,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 12475,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 24477,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 12415,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 24477,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 26548,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 24477,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 22386,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 24477,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 26657,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 24477,
-                "BuildingType": 18,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "28965",
-            "MapId": 186000000857,
+            "AnotherName": "The Citadel of T'irge",
+            "MapId": 345781,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS03.RMB"
+                "CASTAA13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 25606144,
+                "Y": 5060609,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 85,
+                "LocationId": 24604,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24603,
+                "LocationName": "The Citadel of T'irge"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000050.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

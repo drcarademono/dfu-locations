@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Luldt Manor",
+    "Name": "Ruins of The Old Sturgta Hovel",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 161000000753,
-        "Latitude": 98600,
-        "Longitude": 96424,
-        "LocationType": 10,
-        "DungeonType": 5,
+        "MapId": 441860378,
+        "Latitude": 11560,
+        "Longitude": 112936,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "GiantStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24688640,
-                "Y": 5289985,
+                "X": 28915712,
+                "Y": 2963457,
                 "IsExterior": 32768,
-                "Unknown2": 465,
-                "LocationId": 27083,
+                "Unknown2": 421,
+                "LocationId": 26896,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Luldt Manor"
+                "LocationName": "Ruins of The Old Sturgta Hovel"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Luldt Manor",
-            "MapId": 161000000753,
+            "AnotherName": "Ruins of The Old Sturgta Hovel",
+            "MapId": 409882,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA28.RMB"
+                "RUINAA02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 26916864,
-                "Y": 2766849,
+                "X": 28915712,
+                "Y": 2963457,
                 "IsExterior": 0,
-                "Unknown2": 153,
-                "LocationId": 27084,
+                "Unknown2": 134,
+                "LocationId": 26897,
                 "IsInterior": 1,
-                "ExteriorLocationId": 27083,
-                "LocationName": "Ruins of Luldt Manor"
+                "ExteriorLocationId": 26896,
+                "LocationName": "Ruins of The Old Sturgta Hovel"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 10
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000021.RDB",
+                "BlockName": "W0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
@@ -119,18 +87,26 @@
                 "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
             }
         ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

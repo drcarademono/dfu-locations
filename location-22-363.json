@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "The Old Mirtta Place",
+    "Name": "The Howling Pit Lodge",
     "RegionName": "Lainlyn",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 363000000666,
-        "Latitude": 72744,
-        "Longitude": 85288,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 380951850,
+        "Latitude": 23208,
+        "Longitude": 97576,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21837824,
-                "Y": 11909121,
+                "X": 24983552,
+                "Y": 5945345,
                 "IsExterior": 32768,
-                "Unknown2": 34,
-                "LocationId": 22827,
+                "Unknown2": 363,
+                "LocationId": 23724,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Mirtta Place"
+                "LocationName": "The Howling Pit Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 21294,
+                "NameSeed": 16049,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 22827,
-                "BuildingType": 19,
-                "Quality": 1
+                "LocationId": 23724,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 28173,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 23724,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 19275,
+                "FactionId": 0,
+                "Sector": 13,
+                "LocationId": 23724,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 20671,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 23724,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 25069,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 23724,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 3965,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 23724,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 3939,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 23724,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 6302,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 23724,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 29226,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 23724,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 3005,
+                "FactionId": 510,
+                "Sector": 68,
+                "LocationId": 23724,
+                "BuildingType": "Tavern",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 4184,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 23724,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 4109,
+                "FactionId": 510,
+                "Sector": 93,
+                "LocationId": 23724,
+                "BuildingType": "Tavern",
+                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Mirtta Place",
-            "MapId": 363000000666,
+            "AnotherName": "3005",
+            "MapId": 318762,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNAS00.RMB"
             ]
         }
     },
@@ -67,14 +155,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
-        "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "WorldClimate": 227,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
+        "GroundArchive": 402,
+        "NatureArchive": 500,
+        "SkyBase": 24,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

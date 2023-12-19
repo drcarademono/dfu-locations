@@ -1,72 +1,64 @@
 {
     "Loaded": true,
-    "Name": "The Citadel of Foldt",
+    "Name": "The Thulpten Cemetery",
     "RegionName": "Totambu",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 238000000713,
-        "Latitude": 88744,
-        "Longitude": 91304,
-        "LocationType": 7,
-        "DungeonType": 13,
+        "MapId": 728080601,
+        "Latitude": 16808,
+        "Longitude": 109736,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23377920,
-                "Y": 7813121,
+                "X": 28096512,
+                "Y": 4306945,
                 "IsExterior": 32768,
-                "Unknown2": 685,
-                "LocationId": 25483,
+                "Unknown2": 694,
+                "LocationId": 25495,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Citadel of Foldt"
+                "LocationName": "The Thulpten Cemetery"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Citadel of Foldt",
-            "MapId": 238000000713,
+            "AnotherName": "The Thulpten Cemetery",
+            "MapId": 368857,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA28.RMB"
+                "GRVEAS08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 24524800,
+                "X": 28096512,
                 "Y": 4306945,
                 "IsExterior": 0,
-                "Unknown2": 180,
-                "LocationId": 25484,
+                "Unknown2": 183,
+                "LocationId": 25496,
                 "IsInterior": 1,
-                "ExteriorLocationId": 25483,
-                "LocationName": "The Citadel of Foldt"
+                "ExteriorLocationId": 25495,
+                "LocationName": "The Thulpten Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 5
         },
         "Blocks": [
             {
                 "X": -1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
@@ -74,9 +66,17 @@
             },
             {
                 "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000011.RDB",
+                "BlockName": "M0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,71 +84,15 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000029.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 2,
                 "IsStartingBlock": false,
                 "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -156,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

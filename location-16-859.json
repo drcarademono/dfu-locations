@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Old Elyn's Farm",
+    "Name": "The Old Copperfield Shack",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 435000001042,
-        "Latitude": 63528,
-        "Longitude": 133416,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 900793522,
+        "Latitude": 55464,
+        "Longitude": 94504,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 34158592,
-                "Y": 14268417,
+                "X": 24197120,
+                "Y": 14202881,
                 "IsExterior": 32768,
-                "Unknown2": 451,
-                "LocationId": 11697,
+                "Unknown2": 859,
+                "LocationId": 13581,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Elyn's Farm"
+                "LocationName": "The Old Copperfield Shack"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 9563,
+                "NameSeed": 852,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 11697,
-                "BuildingType": 18,
+                "LocationId": 13581,
+                "BuildingType": "House3",
                 "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Elyn's Farm",
-            "MapId": 435000001042,
+            "AnotherName": "The Old Copperfield Shack",
+            "MapId": 66738,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA04.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

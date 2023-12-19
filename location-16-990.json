@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Wailing Ascencion of Kynareth",
+    "Name": "Ruins of Ashhart's Hold",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 448000001064,
-        "Latitude": 61864,
-        "Longitude": 136232,
-        "LocationType": 5,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16
+        "MapId": 1038170036,
+        "Latitude": 53800,
+        "Longitude": 101928,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "VampireHaunt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 34879488,
-                "Y": 14694401,
+                "X": 26097664,
+                "Y": 13776897,
                 "IsExterior": 32768,
-                "Unknown2": 143,
-                "LocationId": 10465,
+                "Unknown2": 990,
+                "LocationId": 14477,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Wailing Ascencion of Kynareth"
+                "LocationName": "Ruins of Ashhart's Hold"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 12820,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 10465,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 14042,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 10465,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 9756,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 10465,
-                "BuildingType": 19,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31136,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 10465,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31052,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 10465,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 17028,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 10465,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 22812,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 10465,
-                "BuildingType": 19,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 19766,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 10465,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 20842,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 10465,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 28050,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 10465,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 15654,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 10465,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 1300,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 10465,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 26544,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 10465,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 25008,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 10465,
-                "BuildingType": 14,
-                "Quality": 4
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Wailing Ascencion of Kynareth",
-            "MapId": 448000001064,
+            "AnotherName": "Ruins of Ashhart's Hold",
+            "MapId": 79796,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "RUINAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 26097664,
+                "Y": 13776897,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 359,
+                "LocationId": 14478,
+                "IsInterior": 1,
+                "ExteriorLocationId": 14477,
+                "LocationName": "Ruins of Ashhart's Hold"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000025.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

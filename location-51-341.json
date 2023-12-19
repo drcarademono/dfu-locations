@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Vich Palace",
+    "Name": "Old Maarhtfa's Shack",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 188000000869,
-        "Latitude": 95144,
-        "Longitude": 111272,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 357911334,
+        "Latitude": 19624,
+        "Longitude": 117544,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28489728,
-                "Y": 6174721,
+                "X": 30095360,
+                "Y": 5027841,
                 "IsExterior": 32768,
-                "Unknown2": 158,
-                "LocationId": 24179,
+                "Unknown2": 341,
+                "LocationId": 24640,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Vich Palace"
+                "LocationName": "Old Maarhtfa's Shack"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 18108,
+                "NameSeed": 1868,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 24179,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 25136,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 24179,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 6941,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 24179,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 23606,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 24179,
-                "BuildingType": 19,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 26263,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 24179,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 15973,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 24179,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 28712,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 24179,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 20742,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 24179,
-                "BuildingType": 15,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 5921,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 24179,
-                "BuildingType": 17,
-                "Quality": 11
+                "LocationId": 24640,
+                "BuildingType": "House3",
+                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Vich Palace",
-            "MapId": 188000000869,
+            "AnotherName": "Old Maarhtfa's Shack",
+            "MapId": 346918,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 2,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

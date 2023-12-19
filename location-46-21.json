@@ -1,66 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Queen's Bird Inn",
+    "Name": "The Queen's Badger Inn",
     "RegionName": "Myrkwasa",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 407000000269,
-        "Latitude": 67112,
-        "Longitude": 34472,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 22425408,
+        "Latitude": 12072,
+        "Longitude": 39976,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8828928,
-                "Y": 13350913,
+                "X": 10237952,
+                "Y": 3094529,
                 "IsExterior": 32768,
-                "Unknown2": 122,
-                "LocationId": 27863,
+                "Unknown2": 21,
+                "LocationId": 26767,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Queen's Bird Inn"
+                "LocationName": "The Queen's Badger Inn"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 4886,
+                "NameSeed": 26240,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27863,
-                "BuildingType": 18,
-                "Quality": 8
+                "LocationId": 26767,
+                "BuildingType": "House2",
+                "Quality": 7
             },
             {
-                "NameSeed": 31798,
+                "NameSeed": 4654,
                 "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 27863,
-                "BuildingType": 18,
-                "Quality": 14
+                "Sector": 11,
+                "LocationId": 26767,
+                "BuildingType": "House2",
+                "Quality": 11
             },
             {
-                "NameSeed": 5895,
+                "NameSeed": 25008,
                 "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 27863,
-                "BuildingType": 15,
-                "Quality": 9
+                "Sector": 19,
+                "LocationId": 26767,
+                "BuildingType": "HouseForSale",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 19934,
+                "FactionId": 510,
+                "Sector": 30,
+                "LocationId": 26767,
+                "BuildingType": "Tavern",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "5895",
-            "MapId": 407000000269,
+            "AnotherName": "19934",
+            "MapId": 405312,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNBS04.RMB"
+                "TVRNGS02.RMB"
             ]
         }
     },
@@ -83,14 +91,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
-        "NatureArchive": 503,
-        "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "NatureArchive": 501,
+        "SkyBase": 24,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

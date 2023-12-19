@@ -1,112 +1,71 @@
 {
     "Loaded": true,
-    "Name": "The Hearthsley Vaults",
+    "Name": "Reliquary of Sai",
     "RegionName": "Dwynnen",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 612000000707,
-        "Latitude": 40872,
-        "Longitude": 90536,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 460397417,
+        "Latitude": 54696,
+        "Longitude": 70824,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23181312,
-                "Y": 20068353,
+                "X": 18135040,
+                "Y": 14006273,
                 "IsExterior": 32768,
-                "Unknown2": 263,
-                "LocationId": 12481,
+                "Unknown2": 439,
+                "LocationId": 13969,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hearthsley Vaults"
+                "LocationName": "Reliquary of Sai"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Hearthsley Vaults",
-            "MapId": 612000000707,
+            "AnotherName": "Reliquary of Sai",
+            "MapId": 72553,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS06.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18233344,
-                "Y": 14825473,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 43,
-                "LocationId": 12482,
-                "IsInterior": 1,
-                "ExteriorLocationId": 12481,
-                "LocationName": "The Hearthsley Vaults"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Old Elyvyra's Hovel",
+    "Name": "Castle Hawkwing",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 692000000328,
-        "Latitude": 30632,
-        "Longitude": 42024,
-        "LocationType": 11,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 966983234,
+        "Latitude": 38824,
+        "Longitude": 20776,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "DragonsDen",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10762240,
-                "Y": 22689793,
+                "X": 5322752,
+                "Y": 9943041,
                 "IsExterior": 32768,
-                "Unknown2": 380,
-                "LocationId": 19731,
+                "Unknown2": 922,
+                "LocationId": 20994,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Elyvyra's Hovel"
+                "LocationName": "Castle Hawkwing"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 29289,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 19731,
-                "BuildingType": 19,
-                "Quality": 8
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Elyvyra's Hovel",
-            "MapId": 692000000328,
+            "AnotherName": "Castle Hawkwing",
+            "MapId": 196162,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "CASTAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 5322752,
+                "Y": 9943041,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 180,
+                "LocationId": 20995,
+                "IsInterior": 1,
+                "ExteriorLocationId": 20994,
+                "LocationName": "Castle Hawkwing"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000028.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

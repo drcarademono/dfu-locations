@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Nhught Graveyard",
+    "Name": "The Old Darch Hovel",
     "RegionName": "Tigonus",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 328000000564,
-        "Latitude": 77224,
-        "Longitude": 72232,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 49596656,
+        "Latitude": 23848,
+        "Longitude": 74792,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18495488,
-                "Y": 10762241,
+                "X": 19150848,
+                "Y": 6109185,
                 "IsExterior": 32768,
-                "Unknown2": 287,
-                "LocationId": 25353,
+                "Unknown2": 47,
+                "LocationId": 23582,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Nhught Graveyard"
+                "LocationName": "The Old Darch Hovel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 30210,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 23582,
+                "BuildingType": "House3",
+                "Quality": 13
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Nhught Graveyard",
-            "MapId": 328000000564,
+            "AnotherName": "The Old Darch Hovel",
+            "MapId": 313584,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS26.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18823168,
-                "Y": 4405249,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 72,
-                "LocationId": 25354,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25353,
-                "LocationName": "The Nhught Graveyard"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
-        "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

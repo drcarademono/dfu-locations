@@ -1,154 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Blessed Relic of Kynareth",
+    "Name": "The Old Gaering Place",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 493000000921,
-        "Latitude": 56104,
-        "Longitude": 117928,
-        "LocationType": 5,
-        "DungeonType": 255,
+        "MapId": 1416738930,
+        "Latitude": 49576,
+        "Longitude": 96552,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 16
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30193664,
-                "Y": 16168961,
+                "X": 24721408,
+                "Y": 12695553,
                 "IsExterior": 32768,
-                "Unknown2": 597,
-                "LocationId": 12271,
+                "Unknown2": 1351,
+                "LocationId": 16695,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Blessed Relic of Kynareth"
+                "LocationName": "The Old Gaering Place"
             }
         },
-        "BuildingCount": 14,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 15178,
+                "NameSeed": 20924,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 12271,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 2580,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 12271,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 21806,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 12271,
-                "BuildingType": 19,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 11642,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 12271,
-                "BuildingType": 18,
+                "LocationId": 16695,
+                "BuildingType": "House3",
                 "Quality": 11
-            },
-            {
-                "NameSeed": 2937,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 12271,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 12929,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 12271,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 18653,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 12271,
-                "BuildingType": 19,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 29740,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 12271,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 9816,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 12271,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 3619,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 12271,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 9112,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 12271,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 5166,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 12271,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 13422,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 12271,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 20222,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 12271,
-                "BuildingType": 14,
-                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Blessed Relic of Kynareth",
-            "MapId": 493000000921,
+            "AnotherName": "The Old Gaering Place",
+            "MapId": 112754,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -172,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

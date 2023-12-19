@@ -1,60 +1,60 @@
 {
     "Loaded": true,
-    "Name": "The Beaver and Porcupine Tavern",
+    "Name": "The Pig and Castle Lodge",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 399000000174,
-        "Latitude": 68136,
-        "Longitude": 22312,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 5696063,
+        "Latitude": 5928,
+        "Longitude": 23464,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5715968,
-                "Y": 13088769,
+                "X": 6010880,
+                "Y": 1521665,
                 "IsExterior": 32768,
-                "Unknown2": 230,
-                "LocationId": 29462,
+                "Unknown2": 5,
+                "LocationId": 28138,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Beaver and Porcupine Tavern"
+                "LocationName": "The Pig and Castle Lodge"
             }
         },
         "BuildingCount": 3,
         "Buildings": [
             {
-                "NameSeed": 7205,
+                "NameSeed": 13461,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 29462,
-                "BuildingType": 18,
-                "Quality": 14
+                "LocationId": 28138,
+                "BuildingType": "House2",
+                "Quality": 12
             },
             {
-                "NameSeed": 14366,
+                "NameSeed": 27509,
                 "FactionId": 510,
                 "Sector": 11,
-                "LocationId": 29462,
-                "BuildingType": 17,
-                "Quality": 15
+                "LocationId": 28138,
+                "BuildingType": "House1",
+                "Quality": 2
             },
             {
-                "NameSeed": 3782,
+                "NameSeed": 3282,
                 "FactionId": 510,
                 "Sector": 24,
-                "LocationId": 29462,
-                "BuildingType": 15,
-                "Quality": 8
+                "LocationId": 28138,
+                "BuildingType": "Tavern",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "3782",
-            "MapId": 399000000174,
+            "AnotherName": "3282",
+            "MapId": 453183,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
@@ -84,13 +84,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

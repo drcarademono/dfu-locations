@@ -1,138 +1,106 @@
 {
     "Loaded": true,
-    "Name": "The Faollan Pit",
+    "Name": "The Crimson Dragon Hostel",
     "RegionName": "Ayasofya",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 387000000450,
-        "Latitude": 69672,
-        "Longitude": 57640,
-        "LocationType": 4,
-        "DungeonType": 5,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 147215099,
+        "Latitude": 10920,
+        "Longitude": 58792,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14759936,
-                "Y": 12695553,
+                "X": 15054848,
+                "Y": 2799617,
                 "IsExterior": 32768,
-                "Unknown2": 28,
-                "LocationId": 25558,
+                "Unknown2": 140,
+                "LocationId": 27039,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Faollan Pit"
+                "LocationName": "The Crimson Dragon Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 4,
+        "Buildings": [
+            {
+                "NameSeed": 4433,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 27039,
+                "BuildingType": "House4",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 14973,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 27039,
+                "BuildingType": "House4",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 31004,
+                "FactionId": 0,
+                "Sector": 25,
+                "LocationId": 27039,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 13886,
+                "FactionId": 510,
+                "Sector": 31,
+                "LocationId": 27039,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Faollan Pit",
-            "MapId": 387000000450,
+            "AnotherName": "13886",
+            "MapId": 414459,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 8,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA10.RMB"
+                "TVRNBS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 14628864,
-                "Y": 4241409,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 13,
-                "LocationId": 25559,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25558,
-                "LocationName": "The Faollan Pit"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000037.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
-    "Politic": 148,
+    "Politic": 175,
     "RegionIndex": 47,
     "LocationIndex": 140
 }

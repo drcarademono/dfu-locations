@@ -1,176 +1,176 @@
 {
     "Loaded": true,
-    "Name": "The Mines of Klostir",
+    "Name": "The Mole and Castle Pub",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 354000000664,
-        "Latitude": 73896,
-        "Longitude": 85032,
-        "LocationType": 4,
-        "DungeonType": 5,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 915897632,
+        "Latitude": 1192,
+        "Longitude": 100392,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21772288,
-                "Y": 11614209,
+                "X": 25704448,
+                "Y": 309249,
                 "IsExterior": 32768,
-                "Unknown2": 15,
-                "LocationId": 23028,
+                "Unknown2": 873,
+                "LocationId": 29259,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mines of Klostir"
+                "LocationName": "The Mole and Castle Pub"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 530,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 29259,
+                "BuildingType": "Tavern",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 25338,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 29259,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 20260,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 29259,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 9879,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 29259,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 27958,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 29259,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 11945,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 29259,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 9263,
+                "FactionId": 0,
+                "Sector": 73,
+                "LocationId": 29259,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 5078,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 29259,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 7626,
+                "FactionId": 0,
+                "Sector": 83,
+                "LocationId": 29259,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 2763,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 29259,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 4245,
+                "FactionId": 0,
+                "Sector": 94,
+                "LocationId": 29259,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 18331,
+                "FactionId": 0,
+                "Sector": 100,
+                "LocationId": 29259,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 26847,
+                "FactionId": 0,
+                "Sector": 110,
+                "LocationId": 29259,
+                "BuildingType": "House2",
+                "Quality": 8
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Mines of Klostir",
-            "MapId": 354000000664,
+            "AnotherName": "530",
+            "MapId": 490784,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA15.RMB"
+                "TVRNAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 21248000,
-                "Y": 6797313,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 4,
-                "LocationId": 23029,
-                "IsInterior": 1,
-                "ExteriorLocationId": 23028,
-                "LocationName": "The Mines of Klostir"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -3,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000036.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000015.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000019.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

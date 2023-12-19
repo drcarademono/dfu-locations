@@ -1,152 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Castle Corroboth",
+    "Name": "The Howling Priest Lodge",
     "RegionName": "Mournoth",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 182000000942,
-        "Latitude": 95912,
-        "Longitude": 120616,
-        "LocationType": 4,
-        "DungeonType": 8,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 191162785,
+        "Latitude": 22824,
+        "Longitude": 122024,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30881792,
-                "Y": 5978113,
+                "X": 31242240,
+                "Y": 5847041,
                 "IsExterior": 32768,
-                "Unknown2": 95,
-                "LocationId": 23303,
+                "Unknown2": 182,
+                "LocationId": 23817,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle Corroboth"
+                "LocationName": "The Howling Priest Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 14889,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 23817,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 27208,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 23817,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 10212,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 23817,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 394,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 23817,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 16065,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 23817,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 29076,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 23817,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 30384,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 23817,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 3018,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 23817,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 21250,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 23817,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 14197,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 23817,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 24419,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 23817,
+                "BuildingType": "House2",
+                "Quality": 13
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Castle Corroboth",
-            "MapId": 182000000942,
+            "AnotherName": "14889",
+            "MapId": 321953,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA11.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31963136,
-                "Y": 6469633,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 22,
-                "LocationId": 23304,
-                "IsInterior": 1,
-                "ExteriorLocationId": 23303,
-                "LocationName": "Castle Corroboth"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000035.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000078.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

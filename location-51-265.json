@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Old Tlelp-e's Farm",
+    "Name": "The Lucky Rascal Pub",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 179000000814,
-        "Latitude": 96296,
-        "Longitude": 104232,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 278214406,
+        "Latitude": 20264,
+        "Longitude": 98088,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26687488,
-                "Y": 5879809,
+                "X": 25114624,
+                "Y": 5191681,
                 "IsExterior": 32768,
-                "Unknown2": 695,
-                "LocationId": 25497,
+                "Unknown2": 265,
+                "LocationId": 24465,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Tlelp-e's Farm"
+                "LocationName": "The Lucky Rascal Pub"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 31608,
-                "FactionId": 0,
+                "NameSeed": 5276,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 25497,
-                "BuildingType": 18,
-                "Quality": 11
+                "LocationId": 24465,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 10499,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 24465,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 22426,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 24465,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 9455,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 24465,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 30513,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 24465,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 659,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 24465,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 13077,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 24465,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 277,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 24465,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 17517,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 24465,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 27319,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 24465,
+                "BuildingType": "House3",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 20111,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 24465,
+                "BuildingType": "House3",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Tlelp-e's Farm",
-            "MapId": 179000000814,
+            "AnotherName": "5276",
+            "MapId": 341766,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA05.RMB"
+                "TVRNAS05.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

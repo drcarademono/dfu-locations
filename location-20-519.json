@@ -1,66 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Rusty Cat Lodge",
+    "Name": "The Cauv Plantation",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 441000000324,
-        "Latitude": 62760,
-        "Longitude": 41512,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 544623294,
+        "Latitude": 11176,
+        "Longitude": 44840,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10631168,
-                "Y": 14465025,
+                "X": 11483136,
+                "Y": 2865153,
                 "IsExterior": 32768,
-                "Unknown2": 252,
-                "LocationId": 26159,
+                "Unknown2": 519,
+                "LocationId": 26980,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rusty Cat Lodge"
+                "LocationName": "The Cauv Plantation"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 27830,
+                "NameSeed": 27250,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26159,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 23352,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 26159,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 18156,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 26159,
-                "BuildingType": 15,
-                "Quality": 8
+                "LocationId": 26980,
+                "BuildingType": "House2",
+                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "18156",
-            "MapId": 441000000324,
+            "AnotherName": "The Cauv Plantation",
+            "MapId": 412350,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
@@ -84,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

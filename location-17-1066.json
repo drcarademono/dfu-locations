@@ -1,152 +1,184 @@
 {
     "Loaded": true,
-    "Name": "Theodyval Laboratory",
+    "Name": "Burning Omen of Kynareth",
     "RegionName": "Daggerfall",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 705000000252,
-        "Latitude": 28968,
-        "Longitude": 32296,
-        "LocationType": 4,
-        "DungeonType": 9,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 1117985245,
+        "Latitude": 37928,
+        "Longitude": 29352,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8271872,
-                "Y": 23115777,
+                "X": 7518208,
+                "Y": 9713665,
                 "IsExterior": 32768,
-                "Unknown2": 877,
-                "LocationId": 20889,
+                "Unknown2": 1066,
+                "LocationId": 21326,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Theodyval Laboratory"
+                "LocationName": "Burning Omen of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 6712,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 21326,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 21077,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 21326,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 25148,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 21326,
+                "BuildingType": "House3",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 19167,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 21326,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 21845,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 21326,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 1240,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 21326,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 11253,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 21326,
+                "BuildingType": "House3",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 16702,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 21326,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 5168,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 21326,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 22470,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 21326,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 13804,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 21326,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 23433,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 21326,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 17579,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 21326,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 21802,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 21326,
+                "BuildingType": "Temple",
+                "Quality": 3
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Theodyval Laboratory",
-            "MapId": 705000000252,
+            "AnotherName": "Burning Omen of Kynareth",
+            "MapId": 203229,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA05.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 3815424,
-                "Y": 10008577,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 167,
-                "LocationId": 20890,
-                "IsInterior": 1,
-                "ExteriorLocationId": 20889,
-                "LocationName": "Theodyval Laboratory"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000078.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000049.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

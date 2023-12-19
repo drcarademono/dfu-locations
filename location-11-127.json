@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Jubitherulla Hole",
+    "Name": "Ruins of Castle Shrugin",
     "RegionName": "Dak'fron",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 236000000472,
-        "Latitude": 89000,
-        "Longitude": 60456,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 133651858,
+        "Latitude": 2216,
+        "Longitude": 90408,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "DragonsDen",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15480832,
-                "Y": 7747585,
+                "X": 23148544,
+                "Y": 571393,
                 "IsExterior": 32768,
-                "Unknown2": 161,
-                "LocationId": 29249,
+                "Unknown2": 127,
+                "LocationId": 29013,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Jubitherulla Hole"
+                "LocationName": "Ruins of Castle Shrugin"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Jubitherulla Hole",
-            "MapId": 236000000472,
+            "AnotherName": "Ruins of Castle Shrugin",
+            "MapId": 482706,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA12.RMB"
+                "RUINAA27.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 17709056,
-                "Y": 309249,
+                "X": 23148544,
+                "Y": 571393,
                 "IsExterior": 0,
-                "Unknown2": 109,
-                "LocationId": 29250,
+                "Unknown2": 83,
+                "LocationId": 29014,
                 "IsInterior": 1,
-                "ExteriorLocationId": 29249,
-                "LocationName": "The Jubitherulla Hole"
+                "ExteriorLocationId": 29013,
+                "LocationName": "Ruins of Castle Shrugin"
             }
         },
         "Header": {
@@ -57,34 +57,10 @@
         },
         "Blocks": [
             {
-                "X": -2,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000070.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000061.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -97,18 +73,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000067.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

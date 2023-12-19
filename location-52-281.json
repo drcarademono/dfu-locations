@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Slevom Manor",
+    "Name": "Ruins of The Old Cirn Shack",
     "RegionName": "Mournoth",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 209000000912,
-        "Latitude": 92456,
-        "Longitude": 116776,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 294996821,
+        "Latitude": 19624,
+        "Longitude": 123560,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "BarbarianStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29898752,
-                "Y": 6862849,
+                "X": 31635456,
+                "Y": 5027841,
                 "IsExterior": 32768,
-                "Unknown2": 59,
-                "LocationId": 23066,
+                "Unknown2": 281,
+                "LocationId": 24645,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Slevom Manor"
+                "LocationName": "Ruins of The Old Cirn Shack"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 17306,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 23066,
-                "BuildingType": 17,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 8772,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 23066,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 21745,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 23066,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 29120,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 23066,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 12003,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 23066,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 8811,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 23066,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 4543,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 23066,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 25836,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 23066,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 26756,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 23066,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 25192,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 23066,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 18250,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 23066,
-                "BuildingType": 15,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Slevom Manor",
-            "MapId": 209000000912,
+            "AnotherName": "Ruins of The Old Cirn Shack",
+            "MapId": 346965,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "RUINAA19.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 31635456,
+                "Y": 5027841,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 69,
+                "LocationId": 24646,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24645,
+                "LocationName": "Ruins of The Old Cirn Shack"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000049.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

@@ -1,152 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Citadel of Blez",
+    "Name": "Shrelde Hall",
     "RegionName": "Tigonus",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 367000000534,
-        "Latitude": 72232,
-        "Longitude": 68392,
-        "LocationType": 4,
-        "DungeonType": 2,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 154477164,
+        "Latitude": 20904,
+        "Longitude": 63016,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17512448,
-                "Y": 12040193,
+                "X": 16136192,
+                "Y": 5355521,
                 "IsExterior": 32768,
-                "Unknown2": 200,
-                "LocationId": 24620,
+                "Unknown2": 147,
+                "LocationId": 24277,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Citadel of Blez"
+                "LocationName": "Shrelde Hall"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 26712,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 24277,
+                "BuildingType": "House1",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 20843,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 24277,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 7867,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 24277,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 680,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 24277,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 28731,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 24277,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 2789,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 24277,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 8681,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 24277,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 10246,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 24277,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 31307,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 24277,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 7156,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 24277,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 14119,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 24277,
+                "BuildingType": "Tavern",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Citadel of Blez",
-            "MapId": 367000000534,
+            "AnotherName": "Shrelde Hall",
+            "MapId": 336492,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA03.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 17348608,
-                "Y": 5027841,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 53,
-                "LocationId": 24621,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24620,
-                "LocationName": "The Citadel of Blez"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000021.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
-        "GroundArchive": 2,
-        "NatureArchive": 501,
+        "WorldClimate": 228,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_Swamp",
+        "GroundArchive": 402,
+        "NatureArchive": 502,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

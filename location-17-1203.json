@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "The Copperton Farmstead",
+    "Name": "The Rusty Djinn Inn",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 720000000316,
-        "Latitude": 27048,
-        "Longitude": 40488,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 1261648130,
+        "Latitude": 36904,
+        "Longitude": 25896,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10369024,
-                "Y": 23607297,
+                "X": 6633472,
+                "Y": 9451521,
                 "IsExterior": 32768,
-                "Unknown2": 70,
-                "LocationId": 18714,
+                "Unknown2": 1203,
+                "LocationId": 21651,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Copperton Farmstead"
+                "LocationName": "The Rusty Djinn Inn"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 24303,
+                "NameSeed": 9798,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 18714,
-                "BuildingType": 18,
-                "Quality": 7
+                "LocationId": 21651,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 19637,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 21651,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 6363,
+                "FactionId": 0,
+                "Sector": 13,
+                "LocationId": 21651,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 1710,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 21651,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 5809,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 21651,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 20007,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 21651,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 28798,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 21651,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 5765,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 21651,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 5619,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 21651,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 11209,
+                "FactionId": 510,
+                "Sector": 68,
+                "LocationId": 21651,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 28713,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 21651,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 23055,
+                "FactionId": 510,
+                "Sector": 93,
+                "LocationId": 21651,
+                "BuildingType": "Tavern",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Copperton Farmstead",
-            "MapId": 720000000316,
+            "AnotherName": "11209",
+            "MapId": 211202,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA02.RMB"
+                "TVRNAS00.RMB"
             ]
         }
     },
@@ -67,14 +155,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

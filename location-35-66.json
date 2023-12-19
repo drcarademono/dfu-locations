@@ -1,114 +1,146 @@
 {
     "Loaded": true,
-    "Name": "Buckingford Manor",
+    "Name": "Wooding Palace",
     "RegionName": "Koegria",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 520000000789,
-        "Latitude": 52648,
-        "Longitude": 101032,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 69288702,
+        "Latitude": 53416,
+        "Longitude": 87848,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25868288,
-                "Y": 17053697,
+                "X": 22493184,
+                "Y": 13678593,
                 "IsExterior": 32768,
-                "Unknown2": 76,
-                "LocationId": 14988,
+                "Unknown2": 66,
+                "LocationId": 14715,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Buckingford Manor"
+                "LocationName": "Wooding Palace"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 13,
         "Buildings": [
             {
-                "NameSeed": 23446,
+                "NameSeed": 22508,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 14988,
-                "BuildingType": 18,
+                "LocationId": 14715,
+                "BuildingType": "House2",
                 "Quality": 9
             },
             {
-                "NameSeed": 12779,
+                "NameSeed": 7189,
                 "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 14988,
-                "BuildingType": 18,
+                "Sector": 9,
+                "LocationId": 14715,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 3319,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 14715,
+                "BuildingType": "House2",
                 "Quality": 12
             },
             {
-                "NameSeed": 5358,
+                "NameSeed": 24419,
                 "FactionId": 0,
                 "Sector": 22,
-                "LocationId": 14988,
-                "BuildingType": 18,
-                "Quality": 1
+                "LocationId": 14715,
+                "BuildingType": "House2",
+                "Quality": 13
             },
             {
-                "NameSeed": 2634,
+                "NameSeed": 16743,
                 "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 14988,
-                "BuildingType": 19,
-                "Quality": 12
+                "Sector": 28,
+                "LocationId": 14715,
+                "BuildingType": "House2",
+                "Quality": 13
             },
             {
-                "NameSeed": 6603,
+                "NameSeed": 13852,
                 "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 14988,
-                "BuildingType": 18,
+                "Sector": 33,
+                "LocationId": 14715,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 6862,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 14715,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 18442,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 14715,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 4393,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 14715,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 22579,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 14715,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 2485,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 14715,
+                "BuildingType": "House2",
                 "Quality": 6
             },
             {
-                "NameSeed": 26504,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 14988,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 7999,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 14988,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 5744,
+                "NameSeed": 29275,
                 "FactionId": 510,
                 "Sector": 69,
-                "LocationId": 14988,
-                "BuildingType": 15,
-                "Quality": 4
+                "LocationId": 14715,
+                "BuildingType": "Tavern",
+                "Quality": 7
             },
             {
-                "NameSeed": 31609,
+                "NameSeed": 32302,
                 "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 14988,
-                "BuildingType": 17,
-                "Quality": 2
+                "Sector": 82,
+                "LocationId": 14715,
+                "BuildingType": "House1",
+                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Buckingford Manor",
-            "MapId": 520000000789,
+            "AnotherName": "Wooding Palace",
+            "MapId": 82686,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
@@ -132,13 +164,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 163,
     "RegionIndex": 35,

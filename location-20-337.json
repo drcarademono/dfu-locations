@@ -1,50 +1,74 @@
 {
     "Loaded": true,
-    "Name": "Old Caorntha's Hovel",
+    "Name": "The Restless Goblin Tavern",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 418000000370,
-        "Latitude": 65704,
-        "Longitude": 47400,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 353763451,
+        "Latitude": 13608,
+        "Longitude": 43432,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12138496,
-                "Y": 13711361,
+                "X": 11122688,
+                "Y": 3487745,
                 "IsExterior": 32768,
-                "Unknown2": 216,
-                "LocationId": 26063,
+                "Unknown2": 337,
+                "LocationId": 26402,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Caorntha's Hovel"
+                "LocationName": "The Restless Goblin Tavern"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 1844,
+                "NameSeed": 18118,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26063,
-                "BuildingType": 19,
-                "Quality": 2
+                "LocationId": 26402,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 15181,
+                "FactionId": 0,
+                "Sector": 11,
+                "LocationId": 26402,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 29778,
+                "FactionId": 510,
+                "Sector": 19,
+                "LocationId": 26402,
+                "BuildingType": "HouseForSale",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 26797,
+                "FactionId": 510,
+                "Sector": 30,
+                "LocationId": 26402,
+                "BuildingType": "Tavern",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Caorntha's Hovel",
-            "MapId": 418000000370,
+            "AnotherName": "26797",
+            "MapId": 393339,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNGS02.RMB"
             ]
         }
     },
@@ -68,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

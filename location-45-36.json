@@ -1,74 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Kast Court",
+    "Name": "The Kloldem Cabin",
     "RegionName": "Pothago",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 451000000233,
-        "Latitude": 61480,
-        "Longitude": 29864,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 38167971,
+        "Latitude": 10280,
+        "Longitude": 30120,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 7649280,
-                "Y": 14792705,
+                "X": 7714816,
+                "Y": 2635777,
                 "IsExterior": 32768,
-                "Unknown2": 42,
-                "LocationId": 27300,
+                "Unknown2": 36,
+                "LocationId": 27173,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kast Court"
+                "LocationName": "The Kloldem Cabin"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 6862,
+                "NameSeed": 8964,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27300,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 18442,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 27300,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 4393,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 27300,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 22579,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 27300,
-                "BuildingType": 17,
-                "Quality": 7
+                "LocationId": 27173,
+                "BuildingType": "House3",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Kast Court",
-            "MapId": 451000000233,
+            "AnotherName": "The Kloldem Cabin",
+            "MapId": 419235,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -92,15 +68,15 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 172,
+    "Politic": 173,
     "RegionIndex": 45,
     "LocationIndex": 36
 }

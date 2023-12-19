@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Dwarf and Wolf Lodge",
+    "Name": "The Baelpta Farmstead",
     "RegionName": "Dak'fron",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 257000000457,
-        "Latitude": 86312,
-        "Longitude": 58536,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 179799151,
+        "Latitude": 936,
+        "Longitude": 83880,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14989312,
-                "Y": 8435713,
+                "X": 21477376,
+                "Y": 243713,
                 "IsExterior": 32768,
-                "Unknown2": 117,
-                "LocationId": 28926,
+                "Unknown2": 171,
+                "LocationId": 29308,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dwarf and Wolf Lodge"
+                "LocationName": "The Baelpta Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 23276,
-                "FactionId": 510,
+                "NameSeed": 8492,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28926,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 989,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 28926,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 16241,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 28926,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 4002,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 28926,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 30640,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 28926,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 22021,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 28926,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 18972,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 28926,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 30275,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 28926,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 24375,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 28926,
-                "BuildingType": 18,
+                "LocationId": 29308,
+                "BuildingType": "House1",
                 "Quality": 1
-            },
-            {
-                "NameSeed": 28324,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 28926,
-                "BuildingType": 19,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 29226,
-                "FactionId": 0,
-                "Sector": 93,
-                "LocationId": 28926,
-                "BuildingType": 19,
-                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "23276",
-            "MapId": 257000000457,
+            "AnotherName": "The Baelpta Farmstead",
+            "MapId": 492655,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS05.RMB"
+                "FARMAA09.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

@@ -1,82 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Fortress of Buckinging",
+    "Name": "The Ashsly Burial Ground",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 561000000869,
-        "Latitude": 47400,
-        "Longitude": 111272,
-        "LocationType": 7,
-        "DungeonType": 6,
+        "MapId": 1759668460,
+        "Latitude": 43816,
+        "Longitude": 119336,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28489728,
-                "Y": 18397185,
+                "X": 30554112,
+                "Y": 11220993,
                 "IsExterior": 32768,
-                "Unknown2": 131,
-                "LocationId": 10448,
+                "Unknown2": 1678,
+                "LocationId": 19165,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Fortress of Buckinging"
+                "LocationName": "The Ashsly Burial Ground"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Fortress of Buckinging",
-            "MapId": 561000000869,
+            "AnotherName": "The Ashsly Burial Ground",
+            "MapId": 157932,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA12.RMB"
+                "GRVEAS27.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23672832,
-                "Y": 16037889,
+                "X": 30554112,
+                "Y": 11220993,
                 "IsExterior": 0,
-                "Unknown2": 46,
-                "LocationId": 10449,
+                "Unknown2": 626,
+                "LocationId": 19166,
                 "IsInterior": 1,
-                "ExteriorLocationId": 10448,
-                "LocationName": "The Fortress of Buckinging"
+                "ExteriorLocationId": 19165,
+                "LocationName": "The Ashsly Burial Ground"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 5
         },
         "Blocks": [
             {
                 "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000004.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000013.RDB",
+                "BlockName": "M0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,15 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

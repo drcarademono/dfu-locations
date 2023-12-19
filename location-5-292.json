@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Kieran Theatre",
+    "Name": "Old Vyctolda's Hovel",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 595000000725,
-        "Latitude": 43048,
-        "Longitude": 92840,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 306235716,
+        "Latitude": 57384,
+        "Longitude": 67112,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23771136,
-                "Y": 19511297,
+                "X": 17184768,
+                "Y": 14694401,
                 "IsExterior": 32768,
-                "Unknown2": 321,
-                "LocationId": 12838,
+                "Unknown2": 292,
+                "LocationId": 12704,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kieran Theatre"
+                "LocationName": "Old Vyctolda's Hovel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 14258,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 12704,
+                "BuildingType": "House3",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Kieran Theatre",
-            "MapId": 595000000725,
+            "AnotherName": "Old Vyctolda's Hovel",
+            "MapId": 51524,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

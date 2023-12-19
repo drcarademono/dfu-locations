@@ -1,114 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Masterston Grange",
+    "Name": "The Andyctor Academy",
     "RegionName": "Phrygias",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 663000000631,
-        "Latitude": 34344,
-        "Longitude": 80808,
-        "LocationType": 10,
-        "DungeonType": 11,
+        "MapId": 91240689,
+        "Latitude": 62120,
+        "Longitude": 73896,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Laboratory",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20690944,
-                "Y": 21739521,
+                "X": 18921472,
+                "Y": 15906817,
                 "IsExterior": 32768,
-                "Unknown2": 185,
-                "LocationId": 12116,
+                "Unknown2": 87,
+                "LocationId": 10641,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Masterston Grange"
+                "LocationName": "The Andyctor Academy"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Masterston Grange",
-            "MapId": 663000000631,
+            "AnotherName": "The Andyctor Academy",
+            "MapId": 14577,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA23.RMB"
+                "DUNGAA16.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 15251456,
-                "Y": 15022081,
+                "X": 18921472,
+                "Y": 15906817,
                 "IsExterior": 0,
-                "Unknown2": 38,
-                "LocationId": 12117,
+                "Unknown2": 15,
+                "LocationId": 10642,
                 "IsInterior": 1,
-                "ExteriorLocationId": 12116,
-                "LocationName": "Ruins of Masterston Grange"
+                "ExteriorLocationId": 10641,
+                "LocationName": "The Andyctor Academy"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 12
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000055.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000011.RDB",
+                "BlockName": "N0000072.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,21 +84,29 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
-        "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 166,
     "RegionIndex": 38,

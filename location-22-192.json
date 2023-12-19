@@ -1,168 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Barrow of Darkivan",
+    "Name": "The Screaming Cat Lodge",
     "RegionName": "Lainlyn",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 314000000695,
-        "Latitude": 79016,
-        "Longitude": 89000,
-        "LocationType": 4,
-        "DungeonType": 0,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 201625309,
+        "Latitude": 25768,
+        "Longitude": 91816,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22788096,
-                "Y": 10303489,
+                "X": 23508992,
+                "Y": 6600705,
                 "IsExterior": 32768,
-                "Unknown2": 319,
-                "LocationId": 23534,
+                "Unknown2": 192,
+                "LocationId": 23171,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Barrow of Darkivan"
+                "LocationName": "The Screaming Cat Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 11827,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 23171,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 32700,
+                "FactionId": 0,
+                "Sector": 21,
+                "LocationId": 23171,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 22689,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 23171,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 215,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 23171,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 25946,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 23171,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 24486,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 23171,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 85,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 23171,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 31650,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 23171,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 13119,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 23171,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 21547,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 23171,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 19704,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 23171,
+                "BuildingType": "House2",
+                "Quality": 13
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Barrow of Darkivan",
-            "MapId": 314000000695,
+            "AnotherName": "11827",
+            "MapId": 298717,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA05.RMB"
+                "TVRNAS03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 22788096,
-                "Y": 6174721,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 63,
-                "LocationId": 23535,
-                "IsInterior": 1,
-                "ExteriorLocationId": 23534,
-                "LocationName": "The Barrow of Darkivan"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000068.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000032.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000051.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

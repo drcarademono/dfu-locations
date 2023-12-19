@@ -1,112 +1,144 @@
 {
     "Loaded": true,
-    "Name": "The Verhtin Graveyard",
+    "Name": "Rect Palace",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 282000000652,
-        "Latitude": 83112,
-        "Longitude": 83496,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 762782474,
+        "Latitude": 4136,
+        "Longitude": 92456,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21379072,
-                "Y": 9254913,
+                "X": 23672832,
+                "Y": 1062913,
                 "IsExterior": 32768,
-                "Unknown2": 173,
-                "LocationId": 25149,
+                "Unknown2": 727,
+                "LocationId": 28545,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Verhtin Graveyard"
+                "LocationName": "Rect Palace"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 23817,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 28545,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 28881,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 28545,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 16084,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 28545,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 28988,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 28545,
+                "BuildingType": "House3",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 8658,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 28545,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 18313,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 28545,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 26934,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 28545,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 25215,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 28545,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 17357,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 28545,
+                "BuildingType": "House1",
+                "Quality": 6
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Verhtin Graveyard",
-            "MapId": 282000000652,
+            "AnotherName": "Rect Palace",
+            "MapId": 467722,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS42.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 22067200,
-                "Y": 4569089,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 51,
-                "LocationId": 25150,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25149,
-                "LocationName": "The Verhtin Graveyard"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

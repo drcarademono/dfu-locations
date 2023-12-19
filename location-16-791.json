@@ -1,176 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Gerinx Hole",
+    "Name": "The Savage Jug Pub",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 430000000926,
-        "Latitude": 64168,
-        "Longitude": 118568,
-        "LocationType": 4,
-        "DungeonType": 16,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 829483517,
+        "Latitude": 56360,
+        "Longitude": 115368,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30357504,
-                "Y": 14104577,
+                "X": 29538304,
+                "Y": 14432257,
                 "IsExterior": 32768,
-                "Unknown2": 1164,
-                "LocationId": 15537,
+                "Unknown2": 791,
+                "LocationId": 13185,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Gerinx Hole"
+                "LocationName": "The Savage Jug Pub"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 2955,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 13185,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 27164,
+                "FactionId": 0,
+                "Sector": 21,
+                "LocationId": 13185,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 5448,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 13185,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 14132,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 13185,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 4416,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 13185,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 21312,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 13185,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 28497,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 13185,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 8487,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 13185,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 15331,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 13185,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 31175,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 13185,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 3812,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 13185,
+                "BuildingType": "House2",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Gerinx Hole",
-            "MapId": 430000000926,
+            "AnotherName": "2955",
+            "MapId": 59901,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA17.RMB"
+                "TVRNAS03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27441152,
-                "Y": 13252609,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 430,
-                "LocationId": 15538,
-                "IsInterior": 1,
-                "ExteriorLocationId": 15537,
-                "LocationName": "The Gerinx Hole"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -3,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000019.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

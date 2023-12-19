@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Green Ogre Inn",
+    "Name": "Castle Gishar",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 242000000805,
-        "Latitude": 88232,
-        "Longitude": 103080,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 759539863,
+        "Latitude": 16552,
+        "Longitude": 107432,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "HumanStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26392576,
-                "Y": 7944193,
+                "X": 27506688,
+                "Y": 4241409,
                 "IsExterior": 32768,
-                "Unknown2": 10,
-                "LocationId": 23730,
+                "Unknown2": 724,
+                "LocationId": 25582,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Green Ogre Inn"
+                "LocationName": "Castle Gishar"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 25523,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 23730,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 20241,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 23730,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 9966,
-                "FactionId": 0,
-                "Sector": 13,
-                "LocationId": 23730,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 16915,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 23730,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 29418,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 23730,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 3578,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 23730,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 16357,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 23730,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 13137,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 23730,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 5529,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 23730,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 14146,
-                "FactionId": 510,
-                "Sector": 68,
-                "LocationId": 23730,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 21984,
-                "FactionId": 510,
-                "Sector": 80,
-                "LocationId": 23730,
-                "BuildingType": 15,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 7558,
-                "FactionId": 510,
-                "Sector": 93,
-                "LocationId": 23730,
-                "BuildingType": 15,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "14146",
-            "MapId": 242000000805,
+            "AnotherName": "Castle Gishar",
+            "MapId": 370839,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS00.RMB"
+                "DUNGAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 27506688,
+                "Y": 4241409,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 188,
+                "LocationId": 25583,
+                "IsInterior": 1,
+                "ExteriorLocationId": 25582,
+                "LocationName": "Castle Gishar"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000083.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

@@ -1,96 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Dirty Goat Tavern",
+    "Name": "Castle Furar",
     "RegionName": "Tigonus",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 370000000566,
-        "Latitude": 71848,
-        "Longitude": 72488,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 172305979,
+        "Latitude": 20520,
+        "Longitude": 65960,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18561024,
-                "Y": 12138497,
+                "X": 16889856,
+                "Y": 5257217,
                 "IsExterior": 32768,
-                "Unknown2": 106,
-                "LocationId": 23984,
+                "Unknown2": 164,
+                "LocationId": 24390,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dirty Goat Tavern"
+                "LocationName": "Castle Furar"
             }
         },
-        "BuildingCount": 3,
-        "Buildings": [
-            {
-                "NameSeed": 13612,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 23984,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 14836,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 23984,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 2935,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 23984,
-                "BuildingType": 15,
-                "Quality": 9
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "2935",
-            "MapId": 370000000566,
+            "AnotherName": "Castle Furar",
+            "MapId": 339515,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "CASTAA06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 16889856,
+                "Y": 5257217,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 42,
+                "LocationId": 24391,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24390,
+                "LocationName": "Castle Furar"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000064.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
-        "GroundArchive": 2,
-        "NatureArchive": 501,
+        "WorldClimate": 228,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_Swamp",
+        "GroundArchive": 402,
+        "NatureArchive": 502,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

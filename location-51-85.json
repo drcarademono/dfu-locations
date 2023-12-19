@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Baardta Manor",
+    "Name": "Nharn'kern Hall",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 153000000851,
-        "Latitude": 99624,
-        "Longitude": 108968,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 89456813,
+        "Latitude": 22056,
+        "Longitude": 109224,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "RuinedCastle",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27899904,
-                "Y": 5027841,
+                "X": 27965440,
+                "Y": 5650433,
                 "IsExterior": 32768,
-                "Unknown2": 761,
-                "LocationId": 25677,
+                "Unknown2": 85,
+                "LocationId": 24004,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Baardta Manor"
+                "LocationName": "Nharn'kern Hall"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 11737,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 25677,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 12348,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 25677,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 20477,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 25677,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 23354,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 25677,
-                "BuildingType": 19,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 9070,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 25677,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 29250,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 25677,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 6300,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 25677,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 20168,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 25677,
-                "BuildingType": 15,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 19393,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 25677,
-                "BuildingType": 17,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Baardta Manor",
-            "MapId": 153000000851,
+            "AnotherName": "Nharn'kern Hall",
+            "MapId": 327853,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "DUNGAA09.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 27965440,
+                "Y": 5650433,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 18,
+                "LocationId": 24005,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24004,
+                "LocationName": "Nharn'kern Hall"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000018.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Hawkford Farmstead",
+    "Name": "The Mole and Dungeon Hostel",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 550000000856,
-        "Latitude": 48808,
-        "Longitude": 109608,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 1725054437,
+        "Latitude": 45224,
+        "Longitude": 117416,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28063744,
-                "Y": 18036737,
+                "X": 30062592,
+                "Y": 11581441,
                 "IsExterior": 32768,
-                "Unknown2": 358,
-                "LocationId": 11323,
+                "Unknown2": 1645,
+                "LocationId": 18617,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hawkford Farmstead"
+                "LocationName": "The Mole and Dungeon Hostel"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 15855,
+                "NameSeed": 28034,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 11323,
-                "BuildingType": 18,
-                "Quality": 12
+                "LocationId": 18617,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 11406,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 18617,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 25662,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 18617,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 28110,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 18617,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 20905,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 18617,
+                "BuildingType": "House3",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 22167,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 18617,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 17517,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 18617,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 27319,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 18617,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 8375,
+                "FactionId": 510,
+                "Sector": 63,
+                "LocationId": 18617,
+                "BuildingType": "HouseForSale",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 23151,
+                "FactionId": 510,
+                "Sector": 67,
+                "LocationId": 18617,
+                "BuildingType": "Tavern",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 5276,
+                "FactionId": 510,
+                "Sector": 84,
+                "LocationId": 18617,
+                "BuildingType": "Tavern",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Hawkford Farmstead",
-            "MapId": 550000000856,
+            "AnotherName": "23151",
+            "MapId": 146917,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "TVRNAS08.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

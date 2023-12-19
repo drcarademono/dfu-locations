@@ -1,96 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Mouse and Barbarian Lodge",
+    "Name": "Castle Revir",
     "RegionName": "Pothago",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 441000000272,
-        "Latitude": 62760,
-        "Longitude": 34856,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 11944584,
+        "Latitude": 11432,
+        "Longitude": 31784,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Mine",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8927232,
-                "Y": 14465025,
+                "X": 8140800,
+                "Y": 2930689,
                 "IsExterior": 32768,
-                "Unknown2": 19,
-                "LocationId": 26974,
+                "Unknown2": 11,
+                "LocationId": 26906,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mouse and Barbarian Lodge"
+                "LocationName": "Castle Revir"
             }
         },
-        "BuildingCount": 3,
-        "Buildings": [
-            {
-                "NameSeed": 32011,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 26974,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 15649,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 26974,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 265,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 26974,
-                "BuildingType": 15,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "265",
-            "MapId": 441000000272,
+            "AnotherName": "Castle Revir",
+            "MapId": 410248,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "CASTAA27.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 8140800,
+                "Y": 2930689,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 4,
+                "LocationId": 26907,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26906,
+                "LocationName": "Castle Revir"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000020.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 173,
     "RegionIndex": 45,

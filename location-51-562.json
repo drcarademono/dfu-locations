@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Morkilithulla Rectory",
+    "Name": "The Citadel of Vurhtam",
     "RegionName": "Totambu",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 224000000745,
-        "Latitude": 90536,
-        "Longitude": 95400,
-        "LocationType": 4,
-        "DungeonType": 4,
+        "MapId": 589660589,
+        "Latitude": 17832,
+        "Longitude": 112296,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "RuinedCastle",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24426496,
-                "Y": 7354369,
+                "X": 28751872,
+                "Y": 4569089,
                 "IsExterior": 32768,
-                "Unknown2": 625,
-                "LocationId": 25323,
+                "Unknown2": 562,
+                "LocationId": 25162,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Morkilithulla Rectory"
+                "LocationName": "The Citadel of Vurhtam"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Morkilithulla Rectory",
-            "MapId": 224000000745,
+            "AnotherName": "The Citadel of Vurhtam",
+            "MapId": 360877,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA03.RMB"
+                "CASTAA22.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 25671680,
-                "Y": 4438017,
+                "X": 28751872,
+                "Y": 4569089,
                 "IsExterior": 0,
-                "Unknown2": 168,
-                "LocationId": 25324,
+                "Unknown2": 149,
+                "LocationId": 25163,
                 "IsInterior": 1,
-                "ExteriorLocationId": 25323,
-                "LocationName": "The Morkilithulla Rectory"
+                "ExteriorLocationId": 25162,
+                "LocationName": "The Citadel of Vurhtam"
             }
         },
         "Header": {
@@ -57,42 +57,34 @@
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000047.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000090.RDB",
+                "BlockName": "W0000016.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,23 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

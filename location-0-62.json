@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Daghoth",
+    "Name": "THe Crypts of Chort",
     "RegionName": "Alik'r Desert",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 285000000504,
-        "Latitude": 82728,
-        "Longitude": 64552,
-        "LocationType": 4,
-        "DungeonType": 13,
+        "MapId": 65429189,
+        "Latitude": 10536,
+        "Longitude": 61096,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16529408,
-                "Y": 9353217,
+                "X": 15644672,
+                "Y": 2701313,
                 "IsExterior": 32768,
-                "Unknown2": 131,
-                "LocationId": 27574,
+                "Unknown2": 62,
+                "LocationId": 27131,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Daghoth"
+                "LocationName": "THe Crypts of Chort"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Daghoth",
-            "MapId": 285000000504,
+            "AnotherName": "THe Crypts of Chort",
+            "MapId": 417477,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA17.RMB"
+                "GRVEAS11.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 17840128,
-                "Y": 2209793,
+                "X": 15644672,
+                "Y": 2701313,
                 "IsExterior": 0,
-                "Unknown2": 64,
-                "LocationId": 27575,
+                "Unknown2": 33,
+                "LocationId": 27132,
                 "IsInterior": 1,
-                "ExteriorLocationId": 27574,
-                "LocationName": "Daghoth"
+                "ExteriorLocationId": 27131,
+                "LocationName": "THe Crypts of Chort"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 5
         },
         "Blocks": [
             {
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000023.RDB",
+                "BlockName": "M0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,15 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,15 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

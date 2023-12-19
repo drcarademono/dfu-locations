@@ -1,50 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Hawkwing Farmstead",
+    "Name": "Hawksly Court",
     "RegionName": "Anticlere",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 589000000513,
-        "Latitude": 43816,
-        "Longitude": 65704,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 314719291,
+        "Latitude": 45224,
+        "Longitude": 62888,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16824320,
-                "Y": 19314689,
+                "X": 16103424,
+                "Y": 11581441,
                 "IsExterior": 32768,
-                "Unknown2": 545,
-                "LocationId": 19588,
+                "Unknown2": 300,
+                "LocationId": 18596,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hawkwing Farmstead"
+                "LocationName": "Hawksly Court"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 29504,
+                "NameSeed": 27229,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 19588,
-                "BuildingType": 18,
-                "Quality": 9
+                "LocationId": 18596,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 25451,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 18596,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 9563,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 18596,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 22539,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 18596,
+                "BuildingType": "House3",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 2849,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 18596,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 23972,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 18596,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 1180,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 18596,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 11402,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 18596,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 576,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 18596,
+                "BuildingType": "House1",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Hawkwing Farmstead",
-            "MapId": 589000000513,
+            "AnotherName": "Hawksly Court",
+            "MapId": 146491,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA05.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -68,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

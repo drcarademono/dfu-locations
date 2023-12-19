@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Coppersly Crypts",
+    "Name": "The Kinghart Cabin",
     "RegionName": "Menevia",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 358000000897,
-        "Latitude": 73384,
-        "Longitude": 114856,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 99795567,
+        "Latitude": 40872,
+        "Longitude": 108456,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29407232,
-                "Y": 11745281,
+                "X": 27768832,
+                "Y": 10467329,
                 "IsExterior": 32768,
-                "Unknown2": 75,
-                "LocationId": 20009,
+                "Unknown2": 95,
+                "LocationId": 20342,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Coppersly Crypts"
+                "LocationName": "The Kinghart Cabin"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 32431,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 20342,
+                "BuildingType": "House3",
+                "Quality": 10
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Coppersly Crypts",
-            "MapId": 358000000897,
+            "AnotherName": "The Kinghart Cabin",
+            "MapId": 180847,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS39.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27768832,
-                "Y": 10729473,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 12,
-                "LocationId": 20010,
-                "IsInterior": 1,
-                "ExteriorLocationId": 20009,
-                "LocationName": "The Coppersly Crypts"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 161,
     "RegionIndex": 33,

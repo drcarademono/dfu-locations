@@ -1,50 +1,146 @@
 {
     "Loaded": true,
-    "Name": "The Ashhart Farmstead",
+    "Name": "Hawkhouse Manor",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 706000000330,
-        "Latitude": 28840,
-        "Longitude": 42280,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 1136860655,
+        "Latitude": 37800,
+        "Longitude": 34728,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10827776,
-                "Y": 23148545,
+                "X": 8894464,
+                "Y": 9680897,
                 "IsExterior": 32768,
-                "Unknown2": 124,
-                "LocationId": 18965,
+                "Unknown2": 1084,
+                "LocationId": 21365,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Ashhart Farmstead"
+                "LocationName": "Hawkhouse Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 13,
         "Buildings": [
             {
-                "NameSeed": 8122,
+                "NameSeed": 26176,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 18965,
-                "BuildingType": 18,
+                "LocationId": 21365,
+                "BuildingType": "House2",
                 "Quality": 12
+            },
+            {
+                "NameSeed": 27015,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 21365,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 1201,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 21365,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 5726,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 21365,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 5983,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 21365,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 11853,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 21365,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 11446,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 21365,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 25298,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 21365,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 16533,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 21365,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 7890,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 21365,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 9452,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 21365,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 9323,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 21365,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 17585,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 21365,
+                "BuildingType": "House1",
+                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Ashhart Farmstead",
-            "MapId": 706000000330,
+            "AnotherName": "Hawkhouse Manor",
+            "MapId": 204271,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA02.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
@@ -67,14 +163,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

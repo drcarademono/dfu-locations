@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Ashsley Manor",
+    "Name": "The Tower of Mastersmith",
     "RegionName": "Ykalon",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 747000000483,
-        "Latitude": 23592,
-        "Longitude": 61864,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 438339055,
+        "Latitude": 59560,
+        "Longitude": 36776,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15841280,
-                "Y": 24492033,
+                "X": 9418752,
+                "Y": 15251457,
                 "IsExterior": 32768,
-                "Unknown2": 504,
-                "LocationId": 12168,
+                "Unknown2": 418,
+                "LocationId": 11710,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ashsley Manor"
+                "LocationName": "The Tower of Mastersmith"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 12745,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 12168,
-                "BuildingType": 17,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 3994,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 12168,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 10186,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 12168,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 26055,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 12168,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 29097,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 12168,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 3231,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 12168,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 2694,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 12168,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 15200,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 12168,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 27830,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 12168,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 23352,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 12168,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 30878,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 12168,
-                "BuildingType": 15,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ashsley Manor",
-            "MapId": 747000000483,
+            "AnotherName": "The Tower of Mastersmith",
+            "MapId": 34287,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "CASTAA32.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 9418752,
+                "Y": 15251457,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 103,
+                "LocationId": 11711,
+                "IsInterior": 1,
+                "ExteriorLocationId": 11710,
+                "LocationName": "The Tower of Mastersmith"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

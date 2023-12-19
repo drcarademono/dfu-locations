@@ -1,152 +1,104 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Tower Vlold'kern",
+    "Name": "Caactem Hall",
     "RegionName": "Sentinel",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 439000000355,
-        "Latitude": 63016,
-        "Longitude": 45480,
-        "LocationType": 10,
-        "DungeonType": 0,
-        "Discovered": false,
+        "MapId": 526794575,
+        "Latitude": 11560,
+        "Longitude": 54184,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11646976,
-                "Y": 14399489,
+                "X": 13875200,
+                "Y": 2963457,
                 "IsExterior": 32768,
-                "Unknown2": 109,
-                "LocationId": 25688,
+                "Unknown2": 502,
+                "LocationId": 26892,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Tower Vlold'kern"
+                "LocationName": "Caactem Hall"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 4,
+        "Buildings": [
+            {
+                "NameSeed": 18959,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 26892,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 9001,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 26892,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 7437,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 26892,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 5761,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 26892,
+                "BuildingType": "House1",
+                "Quality": 11
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Tower Vlold'kern",
-            "MapId": 439000000355,
+            "AnotherName": "Caactem Hall",
+            "MapId": 409423,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA21.RMB"
+                "MANRBS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 11089920,
-                "Y": 4143105,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 22,
-                "LocationId": 25689,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25688,
-                "LocationName": "Ruins of Tower Vlold'kern"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000086.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

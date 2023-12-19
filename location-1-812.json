@@ -1,138 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Dead Giant Lodge",
+    "Name": "The Saerhter Farmstead",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 322000000659,
-        "Latitude": 77992,
-        "Longitude": 84392,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 851923649,
+        "Latitude": 2600,
+        "Longitude": 119976,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21608448,
-                "Y": 10565633,
+                "X": 30717952,
+                "Y": 669697,
                 "IsExterior": 32768,
-                "Unknown2": 74,
-                "LocationId": 23833,
+                "Unknown2": 812,
+                "LocationId": 28939,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dead Giant Lodge"
+                "LocationName": "The Saerhter Farmstead"
             }
         },
-        "BuildingCount": 12,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 6001,
+                "NameSeed": 28263,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23833,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 28603,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 23833,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 14195,
-                "FactionId": 0,
-                "Sector": 13,
-                "LocationId": 23833,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18716,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 23833,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 11272,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 23833,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 16614,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 23833,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 32140,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 23833,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 13290,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 23833,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 24528,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 23833,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18893,
-                "FactionId": 510,
-                "Sector": 68,
-                "LocationId": 23833,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 1971,
-                "FactionId": 510,
-                "Sector": 80,
-                "LocationId": 23833,
-                "BuildingType": 15,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 27480,
-                "FactionId": 510,
-                "Sector": 93,
-                "LocationId": 23833,
-                "BuildingType": 15,
-                "Quality": 11
+                "LocationId": 28939,
+                "BuildingType": "House2",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "18893",
-            "MapId": 322000000659,
+            "AnotherName": "The Saerhter Farmstead",
+            "MapId": 479937,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS00.RMB"
+                "FARMAA03.RMB"
             ]
         }
     },
@@ -156,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

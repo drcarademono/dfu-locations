@@ -1,63 +1,71 @@
 {
     "Loaded": true,
-    "Name": "Castle Buckinghart",
+    "Name": "Ruins of The Gaersly Cabin",
     "RegionName": "Ilessan Hills",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 749000000418,
-        "Latitude": 23336,
-        "Longitude": 53544,
-        "LocationType": 7,
-        "DungeonType": 0,
+        "MapId": 542221066,
+        "Latitude": 50216,
+        "Longitude": 35112,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13711360,
-                "Y": 24557569,
+                "X": 8992768,
+                "Y": 12859393,
                 "IsExterior": 32768,
-                "Unknown2": 167,
-                "LocationId": 14006,
+                "Unknown2": 517,
+                "LocationId": 16308,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle Buckinghart"
+                "LocationName": "Ruins of The Gaersly Cabin"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Castle Buckinghart",
-            "MapId": 749000000418,
+            "AnotherName": "Ruins of The Gaersly Cabin",
+            "MapId": 107274,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA11.RMB"
+                "RUINAA09.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 7780352,
-                "Y": 13973505,
+                "X": 8992768,
+                "Y": 12859393,
                 "IsExterior": 0,
-                "Unknown2": 62,
-                "LocationId": 14007,
+                "Unknown2": 194,
+                "LocationId": 16309,
                 "IsInterior": 1,
-                "ExteriorLocationId": 14006,
-                "LocationName": "Castle Buckinghart"
+                "ExteriorLocationId": 16308,
+                "LocationName": "Ruins of The Gaersly Cabin"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000009.RDB",
@@ -68,31 +76,15 @@
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000053.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
+                "X": 1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000084.RDB",
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,53 +92,21 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000024.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
-        "NatureArchive": 504,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

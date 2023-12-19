@@ -1,112 +1,184 @@
 {
     "Loaded": true,
-    "Name": "The Kinghart Cemetery",
+    "Name": "Singing Rebirth of Kynareth",
     "RegionName": "Daggerfall",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 612000000395,
-        "Latitude": 40872,
-        "Longitude": 50600,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 44182460,
+        "Latitude": 45736,
+        "Longitude": 34344,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12957696,
-                "Y": 20068353,
+                "X": 8796160,
+                "Y": 11712513,
                 "IsExterior": 32768,
-                "Unknown2": 1070,
-                "LocationId": 21331,
+                "Unknown2": 42,
+                "LocationId": 18373,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Kinghart Cemetery"
+                "LocationName": "Singing Rebirth of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 24114,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 18373,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 4166,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 18373,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 29097,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 18373,
+                "BuildingType": "House3",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 3231,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 18373,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 2694,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 18373,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 15200,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 18373,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 27830,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 18373,
+                "BuildingType": "House3",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 23352,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 18373,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 3367,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 18373,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 7849,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 18373,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 768,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 18373,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 17688,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 18373,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 20262,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 18373,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 800,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 18373,
+                "BuildingType": "Temple",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Kinghart Cemetery",
-            "MapId": 612000000395,
+            "AnotherName": "Singing Rebirth of Kynareth",
+            "MapId": 142268,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS21.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 9385984,
-                "Y": 9713665,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 205,
-                "LocationId": 21332,
-                "IsInterior": 1,
-                "ExteriorLocationId": 21331,
-                "LocationName": "The Kinghart Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

@@ -1,114 +1,130 @@
 {
     "Loaded": true,
-    "Name": "B'all Hall",
+    "Name": "The Devil's Ogre Inn",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 149000000858,
-        "Latitude": 100136,
-        "Longitude": 109864,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 72678520,
+        "Latitude": 22184,
+        "Longitude": 99368,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28129280,
-                "Y": 4896769,
+                "X": 25442304,
+                "Y": 5683201,
                 "IsExterior": 32768,
-                "Unknown2": 763,
-                "LocationId": 25679,
+                "Unknown2": 69,
+                "LocationId": 23961,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "B'all Hall"
+                "LocationName": "The Devil's Ogre Inn"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 23866,
-                "FactionId": 0,
+                "NameSeed": 3430,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 25679,
-                "BuildingType": 18,
-                "Quality": 9
+                "LocationId": 23961,
+                "BuildingType": "Tavern",
+                "Quality": 15
             },
             {
-                "NameSeed": 18202,
+                "NameSeed": 19019,
                 "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 25679,
-                "BuildingType": 18,
-                "Quality": 10
+                "Sector": 27,
+                "LocationId": 23961,
+                "BuildingType": "House2",
+                "Quality": 4
             },
             {
-                "NameSeed": 29205,
+                "NameSeed": 14253,
                 "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 25679,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 12096,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 25679,
-                "BuildingType": 19,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 29358,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 25679,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 21056,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 25679,
-                "BuildingType": 18,
+                "Sector": 31,
+                "LocationId": 23961,
+                "BuildingType": "House2",
                 "Quality": 8
             },
             {
-                "NameSeed": 9494,
+                "NameSeed": 28303,
                 "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 25679,
-                "BuildingType": 18,
-                "Quality": 5
+                "Sector": 38,
+                "LocationId": 23961,
+                "BuildingType": "House2",
+                "Quality": 13
             },
             {
-                "NameSeed": 14932,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 25679,
-                "BuildingType": 15,
-                "Quality": 7
+                "NameSeed": 29502,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 23961,
+                "BuildingType": "House2",
+                "Quality": 15
             },
             {
-                "NameSeed": 23059,
+                "NameSeed": 7563,
                 "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 25679,
-                "BuildingType": 17,
+                "Sector": 54,
+                "LocationId": 23961,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 14537,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 23961,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 24678,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 23961,
+                "BuildingType": "House2",
                 "Quality": 11
+            },
+            {
+                "NameSeed": 8681,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 23961,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 10246,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 23961,
+                "BuildingType": "House3",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 31307,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 23961,
+                "BuildingType": "House3",
+                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "B'all Hall",
-            "MapId": 149000000858,
+            "AnotherName": "3430",
+            "MapId": 326776,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "TVRNAS05.RMB"
             ]
         }
     },
@@ -132,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

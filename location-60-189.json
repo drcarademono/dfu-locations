@@ -1,168 +1,168 @@
 {
     "Loaded": true,
-    "Name": "Gondistyr Laboratory",
+    "Name": "The Red Dog Hostel",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 707000000428,
-        "Latitude": 28712,
-        "Longitude": 54824,
-        "LocationType": 4,
-        "DungeonType": 9,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 198255178,
+        "Latitude": 54440,
+        "Longitude": 40232,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14039040,
-                "Y": 23181313,
+                "X": 10303488,
+                "Y": 13940737,
                 "IsExterior": 32768,
-                "Unknown2": 499,
-                "LocationId": 16104,
+                "Unknown2": 189,
+                "LocationId": 14084,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Gondistyr Laboratory"
+                "LocationName": "The Red Dog Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 12,
+        "Buildings": [
+            {
+                "NameSeed": 15455,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 14084,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 24652,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 14084,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 4245,
+                "FactionId": 0,
+                "Sector": 13,
+                "LocationId": 14084,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 18331,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 14084,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 26847,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 14084,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 13961,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 14084,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 1435,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 14084,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 2823,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 14084,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 9496,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 14084,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 1947,
+                "FactionId": 510,
+                "Sector": 68,
+                "LocationId": 14084,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 644,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 14084,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 19978,
+                "FactionId": 510,
+                "Sector": 93,
+                "LocationId": 14084,
+                "BuildingType": "Tavern",
+                "Quality": 14
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Gondistyr Laboratory",
-            "MapId": 707000000428,
+            "AnotherName": "1947",
+            "MapId": 74314,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA09.RMB"
+                "TVRNAS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 8763392,
-                "Y": 12957697,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 187,
-                "LocationId": 16105,
-                "IsInterior": 1,
-                "ExteriorLocationId": 16104,
-                "LocationName": "Gondistyr Laboratory"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000085.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000020.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000062.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

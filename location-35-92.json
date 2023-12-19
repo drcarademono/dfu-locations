@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Ashhart Plantation",
+    "Name": "The Moorhouse Farmstead",
     "RegionName": "Koegria",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 531000000778,
-        "Latitude": 51240,
-        "Longitude": 99624,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 96563680,
+        "Latitude": 51880,
+        "Longitude": 88104,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25507840,
-                "Y": 17414145,
+                "X": 22558720,
+                "Y": 13285377,
                 "IsExterior": 32768,
-                "Unknown2": 61,
-                "LocationId": 14633,
+                "Unknown2": 92,
+                "LocationId": 15471,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Ashhart Plantation"
+                "LocationName": "The Moorhouse Farmstead"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 14790,
+                "NameSeed": 8319,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 14633,
-                "BuildingType": 17,
-                "Quality": 15
+                "LocationId": 15471,
+                "BuildingType": "House2",
+                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Ashhart Plantation",
-            "MapId": 531000000778,
+            "AnotherName": "The Moorhouse Farmstead",
+            "MapId": 94688,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA09.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -68,15 +68,15 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 165,
+    "Politic": 163,
     "RegionIndex": 35,
     "LocationIndex": 92
 }

@@ -1,66 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Dancing Pit Pub",
+    "Name": "B'uch Court",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 424000000181,
-        "Latitude": 64936,
-        "Longitude": 23208,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 125262730,
+        "Latitude": 2216,
+        "Longitude": 23848,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5945344,
-                "Y": 13907969,
+                "X": 6109184,
+                "Y": 571393,
                 "IsExterior": 32768,
-                "Unknown2": 72,
-                "LocationId": 28720,
+                "Unknown2": 119,
+                "LocationId": 28992,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dancing Pit Pub"
+                "LocationName": "B'uch Court"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 15179,
+                "NameSeed": 21268,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28720,
-                "BuildingType": 18,
-                "Quality": 1
+                "LocationId": 28992,
+                "BuildingType": "House2",
+                "Quality": 9
             },
             {
-                "NameSeed": 22215,
-                "FactionId": 510,
-                "Sector": 11,
-                "LocationId": 28720,
-                "BuildingType": 17,
-                "Quality": 7
+                "NameSeed": 24148,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 28992,
+                "BuildingType": "House2",
+                "Quality": 11
             },
             {
-                "NameSeed": 15336,
-                "FactionId": 510,
-                "Sector": 24,
-                "LocationId": 28720,
-                "BuildingType": 15,
-                "Quality": 7
+                "NameSeed": 5529,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 28992,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 28344,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 28992,
+                "BuildingType": "House1",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "15336",
-            "MapId": 424000000181,
+            "AnotherName": "B'uch Court",
+            "MapId": 482186,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS03.RMB"
+                "MANRGS00.RMB"
             ]
         }
     },
@@ -84,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

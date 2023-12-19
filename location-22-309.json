@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Mhustam Palace",
+    "Name": "Old V'ildsa's Farm",
     "RegionName": "Lainlyn",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 336000000686,
-        "Latitude": 76200,
-        "Longitude": 87848,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 324320687,
+        "Latitude": 24232,
+        "Longitude": 90024,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22493184,
-                "Y": 11024385,
+                "X": 23050240,
+                "Y": 6207489,
                 "IsExterior": 32768,
-                "Unknown2": 166,
-                "LocationId": 23112,
+                "Unknown2": 309,
+                "LocationId": 23513,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Mhustam Palace"
+                "LocationName": "Old V'ildsa's Farm"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 14001,
+                "NameSeed": 3158,
                 "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 23112,
-                "BuildingType": 17,
+                "Sector": 10,
+                "LocationId": 23513,
+                "BuildingType": "House2",
                 "Quality": 12
-            },
-            {
-                "NameSeed": 1071,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 23112,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 24014,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 23112,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 22449,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 23112,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 20774,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 23112,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 18822,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 23112,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 27018,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 23112,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 22833,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 23112,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 2652,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 23112,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 6515,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 23112,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31385,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 23112,
-                "BuildingType": 15,
-                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Mhustam Palace",
-            "MapId": 336000000686,
+            "AnotherName": "Old V'ildsa's Farm",
+            "MapId": 310703,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "FARMAA00.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Mastering Cemetery",
+    "Name": "The Old Hawkford Shack",
     "RegionName": "Glenpoint",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 723000000359,
-        "Latitude": 26664,
-        "Longitude": 45992,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 100757504,
+        "Latitude": 51880,
+        "Longitude": 26664,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11778048,
-                "Y": 23705601,
+                "X": 6830080,
+                "Y": 13285377,
                 "IsExterior": 32768,
-                "Unknown2": 290,
-                "LocationId": 17357,
+                "Unknown2": 96,
+                "LocationId": 15437,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mastering Cemetery"
+                "LocationName": "The Old Hawkford Shack"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 28150,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 15437,
+                "BuildingType": "House3",
+                "Quality": 5
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Mastering Cemetery",
-            "MapId": 723000000359,
+            "AnotherName": "The Old Hawkford Shack",
+            "MapId": 94208,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS31.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 6535168,
-                "Y": 12269569,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 96,
-                "LocationId": 17358,
-                "IsInterior": 1,
-                "ExteriorLocationId": 17357,
-                "LocationName": "The Mastering Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

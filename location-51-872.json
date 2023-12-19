@@ -1,138 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Mole and Skull Inn",
+    "Name": "Ghavte Manor",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 266000000743,
-        "Latitude": 85160,
-        "Longitude": 95144,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 914745192,
+        "Latitude": 14504,
+        "Longitude": 117800,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24360960,
-                "Y": 8730625,
+                "X": 30160896,
+                "Y": 3717121,
                 "IsExterior": 32768,
-                "Unknown2": 97,
-                "LocationId": 24055,
+                "Unknown2": 872,
+                "LocationId": 26196,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mole and Skull Inn"
+                "LocationName": "Ghavte Manor"
             }
         },
-        "BuildingCount": 12,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 9392,
+                "NameSeed": 32615,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 24055,
-                "BuildingType": 18,
-                "Quality": 2
+                "LocationId": 26196,
+                "BuildingType": "House2",
+                "Quality": 3
             },
             {
-                "NameSeed": 19558,
+                "NameSeed": 22597,
                 "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 24055,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 1199,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 24055,
-                "BuildingType": 18,
+                "Sector": 10,
+                "LocationId": 26196,
+                "BuildingType": "House2",
                 "Quality": 12
             },
             {
-                "NameSeed": 12607,
+                "NameSeed": 2398,
                 "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 24055,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 12415,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 24055,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 26548,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 24055,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 22386,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 24055,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 26657,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 24055,
-                "BuildingType": 18,
+                "Sector": 22,
+                "LocationId": 26196,
+                "BuildingType": "House2",
                 "Quality": 6
             },
             {
-                "NameSeed": 16959,
+                "NameSeed": 29328,
                 "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 24055,
-                "BuildingType": 18,
-                "Quality": 13
+                "Sector": 30,
+                "LocationId": 26196,
+                "BuildingType": "House3",
+                "Quality": 9
             },
             {
-                "NameSeed": 11038,
+                "NameSeed": 31647,
                 "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 24055,
-                "BuildingType": 18,
+                "Sector": 36,
+                "LocationId": 26196,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 7416,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 26196,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 145,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 26196,
+                "BuildingType": "House2",
                 "Quality": 10
             },
             {
-                "NameSeed": 16653,
+                "NameSeed": 28197,
                 "FactionId": 510,
-                "Sector": 55,
-                "LocationId": 24055,
-                "BuildingType": 15,
-                "Quality": 2
+                "Sector": 69,
+                "LocationId": 26196,
+                "BuildingType": "Tavern",
+                "Quality": 1
             },
             {
-                "NameSeed": 27788,
-                "FactionId": 510,
-                "Sector": 71,
-                "LocationId": 24055,
-                "BuildingType": 15,
-                "Quality": 2
+                "NameSeed": 20071,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 26196,
+                "BuildingType": "House1",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "16653",
-            "MapId": 266000000743,
+            "AnotherName": "Ghavte Manor",
+            "MapId": 386920,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS07.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -156,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

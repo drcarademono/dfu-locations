@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Coppercroft Manor",
+    "Name": "The Grave of Lithivaraus",
     "RegionName": "Glenpoint",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 783000000360,
-        "Latitude": 18984,
-        "Longitude": 46120,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 446840513,
+        "Latitude": 45096,
+        "Longitude": 17576,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Crypt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11810816,
-                "Y": 25671681,
+                "X": 4503552,
+                "Y": 11548673,
                 "IsExterior": 32768,
-                "Unknown2": 13,
-                "LocationId": 13922,
+                "Unknown2": 426,
+                "LocationId": 18619,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Coppercroft Manor"
+                "LocationName": "The Grave of Lithivaraus"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 10246,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 13922,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 31307,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 13922,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 7156,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 13922,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 8207,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 13922,
-                "BuildingType": 19,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 939,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 13922,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 20669,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 13922,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 31951,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 13922,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 21012,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 13922,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 23445,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 13922,
-                "BuildingType": 17,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Coppercroft Manor",
-            "MapId": 783000000360,
+            "AnotherName": "The Grave of Lithivaraus",
+            "MapId": 147137,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "DUNGAA10.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 4503552,
+                "Y": 11548673,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 135,
+                "LocationId": 18620,
+                "IsInterior": 1,
+                "ExteriorLocationId": 18619,
+                "LocationName": "The Grave of Lithivaraus"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000075.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

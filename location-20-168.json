@@ -1,50 +1,115 @@
 {
     "Loaded": true,
-    "Name": "Nozim Orchard",
+    "Name": "Umbocco-Kom",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 393000000367,
-        "Latitude": 68904,
-        "Longitude": 47016,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 176539167,
+        "Latitude": 15520,
+        "Longitude": 51112,
+        "LocationType": "TownVillage",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16777216
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12040192,
-                "Y": 12892161,
+                "X": 13088768,
+                "Y": 3977217,
                 "IsExterior": 32768,
-                "Unknown2": 487,
-                "LocationId": 26840,
+                "Unknown2": 168,
+                "LocationId": 25893,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Nozim Orchard"
+                "LocationName": "Umbocco-Kom"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 636,
+                "NameSeed": 3879,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26840,
-                "BuildingType": 17,
+                "LocationId": 25893,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 1050,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 25893,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 8360,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 25893,
+                "BuildingType": "House2",
                 "Quality": 5
+            },
+            {
+                "NameSeed": 2403,
+                "FactionId": 510,
+                "Sector": 21,
+                "LocationId": 25893,
+                "BuildingType": "GeneralStore",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 16848,
+                "FactionId": 0,
+                "Sector": 32,
+                "LocationId": 25893,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 13309,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 25893,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 8510,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 25893,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 7265,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 25893,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 12818,
+                "FactionId": 0,
+                "Sector": 52,
+                "LocationId": 25893,
+                "BuildingType": "House2",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Nozim Orchard",
-            "MapId": 393000000367,
+            "AnotherName": "Umbocco-Kom",
+            "MapId": 378399,
             "LocationId": 0,
             "Width": 1,
-            "Height": 1,
+            "Height": 2,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA09.RMB"
+                "RESIGS04.RMB",
+                "GENRGS01.RMB"
             ]
         }
     },
@@ -68,13 +133,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

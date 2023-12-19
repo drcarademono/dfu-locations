@@ -1,88 +1,88 @@
 {
     "Loaded": true,
-    "Name": "The Citadel of Maeshan",
+    "Name": "Castle Shrugir",
     "RegionName": "Mournoth",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 203000000940,
-        "Latitude": 93224,
-        "Longitude": 120360,
-        "LocationType": 7,
-        "DungeonType": 9,
+        "MapId": 269821995,
+        "Latitude": 20776,
+        "Longitude": 123304,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "HumanStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30816256,
-                "Y": 6666241,
+                "X": 31569920,
+                "Y": 5322753,
                 "IsExterior": 32768,
-                "Unknown2": 32,
-                "LocationId": 22894,
+                "Unknown2": 257,
+                "LocationId": 24349,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Citadel of Maeshan"
+                "LocationName": "Castle Shrugir"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Citadel of Maeshan",
-            "MapId": 203000000940,
+            "AnotherName": "Castle Shrugir",
+            "MapId": 337963,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA07.RMB"
+                "DUNGAA12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31537152,
-                "Y": 7026689,
+                "X": 31569920,
+                "Y": 5322753,
                 "IsExterior": 0,
-                "Unknown2": 8,
-                "LocationId": 22895,
+                "Unknown2": 63,
+                "LocationId": 24350,
                 "IsInterior": 1,
-                "ExteriorLocationId": 22894,
-                "LocationName": "The Citadel of Maeshan"
+                "ExteriorLocationId": 24349,
+                "LocationName": "Castle Shrugir"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
                 "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
@@ -90,73 +90,9 @@
             },
             {
                 "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000086.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "W0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000076.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

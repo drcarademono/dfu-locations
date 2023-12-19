@@ -1,162 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Crimson Barbarian Pub",
+    "Name": "Balthimar Hall",
     "RegionName": "Lainlyn",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 367000000667,
-        "Latitude": 72232,
-        "Longitude": 85416,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 385148149,
+        "Latitude": 22952,
+        "Longitude": 96936,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "VampireHaunt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21870592,
-                "Y": 12040193,
+                "X": 24819712,
+                "Y": 5879809,
                 "IsExterior": 32768,
-                "Unknown2": 2,
-                "LocationId": 22753,
+                "Unknown2": 367,
+                "LocationId": 23777,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Crimson Barbarian Pub"
+                "LocationName": "Balthimar Hall"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 3879,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 22753,
-                "BuildingType": 15,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 3577,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 22753,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 26944,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 22753,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 29076,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 22753,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 30384,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 22753,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 3018,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 22753,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 21250,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 22753,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 14197,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 22753,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 24419,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 22753,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 16743,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 22753,
-                "BuildingType": 19,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 13852,
-                "FactionId": 0,
-                "Sector": 93,
-                "LocationId": 22753,
-                "BuildingType": 19,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "3879",
-            "MapId": 367000000667,
+            "AnotherName": "Balthimar Hall",
+            "MapId": 320757,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 12,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS05.RMB"
+                "DUNGAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 24819712,
+                "Y": 5879809,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 72,
+                "LocationId": 23778,
+                "IsInterior": 1,
+                "ExteriorLocationId": 23777,
+                "LocationName": "Balthimar Hall"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
-        "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "WorldClimate": 227,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
+        "GroundArchive": 402,
+        "NatureArchive": 500,
+        "SkyBase": 24,
+        "People": "Redguard",
+        "Names": "Nord"
     },
-    "Politic": 64,
+    "Politic": 150,
     "RegionIndex": 22,
     "LocationIndex": 367
 }

@@ -1,106 +1,114 @@
 {
     "Loaded": true,
-    "Name": "Khurtin Court",
+    "Name": "Ruins of Old Grefylta's Farm",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 329000000453,
-        "Latitude": 77096,
-        "Longitude": 58024,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 174507143,
+        "Latitude": 7208,
+        "Longitude": 67496,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "HumanStronghold",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14858240,
-                "Y": 10795009,
+                "X": 17283072,
+                "Y": 1849345,
                 "IsExterior": 32768,
-                "Unknown2": 70,
-                "LocationId": 27186,
+                "Unknown2": 166,
+                "LocationId": 27866,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Khurtin Court"
+                "LocationName": "Ruins of Old Grefylta's Farm"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 5200,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27186,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 17582,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 27186,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 14554,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 27186,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 25581,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 27186,
-                "BuildingType": 17,
-                "Quality": 11
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Khurtin Court",
-            "MapId": 329000000453,
+            "AnotherName": "Ruins of Old Grefylta's Farm",
+            "MapId": 443527,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRBS00.RMB"
+                "RUINAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 17283072,
+                "Y": 1849345,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 83,
+                "LocationId": 27867,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27866,
+                "LocationName": "Ruins of Old Grefylta's Farm"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
-    "Politic": 183,
+    "Politic": 128,
     "RegionIndex": 0,
     "LocationIndex": 166
 }

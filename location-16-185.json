@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Kingsly Farmstead",
+    "Name": "The Dwarf and Fawn Lodge",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 327000001006,
-        "Latitude": 77352,
-        "Longitude": 128808,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 194000478,
+        "Latitude": 62248,
+        "Longitude": 117544,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 32978944,
-                "Y": 10729473,
+                "X": 30095360,
+                "Y": 15939585,
                 "IsExterior": 32768,
-                "Unknown2": 1637,
-                "LocationId": 18513,
+                "Unknown2": 185,
+                "LocationId": 10604,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Kingsly Farmstead"
+                "LocationName": "The Dwarf and Fawn Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 11771,
+                "NameSeed": 24514,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 18513,
-                "BuildingType": 18,
-                "Quality": 15
+                "LocationId": 10604,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 3425,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 10604,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 7397,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 10604,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 233,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 10604,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 3129,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 10604,
+                "BuildingType": "House3",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 21526,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 10604,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 4050,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 10604,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 4031,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 10604,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 28246,
+                "FactionId": 510,
+                "Sector": 63,
+                "LocationId": 10604,
+                "BuildingType": "HouseForSale",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 31858,
+                "FactionId": 510,
+                "Sector": 67,
+                "LocationId": 10604,
+                "BuildingType": "Tavern",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 23696,
+                "FactionId": 510,
+                "Sector": 84,
+                "LocationId": 10604,
+                "BuildingType": "Tavern",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Kingsly Farmstead",
-            "MapId": 327000001006,
+            "AnotherName": "31858",
+            "MapId": 13918,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "TVRNAS08.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

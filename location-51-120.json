@@ -1,151 +1,79 @@
 {
     "Loaded": true,
-    "Name": "Sekgod",
+    "Name": "Rar's Hold",
     "RegionName": "Totambu",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 159000000878,
-        "Latitude": 98856,
-        "Longitude": 112424,
-        "LocationType": 4,
-        "DungeonType": 1,
+        "MapId": 126160965,
+        "Latitude": 21544,
+        "Longitude": 108200,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "OrcStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28784640,
-                "Y": 5224449,
+                "X": 27703296,
+                "Y": 5519361,
                 "IsExterior": 32768,
-                "Unknown2": 474,
-                "LocationId": 24938,
+                "Unknown2": 120,
+                "LocationId": 24110,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Sekgod"
+                "LocationName": "Rar's Hold"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Sekgod",
-            "MapId": 159000000878,
+            "AnotherName": "Rar's Hold",
+            "MapId": 331845,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA12.RMB"
+                "CASTAA13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 30521344,
-                "Y": 4765697,
+                "X": 27703296,
+                "Y": 5519361,
                 "IsExterior": 0,
-                "Unknown2": 123,
-                "LocationId": 24939,
+                "Unknown2": 30,
+                "LocationId": 24111,
                 "IsInterior": 1,
-                "ExteriorLocationId": 24938,
-                "LocationName": "Sekgod"
+                "ExteriorLocationId": 24110,
+                "LocationName": "Rar's Hold"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 14
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000090.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000090.RDB",
+                "BlockName": "W0000021.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000083.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000069.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
+                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000000.RDB",
@@ -153,10 +81,18 @@
                 "CastleBlock": false
             },
             {
-                "X": 2,
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

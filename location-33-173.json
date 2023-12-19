@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Ashston Manor",
+    "Name": "The Wicksly Farmstead",
     "RegionName": "Menevia",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 382000000893,
-        "Latitude": 70312,
-        "Longitude": 114344,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 181608481,
+        "Latitude": 37800,
+        "Longitude": 106664,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29276160,
-                "Y": 12531713,
+                "X": 27310080,
+                "Y": 9680897,
                 "IsExterior": 32768,
-                "Unknown2": 17,
-                "LocationId": 18950,
+                "Unknown2": 173,
+                "LocationId": 21375,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ashston Manor"
+                "LocationName": "The Wicksly Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 14172,
+                "NameSeed": 24935,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 18950,
-                "BuildingType": 17,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 4052,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 18950,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 9735,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 18950,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 25520,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 18950,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 14538,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 18950,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 21333,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 18950,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 11383,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 18950,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 10998,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 18950,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 32465,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 18950,
-                "BuildingType": 18,
+                "LocationId": 21375,
+                "BuildingType": "House2",
                 "Quality": 9
-            },
-            {
-                "NameSeed": 25231,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 18950,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 23226,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 18950,
-                "BuildingType": 15,
-                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Ashston Manor",
-            "MapId": 382000000893,
+            "AnotherName": "The Wicksly Farmstead",
+            "MapId": 204833,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "FARMAA02.RMB"
             ]
         }
     },
@@ -147,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 161,
     "RegionIndex": 33,

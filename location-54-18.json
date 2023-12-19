@@ -4,19 +4,19 @@
     "RegionName": "Santaki",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 233000000592,
-        "Latitude": 89384,
-        "Longitude": 75816,
-        "LocationType": 10,
-        "DungeonType": 3,
+        "MapId": 19308014,
+        "Latitude": 8488,
+        "Longitude": 82728,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Prison",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19412992,
-                "Y": 7649281,
+                "X": 21182464,
+                "Y": 2177025,
                 "IsExterior": 32768,
                 "Unknown2": 18,
                 "LocationId": 27613,
@@ -29,7 +29,7 @@
         "Buildings": [],
         "ExteriorData": {
             "AnotherName": "Ruins of Old Larpja's Shack",
-            "MapId": 233000000592,
+            "MapId": 433646,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
@@ -57,10 +57,10 @@
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000080.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,21 +68,13 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000087.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
@@ -90,31 +82,15 @@
             },
             {
                 "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000080.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 2,
-                "Z": 0,
+                "X": 0,
+                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 182,
     "RegionIndex": 54,

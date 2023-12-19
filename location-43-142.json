@@ -1,85 +1,61 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Old F'esh-e's Hovel",
+    "Name": "Ruins of The Old Starte Shack",
     "RegionName": "Abibon-Gora",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 428000000144,
-        "Latitude": 64424,
-        "Longitude": 18472,
-        "LocationType": 10,
-        "DungeonType": 4,
+        "MapId": 149383964,
+        "Latitude": 1704,
+        "Longitude": 22056,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "HarpyNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 4732928,
-                "Y": 14039041,
+                "X": 5650432,
+                "Y": 440321,
                 "IsExterior": 32768,
-                "Unknown2": 157,
-                "LocationId": 29177,
+                "Unknown2": 142,
+                "LocationId": 29114,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Old F'esh-e's Hovel"
+                "LocationName": "Ruins of The Old Starte Shack"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Old F'esh-e's Hovel",
-            "MapId": 428000000144,
+            "AnotherName": "Ruins of The Old Starte Shack",
+            "MapId": 486172,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA14.RMB"
+                "RUINAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 5257216,
-                "Y": 374785,
+                "X": 5650432,
+                "Y": 440321,
                 "IsExterior": 0,
-                "Unknown2": 46,
-                "LocationId": 29178,
+                "Unknown2": 40,
+                "LocationId": 29115,
                 "IsInterior": 1,
-                "ExteriorLocationId": 29177,
-                "LocationName": "Ruins of Old F'esh-e's Hovel"
+                "ExteriorLocationId": 29114,
+                "LocationName": "Ruins of The Old Starte Shack"
             }
         },
         "Header": {
             "BlockCount": 10
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
@@ -90,49 +66,33 @@
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000011.RDB",
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000025.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

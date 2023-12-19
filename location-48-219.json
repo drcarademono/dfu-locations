@@ -1,170 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Silent Omen of Dibella",
+    "Name": "The Unfortunate Barbarian Lodge",
     "RegionName": "Tigonus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 383000000532,
-        "Latitude": 70184,
-        "Longitude": 68136,
-        "LocationType": 5,
-        "DungeonType": 255,
+        "MapId": 229988696,
+        "Latitude": 19112,
+        "Longitude": 70696,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 4
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17446912,
-                "Y": 12564481,
+                "X": 18102272,
+                "Y": 4896769,
                 "IsExterior": 32768,
-                "Unknown2": 130,
-                "LocationId": 24156,
+                "Unknown2": 219,
+                "LocationId": 24771,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Silent Omen of Dibella"
+                "LocationName": "The Unfortunate Barbarian Lodge"
             }
         },
-        "BuildingCount": 16,
+        "BuildingCount": 3,
         "Buildings": [
             {
-                "NameSeed": 27590,
-                "FactionId": 29,
+                "NameSeed": 27226,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 24156,
-                "BuildingType": 14,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 6264,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 24156,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 25697,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 24156,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 28925,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 24156,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 27127,
-                "FactionId": 0,
-                "Sector": 43,
-                "LocationId": 24156,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 11515,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 24156,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 14343,
-                "FactionId": 0,
-                "Sector": 67,
-                "LocationId": 24156,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 7034,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 24156,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 21424,
-                "FactionId": 0,
-                "Sector": 93,
-                "LocationId": 24156,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 22882,
-                "FactionId": 0,
-                "Sector": 105,
-                "LocationId": 24156,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 20720,
-                "FactionId": 510,
-                "Sector": 111,
-                "LocationId": 24156,
-                "BuildingType": 1,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 10096,
-                "FactionId": 0,
-                "Sector": 117,
-                "LocationId": 24156,
-                "BuildingType": 18,
+                "LocationId": 24771,
+                "BuildingType": "House2",
                 "Quality": 14
             },
             {
-                "NameSeed": 31395,
+                "NameSeed": 19748,
                 "FactionId": 0,
-                "Sector": 122,
-                "LocationId": 24156,
-                "BuildingType": 18,
-                "Quality": 4
+                "Sector": 14,
+                "LocationId": 24771,
+                "BuildingType": "House2",
+                "Quality": 1
             },
             {
-                "NameSeed": 22991,
-                "FactionId": 0,
-                "Sector": 126,
-                "LocationId": 24156,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 11943,
-                "FactionId": 0,
-                "Sector": 133,
-                "LocationId": 24156,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 29508,
+                "NameSeed": 4237,
                 "FactionId": 510,
-                "Sector": 145,
-                "LocationId": 24156,
-                "BuildingType": 1,
-                "Quality": 11
+                "Sector": 20,
+                "LocationId": 24771,
+                "BuildingType": "Tavern",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Silent Omen of Dibella",
-            "MapId": 383000000532,
+            "AnotherName": "4237",
+            "MapId": 350552,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAE0.RMB"
+                "TVRNGS04.RMB"
             ]
         }
     },
@@ -187,14 +83,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 228,
-        "ClimateType": 400,
-        "NatureSet": 502,
-        "GroundArchive": 402,
-        "NatureArchive": 502,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
+        "GroundArchive": 2,
+        "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

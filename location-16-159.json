@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Red Skull Inn",
+    "Name": "Ruins of The Gaerwing Farmstead",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 321000000986,
-        "Latitude": 78120,
-        "Longitude": 126248,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 166736234,
+        "Latitude": 62376,
+        "Longitude": 83240,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Mine",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 32323584,
-                "Y": 10532865,
+                "X": 21313536,
+                "Y": 15972353,
                 "IsExterior": 32768,
-                "Unknown2": 1689,
-                "LocationId": 19296,
+                "Unknown2": 159,
+                "LocationId": 10534,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Red Skull Inn"
+                "LocationName": "Ruins of The Gaerwing Farmstead"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 29661,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 19296,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 27382,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 19296,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 1643,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 19296,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 22467,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 19296,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 8101,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 19296,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 2031,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 19296,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 12047,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 19296,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 23199,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 19296,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 298,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 19296,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 23132,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 19296,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 19597,
-                "FactionId": 510,
-                "Sector": 55,
-                "LocationId": 19296,
-                "BuildingType": 15,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 64,
-                "FactionId": 510,
-                "Sector": 71,
-                "LocationId": 19296,
-                "BuildingType": 15,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "19597",
-            "MapId": 321000000986,
+            "AnotherName": "Ruins of The Gaerwing Farmstead",
+            "MapId": 12650,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS07.RMB"
+                "RUINAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 21313536,
+                "Y": 15972353,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 58,
+                "LocationId": 10535,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10534,
+                "LocationName": "Ruins of The Gaerwing Farmstead"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000016.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,112 +1,71 @@
 {
     "Loaded": true,
-    "Name": "The Fherk Vaults",
+    "Name": "Shrine of Mai",
     "RegionName": "Lainlyn",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 320000000734,
-        "Latitude": 78248,
-        "Longitude": 93992,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 251961973,
+        "Latitude": 25128,
+        "Longitude": 93864,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24066048,
-                "Y": 10500097,
+                "X": 24033280,
+                "Y": 6436865,
                 "IsExterior": 32768,
-                "Unknown2": 73,
-                "LocationId": 22907,
+                "Unknown2": 240,
+                "LocationId": 23317,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Fherk Vaults"
+                "LocationName": "Shrine of Mai"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Fherk Vaults",
-            "MapId": 320000000734,
+            "AnotherName": "Shrine of Mai",
+            "MapId": 303733,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS22.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23771136,
-                "Y": 6993921,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 17,
-                "LocationId": 22908,
-                "IsInterior": 1,
-                "ExteriorLocationId": 22907,
-                "LocationName": "The Fherk Vaults"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Kieran Theatre",
+    "Name": "Old Belladara's Farm",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 604000000682,
-        "Latitude": 41896,
-        "Longitude": 87336,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 376498289,
+        "Latitude": 56360,
+        "Longitude": 64680,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22362112,
-                "Y": 19806209,
+                "X": 16562176,
+                "Y": 14432257,
                 "IsExterior": 32768,
-                "Unknown2": 400,
-                "LocationId": 13558,
+                "Unknown2": 359,
+                "LocationId": 13157,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kieran Theatre"
+                "LocationName": "Old Belladara's Farm"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 26180,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 13157,
+                "BuildingType": "House2",
+                "Quality": 5
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Kieran Theatre",
-            "MapId": 604000000682,
+            "AnotherName": "Old Belladara's Farm",
+            "MapId": 59505,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "FARMAA00.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

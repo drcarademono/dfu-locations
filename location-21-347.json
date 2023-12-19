@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Woodhouse Manor",
+    "Name": "THe Crypts of Mastering",
     "RegionName": "Anticlere",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 595000000525,
-        "Latitude": 43048,
-        "Longitude": 67240,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 364006245,
+        "Latitude": 44712,
+        "Longitude": 47784,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17217536,
-                "Y": 19511297,
+                "X": 12236800,
+                "Y": 11450369,
                 "IsExterior": 32768,
-                "Unknown2": 388,
-                "LocationId": 18936,
+                "Unknown2": 347,
+                "LocationId": 18796,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Woodhouse Manor"
+                "LocationName": "THe Crypts of Mastering"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 24852,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 18936,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 527,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 18936,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 25662,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 18936,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 28110,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 18936,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 20905,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 18936,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 22167,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 18936,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 17517,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 18936,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 27319,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 18936,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 20111,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 18936,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 15670,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 18936,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 22386,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 18936,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 23428,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 18936,
-                "BuildingType": 15,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 20653,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 18936,
-                "BuildingType": 17,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Woodhouse Manor",
-            "MapId": 595000000525,
+            "AnotherName": "THe Crypts of Mastering",
+            "MapId": 150373,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "GRVEAS04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 12236800,
+                "Y": 11450369,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 82,
+                "LocationId": 18797,
+                "IsInterior": 1,
+                "ExteriorLocationId": 18796,
+                "LocationName": "THe Crypts of Mastering"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

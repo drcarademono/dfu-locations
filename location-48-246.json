@@ -1,136 +1,104 @@
 {
     "Loaded": true,
-    "Name": "The Norgoth Nest",
+    "Name": "The Devil's Fawn Lodge",
     "RegionName": "Tigonus",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 387000000508,
-        "Latitude": 69672,
-        "Longitude": 65064,
-        "LocationType": 4,
-        "DungeonType": 10,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 258306215,
+        "Latitude": 18344,
+        "Longitude": 66472,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16660480,
-                "Y": 12695553,
+                "X": 17020928,
+                "Y": 4700161,
                 "IsExterior": 32768,
-                "Unknown2": 177,
-                "LocationId": 24452,
+                "Unknown2": 246,
+                "LocationId": 24976,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Norgoth Nest"
+                "LocationName": "The Devil's Fawn Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 4,
+        "Buildings": [
+            {
+                "NameSeed": 10073,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 24976,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 22623,
+                "FactionId": 0,
+                "Sector": 11,
+                "LocationId": 24976,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 20882,
+                "FactionId": 510,
+                "Sector": 19,
+                "LocationId": 24976,
+                "BuildingType": "HouseForSale",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 1899,
+                "FactionId": 510,
+                "Sector": 30,
+                "LocationId": 24976,
+                "BuildingType": "Tavern",
+                "Quality": 11
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Norgoth Nest",
-            "MapId": 387000000508,
+            "AnotherName": "1899",
+            "MapId": 356519,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 8,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA05.RMB"
+                "TVRNGS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16267264,
-                "Y": 5191681,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 46,
-                "LocationId": 24453,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24452,
-                "LocationName": "The Norgoth Nest"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000026.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000021.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 228,
-        "ClimateType": 400,
-        "NatureSet": 502,
-        "GroundArchive": 402,
-        "NatureArchive": 502,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
+        "GroundArchive": 2,
+        "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

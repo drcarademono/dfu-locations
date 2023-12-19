@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Ashston Hall",
+    "Name": "Castle Moorwing",
     "RegionName": "Alcaire",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 433000000844,
-        "Latitude": 63784,
-        "Longitude": 108072,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 18976065,
+        "Latitude": 50984,
+        "Longitude": 89256,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "HumanStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27670528,
-                "Y": 14202881,
+                "X": 22853632,
+                "Y": 13056001,
                 "IsExterior": 32768,
-                "Unknown2": 130,
-                "LocationId": 17912,
+                "Unknown2": 18,
+                "LocationId": 15932,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ashston Hall"
+                "LocationName": "Castle Moorwing"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 14707,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 17912,
-                "BuildingType": 17,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18611,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 17912,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 24400,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 17912,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 32761,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 17912,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 11103,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 17912,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 19336,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 17912,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 19123,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 17912,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 7458,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 17912,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 5485,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 17912,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 23995,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 17912,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 13876,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 17912,
-                "BuildingType": 15,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ashston Hall",
-            "MapId": 433000000844,
+            "AnotherName": "Castle Moorwing",
+            "MapId": 101697,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "CASTAA04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 22853632,
+                "Y": 13056001,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 6,
+                "LocationId": 15933,
+                "IsInterior": 1,
+                "ExteriorLocationId": 15932,
+                "LocationName": "Castle Moorwing"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 11
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000023.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
-        "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
+        "SkyBase": 16,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 162,
     "RegionIndex": 34,

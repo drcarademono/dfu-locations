@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Hawkfield Palace",
+    "Name": "Wicksley's Guard",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 502000000883,
-        "Latitude": 54952,
-        "Longitude": 113064,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 1480708180,
+        "Latitude": 48808,
+        "Longitude": 111144,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "OrcStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28948480,
-                "Y": 16463873,
+                "X": 28456960,
+                "Y": 12498945,
                 "IsExterior": 32768,
-                "Unknown2": 736,
-                "LocationId": 12909,
+                "Unknown2": 1412,
+                "LocationId": 17029,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hawkfield Palace"
+                "LocationName": "Wicksley's Guard"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 5302,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 12909,
-                "BuildingType": 17,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 21922,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 12909,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 10739,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 12909,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 7758,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 12909,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 6108,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 12909,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 27511,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 12909,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 5978,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 12909,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 29870,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 12909,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 4113,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 12909,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 30916,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 12909,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 5039,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 12909,
-                "BuildingType": 15,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Hawkfield Palace",
-            "MapId": 502000000883,
+            "AnotherName": "Wicksley's Guard",
+            "MapId": 118868,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "CASTAA22.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 28456960,
+                "Y": 12498945,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 518,
+                "LocationId": 17030,
+                "IsInterior": 1,
+                "ExteriorLocationId": 17029,
+                "LocationName": "Wicksley's Guard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000039.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

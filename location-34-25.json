@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Gaerhart Manor",
+    "Name": "Ruins of Old Elayne's Farm",
     "RegionName": "Alcaire",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 439000000825,
-        "Latitude": 63016,
-        "Longitude": 105640,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 26317099,
+        "Latitude": 50856,
+        "Longitude": 89512,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "SpiderNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27047936,
-                "Y": 14399489,
+                "X": 22919168,
+                "Y": 13023233,
                 "IsExterior": 32768,
-                "Unknown2": 142,
-                "LocationId": 18167,
+                "Unknown2": 25,
+                "LocationId": 15991,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Gaerhart Manor"
+                "LocationName": "Ruins of Old Elayne's Farm"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 1690,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 18167,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 22375,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 18167,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 4392,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 18167,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 25923,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 18167,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 25752,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 18167,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 22771,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 18167,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 11082,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 18167,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 13720,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 18167,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 19447,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 18167,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 3469,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 18167,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 21785,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 18167,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 12902,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 18167,
-                "BuildingType": 15,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 25196,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 18167,
-                "BuildingType": 17,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Gaerhart Manor",
-            "MapId": 439000000825,
+            "AnotherName": "Ruins of Old Elayne's Farm",
+            "MapId": 102699,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 2,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "RUINAA11.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 22919168,
+                "Y": 13023233,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 7,
+                "LocationId": 15992,
+                "IsInterior": 1,
+                "ExteriorLocationId": 15991,
+                "LocationName": "Ruins of Old Elayne's Farm"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000051.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 162,
     "RegionIndex": 34,

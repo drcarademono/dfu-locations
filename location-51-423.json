@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The D'ost Cemetery",
+    "Name": "Sernar Laboratory",
     "RegionName": "Totambu",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 201000000794,
-        "Latitude": 93480,
-        "Longitude": 101672,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 443900431,
+        "Latitude": 18856,
+        "Longitude": 100264,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Laboratory",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26032128,
-                "Y": 6600705,
+                "X": 25671680,
+                "Y": 4831233,
                 "IsExterior": 32768,
-                "Unknown2": 547,
-                "LocationId": 25121,
+                "Unknown2": 423,
+                "LocationId": 24848,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The D'ost Cemetery"
+                "LocationName": "Sernar Laboratory"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The D'ost Cemetery",
-            "MapId": 201000000794,
+            "AnotherName": "Sernar Laboratory",
+            "MapId": 352783,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS07.RMB"
+                "DUNGAA07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27441152,
-                "Y": 4601857,
+                "X": 25671680,
+                "Y": 4831233,
                 "IsExterior": 0,
-                "Unknown2": 146,
-                "LocationId": 25122,
+                "Unknown2": 112,
+                "LocationId": 24849,
                 "IsInterior": 1,
-                "ExteriorLocationId": 25121,
-                "LocationName": "The D'ost Cemetery"
+                "ExteriorLocationId": 24848,
+                "LocationName": "Sernar Laboratory"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000015.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

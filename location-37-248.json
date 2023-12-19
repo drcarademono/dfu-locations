@@ -1,130 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Tower Copperston",
+    "Name": "Tricerrahoth",
     "RegionName": "Kambria",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 580000000744,
-        "Latitude": 44968,
-        "Longitude": 95272,
-        "LocationType": 7,
-        "DungeonType": 5,
+        "MapId": 260131425,
+        "Latitude": 53160,
+        "Longitude": 73896,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "OrcStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24393728,
-                "Y": 19019777,
+                "X": 18921472,
+                "Y": 13613057,
                 "IsExterior": 32768,
-                "Unknown2": 67,
-                "LocationId": 13002,
+                "Unknown2": 248,
+                "LocationId": 14840,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Tower Copperston"
+                "LocationName": "Tricerrahoth"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Tower Copperston",
-            "MapId": 580000000744,
+            "AnotherName": "Tricerrahoth",
+            "MapId": 84577,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA30.RMB"
+                "DUNGAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19806208,
-                "Y": 14530561,
+                "X": 18921472,
+                "Y": 13613057,
                 "IsExterior": 0,
-                "Unknown2": 26,
-                "LocationId": 13003,
+                "Unknown2": 85,
+                "LocationId": 14841,
                 "IsInterior": 1,
-                "ExteriorLocationId": 13002,
-                "LocationName": "Tower Copperston"
+                "ExteriorLocationId": 14840,
+                "LocationName": "Tricerrahoth"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -3,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -3,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000058.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000059.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -137,18 +73,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000059.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -156,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

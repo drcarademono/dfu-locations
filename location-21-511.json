@@ -1,112 +1,168 @@
 {
     "Loaded": true,
-    "Name": "The Graves of Hawksmith",
+    "Name": "The Fox and Goblin Lodge",
     "RegionName": "Anticlere",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 612000000497,
-        "Latitude": 40872,
-        "Longitude": 63656,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 535983772,
+        "Latitude": 43304,
+        "Longitude": 55848,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16300032,
-                "Y": 20068353,
+                "X": 14301184,
+                "Y": 11089921,
                 "IsExterior": 32768,
-                "Unknown2": 371,
-                "LocationId": 18886,
+                "Unknown2": 511,
+                "LocationId": 19400,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Graves of Hawksmith"
+                "LocationName": "The Fox and Goblin Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 12,
+        "Buildings": [
+            {
+                "NameSeed": 20924,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 19400,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 6149,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 19400,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 10227,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 19400,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 1972,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 19400,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 3451,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 19400,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 11834,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 19400,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 31716,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 19400,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 29229,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 19400,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 23414,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 19400,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 17667,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 19400,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 17083,
+                "FactionId": 510,
+                "Sector": 55,
+                "LocationId": 19400,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 21811,
+                "FactionId": 510,
+                "Sector": 71,
+                "LocationId": 19400,
+                "BuildingType": "Tavern",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Graves of Hawksmith",
-            "MapId": 612000000497,
+            "AnotherName": "17083",
+            "MapId": 161436,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS07.RMB"
+                "TVRNAS07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 12269568,
-                "Y": 11384833,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 92,
-                "LocationId": 18887,
-                "IsInterior": 1,
-                "ExteriorLocationId": 18886,
-                "LocationName": "The Graves of Hawksmith"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

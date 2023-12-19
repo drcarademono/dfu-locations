@@ -1,41 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Anvil of Ebonarm",
+    "Name": "Kingcroft Manor",
     "RegionName": "Daenia",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 654000000535,
-        "Latitude": 35496,
-        "Longitude": 68520,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 76606443,
+        "Latitude": 56232,
+        "Longitude": 50600,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17545216,
-                "Y": 21444609,
+                "X": 12957696,
+                "Y": 14399489,
                 "IsExterior": 32768,
-                "Unknown2": 192,
-                "LocationId": 15645,
+                "Unknown2": 73,
+                "LocationId": 13216,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Anvil of Ebonarm"
+                "LocationName": "Kingcroft Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 2553,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 13216,
+                "BuildingType": "House1",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 5332,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 13216,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 4997,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 13216,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 19489,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 13216,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 12153,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 13216,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 28907,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 13216,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 20521,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 13216,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 27703,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 13216,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 1990,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 13216,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 13401,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 13216,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 849,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 13216,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Anvil of Ebonarm",
-            "MapId": 654000000535,
+            "AnotherName": "Kingcroft Manor",
+            "MapId": 60395,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -59,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 169,
     "RegionIndex": 41,

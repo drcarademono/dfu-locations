@@ -1,138 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Copperston Palace",
+    "Name": "Greenford's Hold",
     "RegionName": "Kambria",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 546000000751,
-        "Latitude": 49320,
-        "Longitude": 96168,
-        "LocationType": 10,
-        "DungeonType": 6,
+        "MapId": 32552469,
+        "Latitude": 58024,
+        "Longitude": 78504,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Mine",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24623104,
-                "Y": 17905665,
+                "X": 20101120,
+                "Y": 14858241,
                 "IsExterior": 32768,
-                "Unknown2": 233,
-                "LocationId": 14710,
+                "Unknown2": 31,
+                "LocationId": 12435,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Copperston Palace"
+                "LocationName": "Greenford's Hold"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Copperston Palace",
-            "MapId": 546000000751,
+            "AnotherName": "Greenford's Hold",
+            "MapId": 46613,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA17.RMB"
+                "CASTAA19.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 20559872,
-                "Y": 13678593,
+                "X": 20101120,
+                "Y": 14858241,
                 "IsExterior": 0,
-                "Unknown2": 82,
-                "LocationId": 14711,
+                "Unknown2": 11,
+                "LocationId": 12436,
                 "IsInterior": 1,
-                "ExteriorLocationId": 14710,
-                "LocationName": "Ruins of Copperston Palace"
+                "ExteriorLocationId": 12435,
+                "LocationName": "Greenford's Hold"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 8
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000056.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000058.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000029.RDB",
+                "BlockName": "N0000084.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000011.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": 2,
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -140,12 +84,12 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000003.RDB",
@@ -156,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

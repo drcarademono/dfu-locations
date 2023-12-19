@@ -1,107 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Antelissiwan",
+    "Name": "Old Grurtga's Shack",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 392000000378,
-        "Latitude": 69032,
-        "Longitude": 48416,
-        "LocationType": 2,
-        "DungeonType": 255,
+        "MapId": 169198172,
+        "Latitude": 15656,
+        "Longitude": 55848,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 16777216
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12398592,
-                "Y": 12859393,
+                "X": 14301184,
+                "Y": 4012033,
                 "IsExterior": 32768,
-                "Unknown2": 441,
-                "LocationId": 26679,
+                "Unknown2": 161,
+                "LocationId": 25856,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Antelissiwan"
+                "LocationName": "Old Grurtga's Shack"
             }
         },
-        "BuildingCount": 8,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 15889,
+                "NameSeed": 7846,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26679,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 14688,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 26679,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 1861,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 26679,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 15760,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 26679,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 20666,
-                "FactionId": 510,
-                "Sector": 30,
-                "LocationId": 26679,
-                "BuildingType": 1,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 14056,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 26679,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 27685,
-                "FactionId": 0,
-                "Sector": 48,
-                "LocationId": 26679,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 5933,
-                "FactionId": 510,
-                "Sector": 62,
-                "LocationId": 26679,
-                "BuildingType": 9,
-                "Quality": 1
+                "LocationId": 25856,
+                "BuildingType": "House3",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Antelissiwan",
-            "MapId": 392000000378,
+            "AnotherName": "Old Grurtga's Shack",
+            "MapId": 377436,
             "LocationId": 0,
-            "Width": 2,
+            "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RESIGS02.RMB",
-                "GENRGS02.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -125,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

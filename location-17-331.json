@@ -1,72 +1,64 @@
 {
     "Loaded": true,
-    "Name": "Castle Kingwing",
+    "Name": "The Tombs of Copperhouse",
     "RegionName": "Daggerfall",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 648000000327,
-        "Latitude": 36264,
-        "Longitude": 41896,
-        "LocationType": 7,
-        "DungeonType": 0,
+        "MapId": 347242942,
+        "Latitude": 42920,
+        "Longitude": 36648,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10729472,
-                "Y": 21248001,
+                "X": 9385984,
+                "Y": 10991617,
                 "IsExterior": 32768,
-                "Unknown2": 1113,
-                "LocationId": 21441,
+                "Unknown2": 331,
+                "LocationId": 19578,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle Kingwing"
+                "LocationName": "The Tombs of Copperhouse"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Castle Kingwing",
-            "MapId": 648000000327,
+            "AnotherName": "The Tombs of Copperhouse",
+            "MapId": 164286,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA17.RMB"
+                "GRVEAS31.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 6862848,
-                "Y": 9615361,
+                "X": 9385984,
+                "Y": 10991617,
                 "IsExterior": 0,
-                "Unknown2": 219,
-                "LocationId": 21442,
+                "Unknown2": 57,
+                "LocationId": 19579,
                 "IsInterior": 1,
-                "ExteriorLocationId": 21441,
-                "LocationName": "Castle Kingwing"
+                "ExteriorLocationId": 19578,
+                "LocationName": "The Tombs of Copperhouse"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 5
         },
         "Blocks": [
             {
                 "X": -1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
@@ -76,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000034.RDB",
+                "BlockName": "M0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,15 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,15 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

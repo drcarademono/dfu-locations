@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Coppersly Manor",
+    "Name": "Kinghouse Orchard",
     "RegionName": "Anticlere",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 579000000542,
-        "Latitude": 45096,
-        "Longitude": 69416,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 228731022,
+        "Latitude": 45864,
+        "Longitude": 58152,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17774592,
-                "Y": 18987009,
+                "X": 14891008,
+                "Y": 11745281,
                 "IsExterior": 32768,
-                "Unknown2": 469,
-                "LocationId": 19214,
+                "Unknown2": 218,
+                "LocationId": 18336,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Coppersly Manor"
+                "LocationName": "Kinghouse Orchard"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 27340,
+                "NameSeed": 15736,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 19214,
-                "BuildingType": 17,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 23180,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 19214,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 386,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 19214,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 28928,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 19214,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 3407,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 19214,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 7485,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 19214,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 21958,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 19214,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 20602,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 19214,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 15841,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 19214,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 25367,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 19214,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 7239,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 19214,
-                "BuildingType": 15,
-                "Quality": 1
+                "LocationId": 18336,
+                "BuildingType": "House2",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Coppersly Manor",
-            "MapId": 579000000542,
+            "AnotherName": "Kinghouse Orchard",
+            "MapId": 141454,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "FARMAA06.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

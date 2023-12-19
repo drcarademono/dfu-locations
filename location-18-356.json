@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "THe Crypts of Copperhouse",
+    "Name": "Ruins of The Buckingford Cabin",
     "RegionName": "Glenpoint",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 764000000321,
-        "Latitude": 21416,
-        "Longitude": 41128,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 373427199,
+        "Latitude": 46760,
+        "Longitude": 18344,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Prison",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10532864,
-                "Y": 25049089,
+                "X": 4700160,
+                "Y": 11974657,
                 "IsExterior": 32768,
-                "Unknown2": 169,
-                "LocationId": 16371,
+                "Unknown2": 356,
+                "LocationId": 17866,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "THe Crypts of Copperhouse"
+                "LocationName": "Ruins of The Buckingford Cabin"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "THe Crypts of Copperhouse",
-            "MapId": 764000000321,
+            "AnotherName": "Ruins of The Buckingford Cabin",
+            "MapId": 134143,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS32.RMB"
+                "RUINAA21.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 4798464,
-                "Y": 12826625,
+                "X": 4700160,
+                "Y": 11974657,
                 "IsExterior": 0,
-                "Unknown2": 54,
-                "LocationId": 16372,
+                "Unknown2": 116,
+                "LocationId": 17867,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16371,
-                "LocationName": "THe Crypts of Copperhouse"
+                "ExteriorLocationId": 17866,
+                "LocationName": "Ruins of The Buckingford Cabin"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000016.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

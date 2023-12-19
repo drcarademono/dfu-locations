@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Kieran Theatre",
+    "Name": "The Hawkwing Farmstead",
     "RegionName": "Betony",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 648000000230,
-        "Latitude": 36264,
-        "Longitude": 29480,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 22290211,
+        "Latitude": 29352,
+        "Longitude": 14760,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 7550976,
-                "Y": 21248001,
+                "X": 3782656,
+                "Y": 7518209,
                 "IsExterior": 32768,
-                "Unknown2": 0,
-                "LocationId": 22553,
+                "Unknown2": 21,
+                "LocationId": 22718,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kieran Theatre"
+                "LocationName": "The Hawkwing Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 31069,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 22718,
+                "BuildingType": "House2",
+                "Quality": 11
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Kieran Theatre",
-            "MapId": 648000000230,
+            "AnotherName": "The Hawkwing Farmstead",
+            "MapId": 270115,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "FARMAA05.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 147,
     "RegionIndex": 19,

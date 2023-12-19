@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Burning Ascencion of Kynareth",
+    "Name": "The Cave of Balorgon",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 335000001004,
-        "Latitude": 76328,
-        "Longitude": 128552,
-        "LocationType": 5,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16
+        "MapId": 225459674,
+        "Latitude": 61992,
+        "Longitude": 106792,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "VolcanicCaves",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 32913408,
-                "Y": 10991617,
+                "X": 27342848,
+                "Y": 15874049,
                 "IsExterior": 32768,
-                "Unknown2": 1591,
-                "LocationId": 18181,
+                "Unknown2": 215,
+                "LocationId": 10700,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Burning Ascencion of Kynareth"
+                "LocationName": "The Cave of Balorgon"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 2314,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 18181,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 9413,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 18181,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 25173,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 18181,
-                "BuildingType": 19,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 874,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 18181,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 23396,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 18181,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 7716,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 18181,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 768,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 18181,
-                "BuildingType": 19,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 17688,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 18181,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 20262,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 18181,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 2997,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 18181,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 21526,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 18181,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 4050,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 18181,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 4031,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 18181,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 28246,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 18181,
-                "BuildingType": 14,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Burning Ascencion of Kynareth",
-            "MapId": 335000001004,
+            "AnotherName": "The Cave of Balorgon",
+            "MapId": 15834,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "DUNGAA02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 27342848,
+                "Y": 15874049,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 78,
+                "LocationId": 10701,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10700,
+                "LocationName": "The Cave of Balorgon"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 11
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000025.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

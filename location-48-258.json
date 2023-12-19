@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Sirdam Farmstead",
+    "Name": "Tlurt Orchard",
     "RegionName": "Tigonus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 389000000509,
-        "Latitude": 69416,
-        "Longitude": 65192,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 270891082,
+        "Latitude": 18088,
+        "Longitude": 60712,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16693248,
-                "Y": 12761089,
+                "X": 15546368,
+                "Y": 4634625,
                 "IsExterior": 32768,
-                "Unknown2": 162,
-                "LocationId": 24388,
+                "Unknown2": 258,
+                "LocationId": 25070,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Sirdam Farmstead"
+                "LocationName": "Tlurt Orchard"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 30697,
+                "NameSeed": 11834,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 24388,
-                "BuildingType": 18,
-                "Quality": 12
+                "LocationId": 25070,
+                "BuildingType": "House2",
+                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Sirdam Farmstead",
-            "MapId": 389000000509,
+            "AnotherName": "Tlurt Orchard",
+            "MapId": 358474,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 2,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 228,
-        "ClimateType": 400,
-        "NatureSet": 502,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_Swamp",
         "GroundArchive": 402,
         "NatureArchive": 502,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

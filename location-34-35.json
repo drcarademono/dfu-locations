@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Buckinghart Plantation",
+    "Name": "Copperwing Hall",
     "RegionName": "Alcaire",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 446000000818,
-        "Latitude": 62120,
-        "Longitude": 104744,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 36805861,
+        "Latitude": 50472,
+        "Longitude": 89768,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26818560,
-                "Y": 14628865,
+                "X": 22984704,
+                "Y": 12924929,
                 "IsExterior": 32768,
-                "Unknown2": 133,
-                "LocationId": 17993,
+                "Unknown2": 35,
+                "LocationId": 16200,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Buckinghart Plantation"
+                "LocationName": "Copperwing Hall"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 8700,
+                "NameSeed": 2960,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 17993,
-                "BuildingType": 18,
-                "Quality": 6
+                "LocationId": 16200,
+                "BuildingType": "House1",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 11663,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 16200,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 28735,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 16200,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 17540,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 16200,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 26053,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 16200,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 23394,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 16200,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 14598,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 16200,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 29930,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 16200,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 29548,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 16200,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 1220,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 16200,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 16377,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 16200,
+                "BuildingType": "Tavern",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Buckinghart Plantation",
-            "MapId": 446000000818,
+            "AnotherName": "Copperwing Hall",
+            "MapId": 105701,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 2,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA04.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 162,
     "RegionIndex": 34,

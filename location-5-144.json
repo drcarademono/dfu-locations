@@ -1,136 +1,144 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Greenston Court",
+    "Name": "Masterhart Palace",
     "RegionName": "Dwynnen",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 573000000682,
-        "Latitude": 45864,
-        "Longitude": 87336,
-        "LocationType": 10,
-        "DungeonType": 4,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 151028511,
+        "Latitude": 59688,
+        "Longitude": 72616,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22362112,
-                "Y": 18790401,
+                "X": 18593792,
+                "Y": 15284225,
                 "IsExterior": 32768,
-                "Unknown2": 562,
-                "LocationId": 15405,
+                "Unknown2": 144,
+                "LocationId": 11683,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Greenston Court"
+                "LocationName": "Masterhart Palace"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 18421,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 11683,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 21507,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 11683,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 20067,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 11683,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 1282,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 11683,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 16593,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 11683,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 26525,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 11683,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 13614,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 11683,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 11802,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 11683,
+                "BuildingType": "Tavern",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 17139,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 11683,
+                "BuildingType": "House1",
+                "Quality": 6
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Greenston Court",
-            "MapId": 573000000682,
+            "AnotherName": "Masterhart Palace",
+            "MapId": 33567,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA15.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18167808,
-                "Y": 13318145,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 99,
-                "LocationId": 15406,
-                "IsInterior": 1,
-                "ExteriorLocationId": 15405,
-                "LocationName": "Ruins of Greenston Court"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000052.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

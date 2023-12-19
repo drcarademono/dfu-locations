@@ -1,138 +1,98 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Old Cirn Shack",
+    "Name": "Ruins of Nhestur Hall",
     "RegionName": "Mournoth",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 149000000912,
-        "Latitude": 100136,
-        "Longitude": 116776,
-        "LocationType": 10,
-        "DungeonType": 15,
+        "MapId": 83137439,
+        "Latitude": 25640,
+        "Longitude": 119720,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Crypt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29898752,
-                "Y": 4896769,
+                "X": 30652416,
+                "Y": 6567937,
                 "IsExterior": 32768,
-                "Unknown2": 281,
-                "LocationId": 24645,
+                "Unknown2": 79,
+                "LocationId": 23218,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Old Cirn Shack"
+                "LocationName": "Ruins of Nhestur Hall"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Old Cirn Shack",
-            "MapId": 149000000912,
+            "AnotherName": "Ruins of Nhestur Hall",
+            "MapId": 299935,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA19.RMB"
+                "RUINAA22.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31635456,
-                "Y": 5027841,
+                "X": 30652416,
+                "Y": 6567937,
                 "IsExterior": 0,
-                "Unknown2": 69,
-                "LocationId": 24646,
+                "Unknown2": 19,
+                "LocationId": 23219,
                 "IsInterior": 1,
-                "ExteriorLocationId": 24645,
-                "LocationName": "Ruins of The Old Cirn Shack"
+                "ExteriorLocationId": 23218,
+                "LocationName": "Ruins of Nhestur Hall"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 8
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000024.RDB",
+                "BlockName": "W0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000071.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000049.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 2,
+                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

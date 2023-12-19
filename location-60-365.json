@@ -1,146 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Kingston Manor",
+    "Name": "The Greening Plantation",
     "RegionName": "Ilessan Hills",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 728000000442,
-        "Latitude": 26024,
-        "Longitude": 56616,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 382818522,
+        "Latitude": 52648,
+        "Longitude": 36136,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14497792,
-                "Y": 23869441,
+                "X": 9254912,
+                "Y": 13481985,
                 "IsExterior": 32768,
-                "Unknown2": 265,
-                "LocationId": 14445,
+                "Unknown2": 365,
+                "LocationId": 15082,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kingston Manor"
+                "LocationName": "The Greening Plantation"
             }
         },
-        "BuildingCount": 13,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 4904,
+                "NameSeed": 4661,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 14445,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 15780,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 14445,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 10077,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 14445,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 4606,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 14445,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 24206,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 14445,
-                "BuildingType": 18,
+                "LocationId": 15082,
+                "BuildingType": "House2",
                 "Quality": 5
-            },
-            {
-                "NameSeed": 18461,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 14445,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 21143,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 14445,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 8490,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 14445,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 21035,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 14445,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 3879,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 14445,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 1050,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 14445,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 11667,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 14445,
-                "BuildingType": 15,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 29232,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 14445,
-                "BuildingType": 17,
-                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Kingston Manor",
-            "MapId": 728000000442,
+            "AnotherName": "The Greening Plantation",
+            "MapId": 88282,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -164,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

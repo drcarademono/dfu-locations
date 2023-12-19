@@ -1,160 +1,176 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Old Vyctyn's Place",
+    "Name": "Yeomhart Manor",
     "RegionName": "Dwynnen",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 587000000725,
-        "Latitude": 44072,
-        "Longitude": 92840,
-        "LocationType": 10,
-        "DungeonType": 2,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 239118883,
+        "Latitude": 58408,
+        "Longitude": 71080,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23771136,
-                "Y": 19249153,
+                "X": 18200576,
+                "Y": 14956545,
                 "IsExterior": 32768,
-                "Unknown2": 371,
-                "LocationId": 13227,
+                "Unknown2": 228,
+                "LocationId": 12252,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Old Vyctyn's Place"
+                "LocationName": "Yeomhart Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 14084,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 12252,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 31025,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 12252,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 16485,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 12252,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 1731,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 12252,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 21463,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 12252,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 5680,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 12252,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 5527,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 12252,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 19296,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 12252,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 3557,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 12252,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 10742,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 12252,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 13461,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 12252,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 25197,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 12252,
+                "BuildingType": "Tavern",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 30028,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 12252,
+                "BuildingType": "House1",
+                "Quality": 8
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Old Vyctyn's Place",
-            "MapId": 587000000725,
+            "AnotherName": "Yeomhart Manor",
+            "MapId": 43555,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA21.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19150848,
-                "Y": 14399489,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 60,
-                "LocationId": 13228,
-                "IsInterior": 1,
-                "ExteriorLocationId": 13227,
-                "LocationName": "Ruins of Old Vyctyn's Place"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 11
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000078.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000065.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000023.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

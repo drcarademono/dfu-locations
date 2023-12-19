@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Gaersmith Hall",
+    "Name": "The Haunt of Balthuleon",
     "RegionName": "Dwynnen",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 610000000708,
-        "Latitude": 41128,
-        "Longitude": 90664,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 438374299,
+        "Latitude": 55080,
+        "Longitude": 68008,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "VampireHaunt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23214080,
-                "Y": 20002817,
+                "X": 17414144,
+                "Y": 14104577,
                 "IsExterior": 32768,
-                "Unknown2": 271,
-                "LocationId": 12534,
+                "Unknown2": 418,
+                "LocationId": 13766,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Gaersmith Hall"
+                "LocationName": "The Haunt of Balthuleon"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 5726,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 12534,
-                "BuildingType": 17,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 5983,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 12534,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 11853,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 12534,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 11446,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 12534,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 25298,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 12534,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 16533,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 12534,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 7890,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 12534,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 9452,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 12534,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 24810,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 12534,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 12026,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 12534,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 7590,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 12534,
-                "BuildingType": 15,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Gaersmith Hall",
-            "MapId": 610000000708,
+            "AnotherName": "The Haunt of Balthuleon",
+            "MapId": 69531,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "DUNGAA04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 17414144,
+                "Y": 14104577,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 70,
+                "LocationId": 13767,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13766,
+                "LocationName": "The Haunt of Balthuleon"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000021.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

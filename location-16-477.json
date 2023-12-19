@@ -1,64 +1,72 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Tower of Ashston",
+    "Name": "The Haunt of Corrivarus",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 391000000986,
-        "Latitude": 69160,
-        "Longitude": 126248,
-        "LocationType": 10,
-        "DungeonType": 5,
+        "MapId": 500206470,
+        "Latitude": 59432,
+        "Longitude": 91944,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "VampireHaunt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 32323584,
-                "Y": 12826625,
+                "X": 23541760,
+                "Y": 15218689,
                 "IsExterior": 32768,
-                "Unknown2": 1210,
-                "LocationId": 15815,
+                "Unknown2": 477,
+                "LocationId": 11808,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Tower of Ashston"
+                "LocationName": "The Haunt of Corrivarus"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Tower of Ashston",
-            "MapId": 391000000986,
+            "AnotherName": "The Haunt of Corrivarus",
+            "MapId": 35718,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA04.RMB"
+                "DUNGAA18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 29767680,
-                "Y": 13121537,
+                "X": 23541760,
+                "Y": 15218689,
                 "IsExterior": 0,
-                "Unknown2": 454,
-                "LocationId": 15816,
+                "Unknown2": 179,
+                "LocationId": 11809,
                 "IsInterior": 1,
-                "ExteriorLocationId": 15815,
-                "LocationName": "Ruins of The Tower of Ashston"
+                "ExteriorLocationId": 11808,
+                "LocationName": "The Haunt of Corrivarus"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 14
         },
         "Blocks": [
             {
-                "X": -2,
+                "X": 0,
                 "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000031.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
@@ -66,49 +74,9 @@
             },
             {
                 "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

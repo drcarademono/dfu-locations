@@ -1,50 +1,74 @@
 {
     "Loaded": true,
-    "Name": "Vornem Grange",
+    "Name": "Raarcke Manor",
     "RegionName": "Myrkwasa",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 416000000290,
-        "Latitude": 65960,
-        "Longitude": 37160,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 54942260,
+        "Latitude": 10664,
+        "Longitude": 39464,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9517056,
-                "Y": 13645825,
+                "X": 10106880,
+                "Y": 2734081,
                 "IsExterior": 32768,
-                "Unknown2": 76,
-                "LocationId": 27366,
+                "Unknown2": 52,
+                "LocationId": 27091,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Vornem Grange"
+                "LocationName": "Raarcke Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 11170,
+                "NameSeed": 20208,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27366,
-                "BuildingType": 18,
-                "Quality": 6
+                "LocationId": 27091,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 8603,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 27091,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 24467,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 27091,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 16102,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 27091,
+                "BuildingType": "House1",
+                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Vornem Grange",
-            "MapId": 416000000290,
+            "AnotherName": "Raarcke Manor",
+            "MapId": 416308,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA08.RMB"
+                "MANRGS00.RMB"
             ]
         }
     },
@@ -68,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

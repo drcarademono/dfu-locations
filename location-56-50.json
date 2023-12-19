@@ -1,63 +1,79 @@
 {
     "Loaded": true,
-    "Name": "The Cairn of Marquis Barovar",
+    "Name": "The Nest of Druvor",
     "RegionName": "Bergama",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 330000000389,
-        "Latitude": 76968,
-        "Longitude": 49832,
-        "LocationType": 4,
-        "DungeonType": 0,
+        "MapId": 52907240,
+        "Latitude": 2728,
+        "Longitude": 56360,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "ScorpionNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12761088,
-                "Y": 10827777,
+                "X": 14432256,
+                "Y": 702465,
                 "IsExterior": 32768,
-                "Unknown2": 5,
-                "LocationId": 28057,
+                "Unknown2": 50,
+                "LocationId": 28896,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Cairn of Marquis Barovar"
+                "LocationName": "The Nest of Druvor"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Cairn of Marquis Barovar",
-            "MapId": 330000000389,
+            "AnotherName": "The Nest of Druvor",
+            "MapId": 478440,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA17.RMB"
+                "DUNGAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 13809664,
-                "Y": 1619969,
+                "X": 14432256,
+                "Y": 702465,
                 "IsExterior": 0,
-                "Unknown2": 1,
-                "LocationId": 28058,
+                "Unknown2": 11,
+                "LocationId": 28897,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28057,
-                "LocationName": "The Cairn of Marquis Barovar"
+                "ExteriorLocationId": 28896,
+                "LocationName": "The Nest of Druvor"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -2,
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000029.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000001.RDB",
@@ -65,58 +81,18 @@
                 "CastleBlock": false
             },
             {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000068.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 184,
     "RegionIndex": 56,

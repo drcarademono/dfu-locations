@@ -1,50 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Old Kreghttha's Farm",
+    "Name": "The Flying Jug Lodge",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 425000000371,
-        "Latitude": 64808,
-        "Longitude": 47528,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 411439225,
+        "Latitude": 13096,
+        "Longitude": 55464,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12171264,
-                "Y": 13940737,
+                "X": 14202880,
+                "Y": 3356673,
                 "IsExterior": 32768,
-                "Unknown2": 154,
-                "LocationId": 25848,
+                "Unknown2": 392,
+                "LocationId": 26529,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Kreghttha's Farm"
+                "LocationName": "The Flying Jug Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 3,
         "Buildings": [
             {
-                "NameSeed": 19336,
+                "NameSeed": 12557,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25848,
-                "BuildingType": 18,
-                "Quality": 11
+                "LocationId": 26529,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 23282,
+                "FactionId": 510,
+                "Sector": 11,
+                "LocationId": 26529,
+                "BuildingType": "House1",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 27608,
+                "FactionId": 510,
+                "Sector": 24,
+                "LocationId": 26529,
+                "BuildingType": "Tavern",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Kreghttha's Farm",
-            "MapId": 425000000371,
+            "AnotherName": "27608",
+            "MapId": 397433,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA04.RMB"
+                "TVRNBS03.RMB"
             ]
         }
     },
@@ -67,14 +83,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

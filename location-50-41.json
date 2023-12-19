@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Old Foch-si's Shack",
+    "Name": "V'erhtur Manor",
     "RegionName": "Satakalaam",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 250000000822,
-        "Latitude": 87208,
-        "Longitude": 105256,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 43284439,
+        "Latitude": 26536,
+        "Longitude": 105384,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26949632,
-                "Y": 8206337,
+                "X": 26982400,
+                "Y": 6797313,
                 "IsExterior": 32768,
-                "Unknown2": 95,
-                "LocationId": 23323,
+                "Unknown2": 41,
+                "LocationId": 23039,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Foch-si's Shack"
+                "LocationName": "V'erhtur Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 17272,
+                "NameSeed": 23414,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23323,
-                "BuildingType": 19,
+                "LocationId": 23039,
+                "BuildingType": "House1",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 17667,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 23039,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 14646,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 23039,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 13359,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 23039,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 13573,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 23039,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 11855,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 23039,
+                "BuildingType": "House2",
                 "Quality": 6
+            },
+            {
+                "NameSeed": 4564,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 23039,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 28904,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 23039,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 27403,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 23039,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 1367,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 23039,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 2452,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 23039,
+                "BuildingType": "Tavern",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Foch-si's Shack",
-            "MapId": 250000000822,
+            "AnotherName": "V'erhtur Manor",
+            "MapId": 292823,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 178,
     "RegionIndex": 50,

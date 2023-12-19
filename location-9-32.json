@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Gerateusulla Hole",
+    "Name": "Ruins of The Greening Cabin",
     "RegionName": "Isle of Balfiera",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 408000000724,
-        "Latitude": 66984,
-        "Longitude": 92712,
-        "LocationType": 4,
-        "DungeonType": 16,
+        "MapId": 33756086,
+        "Latitude": 38184,
+        "Longitude": 83752,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23738368,
-                "Y": 13383681,
+                "X": 21444608,
+                "Y": 9779201,
                 "IsExterior": 32768,
-                "Unknown2": 47,
-                "LocationId": 21804,
+                "Unknown2": 32,
+                "LocationId": 21240,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Gerateusulla Hole"
+                "LocationName": "Ruins of The Greening Cabin"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Gerateusulla Hole",
-            "MapId": 408000000724,
+            "AnotherName": "Ruins of The Greening Cabin",
+            "MapId": 201654,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 2,
             "BlockNames": [
-                "DUNGAA02.RMB"
+                "RUINAA23.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 22067200,
-                "Y": 9320449,
+                "X": 21444608,
+                "Y": 9779201,
                 "IsExterior": 0,
-                "Unknown2": 32,
-                "LocationId": 21805,
+                "Unknown2": 21,
+                "LocationId": 21241,
                 "IsInterior": 1,
-                "ExteriorLocationId": 21804,
-                "LocationName": "The Gerateusulla Hole"
+                "ExteriorLocationId": 21240,
+                "LocationName": "Ruins of The Greening Cabin"
             }
         },
         "Header": {
-            "BlockCount": 11
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000021.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -73,88 +73,40 @@
                 "CastleBlock": false
             },
             {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
                 "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000090.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000057.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
-        "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
+        "SkyBase": 16,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 137,
     "RegionIndex": 9,

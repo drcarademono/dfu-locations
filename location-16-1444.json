@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Old Hawkham Shack",
+    "Name": "The Hawkfield Farmstead",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 506000000897,
-        "Latitude": 54440,
-        "Longitude": 114856,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 1514266545,
+        "Latitude": 48296,
+        "Longitude": 102568,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29407232,
-                "Y": 16594945,
+                "X": 26261504,
+                "Y": 12367873,
                 "IsExterior": 32768,
-                "Unknown2": 612,
-                "LocationId": 12340,
+                "Unknown2": 1444,
+                "LocationId": 17230,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Hawkham Shack"
+                "LocationName": "The Hawkfield Farmstead"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 467,
+                "NameSeed": 3583,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 12340,
-                "BuildingType": 19,
-                "Quality": 9
+                "LocationId": 17230,
+                "BuildingType": "House2",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Hawkham Shack",
-            "MapId": 506000000897,
+            "AnotherName": "The Hawkfield Farmstead",
+            "MapId": 122801,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

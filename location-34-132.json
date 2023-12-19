@@ -1,71 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Alcaire Coven",
+    "Name": "Ruins of Moorford Manor",
     "RegionName": "Alcaire",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 489000000807,
-        "Latitude": 56615,
-        "Longitude": 103352,
-        "LocationType": 13,
-        "DungeonType": 255,
+        "MapId": 138547749,
+        "Latitude": 46632,
+        "Longitude": 91816,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "GiantStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26462208,
-                "Y": 16037633,
+                "X": 23508992,
+                "Y": 11941889,
                 "IsExterior": 32768,
-                "Unknown2": 32,
-                "LocationId": 50010,
+                "Unknown2": 132,
+                "LocationId": 17991,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Alcaire Coven"
+                "LocationName": "Ruins of Moorford Manor"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Alcaire Coven",
-            "MapId": 489000000807,
-            "LocationId": 50010,
+            "AnotherName": "Ruins of Moorford Manor",
+            "MapId": 135717,
+            "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 3,
             "BlockNames": [
-                "WITCAA13.RMB"
+                "RUINAA13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 23508992,
+                "Y": 11941889,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 34,
+                "LocationId": 17992,
+                "IsInterior": 1,
+                "ExteriorLocationId": 17991,
+                "LocationName": "Ruins of Moorford Manor"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000027.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 162,
     "RegionIndex": 34,

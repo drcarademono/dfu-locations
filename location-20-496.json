@@ -1,137 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Tasu-Gora",
+    "Name": "The Nest of Drugadon",
     "RegionName": "Sentinel",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 438000000404,
-        "Latitude": 63144,
-        "Longitude": 51744,
-        "LocationType": 2,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16777216
+        "MapId": 520502103,
+        "Latitude": 11688,
+        "Longitude": 52136,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "ScorpionNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13250560,
-                "Y": 14366721,
+                "X": 13350912,
+                "Y": 2996225,
                 "IsExterior": 32768,
-                "Unknown2": 19,
-                "LocationId": 24722,
+                "Unknown2": 496,
+                "LocationId": 26866,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Tasu-Gora"
+                "LocationName": "The Nest of Drugadon"
             }
         },
-        "BuildingCount": 8,
-        "Buildings": [
-            {
-                "NameSeed": 14554,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 24722,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 32117,
-                "FactionId": 510,
-                "Sector": 11,
-                "LocationId": 24722,
-                "BuildingType": 1,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 30766,
-                "FactionId": 0,
-                "Sector": 19,
-                "LocationId": 24722,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 24546,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 24722,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 1850,
-                "FactionId": 510,
-                "Sector": 43,
-                "LocationId": 24722,
-                "BuildingType": 9,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 10215,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 24722,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 2879,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 24722,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 13380,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 24722,
-                "BuildingType": 18,
-                "Quality": 5
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Tasu-Gora",
-            "MapId": 438000000404,
+            "AnotherName": "The Nest of Drugadon",
+            "MapId": 408407,
             "LocationId": 0,
-            "Width": 2,
+            "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GENRGS02.RMB",
-                "RESIGS02.RMB"
+                "DUNGAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 13350912,
+                "Y": 2996225,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 101,
+                "LocationId": 26867,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26866,
+                "LocationName": "The Nest of Drugadon"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000024.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

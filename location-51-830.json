@@ -1,130 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Devil's Ogre Inn",
+    "Name": "Ghurm Manor",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 260000000758,
-        "Latitude": 85928,
-        "Longitude": 97064,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 870696997,
+        "Latitude": 15528,
+        "Longitude": 117416,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24852480,
-                "Y": 8534017,
+                "X": 30062592,
+                "Y": 3979265,
                 "IsExterior": 32768,
-                "Unknown2": 69,
-                "LocationId": 23961,
+                "Unknown2": 830,
+                "LocationId": 25924,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Devil's Ogre Inn"
+                "LocationName": "Ghurm Manor"
             }
         },
         "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 3430,
-                "FactionId": 510,
+                "NameSeed": 24826,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23961,
-                "BuildingType": 15,
-                "Quality": 15
+                "LocationId": 25924,
+                "BuildingType": "House1",
+                "Quality": 2
             },
             {
-                "NameSeed": 19019,
+                "NameSeed": 12929,
                 "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 23961,
-                "BuildingType": 18,
-                "Quality": 4
+                "Sector": 16,
+                "LocationId": 25924,
+                "BuildingType": "House2",
+                "Quality": 5
             },
             {
-                "NameSeed": 14253,
+                "NameSeed": 18653,
                 "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 23961,
-                "BuildingType": 18,
+                "Sector": 26,
+                "LocationId": 25924,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 29740,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 25924,
+                "BuildingType": "House2",
                 "Quality": 8
             },
             {
-                "NameSeed": 28303,
+                "NameSeed": 9816,
                 "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 23961,
-                "BuildingType": 18,
-                "Quality": 13
+                "Sector": 41,
+                "LocationId": 25924,
+                "BuildingType": "House2",
+                "Quality": 2
             },
             {
-                "NameSeed": 29502,
+                "NameSeed": 3619,
                 "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 23961,
-                "BuildingType": 18,
+                "Sector": 51,
+                "LocationId": 25924,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 9112,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 25924,
+                "BuildingType": "House2",
                 "Quality": 15
             },
             {
-                "NameSeed": 7563,
+                "NameSeed": 5166,
                 "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 23961,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 14537,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 23961,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 24678,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 23961,
-                "BuildingType": 18,
+                "Sector": 61,
+                "LocationId": 25924,
+                "BuildingType": "House2",
                 "Quality": 11
             },
             {
-                "NameSeed": 8681,
+                "NameSeed": 13422,
                 "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 23961,
-                "BuildingType": 18,
-                "Quality": 4
+                "Sector": 69,
+                "LocationId": 25924,
+                "BuildingType": "House2",
+                "Quality": 2
             },
             {
-                "NameSeed": 10246,
+                "NameSeed": 11943,
                 "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 23961,
-                "BuildingType": 19,
-                "Quality": 13
+                "Sector": 78,
+                "LocationId": 25924,
+                "BuildingType": "House2",
+                "Quality": 6
             },
             {
-                "NameSeed": 31307,
-                "FactionId": 0,
-                "Sector": 93,
-                "LocationId": 23961,
-                "BuildingType": 19,
-                "Quality": 4
+                "NameSeed": 29508,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 25924,
+                "BuildingType": "Tavern",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "3430",
-            "MapId": 260000000758,
+            "AnotherName": "Ghurm Manor",
+            "MapId": 378917,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS05.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -148,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

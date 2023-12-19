@@ -1,82 +1,154 @@
 {
     "Loaded": true,
-    "Name": "The Dancing Badger Inn",
+    "Name": "The Dwarf and Sword Lodge",
     "RegionName": "Tigonus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 365000000525,
-        "Latitude": 72488,
-        "Longitude": 67240,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 139795103,
+        "Latitude": 21160,
+        "Longitude": 63400,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17217536,
-                "Y": 11974657,
+                "X": 16234496,
+                "Y": 5421057,
                 "IsExterior": 32768,
-                "Unknown2": 229,
-                "LocationId": 24837,
+                "Unknown2": 133,
+                "LocationId": 24189,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dancing Badger Inn"
+                "LocationName": "The Dwarf and Sword Lodge"
             }
         },
-        "BuildingCount": 5,
+        "BuildingCount": 14,
         "Buildings": [
             {
-                "NameSeed": 8360,
-                "FactionId": 0,
+                "NameSeed": 21747,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 24837,
-                "BuildingType": 18,
-                "Quality": 5
+                "LocationId": 24189,
+                "BuildingType": "Tavern",
+                "Quality": 10
             },
             {
-                "NameSeed": 26738,
+                "NameSeed": 21278,
                 "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 24837,
-                "BuildingType": 18,
-                "Quality": 4
+                "Sector": 26,
+                "LocationId": 24189,
+                "BuildingType": "House2",
+                "Quality": 11
             },
             {
-                "NameSeed": 25280,
+                "NameSeed": 17538,
                 "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 24837,
-                "BuildingType": 18,
-                "Quality": 4
+                "Sector": 29,
+                "LocationId": 24189,
+                "BuildingType": "House2",
+                "Quality": 15
             },
             {
-                "NameSeed": 6582,
+                "NameSeed": 166,
                 "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 24837,
-                "BuildingType": 18,
+                "Sector": 34,
+                "LocationId": 24189,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 19787,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 24189,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 3728,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 24189,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 13723,
+                "FactionId": 0,
+                "Sector": 56,
+                "LocationId": 24189,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 25150,
+                "FactionId": 0,
+                "Sector": 64,
+                "LocationId": 24189,
+                "BuildingType": "House2",
                 "Quality": 1
             },
             {
-                "NameSeed": 31595,
-                "FactionId": 510,
-                "Sector": 23,
-                "LocationId": 24837,
-                "BuildingType": 15,
+                "NameSeed": 24870,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 24189,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 27317,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 24189,
+                "BuildingType": "House2",
                 "Quality": 6
+            },
+            {
+                "NameSeed": 14408,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 24189,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 27036,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 24189,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 16854,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 24189,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 24167,
+                "FactionId": 0,
+                "Sector": 90,
+                "LocationId": 24189,
+                "BuildingType": "House2",
+                "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "31595",
-            "MapId": 365000000525,
+            "AnotherName": "21747",
+            "MapId": 334495,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS01.RMB"
+                "TVRNAS01.RMB"
             ]
         }
     },
@@ -99,14 +171,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
-        "GroundArchive": 2,
-        "NatureArchive": 501,
+        "WorldClimate": 228,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_Swamp",
+        "GroundArchive": 402,
+        "NatureArchive": 502,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

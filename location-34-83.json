@@ -1,82 +1,90 @@
 {
     "Loaded": true,
-    "Name": "The Fortress of Woodton",
+    "Name": "Ruins of Mastercroft Manor",
     "RegionName": "Alcaire",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 470000000826,
-        "Latitude": 59048,
-        "Longitude": 105768,
-        "LocationType": 7,
-        "DungeonType": 8,
+        "MapId": 87154528,
+        "Latitude": 48296,
+        "Longitude": 92200,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "GiantStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27080704,
-                "Y": 15415297,
+                "X": 23607296,
+                "Y": 12367873,
                 "IsExterior": 32768,
-                "Unknown2": 53,
-                "LocationId": 16541,
+                "Unknown2": 83,
+                "LocationId": 17221,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Fortress of Woodton"
+                "LocationName": "Ruins of Mastercroft Manor"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Fortress of Woodton",
-            "MapId": 470000000826,
+            "AnotherName": "Ruins of Mastercroft Manor",
+            "MapId": 122720,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA32.RMB"
+                "RUINAA20.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23934976,
-                "Y": 12761089,
+                "X": 23607296,
+                "Y": 12367873,
                 "IsExterior": 0,
-                "Unknown2": 12,
-                "LocationId": 16542,
+                "Unknown2": 23,
+                "LocationId": 17222,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16541,
-                "LocationName": "The Fortress of Woodton"
+                "ExteriorLocationId": 17221,
+                "LocationName": "Ruins of Mastercroft Manor"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 10
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000003.RDB",
+                "BlockName": "N0000027.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,53 +92,21 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000025.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
                 "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
-        "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
+        "SkyBase": 16,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 162,
     "RegionIndex": 34,

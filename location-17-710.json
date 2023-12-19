@@ -1,152 +1,184 @@
 {
     "Loaded": true,
-    "Name": "Castle Corroghar",
+    "Name": "Gentle Martyr of Kynareth",
     "RegionName": "Daggerfall",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 676000000377,
-        "Latitude": 32680,
-        "Longitude": 48296,
-        "LocationType": 4,
-        "DungeonType": 8,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 744674179,
+        "Latitude": 40232,
+        "Longitude": 28072,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12367872,
-                "Y": 22165505,
+                "X": 7190528,
+                "Y": 10303489,
                 "IsExterior": 32768,
-                "Unknown2": 176,
-                "LocationId": 19131,
+                "Unknown2": 710,
+                "LocationId": 20495,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle Corroghar"
+                "LocationName": "Gentle Martyr of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 14045,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 20495,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 15459,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 20495,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 19769,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 20495,
+                "BuildingType": "House3",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 9707,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 20495,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 24977,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 20495,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 16186,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 20495,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 10156,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 20495,
+                "BuildingType": "House3",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 3879,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 20495,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 1050,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 20495,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 8360,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 20495,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 26738,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 20495,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 25280,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 20495,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 6582,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 20495,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 6875,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 20495,
+                "BuildingType": "Temple",
+                "Quality": 14
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Castle Corroghar",
-            "MapId": 676000000377,
+            "AnotherName": "Gentle Martyr of Kynareth",
+            "MapId": 185219,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA16.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 7813120,
-                "Y": 11220993,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 29,
-                "LocationId": 19132,
-                "IsInterior": 1,
-                "ExteriorLocationId": 19131,
-                "LocationName": "Castle Corroghar"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000019.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000036.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

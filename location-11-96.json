@@ -1,98 +1,90 @@
 {
     "Loaded": true,
-    "Name": "The Web of Gromtor",
+    "Name": "Baust-si Cultus",
     "RegionName": "Dak'fron",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 221000000525,
-        "Latitude": 90920,
-        "Longitude": 67240,
-        "LocationType": 4,
-        "DungeonType": 17,
+        "MapId": 101137944,
+        "Latitude": 3240,
+        "Longitude": 82984,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Coven",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17217536,
-                "Y": 7256065,
+                "X": 21248000,
+                "Y": 833537,
                 "IsExterior": 32768,
-                "Unknown2": 109,
-                "LocationId": 28869,
+                "Unknown2": 96,
+                "LocationId": 28764,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Web of Gromtor"
+                "LocationName": "Baust-si Cultus"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Web of Gromtor",
-            "MapId": 221000000525,
+            "AnotherName": "Baust-si Cultus",
+            "MapId": 474648,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA05.RMB"
+                "DUNGAA10.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19478528,
-                "Y": 735233,
+                "X": 21248000,
+                "Y": 833537,
                 "IsExterior": 0,
-                "Unknown2": 73,
-                "LocationId": 28870,
+                "Unknown2": 65,
+                "LocationId": 28765,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28869,
-                "LocationName": "The Web of Gromtor"
+                "ExteriorLocationId": 28764,
+                "LocationName": "Baust-si Cultus"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 12
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000021.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000054.RDB",
+                "BlockName": "W0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -103,34 +95,18 @@
                 "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
             }
         ]
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

@@ -1,35 +1,35 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Old Bartrn Place",
+    "Name": "Ruins of Castle Nhecter",
     "RegionName": "Dak'fron",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 240000000523,
-        "Latitude": 88488,
-        "Longitude": 66984,
-        "LocationType": 10,
-        "DungeonType": 14,
+        "MapId": 146237703,
+        "Latitude": 1832,
+        "Longitude": 81832,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "DragonsDen",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17152000,
-                "Y": 7878657,
+                "X": 20953088,
+                "Y": 473089,
                 "IsExterior": 32768,
-                "Unknown2": 54,
-                "LocationId": 28386,
+                "Unknown2": 139,
+                "LocationId": 29103,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Old Bartrn Place"
+                "LocationName": "Ruins of Castle Nhecter"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Old Bartrn Place",
-            "MapId": 240000000523,
+            "AnotherName": "Ruins of Castle Nhecter",
+            "MapId": 485639,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
@@ -42,81 +42,41 @@
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19118080,
-                "Y": 1259521,
+                "X": 20953088,
+                "Y": 473089,
                 "IsExterior": 0,
-                "Unknown2": 37,
-                "LocationId": 28387,
+                "Unknown2": 90,
+                "LocationId": 29104,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28386,
-                "LocationName": "Ruins of The Old Bartrn Place"
+                "ExteriorLocationId": 29103,
+                "LocationName": "Ruins of Castle Nhecter"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 13
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000054.RDB",
+                "BlockName": "W0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000026.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": 2,
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -124,31 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -156,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

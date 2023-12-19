@@ -1,66 +1,146 @@
 {
     "Loaded": true,
-    "Name": "The Unfortunate Scorpion Inn",
+    "Name": "B'irnt Hall",
     "RegionName": "Tigonus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 366000000573,
-        "Latitude": 72360,
-        "Longitude": 73384,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 148183799,
+        "Latitude": 21160,
+        "Longitude": 74664,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18790400,
-                "Y": 12007425,
+                "X": 19118080,
+                "Y": 5421057,
                 "IsExterior": 32768,
-                "Unknown2": 107,
-                "LocationId": 23985,
+                "Unknown2": 141,
+                "LocationId": 24198,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Unfortunate Scorpion Inn"
+                "LocationName": "B'irnt Hall"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 13,
         "Buildings": [
             {
-                "NameSeed": 21321,
+                "NameSeed": 1233,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23985,
-                "BuildingType": 18,
-                "Quality": 1
+                "LocationId": 24198,
+                "BuildingType": "House2",
+                "Quality": 14
             },
             {
-                "NameSeed": 12290,
+                "NameSeed": 23567,
                 "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 23985,
-                "BuildingType": 18,
+                "Sector": 9,
+                "LocationId": 24198,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 10697,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 24198,
+                "BuildingType": "House2",
                 "Quality": 1
             },
             {
-                "NameSeed": 12020,
+                "NameSeed": 19257,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 24198,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 3921,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 24198,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 22320,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 24198,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 10547,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 24198,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 31930,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 24198,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 27511,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 24198,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 16123,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 24198,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 31969,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 24198,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 6983,
                 "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 23985,
-                "BuildingType": 15,
-                "Quality": 1
+                "Sector": 69,
+                "LocationId": 24198,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 29082,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 24198,
+                "BuildingType": "House1",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "12020",
-            "MapId": 366000000573,
+            "AnotherName": "B'irnt Hall",
+            "MapId": 334583,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
@@ -83,14 +163,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
-        "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

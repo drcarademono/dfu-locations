@@ -1,152 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Stronghold of Kingfield",
+    "Name": "Buckingsly Grange",
     "RegionName": "Shalgora",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 662000000491,
-        "Latitude": 34472,
-        "Longitude": 62888,
-        "LocationType": 7,
-        "DungeonType": 11,
-        "Discovered": false,
+        "MapId": 160590425,
+        "Latitude": 43688,
+        "Longitude": 38056,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16103424,
-                "Y": 21706753,
+                "X": 9746432,
+                "Y": 11188225,
                 "IsExterior": 32768,
-                "Unknown2": 26,
-                "LocationId": 16661,
+                "Unknown2": 153,
+                "LocationId": 19193,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Stronghold of Kingfield"
+                "LocationName": "Buckingsly Grange"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 2555,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 19193,
+                "BuildingType": "House2",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Stronghold of Kingfield",
-            "MapId": 662000000491,
+            "AnotherName": "Buckingsly Grange",
+            "MapId": 158297,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA15.RMB"
+                "FARMAA07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 11286528,
-                "Y": 12695553,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 6,
-                "LocationId": 16662,
-                "IsInterior": 1,
-                "ExteriorLocationId": 16661,
-                "LocationName": "The Stronghold of Kingfield"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000030.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000024.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000017.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 170,
     "RegionIndex": 42,

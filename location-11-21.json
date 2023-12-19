@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Silver Mug Inn",
+    "Name": "Ruins of Tach Manor",
     "RegionName": "Dak'fron",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 169000000596,
-        "Latitude": 97576,
-        "Longitude": 76328,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 22469727,
+        "Latitude": 6440,
+        "Longitude": 80808,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "RuinedCastle",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19544064,
-                "Y": 5552129,
+                "X": 20690944,
+                "Y": 1652737,
                 "IsExterior": 32768,
-                "Unknown2": 144,
-                "LocationId": 29139,
+                "Unknown2": 21,
+                "LocationId": 28032,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Silver Mug Inn"
+                "LocationName": "Ruins of Tach Manor"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 7215,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 29139,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 185,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 29139,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 12117,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 29139,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 2205,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 29139,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 20732,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 29139,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 13482,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 29139,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 356,
-                "FactionId": 0,
-                "Sector": 73,
-                "LocationId": 29139,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 22681,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 29139,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 16422,
-                "FactionId": 0,
-                "Sector": 83,
-                "LocationId": 29139,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 23544,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 29139,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 11964,
-                "FactionId": 0,
-                "Sector": 94,
-                "LocationId": 29139,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 9175,
-                "FactionId": 0,
-                "Sector": 100,
-                "LocationId": 29139,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 16121,
-                "FactionId": 0,
-                "Sector": 110,
-                "LocationId": 29139,
-                "BuildingType": 18,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "7215",
-            "MapId": 169000000596,
+            "AnotherName": "Ruins of Tach Manor",
+            "MapId": 449631,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS02.RMB"
+                "RUINAA06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 20690944,
+                "Y": 1652737,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 13,
+                "LocationId": 28033,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28032,
+                "LocationName": "Ruins of Tach Manor"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000059.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

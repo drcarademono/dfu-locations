@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Fortress of Rlason",
+    "Name": "THe Crypts of Flardun",
     "RegionName": "Santaki",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 223000000601,
-        "Latitude": 90664,
-        "Longitude": 76968,
-        "LocationType": 7,
-        "DungeonType": 0,
-        "Discovered": false,
+        "MapId": 5663513,
+        "Latitude": 10152,
+        "Longitude": 81064,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19707904,
-                "Y": 7321601,
+                "X": 20756480,
+                "Y": 2603009,
                 "IsExterior": 32768,
-                "Unknown2": 28,
-                "LocationId": 27712,
+                "Unknown2": 5,
+                "LocationId": 27213,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Fortress of Rlason"
+                "LocationName": "THe Crypts of Flardun"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Fortress of Rlason",
-            "MapId": 223000000601,
+            "AnotherName": "THe Crypts of Flardun",
+            "MapId": 420633,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA03.RMB"
+                "GRVEAS19.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 21608448,
-                "Y": 2045953,
+                "X": 20756480,
+                "Y": 2603009,
                 "IsExterior": 0,
-                "Unknown2": 12,
-                "LocationId": 27713,
+                "Unknown2": 1,
+                "LocationId": 27214,
                 "IsInterior": 1,
-                "ExteriorLocationId": 27712,
-                "LocationName": "The Fortress of Rlason"
+                "ExteriorLocationId": 27213,
+                "LocationName": "THe Crypts of Flardun"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 5
         },
         "Blocks": [
             {
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000021.RDB",
+                "BlockName": "M0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,23 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000047.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,63 +92,23 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000032.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000072.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
-        "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
+        "GroundArchive": 2,
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
-    "Politic": 182,
+    "Politic": 128,
     "RegionIndex": 54,
     "LocationIndex": 5
 }

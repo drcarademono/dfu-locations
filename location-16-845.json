@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Weeping Star of Kynareth",
+    "Name": "Ruins of Buckington Grange",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 434000001048,
-        "Latitude": 63656,
-        "Longitude": 134184,
-        "LocationType": 5,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16
+        "MapId": 886112463,
+        "Latitude": 55592,
+        "Longitude": 95144,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Mine",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 34355200,
+                "X": 24360960,
                 "Y": 14235649,
                 "IsExterior": 32768,
-                "Unknown2": 429,
-                "LocationId": 11599,
+                "Unknown2": 845,
+                "LocationId": 13516,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Weeping Star of Kynareth"
+                "LocationName": "Ruins of Buckington Grange"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 16959,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 11599,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 11038,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 11599,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 32101,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 11599,
-                "BuildingType": 19,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 13654,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 11599,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 3337,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 11599,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18440,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 11599,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31458,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 11599,
-                "BuildingType": 19,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 17107,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 11599,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 5247,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 11599,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 4904,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 11599,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 15780,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 11599,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 10077,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 11599,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 4606,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 11599,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 2722,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 11599,
-                "BuildingType": 14,
-                "Quality": 5
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Weeping Star of Kynareth",
-            "MapId": 434000001048,
+            "AnotherName": "Ruins of Buckington Grange",
+            "MapId": 65743,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "RUINAA19.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 24360960,
+                "Y": 14235649,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 299,
+                "LocationId": 13517,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13516,
+                "LocationName": "Ruins of Buckington Grange"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000016.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

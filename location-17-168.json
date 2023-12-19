@@ -1,138 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Pig and Scorpion Tavern",
+    "Name": "Gaering Palace",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 632000000343,
-        "Latitude": 38312,
-        "Longitude": 43944,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 176317913,
+        "Latitude": 43816,
+        "Longitude": 18600,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11253760,
-                "Y": 20723713,
+                "X": 4765696,
+                "Y": 11220993,
                 "IsExterior": 32768,
-                "Unknown2": 1219,
-                "LocationId": 21692,
+                "Unknown2": 168,
+                "LocationId": 19122,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Pig and Scorpion Tavern"
+                "LocationName": "Gaering Palace"
             }
         },
-        "BuildingCount": 12,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 14611,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 21692,
-                "BuildingType": 15,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 9833,
+                "NameSeed": 27966,
                 "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 21692,
-                "BuildingType": 18,
-                "Quality": 11
+                "Sector": 4,
+                "LocationId": 19122,
+                "BuildingType": "House2",
+                "Quality": 7
             },
             {
-                "NameSeed": 14118,
+                "NameSeed": 21813,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 19122,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 22058,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 19122,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 12905,
                 "FactionId": 0,
                 "Sector": 30,
-                "LocationId": 21692,
-                "BuildingType": 18,
-                "Quality": 12
+                "LocationId": 19122,
+                "BuildingType": "House3",
+                "Quality": 15
             },
             {
-                "NameSeed": 19255,
+                "NameSeed": 30064,
                 "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 21692,
-                "BuildingType": 18,
-                "Quality": 12
+                "Sector": 36,
+                "LocationId": 19122,
+                "BuildingType": "House2",
+                "Quality": 7
             },
             {
-                "NameSeed": 27641,
+                "NameSeed": 5828,
                 "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 21692,
-                "BuildingType": 18,
-                "Quality": 5
+                "Sector": 42,
+                "LocationId": 19122,
+                "BuildingType": "House2",
+                "Quality": 6
             },
             {
-                "NameSeed": 10420,
+                "NameSeed": 19919,
                 "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 21692,
-                "BuildingType": 18,
-                "Quality": 13
+                "Sector": 59,
+                "LocationId": 19122,
+                "BuildingType": "House2",
+                "Quality": 7
             },
             {
-                "NameSeed": 10568,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 21692,
-                "BuildingType": 18,
-                "Quality": 12
+                "NameSeed": 22880,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 19122,
+                "BuildingType": "Tavern",
+                "Quality": 9
             },
             {
-                "NameSeed": 4777,
+                "NameSeed": 20325,
                 "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 21692,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 27187,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 21692,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 20111,
-                "FactionId": 0,
-                "Sector": 85,
-                "LocationId": 21692,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 15670,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 21692,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 22386,
-                "FactionId": 0,
-                "Sector": 91,
-                "LocationId": 21692,
-                "BuildingType": 18,
-                "Quality": 5
+                "Sector": 86,
+                "LocationId": 19122,
+                "BuildingType": "House1",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "14611",
-            "MapId": 632000000343,
+            "AnotherName": "Gaering Palace",
+            "MapId": 157145,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS09.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -156,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

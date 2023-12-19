@@ -1,136 +1,64 @@
 {
     "Loaded": true,
-    "Name": "Druthoth",
+    "Name": "The Vlostin Graveyard",
     "RegionName": "Ayasofya",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 350000000452,
-        "Latitude": 74408,
-        "Longitude": 57896,
-        "LocationType": 4,
-        "DungeonType": 1,
-        "Discovered": false,
+        "MapId": 61193915,
+        "Latitude": 15784,
+        "Longitude": 64936,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14825472,
-                "Y": 11483137,
+                "X": 16627712,
+                "Y": 4044801,
                 "IsExterior": 32768,
-                "Unknown2": 125,
-                "LocationId": 26658,
+                "Unknown2": 58,
+                "LocationId": 25823,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Druthoth"
+                "LocationName": "The Vlostin Graveyard"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Druthoth",
-            "MapId": 350000000452,
+            "AnotherName": "The Vlostin Graveyard",
+            "MapId": 376507,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA08.RMB"
+                "GRVEAS27.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 15284224,
-                "Y": 3225601,
+                "X": 16627712,
+                "Y": 4044801,
                 "IsExterior": 0,
-                "Unknown2": 44,
-                "LocationId": 26659,
+                "Unknown2": 20,
+                "LocationId": 25824,
                 "IsInterior": 1,
-                "ExteriorLocationId": 26658,
-                "LocationName": "Druthoth"
+                "ExteriorLocationId": 25823,
+                "LocationName": "The Vlostin Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 5
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "W0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000049.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": -1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
@@ -138,9 +66,17 @@
             },
             {
                 "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000002.RDB",
+                "BlockName": "M0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -148,7 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -156,21 +92,21 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
-        "NatureArchive": 503,
-        "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "NatureArchive": 501,
+        "SkyBase": 24,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 175,
     "RegionIndex": 47,

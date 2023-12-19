@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Ashton Farmstead",
+    "Name": "The Laboratory of Peryval",
     "RegionName": "Phrygias",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 672000000673,
-        "Latitude": 33192,
-        "Longitude": 86184,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 131094603,
+        "Latitude": 61096,
+        "Longitude": 77224,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22067200,
-                "Y": 22034433,
+                "X": 19773440,
+                "Y": 15644673,
                 "IsExterior": 32768,
-                "Unknown2": 66,
-                "LocationId": 10526,
+                "Unknown2": 125,
+                "LocationId": 11083,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Ashton Farmstead"
+                "LocationName": "The Laboratory of Peryval"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 22824,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 10526,
-                "BuildingType": 18,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Ashton Farmstead",
-            "MapId": 672000000673,
+            "AnotherName": "The Laboratory of Peryval",
+            "MapId": 22603,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA00.RMB"
+                "DUNGAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 19773440,
+                "Y": 15644673,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 26,
+                "LocationId": 11084,
+                "IsInterior": 1,
+                "ExteriorLocationId": 11083,
+                "LocationName": "The Laboratory of Peryval"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000036.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
-        "GroundArchive": 302,
-        "NatureArchive": 508,
-        "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 166,
     "RegionIndex": 38,

@@ -1,96 +1,64 @@
 {
     "Loaded": true,
-    "Name": "The Dungeon of Vlorpten",
+    "Name": "The Rollar Cemetery",
     "RegionName": "Totambu",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 167000000848,
-        "Latitude": 97832,
-        "Longitude": 108584,
-        "LocationType": 4,
-        "DungeonType": 3,
+        "MapId": 184885157,
+        "Latitude": 21032,
+        "Longitude": 100008,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27801600,
-                "Y": 5486593,
+                "X": 25606144,
+                "Y": 5388289,
                 "IsExterior": 32768,
-                "Unknown2": 600,
-                "LocationId": 25235,
+                "Unknown2": 176,
+                "LocationId": 24247,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dungeon of Vlorpten"
+                "LocationName": "The Rollar Cemetery"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Dungeon of Vlorpten",
-            "MapId": 167000000848,
+            "AnotherName": "The Rollar Cemetery",
+            "MapId": 335781,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA06.RMB"
+                "GRVEAS07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 29538304,
-                "Y": 4503553,
+                "X": 25606144,
+                "Y": 5388289,
                 "IsExterior": 0,
-                "Unknown2": 160,
-                "LocationId": 25236,
+                "Unknown2": 45,
+                "LocationId": 24248,
                 "IsInterior": 1,
-                "ExteriorLocationId": 25235,
-                "LocationName": "The Dungeon of Vlorpten"
+                "ExteriorLocationId": 24247,
+                "LocationName": "The Rollar Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 5
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": -1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000027.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
@@ -98,9 +66,17 @@
             },
             {
                 "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000000.RDB",
+                "BlockName": "M0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,7 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

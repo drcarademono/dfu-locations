@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Kingham Manor",
+    "Name": "The Hawksly Ruins",
     "RegionName": "Dwynnen",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 633000000711,
-        "Latitude": 38184,
-        "Longitude": 91048,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 638684305,
+        "Latitude": 50984,
+        "Longitude": 66728,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "RuinedCastle",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23312384,
-                "Y": 20756481,
+                "X": 17086464,
+                "Y": 13056001,
                 "IsExterior": 32768,
-                "Unknown2": 94,
-                "LocationId": 11361,
+                "Unknown2": 609,
+                "LocationId": 15918,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kingham Manor"
+                "LocationName": "The Hawksly Ruins"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 3879,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 11361,
-                "BuildingType": 17,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 1050,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 11361,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 8360,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 11361,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 26738,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 11361,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 25280,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 11361,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 6582,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 11361,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 26780,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 11361,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 13781,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 11361,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 24699,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 11361,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 24335,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 11361,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 24299,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 11361,
-                "BuildingType": 15,
-                "Quality": 11
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Kingham Manor",
-            "MapId": 633000000711,
+            "AnotherName": "The Hawksly Ruins",
+            "MapId": 101521,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "DUNGAA11.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 17086464,
+                "Y": 13056001,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 111,
+                "LocationId": 15919,
+                "IsInterior": 1,
+                "ExteriorLocationId": 15918,
+                "LocationName": "The Hawksly Ruins"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000062.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

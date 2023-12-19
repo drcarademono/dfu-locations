@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Unfortunate Skull Tavern",
+    "Name": "Ruins of The Krarc Cabin",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 151000000849,
-        "Latitude": 99880,
-        "Longitude": 108712,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 80019540,
+        "Latitude": 22056,
+        "Longitude": 97832,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "GiantStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27834368,
-                "Y": 4962305,
+                "X": 25049088,
+                "Y": 5650433,
                 "IsExterior": 32768,
-                "Unknown2": 802,
-                "LocationId": 25798,
+                "Unknown2": 76,
+                "LocationId": 23994,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Unfortunate Skull Tavern"
+                "LocationName": "Ruins of The Krarc Cabin"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 11038,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 25798,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 32101,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 25798,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 13654,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 25798,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 3337,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 25798,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18440,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 25798,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31458,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 25798,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 17107,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 25798,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 5247,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 25798,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 4904,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 25798,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 15780,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 25798,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 19872,
-                "FactionId": 510,
-                "Sector": 55,
-                "LocationId": 25798,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 27691,
-                "FactionId": 510,
-                "Sector": 71,
-                "LocationId": 25798,
-                "BuildingType": 15,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "19872",
-            "MapId": 151000000849,
+            "AnotherName": "Ruins of The Krarc Cabin",
+            "MapId": 327764,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS07.RMB"
+                "RUINAA15.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 25049088,
+                "Y": 5650433,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 17,
+                "LocationId": 23995,
+                "IsInterior": 1,
+                "ExteriorLocationId": 23994,
+                "LocationName": "Ruins of The Krarc Cabin"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000017.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

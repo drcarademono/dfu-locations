@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Mouse and Rascal Inn",
+    "Name": "Wickston Grange",
     "RegionName": "Glenpoint",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 770000000342,
-        "Latitude": 20648,
-        "Longitude": 43816,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 400694256,
+        "Latitude": 46248,
+        "Longitude": 28712,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11220992,
-                "Y": 25245697,
+                "X": 7354368,
+                "Y": 11843585,
                 "IsExterior": 32768,
-                "Unknown2": 91,
-                "LocationId": 15379,
+                "Unknown2": 382,
+                "LocationId": 18134,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mouse and Rascal Inn"
+                "LocationName": "Wickston Grange"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 29207,
-                "FactionId": 510,
+                "NameSeed": 27320,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 15379,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 28909,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 15379,
-                "BuildingType": 15,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 13438,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 15379,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 17761,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 15379,
-                "BuildingType": 19,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 1877,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 15379,
-                "BuildingType": 18,
+                "LocationId": 18134,
+                "BuildingType": "House2",
                 "Quality": 2
-            },
-            {
-                "NameSeed": 9969,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 15379,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 22618,
-                "FactionId": 0,
-                "Sector": 70,
-                "LocationId": 15379,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18051,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 15379,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 9110,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 15379,
-                "BuildingType": 19,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 28886,
-                "FactionId": 0,
-                "Sector": 87,
-                "LocationId": 15379,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 27490,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 15379,
-                "BuildingType": 18,
-                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "29207",
-            "MapId": 770000000342,
+            "AnotherName": "Wickston Grange",
+            "MapId": 138224,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS06.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

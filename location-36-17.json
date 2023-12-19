@@ -1,152 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Grave of Lithogheon",
+    "Name": "Moorcroft Manor",
     "RegionName": "Bhoriane",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 516000000694,
-        "Latitude": 53160,
-        "Longitude": 88872,
-        "LocationType": 4,
-        "DungeonType": 0,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 17919431,
+        "Latitude": 52008,
+        "Longitude": 81832,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22755328,
-                "Y": 16922625,
+                "X": 20953088,
+                "Y": 13318145,
                 "IsExterior": 32768,
-                "Unknown2": 179,
-                "LocationId": 18104,
+                "Unknown2": 17,
+                "LocationId": 15410,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Grave of Lithogheon"
+                "LocationName": "Moorcroft Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 17364,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 15410,
+                "BuildingType": "House1",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 24250,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 15410,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 29504,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 15410,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 19600,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 15410,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 22468,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 15410,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 4756,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 15410,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 4733,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 15410,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 12799,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 15410,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 24356,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 15410,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 18373,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 15410,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 23908,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 15410,
+                "BuildingType": "Tavern",
+                "Quality": 14
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Grave of Lithogheon",
-            "MapId": 516000000694,
+            "AnotherName": "Moorcroft Manor",
+            "MapId": 93639,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 1,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA03.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19445760,
-                "Y": 11876353,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 42,
-                "LocationId": 18105,
-                "IsInterior": 1,
-                "ExteriorLocationId": 18104,
-                "LocationName": "The Grave of Lithogheon"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000026.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 164,
     "RegionIndex": 36,

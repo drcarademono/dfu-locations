@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "The Copperham Farmstead",
+    "Name": "The Dancing Gnome Pub",
     "RegionName": "Menevia",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 382000000909,
-        "Latitude": 70312,
-        "Longitude": 116392,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 182658019,
+        "Latitude": 37672,
+        "Longitude": 101800,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29800448,
-                "Y": 12531713,
+                "X": 26064896,
+                "Y": 9648129,
                 "IsExterior": 32768,
-                "Unknown2": 1,
-                "LocationId": 18568,
+                "Unknown2": 174,
+                "LocationId": 21417,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Copperham Farmstead"
+                "LocationName": "The Dancing Gnome Pub"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 17517,
+                "NameSeed": 18931,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 18568,
-                "BuildingType": 18,
+                "LocationId": 21417,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 31629,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 21417,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 20088,
+                "FactionId": 0,
+                "Sector": 13,
+                "LocationId": 21417,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 16936,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 21417,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 2266,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 21417,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 25983,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 21417,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 18419,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 21417,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 15804,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 21417,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 31434,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 21417,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 23918,
+                "FactionId": 510,
+                "Sector": 68,
+                "LocationId": 21417,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 7342,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 21417,
+                "BuildingType": "Tavern",
                 "Quality": 10
+            },
+            {
+                "NameSeed": 18443,
+                "FactionId": 510,
+                "Sector": 93,
+                "LocationId": 21417,
+                "BuildingType": "Tavern",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Copperham Farmstead",
-            "MapId": 382000000909,
+            "AnotherName": "23918",
+            "MapId": 205795,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "TVRNAS00.RMB"
             ]
         }
     },
@@ -67,14 +155,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 161,
     "RegionIndex": 33,

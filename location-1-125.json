@@ -1,106 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Ruins of T'orch Palace",
+    "Name": "The Bluct Graveyard",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 71000000766,
-        "Latitude": 110120,
-        "Longitude": 98088,
-        "LocationType": 10,
-        "DungeonType": 16,
+        "MapId": 131416636,
+        "Latitude": 19880,
+        "Longitude": 81448,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25114624,
-                "Y": 2340865,
+                "X": 20854784,
+                "Y": 5093377,
                 "IsExterior": 32768,
-                "Unknown2": 856,
-                "LocationId": 29146,
+                "Unknown2": 125,
+                "LocationId": 24558,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of T'orch Palace"
+                "LocationName": "The Bluct Graveyard"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of T'orch Palace",
-            "MapId": 71000000766,
+            "AnotherName": "The Bluct Graveyard",
+            "MapId": 344636,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA05.RMB"
+                "GRVEAS35.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 28751872,
-                "Y": 440321,
+                "X": 20854784,
+                "Y": 5093377,
                 "IsExterior": 0,
-                "Unknown2": 289,
-                "LocationId": 29147,
+                "Unknown2": 33,
+                "LocationId": 24559,
                 "IsInterior": 1,
-                "ExteriorLocationId": 29146,
-                "LocationName": "Ruins of T'orch Palace"
+                "ExteriorLocationId": 24558,
+                "LocationName": "The Bluct Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 5
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000040.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000074.RDB",
+                "BlockName": "M0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -124,7 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -132,7 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

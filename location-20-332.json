@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Blurk's Guard",
+    "Name": "The Old Lhaghtom Place",
     "RegionName": "Sentinel",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 417000000384,
-        "Latitude": 65832,
-        "Longitude": 49192,
-        "LocationType": 7,
-        "DungeonType": 6,
-        "Discovered": false,
+        "MapId": 348519642,
+        "Latitude": 13736,
+        "Longitude": 52520,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12597248,
-                "Y": 13678593,
+                "X": 13449216,
+                "Y": 3520513,
                 "IsExterior": 32768,
-                "Unknown2": 155,
-                "LocationId": 25849,
+                "Unknown2": 332,
+                "LocationId": 26371,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Blurk's Guard"
+                "LocationName": "The Old Lhaghtom Place"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 24820,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 26371,
+                "BuildingType": "House3",
+                "Quality": 6
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Blurk's Guard",
-            "MapId": 417000000384,
+            "AnotherName": "The Old Lhaghtom Place",
+            "MapId": 392410,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA14.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 12269568,
-                "Y": 4012033,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 29,
-                "LocationId": 25850,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25849,
-                "LocationName": "Blurk's Guard"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000036.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000034.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

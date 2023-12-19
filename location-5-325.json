@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Old Coppersley Shack",
+    "Name": "Hearthcroft Manor",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 601000000670,
-        "Latitude": 42280,
-        "Longitude": 85800,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 340841724,
+        "Latitude": 57000,
+        "Longitude": 67112,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21968896,
-                "Y": 19707905,
+                "X": 17184768,
+                "Y": 14596097,
                 "IsExterior": 32768,
-                "Unknown2": 453,
-                "LocationId": 14183,
+                "Unknown2": 325,
+                "LocationId": 12888,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Coppersley Shack"
+                "LocationName": "Hearthcroft Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 29656,
+                "NameSeed": 28556,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 14183,
-                "BuildingType": 19,
-                "Quality": 2
+                "LocationId": 12888,
+                "BuildingType": "House1",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 20621,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 12888,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 25792,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 12888,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 22407,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 12888,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 32272,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 12888,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 16635,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 12888,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 21826,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 12888,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 4673,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 12888,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 7547,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 12888,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 3490,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 12888,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 8932,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 12888,
+                "BuildingType": "Tavern",
+                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Coppersley Shack",
-            "MapId": 601000000670,
+            "AnotherName": "Hearthcroft Manor",
+            "MapId": 54524,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

@@ -1,66 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Feather and Chasm Lodge",
+    "Name": "Old Caijja's Hovel",
     "RegionName": "Myrkwasa",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 414000000333,
-        "Latitude": 66216,
-        "Longitude": 42664,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 50746930,
+        "Latitude": 10792,
+        "Longitude": 36136,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10926080,
-                "Y": 13580289,
+                "X": 9254912,
+                "Y": 2766849,
                 "IsExterior": 32768,
-                "Unknown2": 25,
-                "LocationId": 26801,
+                "Unknown2": 48,
+                "LocationId": 27061,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Feather and Chasm Lodge"
+                "LocationName": "Old Caijja's Hovel"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 11723,
+                "NameSeed": 32231,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26801,
-                "BuildingType": 18,
+                "LocationId": 27061,
+                "BuildingType": "House3",
                 "Quality": 10
-            },
-            {
-                "NameSeed": 17149,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 26801,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 11549,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 26801,
-                "BuildingType": 15,
-                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "11549",
-            "MapId": 414000000333,
+            "AnotherName": "Old Caijja's Hovel",
+            "MapId": 415282,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -84,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

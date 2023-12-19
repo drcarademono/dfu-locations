@@ -1,112 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Red Pit Lodge",
+    "Name": "Ruins of Castle Kist",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 313000000335,
-        "Latitude": 79144,
-        "Longitude": 42920,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 143040735,
+        "Latitude": 8360,
+        "Longitude": 51112,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Mine",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10991616,
-                "Y": 10270721,
+                "X": 13088768,
+                "Y": 2144257,
                 "IsExterior": 32768,
-                "Unknown2": 312,
-                "LocationId": 29301,
+                "Unknown2": 136,
+                "LocationId": 27637,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Red Pit Lodge"
+                "LocationName": "Ruins of Castle Kist"
             }
         },
-        "BuildingCount": 5,
-        "Buildings": [
-            {
-                "NameSeed": 24401,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 29301,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 29416,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 29301,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 30643,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 29301,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 27724,
-                "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 29301,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 24568,
-                "FactionId": 510,
-                "Sector": 23,
-                "LocationId": 29301,
-                "BuildingType": 15,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "24568",
-            "MapId": 313000000335,
+            "AnotherName": "Ruins of Castle Kist",
+            "MapId": 434399,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNBS01.RMB"
+                "RUINAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 13088768,
+                "Y": 2144257,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 69,
+                "LocationId": 27638,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27637,
+                "LocationName": "Ruins of Castle Kist"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000086.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

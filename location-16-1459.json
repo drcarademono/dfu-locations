@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Old Yeomcroft Shack",
+    "Name": "Greenham Orchard",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 509000000934,
-        "Latitude": 54056,
-        "Longitude": 119592,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 1529996279,
+        "Latitude": 48168,
+        "Longitude": 114600,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30619648,
-                "Y": 16693249,
+                "X": 29341696,
+                "Y": 12335105,
                 "IsExterior": 32768,
-                "Unknown2": 314,
-                "LocationId": 11158,
+                "Unknown2": 1459,
+                "LocationId": 17284,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Yeomcroft Shack"
+                "LocationName": "Greenham Orchard"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 23739,
+                "NameSeed": 18424,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 11158,
-                "BuildingType": 19,
-                "Quality": 12
+                "LocationId": 17284,
+                "BuildingType": "House2",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Yeomcroft Shack",
-            "MapId": 509000000934,
+            "AnotherName": "Greenham Orchard",
+            "MapId": 123895,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

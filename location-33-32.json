@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Woodston Manor",
+    "Name": "The Buckinghouse Farmstead",
     "RegionName": "Menevia",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 344000000842,
-        "Latitude": 75176,
-        "Longitude": 107816,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 33711270,
+        "Latitude": 43944,
+        "Longitude": 107304,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27604992,
-                "Y": 11286529,
+                "X": 27473920,
+                "Y": 11253761,
                 "IsExterior": 32768,
-                "Unknown2": 202,
-                "LocationId": 21669,
+                "Unknown2": 32,
+                "LocationId": 19106,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Woodston Manor"
+                "LocationName": "The Buckinghouse Farmstead"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 28199,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 21669,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 13568,
+                "NameSeed": 25588,
                 "FactionId": 0,
                 "Sector": 10,
-                "LocationId": 21669,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 449,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 21669,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 10459,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 21669,
-                "BuildingType": 19,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 10204,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 21669,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 25967,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 21669,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 30101,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 21669,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 16697,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 21669,
-                "BuildingType": 15,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 8196,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 21669,
-                "BuildingType": 17,
-                "Quality": 14
+                "LocationId": 19106,
+                "BuildingType": "House2",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Woodston Manor",
-            "MapId": 344000000842,
+            "AnotherName": "The Buckinghouse Farmstead",
+            "MapId": 156838,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "FARMAA00.RMB"
             ]
         }
     },
@@ -131,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 161,
     "RegionIndex": 33,

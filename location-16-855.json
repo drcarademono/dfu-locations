@@ -1,50 +1,154 @@
 {
     "Loaded": true,
-    "Name": "The Hearthcroft Farmstead",
+    "Name": "Eternal Soul of Kynareth",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 435000000977,
-        "Latitude": 63528,
-        "Longitude": 125096,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 896598448,
+        "Latitude": 55592,
+        "Longitude": 123944,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 32028672,
-                "Y": 14268417,
+                "X": 31733760,
+                "Y": 14235649,
                 "IsExterior": 32768,
-                "Unknown2": 851,
-                "LocationId": 13525,
+                "Unknown2": 855,
+                "LocationId": 13529,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hearthcroft Farmstead"
+                "LocationName": "Eternal Soul of Kynareth"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 14,
         "Buildings": [
             {
-                "NameSeed": 8378,
+                "NameSeed": 30298,
                 "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 13525,
-                "BuildingType": 18,
-                "Quality": 10
+                "Sector": 4,
+                "LocationId": 13529,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 26097,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 13529,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 24398,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 13529,
+                "BuildingType": "House3",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 27057,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 13529,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 22470,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 13529,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 13804,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 13529,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 23433,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 13529,
+                "BuildingType": "House3",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 17579,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 13529,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 8851,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 13529,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 4180,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 13529,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 14258,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 13529,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 6941,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 13529,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 23606,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 13529,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 14303,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 13529,
+                "BuildingType": "Temple",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Hearthcroft Farmstead",
-            "MapId": 435000000977,
+            "AnotherName": "Eternal Soul of Kynareth",
+            "MapId": 65968,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA00.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
@@ -68,13 +172,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

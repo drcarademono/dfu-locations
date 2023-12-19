@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Hearthwing Court",
+    "Name": "The Tombs of Woodsmith",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 694000000276,
-        "Latitude": 30376,
-        "Longitude": 35368,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 989004375,
+        "Latitude": 38696,
+        "Longitude": 26536,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9058304,
-                "Y": 22755329,
+                "X": 6797312,
+                "Y": 9910273,
                 "IsExterior": 32768,
-                "Unknown2": 816,
-                "LocationId": 20746,
+                "Unknown2": 943,
+                "LocationId": 21039,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hearthwing Court"
+                "LocationName": "The Tombs of Woodsmith"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 27434,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 20746,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 12957,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 20746,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 28793,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 20746,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 27127,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 20746,
-                "BuildingType": 19,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 11515,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 20746,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 14343,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 20746,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 7034,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 20746,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 31062,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 20746,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 18968,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 20746,
-                "BuildingType": 17,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Hearthwing Court",
-            "MapId": 694000000276,
+            "AnotherName": "The Tombs of Woodsmith",
+            "MapId": 197207,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "GRVEAS14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 6797312,
+                "Y": 9910273,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 186,
+                "LocationId": 21040,
+                "IsInterior": 1,
+                "ExteriorLocationId": 21039,
+                "LocationName": "The Tombs of Woodsmith"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

@@ -1,96 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Tower of Baigt",
+    "Name": "The Jubebras Grotto",
     "RegionName": "Totambu",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 233000000764,
-        "Latitude": 89384,
-        "Longitude": 97832,
-        "LocationType": 7,
-        "DungeonType": 9,
+        "MapId": 678794480,
+        "Latitude": 17192,
+        "Longitude": 103464,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25049088,
-                "Y": 7649281,
+                "X": 26490880,
+                "Y": 4405249,
                 "IsExterior": 32768,
-                "Unknown2": 349,
-                "LocationId": 24670,
+                "Unknown2": 647,
+                "LocationId": 25373,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tower of Baigt"
+                "LocationName": "The Jubebras Grotto"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Tower of Baigt",
-            "MapId": 233000000764,
+            "AnotherName": "The Jubebras Grotto",
+            "MapId": 365808,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA00.RMB"
+                "DUNGAA12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 26064896,
-                "Y": 4995073,
+                "X": 26490880,
+                "Y": 4405249,
                 "IsExterior": 0,
-                "Unknown2": 90,
-                "LocationId": 24671,
+                "Unknown2": 172,
+                "LocationId": 25374,
                 "IsInterior": 1,
-                "ExteriorLocationId": 24670,
-                "LocationName": "The Tower of Baigt"
+                "ExteriorLocationId": 25373,
+                "LocationName": "The Jubebras Grotto"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 10
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000050.RDB",
+                "BlockName": "W0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": -1,
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
@@ -100,21 +84,13 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000019.RDB",
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

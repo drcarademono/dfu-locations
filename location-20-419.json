@@ -1,104 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The King's Hedgehog Hostel",
+    "Name": "Boaven's Guard",
     "RegionName": "Sentinel",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 429000000338,
-        "Latitude": 64296,
-        "Longitude": 43304,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 439753693,
+        "Latitude": 12712,
+        "Longitude": 44712,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "ScorpionNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11089920,
-                "Y": 14071809,
+                "X": 11450368,
+                "Y": 3258369,
                 "IsExterior": 32768,
-                "Unknown2": 296,
-                "LocationId": 26290,
+                "Unknown2": 419,
+                "LocationId": 26615,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The King's Hedgehog Hostel"
+                "LocationName": "Boaven's Guard"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 12068,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 26290,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 28814,
-                "FactionId": 0,
-                "Sector": 11,
-                "LocationId": 26290,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 17563,
-                "FactionId": 510,
-                "Sector": 19,
-                "LocationId": 26290,
-                "BuildingType": 1,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 3425,
-                "FactionId": 510,
-                "Sector": 30,
-                "LocationId": 26290,
-                "BuildingType": 15,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "3425",
-            "MapId": 429000000338,
+            "AnotherName": "Boaven's Guard",
+            "MapId": 400349,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS02.RMB"
+                "CASTAA11.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 11450368,
+                "Y": 3258369,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 76,
+                "LocationId": 26616,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26615,
+                "LocationName": "Boaven's Guard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000083.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

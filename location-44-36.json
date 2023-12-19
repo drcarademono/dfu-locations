@@ -1,74 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Furg'kern Palace",
+    "Name": "The Silver Badger Hostel",
     "RegionName": "Kairou",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 424000000226,
-        "Latitude": 64936,
-        "Longitude": 28968,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 38188936,
+        "Latitude": 7592,
+        "Longitude": 25640,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 7419904,
-                "Y": 13907969,
+                "X": 6567936,
+                "Y": 1947649,
                 "IsExterior": 32768,
-                "Unknown2": 71,
-                "LocationId": 28046,
+                "Unknown2": 36,
+                "LocationId": 27779,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Furg'kern Palace"
+                "LocationName": "The Silver Badger Hostel"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 5,
         "Buildings": [
             {
-                "NameSeed": 7131,
+                "NameSeed": 31587,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28046,
-                "BuildingType": 18,
-                "Quality": 3
+                "LocationId": 27779,
+                "BuildingType": "House2",
+                "Quality": 7
             },
             {
-                "NameSeed": 3770,
+                "NameSeed": 31587,
                 "FactionId": 0,
                 "Sector": 9,
-                "LocationId": 28046,
-                "BuildingType": 18,
-                "Quality": 12
+                "LocationId": 27779,
+                "BuildingType": "House2",
+                "Quality": 7
             },
             {
-                "NameSeed": 19063,
+                "NameSeed": 31587,
                 "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 28046,
-                "BuildingType": 18,
-                "Quality": 9
+                "Sector": 14,
+                "LocationId": 27779,
+                "BuildingType": "House2",
+                "Quality": 7
             },
             {
-                "NameSeed": 19044,
+                "NameSeed": 31587,
                 "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 28046,
-                "BuildingType": 17,
-                "Quality": 5
+                "Sector": 18,
+                "LocationId": 27779,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 23511,
+                "FactionId": 510,
+                "Sector": 23,
+                "LocationId": 27779,
+                "BuildingType": "Tavern",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Furg'kern Palace",
-            "MapId": 424000000226,
+            "AnotherName": "23511",
+            "MapId": 440200,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "TVRNGS01.RMB"
             ]
         }
     },
@@ -92,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 172,
     "RegionIndex": 44,

@@ -1,146 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Gaerhart Manor",
+    "Name": "Old Chrystyna's Farm",
     "RegionName": "Glenpoint",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 724000000378,
-        "Latitude": 26536,
-        "Longitude": 48424,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 109148083,
+        "Latitude": 51624,
+        "Longitude": 22952,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12400640,
-                "Y": 23738369,
+                "X": 5879808,
+                "Y": 13219841,
                 "IsExterior": 32768,
-                "Unknown2": 215,
-                "LocationId": 16778,
+                "Unknown2": 104,
+                "LocationId": 15559,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Gaerhart Manor"
+                "LocationName": "Old Chrystyna's Farm"
             }
         },
-        "BuildingCount": 13,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 11144,
+                "NameSeed": 5339,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 16778,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18424,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 16778,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 27210,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 16778,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 25539,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 16778,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 31288,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 16778,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 7244,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 16778,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 29932,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 16778,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 2483,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 16778,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 6691,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 16778,
-                "BuildingType": 18,
+                "LocationId": 15559,
+                "BuildingType": "House2",
                 "Quality": 5
-            },
-            {
-                "NameSeed": 15461,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 16778,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 25472,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 16778,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 4325,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 16778,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 1460,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 16778,
-                "BuildingType": 17,
-                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Gaerhart Manor",
-            "MapId": 724000000378,
+            "AnotherName": "Old Chrystyna's Farm",
+            "MapId": 96179,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "FARMAA05.RMB"
             ]
         }
     },
@@ -164,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

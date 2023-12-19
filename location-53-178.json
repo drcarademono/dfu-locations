@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Leg Court",
+    "Name": "Old Tlush-si's Farm",
     "RegionName": "Ephesus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 127000000773,
-        "Latitude": 102952,
-        "Longitude": 98984,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 187110420,
+        "Latitude": 4648,
+        "Longitude": 114216,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25344000,
-                "Y": 4175873,
+                "X": 29243392,
+                "Y": 1193985,
                 "IsExterior": 32768,
-                "Unknown2": 44,
-                "LocationId": 27650,
+                "Unknown2": 178,
+                "LocationId": 28453,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Leg Court"
+                "LocationName": "Old Tlush-si's Farm"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 26988,
+                "NameSeed": 31291,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27650,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 10695,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 27650,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 26139,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 27650,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 314,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 27650,
-                "BuildingType": 19,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 1411,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 27650,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 14234,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 27650,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 18352,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 27650,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 4904,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 27650,
-                "BuildingType": 15,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 29066,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 27650,
-                "BuildingType": 17,
-                "Quality": 6
+                "LocationId": 28453,
+                "BuildingType": "House2",
+                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Leg Court",
-            "MapId": 127000000773,
+            "AnotherName": "Old Tlush-si's Farm",
+            "MapId": 463892,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 181,
     "RegionIndex": 53,

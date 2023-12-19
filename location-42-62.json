@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Castle Hearthfield",
+    "Name": "The Castle of Buckinghart",
     "RegionName": "Shalgora",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 630000000454,
-        "Latitude": 38568,
-        "Longitude": 58152,
-        "LocationType": 7,
-        "DungeonType": 9,
+        "MapId": 65139992,
+        "Latitude": 47528,
+        "Longitude": 35880,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "RuinedCastle",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14891008,
-                "Y": 20658177,
+                "X": 9189376,
+                "Y": 12171265,
                 "IsExterior": 32768,
-                "Unknown2": 156,
-                "LocationId": 19196,
+                "Unknown2": 62,
+                "LocationId": 17530,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle Hearthfield"
+                "LocationName": "The Castle of Buckinghart"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Castle Hearthfield",
-            "MapId": 630000000454,
+            "AnotherName": "The Castle of Buckinghart",
+            "MapId": 128280,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA22.RMB"
+                "DUNGAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 10762240,
-                "Y": 11188225,
+                "X": 9189376,
+                "Y": 12171265,
                 "IsExterior": 0,
-                "Unknown2": 37,
-                "LocationId": 19197,
+                "Unknown2": 17,
+                "LocationId": 17531,
                 "IsInterior": 1,
-                "ExteriorLocationId": 19196,
-                "LocationName": "Castle Hearthfield"
+                "ExteriorLocationId": 17530,
+                "LocationName": "The Castle of Buckinghart"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
+                "IsStartingBlock": true,
                 "BlockName": "N0000038.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000027.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000025.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000054.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 2,
-                "Z": 0,
+                "X": 0,
+                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 170,
     "RegionIndex": 42,

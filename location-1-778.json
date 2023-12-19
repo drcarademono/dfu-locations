@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Nithe Manor",
+    "Name": "Ruins of Old Kurg-e's Hovel",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 307000000612,
-        "Latitude": 79912,
-        "Longitude": 78376,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 816267998,
+        "Latitude": 3112,
+        "Longitude": 111400,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Mine",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20068352,
-                "Y": 10074113,
+                "X": 28522496,
+                "Y": 800769,
                 "IsExterior": 32768,
-                "Unknown2": 169,
-                "LocationId": 25108,
+                "Unknown2": 778,
+                "LocationId": 28806,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Nithe Manor"
+                "LocationName": "Ruins of Old Kurg-e's Hovel"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 5036,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 25108,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 19125,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 25108,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 576,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 25108,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31821,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 25108,
-                "BuildingType": 19,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 16100,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 25108,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 17306,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 25108,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 8772,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 25108,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 21614,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 25108,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 29851,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 25108,
-                "BuildingType": 17,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Nithe Manor",
-            "MapId": 307000000612,
+            "AnotherName": "Ruins of Old Kurg-e's Hovel",
+            "MapId": 475870,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "RUINAA28.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 28522496,
+                "Y": 800769,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 259,
+                "LocationId": 28807,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28806,
+                "LocationName": "Ruins of Old Kurg-e's Hovel"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000035.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

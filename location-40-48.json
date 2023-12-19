@@ -1,80 +1,121 @@
 {
     "Loaded": true,
-    "Name": "Old Evelyssa's Farm",
+    "Name": "The Fortress of Greencroft",
     "RegionName": "Ykalon",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 698000000576,
-        "Latitude": 29864,
-        "Longitude": 73768,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 0
+        "MapId": 50336937,
+        "Latitude": 63272,
+        "Longitude": 37032,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "BarbarianStronghold",
+        "Discovered": false,
+        "Key": 2048
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18888704,
-                "Y": 22886401,
+                "X": 9484288,
+                "Y": 16201729,
                 "IsExterior": 32768,
-                "Unknown2": 475,
-                "LocationId": 11954,
+                "Unknown2": 48,
+                "LocationId": 10191,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Evelyssa's Farm"
+                "LocationName": "The Fortress of Greencroft"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 2807,
-                "FactionId": 0,
+                "NameSeed": 26589,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 11954,
-                "BuildingType": 18,
-                "Quality": 12
+                "LocationId": 10191,
+                "BuildingType": "Alchemist",
+                "Quality": 9
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Evelyssa's Farm",
-            "MapId": 698000000576,
+            "AnotherName": "The Fortress of Greencroft",
+            "MapId": 5289,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA08.RMB"
+                "CASTAA02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 9484288,
+                "Y": 16201729,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 22,
+                "LocationId": 10192,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10191,
+                "LocationName": "The Fortress of Greencroft"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000015.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
-        "NatureArchive": 504,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

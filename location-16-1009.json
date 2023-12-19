@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Old Carolausa's Hovel",
+    "Name": "The Dead Fairy Pub",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 450000001044,
-        "Latitude": 61608,
-        "Longitude": 133672,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 1058094128,
+        "Latitude": 53672,
+        "Longitude": 120872,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 34224128,
-                "Y": 14759937,
+                "X": 30947328,
+                "Y": 13744129,
                 "IsExterior": 32768,
-                "Unknown2": 269,
-                "LocationId": 10926,
+                "Unknown2": 1009,
+                "LocationId": 14572,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Carolausa's Hovel"
+                "LocationName": "The Dead Fairy Pub"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 11964,
+                "NameSeed": 31951,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 10926,
-                "BuildingType": 19,
+                "LocationId": 14572,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 10397,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 14572,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 11834,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 14572,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 11533,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 14572,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 14255,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 14572,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 1238,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 14572,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 2205,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 14572,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 20732,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 14572,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 13482,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 14572,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 356,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 14572,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 25879,
+                "FactionId": 510,
+                "Sector": 55,
+                "LocationId": 14572,
+                "BuildingType": "Tavern",
                 "Quality": 2
+            },
+            {
+                "NameSeed": 32463,
+                "FactionId": 510,
+                "Sector": 71,
+                "LocationId": 14572,
+                "BuildingType": "Tavern",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Carolausa's Hovel",
-            "MapId": 450000001044,
+            "AnotherName": "25879",
+            "MapId": 80944,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNAS07.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

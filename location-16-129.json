@@ -1,168 +1,184 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Masterfield Court",
+    "Name": "Wailing Light of Kynareth",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 315000000970,
-        "Latitude": 78888,
-        "Longitude": 124200,
-        "LocationType": 10,
-        "DungeonType": 8,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 135276992,
+        "Latitude": 62632,
+        "Longitude": 88104,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31799296,
-                "Y": 10336257,
+                "X": 22558720,
+                "Y": 16037889,
                 "IsExterior": 32768,
-                "Unknown2": 1739,
-                "LocationId": 20057,
+                "Unknown2": 129,
+                "LocationId": 10446,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Masterfield Court"
+                "LocationName": "Wailing Light of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 17475,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 10446,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 21979,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 10446,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 10288,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 10446,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 7223,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 10446,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 24317,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 10446,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 2807,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 10446,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 18632,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 10446,
+                "BuildingType": "House3",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 24125,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 10446,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 10140,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 10446,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 25599,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 10446,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 3772,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 10446,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 28110,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 10446,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 20905,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 10446,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 16566,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 10446,
+                "BuildingType": "Temple",
+                "Quality": 8
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Masterfield Court",
-            "MapId": 315000000970,
+            "AnotherName": "Wailing Light of Kynareth",
+            "MapId": 10688,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA09.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 30554112,
-                "Y": 10696705,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 655,
-                "LocationId": 20058,
-                "IsInterior": 1,
-                "ExteriorLocationId": 20057,
-                "LocationName": "Ruins of Masterfield Court"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000085.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000027.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

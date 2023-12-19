@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Buckingfield Farmstead",
+    "Name": "Castle Gaering",
     "RegionName": "Glenpoint",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 767000000328,
-        "Latitude": 21032,
-        "Longitude": 42024,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 387060681,
+        "Latitude": 46504,
+        "Longitude": 17576,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "DesecratedTemple",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10762240,
-                "Y": 25147393,
+                "X": 4503552,
+                "Y": 11909121,
                 "IsExterior": 32768,
-                "Unknown2": 132,
-                "LocationId": 15956,
+                "Unknown2": 369,
+                "LocationId": 18010,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Buckingfield Farmstead"
+                "LocationName": "Castle Gaering"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 27659,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 15956,
-                "BuildingType": 18,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Buckingfield Farmstead",
-            "MapId": 767000000328,
+            "AnotherName": "Castle Gaering",
+            "MapId": 136137,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "CASTAA15.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 4503552,
+                "Y": 11909121,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 121,
+                "LocationId": 18011,
+                "IsInterior": 1,
+                "ExteriorLocationId": 18010,
+                "LocationName": "Castle Gaering"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000033.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

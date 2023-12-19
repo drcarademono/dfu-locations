@@ -1,74 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Barmte Manor",
+    "Name": "Old Krurhti's Hovel",
     "RegionName": "Bergama",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 300000000383,
-        "Latitude": 80808,
-        "Longitude": 49064,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 4644723,
+        "Latitude": 6312,
+        "Longitude": 53672,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12564480,
-                "Y": 9844737,
+                "X": 13744128,
+                "Y": 1619969,
                 "IsExterior": 32768,
-                "Unknown2": 52,
-                "LocationId": 28925,
+                "Unknown2": 4,
+                "LocationId": 28056,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Barmte Manor"
+                "LocationName": "Old Krurhti's Hovel"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 950,
+                "NameSeed": 25060,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28925,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 20310,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 28925,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 19194,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 28925,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 22389,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 28925,
-                "BuildingType": 17,
-                "Quality": 5
+                "LocationId": 28056,
+                "BuildingType": "House3",
+                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Barmte Manor",
-            "MapId": 300000000383,
+            "AnotherName": "Old Krurhti's Hovel",
+            "MapId": 450419,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRBS00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -92,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 184,
     "RegionIndex": 56,

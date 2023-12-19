@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Lucky Bird Inn",
+    "Name": "Old Elyrrya's Hovel",
     "RegionName": "Daenia",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 653000000561,
-        "Latitude": 35624,
-        "Longitude": 71848,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 73460692,
+        "Latitude": 56232,
+        "Longitude": 47656,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18397184,
-                "Y": 21411841,
+                "X": 12204032,
+                "Y": 14399489,
                 "IsExterior": 32768,
-                "Unknown2": 153,
-                "LocationId": 14912,
+                "Unknown2": 70,
+                "LocationId": 13212,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Lucky Bird Inn"
+                "LocationName": "Old Elyrrya's Hovel"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 18896,
-                "FactionId": 510,
+                "NameSeed": 25801,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 14912,
-                "BuildingType": 15,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 13539,
-                "FactionId": 0,
-                "Sector": 21,
-                "LocationId": 14912,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 10492,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 14912,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 5316,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 14912,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 26717,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 14912,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 32249,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 14912,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 1972,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 14912,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 3451,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 14912,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 11834,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 14912,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 31716,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 14912,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 29229,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 14912,
-                "BuildingType": 18,
-                "Quality": 6
+                "LocationId": 13212,
+                "BuildingType": "House3",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "18896",
-            "MapId": 653000000561,
+            "AnotherName": "Old Elyrrya's Hovel",
+            "MapId": 60372,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS03.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 169,
     "RegionIndex": 41,

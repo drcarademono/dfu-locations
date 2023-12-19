@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Kruct Hall",
+    "Name": "Ruins of The Rhorker Farmstead",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 333000000632,
-        "Latitude": 76584,
-        "Longitude": 80936,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 868703713,
+        "Latitude": 2216,
+        "Longitude": 100520,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "HumanStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20723712,
-                "Y": 10926081,
+                "X": 25737216,
+                "Y": 571393,
                 "IsExterior": 32768,
-                "Unknown2": 82,
-                "LocationId": 23955,
+                "Unknown2": 828,
+                "LocationId": 29018,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kruct Hall"
+                "LocationName": "Ruins of The Rhorker Farmstead"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 26945,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 23955,
-                "BuildingType": 17,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 18489,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 23955,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 14445,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 23955,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 20970,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 23955,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 32573,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 23955,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 13913,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 23955,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 12114,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 23955,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 29270,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 23955,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 32098,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 23955,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 24789,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 23955,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 16351,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 23955,
-                "BuildingType": 15,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Kruct Hall",
-            "MapId": 333000000632,
+            "AnotherName": "Ruins of The Rhorker Farmstead",
+            "MapId": 482785,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "RUINAA16.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 25737216,
+                "Y": 571393,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 282,
+                "LocationId": 29019,
+                "IsInterior": 1,
+                "ExteriorLocationId": 29018,
+                "LocationName": "Ruins of The Rhorker Farmstead"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000025.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

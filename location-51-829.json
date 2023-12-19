@@ -1,168 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Vereneon Hall",
+    "Name": "The Beaver and Gnome Inn",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 260000000755,
-        "Latitude": 85928,
-        "Longitude": 96680,
-        "LocationType": 4,
-        "DungeonType": 8,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 869648418,
+        "Latitude": 15528,
+        "Longitude": 117032,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24754176,
-                "Y": 8534017,
+                "X": 29964288,
+                "Y": 3979265,
                 "IsExterior": 32768,
-                "Unknown2": 92,
-                "LocationId": 24032,
+                "Unknown2": 829,
+                "LocationId": 25923,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Vereneon Hall"
+                "LocationName": "The Beaver and Gnome Inn"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 9099,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 25923,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 7349,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 25923,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 29389,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 25923,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 14169,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 25923,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 31117,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 25923,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 4263,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 25923,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 28282,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 25923,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 23887,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 25923,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 7887,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 25923,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 3749,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 25923,
+                "BuildingType": "House3",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 19338,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 25923,
+                "BuildingType": "House3",
+                "Quality": 10
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Vereneon Hall",
-            "MapId": 260000000755,
+            "AnotherName": "9099",
+            "MapId": 378914,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA18.RMB"
+                "TVRNAS05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 25376768,
-                "Y": 5617665,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 20,
-                "LocationId": 24033,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24032,
-                "LocationName": "Vereneon Hall"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000027.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000074.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

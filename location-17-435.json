@@ -1,136 +1,176 @@
 {
     "Loaded": true,
-    "Name": "Greensley's Guard",
+    "Name": "Woodsly Manor",
     "RegionName": "Daggerfall",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 654000000409,
-        "Latitude": 35496,
-        "Longitude": 52392,
-        "LocationType": 7,
-        "DungeonType": 3,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 456300712,
+        "Latitude": 42152,
+        "Longitude": 19496,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13416448,
-                "Y": 21444609,
+                "X": 4995072,
+                "Y": 10795009,
                 "IsExterior": 32768,
-                "Unknown2": 231,
-                "LocationId": 19320,
+                "Unknown2": 435,
+                "LocationId": 19892,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Greensley's Guard"
+                "LocationName": "Woodsly Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 14294,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 19892,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 17352,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 19892,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 12024,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 19892,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 14427,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 19892,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 4219,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 19892,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 13894,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 19892,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 28131,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 19892,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 3791,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 19892,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 24678,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 19892,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 8681,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 19892,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 10246,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 19892,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 11429,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 19892,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 4711,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 19892,
+                "BuildingType": "House1",
+                "Quality": 14
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Greensley's Guard",
-            "MapId": 654000000409,
+            "AnotherName": "Woodsly Manor",
+            "MapId": 170152,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA11.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 9091072,
-                "Y": 11122689,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 38,
-                "LocationId": 19321,
-                "IsInterior": 1,
-                "ExteriorLocationId": 19320,
-                "LocationName": "Greensley's Guard"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000040.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000020.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

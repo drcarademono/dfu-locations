@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Buckington Manor",
+    "Name": "The Moorcroft Cabin",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 494000000832,
-        "Latitude": 55976,
-        "Longitude": 106536,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 1419884709,
+        "Latitude": 49576,
+        "Longitude": 103080,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27277312,
-                "Y": 16201729,
+                "X": 26392576,
+                "Y": 12695553,
                 "IsExterior": 32768,
-                "Unknown2": 1086,
-                "LocationId": 15054,
+                "Unknown2": 1354,
+                "LocationId": 16700,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Buckington Manor"
+                "LocationName": "The Moorcroft Cabin"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 18730,
+                "NameSeed": 6149,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 15054,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 6471,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 15054,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 6321,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 15054,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 25794,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 15054,
-                "BuildingType": 19,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31455,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 15054,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 28242,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 15054,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 8320,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 15054,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 30195,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 15054,
-                "BuildingType": 15,
+                "LocationId": 16700,
+                "BuildingType": "House3",
                 "Quality": 5
-            },
-            {
-                "NameSeed": 12290,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 15054,
-                "BuildingType": 17,
-                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Buckington Manor",
-            "MapId": 494000000832,
+            "AnotherName": "The Moorcroft Cabin",
+            "MapId": 112805,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

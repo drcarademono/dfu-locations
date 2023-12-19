@@ -1,168 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Hearthing Tower",
+    "Name": "The Devil's Chasm Tavern",
     "RegionName": "Dwynnen",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 657000000694,
-        "Latitude": 35112,
-        "Longitude": 88872,
-        "LocationType": 7,
-        "DungeonType": 8,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 788666676,
+        "Latitude": 46376,
+        "Longitude": 67112,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22755328,
-                "Y": 21542913,
+                "X": 17184768,
+                "Y": 11876353,
                 "IsExterior": 32768,
-                "Unknown2": 7,
-                "LocationId": 10685,
+                "Unknown2": 752,
+                "LocationId": 18099,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hearthing Tower"
+                "LocationName": "The Devil's Chasm Tavern"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 20039,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 18099,
+                "BuildingType": "Tavern",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 28007,
+                "FactionId": 0,
+                "Sector": 21,
+                "LocationId": 18099,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 20901,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 18099,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 7416,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 18099,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 145,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 18099,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 14172,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 18099,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 4052,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 18099,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 9735,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 18099,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 25520,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 18099,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 14538,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 18099,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 21333,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 18099,
+                "BuildingType": "House2",
+                "Quality": 3
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Hearthing Tower",
-            "MapId": 657000000694,
+            "AnotherName": "20039",
+            "MapId": 137524,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA01.RMB"
+                "TVRNAS03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 17119232,
-                "Y": 15874049,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 1,
-                "LocationId": 10686,
-                "IsInterior": 1,
-                "ExteriorLocationId": 10685,
-                "LocationName": "Hearthing Tower"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000021.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000076.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000067.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000050.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

@@ -1,104 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Restless Goblin Tavern",
+    "Name": "The Cavern of Gerinxulla",
     "RegionName": "Sentinel",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 421000000346,
-        "Latitude": 65320,
-        "Longitude": 44328,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 377882732,
+        "Latitude": 13352,
+        "Longitude": 47656,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11352064,
-                "Y": 13809665,
+                "X": 12204032,
+                "Y": 3422209,
                 "IsExterior": 32768,
-                "Unknown2": 337,
-                "LocationId": 26402,
+                "Unknown2": 360,
+                "LocationId": 26456,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Restless Goblin Tavern"
+                "LocationName": "The Cavern of Gerinxulla"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 18118,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 26402,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 15181,
-                "FactionId": 0,
-                "Sector": 11,
-                "LocationId": 26402,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 29778,
-                "FactionId": 510,
-                "Sector": 19,
-                "LocationId": 26402,
-                "BuildingType": 1,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 26797,
-                "FactionId": 510,
-                "Sector": 30,
-                "LocationId": 26402,
-                "BuildingType": 15,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "26797",
-            "MapId": 421000000346,
+            "AnotherName": "The Cavern of Gerinxulla",
+            "MapId": 395372,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS02.RMB"
+                "DUNGAA18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 12204032,
+                "Y": 3422209,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 64,
+                "LocationId": 26457,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26456,
+                "LocationName": "The Cavern of Gerinxulla"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

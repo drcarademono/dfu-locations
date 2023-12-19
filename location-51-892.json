@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Green Skull Pub",
+    "Name": "Castle Grert",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 271000000756,
-        "Latitude": 84520,
-        "Longitude": 96808,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 935721682,
+        "Latitude": 13864,
+        "Longitude": 113960,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Crypt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24786944,
-                "Y": 8894465,
+                "X": 29177856,
+                "Y": 3553281,
                 "IsExterior": 32768,
-                "Unknown2": 7,
-                "LocationId": 23726,
+                "Unknown2": 892,
+                "LocationId": 26345,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Green Skull Pub"
+                "LocationName": "Castle Grert"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 3622,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 23726,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 30745,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 23726,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 18931,
-                "FactionId": 0,
-                "Sector": 13,
-                "LocationId": 23726,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 31629,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 23726,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 20088,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 23726,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 16936,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 23726,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 2266,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 23726,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 25983,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 23726,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 18419,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 23726,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 13174,
-                "FactionId": 510,
-                "Sector": 68,
-                "LocationId": 23726,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 20466,
-                "FactionId": 510,
-                "Sector": 80,
-                "LocationId": 23726,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 12390,
-                "FactionId": 510,
-                "Sector": 93,
-                "LocationId": 23726,
-                "BuildingType": 15,
-                "Quality": 8
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "13174",
-            "MapId": 271000000756,
+            "AnotherName": "Castle Grert",
+            "MapId": 391890,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS00.RMB"
+                "CASTAA15.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 29177856,
+                "Y": 3553281,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 236,
+                "LocationId": 26346,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26345,
+                "LocationName": "Castle Grert"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

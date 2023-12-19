@@ -1,146 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Staldim Manor",
+    "Name": "Old T'orpfa's Farm",
     "RegionName": "Ephesus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 112000000755,
-        "Latitude": 104872,
-        "Longitude": 96680,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 121037162,
+        "Latitude": 6312,
+        "Longitude": 118056,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24754176,
-                "Y": 3684353,
+                "X": 30226432,
+                "Y": 1619969,
                 "IsExterior": 32768,
-                "Unknown2": 144,
-                "LocationId": 28241,
+                "Unknown2": 115,
+                "LocationId": 28078,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Staldim Manor"
+                "LocationName": "Old T'orpfa's Farm"
             }
         },
-        "BuildingCount": 13,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 11723,
+                "NameSeed": 2203,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28241,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 17149,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 28241,
-                "BuildingType": 18,
+                "LocationId": 28078,
+                "BuildingType": "House2",
                 "Quality": 1
-            },
-            {
-                "NameSeed": 13931,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 28241,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 12026,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 28241,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 7545,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 28241,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 14625,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 28241,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 30474,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 28241,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 27900,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 28241,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 12397,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 28241,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 9798,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 28241,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 19637,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 28241,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 3404,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 28241,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 21471,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 28241,
-                "BuildingType": 17,
-                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Staldim Manor",
-            "MapId": 112000000755,
+            "AnotherName": "Old T'orpfa's Farm",
+            "MapId": 450922,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "FARMAA06.RMB"
             ]
         }
     },
@@ -164,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 181,
     "RegionIndex": 53,

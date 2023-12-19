@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Shrine of Ephen",
+    "Name": "The Greenston Farmstead",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 491000000960,
-        "Latitude": 56360,
-        "Longitude": 122920,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 1403106491,
+        "Latitude": 49704,
+        "Longitude": 102824,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31471616,
-                "Y": 16103425,
+                "X": 26327040,
+                "Y": 12728321,
                 "IsExterior": 32768,
-                "Unknown2": 342,
-                "LocationId": 11266,
+                "Unknown2": 1338,
+                "LocationId": 16622,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shrine of Ephen"
+                "LocationName": "The Greenston Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 12027,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 16622,
+                "BuildingType": "House1",
+                "Quality": 15
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Shrine of Ephen",
-            "MapId": 491000000960,
+            "AnotherName": "The Greenston Farmstead",
+            "MapId": 111803,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "FARMAA09.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

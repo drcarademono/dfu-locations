@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Old Greenhouse Place",
+    "Name": "The Masterton Farmstead",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 481000000922,
-        "Latitude": 57640,
-        "Longitude": 118056,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 1329700216,
+        "Latitude": 50472,
+        "Longitude": 108584,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30226432,
-                "Y": 15775745,
+                "X": 27801600,
+                "Y": 12924929,
                 "IsExterior": 32768,
-                "Unknown2": 726,
-                "LocationId": 12854,
+                "Unknown2": 1268,
+                "LocationId": 16207,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Greenhouse Place"
+                "LocationName": "The Masterton Farmstead"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 23606,
+                "NameSeed": 8490,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 12854,
-                "BuildingType": 19,
-                "Quality": 11
+                "LocationId": 16207,
+                "BuildingType": "House2",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Greenhouse Place",
-            "MapId": 481000000922,
+            "AnotherName": "The Masterton Farmstead",
+            "MapId": 105848,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA06.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

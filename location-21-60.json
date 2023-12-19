@@ -1,114 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Hawksley Manor",
+    "Name": "The Unfortunate Scorpion Pub",
     "RegionName": "Anticlere",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 559000000597,
-        "Latitude": 47656,
-        "Longitude": 76456,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 63043962,
+        "Latitude": 47400,
+        "Longitude": 51496,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19576832,
-                "Y": 18331649,
+                "X": 13187072,
+                "Y": 12138497,
                 "IsExterior": 32768,
-                "Unknown2": 324,
-                "LocationId": 18697,
+                "Unknown2": 60,
+                "LocationId": 17581,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hawksley Manor"
+                "LocationName": "The Unfortunate Scorpion Pub"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 25979,
+                "NameSeed": 13422,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 18697,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 19597,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 18697,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 835,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 18697,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 23759,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 18697,
-                "BuildingType": 19,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 19294,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 18697,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 30622,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 18697,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 22109,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 18697,
-                "BuildingType": 18,
+                "LocationId": 17581,
+                "BuildingType": "House2",
                 "Quality": 2
             },
             {
-                "NameSeed": 4850,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 18697,
-                "BuildingType": 15,
+                "NameSeed": 11943,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 17581,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 3559,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 17581,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 16445,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 17581,
+                "BuildingType": "House3",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 2094,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 17581,
+                "BuildingType": "House3",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 273,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 17581,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 2765,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 17581,
+                "BuildingType": "House2",
                 "Quality": 8
             },
             {
-                "NameSeed": 21892,
+                "NameSeed": 9948,
                 "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 18697,
-                "BuildingType": 17,
-                "Quality": 14
+                "Sector": 55,
+                "LocationId": 17581,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 6615,
+                "FactionId": 510,
+                "Sector": 63,
+                "LocationId": 17581,
+                "BuildingType": "HouseForSale",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 7295,
+                "FactionId": 510,
+                "Sector": 67,
+                "LocationId": 17581,
+                "BuildingType": "Tavern",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 27346,
+                "FactionId": 510,
+                "Sector": 84,
+                "LocationId": 17581,
+                "BuildingType": "Tavern",
+                "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Hawksley Manor",
-            "MapId": 559000000597,
+            "AnotherName": "7295",
+            "MapId": 129402,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "TVRNAS08.RMB"
             ]
         }
     },
@@ -132,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Old Nurum Hovel",
+    "Name": "The Geshur Farmstead",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 378000000409,
-        "Latitude": 70824,
-        "Longitude": 52392,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 84254435,
+        "Latitude": 16808,
+        "Longitude": 45480,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13416448,
-                "Y": 12400641,
+                "X": 11646976,
+                "Y": 4306945,
                 "IsExterior": 32768,
-                "Unknown2": 405,
-                "LocationId": 26566,
+                "Unknown2": 80,
+                "LocationId": 25469,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Nurum Hovel"
+                "LocationName": "The Geshur Farmstead"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 19125,
+                "NameSeed": 22921,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26566,
-                "BuildingType": 19,
-                "Quality": 3
+                "LocationId": 25469,
+                "BuildingType": "House2",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Nurum Hovel",
-            "MapId": 378000000409,
+            "AnotherName": "The Geshur Farmstead",
+            "MapId": 368355,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA02.RMB"
             ]
         }
     },
@@ -67,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
-        "NatureArchive": 503,
-        "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "NatureArchive": 501,
+        "SkyBase": 24,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

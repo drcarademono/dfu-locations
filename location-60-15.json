@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Lair of Morraphang",
+    "Name": "Ruins of The Old Ashsly Place",
     "RegionName": "Ilessan Hills",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 685000000482,
-        "Latitude": 31528,
-        "Longitude": 61736,
-        "LocationType": 4,
-        "DungeonType": 12,
+        "MapId": 15784951,
+        "Latitude": 56744,
+        "Longitude": 39848,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Coven",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15808512,
-                "Y": 22460417,
+                "X": 10205184,
+                "Y": 14530561,
                 "IsExterior": 32768,
-                "Unknown2": 440,
-                "LocationId": 15569,
+                "Unknown2": 15,
+                "LocationId": 12981,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Lair of Morraphang"
+                "LocationName": "Ruins of The Old Ashsly Place"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Lair of Morraphang",
-            "MapId": 685000000482,
+            "AnotherName": "Ruins of The Old Ashsly Place",
+            "MapId": 56311,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA12.RMB"
+                "RUINAA02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 10663936,
-                "Y": 13219841,
+                "X": 10205184,
+                "Y": 14530561,
                 "IsExterior": 0,
-                "Unknown2": 167,
-                "LocationId": 15570,
+                "Unknown2": 7,
+                "LocationId": 12982,
                 "IsInterior": 1,
-                "ExteriorLocationId": 15569,
-                "LocationName": "The Lair of Morraphang"
+                "ExteriorLocationId": 12981,
+                "LocationName": "Ruins of The Old Ashsly Place"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 13
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000067.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -81,26 +73,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000040.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000092.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,29 +84,29 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
-        "NatureArchive": 508,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

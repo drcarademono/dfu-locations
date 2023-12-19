@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Vach Hall",
+    "Name": "The Citadel of Faushte",
     "RegionName": "Ephesus",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 123000000782,
-        "Latitude": 103464,
-        "Longitude": 100136,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 171377785,
+        "Latitude": 5160,
+        "Longitude": 114856,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25638912,
-                "Y": 4044801,
+                "X": 29407232,
+                "Y": 1325057,
                 "IsExterior": 32768,
-                "Unknown2": 37,
-                "LocationId": 27621,
+                "Unknown2": 163,
+                "LocationId": 28331,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Vach Hall"
+                "LocationName": "The Citadel of Faushte"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 29232,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27621,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 28569,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 27621,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 25965,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 27621,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 24398,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 27621,
-                "BuildingType": 19,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 27057,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 27621,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 22470,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 27621,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 13804,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 27621,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 3117,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 27621,
-                "BuildingType": 15,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 9631,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 27621,
-                "BuildingType": 17,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Vach Hall",
-            "MapId": 123000000782,
+            "AnotherName": "The Citadel of Faushte",
+            "MapId": 459897,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "CASTAA11.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 29407232,
+                "Y": 1325057,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 49,
+                "LocationId": 28332,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28331,
+                "LocationName": "The Citadel of Faushte"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 181,
     "RegionIndex": 53,

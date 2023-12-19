@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Moorwing Cemetery",
+    "Name": "The Old Ashing Place",
     "RegionName": "Anticlere",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 581000000469,
-        "Latitude": 44840,
-        "Longitude": 60072,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 243412045,
+        "Latitude": 45736,
+        "Longitude": 52904,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15382528,
-                "Y": 19052545,
+                "X": 13547520,
+                "Y": 11712513,
                 "IsExterior": 32768,
-                "Unknown2": 708,
-                "LocationId": 20862,
+                "Unknown2": 232,
+                "LocationId": 18386,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Moorwing Cemetery"
+                "LocationName": "The Old Ashing Place"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 30857,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 18386,
+                "BuildingType": "House3",
+                "Quality": 15
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Moorwing Cemetery",
-            "MapId": 581000000469,
+            "AnotherName": "The Old Ashing Place",
+            "MapId": 142413,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 8,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS26.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 12007424,
-                "Y": 10041345,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 168,
-                "LocationId": 20863,
-                "IsInterior": 1,
-                "ExteriorLocationId": 20862,
-                "LocationName": "The Moorwing Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

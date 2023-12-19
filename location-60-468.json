@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Hawksly Manor",
+    "Name": "Ruins of Kington Manor",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 740000000461,
-        "Latitude": 24488,
-        "Longitude": 59048,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 490833791,
+        "Latitude": 51112,
+        "Longitude": 28584,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "RuinedCastle",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15120384,
-                "Y": 24262657,
+                "X": 7321600,
+                "Y": 13088769,
                 "IsExterior": 32768,
-                "Unknown2": 28,
-                "LocationId": 13147,
+                "Unknown2": 468,
+                "LocationId": 15838,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hawksly Manor"
+                "LocationName": "Ruins of Kington Manor"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 32462,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 13147,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 3598,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 13147,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 19426,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 13147,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 30622,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 13147,
-                "BuildingType": 19,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 22109,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 13147,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 7929,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 13147,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 9089,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 13147,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 12399,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 13147,
-                "BuildingType": 15,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 16332,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 13147,
-                "BuildingType": 17,
-                "Quality": 4
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Hawksly Manor",
-            "MapId": 740000000461,
+            "AnotherName": "Ruins of Kington Manor",
+            "MapId": 100223,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "RUINAA25.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 7321600,
+                "Y": 13088769,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 179,
+                "LocationId": 15839,
+                "IsInterior": 1,
+                "ExteriorLocationId": 15838,
+                "LocationName": "Ruins of Kington Manor"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000081.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

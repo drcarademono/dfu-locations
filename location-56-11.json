@@ -1,74 +1,50 @@
 {
     "Loaded": true,
-    "Name": "C'olpe Manor",
+    "Name": "The Rlistten Farmstead",
     "RegionName": "Bergama",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 306000000402,
-        "Latitude": 80040,
-        "Longitude": 51496,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 11987752,
+        "Latitude": 5928,
+        "Longitude": 53288,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13187072,
-                "Y": 10041345,
+                "X": 13645824,
+                "Y": 1521665,
                 "IsExterior": 32768,
-                "Unknown2": 29,
-                "LocationId": 28466,
+                "Unknown2": 11,
+                "LocationId": 28143,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "C'olpe Manor"
+                "LocationName": "The Rlistten Farmstead"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 29831,
+                "NameSeed": 18784,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28466,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 8181,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 28466,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 13341,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 28466,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 3622,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 28466,
-                "BuildingType": 17,
-                "Quality": 6
+                "LocationId": 28143,
+                "BuildingType": "House2",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "C'olpe Manor",
-            "MapId": 306000000402,
+            "AnotherName": "The Rlistten Farmstead",
+            "MapId": 453416,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRBS00.RMB"
+                "FARMAA07.RMB"
             ]
         }
     },
@@ -92,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 184,
     "RegionIndex": 56,

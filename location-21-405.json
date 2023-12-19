@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Monastery of Demorgon",
+    "Name": "Hearthsly Grange",
     "RegionName": "Anticlere",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 601000000498,
-        "Latitude": 42280,
-        "Longitude": 63784,
-        "LocationType": 4,
-        "DungeonType": 4,
-        "Discovered": false,
+        "MapId": 424827677,
+        "Latitude": 44200,
+        "Longitude": 50856,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16332800,
-                "Y": 19707905,
+                "X": 13023232,
+                "Y": 11319297,
                 "IsExterior": 32768,
-                "Unknown2": 506,
-                "LocationId": 19394,
+                "Unknown2": 405,
+                "LocationId": 18991,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Monastery of Demorgon"
+                "LocationName": "Hearthsly Grange"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 2997,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 18991,
+                "BuildingType": "House2",
+                "Quality": 15
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Monastery of Demorgon",
-            "MapId": 601000000498,
+            "AnotherName": "Hearthsly Grange",
+            "MapId": 154397,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA09.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 12498944,
-                "Y": 11089921,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 123,
-                "LocationId": 19395,
-                "IsInterior": 1,
-                "ExteriorLocationId": 19394,
-                "LocationName": "The Monastery of Demorgon"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000082.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

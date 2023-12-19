@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Klardt Tower",
+    "Name": "Ruins of Goghten Court",
     "RegionName": "Dak'fron",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 249000000510,
-        "Latitude": 87336,
-        "Longitude": 65320,
-        "LocationType": 10,
-        "DungeonType": 6,
+        "MapId": 167214070,
+        "Latitude": 1192,
+        "Longitude": 62248,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "ScorpionNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16726016,
-                "Y": 8173569,
+                "X": 15939584,
+                "Y": 309249,
                 "IsExterior": 32768,
-                "Unknown2": 51,
-                "LocationId": 28360,
+                "Unknown2": 159,
+                "LocationId": 29245,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Klardt Tower"
+                "LocationName": "Ruins of Goghten Court"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Klardt Tower",
-            "MapId": 249000000510,
+            "AnotherName": "Ruins of Goghten Court",
+            "MapId": 490486,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA02.RMB"
+                "RUINAA16.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18593792,
-                "Y": 1292289,
+                "X": 15939584,
+                "Y": 309249,
                 "IsExterior": 0,
-                "Unknown2": 35,
-                "LocationId": 28361,
+                "Unknown2": 107,
+                "LocationId": 29246,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28360,
-                "LocationName": "Ruins of Klardt Tower"
+                "ExteriorLocationId": 29245,
+                "LocationName": "Ruins of Goghten Court"
             }
         },
         "Header": {
@@ -57,58 +57,26 @@
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000025.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000048.RDB",
+                "BlockName": "N0000090.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": -1,
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -119,18 +87,26 @@
                 "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
             }
         ]
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

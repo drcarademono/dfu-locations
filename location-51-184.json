@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Knave and Gnome Tavern",
+    "Name": "Ruins of The Caildar Farmstead",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 168000000884,
-        "Latitude": 97704,
-        "Longitude": 113192,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 193273826,
+        "Latitude": 21032,
+        "Longitude": 107816,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "HumanStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28981248,
-                "Y": 5519361,
+                "X": 27604992,
+                "Y": 5388289,
                 "IsExterior": 32768,
-                "Unknown2": 300,
-                "LocationId": 24540,
+                "Unknown2": 184,
+                "LocationId": 24260,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Knave and Gnome Tavern"
+                "LocationName": "Ruins of The Caildar Farmstead"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 5210,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 24540,
-                "BuildingType": 15,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 24435,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 24540,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 808,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 24540,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 17324,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 24540,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 8684,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 24540,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 15950,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 24540,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 19940,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 24540,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 12688,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 24540,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 26627,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 24540,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 27550,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 24540,
-                "BuildingType": 19,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 31689,
-                "FactionId": 0,
-                "Sector": 93,
-                "LocationId": 24540,
-                "BuildingType": 19,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "5210",
-            "MapId": 168000000884,
+            "AnotherName": "Ruins of The Caildar Farmstead",
+            "MapId": 335842,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS05.RMB"
+                "RUINAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 27604992,
+                "Y": 5388289,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 50,
+                "LocationId": 24261,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24260,
+                "LocationName": "Ruins of The Caildar Farmstead"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000044.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

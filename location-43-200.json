@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Old T'erdca's Shack",
+    "Name": "The Rashim Plantation",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 437000000166,
-        "Latitude": 63272,
-        "Longitude": 21288,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 210210343,
+        "Latitude": 552,
+        "Longitude": 18344,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5453824,
-                "Y": 14333953,
+                "X": 4700160,
+                "Y": 145409,
                 "IsExterior": 32768,
-                "Unknown2": 52,
-                "LocationId": 28581,
+                "Unknown2": 200,
+                "LocationId": 29370,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old T'erdca's Shack"
+                "LocationName": "The Rashim Plantation"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 15581,
+                "NameSeed": 25021,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28581,
-                "BuildingType": 19,
-                "Quality": 6
+                "LocationId": 29370,
+                "BuildingType": "House2",
+                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old T'erdca's Shack",
-            "MapId": 437000000166,
+            "AnotherName": "The Rashim Plantation",
+            "MapId": 495143,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA03.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

@@ -1,90 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The House of Baroman",
+    "Name": "Ruins of Old Vannyrrya's Farm",
     "RegionName": "Isle of Balfiera",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 418000000746,
-        "Latitude": 65704,
-        "Longitude": 95528,
-        "LocationType": 4,
-        "DungeonType": 8,
+        "MapId": 40048624,
+        "Latitude": 38056,
+        "Longitude": 94248,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "VampireHaunt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24459264,
-                "Y": 13711361,
+                "X": 24131584,
+                "Y": 9746433,
                 "IsExterior": 32768,
-                "Unknown2": 24,
-                "LocationId": 20970,
+                "Unknown2": 38,
+                "LocationId": 21284,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The House of Baroman"
+                "LocationName": "Ruins of Old Vannyrrya's Farm"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The House of Baroman",
-            "MapId": 418000000746,
+            "AnotherName": "Ruins of Old Vannyrrya's Farm",
+            "MapId": 202736,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA15.RMB"
+                "RUINAA07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 22525952,
-                "Y": 9975809,
+                "X": 24131584,
+                "Y": 9746433,
                 "IsExterior": 0,
-                "Unknown2": 16,
-                "LocationId": 20971,
+                "Unknown2": 26,
+                "LocationId": 21285,
                 "IsInterior": 1,
-                "ExteriorLocationId": 20970,
-                "LocationName": "The House of Baroman"
+                "ExteriorLocationId": 21284,
+                "LocationName": "Ruins of Old Vannyrrya's Farm"
             }
         },
         "Header": {
-            "BlockCount": 14
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000080.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,47 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000072.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "W0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "N0000044.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 4,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -140,31 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -172,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 137,
     "RegionIndex": 9,

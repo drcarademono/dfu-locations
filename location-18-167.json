@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Hearthston Cemetery",
+    "Name": "Ruins of Yeomford Hall",
     "RegionName": "Glenpoint",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 736000000308,
-        "Latitude": 25000,
-        "Longitude": 39464,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 175219409,
+        "Latitude": 50216,
+        "Longitude": 27816,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "GiantStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10106880,
-                "Y": 24131585,
+                "X": 7124992,
+                "Y": 12859393,
                 "IsExterior": 32768,
-                "Unknown2": 383,
-                "LocationId": 18188,
+                "Unknown2": 167,
+                "LocationId": 16304,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hearthston Cemetery"
+                "LocationName": "Ruins of Yeomford Hall"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Hearthston Cemetery",
-            "MapId": 736000000308,
+            "AnotherName": "Ruins of Yeomford Hall",
+            "MapId": 107217,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS31.RMB"
+                "RUINAA25.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 4864000,
-                "Y": 11810817,
+                "X": 7124992,
+                "Y": 12859393,
                 "IsExterior": 0,
-                "Unknown2": 123,
-                "LocationId": 18189,
+                "Unknown2": 52,
+                "LocationId": 16305,
                 "IsInterior": 1,
-                "ExteriorLocationId": 18188,
-                "LocationName": "The Hearthston Cemetery"
+                "ExteriorLocationId": 16304,
+                "LocationName": "Ruins of Yeomford Hall"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000059.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

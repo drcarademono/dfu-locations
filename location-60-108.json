@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Triceruthor",
+    "Name": "Ruins of The Wickford Farmstead",
     "RegionName": "Ilessan Hills",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 699000000470,
-        "Latitude": 29736,
-        "Longitude": 60200,
-        "LocationType": 4,
-        "DungeonType": 13,
+        "MapId": 113314511,
+        "Latitude": 55208,
+        "Longitude": 38824,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15415296,
-                "Y": 22919169,
+                "X": 9943040,
+                "Y": 14137345,
                 "IsExterior": 32768,
-                "Unknown2": 384,
-                "LocationId": 15213,
+                "Unknown2": 108,
+                "LocationId": 13676,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Triceruthor"
+                "LocationName": "Ruins of The Wickford Farmstead"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Triceruthor",
-            "MapId": 699000000470,
+            "AnotherName": "Ruins of The Wickford Farmstead",
+            "MapId": 68303,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA10.RMB"
+                "RUINAA16.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 10074112,
-                "Y": 13416449,
+                "X": 9943040,
+                "Y": 14137345,
                 "IsExterior": 0,
-                "Unknown2": 146,
-                "LocationId": 15214,
+                "Unknown2": 41,
+                "LocationId": 13677,
                 "IsInterior": 1,
-                "ExteriorLocationId": 15213,
-                "LocationName": "Triceruthor"
+                "ExteriorLocationId": 13676,
+                "LocationName": "Ruins of The Wickford Farmstead"
             }
         },
         "Header": {
@@ -57,16 +57,16 @@
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000031.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -1,
-                "Z": -2,
+                "X": 0,
+                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
@@ -74,41 +74,17 @@
             },
             {
                 "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000017.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
+                "X": 1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000061.RDB",
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,37 +92,21 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
-        "NatureArchive": 508,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

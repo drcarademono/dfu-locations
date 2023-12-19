@@ -1,114 +1,41 @@
 {
     "Loaded": true,
-    "Name": "Woodcroft Manor",
+    "Name": "Shrine of Vigryl",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 578000000649,
-        "Latitude": 45224,
-        "Longitude": 83112,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 180391603,
+        "Latitude": 59304,
+        "Longitude": 68008,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21280768,
-                "Y": 18954241,
+                "X": 17414144,
+                "Y": 15185921,
                 "IsExterior": 32768,
-                "Unknown2": 633,
-                "LocationId": 16189,
+                "Unknown2": 172,
+                "LocationId": 11858,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Woodcroft Manor"
+                "LocationName": "Shrine of Vigryl"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 6258,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 16189,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 14839,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 16189,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 21956,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 16189,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 31737,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 16189,
-                "BuildingType": 19,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 2076,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 16189,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 23090,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 16189,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 5726,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 16189,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 12924,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 16189,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 3996,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 16189,
-                "BuildingType": 17,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Woodcroft Manor",
-            "MapId": 578000000649,
+            "AnotherName": "Shrine of Vigryl",
+            "MapId": 36531,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -132,13 +59,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

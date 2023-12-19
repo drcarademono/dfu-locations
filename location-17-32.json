@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Weeping Ascencion of Kynareth",
+    "Name": "Alabywyr's Gaol",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 609000000413,
-        "Latitude": 41256,
-        "Longitude": 52904,
-        "LocationType": 5,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16
+        "MapId": 33693665,
+        "Latitude": 46120,
+        "Longitude": 29864,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Prison",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13547520,
-                "Y": 19970049,
+                "X": 7649280,
+                "Y": 11810817,
                 "IsExterior": 32768,
-                "Unknown2": 949,
-                "LocationId": 21047,
+                "Unknown2": 32,
+                "LocationId": 18198,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Weeping Ascencion of Kynareth"
+                "LocationName": "Alabywyr's Gaol"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 17600,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 21047,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 31304,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 21047,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 1453,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 21047,
-                "BuildingType": 19,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 19574,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 21047,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 28176,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 21047,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 8140,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 21047,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 17598,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 21047,
-                "BuildingType": 19,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 25601,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 21047,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 12820,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 21047,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 14042,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 21047,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 9756,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 21047,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31136,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 21047,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31052,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 21047,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 21820,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 21047,
-                "BuildingType": 14,
-                "Quality": 7
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Weeping Ascencion of Kynareth",
-            "MapId": 609000000413,
+            "AnotherName": "Alabywyr's Gaol",
+            "MapId": 139233,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "DUNGAA02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 7649280,
+                "Y": 11810817,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 3,
+                "LocationId": 18199,
+                "IsInterior": 1,
+                "ExteriorLocationId": 18198,
+                "LocationName": "Alabywyr's Gaol"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000019.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Faest Farmstead",
+    "Name": "Dith Orchard",
     "RegionName": "Lainlyn",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 335000000685,
-        "Latitude": 76328,
-        "Longitude": 87720,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 320125440,
+        "Latitude": 24360,
+        "Longitude": 97320,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22460416,
-                "Y": 10991617,
+                "X": 24918016,
+                "Y": 6240257,
                 "IsExterior": 32768,
-                "Unknown2": 189,
-                "LocationId": 23168,
+                "Unknown2": 305,
+                "LocationId": 23488,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Faest Farmstead"
+                "LocationName": "Dith Orchard"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 1905,
+                "NameSeed": 25453,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23168,
-                "BuildingType": 18,
-                "Quality": 9
+                "LocationId": 23488,
+                "BuildingType": "House2",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Faest Farmstead",
-            "MapId": 335000000685,
+            "AnotherName": "Dith Orchard",
+            "MapId": 309760,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA03.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Graves of Kingwing",
+    "Name": "The Monastery of Homunogon",
     "RegionName": "Glenpoint",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 786000000355,
-        "Latitude": 18600,
-        "Longitude": 45480,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 452084447,
+        "Latitude": 44968,
+        "Longitude": 24488,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "DesecratedTemple",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11646976,
-                "Y": 25769985,
+                "X": 6273024,
+                "Y": 11515905,
                 "IsExterior": 32768,
-                "Unknown2": 12,
-                "LocationId": 13920,
+                "Unknown2": 431,
+                "LocationId": 18677,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Graves of Kingwing"
+                "LocationName": "The Monastery of Homunogon"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Graves of Kingwing",
-            "MapId": 786000000355,
+            "AnotherName": "The Monastery of Homunogon",
+            "MapId": 148191,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS35.RMB"
+                "DUNGAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 5388288,
-                "Y": 14006273,
+                "X": 6273024,
+                "Y": 11515905,
                 "IsExterior": 0,
-                "Unknown2": 1,
-                "LocationId": 13921,
+                "Unknown2": 138,
+                "LocationId": 18678,
                 "IsInterior": 1,
-                "ExteriorLocationId": 13920,
-                "LocationName": "The Graves of Kingwing"
+                "ExteriorLocationId": 18677,
+                "LocationName": "The Monastery of Homunogon"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000037.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,21 +84,29 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

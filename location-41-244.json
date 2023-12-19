@@ -1,130 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Rat and Stag Lodge",
+    "Name": "Masterfield Manor",
     "RegionName": "Daenia",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 694000000533,
-        "Latitude": 30376,
-        "Longitude": 68264,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 255960897,
+        "Latitude": 50088,
+        "Longitude": 45224,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17479680,
-                "Y": 22755329,
+                "X": 11581440,
+                "Y": 12826625,
                 "IsExterior": 32768,
-                "Unknown2": 83,
-                "LocationId": 13400,
+                "Unknown2": 244,
+                "LocationId": 16398,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rat and Stag Lodge"
+                "LocationName": "Masterfield Manor"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 14776,
-                "FactionId": 510,
+                "NameSeed": 2999,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 13400,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 19606,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 13400,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 10702,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 13400,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 13825,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 13400,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 6318,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 13400,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 20090,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 13400,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 10054,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 13400,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 22710,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 13400,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 5830,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 13400,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 25622,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 13400,
-                "BuildingType": 19,
+                "LocationId": 16398,
+                "BuildingType": "House2",
                 "Quality": 8
             },
             {
-                "NameSeed": 28474,
+                "NameSeed": 27229,
                 "FactionId": 0,
-                "Sector": 93,
-                "LocationId": 13400,
-                "BuildingType": 19,
-                "Quality": 11
+                "Sector": 10,
+                "LocationId": 16398,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 25451,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 16398,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 9563,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 16398,
+                "BuildingType": "House3",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 22539,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 16398,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 2849,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 16398,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 23972,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 16398,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 27375,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 16398,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 27586,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 16398,
+                "BuildingType": "House1",
+                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "14776",
-            "MapId": 694000000533,
+            "AnotherName": "Masterfield Manor",
+            "MapId": 108353,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS05.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -148,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 169,
     "RegionIndex": 41,

@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Nhijem Manor",
+    "Name": "The Pit of Morkulul",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 236000000718,
-        "Latitude": 89000,
-        "Longitude": 91944,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 709205141,
+        "Latitude": 16936,
+        "Longitude": 97960,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23541760,
-                "Y": 7747585,
+                "X": 25081856,
+                "Y": 4339713,
                 "IsExterior": 32768,
-                "Unknown2": 673,
-                "LocationId": 25449,
+                "Unknown2": 676,
+                "LocationId": 25453,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Nhijem Manor"
+                "LocationName": "The Pit of Morkulul"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 853,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 25449,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 21125,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 25449,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31307,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 25449,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 7156,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 25449,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 8207,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 25449,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 939,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 25449,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 20669,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 25449,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 31951,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 25449,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 10397,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 25449,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 11834,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 25449,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 11533,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 25449,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 10562,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 25449,
-                "BuildingType": 15,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 30801,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 25449,
-                "BuildingType": 17,
-                "Quality": 9
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Nhijem Manor",
-            "MapId": 236000000718,
+            "AnotherName": "The Pit of Morkulul",
+            "MapId": 367765,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "DUNGAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 25081856,
+                "Y": 4339713,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 178,
+                "LocationId": 25454,
+                "IsInterior": 1,
+                "ExteriorLocationId": 25453,
+                "LocationName": "The Pit of Morkulul"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000070.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Mordistyr Academy",
+    "Name": "The Ashhouse Farmstead",
     "RegionName": "Glenumbra Moors",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 809000000284,
-        "Latitude": 15656,
-        "Longitude": 36392,
-        "LocationType": 4,
-        "DungeonType": 9,
-        "Discovered": false,
+        "MapId": 86064307,
+        "Latitude": 53544,
+        "Longitude": 9640,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9320448,
-                "Y": 26523649,
+                "X": 2471936,
+                "Y": 13711361,
                 "IsExterior": 32768,
-                "Unknown2": 113,
-                "LocationId": 15067,
+                "Unknown2": 82,
+                "LocationId": 14577,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mordistyr Academy"
+                "LocationName": "The Ashhouse Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 17306,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 14577,
+                "BuildingType": "House2",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Mordistyr Academy",
-            "MapId": 809000000284,
+            "AnotherName": "The Ashhouse Farmstead",
+            "MapId": 81075,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA09.RMB"
+                "FARMAA06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 2996224,
-                "Y": 13481985,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 28,
-                "LocationId": 15068,
-                "IsInterior": 1,
-                "ExteriorLocationId": 15067,
-                "LocationName": "The Mordistyr Academy"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000062.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 187,
     "RegionIndex": 59,

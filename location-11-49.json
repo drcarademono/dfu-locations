@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Old Bavfa's Place",
+    "Name": "Rattdoth's Web",
     "RegionName": "Dak'fron",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 197000000597,
-        "Latitude": 93992,
-        "Longitude": 76456,
-        "LocationType": 11,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 51840739,
+        "Latitude": 5032,
+        "Longitude": 65960,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "ScorpionNest",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19576832,
-                "Y": 6469633,
+                "X": 16889856,
+                "Y": 1292289,
                 "IsExterior": 32768,
-                "Unknown2": 57,
-                "LocationId": 28391,
+                "Unknown2": 49,
+                "LocationId": 28356,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Bavfa's Place"
+                "LocationName": "Rattdoth's Web"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 14857,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 28391,
-                "BuildingType": 19,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Bavfa's Place",
-            "MapId": 197000000597,
+            "AnotherName": "Rattdoth's Web",
+            "MapId": 460515,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "DUNGAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 16889856,
+                "Y": 1292289,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 33,
+                "LocationId": 28357,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28356,
+                "LocationName": "Rattdoth's Web"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000026.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

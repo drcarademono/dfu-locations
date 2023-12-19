@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Buckingsmith Manor",
+    "Name": "The Den of Mordistyr",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 695000000319,
-        "Latitude": 30248,
-        "Longitude": 40872,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 1005782582,
+        "Latitude": 38568,
+        "Longitude": 25384,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "DragonsDen",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10467328,
-                "Y": 22788097,
+                "X": 6502400,
+                "Y": 9877505,
                 "IsExterior": 32768,
-                "Unknown2": 416,
-                "LocationId": 19835,
+                "Unknown2": 959,
+                "LocationId": 21084,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Buckingsmith Manor"
+                "LocationName": "The Den of Mordistyr"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 21676,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 19835,
-                "BuildingType": 17,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 17345,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 19835,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 24338,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 19835,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 18461,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 19835,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 21143,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 19835,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 8490,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 19835,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 21035,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 19835,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 3879,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 19835,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 1050,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 19835,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 8360,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 19835,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 2403,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 19835,
-                "BuildingType": 15,
-                "Quality": 9
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Buckingsmith Manor",
-            "MapId": 695000000319,
+            "AnotherName": "The Den of Mordistyr",
+            "MapId": 198198,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "DUNGAA16.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 6502400,
+                "Y": 9877505,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 189,
+                "LocationId": 21085,
+                "IsInterior": 1,
+                "ExteriorLocationId": 21084,
+                "LocationName": "The Den of Mordistyr"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000030.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

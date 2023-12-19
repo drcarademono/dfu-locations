@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Lhorp Farmstead",
+    "Name": "Mill Orchard",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 144000000843,
-        "Latitude": 100776,
-        "Longitude": 107944,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 44364026,
+        "Latitude": 22568,
+        "Longitude": 106792,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27637760,
-                "Y": 4732929,
+                "X": 27342848,
+                "Y": 5781505,
                 "IsExterior": 32768,
-                "Unknown2": 860,
-                "LocationId": 26128,
+                "Unknown2": 42,
+                "LocationId": 23868,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Lhorp Farmstead"
+                "LocationName": "Mill Orchard"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 16144,
+                "NameSeed": 30836,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26128,
-                "BuildingType": 18,
-                "Quality": 4
+                "LocationId": 23868,
+                "BuildingType": "House2",
+                "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Lhorp Farmstead",
-            "MapId": 144000000843,
+            "AnotherName": "Mill Orchard",
+            "MapId": 323834,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA03.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

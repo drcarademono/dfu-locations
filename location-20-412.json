@@ -1,50 +1,107 @@
 {
     "Loaded": true,
-    "Name": "The Glufylam Farmstead",
+    "Name": "Gysiian",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 428000000344,
-        "Latitude": 64424,
-        "Longitude": 44072,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 432412694,
+        "Latitude": 12832,
+        "Longitude": 48936,
+        "LocationType": "TownVillage",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16777216
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11286528,
-                "Y": 14039041,
+                "X": 12531712,
+                "Y": 3289089,
                 "IsExterior": 32768,
-                "Unknown2": 279,
-                "LocationId": 26231,
+                "Unknown2": 412,
+                "LocationId": 26592,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Glufylam Farmstead"
+                "LocationName": "Gysiian"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 8,
         "Buildings": [
             {
-                "NameSeed": 14172,
+                "NameSeed": 16933,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26231,
-                "BuildingType": 18,
-                "Quality": 10
+                "LocationId": 26592,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 29331,
+                "FactionId": 0,
+                "Sector": 11,
+                "LocationId": 26592,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 4582,
+                "FactionId": 0,
+                "Sector": 18,
+                "LocationId": 26592,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 12887,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 26592,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 17954,
+                "FactionId": 510,
+                "Sector": 29,
+                "LocationId": 26592,
+                "BuildingType": "HouseForSale",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 14632,
+                "FactionId": 0,
+                "Sector": 37,
+                "LocationId": 26592,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 8564,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 26592,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 11559,
+                "FactionId": 510,
+                "Sector": 61,
+                "LocationId": 26592,
+                "BuildingType": "GeneralStore",
+                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Glufylam Farmstead",
-            "MapId": 428000000344,
+            "AnotherName": "Gysiian",
+            "MapId": 399382,
             "LocationId": 0,
             "Width": 1,
-            "Height": 1,
+            "Height": 2,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA04.RMB"
+                "RESIGS03.RMB",
+                "GENRGS02.RMB"
             ]
         }
     },
@@ -68,13 +125,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

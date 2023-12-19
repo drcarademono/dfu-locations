@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Old Buckingsmith Hovel",
+    "Name": "Greenwing Palace",
     "RegionName": "Wayrest",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 301000000928,
-        "Latitude": 80680,
-        "Longitude": 118824,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 627292406,
+        "Latitude": 32808,
+        "Longitude": 122664,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30423040,
-                "Y": 9877505,
+                "X": 31406080,
+                "Y": 8402945,
                 "IsExterior": 32768,
-                "Unknown2": 165,
-                "LocationId": 21460,
+                "Unknown2": 598,
+                "LocationId": 22376,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Buckingsmith Hovel"
+                "LocationName": "Greenwing Palace"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 29030,
+                "NameSeed": 20049,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 21460,
-                "BuildingType": 19,
-                "Quality": 7
+                "LocationId": 22376,
+                "BuildingType": "House1",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 1370,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 22376,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 5550,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 22376,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 11230,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 22376,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 7929,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 22376,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 9089,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 22376,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 13232,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 22376,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 24979,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 22376,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 21889,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 22376,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 15628,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 22376,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 20666,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 22376,
+                "BuildingType": "Tavern",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Buckingsmith Hovel",
-            "MapId": 301000000928,
+            "AnotherName": "Greenwing Palace",
+            "MapId": 243958,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

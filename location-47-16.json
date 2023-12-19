@@ -1,104 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Tasem Hall",
+    "Name": "The Aviary of Druradon",
     "RegionName": "Ayasofya",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 335000000535,
-        "Latitude": 76328,
-        "Longitude": 68520,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 17144722,
+        "Latitude": 16936,
+        "Longitude": 64808,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "HarpyNest",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17545216,
-                "Y": 10991617,
+                "X": 16594944,
+                "Y": 4339713,
                 "IsExterior": 32768,
-                "Unknown2": 45,
-                "LocationId": 25705,
+                "Unknown2": 16,
+                "LocationId": 25437,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Tasem Hall"
+                "LocationName": "The Aviary of Druradon"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 1027,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 25705,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 29809,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 25705,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31629,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 25705,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 20088,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 25705,
-                "BuildingType": 17,
-                "Quality": 3
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Tasem Hall",
-            "MapId": 335000000535,
+            "AnotherName": "The Aviary of Druradon",
+            "MapId": 367506,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "DUNGAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 16594944,
+                "Y": 4339713,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 7,
+                "LocationId": 25438,
+                "IsInterior": 1,
+                "ExteriorLocationId": 25437,
+                "LocationName": "The Aviary of Druradon"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 175,
     "RegionIndex": 47,

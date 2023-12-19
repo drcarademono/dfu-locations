@@ -1,61 +1,77 @@
 {
     "Loaded": true,
-    "Name": "Dagirgoth",
+    "Name": "Lhir'kern's Hold",
     "RegionName": "Abibon-Gora",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 408000000188,
-        "Latitude": 66984,
-        "Longitude": 24104,
-        "LocationType": 4,
-        "DungeonType": 1,
+        "MapId": 35067198,
+        "Latitude": 4520,
+        "Longitude": 24360,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Mine",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 6174720,
-                "Y": 13383681,
+                "X": 6240256,
+                "Y": 1161217,
                 "IsExterior": 32768,
-                "Unknown2": 129,
-                "LocationId": 29034,
+                "Unknown2": 33,
+                "LocationId": 28457,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Dagirgoth"
+                "LocationName": "Lhir'kern's Hold"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Dagirgoth",
-            "MapId": 408000000188,
+            "AnotherName": "Lhir'kern's Hold",
+            "MapId": 464190,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA09.RMB"
+                "CASTAA34.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 6830080,
-                "Y": 538625,
+                "X": 6240256,
+                "Y": 1161217,
                 "IsExterior": 0,
-                "Unknown2": 37,
-                "LocationId": 29035,
+                "Unknown2": 13,
+                "LocationId": 28458,
                 "IsInterior": 1,
-                "ExteriorLocationId": 29034,
-                "LocationName": "Dagirgoth"
+                "ExteriorLocationId": 28457,
+                "LocationName": "Lhir'kern's Hold"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 12
         },
         "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000078.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
             {
                 "X": -1,
                 "Z": 0,
@@ -65,8 +81,8 @@
                 "CastleBlock": false
             },
             {
-                "X": -1,
-                "Z": 1,
+                "X": 1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
@@ -74,89 +90,9 @@
             },
             {
                 "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000017.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000023.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000047.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

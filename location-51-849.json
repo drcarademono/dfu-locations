@@ -1,64 +1,72 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Dherchan Hall",
+    "Name": "Ruins of Castle Gag",
     "RegionName": "Totambu",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 263000000721,
-        "Latitude": 85544,
-        "Longitude": 92328,
-        "LocationType": 10,
-        "DungeonType": 13,
+        "MapId": 890623903,
+        "Latitude": 15016,
+        "Longitude": 112552,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "DesecratedTemple",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23640064,
-                "Y": 8632321,
+                "X": 28817408,
+                "Y": 3848193,
                 "IsExterior": 32768,
-                "Unknown2": 281,
-                "LocationId": 24502,
+                "Unknown2": 849,
+                "LocationId": 26057,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Dherchan Hall"
+                "LocationName": "Ruins of Castle Gag"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Dherchan Hall",
-            "MapId": 263000000721,
+            "AnotherName": "Ruins of Castle Gag",
+            "MapId": 382879,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 8,
             "BlockNames": [
-                "RUINAA00.RMB"
+                "RUINAA07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 24360960,
-                "Y": 5158913,
+                "X": 28817408,
+                "Y": 3848193,
                 "IsExterior": 0,
-                "Unknown2": 77,
-                "LocationId": 24503,
+                "Unknown2": 227,
+                "LocationId": 26058,
                 "IsInterior": 1,
-                "ExteriorLocationId": 24502,
-                "LocationName": "Ruins of Dherchan Hall"
+                "ExteriorLocationId": 26057,
+                "LocationName": "Ruins of Castle Gag"
             }
         },
         "Header": {
-            "BlockCount": 11
+            "BlockCount": 10
         },
         "Blocks": [
             {
-                "X": -2,
+                "X": 0,
                 "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
@@ -66,41 +74,17 @@
             },
             {
                 "X": -1,
-                "Z": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -1,
+                "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "W0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000002.RDB",
+                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,39 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000065.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -148,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

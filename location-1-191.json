@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Glerdom Farmstead",
+    "Name": "The Baurhtin Plantation",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 93000000859,
-        "Latitude": 107304,
-        "Longitude": 109992,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 200643689,
+        "Latitude": 17192,
+        "Longitude": 86184,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28162048,
-                "Y": 3061761,
+                "X": 22067200,
+                "Y": 4405249,
                 "IsExterior": 32768,
-                "Unknown2": 528,
-                "LocationId": 27261,
+                "Unknown2": 191,
+                "LocationId": 25361,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Glerdom Farmstead"
+                "LocationName": "The Baurhtin Plantation"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 14045,
+                "NameSeed": 3900,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27261,
-                "BuildingType": 18,
-                "Quality": 1
+                "LocationId": 25361,
+                "BuildingType": "House2",
+                "Quality": 9
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Glerdom Farmstead",
-            "MapId": 93000000859,
+            "AnotherName": "The Baurhtin Plantation",
+            "MapId": 365673,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "FARMAA03.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

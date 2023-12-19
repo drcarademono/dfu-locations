@@ -1,50 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Thifyl Farmstead",
+    "Name": "Mirtom Manor",
     "RegionName": "Mournoth",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 194000000932,
-        "Latitude": 94376,
-        "Longitude": 119336,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 235209970,
+        "Latitude": 21928,
+        "Longitude": 121128,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30554112,
-                "Y": 6371329,
+                "X": 31012864,
+                "Y": 5617665,
                 "IsExterior": 32768,
-                "Unknown2": 69,
-                "LocationId": 23137,
+                "Unknown2": 224,
+                "LocationId": 24040,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Thifyl Farmstead"
+                "LocationName": "Mirtom Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 29761,
+                "NameSeed": 13770,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23137,
-                "BuildingType": 18,
-                "Quality": 13
+                "LocationId": 24040,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 12473,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 24040,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 3367,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 24040,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 7849,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 24040,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 768,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 24040,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 17688,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 24040,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 20262,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 24040,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 800,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 24040,
+                "BuildingType": "Tavern",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 22657,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 24040,
+                "BuildingType": "House1",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Thifyl Farmstead",
-            "MapId": 194000000932,
+            "AnotherName": "Mirtom Manor",
+            "MapId": 328946,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA02.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -68,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

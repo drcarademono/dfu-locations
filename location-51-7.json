@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Old Mhisi's Shack",
+    "Name": "The Green Skull Pub",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 131000000846,
-        "Latitude": 102440,
-        "Longitude": 108328,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 7658801,
+        "Latitude": 23208,
+        "Longitude": 98472,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27736064,
-                "Y": 4306945,
+                "X": 25212928,
+                "Y": 5945345,
                 "IsExterior": 32768,
-                "Unknown2": 900,
-                "LocationId": 26449,
+                "Unknown2": 7,
+                "LocationId": 23726,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Mhisi's Shack"
+                "LocationName": "The Green Skull Pub"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 1453,
+                "NameSeed": 3622,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26449,
-                "BuildingType": 19,
+                "LocationId": 23726,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 30745,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 23726,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 18931,
+                "FactionId": 0,
+                "Sector": 13,
+                "LocationId": 23726,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 31629,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 23726,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 20088,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 23726,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 16936,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 23726,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 2266,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 23726,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 25983,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 23726,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 18419,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 23726,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 13174,
+                "FactionId": 510,
+                "Sector": 68,
+                "LocationId": 23726,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 20466,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 23726,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 12390,
+                "FactionId": 510,
+                "Sector": 93,
+                "LocationId": 23726,
+                "BuildingType": "Tavern",
                 "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Mhisi's Shack",
-            "MapId": 131000000846,
+            "AnotherName": "13174",
+            "MapId": 318769,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNAS00.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

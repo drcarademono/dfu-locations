@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Rusty Fawn Hostel",
+    "Name": "The Old Grese Shack",
     "RegionName": "Ephesus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 95000000799,
-        "Latitude": 107048,
-        "Longitude": 102312,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 66500194,
+        "Latitude": 7720,
+        "Longitude": 116008,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26195968,
-                "Y": 3127297,
+                "X": 29702144,
+                "Y": 1980417,
                 "IsExterior": 32768,
-                "Unknown2": 107,
-                "LocationId": 28037,
+                "Unknown2": 63,
+                "LocationId": 27775,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rusty Fawn Hostel"
+                "LocationName": "The Old Grese Shack"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 31884,
-                "FactionId": 510,
+                "NameSeed": 24375,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28037,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 9515,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 28037,
-                "BuildingType": 15,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 17414,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 28037,
-                "BuildingType": 15,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 4003,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 28037,
-                "BuildingType": 19,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 16709,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 28037,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 25622,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 28037,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 28474,
-                "FactionId": 0,
-                "Sector": 70,
-                "LocationId": 28037,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 32483,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 28037,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 19252,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 28037,
-                "BuildingType": 19,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 21937,
-                "FactionId": 0,
-                "Sector": 87,
-                "LocationId": 28037,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 14987,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 28037,
-                "BuildingType": 18,
-                "Quality": 11
+                "LocationId": 27775,
+                "BuildingType": "House3",
+                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "31884",
-            "MapId": 95000000799,
+            "AnotherName": "The Old Grese Shack",
+            "MapId": 439906,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS06.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 181,
     "RegionIndex": 53,

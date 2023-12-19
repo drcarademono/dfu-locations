@@ -1,82 +1,115 @@
 {
     "Loaded": true,
-    "Name": "The Beaver and Chasm Lodge",
+    "Name": "Mogakareg",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 432000000193,
-        "Latitude": 63912,
-        "Longitude": 24744,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 183991957,
+        "Latitude": 1056,
+        "Longitude": 20136,
+        "LocationType": "TownVillage",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 16777472
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 6338560,
-                "Y": 14170113,
+                "X": 5158912,
+                "Y": 274433,
                 "IsExterior": 32768,
-                "Unknown2": 18,
-                "LocationId": 28343,
+                "Unknown2": 175,
+                "LocationId": 29270,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Beaver and Chasm Lodge"
+                "LocationName": "Mogakareg"
             }
         },
-        "BuildingCount": 5,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 19252,
+                "NameSeed": 7866,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28343,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 21937,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 28343,
-                "BuildingType": 18,
+                "LocationId": 29270,
+                "BuildingType": "House2",
                 "Quality": 4
             },
             {
-                "NameSeed": 14987,
+                "NameSeed": 11267,
                 "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 28343,
-                "BuildingType": 18,
-                "Quality": 11
+                "Sector": 11,
+                "LocationId": 29270,
+                "BuildingType": "House2",
+                "Quality": 7
             },
             {
-                "NameSeed": 16165,
+                "NameSeed": 1863,
                 "FactionId": 0,
                 "Sector": 18,
-                "LocationId": 28343,
-                "BuildingType": 18,
-                "Quality": 8
+                "LocationId": 29270,
+                "BuildingType": "House2",
+                "Quality": 7
             },
             {
-                "NameSeed": 6285,
+                "NameSeed": 24808,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 29270,
+                "BuildingType": "House4",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 1953,
                 "FactionId": 510,
-                "Sector": 23,
-                "LocationId": 28343,
-                "BuildingType": 15,
-                "Quality": 12
+                "Sector": 39,
+                "LocationId": 29270,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 18446,
+                "FactionId": 0,
+                "Sector": 53,
+                "LocationId": 29270,
+                "BuildingType": "House4",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 19692,
+                "FactionId": 0,
+                "Sector": 74,
+                "LocationId": 29270,
+                "BuildingType": "House4",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 10246,
+                "FactionId": 0,
+                "Sector": 95,
+                "LocationId": 29270,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 11429,
+                "FactionId": 510,
+                "Sector": 98,
+                "LocationId": 29270,
+                "BuildingType": "GeneralStore",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "6285",
-            "MapId": 432000000193,
+            "AnotherName": "Mogakareg",
+            "MapId": 491157,
             "LocationId": 0,
             "Width": 1,
-            "Height": 1,
+            "Height": 2,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS01.RMB"
+                "RESIGS03.RMB",
+                "GENRGS00.RMB"
             ]
         }
     },
@@ -100,13 +133,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

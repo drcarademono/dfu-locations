@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Buckington Tombs",
+    "Name": "Ashham Orchard",
     "RegionName": "Menevia",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 357000000843,
-        "Latitude": 73512,
-        "Longitude": 107944,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 91403922,
+        "Latitude": 41256,
+        "Longitude": 103720,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27637760,
-                "Y": 11712513,
+                "X": 26556416,
+                "Y": 10565633,
                 "IsExterior": 32768,
-                "Unknown2": 158,
-                "LocationId": 21194,
+                "Unknown2": 87,
+                "LocationId": 20214,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Buckington Tombs"
+                "LocationName": "Ashham Orchard"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 23433,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 20214,
+                "BuildingType": "House2",
+                "Quality": 6
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Buckington Tombs",
-            "MapId": 357000000843,
+            "AnotherName": "Ashham Orchard",
+            "MapId": 177810,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS07.RMB"
+                "FARMAA06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 26261504,
-                "Y": 9811969,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 27,
-                "LocationId": 21195,
-                "IsInterior": 1,
-                "ExteriorLocationId": 21194,
-                "LocationName": "The Buckington Tombs"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 161,
     "RegionIndex": 33,

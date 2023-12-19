@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Screaming Rascal Pub",
+    "Name": "Castle Coppering",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 706000000448,
-        "Latitude": 28840,
-        "Longitude": 57384,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 190915084,
+        "Latitude": 54440,
+        "Longitude": 32296,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14694400,
-                "Y": 23148545,
+                "X": 8271872,
+                "Y": 13940737,
                 "IsExterior": 32768,
-                "Unknown2": 426,
-                "LocationId": 15503,
+                "Unknown2": 182,
+                "LocationId": 14072,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Screaming Rascal Pub"
+                "LocationName": "Castle Coppering"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 15442,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 15503,
-                "BuildingType": 15,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 26040,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 15503,
-                "BuildingType": 15,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 26659,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 15503,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 10077,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 15503,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 4606,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 15503,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 24206,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 15503,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 18461,
-                "FactionId": 0,
-                "Sector": 73,
-                "LocationId": 15503,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 21143,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 15503,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 8490,
-                "FactionId": 0,
-                "Sector": 83,
-                "LocationId": 15503,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 21035,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 15503,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 3879,
-                "FactionId": 0,
-                "Sector": 94,
-                "LocationId": 15503,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 1050,
-                "FactionId": 0,
-                "Sector": 100,
-                "LocationId": 15503,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 8360,
-                "FactionId": 0,
-                "Sector": 110,
-                "LocationId": 15503,
-                "BuildingType": 18,
-                "Quality": 5
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "15442",
-            "MapId": 706000000448,
+            "AnotherName": "Castle Coppering",
+            "MapId": 74252,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS02.RMB"
+                "CASTAA06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 8271872,
+                "Y": 13940737,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 70,
+                "LocationId": 14073,
+                "IsInterior": 1,
+                "ExteriorLocationId": 14072,
+                "LocationName": "Castle Coppering"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
-        "NatureArchive": 508,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

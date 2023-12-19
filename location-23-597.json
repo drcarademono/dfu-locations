@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Old Chrystyn's Shack",
+    "Name": "The Screaming Rascal Hostel",
     "RegionName": "Wayrest",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 301000000920,
-        "Latitude": 80680,
-        "Longitude": 117800,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 626243820,
+        "Latitude": 32808,
+        "Longitude": 121384,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30160896,
-                "Y": 9877505,
+                "X": 31078400,
+                "Y": 8402945,
                 "IsExterior": 32768,
-                "Unknown2": 202,
-                "LocationId": 21634,
+                "Unknown2": 597,
+                "LocationId": 22375,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Chrystyn's Shack"
+                "LocationName": "The Screaming Rascal Hostel"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 307,
-                "FactionId": 0,
+                "NameSeed": 12976,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 21634,
-                "BuildingType": 19,
-                "Quality": 7
+                "LocationId": 22375,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 32043,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 22375,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 30943,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 22375,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 28347,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 22375,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 11121,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 22375,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 29287,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 22375,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 233,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 22375,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 3129,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 22375,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 21526,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 22375,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 4050,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 22375,
+                "BuildingType": "House3",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 4031,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 22375,
+                "BuildingType": "House3",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Chrystyn's Shack",
-            "MapId": 301000000920,
+            "AnotherName": "12976",
+            "MapId": 243948,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNAS05.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

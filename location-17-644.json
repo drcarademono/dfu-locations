@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Lynx and Priest Inn",
+    "Name": "Ruins of Old Chrystyrrya's Farm",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 672000000289,
-        "Latitude": 33192,
-        "Longitude": 37032,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 675464091,
+        "Latitude": 40744,
+        "Longitude": 18856,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "VampireHaunt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9484288,
-                "Y": 22034433,
+                "X": 4831232,
+                "Y": 10434561,
                 "IsExterior": 32768,
-                "Unknown2": 1074,
-                "LocationId": 21351,
+                "Unknown2": 644,
+                "LocationId": 20350,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Lynx and Priest Inn"
+                "LocationName": "Ruins of Old Chrystyrrya's Farm"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 22082,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 21351,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 4041,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 21351,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 13438,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 21351,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 18737,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 21351,
-                "BuildingType": 19,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 26926,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 21351,
-                "BuildingType": 19,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 19125,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 21351,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 576,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 21351,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31821,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 21351,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 21277,
-                "FactionId": 510,
-                "Sector": 63,
-                "LocationId": 21351,
-                "BuildingType": 1,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 21753,
-                "FactionId": 510,
-                "Sector": 67,
-                "LocationId": 21351,
-                "BuildingType": 15,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 27296,
-                "FactionId": 510,
-                "Sector": 84,
-                "LocationId": 21351,
-                "BuildingType": 15,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "21753",
-            "MapId": 672000000289,
+            "AnotherName": "Ruins of Old Chrystyrrya's Farm",
+            "MapId": 181147,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS08.RMB"
+                "RUINAA26.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 4831232,
+                "Y": 10434561,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 122,
+                "LocationId": 20351,
+                "IsInterior": 1,
+                "ExteriorLocationId": 20350,
+                "LocationName": "Ruins of Old Chrystyrrya's Farm"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000017.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

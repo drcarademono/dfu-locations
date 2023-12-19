@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Tower of Ashhart",
+    "Name": "Ruins of The Ashfield Farmstead",
     "RegionName": "Glenpoint",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 766000000309,
-        "Latitude": 21160,
-        "Longitude": 39592,
-        "LocationType": 4,
-        "DungeonType": 11,
+        "MapId": 381816855,
+        "Latitude": 46632,
+        "Longitude": 24488,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Laboratory",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10139648,
-                "Y": 25114625,
+                "X": 6273024,
+                "Y": 11941889,
                 "IsExterior": 32768,
-                "Unknown2": 203,
-                "LocationId": 16712,
+                "Unknown2": 364,
+                "LocationId": 17941,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tower of Ashhart"
+                "LocationName": "Ruins of The Ashfield Farmstead"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Tower of Ashhart",
-            "MapId": 766000000309,
+            "AnotherName": "Ruins of The Ashfield Farmstead",
+            "MapId": 135191,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA05.RMB"
+                "RUINAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 4405248,
-                "Y": 12662785,
+                "X": 6273024,
+                "Y": 11941889,
                 "IsExterior": 0,
-                "Unknown2": 65,
-                "LocationId": 16713,
+                "Unknown2": 119,
+                "LocationId": 17942,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16712,
-                "LocationName": "The Tower of Ashhart"
+                "ExteriorLocationId": 17941,
+                "LocationName": "Ruins of The Ashfield Farmstead"
             }
         },
         "Header": {
@@ -57,7 +57,15 @@
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000076.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000005.RDB",
@@ -68,13 +76,13 @@
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -2,
+                "X": 1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
@@ -82,41 +90,9 @@
             },
             {
                 "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,15 +100,15 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 186,
+    "Politic": 146,
     "RegionIndex": 18,
     "LocationIndex": 364
 }

@@ -1,96 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Fox and Scorpion Inn",
+    "Name": "The Cairn of Marquis Barovar",
     "RegionName": "Bergama",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 300000000398,
-        "Latitude": 80808,
-        "Longitude": 50984,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 5693301,
+        "Latitude": 6312,
+        "Longitude": 53928,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Crypt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13056000,
-                "Y": 9844737,
+                "X": 13809664,
+                "Y": 1619969,
                 "IsExterior": 32768,
-                "Unknown2": 43,
-                "LocationId": 28702,
+                "Unknown2": 5,
+                "LocationId": 28057,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Fox and Scorpion Inn"
+                "LocationName": "The Cairn of Marquis Barovar"
             }
         },
-        "BuildingCount": 3,
-        "Buildings": [
-            {
-                "NameSeed": 20090,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 28702,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 10054,
-                "FactionId": 510,
-                "Sector": 11,
-                "LocationId": 28702,
-                "BuildingType": 17,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 2664,
-                "FactionId": 510,
-                "Sector": 24,
-                "LocationId": 28702,
-                "BuildingType": 15,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "2664",
-            "MapId": 300000000398,
+            "AnotherName": "The Cairn of Marquis Barovar",
+            "MapId": 450421,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNBS03.RMB"
+                "DUNGAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 13809664,
+                "Y": 1619969,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 1,
+                "LocationId": 28058,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28057,
+                "LocationName": "The Cairn of Marquis Barovar"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000068.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 184,
     "RegionIndex": 56,

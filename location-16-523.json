@@ -1,136 +1,184 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Tower of Woodwing",
+    "Name": "Inner Sunrise of Kynareth",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 398000000987,
-        "Latitude": 68264,
-        "Longitude": 126376,
-        "LocationType": 10,
-        "DungeonType": 16,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 548443236,
+        "Latitude": 59176,
+        "Longitude": 126504,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 32356352,
-                "Y": 13056001,
+                "X": 32389120,
+                "Y": 15153153,
                 "IsExterior": 32768,
-                "Unknown2": 1140,
-                "LocationId": 15368,
+                "Unknown2": 523,
+                "LocationId": 11934,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Tower of Woodwing"
+                "LocationName": "Inner Sunrise of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 9193,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 11934,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 16033,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 11934,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 1196,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 11934,
+                "BuildingType": "House3",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 6904,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 11934,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 6944,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 11934,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 29310,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 11934,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 14897,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 11934,
+                "BuildingType": "House3",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 21505,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 11934,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 14364,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 11934,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 12649,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 11934,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 11061,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 11934,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 30835,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 11934,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 1006,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 11934,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 5793,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 11934,
+                "BuildingType": "Temple",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Tower of Woodwing",
-            "MapId": 398000000987,
+            "AnotherName": "Inner Sunrise of Kynareth",
+            "MapId": 37988,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA27.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 29669376,
-                "Y": 13350913,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 420,
-                "LocationId": 15369,
-                "IsInterior": 1,
-                "ExteriorLocationId": 15368,
-                "LocationName": "Ruins of The Tower of Woodwing"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000064.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

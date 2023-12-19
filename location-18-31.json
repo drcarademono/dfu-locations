@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Greenham Grange",
+    "Name": "The Hawksley Graveyard",
     "RegionName": "Glenpoint",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 707000000378,
-        "Latitude": 28712,
-        "Longitude": 48424,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 32585005,
+        "Latitude": 53800,
+        "Longitude": 19112,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12400640,
-                "Y": 23181313,
+                "X": 4896768,
+                "Y": 13776897,
                 "IsExterior": 32768,
-                "Unknown2": 323,
-                "LocationId": 17574,
+                "Unknown2": 31,
+                "LocationId": 14426,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Greenham Grange"
+                "LocationName": "The Hawksley Graveyard"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 30418,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 17574,
-                "BuildingType": 18,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Greenham Grange",
-            "MapId": 707000000378,
+            "AnotherName": "The Hawksley Graveyard",
+            "MapId": 79149,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA00.RMB"
+                "GRVEAS33.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 4896768,
+                "Y": 13776897,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 6,
+                "LocationId": 14427,
+                "IsInterior": 1,
+                "ExteriorLocationId": 14426,
+                "LocationName": "The Hawksley Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

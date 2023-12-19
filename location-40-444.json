@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Hearthcroft Farmstead",
+    "Name": "The Copperford Farmstead",
     "RegionName": "Ykalon",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 751000000468,
-        "Latitude": 23080,
-        "Longitude": 59944,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 465604084,
+        "Latitude": 59304,
+        "Longitude": 43560,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15349760,
-                "Y": 24623105,
+                "X": 11155456,
+                "Y": 15185921,
                 "IsExterior": 32768,
-                "Unknown2": 528,
-                "LocationId": 12406,
+                "Unknown2": 444,
+                "LocationId": 11832,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hearthcroft Farmstead"
+                "LocationName": "The Copperford Farmstead"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 7034,
+                "NameSeed": 1050,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 12406,
-                "BuildingType": 18,
-                "Quality": 1
+                "LocationId": 11832,
+                "BuildingType": "House2",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Hearthcroft Farmstead",
-            "MapId": 751000000468,
+            "AnotherName": "The Copperford Farmstead",
+            "MapId": 36340,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -68,15 +68,15 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 160,
+    "Politic": 168,
     "RegionIndex": 40,
     "LocationIndex": 444
 }

@@ -1,35 +1,35 @@
 {
     "Loaded": true,
-    "Name": "Castle Bauctt",
+    "Name": "The Citadel of Maeshan",
     "RegionName": "Mournoth",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 129000000915,
-        "Latitude": 102696,
-        "Longitude": 117160,
-        "LocationType": 7,
-        "DungeonType": 7,
+        "MapId": 33840394,
+        "Latitude": 27432,
+        "Longitude": 123176,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Laboratory",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29997056,
-                "Y": 4241409,
+                "X": 31537152,
+                "Y": 7026689,
                 "IsExterior": 32768,
-                "Unknown2": 318,
-                "LocationId": 25197,
+                "Unknown2": 32,
+                "LocationId": 22894,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle Bauctt"
+                "LocationName": "The Citadel of Maeshan"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Castle Bauctt",
-            "MapId": 129000000915,
+            "AnotherName": "The Citadel of Maeshan",
+            "MapId": 285962,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
@@ -42,89 +42,41 @@
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 32061440,
-                "Y": 4536321,
+                "X": 31537152,
+                "Y": 7026689,
                 "IsExterior": 0,
-                "Unknown2": 81,
-                "LocationId": 25198,
+                "Unknown2": 8,
+                "LocationId": 22895,
                 "IsInterior": 1,
-                "ExteriorLocationId": 25197,
-                "LocationName": "Castle Bauctt"
+                "ExteriorLocationId": 22894,
+                "LocationName": "The Citadel of Maeshan"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 13
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000002.RDB",
+                "BlockName": "N0000086.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000060.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000007.RDB",
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -137,18 +89,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 2,
-                "Z": -2,
+                "X": 0,
+                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -156,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

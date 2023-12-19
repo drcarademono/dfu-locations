@@ -1,50 +1,146 @@
 {
     "Loaded": true,
-    "Name": "Hearthwing Orchard",
+    "Name": "Yeomsmith Hall",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 638000000708,
-        "Latitude": 37544,
-        "Longitude": 90664,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 674341900,
+        "Latitude": 50216,
+        "Longitude": 68136,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23214080,
-                "Y": 20920321,
+                "X": 17446912,
+                "Y": 12859393,
                 "IsExterior": 32768,
-                "Unknown2": 69,
-                "LocationId": 11200,
+                "Unknown2": 643,
+                "LocationId": 16329,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hearthwing Orchard"
+                "LocationName": "Yeomsmith Hall"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 13,
         "Buildings": [
             {
-                "NameSeed": 18632,
+                "NameSeed": 5467,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 11200,
-                "BuildingType": 18,
+                "LocationId": 16329,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 14045,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 16329,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 15459,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 16329,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 19769,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 16329,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 9707,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 16329,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 24977,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 16329,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 16186,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 16329,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 10156,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 16329,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 3879,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 16329,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 1050,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 16329,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 8360,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 16329,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 2403,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 16329,
+                "BuildingType": "Tavern",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 16848,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 16329,
+                "BuildingType": "House1",
                 "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Hearthwing Orchard",
-            "MapId": 638000000708,
+            "AnotherName": "Yeomsmith Hall",
+            "MapId": 107532,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA02.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
@@ -68,13 +164,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

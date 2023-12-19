@@ -1,168 +1,184 @@
 {
     "Loaded": true,
-    "Name": "Hezardon",
+    "Name": "Silent Martyr of Kynareth",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 461000000928,
-        "Latitude": 60200,
-        "Longitude": 118824,
-        "LocationType": 4,
-        "DungeonType": 1,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 1158765420,
+        "Latitude": 52648,
+        "Longitude": 120360,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30423040,
-                "Y": 15120385,
+                "X": 30816256,
+                "Y": 13481985,
                 "IsExterior": 32768,
-                "Unknown2": 871,
-                "LocationId": 13640,
+                "Unknown2": 1105,
+                "LocationId": 15131,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hezardon"
+                "LocationName": "Silent Martyr of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 25245,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 15131,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 18352,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 15131,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 32462,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 15131,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 3598,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 15131,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 19426,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 15131,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 30622,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 15131,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 22109,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 15131,
+                "BuildingType": "House3",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 7929,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 15131,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 9089,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 15131,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 13232,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 15131,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 24979,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 15131,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 21889,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 15131,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 15628,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 15131,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 20666,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 15131,
+                "BuildingType": "Temple",
+                "Quality": 5
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Hezardon",
-            "MapId": 461000000928,
+            "AnotherName": "Silent Martyr of Kynareth",
+            "MapId": 88940,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA03.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 26982400,
-                "Y": 14170113,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 308,
-                "LocationId": 13641,
-                "IsInterior": 1,
-                "ExteriorLocationId": 13640,
-                "LocationName": "Hezardon"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000084.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

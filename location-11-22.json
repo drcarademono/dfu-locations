@@ -1,61 +1,77 @@
 {
     "Loaded": true,
-    "Name": "The Morkeus Manse",
+    "Name": "The Nest of Skoerten",
     "RegionName": "Dak'fron",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 169000000628,
-        "Latitude": 97576,
-        "Longitude": 80424,
-        "LocationType": 4,
-        "DungeonType": 4,
+        "MapId": 23519340,
+        "Latitude": 6312,
+        "Longitude": 85544,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "ScorpionNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20592640,
-                "Y": 5552129,
+                "X": 21903360,
+                "Y": 1619969,
                 "IsExterior": 32768,
-                "Unknown2": 75,
-                "LocationId": 28649,
+                "Unknown2": 22,
+                "LocationId": 28063,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Morkeus Manse"
+                "LocationName": "The Nest of Skoerten"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Morkeus Manse",
-            "MapId": 169000000628,
+            "AnotherName": "The Nest of Skoerten",
+            "MapId": 450668,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA13.RMB"
+                "DUNGAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23246848,
-                "Y": 964609,
+                "X": 21903360,
+                "Y": 1619969,
                 "IsExterior": 0,
-                "Unknown2": 50,
-                "LocationId": 28650,
+                "Unknown2": 14,
+                "LocationId": 28064,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28649,
-                "LocationName": "The Morkeus Manse"
+                "ExteriorLocationId": 28063,
+                "LocationName": "The Nest of Skoerten"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 12
         },
         "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
             {
                 "X": -1,
                 "Z": 0,
@@ -65,72 +81,32 @@
                 "CastleBlock": false
             },
             {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000025.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000026.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
-        "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "WorldClimate": 225,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
+        "GroundArchive": 2,
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

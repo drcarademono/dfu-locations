@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Masterhart Grange",
+    "Name": "The Lynx and Priest Inn",
     "RegionName": "Bhoriane",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 541000000695,
-        "Latitude": 49960,
-        "Longitude": 89000,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 146925239,
+        "Latitude": 48040,
+        "Longitude": 76712,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22788096,
-                "Y": 17741825,
+                "X": 19642368,
+                "Y": 12302337,
                 "IsExterior": 32768,
-                "Unknown2": 105,
-                "LocationId": 16864,
+                "Unknown2": 140,
+                "LocationId": 17331,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Masterhart Grange"
+                "LocationName": "The Lynx and Priest Inn"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 20671,
-                "FactionId": 0,
+                "NameSeed": 27314,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 16864,
-                "BuildingType": 18,
+                "LocationId": 17331,
+                "BuildingType": "Tavern",
                 "Quality": 10
+            },
+            {
+                "NameSeed": 26431,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 17331,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 6999,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 17331,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 426,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 17331,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 11726,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 17331,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 22852,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 17331,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 19403,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 17331,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 9265,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 17331,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 30964,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 17331,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 28071,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 17331,
+                "BuildingType": "House3",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 5339,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 17331,
+                "BuildingType": "House3",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Masterhart Grange",
-            "MapId": 541000000695,
+            "AnotherName": "27314",
+            "MapId": 124599,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA04.RMB"
+                "TVRNAS05.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 164,
     "RegionIndex": 36,

@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Red Rascal Hostel",
+    "Name": "Ruins of Castle Khugta",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 114000000829,
-        "Latitude": 104616,
-        "Longitude": 106152,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 269866770,
+        "Latitude": 15016,
+        "Longitude": 94504,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27179008,
-                "Y": 3749889,
+                "X": 24197120,
+                "Y": 3848193,
                 "IsExterior": 32768,
-                "Unknown2": 489,
-                "LocationId": 27145,
+                "Unknown2": 257,
+                "LocationId": 26055,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Red Rascal Hostel"
+                "LocationName": "Ruins of Castle Khugta"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 32756,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27145,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 16535,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 27145,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 16938,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 27145,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 28152,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 27145,
-                "BuildingType": 19,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 29590,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 27145,
-                "BuildingType": 19,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 29289,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 27145,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 9281,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 27145,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 21829,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 27145,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 18776,
-                "FactionId": 510,
-                "Sector": 63,
-                "LocationId": 27145,
-                "BuildingType": 1,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18729,
-                "FactionId": 510,
-                "Sector": 67,
-                "LocationId": 27145,
-                "BuildingType": 15,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 22076,
-                "FactionId": 510,
-                "Sector": 84,
-                "LocationId": 27145,
-                "BuildingType": 15,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "18729",
-            "MapId": 114000000829,
+            "AnotherName": "Ruins of Castle Khugta",
+            "MapId": 382738,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS08.RMB"
+                "RUINAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 24197120,
+                "Y": 3848193,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 73,
+                "LocationId": 26056,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26055,
+                "LocationName": "Ruins of Castle Khugta"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000039.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Beaver and Dog Tavern",
+    "Name": "Tower Mhig'kern",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 168000000890,
-        "Latitude": 97704,
-        "Longitude": 113960,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 194322404,
+        "Latitude": 21032,
+        "Longitude": 108072,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "OrcStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29177856,
-                "Y": 5519361,
+                "X": 27670528,
+                "Y": 5388289,
                 "IsExterior": 32768,
-                "Unknown2": 259,
-                "LocationId": 24442,
+                "Unknown2": 185,
+                "LocationId": 24262,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Beaver and Dog Tavern"
+                "LocationName": "Tower Mhig'kern"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 3536,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 24442,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 16293,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 24442,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 15316,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 24442,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 4198,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 24442,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 8279,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 24442,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 28456,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 24442,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 32571,
-                "FactionId": 0,
-                "Sector": 56,
-                "LocationId": 24442,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 8210,
-                "FactionId": 0,
-                "Sector": 64,
-                "LocationId": 24442,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 6643,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 24442,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 9302,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 24442,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 4715,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 24442,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 28817,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 24442,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 5677,
-                "FactionId": 0,
-                "Sector": 85,
-                "LocationId": 24442,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 32592,
-                "FactionId": 0,
-                "Sector": 90,
-                "LocationId": 24442,
-                "BuildingType": 18,
-                "Quality": 4
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "3536",
-            "MapId": 168000000890,
+            "AnotherName": "Tower Mhig'kern",
+            "MapId": 335844,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS01.RMB"
+                "CASTAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 27670528,
+                "Y": 5388289,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 51,
+                "LocationId": 24263,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24262,
+                "LocationName": "Tower Mhig'kern"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 11
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

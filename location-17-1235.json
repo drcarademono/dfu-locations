@@ -1,50 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Wooding Plantation",
+    "Name": "Yeoming Manor",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 724000000296,
-        "Latitude": 26536,
-        "Longitude": 37928,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 1295204584,
+        "Latitude": 36648,
+        "Longitude": 28712,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9713664,
-                "Y": 23738369,
+                "X": 7354368,
+                "Y": 9385985,
                 "IsExterior": 32768,
-                "Unknown2": 141,
-                "LocationId": 19015,
+                "Unknown2": 1235,
+                "LocationId": 21728,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Wooding Plantation"
+                "LocationName": "Yeoming Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 13687,
+                "NameSeed": 22472,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 19015,
-                "BuildingType": 18,
+                "LocationId": 21728,
+                "BuildingType": "House2",
                 "Quality": 11
+            },
+            {
+                "NameSeed": 19507,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 21728,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 12066,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 21728,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 23111,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 21728,
+                "BuildingType": "House3",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 11341,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 21728,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 5659,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 21728,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 22641,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 21728,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 6853,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 21728,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 16716,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 21728,
+                "BuildingType": "House1",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Wooding Plantation",
-            "MapId": 724000000296,
+            "AnotherName": "Yeoming Manor",
+            "MapId": 213224,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -68,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

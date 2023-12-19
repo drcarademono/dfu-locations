@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Buckingston Cemetery",
+    "Name": "The Barrow of Nebuchulan",
     "RegionName": "Anticlere",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 630000000504,
-        "Latitude": 38568,
-        "Longitude": 64552,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 689088784,
+        "Latitude": 41640,
+        "Longitude": 45096,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Crypt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16529408,
-                "Y": 20658177,
+                "X": 11548672,
+                "Y": 10663937,
                 "IsExterior": 32768,
-                "Unknown2": 89,
-                "LocationId": 17810,
+                "Unknown2": 657,
+                "LocationId": 20084,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Buckingston Cemetery"
+                "LocationName": "The Barrow of Nebuchulan"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Buckingston Cemetery",
-            "MapId": 630000000504,
+            "AnotherName": "The Barrow of Nebuchulan",
+            "MapId": 174352,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS25.RMB"
+                "DUNGAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 12171264,
-                "Y": 12007425,
+                "X": 11548672,
+                "Y": 10663937,
                 "IsExterior": 0,
-                "Unknown2": 18,
-                "LocationId": 17811,
+                "Unknown2": 159,
+                "LocationId": 20085,
                 "IsInterior": 1,
-                "ExteriorLocationId": 17810,
-                "LocationName": "The Buckingston Cemetery"
+                "ExteriorLocationId": 20084,
+                "LocationName": "The Barrow of Nebuchulan"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 14
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000083.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -73,10 +73,18 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000002.RDB",
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -87,26 +95,18 @@
                 "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
             }
         ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

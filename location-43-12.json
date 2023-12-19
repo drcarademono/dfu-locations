@@ -1,71 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Reliquary of Sai",
+    "Name": "Ruins of Mhoghton Orchard",
     "RegionName": "Abibon-Gora",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 402000000169,
-        "Latitude": 67752,
-        "Longitude": 21672,
-        "LocationType": 9,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 13041110,
+        "Latitude": 5288,
+        "Longitude": 25384,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "GiantStronghold",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5552128,
-                "Y": 13187073,
+                "X": 6502400,
+                "Y": 1357825,
                 "IsExterior": 32768,
-                "Unknown2": 228,
-                "LocationId": 29460,
+                "Unknown2": 12,
+                "LocationId": 28274,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Reliquary of Sai"
+                "LocationName": "Ruins of Mhoghton Orchard"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Reliquary of Sai",
-            "MapId": 402000000169,
+            "AnotherName": "Ruins of Mhoghton Orchard",
+            "MapId": 458198,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 8,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "RUINAA24.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 6502400,
+                "Y": 1357825,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 5,
+                "LocationId": 28275,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28274,
+                "LocationName": "Ruins of Mhoghton Orchard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

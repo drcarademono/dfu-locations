@@ -1,82 +1,114 @@
 {
     "Loaded": true,
-    "Name": "Old Cectti's Place",
+    "Name": "The B'ajon Cemetery",
     "RegionName": "Ayasofya",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 341000000488,
-        "Latitude": 75560,
-        "Longitude": 62504,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 28681107,
+        "Latitude": 16680,
+        "Longitude": 71080,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16005120,
-                "Y": 11188225,
+                "X": 18200576,
+                "Y": 4274177,
                 "IsExterior": 32768,
-                "Unknown2": 106,
-                "LocationId": 26336,
+                "Unknown2": 27,
+                "LocationId": 25528,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Cectti's Place"
+                "LocationName": "The B'ajon Cemetery"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 10869,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 26336,
-                "BuildingType": 19,
-                "Quality": 11
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Cectti's Place",
-            "MapId": 341000000488,
+            "AnotherName": "The B'ajon Cemetery",
+            "MapId": 369555,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "GRVEAS10.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 18200576,
+                "Y": 4274177,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 12,
+                "LocationId": 25529,
+                "IsInterior": 1,
+                "ExteriorLocationId": 25528,
+                "LocationName": "The B'ajon Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
-        "NatureArchive": 503,
-        "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "NatureArchive": 501,
+        "SkyBase": 24,
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 175,
+    "Politic": 176,
     "RegionIndex": 47,
     "LocationIndex": 27
 }

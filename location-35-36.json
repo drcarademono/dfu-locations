@@ -1,88 +1,72 @@
 {
     "Loaded": true,
-    "Name": "Elausa Cultus",
+    "Name": "Castle Kingfield",
     "RegionName": "Koegria",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 507000000770,
-        "Latitude": 54312,
-        "Longitude": 98600,
-        "LocationType": 4,
-        "DungeonType": 7,
+        "MapId": 37819410,
+        "Latitude": 54952,
+        "Longitude": 86312,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "BarbarianStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25245696,
-                "Y": 16627713,
+                "X": 22099968,
+                "Y": 14071809,
                 "IsExterior": 32768,
-                "Unknown2": 110,
-                "LocationId": 16271,
+                "Unknown2": 36,
+                "LocationId": 13839,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Elausa Cultus"
+                "LocationName": "Castle Kingfield"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Elausa Cultus",
-            "MapId": 507000000770,
+            "AnotherName": "Castle Kingfield",
+            "MapId": 70674,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA13.RMB"
+                "CASTAA21.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 21739520,
-                "Y": 12892161,
+                "X": 22099968,
+                "Y": 14071809,
                 "IsExterior": 0,
-                "Unknown2": 18,
-                "LocationId": 16272,
+                "Unknown2": 7,
+                "LocationId": 13840,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16271,
-                "LocationName": "Elausa Cultus"
+                "ExteriorLocationId": 13839,
+                "LocationName": "Castle Kingfield"
             }
         },
         "Header": {
-            "BlockCount": 11
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -3,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000032.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -2,
+                "X": 0,
                 "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
@@ -90,49 +74,9 @@
             },
             {
                 "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000059.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000060.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -140,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -148,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 163,
     "RegionIndex": 35,

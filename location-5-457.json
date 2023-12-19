@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Howling Porcupine Tavern",
+    "Name": "The Fortress of Hearthsly",
     "RegionName": "Dwynnen",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 614000000716,
-        "Latitude": 40616,
-        "Longitude": 91688,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 479275740,
+        "Latitude": 54184,
+        "Longitude": 65064,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "VampireHaunt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23476224,
-                "Y": 20133889,
+                "X": 16660480,
+                "Y": 13875201,
                 "IsExterior": 32768,
-                "Unknown2": 210,
-                "LocationId": 12133,
+                "Unknown2": 457,
+                "LocationId": 14248,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Howling Porcupine Tavern"
+                "LocationName": "The Fortress of Hearthsly"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 30705,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 12133,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 19294,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 12133,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 10439,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 12133,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 7135,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 12133,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 2592,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 12133,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 1264,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 12133,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 32610,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 12133,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 7846,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 12133,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 27833,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 12133,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 29055,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 12133,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 25382,
-                "FactionId": 510,
-                "Sector": 55,
-                "LocationId": 12133,
-                "BuildingType": 15,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 23349,
-                "FactionId": 510,
-                "Sector": 71,
-                "LocationId": 12133,
-                "BuildingType": 15,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "25382",
-            "MapId": 614000000716,
+            "AnotherName": "The Fortress of Hearthsly",
+            "MapId": 76508,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS07.RMB"
+                "CASTAA34.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 16660480,
+                "Y": 13875201,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 81,
+                "LocationId": 14249,
+                "IsInterior": 1,
+                "ExteriorLocationId": 14248,
+                "LocationName": "The Fortress of Hearthsly"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

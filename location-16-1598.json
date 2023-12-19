@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The White Goat Pub",
+    "Name": "Buckingfield's Guard",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 536000000913,
-        "Latitude": 50600,
-        "Longitude": 116904,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 1675764346,
+        "Latitude": 46120,
+        "Longitude": 114984,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "SpiderNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29931520,
-                "Y": 17577985,
+                "X": 29440000,
+                "Y": 11810817,
                 "IsExterior": 32768,
-                "Unknown2": 133,
-                "LocationId": 10452,
+                "Unknown2": 1598,
+                "LocationId": 18246,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The White Goat Pub"
+                "LocationName": "Buckingfield's Guard"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 5552,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 10452,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 1609,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 10452,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 1469,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 10452,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 23821,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 10452,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 3814,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 10452,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 23412,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 10452,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 11964,
-                "FactionId": 0,
-                "Sector": 56,
-                "LocationId": 10452,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 9175,
-                "FactionId": 0,
-                "Sector": 64,
-                "LocationId": 10452,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 16121,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 10452,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 22921,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 10452,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 8448,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 10452,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 25734,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 10452,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 12820,
-                "FactionId": 0,
-                "Sector": 85,
-                "LocationId": 10452,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 14042,
-                "FactionId": 0,
-                "Sector": 90,
-                "LocationId": 10452,
-                "BuildingType": 18,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "5552",
-            "MapId": 536000000913,
+            "AnotherName": "Buckingfield's Guard",
+            "MapId": 139898,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS01.RMB"
+                "CASTAA31.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 29440000,
+                "Y": 11810817,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 597,
+                "LocationId": 18247,
+                "IsInterior": 1,
+                "ExteriorLocationId": 18246,
+                "LocationName": "Buckingfield's Guard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000025.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

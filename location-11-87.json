@@ -1,90 +1,74 @@
 {
     "Loaded": true,
-    "Name": "Tricerlas",
+    "Name": "Ruins of Chelde Grange",
     "RegionName": "Dak'fron",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 217000000576,
-        "Latitude": 91432,
-        "Longitude": 73768,
-        "LocationType": 4,
-        "DungeonType": 1,
+        "MapId": 91699676,
+        "Latitude": 3368,
+        "Longitude": 72232,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "HumanStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18888704,
-                "Y": 7124993,
+                "X": 18495488,
+                "Y": 866305,
                 "IsExterior": 32768,
-                "Unknown2": 35,
-                "LocationId": 28206,
+                "Unknown2": 87,
+                "LocationId": 28728,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Tricerlas"
+                "LocationName": "Ruins of Chelde Grange"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Tricerlas",
-            "MapId": 217000000576,
+            "AnotherName": "Ruins of Chelde Grange",
+            "MapId": 473564,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA12.RMB"
+                "RUINAA10.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 20985856,
-                "Y": 1456129,
+                "X": 18495488,
+                "Y": 866305,
                 "IsExterior": 0,
-                "Unknown2": 24,
-                "LocationId": 28207,
+                "Unknown2": 57,
+                "LocationId": 28729,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28206,
-                "LocationName": "Tricerlas"
+                "ExteriorLocationId": 28728,
+                "LocationName": "Ruins of Chelde Grange"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000076.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "W0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
+                "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -97,8 +81,8 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -3,
+                "X": 1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
@@ -106,57 +90,9 @@
             },
             {
                 "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "W0000026.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000040.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

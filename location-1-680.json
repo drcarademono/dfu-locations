@@ -1,50 +1,146 @@
 {
     "Loaded": true,
-    "Name": "The Cich Plantation",
+    "Name": "The Unfortunate Hedgehog Pub",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 261000000674,
-        "Latitude": 85800,
-        "Longitude": 86312,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 713485651,
+        "Latitude": 5928,
+        "Longitude": 124328,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22099968,
-                "Y": 8566785,
+                "X": 31832064,
+                "Y": 1521665,
                 "IsExterior": 32768,
-                "Unknown2": 200,
-                "LocationId": 25447,
+                "Unknown2": 680,
+                "LocationId": 28161,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Cich Plantation"
+                "LocationName": "The Unfortunate Hedgehog Pub"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 13,
         "Buildings": [
             {
-                "NameSeed": 29890,
-                "FactionId": 0,
+                "NameSeed": 18030,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 25447,
-                "BuildingType": 18,
+                "LocationId": 28161,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 10377,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 28161,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 5777,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 28161,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 4712,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 28161,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 23114,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 28161,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 17044,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 28161,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 27060,
+                "FactionId": 0,
+                "Sector": 73,
+                "LocationId": 28161,
+                "BuildingType": "House2",
                 "Quality": 1
+            },
+            {
+                "NameSeed": 28173,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 28161,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 19275,
+                "FactionId": 0,
+                "Sector": 83,
+                "LocationId": 28161,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 20671,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 28161,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 25069,
+                "FactionId": 0,
+                "Sector": 94,
+                "LocationId": 28161,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 3965,
+                "FactionId": 0,
+                "Sector": 100,
+                "LocationId": 28161,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 3939,
+                "FactionId": 0,
+                "Sector": 110,
+                "LocationId": 28161,
+                "BuildingType": "House2",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Cich Plantation",
-            "MapId": 261000000674,
+            "AnotherName": "18030",
+            "MapId": 453971,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA08.RMB"
+                "TVRNAS02.RMB"
             ]
         }
     },
@@ -68,13 +164,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

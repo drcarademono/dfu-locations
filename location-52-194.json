@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Glufylan Manor",
+    "Name": "The Tower of Cyugt",
     "RegionName": "Mournoth",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 187000000888,
-        "Latitude": 95272,
-        "Longitude": 113704,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 203748626,
+        "Latitude": 22440,
+        "Longitude": 112936,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "ScorpionNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29112320,
-                "Y": 6141953,
+                "X": 28915712,
+                "Y": 5748737,
                 "IsExterior": 32768,
-                "Unknown2": 202,
-                "LocationId": 23938,
+                "Unknown2": 194,
+                "LocationId": 23903,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Glufylan Manor"
+                "LocationName": "The Tower of Cyugt"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 17149,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 23938,
-                "BuildingType": 17,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 13931,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 23938,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 12026,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 23938,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 7545,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 23938,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 14625,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 23938,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 30474,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 23938,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 27900,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 23938,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 12397,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 23938,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 9798,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 23938,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 19637,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 23938,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 3404,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 23938,
-                "BuildingType": 15,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Glufylan Manor",
-            "MapId": 187000000888,
+            "AnotherName": "The Tower of Cyugt",
+            "MapId": 324882,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "CASTAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 28915712,
+                "Y": 5748737,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 46,
+                "LocationId": 23904,
+                "IsInterior": 1,
+                "ExteriorLocationId": 23903,
+                "LocationName": "The Tower of Cyugt"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000047.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

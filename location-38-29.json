@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "The Hawksley Farmstead",
+    "Name": "The Unfortunate Gnome Inn",
     "RegionName": "Phrygias",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 624000000748,
-        "Latitude": 39336,
-        "Longitude": 95784,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 30415274,
+        "Latitude": 63144,
+        "Longitude": 73000,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24524800,
-                "Y": 20461569,
+                "X": 18692096,
+                "Y": 16168961,
                 "IsExterior": 32768,
-                "Unknown2": 95,
-                "LocationId": 10739,
+                "Unknown2": 29,
+                "LocationId": 10260,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hawksley Farmstead"
+                "LocationName": "The Unfortunate Gnome Inn"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 15950,
+                "NameSeed": 15757,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 10739,
-                "BuildingType": 18,
+                "LocationId": 10260,
+                "BuildingType": "House2",
                 "Quality": 14
+            },
+            {
+                "NameSeed": 31527,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 10260,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 16297,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 10260,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 7885,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 10260,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 27469,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 10260,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 17477,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 10260,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 27683,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 10260,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 31689,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 10260,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 12755,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 10260,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 9969,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 10260,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 28523,
+                "FactionId": 510,
+                "Sector": 55,
+                "LocationId": 10260,
+                "BuildingType": "Tavern",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 19006,
+                "FactionId": 510,
+                "Sector": 71,
+                "LocationId": 10260,
+                "BuildingType": "Tavern",
+                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Hawksley Farmstead",
-            "MapId": 624000000748,
+            "AnotherName": "28523",
+            "MapId": 6570,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "TVRNAS07.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 166,
     "RegionIndex": 38,

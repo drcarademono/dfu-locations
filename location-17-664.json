@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Burning Oracle of Kynareth",
+    "Name": "THe Crypts of Moorhart",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 673000000324,
-        "Latitude": 33064,
-        "Longitude": 41512,
-        "LocationType": 5,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16
+        "MapId": 696437584,
+        "Latitude": 40488,
+        "Longitude": 15400,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10631168,
-                "Y": 22067201,
+                "X": 3946496,
+                "Y": 10369025,
                 "IsExterior": 32768,
-                "Unknown2": 730,
-                "LocationId": 20543,
+                "Unknown2": 664,
+                "LocationId": 20406,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Burning Oracle of Kynareth"
+                "LocationName": "THe Crypts of Moorhart"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 1840,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 20543,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 106,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 20543,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 14535,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 20543,
-                "BuildingType": 19,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 15630,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 20543,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 22750,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 20543,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 5467,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 20543,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 14045,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 20543,
-                "BuildingType": 19,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 15459,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 20543,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 19769,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 20543,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 9707,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 20543,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 24977,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 20543,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 16186,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 20543,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 10156,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 20543,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 16670,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 20543,
-                "BuildingType": 14,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Burning Oracle of Kynareth",
-            "MapId": 673000000324,
+            "AnotherName": "THe Crypts of Moorhart",
+            "MapId": 183120,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "GRVEAS12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 3946496,
+                "Y": 10369025,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 125,
+                "LocationId": 20407,
+                "IsInterior": 1,
+                "ExteriorLocationId": 20406,
+                "LocationName": "THe Crypts of Moorhart"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

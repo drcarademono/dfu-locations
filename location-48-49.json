@@ -1,74 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Pig and Badger Pub",
+    "Name": "C'arch'kern Palace",
     "RegionName": "Tigonus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 329000000573,
-        "Latitude": 77096,
-        "Longitude": 73384,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 51694755,
+        "Latitude": 23720,
+        "Longitude": 68008,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18790400,
-                "Y": 10795009,
+                "X": 17414144,
+                "Y": 6076417,
                 "IsExterior": 32768,
-                "Unknown2": 263,
-                "LocationId": 25107,
+                "Unknown2": 49,
+                "LocationId": 23603,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Pig and Badger Pub"
+                "LocationName": "C'arch'kern Palace"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 26320,
-                "FactionId": 510,
+                "NameSeed": 19919,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25107,
-                "BuildingType": 15,
-                "Quality": 10
+                "LocationId": 23603,
+                "BuildingType": "House2",
+                "Quality": 7
             },
             {
-                "NameSeed": 20623,
+                "NameSeed": 7073,
                 "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 25107,
-                "BuildingType": 18,
-                "Quality": 10
+                "Sector": 10,
+                "LocationId": 23603,
+                "BuildingType": "House2",
+                "Quality": 11
             },
             {
-                "NameSeed": 31495,
+                "NameSeed": 26951,
                 "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 25107,
-                "BuildingType": 20,
-                "Quality": 5
+                "Sector": 22,
+                "LocationId": 23603,
+                "BuildingType": "House2",
+                "Quality": 11
             },
             {
-                "NameSeed": 11040,
+                "NameSeed": 16762,
                 "FactionId": 0,
-                "Sector": 37,
-                "LocationId": 25107,
-                "BuildingType": 20,
+                "Sector": 30,
+                "LocationId": 23603,
+                "BuildingType": "House3",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 26349,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 23603,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 18861,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 23603,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 9816,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 23603,
+                "BuildingType": "House2",
                 "Quality": 2
+            },
+            {
+                "NameSeed": 6247,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 23603,
+                "BuildingType": "Tavern",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 18839,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 23603,
+                "BuildingType": "House1",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "26320",
-            "MapId": 329000000573,
+            "AnotherName": "C'arch'kern Palace",
+            "MapId": 314531,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS00.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -91,14 +131,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
-        "GroundArchive": 2,
-        "NatureArchive": 501,
+        "WorldClimate": 228,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_Swamp",
+        "GroundArchive": 402,
+        "NatureArchive": 502,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

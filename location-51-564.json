@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Kieran Theatre",
+    "Name": "Old Shallki's Farm",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 224000000839,
-        "Latitude": 90536,
-        "Longitude": 107432,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 591757764,
+        "Latitude": 17832,
+        "Longitude": 115240,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27506688,
-                "Y": 7354369,
+                "X": 29505536,
+                "Y": 4569089,
                 "IsExterior": 32768,
-                "Unknown2": 6,
-                "LocationId": 23701,
+                "Unknown2": 564,
+                "LocationId": 25166,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kieran Theatre"
+                "LocationName": "Old Shallki's Farm"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 22463,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 25166,
+                "BuildingType": "House1",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Kieran Theatre",
-            "MapId": 224000000839,
+            "AnotherName": "Old Shallki's Farm",
+            "MapId": 360900,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "FARMAA09.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

@@ -1,104 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Lajke Court",
+    "Name": "C'oshon Tower",
     "RegionName": "Sentinel",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 440000000405,
-        "Latitude": 62888,
-        "Longitude": 51880,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 542525204,
+        "Latitude": 11304,
+        "Longitude": 52776,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13285376,
-                "Y": 14432257,
+                "X": 13514752,
+                "Y": 2897921,
                 "IsExterior": 32768,
-                "Unknown2": 13,
-                "LocationId": 24648,
+                "Unknown2": 517,
+                "LocationId": 26950,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Lajke Court"
+                "LocationName": "C'oshon Tower"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 26907,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 24648,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 2375,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 24648,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 14665,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 24648,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 13272,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 24648,
-                "BuildingType": 17,
-                "Quality": 9
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Lajke Court",
-            "MapId": 440000000405,
+            "AnotherName": "C'oshon Tower",
+            "MapId": 411412,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "CASTAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 13514752,
+                "Y": 2897921,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 105,
+                "LocationId": 26951,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26950,
+                "LocationName": "C'oshon Tower"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000087.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

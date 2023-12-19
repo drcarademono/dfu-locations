@@ -1,90 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Tower of Ashhouse",
+    "Name": "The Tombs of Moorton",
     "RegionName": "Anticlere",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 607000000496,
-        "Latitude": 41512,
-        "Longitude": 63528,
-        "LocationType": 7,
-        "DungeonType": 11,
+        "MapId": 487746236,
+        "Latitude": 43688,
+        "Longitude": 50728,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16267264,
-                "Y": 19904513,
+                "X": 12990464,
+                "Y": 11188225,
                 "IsExterior": 32768,
-                "Unknown2": 448,
-                "LocationId": 19146,
+                "Unknown2": 465,
+                "LocationId": 19208,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tower of Ashhouse"
+                "LocationName": "The Tombs of Moorton"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Tower of Ashhouse",
-            "MapId": 607000000496,
+            "AnotherName": "The Tombs of Moorton",
+            "MapId": 158396,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA07.RMB"
+                "GRVEAS18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 12335104,
-                "Y": 11220993,
+                "X": 12990464,
+                "Y": 11188225,
                 "IsExterior": 0,
-                "Unknown2": 110,
-                "LocationId": 19147,
+                "Unknown2": 114,
+                "LocationId": 19209,
                 "IsInterior": 1,
-                "ExteriorLocationId": 19146,
-                "LocationName": "The Tower of Ashhouse"
+                "ExteriorLocationId": 19208,
+                "LocationName": "The Tombs of Moorton"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 5
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "W0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000028.RDB",
+                "BlockName": "M0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,7 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

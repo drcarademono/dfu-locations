@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Vlucton Orchard",
+    "Name": "The Red Dragon Tavern",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 163000000745,
-        "Latitude": 98344,
-        "Longitude": 95400,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 449201439,
+        "Latitude": 11432,
+        "Longitude": 116648,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24426496,
-                "Y": 5355521,
+                "X": 29865984,
+                "Y": 2930689,
                 "IsExterior": 32768,
-                "Unknown2": 484,
-                "LocationId": 27140,
+                "Unknown2": 428,
+                "LocationId": 26934,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Vlucton Orchard"
+                "LocationName": "The Red Dragon Tavern"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 20905,
-                "FactionId": 0,
+                "NameSeed": 19353,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 27140,
-                "BuildingType": 17,
-                "Quality": 15
+                "LocationId": 26934,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 32589,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 26934,
+                "BuildingType": "Tavern",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 15930,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 26934,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 31418,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 26934,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 1541,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 26934,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 8531,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 26934,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 29719,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 26934,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 26930,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 26934,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 1108,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 26934,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 7908,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 26934,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 26203,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 26934,
+                "BuildingType": "House2",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Vlucton Orchard",
-            "MapId": 163000000745,
+            "AnotherName": "19353",
+            "MapId": 410911,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA09.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

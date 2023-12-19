@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Mastering Manor",
+    "Name": "Old Ysara's Farm",
     "RegionName": "Ilessan Hills",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 745000000413,
-        "Latitude": 23848,
-        "Longitude": 52904,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 521246532,
+        "Latitude": 50600,
+        "Longitude": 33320,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13547520,
-                "Y": 24426497,
+                "X": 8534016,
+                "Y": 12957697,
                 "IsExterior": 32768,
-                "Unknown2": 260,
-                "LocationId": 14440,
+                "Unknown2": 497,
+                "LocationId": 16101,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Mastering Manor"
+                "LocationName": "Old Ysara's Farm"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 32381,
+                "NameSeed": 10068,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 14440,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 5316,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 14440,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 26717,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 14440,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 32249,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 14440,
-                "BuildingType": 19,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 1972,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 14440,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 3451,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 14440,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 11834,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 14440,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 16010,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 14440,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 2522,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 14440,
-                "BuildingType": 17,
+                "LocationId": 16101,
+                "BuildingType": "House2",
                 "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Mastering Manor",
-            "MapId": 745000000413,
+            "AnotherName": "Old Ysara's Farm",
+            "MapId": 104260,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

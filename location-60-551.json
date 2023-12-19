@@ -1,146 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Wicksley Manor",
+    "Name": "The Old Yeomford Hovel",
     "RegionName": "Ilessan Hills",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 759000000395,
-        "Latitude": 22056,
-        "Longitude": 50600,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 577877623,
+        "Latitude": 49576,
+        "Longitude": 31656,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12957696,
-                "Y": 24885249,
+                "X": 8108032,
+                "Y": 12695553,
                 "IsExterior": 32768,
-                "Unknown2": 209,
-                "LocationId": 14222,
+                "Unknown2": 551,
+                "LocationId": 16652,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Wicksley Manor"
+                "LocationName": "The Old Yeomford Hovel"
             }
         },
-        "BuildingCount": 13,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 25541,
+                "NameSeed": 20774,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 14222,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 4224,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 14222,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 28645,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 14222,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 2696,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 14222,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 20903,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 14222,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 16464,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 14222,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 28883,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 14222,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 21787,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 14222,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 1691,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 14222,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 5897,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 14222,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 8964,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 14222,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 13194,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 14222,
-                "BuildingType": 15,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 21520,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 14222,
-                "BuildingType": 17,
-                "Quality": 15
+                "LocationId": 16652,
+                "BuildingType": "House3",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Wicksley Manor",
-            "MapId": 759000000395,
+            "AnotherName": "The Old Yeomford Hovel",
+            "MapId": 112247,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -164,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

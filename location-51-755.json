@@ -1,136 +1,176 @@
 {
     "Loaded": true,
-    "Name": "Ruins of D'urd's Hold",
+    "Name": "Glard Manor",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 248000000754,
-        "Latitude": 87464,
-        "Longitude": 96552,
-        "LocationType": 10,
-        "DungeonType": 4,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 792047742,
+        "Latitude": 16296,
+        "Longitude": 110376,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24721408,
-                "Y": 8140801,
+                "X": 28260352,
+                "Y": 4175873,
                 "IsExterior": 32768,
-                "Unknown2": 240,
-                "LocationId": 24402,
+                "Unknown2": 755,
+                "LocationId": 25669,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of D'urd's Hold"
+                "LocationName": "Glard Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 15360,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 25669,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 21132,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 25669,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 18993,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 25669,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 29999,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 25669,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 18593,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 25669,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 24488,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 25669,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 21718,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 25669,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 12646,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 25669,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 5358,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 25669,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 2634,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 25669,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 6603,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 25669,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 25880,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 25669,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 329,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 25669,
+                "BuildingType": "House1",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of D'urd's Hold",
-            "MapId": 248000000754,
+            "AnotherName": "Glard Manor",
+            "MapId": 372862,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA04.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 25540608,
-                "Y": 5257217,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 68,
-                "LocationId": 24403,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24402,
-                "LocationName": "Ruins of D'urd's Hold"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000057.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

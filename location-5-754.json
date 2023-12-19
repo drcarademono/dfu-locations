@@ -1,136 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Citadel of Masterfield",
+    "Name": "The Mouse and Chasm Inn",
     "RegionName": "Dwynnen",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 658000000686,
-        "Latitude": 34984,
-        "Longitude": 87848,
-        "LocationType": 7,
-        "DungeonType": 8,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 790764832,
+        "Latitude": 46248,
+        "Longitude": 67624,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22493184,
-                "Y": 21575681,
+                "X": 17315840,
+                "Y": 11843585,
                 "IsExterior": 32768,
-                "Unknown2": 19,
-                "LocationId": 10850,
+                "Unknown2": 754,
+                "LocationId": 18162,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Citadel of Masterfield"
+                "LocationName": "The Mouse and Chasm Inn"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 20137,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 18162,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 762,
+                "FactionId": 510,
+                "Sector": 20,
+                "LocationId": 18162,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 31936,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 18162,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 32058,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 18162,
+                "BuildingType": "House3",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 2971,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 18162,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 1159,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 18162,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 29809,
+                "FactionId": 0,
+                "Sector": 70,
+                "LocationId": 18162,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 31629,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 18162,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 20088,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 18162,
+                "BuildingType": "House3",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 16936,
+                "FactionId": 0,
+                "Sector": 87,
+                "LocationId": 18162,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 2266,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 18162,
+                "BuildingType": "House2",
+                "Quality": 3
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Citadel of Masterfield",
-            "MapId": 658000000686,
+            "AnotherName": "20137",
+            "MapId": 138528,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA06.RMB"
+                "TVRNAS06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16889856,
-                "Y": 15775745,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 4,
-                "LocationId": 10851,
-                "IsInterior": 1,
-                "ExteriorLocationId": 10850,
-                "LocationName": "The Citadel of Masterfield"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

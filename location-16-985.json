@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Jode Shrine",
+    "Name": "The Wickford Plantation",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 448000000917,
-        "Latitude": 61864,
-        "Longitude": 117416,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 1032927112,
+        "Latitude": 53800,
+        "Longitude": 96296,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30062592,
-                "Y": 14694401,
+                "X": 24655872,
+                "Y": 13776897,
                 "IsExterior": 32768,
-                "Unknown2": 1062,
-                "LocationId": 14863,
+                "Unknown2": 985,
+                "LocationId": 14470,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Jode Shrine"
+                "LocationName": "The Wickford Plantation"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 25367,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 14470,
+                "BuildingType": "House2",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Jode Shrine",
-            "MapId": 448000000917,
+            "AnotherName": "The Wickford Plantation",
+            "MapId": 79752,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

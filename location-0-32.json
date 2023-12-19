@@ -1,104 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Tlirt Manor",
+    "Name": "Ruins of Cyeghtan Manor",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 278000000385,
-        "Latitude": 83624,
-        "Longitude": 49320,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 33959037,
+        "Latitude": 12200,
+        "Longitude": 77480,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12630016,
-                "Y": 9123841,
+                "X": 19838976,
+                "Y": 3127297,
                 "IsExterior": 32768,
-                "Unknown2": 339,
-                "LocationId": 29431,
+                "Unknown2": 32,
+                "LocationId": 26743,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Tlirt Manor"
+                "LocationName": "Ruins of Cyeghtan Manor"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 9496,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 29431,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 6429,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 29431,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 17820,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 29431,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 23606,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 29431,
-                "BuildingType": 17,
-                "Quality": 11
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Tlirt Manor",
-            "MapId": 278000000385,
+            "AnotherName": "Ruins of Cyeghtan Manor",
+            "MapId": 404605,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRBS00.RMB"
+                "RUINAA07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 19838976,
+                "Y": 3127297,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 15,
+                "LocationId": 26744,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26743,
+                "LocationName": "Ruins of Cyeghtan Manor"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000077.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

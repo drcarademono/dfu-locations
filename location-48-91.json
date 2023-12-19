@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "B'irnt Hall",
+    "Name": "The Roost of Hezotlath",
     "RegionName": "Tigonus",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 350000000587,
-        "Latitude": 74408,
-        "Longitude": 75176,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 95744982,
+        "Latitude": 22440,
+        "Longitude": 72488,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "HarpyNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19249152,
-                "Y": 11483137,
+                "X": 18561024,
+                "Y": 5748737,
                 "IsExterior": 32768,
-                "Unknown2": 141,
-                "LocationId": 24198,
+                "Unknown2": 91,
+                "LocationId": 23879,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "B'irnt Hall"
+                "LocationName": "The Roost of Hezotlath"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 1233,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 24198,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 23567,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 24198,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 10697,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 24198,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 19257,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 24198,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 3921,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 24198,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 22320,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 24198,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 10547,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 24198,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 31930,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 24198,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 27511,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 24198,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 16123,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 24198,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 31969,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 24198,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 6983,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 24198,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 29082,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 24198,
-                "BuildingType": 17,
-                "Quality": 11
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "B'irnt Hall",
-            "MapId": 350000000587,
+            "AnotherName": "The Roost of Hezotlath",
+            "MapId": 324566,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "DUNGAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 18561024,
+                "Y": 5748737,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 18,
+                "LocationId": 23880,
+                "IsInterior": 1,
+                "ExteriorLocationId": 23879,
+                "LocationName": "The Roost of Hezotlath"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000015.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
-        "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
+        "GroundArchive": 2,
+        "NatureArchive": 501,
+        "SkyBase": 24,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

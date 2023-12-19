@@ -1,74 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Screaming Fairy Tavern",
+    "Name": "Old Rairn-e's Hovel",
     "RegionName": "Myrkwasa",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 425000000246,
-        "Latitude": 64808,
-        "Longitude": 31528,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 85361916,
+        "Latitude": 9256,
+        "Longitude": 33320,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8075264,
-                "Y": 13940737,
+                "X": 8534016,
+                "Y": 2373633,
                 "IsExterior": 32768,
-                "Unknown2": 114,
-                "LocationId": 27749,
+                "Unknown2": 81,
+                "LocationId": 27430,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Screaming Fairy Tavern"
+                "LocationName": "Old Rairn-e's Hovel"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 16658,
-                "FactionId": 510,
+                "NameSeed": 32272,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27749,
-                "BuildingType": 15,
+                "LocationId": 27430,
+                "BuildingType": "House3",
                 "Quality": 7
-            },
-            {
-                "NameSeed": 17923,
-                "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 27749,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 881,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 27749,
-                "BuildingType": 20,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 11082,
-                "FactionId": 0,
-                "Sector": 37,
-                "LocationId": 27749,
-                "BuildingType": 20,
-                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "16658",
-            "MapId": 425000000246,
+            "AnotherName": "Old Rairn-e's Hovel",
+            "MapId": 427260,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -92,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

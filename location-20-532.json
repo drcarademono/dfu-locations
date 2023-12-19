@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Rhorkke Hall",
+    "Name": "The Dirty Barbarian Lodge",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 442000000439,
-        "Latitude": 62632,
-        "Longitude": 56232,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 558258839,
+        "Latitude": 10664,
+        "Longitude": 52136,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14399488,
-                "Y": 14497793,
+                "X": 13350912,
+                "Y": 2734081,
                 "IsExterior": 32768,
-                "Unknown2": 3,
-                "LocationId": 24012,
+                "Unknown2": 532,
+                "LocationId": 27093,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Rhorkke Hall"
+                "LocationName": "The Dirty Barbarian Lodge"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 3,
         "Buildings": [
             {
-                "NameSeed": 2245,
+                "NameSeed": 25093,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 24012,
-                "BuildingType": 18,
-                "Quality": 11
+                "LocationId": 27093,
+                "BuildingType": "House2",
+                "Quality": 15
             },
             {
-                "NameSeed": 185,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 24012,
-                "BuildingType": 18,
-                "Quality": 5
+                "NameSeed": 2150,
+                "FactionId": 510,
+                "Sector": 11,
+                "LocationId": 27093,
+                "BuildingType": "House1",
+                "Quality": 12
             },
             {
-                "NameSeed": 19699,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 24012,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 30701,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 24012,
-                "BuildingType": 17,
-                "Quality": 8
+                "NameSeed": 5265,
+                "FactionId": 510,
+                "Sector": 24,
+                "LocationId": 27093,
+                "BuildingType": "Tavern",
+                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Rhorkke Hall",
-            "MapId": 442000000439,
+            "AnotherName": "5265",
+            "MapId": 416407,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 2,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "TVRNBS03.RMB"
             ]
         }
     },
@@ -91,14 +83,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

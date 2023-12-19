@@ -1,71 +1,71 @@
 {
     "Loaded": true,
-    "Name": "Yagdoth",
+    "Name": "The Hearthham Graveyard",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 573000000861,
-        "Latitude": 45864,
-        "Longitude": 110248,
-        "LocationType": 4,
-        "DungeonType": 1,
+        "MapId": 1798475784,
+        "Latitude": 42536,
+        "Longitude": 120872,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28227584,
-                "Y": 18790401,
+                "X": 30947328,
+                "Y": 10893313,
                 "IsExterior": 32768,
-                "Unknown2": 41,
-                "LocationId": 10166,
+                "Unknown2": 1715,
+                "LocationId": 19773,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Yagdoth"
+                "LocationName": "The Hearthham Graveyard"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Yagdoth",
-            "MapId": 573000000861,
+            "AnotherName": "The Hearthham Graveyard",
+            "MapId": 167944,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA02.RMB"
+                "GRVEAS32.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23246848,
-                "Y": 16234497,
+                "X": 30947328,
+                "Y": 10893313,
                 "IsExterior": 0,
-                "Unknown2": 18,
-                "LocationId": 10167,
+                "Unknown2": 644,
+                "LocationId": 19774,
                 "IsInterior": 1,
-                "ExteriorLocationId": 10166,
-                "LocationName": "Yagdoth"
+                "ExteriorLocationId": 19773,
+                "LocationName": "The Hearthham Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 5
         },
         "Blocks": [
             {
-                "X": -2,
+                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -1,
+                "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000002.RDB",
@@ -73,34 +73,10 @@
                 "CastleBlock": false
             },
             {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000090.RDB",
+                "BlockName": "M0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,55 +84,15 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000027.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000089.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,82 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Unfortunate Fawn Hostel",
+    "Name": "The Rhujten Cabin",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 380000000397,
-        "Latitude": 70568,
-        "Longitude": 50856,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 93692652,
+        "Latitude": 16680,
+        "Longitude": 49704,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13023232,
-                "Y": 12466177,
+                "X": 12728320,
+                "Y": 4274177,
                 "IsExterior": 32768,
-                "Unknown2": 454,
-                "LocationId": 26711,
+                "Unknown2": 89,
+                "LocationId": 25521,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Unfortunate Fawn Hostel"
+                "LocationName": "The Rhujten Cabin"
             }
         },
-        "BuildingCount": 5,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 29586,
+                "NameSeed": 5564,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26711,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 1404,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 26711,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 26548,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 26711,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 22386,
-                "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 26711,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 31583,
-                "FactionId": 510,
-                "Sector": 23,
-                "LocationId": 26711,
-                "BuildingType": 15,
-                "Quality": 3
+                "LocationId": 25521,
+                "BuildingType": "House3",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "31583",
-            "MapId": 380000000397,
+            "AnotherName": "The Rhujten Cabin",
+            "MapId": 369388,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 8,
             "BlockNames": [
-                "TVRNBS01.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -99,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
-        "NatureArchive": 503,
-        "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "NatureArchive": 501,
+        "SkyBase": 24,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

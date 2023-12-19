@@ -1,114 +1,82 @@
 {
     "Loaded": true,
-    "Name": "The Gaol of Agristair",
+    "Name": "Castle Inveromius",
     "RegionName": "Daenia",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 656000000510,
-        "Latitude": 35240,
-        "Longitude": 65320,
-        "LocationType": 4,
-        "DungeonType": 3,
+        "MapId": 86046589,
+        "Latitude": 55848,
+        "Longitude": 45736,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "VampireHaunt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16726016,
-                "Y": 21510145,
+                "X": 11712512,
+                "Y": 14301185,
                 "IsExterior": 32768,
-                "Unknown2": 241,
-                "LocationId": 16316,
+                "Unknown2": 82,
+                "LocationId": 13398,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Gaol of Agristair"
+                "LocationName": "Castle Inveromius"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Gaol of Agristair",
-            "MapId": 656000000510,
+            "AnotherName": "Castle Inveromius",
+            "MapId": 63357,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA00.RMB"
+                "DUNGAA18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 11909120,
-                "Y": 12859393,
+                "X": 11712512,
+                "Y": 14301185,
                 "IsExterior": 0,
-                "Unknown2": 46,
-                "LocationId": 16317,
+                "Unknown2": 19,
+                "LocationId": 13399,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16316,
-                "LocationName": "The Gaol of Agristair"
+                "ExteriorLocationId": 13398,
+                "LocationName": "Castle Inveromius"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 13
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000025.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000033.RDB",
+                "BlockName": "N0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 169,
     "RegionIndex": 41,

@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "THe Crypts of Greensmith",
+    "Name": "Hearthcroft Grange",
     "RegionName": "Anticlere",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 599000000471,
-        "Latitude": 42536,
-        "Longitude": 60328,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 400709373,
+        "Latitude": 44328,
+        "Longitude": 43688,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15448064,
-                "Y": 19642369,
+                "X": 11188224,
+                "Y": 11352065,
                 "IsExterior": 32768,
-                "Unknown2": 664,
-                "LocationId": 20163,
+                "Unknown2": 382,
+                "LocationId": 18928,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "THe Crypts of Greensmith"
+                "LocationName": "Hearthcroft Grange"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 24507,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 18928,
+                "BuildingType": "House2",
+                "Quality": 13
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "THe Crypts of Greensmith",
-            "MapId": 599000000471,
+            "AnotherName": "Hearthcroft Grange",
+            "MapId": 153341,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS12.RMB"
+                "FARMAA02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 11745280,
-                "Y": 10598401,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 160,
-                "LocationId": 20164,
-                "IsInterior": 1,
-                "ExteriorLocationId": 20163,
-                "LocationName": "THe Crypts of Greensmith"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

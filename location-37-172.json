@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "THe Crypts of Buckingsly",
+    "Name": "The Bedistyr Quarry",
     "RegionName": "Kambria",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 568000000730,
-        "Latitude": 46504,
-        "Longitude": 93480,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 180429680,
+        "Latitude": 54440,
+        "Longitude": 77864,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23934976,
-                "Y": 18626561,
+                "X": 19937280,
+                "Y": 13940737,
                 "IsExterior": 32768,
-                "Unknown2": 164,
-                "LocationId": 14031,
+                "Unknown2": 172,
+                "LocationId": 14115,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "THe Crypts of Buckingsly"
+                "LocationName": "The Bedistyr Quarry"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "THe Crypts of Buckingsly",
-            "MapId": 568000000730,
+            "AnotherName": "The Bedistyr Quarry",
+            "MapId": 74608,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS30.RMB"
+                "DUNGAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19609600,
-                "Y": 13973505,
+                "X": 19937280,
+                "Y": 13940737,
                 "IsExterior": 0,
-                "Unknown2": 61,
-                "LocationId": 14032,
+                "Unknown2": 65,
+                "LocationId": 14116,
                 "IsInterior": 1,
-                "ExteriorLocationId": 14031,
-                "LocationName": "THe Crypts of Buckingsly"
+                "ExteriorLocationId": 14115,
+                "LocationName": "The Bedistyr Quarry"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000055.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

@@ -1,152 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Mastercroft Manor",
+    "Name": "The Queen's Goblin Pub",
     "RegionName": "Alcaire",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 465000000812,
-        "Latitude": 59688,
-        "Longitude": 103976,
-        "LocationType": 10,
-        "DungeonType": 13,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 73518031,
+        "Latitude": 48936,
+        "Longitude": 91048,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26621952,
-                "Y": 15251457,
+                "X": 23312384,
+                "Y": 12531713,
                 "IsExterior": 32768,
-                "Unknown2": 83,
-                "LocationId": 17221,
+                "Unknown2": 70,
+                "LocationId": 16963,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Mastercroft Manor"
+                "LocationName": "The Queen's Goblin Pub"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 2768,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 16963,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 4694,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 16963,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 23201,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 16963,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 6001,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 16963,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 28603,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 16963,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 14195,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 16963,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 18716,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 16963,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 11272,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 16963,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 16614,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 16963,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 32140,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 16963,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 13290,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 16963,
+                "BuildingType": "House3",
+                "Quality": 14
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Mastercroft Manor",
-            "MapId": 465000000812,
+            "AnotherName": "2768",
+            "MapId": 117711,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA20.RMB"
+                "TVRNAS05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23607296,
-                "Y": 12367873,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 23,
-                "LocationId": 17222,
-                "IsInterior": 1,
-                "ExteriorLocationId": 17221,
-                "LocationName": "Ruins of Mastercroft Manor"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000044.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000027.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000087.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 162,
     "RegionIndex": 34,

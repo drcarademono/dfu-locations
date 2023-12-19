@@ -1,50 +1,154 @@
 {
     "Loaded": true,
-    "Name": "The Old Wickston Shack",
+    "Name": "Infinite Seer of Kynareth",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 596000000814,
-        "Latitude": 42920,
-        "Longitude": 104232,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 1864553054,
+        "Latitude": 40360,
+        "Longitude": 118568,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26687488,
-                "Y": 19544065,
+                "X": 30357504,
+                "Y": 10336257,
                 "IsExterior": 32768,
-                "Unknown2": 76,
-                "LocationId": 10293,
+                "Unknown2": 1778,
+                "LocationId": 20484,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Wickston Shack"
+                "LocationName": "Infinite Seer of Kynareth"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 14,
         "Buildings": [
             {
-                "NameSeed": 22745,
+                "NameSeed": 8503,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 10293,
-                "BuildingType": 19,
-                "Quality": 6
+                "LocationId": 20484,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 19579,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 20484,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 6814,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 20484,
+                "BuildingType": "House3",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 2245,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 20484,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 20368,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 20484,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 1905,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 20484,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 20109,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 20484,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 9966,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 20484,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 16915,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 20484,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 29418,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 20484,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 3578,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 20484,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 16357,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 20484,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 13137,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 20484,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 481,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 20484,
+                "BuildingType": "Temple",
+                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Wickston Shack",
-            "MapId": 596000000814,
+            "AnotherName": "Infinite Seer of Kynareth",
+            "MapId": 184926,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
@@ -68,13 +172,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

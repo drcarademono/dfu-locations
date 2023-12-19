@@ -1,176 +1,144 @@
 {
     "Loaded": true,
-    "Name": "The House of Nebuchanon",
+    "Name": "Slurht Court",
     "RegionName": "Kozanset",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 287000000688,
-        "Latitude": 82472,
-        "Longitude": 88104,
-        "LocationType": 4,
-        "DungeonType": 8,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 26547100,
+        "Latitude": 21416,
+        "Longitude": 89640,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22558720,
-                "Y": 9418753,
+                "X": 22951936,
+                "Y": 5486593,
                 "IsExterior": 32768,
-                "Unknown2": 33,
-                "LocationId": 24364,
+                "Unknown2": 25,
+                "LocationId": 24134,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The House of Nebuchanon"
+                "LocationName": "Slurht Court"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 14640,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 24134,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 2501,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 24134,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 6603,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 24134,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 26504,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 24134,
+                "BuildingType": "House3",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 7999,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 24134,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 20863,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 24134,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 897,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 24134,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 25062,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 24134,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 9354,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 24134,
+                "BuildingType": "House1",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The House of Nebuchanon",
-            "MapId": 287000000688,
+            "AnotherName": "Slurht Court",
+            "MapId": 332700,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA07.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23017472,
-                "Y": 5289985,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 6,
-                "LocationId": 24365,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24364,
-                "LocationName": "The House of Nebuchanon"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000027.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000054.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000064.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000074.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 177,
     "RegionIndex": 49,

@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Rusty Dog Pub",
+    "Name": "The Hawkwing Ruins",
     "RegionName": "Glenumbra Moors",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 794000000306,
-        "Latitude": 17576,
-        "Longitude": 39208,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 29423273,
+        "Latitude": 55848,
+        "Longitude": 18600,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "RuinedCastle",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10041344,
-                "Y": 26032129,
+                "X": 4765696,
+                "Y": 14301185,
                 "IsExterior": 32768,
-                "Unknown2": 126,
-                "LocationId": 15203,
+                "Unknown2": 28,
+                "LocationId": 13380,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rusty Dog Pub"
+                "LocationName": "The Hawkwing Ruins"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 12565,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 15203,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 24114,
-                "FactionId": 510,
-                "Sector": 16,
-                "LocationId": 15203,
-                "BuildingType": 15,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 30280,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 15203,
-                "BuildingType": 15,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 28167,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 15203,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 1618,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 15203,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 18030,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 15203,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 26224,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 15203,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 16336,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 15203,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 7522,
-                "FactionId": 0,
-                "Sector": 84,
-                "LocationId": 15203,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 15892,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 15203,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 20391,
-                "FactionId": 0,
-                "Sector": 96,
-                "LocationId": 15203,
-                "BuildingType": 18,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "12565",
-            "MapId": 794000000306,
+            "AnotherName": "The Hawkwing Ruins",
+            "MapId": 63145,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS04.RMB"
+                "DUNGAA04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 4765696,
+                "Y": 14301185,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 9,
+                "LocationId": 13381,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13380,
+                "LocationName": "The Hawkwing Ruins"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000080.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 187,
     "RegionIndex": 59,

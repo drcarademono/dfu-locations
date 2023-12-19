@@ -1,106 +1,90 @@
 {
     "Loaded": true,
-    "Name": "The Citadel of Hawkfield",
+    "Name": "The Tower of Ashham",
     "RegionName": "Alcaire",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 414000000852,
-        "Latitude": 66216,
-        "Longitude": 109096,
-        "LocationType": 7,
-        "DungeonType": 2,
+        "MapId": 2188861,
+        "Latitude": 52264,
+        "Longitude": 90792,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "BarbarianStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27932672,
-                "Y": 13580289,
+                "X": 23246848,
+                "Y": 13383681,
                 "IsExterior": 32768,
-                "Unknown2": 156,
-                "LocationId": 18606,
+                "Unknown2": 2,
+                "LocationId": 15292,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Citadel of Hawkfield"
+                "LocationName": "The Tower of Ashham"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Citadel of Hawkfield",
-            "MapId": 414000000852,
+            "AnotherName": "The Tower of Ashham",
+            "MapId": 91709,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA08.RMB"
+                "CASTAA06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 25606144,
-                "Y": 11581441,
+                "X": 23246848,
+                "Y": 13383681,
                 "IsExterior": 0,
-                "Unknown2": 40,
-                "LocationId": 18607,
+                "Unknown2": 1,
+                "LocationId": 15293,
                 "IsInterior": 1,
-                "ExteriorLocationId": 18606,
-                "LocationName": "The Citadel of Hawkfield"
+                "ExteriorLocationId": 15292,
+                "LocationName": "The Tower of Ashham"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 11
         },
         "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000029.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000002.RDB",
+                "BlockName": "W0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -111,26 +95,18 @@
                 "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
             }
         ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 162,
     "RegionIndex": 34,

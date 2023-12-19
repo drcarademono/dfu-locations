@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Fortress of Caofyl",
+    "Name": "The Rleshke Lode",
     "RegionName": "Satakalaam",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 285000000770,
-        "Latitude": 82728,
-        "Longitude": 98600,
-        "LocationType": 7,
-        "DungeonType": 3,
+        "MapId": 153407905,
+        "Latitude": 23592,
+        "Longitude": 103592,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25245696,
-                "Y": 9353217,
+                "X": 26523648,
+                "Y": 6043649,
                 "IsExterior": 32768,
-                "Unknown2": 71,
-                "LocationId": 23205,
+                "Unknown2": 146,
+                "LocationId": 23637,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Fortress of Caofyl"
+                "LocationName": "The Rleshke Lode"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Fortress of Caofyl",
-            "MapId": 285000000770,
+            "AnotherName": "The Rleshke Lode",
+            "MapId": 315809,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA28.RMB"
+                "DUNGAA02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 25376768,
-                "Y": 6567937,
+                "X": 26523648,
+                "Y": 6043649,
                 "IsExterior": 0,
-                "Unknown2": 19,
-                "LocationId": 23206,
+                "Unknown2": 36,
+                "LocationId": 23638,
                 "IsInterior": 1,
-                "ExteriorLocationId": 23205,
-                "LocationName": "The Fortress of Caofyl"
+                "ExteriorLocationId": 23637,
+                "LocationName": "The Rleshke Lode"
             }
         },
         "Header": {
@@ -57,32 +57,24 @@
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000049.RDB",
+                "BlockName": "N0000019.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
@@ -90,33 +82,17 @@
             },
             {
                 "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "W0000012.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 178,
     "RegionIndex": 50,

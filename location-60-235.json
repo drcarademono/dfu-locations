@@ -1,136 +1,176 @@
 {
     "Loaded": true,
-    "Name": "The Vermotbith Web",
+    "Name": "Hearthsley Court",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 712000000458,
-        "Latitude": 28072,
-        "Longitude": 58664,
-        "LocationType": 4,
-        "DungeonType": 12,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 246492694,
+        "Latitude": 54056,
+        "Longitude": 42792,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15022080,
-                "Y": 23345153,
+                "X": 10958848,
+                "Y": 13842433,
                 "IsExterior": 32768,
-                "Unknown2": 340,
-                "LocationId": 14898,
+                "Unknown2": 235,
+                "LocationId": 14302,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Vermotbith Web"
+                "LocationName": "Hearthsley Court"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 31471,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 14302,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 22451,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 14302,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 13892,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 14302,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 22428,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 14302,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 15158,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 14302,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 19146,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 14302,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 6191,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 14302,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 31497,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 14302,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 4159,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 14302,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 8643,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 14302,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 7265,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 14302,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 27617,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 14302,
+                "BuildingType": "Tavern",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 9303,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 14302,
+                "BuildingType": "House1",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Vermotbith Web",
-            "MapId": 712000000458,
+            "AnotherName": "Hearthsley Court",
+            "MapId": 77334,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA15.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 9517056,
-                "Y": 13580289,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 126,
-                "LocationId": 14899,
-                "IsInterior": 1,
-                "ExteriorLocationId": 14898,
-                "LocationName": "The Vermotbith Web"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000050.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

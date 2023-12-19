@@ -1,50 +1,115 @@
 {
     "Loaded": true,
-    "Name": "The Old Lhercar Hovel",
+    "Name": "Appuga",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 436000000354,
-        "Latitude": 63400,
-        "Longitude": 45352,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 501625721,
+        "Latitude": 11936,
+        "Longitude": 50344,
+        "LocationType": "TownVillage",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16777216
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11614208,
-                "Y": 14301185,
+                "X": 12892160,
+                "Y": 3059713,
                 "IsExterior": 32768,
-                "Unknown2": 139,
-                "LocationId": 25802,
+                "Unknown2": 478,
+                "LocationId": 26811,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Lhercar Hovel"
+                "LocationName": "Appuga"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 31951,
+                "NameSeed": 26719,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25802,
-                "BuildingType": 19,
+                "LocationId": 26811,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 25367,
+                "FactionId": 0,
+                "Sector": 7,
+                "LocationId": 26811,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 28307,
+                "FactionId": 0,
+                "Sector": 14,
+                "LocationId": 26811,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 2695,
+                "FactionId": 510,
+                "Sector": 22,
+                "LocationId": 26811,
+                "BuildingType": "GeneralStore",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 3134,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 26811,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 3509,
+                "FactionId": 0,
+                "Sector": 37,
+                "LocationId": 26811,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 4583,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 26811,
+                "BuildingType": "House2",
                 "Quality": 7
+            },
+            {
+                "NameSeed": 25472,
+                "FactionId": 0,
+                "Sector": 48,
+                "LocationId": 26811,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 15179,
+                "FactionId": 0,
+                "Sector": 53,
+                "LocationId": 26811,
+                "BuildingType": "House2",
+                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Lhercar Hovel",
-            "MapId": 436000000354,
+            "AnotherName": "Appuga",
+            "MapId": 406393,
             "LocationId": 0,
             "Width": 1,
-            "Height": 1,
+            "Height": 2,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "RESIBS03.RMB",
+                "GENRBS01.RMB"
             ]
         }
     },
@@ -67,14 +132,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

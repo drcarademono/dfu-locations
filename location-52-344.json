@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Dead Goat Inn",
+    "Name": "Nugon Laboratory",
     "RegionName": "Mournoth",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 232000000856,
-        "Latitude": 89512,
-        "Longitude": 109608,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 361083089,
+        "Latitude": 16296,
+        "Longitude": 121000,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28063744,
-                "Y": 7616513,
+                "X": 30980096,
+                "Y": 4175873,
                 "IsExterior": 32768,
-                "Unknown2": 85,
-                "LocationId": 23272,
+                "Unknown2": 344,
+                "LocationId": 25682,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dead Goat Inn"
+                "LocationName": "Nugon Laboratory"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 13304,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 23272,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 24447,
-                "FactionId": 510,
-                "Sector": 16,
-                "LocationId": 23272,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 30772,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 23272,
-                "BuildingType": 15,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 19533,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 23272,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 6358,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 23272,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 2888,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 23272,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 6770,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 23272,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 30664,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 23272,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 10610,
-                "FactionId": 0,
-                "Sector": 84,
-                "LocationId": 23272,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 10117,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 23272,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 4242,
-                "FactionId": 0,
-                "Sector": 96,
-                "LocationId": 23272,
-                "BuildingType": 18,
-                "Quality": 5
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "13304",
-            "MapId": 232000000856,
+            "AnotherName": "Nugon Laboratory",
+            "MapId": 372945,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS04.RMB"
+                "DUNGAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 30980096,
+                "Y": 4175873,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 88,
+                "LocationId": 25683,
+                "IsInterior": 1,
+                "ExteriorLocationId": 25682,
+                "LocationName": "Nugon Laboratory"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000083.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

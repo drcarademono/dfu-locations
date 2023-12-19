@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Greenfield Hall",
+    "Name": "The Moorhouse Cemetery",
     "RegionName": "Dwynnen",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 621000000691,
-        "Latitude": 39720,
-        "Longitude": 88488,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 541149769,
+        "Latitude": 53160,
+        "Longitude": 70824,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22657024,
-                "Y": 20363265,
+                "X": 18135040,
+                "Y": 13613057,
                 "IsExterior": 32768,
-                "Unknown2": 262,
-                "LocationId": 12480,
+                "Unknown2": 516,
+                "LocationId": 14838,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Greenfield Hall"
+                "LocationName": "The Moorhouse Cemetery"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 18082,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 12480,
-                "BuildingType": 17,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 8115,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 12480,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 29999,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 12480,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 18593,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 12480,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 24488,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 12480,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 21718,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 12480,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 12646,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 12480,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 5358,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 12480,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 2634,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 12480,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 6603,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 12480,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 25880,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 12480,
-                "BuildingType": 15,
-                "Quality": 8
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Greenfield Hall",
-            "MapId": 621000000691,
+            "AnotherName": "The Moorhouse Cemetery",
+            "MapId": 84553,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "GRVEAS14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 18135040,
+                "Y": 13613057,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 88,
+                "LocationId": 14839,
+                "IsInterior": 1,
+                "ExteriorLocationId": 14838,
+                "LocationName": "The Moorhouse Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

@@ -1,130 +1,114 @@
 {
     "Loaded": true,
-    "Name": "Buckingsly Manor",
+    "Name": "Hawkhart Hall",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 717000000311,
-        "Latitude": 27432,
-        "Longitude": 39848,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 1234384087,
+        "Latitude": 37032,
+        "Longitude": 17320,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10205184,
-                "Y": 23508993,
+                "X": 4438016,
+                "Y": 9484289,
                 "IsExterior": 32768,
-                "Unknown2": 121,
-                "LocationId": 18960,
+                "Unknown2": 1177,
+                "LocationId": 21598,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Buckingsly Manor"
+                "LocationName": "Hawkhart Hall"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 4757,
+                "NameSeed": 20111,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 18960,
-                "BuildingType": 17,
-                "Quality": 4
+                "LocationId": 21598,
+                "BuildingType": "House2",
+                "Quality": 10
             },
             {
-                "NameSeed": 1388,
+                "NameSeed": 15670,
                 "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 18960,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 15501,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 18960,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 25108,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 18960,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 3601,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 18960,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 25129,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 18960,
-                "BuildingType": 18,
+                "Sector": 10,
+                "LocationId": 21598,
+                "BuildingType": "House2",
                 "Quality": 11
             },
             {
-                "NameSeed": 19255,
+                "NameSeed": 22386,
                 "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 18960,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 27641,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 18960,
-                "BuildingType": 18,
+                "Sector": 22,
+                "LocationId": 21598,
+                "BuildingType": "House2",
                 "Quality": 5
             },
             {
-                "NameSeed": 10420,
+                "NameSeed": 26657,
                 "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 18960,
-                "BuildingType": 18,
+                "Sector": 30,
+                "LocationId": 21598,
+                "BuildingType": "House3",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 16959,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 21598,
+                "BuildingType": "House2",
                 "Quality": 13
             },
             {
-                "NameSeed": 10568,
+                "NameSeed": 11038,
                 "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 18960,
-                "BuildingType": 18,
-                "Quality": 12
+                "Sector": 42,
+                "LocationId": 21598,
+                "BuildingType": "House2",
+                "Quality": 10
             },
             {
-                "NameSeed": 3112,
+                "NameSeed": 32101,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 21598,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 7351,
                 "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 18960,
-                "BuildingType": 15,
-                "Quality": 2
+                "Sector": 69,
+                "LocationId": 21598,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 1341,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 21598,
+                "BuildingType": "House1",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Buckingsly Manor",
-            "MapId": 717000000311,
+            "AnotherName": "Hawkhart Hall",
+            "MapId": 210135,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -147,14 +131,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

@@ -1,41 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Reliquary of Sai",
+    "Name": "The Pig and Huntsman Pub",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 564000000685,
-        "Latitude": 47016,
-        "Longitude": 87720,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 101740368,
+        "Latitude": 60328,
+        "Longitude": 63528,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22460416,
-                "Y": 18495489,
+                "X": 16267264,
+                "Y": 15448065,
                 "IsExterior": 32768,
-                "Unknown2": 599,
-                "LocationId": 15792,
+                "Unknown2": 97,
+                "LocationId": 11395,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Reliquary of Sai"
+                "LocationName": "The Pig and Huntsman Pub"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 23573,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 11395,
+                "BuildingType": "Tavern",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 1530,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 11395,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 8890,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 11395,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 9707,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 11395,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 24977,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 11395,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 16186,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 11395,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 10156,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 11395,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 3879,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 11395,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 1050,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 11395,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 8360,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 11395,
+                "BuildingType": "House3",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 26738,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 11395,
+                "BuildingType": "House3",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Reliquary of Sai",
-            "MapId": 564000000685,
+            "AnotherName": "23573",
+            "MapId": 28496,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "TVRNAS05.RMB"
             ]
         }
     },
@@ -58,14 +147,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
-        "NatureArchive": 504,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

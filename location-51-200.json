@@ -1,136 +1,176 @@
 {
     "Loaded": true,
-    "Name": "Castle B'urpen",
+    "Name": "Faght Manor",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 171000000798,
-        "Latitude": 97320,
-        "Longitude": 102184,
-        "LocationType": 7,
-        "DungeonType": 17,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 210052005,
+        "Latitude": 20904,
+        "Longitude": 103080,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26163200,
-                "Y": 5617665,
+                "X": 26392576,
+                "Y": 5355521,
                 "IsExterior": 32768,
-                "Unknown2": 853,
-                "LocationId": 26094,
+                "Unknown2": 200,
+                "LocationId": 24297,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle B'urpen"
+                "LocationName": "Faght Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 14482,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 24297,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 30833,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 24297,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7888,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 24297,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 405,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 24297,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 6110,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 24297,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 447,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 24297,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 1411,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 24297,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 14234,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 24297,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 18352,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 24297,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 32462,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 24297,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 3598,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 24297,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 22799,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 24297,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 6824,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 24297,
+                "BuildingType": "House1",
+                "Quality": 5
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Castle B'urpen",
-            "MapId": 171000000798,
+            "AnotherName": "Faght Manor",
+            "MapId": 336805,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA03.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 28030976,
-                "Y": 3815425,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 228,
-                "LocationId": 26095,
-                "IsInterior": 1,
-                "ExteriorLocationId": 26094,
-                "LocationName": "Castle B'urpen"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Unfortunate Badger Tavern",
+    "Name": "The Citadel of Nhurcta",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 261000000734,
-        "Latitude": 85800,
-        "Longitude": 93992,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 878038009,
+        "Latitude": 15400,
+        "Longitude": 114856,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "SpiderNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24066048,
-                "Y": 8566785,
+                "X": 29407232,
+                "Y": 3946497,
                 "IsExterior": 32768,
-                "Unknown2": 208,
-                "LocationId": 24324,
+                "Unknown2": 837,
+                "LocationId": 25969,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Unfortunate Badger Tavern"
+                "LocationName": "The Citadel of Nhurcta"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 26787,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 24324,
-                "BuildingType": 15,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 6384,
-                "FactionId": 510,
-                "Sector": 16,
-                "LocationId": 24324,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 8073,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 24324,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 8739,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 24324,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 22928,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 24324,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 28902,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 24324,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 21699,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 24324,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 28664,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 24324,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 12647,
-                "FactionId": 0,
-                "Sector": 84,
-                "LocationId": 24324,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 17943,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 24324,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 20428,
-                "FactionId": 0,
-                "Sector": 96,
-                "LocationId": 24324,
-                "BuildingType": 18,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "26787",
-            "MapId": 261000000734,
+            "AnotherName": "The Citadel of Nhurcta",
+            "MapId": 379897,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS04.RMB"
+                "CASTAA32.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 29407232,
+                "Y": 3946497,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 224,
+                "LocationId": 25970,
+                "IsInterior": 1,
+                "ExteriorLocationId": 25969,
+                "LocationName": "The Citadel of Nhurcta"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000022.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

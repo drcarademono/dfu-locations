@@ -1,146 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Fortom Manor",
+    "Name": "The Old Maeghtom Hovel",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 165000000846,
-        "Latitude": 98088,
-        "Longitude": 108328,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 170204117,
+        "Latitude": 21160,
+        "Longitude": 103080,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27736064,
+                "X": 26392576,
                 "Y": 5421057,
                 "IsExterior": 32768,
-                "Unknown2": 655,
-                "LocationId": 25382,
+                "Unknown2": 162,
+                "LocationId": 24207,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Fortom Manor"
+                "LocationName": "The Old Maeghtom Hovel"
             }
         },
-        "BuildingCount": 13,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 9114,
+                "NameSeed": 14728,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25382,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 10869,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 25382,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 2055,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 25382,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 17475,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 25382,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 21979,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 25382,
-                "BuildingType": 18,
+                "LocationId": 24207,
+                "BuildingType": "House3",
                 "Quality": 13
-            },
-            {
-                "NameSeed": 10288,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 25382,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 7223,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 25382,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 24317,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 25382,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 2807,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 25382,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 18632,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 25382,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 24125,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 25382,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 13979,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 25382,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 14697,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 25382,
-                "BuildingType": 17,
-                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Fortom Manor",
-            "MapId": 165000000846,
+            "AnotherName": "The Old Maeghtom Hovel",
+            "MapId": 334805,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -164,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

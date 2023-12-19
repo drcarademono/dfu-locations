@@ -1,130 +1,41 @@
 {
     "Loaded": true,
-    "Name": "The Knave and Porcupine Inn",
+    "Name": "Shrine of Q'Olwen",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 256000000760,
-        "Latitude": 86440,
-        "Longitude": 97320,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 848674901,
+        "Latitude": 15784,
+        "Longitude": 117416,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24918016,
-                "Y": 8402945,
+                "X": 30062592,
+                "Y": 4044801,
                 "IsExterior": 32768,
-                "Unknown2": 99,
-                "LocationId": 24058,
+                "Unknown2": 809,
+                "LocationId": 25840,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Knave and Porcupine Inn"
+                "LocationName": "Shrine of Q'Olwen"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 32137,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 24058,
-                "BuildingType": 15,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 5728,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 24058,
-                "BuildingType": 15,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 4271,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 24058,
-                "BuildingType": 15,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 22003,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 24058,
-                "BuildingType": 19,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31645,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 24058,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 31136,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 24058,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31052,
-                "FactionId": 0,
-                "Sector": 70,
-                "LocationId": 24058,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 17028,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 24058,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 22812,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 24058,
-                "BuildingType": 19,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 19766,
-                "FactionId": 0,
-                "Sector": 87,
-                "LocationId": 24058,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 20842,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 24058,
-                "BuildingType": 18,
-                "Quality": 15
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "32137",
-            "MapId": 256000000760,
+            "AnotherName": "Shrine of Q'Olwen",
+            "MapId": 376917,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS06.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -148,13 +59,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

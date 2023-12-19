@@ -1,66 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Rusty Badger Tavern",
+    "Name": "Vightte Manor",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 427000000186,
-        "Latitude": 64552,
-        "Longitude": 23848,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 145188680,
+        "Latitude": 1832,
+        "Longitude": 24616,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 6109184,
-                "Y": 14006273,
+                "X": 6305792,
+                "Y": 473089,
                 "IsExterior": 32768,
-                "Unknown2": 49,
-                "LocationId": 28557,
+                "Unknown2": 138,
+                "LocationId": 29093,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rusty Badger Tavern"
+                "LocationName": "Vightte Manor"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 13871,
+                "NameSeed": 1388,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28557,
-                "BuildingType": 18,
-                "Quality": 3
+                "LocationId": 29093,
+                "BuildingType": "House2",
+                "Quality": 15
             },
             {
-                "NameSeed": 6774,
+                "NameSeed": 15501,
                 "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 28557,
-                "BuildingType": 18,
-                "Quality": 4
+                "Sector": 9,
+                "LocationId": 29093,
+                "BuildingType": "House2",
+                "Quality": 13
             },
             {
-                "NameSeed": 7732,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 28557,
-                "BuildingType": 15,
-                "Quality": 11
+                "NameSeed": 25108,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 29093,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 3601,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 29093,
+                "BuildingType": "House1",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "7732",
-            "MapId": 427000000186,
+            "AnotherName": "Vightte Manor",
+            "MapId": 485192,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "MANRGS00.RMB"
             ]
         }
     },
@@ -84,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

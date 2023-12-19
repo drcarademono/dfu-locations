@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Coppersley Manor",
+    "Name": "The Moorston Cemetery",
     "RegionName": "Northmoor",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 771000000426,
-        "Latitude": 20520,
-        "Longitude": 54568,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 82856743,
+        "Latitude": 61480,
+        "Longitude": 30632,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13973504,
-                "Y": 25278465,
+                "X": 7845888,
+                "Y": 15742977,
                 "IsExterior": 32768,
-                "Unknown2": 263,
-                "LocationId": 12622,
+                "Unknown2": 79,
+                "LocationId": 10870,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Coppersley Manor"
+                "LocationName": "The Moorston Cemetery"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 5339,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 12622,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 15855,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 12622,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 26458,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 12622,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 7543,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 12622,
-                "BuildingType": 19,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 21507,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 12622,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 20067,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 12622,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 1282,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 12622,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 8223,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 12622,
-                "BuildingType": 15,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 9529,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 12622,
-                "BuildingType": 17,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Coppersley Manor",
-            "MapId": 771000000426,
+            "AnotherName": "The Moorston Cemetery",
+            "MapId": 19239,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "GRVEAS12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 7845888,
+                "Y": 15742977,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 10,
+                "LocationId": 10871,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10870,
+                "LocationName": "The Moorston Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 160,
     "RegionIndex": 32,

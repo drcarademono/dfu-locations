@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Old F'ald-si's Hovel",
+    "Name": "The Flerk Farmstead",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 426000000340,
-        "Latitude": 64680,
-        "Longitude": 43560,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 421925953,
+        "Latitude": 12968,
+        "Longitude": 51368,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11155456,
-                "Y": 13973505,
+                "X": 13154304,
+                "Y": 3323905,
                 "IsExterior": 32768,
-                "Unknown2": 322,
-                "LocationId": 26359,
+                "Unknown2": 402,
+                "LocationId": 26563,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old F'ald-si's Hovel"
+                "LocationName": "The Flerk Farmstead"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 32077,
+                "NameSeed": 24699,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26359,
-                "BuildingType": 19,
-                "Quality": 11
+                "LocationId": 26563,
+                "BuildingType": "House2",
+                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old F'ald-si's Hovel",
-            "MapId": 426000000340,
+            "AnotherName": "The Flerk Farmstead",
+            "MapId": 398401,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA02.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

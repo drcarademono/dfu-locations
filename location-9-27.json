@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Kingston Farmstead",
+    "Name": "Coppering Orchard",
     "RegionName": "Isle of Balfiera",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 402000000760,
-        "Latitude": 67752,
-        "Longitude": 97320,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 28510249,
+        "Latitude": 38568,
+        "Longitude": 89256,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24918016,
-                "Y": 13187073,
+                "X": 22853632,
+                "Y": 9877505,
                 "IsExterior": 32768,
-                "Unknown2": 36,
-                "LocationId": 21281,
+                "Unknown2": 27,
+                "LocationId": 21097,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Kingston Farmstead"
+                "LocationName": "Coppering Orchard"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 12639,
+                "NameSeed": 27641,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 21281,
-                "BuildingType": 18,
-                "Quality": 1
+                "LocationId": 21097,
+                "BuildingType": "House2",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Kingston Farmstead",
-            "MapId": 402000000760,
+            "AnotherName": "Coppering Orchard",
+            "MapId": 198697,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 137,
     "RegionIndex": 9,

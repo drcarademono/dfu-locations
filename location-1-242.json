@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Kluzon Orchard",
+    "Name": "The Unfortunate Castle Hostel",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 111000000822,
-        "Latitude": 105000,
-        "Longitude": 105256,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 254135105,
+        "Latitude": 15400,
+        "Longitude": 91304,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26949632,
-                "Y": 3651585,
+                "X": 23377920,
+                "Y": 3946497,
                 "IsExterior": 32768,
-                "Unknown2": 549,
-                "LocationId": 27328,
+                "Unknown2": 242,
+                "LocationId": 25956,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kluzon Orchard"
+                "LocationName": "The Unfortunate Castle Hostel"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 17863,
-                "FactionId": 0,
+                "NameSeed": 26927,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 27328,
-                "BuildingType": 18,
+                "LocationId": 25956,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 18254,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 25956,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 2993,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 25956,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 7919,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 25956,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 32177,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 25956,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 7223,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 25956,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 24317,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 25956,
+                "BuildingType": "House2",
                 "Quality": 10
+            },
+            {
+                "NameSeed": 2807,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 25956,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 18632,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 25956,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 24125,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 25956,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 10140,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 25956,
+                "BuildingType": "House2",
+                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Kluzon Orchard",
-            "MapId": 111000000822,
+            "AnotherName": "26927",
+            "MapId": 379713,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA08.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

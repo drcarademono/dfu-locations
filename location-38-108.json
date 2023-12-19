@@ -1,136 +1,168 @@
 {
     "Loaded": true,
-    "Name": "Andistair Laboratory",
+    "Name": "The White Dungeon Hostel",
     "RegionName": "Phrygias",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 668000000641,
-        "Latitude": 33704,
-        "Longitude": 82088,
-        "LocationType": 4,
-        "DungeonType": 9,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 113265666,
+        "Latitude": 61480,
+        "Longitude": 58664,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21018624,
-                "Y": 21903361,
+                "X": 15022080,
+                "Y": 15742977,
                 "IsExterior": 32768,
-                "Unknown2": 162,
-                "LocationId": 11571,
+                "Unknown2": 108,
+                "LocationId": 10890,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Andistair Laboratory"
+                "LocationName": "The White Dungeon Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 12,
+        "Buildings": [
+            {
+                "NameSeed": 12782,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 10890,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 18272,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 10890,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 27846,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 10890,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 17561,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 10890,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 31668,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 10890,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 29869,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 10890,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 24296,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 10890,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 13121,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 10890,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 27250,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 10890,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 8337,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 10890,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 28004,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 10890,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 32036,
+                "FactionId": 0,
+                "Sector": 91,
+                "LocationId": 10890,
+                "BuildingType": "House2",
+                "Quality": 7
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Andistair Laboratory",
-            "MapId": 668000000641,
+            "AnotherName": "12782",
+            "MapId": 19458,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA17.RMB"
+                "TVRNAS09.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 15448064,
-                "Y": 15349761,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 34,
-                "LocationId": 11572,
-                "IsInterior": 1,
-                "ExteriorLocationId": 11571,
-                "LocationName": "Andistair Laboratory"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000065.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
-        "NatureArchive": 504,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 166,
     "RegionIndex": 38,

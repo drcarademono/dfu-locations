@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Graves of Greenhouse",
+    "Name": "The Copperhart Plantation",
     "RegionName": "Ykalon",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 759000000476,
-        "Latitude": 22056,
-        "Longitude": 60968,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 512793995,
+        "Latitude": 58792,
+        "Longitude": 42408,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15611904,
-                "Y": 24885249,
+                "X": 10860544,
+                "Y": 15054849,
                 "IsExterior": 32768,
-                "Unknown2": 431,
-                "LocationId": 11768,
+                "Unknown2": 489,
+                "LocationId": 12050,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Graves of Greenhouse"
+                "LocationName": "The Copperhart Plantation"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 31624,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 12050,
+                "BuildingType": "House2",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Graves of Greenhouse",
-            "MapId": 759000000476,
+            "AnotherName": "The Copperhart Plantation",
+            "MapId": 40331,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS36.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 9254912,
-                "Y": 15218689,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 105,
-                "LocationId": 11769,
-                "IsInterior": 1,
-                "ExteriorLocationId": 11768,
-                "LocationName": "The Graves of Greenhouse"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

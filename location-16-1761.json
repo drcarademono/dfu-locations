@@ -1,146 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Woodwing Hall",
+    "Name": "The Buckingsly Farmstead",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 590000000812,
-        "Latitude": 43688,
-        "Longitude": 103976,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 1846722286,
+        "Latitude": 41000,
+        "Longitude": 121640,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26621952,
-                "Y": 19347457,
+                "X": 31143936,
+                "Y": 10500097,
                 "IsExterior": 32768,
-                "Unknown2": 190,
-                "LocationId": 10648,
+                "Unknown2": 1761,
+                "LocationId": 20299,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Woodwing Hall"
+                "LocationName": "The Buckingsly Farmstead"
             }
         },
-        "BuildingCount": 13,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 3785,
+                "NameSeed": 4092,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 10648,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 23858,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 10648,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 30516,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 10648,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 6363,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 10648,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 1710,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 10648,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 5809,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 10648,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 20007,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 10648,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 28798,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 10648,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 5765,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 10648,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 5619,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 10648,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 275,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 10648,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 27932,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 10648,
-                "BuildingType": 15,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 24183,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 10648,
-                "BuildingType": 17,
-                "Quality": 14
+                "LocationId": 20299,
+                "BuildingType": "House2",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Woodwing Hall",
-            "MapId": 590000000812,
+            "AnotherName": "The Buckingsly Farmstead",
+            "MapId": 179950,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "FARMAA03.RMB"
             ]
         }
     },
@@ -164,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

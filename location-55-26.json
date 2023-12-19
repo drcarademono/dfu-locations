@@ -1,152 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Convent of Dispeus",
+    "Name": "The Old B'ojin Hovel",
     "RegionName": "Antiphyllos",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 327000000443,
-        "Latitude": 77352,
-        "Longitude": 56744,
-        "LocationType": 4,
-        "DungeonType": 4,
-        "Discovered": false,
+        "MapId": 27695420,
+        "Latitude": 8616,
+        "Longitude": 56872,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14530560,
-                "Y": 10729473,
+                "X": 14563328,
+                "Y": 2209793,
                 "IsExterior": 32768,
-                "Unknown2": 17,
-                "LocationId": 27408,
+                "Unknown2": 26,
+                "LocationId": 27572,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Convent of Dispeus"
+                "LocationName": "The Old B'ojin Hovel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 26504,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 27572,
+                "BuildingType": "House3",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Convent of Dispeus",
-            "MapId": 327000000443,
+            "AnotherName": "The Old B'ojin Hovel",
+            "MapId": 432444,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA05.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 15415296,
-                "Y": 2406401,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 2,
-                "LocationId": 27409,
-                "IsInterior": 1,
-                "ExteriorLocationId": 27408,
-                "LocationName": "The Convent of Dispeus"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000048.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000057.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 183,
     "RegionIndex": 55,

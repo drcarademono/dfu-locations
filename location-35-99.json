@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Woodfield Graveyard",
+    "Name": "The Sahilorgonivah Grotto",
     "RegionName": "Koegria",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 538000000782,
-        "Latitude": 50344,
-        "Longitude": 100136,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 103908706,
+        "Latitude": 51240,
+        "Longitude": 87336,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25638912,
-                "Y": 17643521,
+                "X": 22362112,
+                "Y": 13121537,
                 "IsExterior": 32768,
-                "Unknown2": 44,
-                "LocationId": 14041,
+                "Unknown2": 99,
+                "LocationId": 15799,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Woodfield Graveyard"
+                "LocationName": "The Sahilorgonivah Grotto"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Woodfield Graveyard",
-            "MapId": 538000000782,
+            "AnotherName": "The Sahilorgonivah Grotto",
+            "MapId": 99682,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS02.RMB"
+                "DUNGAA04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 21575680,
-                "Y": 13973505,
+                "X": 22362112,
+                "Y": 13121537,
                 "IsExterior": 0,
-                "Unknown2": 10,
-                "LocationId": 14042,
+                "Unknown2": 16,
+                "LocationId": 15800,
                 "IsInterior": 1,
-                "ExteriorLocationId": 14041,
-                "LocationName": "The Woodfield Graveyard"
+                "ExteriorLocationId": 15799,
+                "LocationName": "The Sahilorgonivah Grotto"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000073.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,15 +100,15 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 165,
+    "Politic": 163,
     "RegionIndex": 35,
     "LocationIndex": 99
 }

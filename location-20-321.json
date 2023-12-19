@@ -1,96 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Dancing Gnome Hostel",
+    "Name": "The Baalilonena Cavern",
     "RegionName": "Sentinel",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 416000000340,
-        "Latitude": 65960,
-        "Longitude": 43560,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 336985225,
+        "Latitude": 13736,
+        "Longitude": 42152,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11155456,
-                "Y": 13645825,
+                "X": 10795008,
+                "Y": 3520513,
                 "IsExterior": 32768,
-                "Unknown2": 417,
-                "LocationId": 26613,
+                "Unknown2": 321,
+                "LocationId": 26357,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dancing Gnome Hostel"
+                "LocationName": "The Baalilonena Cavern"
             }
         },
-        "BuildingCount": 3,
-        "Buildings": [
-            {
-                "NameSeed": 31457,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 26613,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 4522,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 26613,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 5605,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 26613,
-                "BuildingType": 15,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "5605",
-            "MapId": 416000000340,
+            "AnotherName": "The Baalilonena Cavern",
+            "MapId": 392329,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "DUNGAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 10795008,
+                "Y": 3520513,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 56,
+                "LocationId": 26358,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26357,
+                "LocationName": "The Baalilonena Cavern"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000035.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

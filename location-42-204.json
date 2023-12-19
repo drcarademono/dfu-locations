@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Hearthsley Farmstead",
+    "Name": "Wooding Grange",
     "RegionName": "Shalgora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 679000000453,
-        "Latitude": 32296,
-        "Longitude": 58024,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 214101830,
+        "Latitude": 39336,
+        "Longitude": 41768,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14858240,
-                "Y": 22263809,
+                "X": 10696704,
+                "Y": 10074113,
                 "IsExterior": 32768,
-                "Unknown2": 38,
-                "LocationId": 16891,
+                "Unknown2": 204,
+                "LocationId": 20807,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hearthsley Farmstead"
+                "LocationName": "Wooding Grange"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 921,
+                "NameSeed": 3115,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 16891,
-                "BuildingType": 18,
-                "Quality": 9
+                "LocationId": 20807,
+                "BuildingType": "House2",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Hearthsley Farmstead",
-            "MapId": 679000000453,
+            "AnotherName": "Wooding Grange",
+            "MapId": 192326,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA05.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -67,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
-        "NatureArchive": 508,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 170,
     "RegionIndex": 42,

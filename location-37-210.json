@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Greening Manor",
+    "Name": "The Citadel of Wickton",
     "RegionName": "Kambria",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 574000000767,
-        "Latitude": 45736,
-        "Longitude": 98216,
-        "LocationType": 10,
-        "DungeonType": 0,
+        "MapId": 220280564,
+        "Latitude": 53800,
+        "Longitude": 77352,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Prison",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25147392,
-                "Y": 18823169,
+                "X": 19806208,
+                "Y": 13776897,
                 "IsExterior": 32768,
-                "Unknown2": 44,
-                "LocationId": 12653,
+                "Unknown2": 210,
+                "LocationId": 14463,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Greening Manor"
+                "LocationName": "The Citadel of Wickton"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Greening Manor",
-            "MapId": 574000000767,
+            "AnotherName": "The Citadel of Wickton",
+            "MapId": 79604,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA24.RMB"
+                "CASTAA31.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 20559872,
-                "Y": 14727169,
+                "X": 19806208,
+                "Y": 13776897,
                 "IsExterior": 0,
-                "Unknown2": 17,
-                "LocationId": 12654,
+                "Unknown2": 76,
+                "LocationId": 14464,
                 "IsInterior": 1,
-                "ExteriorLocationId": 12653,
-                "LocationName": "Ruins of Greening Manor"
+                "ExteriorLocationId": 14463,
+                "LocationName": "The Citadel of Wickton"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 11
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000028.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,69 +68,45 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000009.RDB",
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": 1,
+                "X": 1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000027.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
-        "GroundArchive": 102,
-        "NatureArchive": 510,
-        "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
+        "SkyBase": 16,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

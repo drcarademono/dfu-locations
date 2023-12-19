@@ -1,168 +1,176 @@
 {
     "Loaded": true,
-    "Name": "The Lair of Vermbith",
+    "Name": "Fleshten Hall",
     "RegionName": "Tigonus",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 352000000578,
-        "Latitude": 74152,
-        "Longitude": 74024,
-        "LocationType": 4,
-        "DungeonType": 17,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 98891661,
+        "Latitude": 22312,
+        "Longitude": 66216,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18954240,
-                "Y": 11548673,
+                "X": 16955392,
+                "Y": 5715969,
                 "IsExterior": 32768,
-                "Unknown2": 155,
-                "LocationId": 24315,
+                "Unknown2": 94,
+                "LocationId": 23919,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Lair of Vermbith"
+                "LocationName": "Fleshten Hall"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 9923,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 23919,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 12124,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 23919,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 22660,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 23919,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 26736,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 23919,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 32161,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 23919,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 28944,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 23919,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 27039,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 23919,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 22558,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 23919,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 29638,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 23919,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 12718,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 23919,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 106,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 23919,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 23221,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 23919,
+                "BuildingType": "Tavern",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 5475,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 23919,
+                "BuildingType": "House1",
+                "Quality": 3
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Lair of Vermbith",
-            "MapId": 352000000578,
+            "AnotherName": "Fleshten Hall",
+            "MapId": 325517,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA11.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18823168,
-                "Y": 5322753,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 37,
-                "LocationId": 24316,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24315,
-                "LocationName": "The Lair of Vermbith"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000038.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000071.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
-        "GroundArchive": 2,
-        "NatureArchive": 501,
+        "WorldClimate": 228,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_Swamp",
+        "GroundArchive": 402,
+        "NatureArchive": 502,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

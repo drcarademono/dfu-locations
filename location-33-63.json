@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "The Wickwing Plantation",
+    "Name": "The Feather and Dog Tavern",
     "RegionName": "Menevia",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 352000000853,
-        "Latitude": 74152,
-        "Longitude": 109224,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 66227106,
+        "Latitude": 42664,
+        "Longitude": 104744,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27965440,
-                "Y": 11548673,
+                "X": 26818560,
+                "Y": 10926081,
                 "IsExterior": 32768,
-                "Unknown2": 155,
-                "LocationId": 21144,
+                "Unknown2": 63,
+                "LocationId": 19710,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Wickwing Plantation"
+                "LocationName": "The Feather and Dog Tavern"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 17646,
-                "FactionId": 0,
+                "NameSeed": 31179,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 21144,
-                "BuildingType": 18,
-                "Quality": 7
+                "LocationId": 19710,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 25171,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 19710,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 27939,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 19710,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 17924,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 19710,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 20516,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 19710,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 22991,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 19710,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 20222,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 19710,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 13399,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 19710,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 3171,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 19710,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 30210,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 19710,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 4372,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 19710,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 6925,
+                "FactionId": 0,
+                "Sector": 91,
+                "LocationId": 19710,
+                "BuildingType": "House2",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Wickwing Plantation",
-            "MapId": 352000000853,
+            "AnotherName": "31179",
+            "MapId": 166818,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "TVRNAS09.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 161,
     "RegionIndex": 33,

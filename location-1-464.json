@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Laughing Rascal Inn",
+    "Name": "The Lair of Marebrer",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 171000000655,
-        "Latitude": 97320,
-        "Longitude": 83880,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 486955075,
+        "Latitude": 10792,
+        "Longitude": 103848,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21477376,
-                "Y": 5617665,
+                "X": 26589184,
+                "Y": 2766849,
                 "IsExterior": 32768,
-                "Unknown2": 687,
-                "LocationId": 28213,
+                "Unknown2": 464,
+                "LocationId": 27081,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Laughing Rascal Inn"
+                "LocationName": "The Lair of Marebrer"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 12343,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 28213,
-                "BuildingType": 15,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 11522,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 28213,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 31453,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 28213,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 22539,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 28213,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 2849,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 28213,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 23972,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 28213,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 1180,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 28213,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 2657,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 28213,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 21266,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 28213,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 28041,
-                "FactionId": 0,
-                "Sector": 85,
-                "LocationId": 28213,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 31860,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 28213,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 15736,
-                "FactionId": 0,
-                "Sector": 91,
-                "LocationId": 28213,
-                "BuildingType": 18,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "12343",
-            "MapId": 171000000655,
+            "AnotherName": "The Lair of Marebrer",
+            "MapId": 415811,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS09.RMB"
+                "DUNGAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 26589184,
+                "Y": 2766849,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 152,
+                "LocationId": 27082,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27081,
+                "LocationName": "The Lair of Marebrer"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

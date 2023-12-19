@@ -1,145 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Naronu",
+    "Name": "The Sujum Tombs",
     "RegionName": "Sentinel",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 431000000376,
-        "Latitude": 64040,
-        "Longitude": 48160,
-        "LocationType": 2,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16777216
+        "MapId": 457580540,
+        "Latitude": 12584,
+        "Longitude": 51752,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12333056,
-                "Y": 14137345,
+                "X": 13252608,
+                "Y": 3225601,
                 "IsExterior": 32768,
-                "Unknown2": 85,
-                "LocationId": 25517,
+                "Unknown2": 436,
+                "LocationId": 26652,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Naronu"
+                "LocationName": "The Sujum Tombs"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 20842,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 25517,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 25090,
-                "FactionId": 510,
-                "Sector": 11,
-                "LocationId": 25517,
-                "BuildingType": 1,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 12393,
-                "FactionId": 0,
-                "Sector": 19,
-                "LocationId": 25517,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 4643,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 25517,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 7432,
-                "FactionId": 510,
-                "Sector": 43,
-                "LocationId": 25517,
-                "BuildingType": 9,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 12650,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 25517,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 10513,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 25517,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 10932,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 25517,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 16355,
-                "FactionId": 0,
-                "Sector": 71,
-                "LocationId": 25517,
-                "BuildingType": 18,
-                "Quality": 11
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Naronu",
-            "MapId": 431000000376,
+            "AnotherName": "The Sujum Tombs",
+            "MapId": 401404,
             "LocationId": 0,
-            "Width": 2,
+            "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GENRGS02.RMB",
-                "RESIGS00.RMB"
+                "GRVEAS32.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 13252608,
+                "Y": 3225601,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 78,
+                "LocationId": 26653,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26652,
+                "LocationName": "The Sujum Tombs"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

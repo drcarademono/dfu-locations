@@ -1,162 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Thirsty Skull Hostel",
+    "Name": "Ruins of Moorcroft Grange",
     "RegionName": "Bhoriane",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 510000000752,
-        "Latitude": 53928,
-        "Longitude": 96296,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 9527834,
+        "Latitude": 52392,
+        "Longitude": 83240,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24655872,
-                "Y": 16726017,
+                "X": 21313536,
+                "Y": 13416449,
                 "IsExterior": 32768,
-                "Unknown2": 100,
-                "LocationId": 16751,
+                "Unknown2": 9,
+                "LocationId": 15232,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Thirsty Skull Hostel"
+                "LocationName": "Ruins of Moorcroft Grange"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 5282,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 16751,
-                "BuildingType": 15,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 7551,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 16751,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 25483,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 16751,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 4675,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 16751,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 13251,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 16751,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 8962,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 16751,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 24638,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 16751,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 19084,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 16751,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 24659,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 16751,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 24699,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 16751,
-                "BuildingType": 19,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 24335,
-                "FactionId": 0,
-                "Sector": 93,
-                "LocationId": 16751,
-                "BuildingType": 19,
-                "Quality": 7
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "5282",
-            "MapId": 510000000752,
+            "AnotherName": "Ruins of Moorcroft Grange",
+            "MapId": 90650,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 6,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS05.RMB"
+                "RUINAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 21313536,
+                "Y": 13416449,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 3,
+                "LocationId": 15233,
+                "IsInterior": 1,
+                "ExteriorLocationId": 15232,
+                "LocationName": "Ruins of Moorcroft Grange"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 64,
+    "Politic": 164,
     "RegionIndex": 36,
     "LocationIndex": 9
 }

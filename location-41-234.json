@@ -1,136 +1,176 @@
 {
     "Loaded": true,
-    "Name": "The Lysyrrya Council",
+    "Name": "Hawking Manor",
     "RegionName": "Daenia",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 692000000535,
-        "Latitude": 30632,
-        "Longitude": 68520,
-        "LocationType": 4,
-        "DungeonType": 15,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 245472167,
+        "Latitude": 50472,
+        "Longitude": 49064,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17545216,
-                "Y": 22689793,
+                "X": 12564480,
+                "Y": 12924929,
                 "IsExterior": 32768,
-                "Unknown2": 84,
-                "LocationId": 13438,
+                "Unknown2": 234,
+                "LocationId": 16176,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Lysyrrya Council"
+                "LocationName": "Hawking Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 9756,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 16176,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 31136,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 16176,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 31052,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 16176,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 17028,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 16176,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 22812,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 16176,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 19766,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 16176,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 20842,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 16176,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 28050,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 16176,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 15654,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 16176,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 1300,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 16176,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 26544,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 16176,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 25008,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 16176,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 3276,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 16176,
+                "BuildingType": "House1",
+                "Quality": 14
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Lysyrrya Council",
-            "MapId": 692000000535,
+            "AnotherName": "Hawking Manor",
+            "MapId": 105383,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA06.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 12040192,
-                "Y": 14268417,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 20,
-                "LocationId": 13439,
-                "IsInterior": 1,
-                "ExteriorLocationId": 13438,
-                "LocationName": "The Lysyrrya Council"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000073.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 169,
     "RegionIndex": 41,

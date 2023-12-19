@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Hawksley Graveyard",
+    "Name": "The Masterston Burial Ground",
     "RegionName": "Phrygias",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 666000000639,
-        "Latitude": 33960,
-        "Longitude": 81832,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 100679902,
+        "Latitude": 61864,
+        "Longitude": 77608,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20953088,
-                "Y": 21837825,
+                "X": 19871744,
+                "Y": 15841281,
                 "IsExterior": 32768,
-                "Unknown2": 166,
-                "LocationId": 11727,
+                "Unknown2": 96,
+                "LocationId": 10740,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hawksley Graveyard"
+                "LocationName": "The Masterston Burial Ground"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Hawksley Graveyard",
-            "MapId": 666000000639,
+            "AnotherName": "The Masterston Burial Ground",
+            "MapId": 16606,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS16.RMB"
+                "GRVEAS10.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 15415296,
-                "Y": 15251457,
+                "X": 19871744,
+                "Y": 15841281,
                 "IsExterior": 0,
-                "Unknown2": 35,
-                "LocationId": 11728,
+                "Unknown2": 17,
+                "LocationId": 10741,
                 "IsInterior": 1,
-                "ExteriorLocationId": 11727,
-                "LocationName": "The Hawksley Graveyard"
+                "ExteriorLocationId": 10740,
+                "LocationName": "The Masterston Burial Ground"
             }
         },
         "Header": {
@@ -60,7 +60,7 @@
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "M0000001.RDB",
+                "BlockName": "M0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,7 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -99,14 +99,14 @@
         ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
-        "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 166,
     "RegionIndex": 38,

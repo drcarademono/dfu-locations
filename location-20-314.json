@@ -1,152 +1,137 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Baorcke's Hold",
+    "Name": "Pheonolah",
     "RegionName": "Sentinel",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 413000000342,
-        "Latitude": 66344,
-        "Longitude": 43816,
-        "LocationType": 10,
-        "DungeonType": 8,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 329644199,
+        "Latitude": 13864,
+        "Longitude": 42912,
+        "LocationType": "TownVillage",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16777216
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11220992,
-                "Y": 13547521,
+                "X": 10989568,
+                "Y": 3553281,
                 "IsExterior": 32768,
-                "Unknown2": 438,
-                "LocationId": 26674,
+                "Unknown2": 314,
+                "LocationId": 26328,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Baorcke's Hold"
+                "LocationName": "Pheonolah"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 8,
+        "Buildings": [
+            {
+                "NameSeed": 16567,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 26328,
+                "BuildingType": "HouseForSale",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 3536,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 26328,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 5126,
+                "FactionId": 0,
+                "Sector": 21,
+                "LocationId": 26328,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 13786,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 26328,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 17146,
+                "FactionId": 510,
+                "Sector": 36,
+                "LocationId": 26328,
+                "BuildingType": "HouseForSale",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 26724,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 26328,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 19936,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 26328,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 8218,
+                "FactionId": 510,
+                "Sector": 68,
+                "LocationId": 26328,
+                "BuildingType": "GeneralStore",
+                "Quality": 6
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Baorcke's Hold",
-            "MapId": 413000000342,
+            "AnotherName": "Pheonolah",
+            "MapId": 391335,
             "LocationId": 0,
-            "Width": 1,
+            "Width": 2,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA20.RMB"
+                "RESIGS01.RMB",
+                "GENRGS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 11155456,
-                "Y": 3192833,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 80,
-                "LocationId": 26675,
-                "IsInterior": 1,
-                "ExteriorLocationId": 26674,
-                "LocationName": "Ruins of Baorcke's Hold"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000083.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000025.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000030.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Rodastyr Quarry",
+    "Name": "The Geruchitheria Grotto",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 446000000918,
-        "Latitude": 62120,
-        "Longitude": 117544,
-        "LocationType": 4,
-        "DungeonType": 5,
+        "MapId": 1023488920,
+        "Latitude": 53928,
+        "Longitude": 95272,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30095360,
-                "Y": 14628865,
+                "X": 24393728,
+                "Y": 13809665,
                 "IsExterior": 32768,
-                "Unknown2": 1073,
-                "LocationId": 14942,
+                "Unknown2": 976,
+                "LocationId": 14407,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rodastyr Quarry"
+                "LocationName": "The Geruchitheria Grotto"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Rodastyr Quarry",
-            "MapId": 446000000918,
+            "AnotherName": "The Geruchitheria Grotto",
+            "MapId": 78744,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA09.RMB"
+                "DUNGAA12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 26949632,
-                "Y": 13580289,
+                "X": 24393728,
+                "Y": 13809665,
                 "IsExterior": 0,
-                "Unknown2": 390,
-                "LocationId": 14943,
+                "Unknown2": 354,
+                "LocationId": 14408,
                 "IsInterior": 1,
-                "ExteriorLocationId": 14942,
-                "LocationName": "The Rodastyr Quarry"
+                "ExteriorLocationId": 14407,
+                "LocationName": "The Geruchitheria Grotto"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,47 +68,31 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000083.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000026.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
                 "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

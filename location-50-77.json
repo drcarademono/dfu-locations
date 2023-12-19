@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "The Krurch Farmstead",
+    "Name": "The Gold Dragon Hostel",
     "RegionName": "Satakalaam",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 260000000783,
-        "Latitude": 85928,
-        "Longitude": 100264,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 81040183,
+        "Latitude": 25640,
+        "Longitude": 106408,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25671680,
-                "Y": 8534017,
+                "X": 27244544,
+                "Y": 6567937,
                 "IsExterior": 32768,
-                "Unknown2": 142,
-                "LocationId": 23618,
+                "Unknown2": 77,
+                "LocationId": 23214,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Krurch Farmstead"
+                "LocationName": "The Gold Dragon Hostel"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 18357,
+                "NameSeed": 7772,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23618,
-                "BuildingType": 18,
+                "LocationId": 23214,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 27382,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 23214,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 1643,
+                "FactionId": 0,
+                "Sector": 13,
+                "LocationId": 23214,
+                "BuildingType": "House2",
                 "Quality": 11
+            },
+            {
+                "NameSeed": 22467,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 23214,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 8101,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 23214,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 2031,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 23214,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 12047,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 23214,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 23199,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 23214,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 298,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 23214,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 18969,
+                "FactionId": 510,
+                "Sector": 68,
+                "LocationId": 23214,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 28413,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 23214,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 7165,
+                "FactionId": 510,
+                "Sector": 93,
+                "LocationId": 23214,
+                "BuildingType": "Tavern",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Krurch Farmstead",
-            "MapId": 260000000783,
+            "AnotherName": "18969",
+            "MapId": 299831,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "TVRNAS00.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 178,
     "RegionIndex": 50,

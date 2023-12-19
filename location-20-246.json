@@ -1,66 +1,115 @@
 {
     "Loaded": true,
-    "Name": "The Flying Cat Lodge",
+    "Name": "Zenano",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 403000000385,
-        "Latitude": 67624,
-        "Longitude": 49320,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 258335089,
+        "Latitude": 14624,
+        "Longitude": 50344,
+        "LocationType": "TownVillage",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 16777472
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12630016,
-                "Y": 13219841,
+                "X": 12892160,
+                "Y": 3747841,
                 "IsExterior": 32768,
-                "Unknown2": 292,
-                "LocationId": 26271,
+                "Unknown2": 246,
+                "LocationId": 26139,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Flying Cat Lodge"
+                "LocationName": "Zenano"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 29930,
-                "FactionId": 0,
+                "NameSeed": 19723,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 26271,
-                "BuildingType": 18,
-                "Quality": 11
+                "LocationId": 26139,
+                "BuildingType": "HouseForSale",
+                "Quality": 1
             },
             {
-                "NameSeed": 29548,
-                "FactionId": 510,
-                "Sector": 11,
-                "LocationId": 26271,
-                "BuildingType": 17,
-                "Quality": 5
+                "NameSeed": 21404,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 26139,
+                "BuildingType": "House2",
+                "Quality": 9
             },
             {
-                "NameSeed": 6827,
+                "NameSeed": 6680,
+                "FactionId": 0,
+                "Sector": 21,
+                "LocationId": 26139,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 25965,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 26139,
+                "BuildingType": "House4",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 1352,
                 "FactionId": 510,
-                "Sector": 24,
-                "LocationId": 26271,
-                "BuildingType": 15,
-                "Quality": 6
+                "Sector": 46,
+                "LocationId": 26139,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 24495,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 26139,
+                "BuildingType": "House4",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 16646,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 26139,
+                "BuildingType": "House4",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 11323,
+                "FactionId": 0,
+                "Sector": 102,
+                "LocationId": 26139,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 243,
+                "FactionId": 510,
+                "Sector": 105,
+                "LocationId": 26139,
+                "BuildingType": "GeneralStore",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "6827",
-            "MapId": 403000000385,
+            "AnotherName": "Zenano",
+            "MapId": 385393,
             "LocationId": 0,
             "Width": 1,
-            "Height": 1,
+            "Height": 2,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS03.RMB"
+                "RESIGS01.RMB",
+                "GENRGS00.RMB"
             ]
         }
     },
@@ -84,13 +133,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

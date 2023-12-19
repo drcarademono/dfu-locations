@@ -1,122 +1,98 @@
 {
     "Loaded": true,
-    "Name": "The Cave of Asmodeusivah",
+    "Name": "Ruins of Greening's Hold",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 471000001041,
-        "Latitude": 58920,
-        "Longitude": 133288,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 1251049138,
+        "Latitude": 51496,
+        "Longitude": 124200,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "VampireHaunt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 34125824,
-                "Y": 15448065,
+                "X": 31799296,
+                "Y": 13187073,
                 "IsExterior": 32768,
-                "Unknown2": 25,
-                "LocationId": 10104,
+                "Unknown2": 1193,
+                "LocationId": 15690,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Cave of Asmodeusivah"
+                "LocationName": "Ruins of Greening's Hold"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Cave of Asmodeusivah",
-            "MapId": 471000001041,
+            "AnotherName": "Ruins of Greening's Hold",
+            "MapId": 97970,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA02.RMB"
+                "RUINAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 30029824,
-                "Y": 16300033,
+                "X": 31799296,
+                "Y": 13187073,
                 "IsExterior": 0,
-                "Unknown2": 12,
-                "LocationId": 10105,
+                "Unknown2": 449,
+                "LocationId": 15691,
                 "IsInterior": 1,
-                "ExteriorLocationId": 10104,
-                "LocationName": "The Cave of Asmodeusivah"
+                "ExteriorLocationId": 15690,
+                "LocationName": "Ruins of Greening's Hold"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 10
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000081.RDB",
+                "BlockName": "W0000025.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": -1,
+                "X": -1,
+                "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000060.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 2,
-                "Z": 0,
+                "X": 0,
+                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

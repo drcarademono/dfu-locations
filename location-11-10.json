@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Nest of Anhoth",
+    "Name": "The Dungeon of D'ork",
     "RegionName": "Dak'fron",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 150000000624,
-        "Latitude": 100008,
-        "Longitude": 79912,
-        "LocationType": 4,
-        "DungeonType": 10,
+        "MapId": 10928367,
+        "Latitude": 7336,
+        "Longitude": 77736,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Prison",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20461568,
-                "Y": 4929537,
+                "X": 19904512,
+                "Y": 1882113,
                 "IsExterior": 32768,
-                "Unknown2": 158,
-                "LocationId": 29224,
+                "Unknown2": 10,
+                "LocationId": 27849,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Nest of Anhoth"
+                "LocationName": "The Dungeon of D'ork"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Nest of Anhoth",
-            "MapId": 150000000624,
+            "AnotherName": "The Dungeon of D'ork",
+            "MapId": 442607,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA10.RMB"
+                "DUNGAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23443456,
-                "Y": 342017,
+                "X": 19904512,
+                "Y": 1882113,
                 "IsExterior": 0,
-                "Unknown2": 106,
-                "LocationId": 29225,
+                "Unknown2": 7,
+                "LocationId": 27850,
                 "IsInterior": 1,
-                "ExteriorLocationId": 29224,
-                "LocationName": "The Nest of Anhoth"
+                "ExteriorLocationId": 27849,
+                "LocationName": "The Dungeon of D'ork"
             }
         },
         "Header": {
@@ -57,18 +57,10 @@
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000024.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,31 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000059.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -113,10 +89,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

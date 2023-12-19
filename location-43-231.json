@@ -1,152 +1,96 @@
 {
     "Loaded": true,
-    "Name": "The Roost of Trogrugoth",
+    "Name": "Ruins of The Gloge Farmstead",
     "RegionName": "Abibon-Gora",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 452000000172,
-        "Latitude": 61352,
-        "Longitude": 22056,
-        "LocationType": 4,
-        "DungeonType": 10,
+        "MapId": 242719259,
+        "Latitude": 168,
+        "Longitude": 26024,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Prison",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5650432,
-                "Y": 14825473,
+                "X": 6666240,
+                "Y": 47105,
                 "IsExterior": 32768,
-                "Unknown2": 2,
-                "LocationId": 28133,
+                "Unknown2": 231,
+                "LocationId": 29463,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Roost of Trogrugoth"
+                "LocationName": "Ruins of The Gloge Farmstead"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Roost of Trogrugoth",
-            "MapId": 452000000172,
+            "AnotherName": "Ruins of The Gloge Farmstead",
+            "MapId": 498203,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 6,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA04.RMB"
+                "RUINAA23.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 5683200,
-                "Y": 1521665,
+                "X": 6666240,
+                "Y": 47105,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 28134,
+                "Unknown2": 64,
+                "LocationId": 29464,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28133,
-                "LocationName": "The Roost of Trogrugoth"
+                "ExteriorLocationId": 29463,
+                "LocationName": "Ruins of The Gloge Farmstead"
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 10
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": -2,
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000029.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000056.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000062.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000086.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
+                "X": 1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000022.RDB",
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
                 "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
@@ -156,15 +100,15 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 64,
+    "Politic": 171,
     "RegionIndex": 43,
     "LocationIndex": 231
 }

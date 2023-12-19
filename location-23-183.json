@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Kinghart Farmstead",
+    "Name": "Ruins of The Old Kingford Hovel",
     "RegionName": "Wayrest",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 251000000933,
-        "Latitude": 87080,
-        "Longitude": 119464,
-        "LocationType": 3,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 192098317,
+        "Latitude": 37288,
+        "Longitude": 116392,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Coven",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30586880,
-                "Y": 8239105,
+                "X": 29800448,
+                "Y": 9549825,
                 "IsExterior": 32768,
-                "Unknown2": 652,
-                "LocationId": 22443,
+                "Unknown2": 183,
+                "LocationId": 21551,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Kinghart Farmstead"
+                "LocationName": "Ruins of The Old Kingford Hovel"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 14071,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 22443,
-                "BuildingType": 18,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Kinghart Farmstead",
-            "MapId": 251000000933,
+            "AnotherName": "Ruins of The Old Kingford Hovel",
+            "MapId": 208909,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA04.RMB"
+                "RUINAA26.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 29800448,
+                "Y": 9549825,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 39,
+                "LocationId": 21552,
+                "IsInterior": 1,
+                "ExteriorLocationId": 21551,
+                "LocationName": "Ruins of The Old Kingford Hovel"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000072.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

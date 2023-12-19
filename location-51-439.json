@@ -1,152 +1,176 @@
 {
     "Loaded": true,
-    "Name": "Trogeten",
+    "Name": "The Pig and Woodchuck Hostel",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 205000000782,
-        "Latitude": 92968,
-        "Longitude": 100136,
-        "LocationType": 4,
-        "DungeonType": 13,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 460677795,
+        "Latitude": 18856,
+        "Longitude": 119208,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25638912,
-                "Y": 6731777,
+                "X": 30521344,
+                "Y": 4831233,
                 "IsExterior": 32768,
-                "Unknown2": 586,
-                "LocationId": 25217,
+                "Unknown2": 439,
+                "LocationId": 24868,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Trogeten"
+                "LocationName": "The Pig and Woodchuck Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 20202,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 24868,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 4499,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 24868,
+                "BuildingType": "Tavern",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 11749,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 24868,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 11441,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 24868,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 26477,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 24868,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 7455,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 24868,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 32550,
+                "FactionId": 0,
+                "Sector": 73,
+                "LocationId": 24868,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 2594,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 24868,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 6967,
+                "FactionId": 0,
+                "Sector": 83,
+                "LocationId": 24868,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 5314,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 24868,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 21014,
+                "FactionId": 0,
+                "Sector": 94,
+                "LocationId": 24868,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 10848,
+                "FactionId": 0,
+                "Sector": 100,
+                "LocationId": 24868,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 29208,
+                "FactionId": 0,
+                "Sector": 110,
+                "LocationId": 24868,
+                "BuildingType": "House2",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Trogeten",
-            "MapId": 205000000782,
+            "AnotherName": "20202",
+            "MapId": 352931,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA10.RMB"
+                "TVRNAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27047936,
-                "Y": 4503553,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 156,
-                "LocationId": 25218,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25217,
-                "LocationName": "Trogeten"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000027.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

@@ -1,136 +1,184 @@
 {
     "Loaded": true,
-    "Name": "The Hearthhart Ruins",
+    "Name": "Wailing Redeemer of Kynareth",
     "RegionName": "Daggerfall",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 683000000263,
-        "Latitude": 31784,
-        "Longitude": 33704,
-        "LocationType": 4,
-        "DungeonType": 11,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 842196732,
+        "Latitude": 39592,
+        "Longitude": 26152,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8632320,
-                "Y": 22394881,
+                "X": 6699008,
+                "Y": 10139649,
                 "IsExterior": 32768,
-                "Unknown2": 1138,
-                "LocationId": 21506,
+                "Unknown2": 803,
+                "LocationId": 20704,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hearthhart Ruins"
+                "LocationName": "Wailing Redeemer of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 22236,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 20704,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 29291,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 20704,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 14984,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 20704,
+                "BuildingType": "House3",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 10462,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 20704,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 15908,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 20704,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 31439,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 20704,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 27340,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 20704,
+                "BuildingType": "House3",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 23180,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 20704,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 386,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 20704,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 28928,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 20704,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 3407,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 20704,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7485,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 20704,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 21958,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 20704,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 18510,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 20704,
+                "BuildingType": "Temple",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Hearthhart Ruins",
-            "MapId": 683000000263,
+            "AnotherName": "Wailing Redeemer of Kynareth",
+            "MapId": 190204,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA04.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 4470784,
-                "Y": 9549825,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 224,
-                "LocationId": 21507,
-                "IsInterior": 1,
-                "ExteriorLocationId": 21506,
-                "LocationName": "The Hearthhart Ruins"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000069.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

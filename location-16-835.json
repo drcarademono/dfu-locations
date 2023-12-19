@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Pit of Baalilexullah",
+    "Name": "The Theodyrick Quarry",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 433000001068,
-        "Latitude": 63784,
-        "Longitude": 136744,
-        "LocationType": 4,
-        "DungeonType": 6,
+        "MapId": 875624910,
+        "Latitude": 55848,
+        "Longitude": 121640,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 35010560,
-                "Y": 14202881,
+                "X": 31143936,
+                "Y": 14301185,
                 "IsExterior": 32768,
-                "Unknown2": 305,
-                "LocationId": 11100,
+                "Unknown2": 835,
+                "LocationId": 13419,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Pit of Baalilexullah"
+                "LocationName": "The Theodyrick Quarry"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Pit of Baalilexullah",
-            "MapId": 433000001068,
+            "AnotherName": "The Theodyrick Quarry",
+            "MapId": 63950,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA13.RMB"
+                "DUNGAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31406080,
-                "Y": 15644673,
+                "X": 31143936,
+                "Y": 14301185,
                 "IsExterior": 0,
-                "Unknown2": 120,
-                "LocationId": 11101,
+                "Unknown2": 294,
+                "LocationId": 13420,
                 "IsInterior": 1,
-                "ExteriorLocationId": 11100,
-                "LocationName": "The Pit of Baalilexullah"
+                "ExteriorLocationId": 13419,
+                "LocationName": "The Theodyrick Quarry"
             }
         },
         "Header": {
@@ -57,58 +57,26 @@
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000071.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000048.RDB",
+                "BlockName": "N0000050.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,82 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Hearthsmith's Hold",
+    "Name": "The Stronghold of Kinghouse",
     "RegionName": "Wayrest",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 343000000888,
-        "Latitude": 75304,
-        "Longitude": 113704,
-        "LocationType": 7,
-        "DungeonType": 3,
+        "MapId": 888414853,
+        "Latitude": 29352,
+        "Longitude": 125608,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "DesecratedTemple",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29112320,
-                "Y": 11253761,
+                "X": 32159744,
+                "Y": 7518209,
                 "IsExterior": 32768,
-                "Unknown2": 44,
-                "LocationId": 20726,
+                "Unknown2": 847,
+                "LocationId": 22720,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hearthsmith's Hold"
+                "LocationName": "The Stronghold of Kinghouse"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Hearthsmith's Hold",
-            "MapId": 343000000888,
+            "AnotherName": "The Stronghold of Kinghouse",
+            "MapId": 270981,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA00.RMB"
+                "CASTAA18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27768832,
-                "Y": 10139649,
+                "X": 32159744,
+                "Y": 7518209,
                 "IsExterior": 0,
-                "Unknown2": 10,
-                "LocationId": 20727,
+                "Unknown2": 186,
+                "LocationId": 22721,
                 "IsInterior": 1,
-                "ExteriorLocationId": 20726,
-                "LocationName": "Hearthsmith's Hold"
+                "ExteriorLocationId": 22720,
+                "LocationName": "The Stronghold of Kinghouse"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 14
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000051.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,53 +68,13 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 3,
-                "IsStartingBlock": false,
                 "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
@@ -138,23 +82,15 @@
             },
             {
                 "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000019.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 3,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 2,
-                "Z": 2,
+                "X": 0,
+                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

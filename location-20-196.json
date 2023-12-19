@@ -1,66 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Fox and Goblin Pub",
+    "Name": "The Old Krestta Shack",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 396000000423,
-        "Latitude": 68520,
-        "Longitude": 54184,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 205902287,
+        "Latitude": 15144,
+        "Longitude": 50088,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13875200,
-                "Y": 12990465,
+                "X": 12826624,
+                "Y": 3880961,
                 "IsExterior": 32768,
-                "Unknown2": 150,
-                "LocationId": 25816,
+                "Unknown2": 196,
+                "LocationId": 25996,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Fox and Goblin Pub"
+                "LocationName": "The Old Krestta Shack"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 24467,
+                "NameSeed": 13380,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25816,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 16102,
-                "FactionId": 510,
-                "Sector": 11,
-                "LocationId": 25816,
-                "BuildingType": 17,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 12602,
-                "FactionId": 510,
-                "Sector": 24,
-                "LocationId": 25816,
-                "BuildingType": 15,
-                "Quality": 15
+                "LocationId": 25996,
+                "BuildingType": "House3",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "12602",
-            "MapId": 396000000423,
+            "AnotherName": "The Old Krestta Shack",
+            "MapId": 381391,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS03.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -84,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

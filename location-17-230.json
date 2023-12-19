@@ -1,88 +1,64 @@
 {
     "Loaded": true,
-    "Name": "Druigod",
+    "Name": "The Ashhouse Graveyard",
     "RegionName": "Daggerfall",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 639000000331,
-        "Latitude": 37416,
-        "Longitude": 42408,
-        "LocationType": 4,
-        "DungeonType": 13,
+        "MapId": 241332737,
+        "Latitude": 43432,
+        "Longitude": 32936,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10860544,
-                "Y": 20953089,
+                "X": 8435712,
+                "Y": 11122689,
                 "IsExterior": 32768,
-                "Unknown2": 1204,
-                "LocationId": 21652,
+                "Unknown2": 230,
+                "LocationId": 19318,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Druigod"
+                "LocationName": "The Ashhouse Graveyard"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Druigod",
-            "MapId": 639000000331,
+            "AnotherName": "The Ashhouse Graveyard",
+            "MapId": 160257,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA18.RMB"
+                "GRVEAS09.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 7124992,
-                "Y": 9451521,
+                "X": 8435712,
+                "Y": 11122689,
                 "IsExterior": 0,
-                "Unknown2": 237,
-                "LocationId": 21653,
+                "Unknown2": 37,
+                "LocationId": 19319,
                 "IsInterior": 1,
-                "ExteriorLocationId": 21652,
-                "LocationName": "Druigod"
+                "ExteriorLocationId": 19318,
+                "LocationName": "The Ashhouse Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 5
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": -1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000076.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
@@ -92,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000035.RDB",
+                "BlockName": "M0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,7 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,21 +92,21 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

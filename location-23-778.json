@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Buckingcroft Graveyard",
+    "Name": "The Citadel of Woodham",
     "RegionName": "Wayrest",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 323000000915,
-        "Latitude": 77864,
-        "Longitude": 117160,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 816050079,
+        "Latitude": 31016,
+        "Longitude": 121768,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "RuinedCastle",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29997056,
-                "Y": 10598401,
+                "X": 31176704,
+                "Y": 7944193,
                 "IsExterior": 32768,
-                "Unknown2": 69,
-                "LocationId": 20873,
+                "Unknown2": 778,
+                "LocationId": 22607,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Buckingcroft Graveyard"
+                "LocationName": "The Citadel of Woodham"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Buckingcroft Graveyard",
-            "MapId": 323000000915,
+            "AnotherName": "The Citadel of Woodham",
+            "MapId": 257951,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS37.RMB"
+                "CASTAA11.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 28882944,
-                "Y": 10041345,
+                "X": 31176704,
+                "Y": 7944193,
                 "IsExterior": 0,
-                "Unknown2": 16,
-                "LocationId": 20874,
+                "Unknown2": 171,
+                "LocationId": 22608,
                 "IsInterior": 1,
-                "ExteriorLocationId": 20873,
-                "LocationName": "The Buckingcroft Graveyard"
+                "ExteriorLocationId": 22607,
+                "LocationName": "The Citadel of Woodham"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000065.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

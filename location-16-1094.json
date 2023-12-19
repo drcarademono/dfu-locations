@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Old Kingcroft Shack",
+    "Name": "Old Barbyssa's Farm",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 459000001032,
-        "Latitude": 60456,
-        "Longitude": 132136,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 1147230884,
+        "Latitude": 52648,
+        "Longitude": 94760,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33830912,
-                "Y": 15054849,
+                "X": 24262656,
+                "Y": 13481985,
                 "IsExterior": 32768,
-                "Unknown2": 245,
-                "LocationId": 10821,
+                "Unknown2": 1094,
+                "LocationId": 15117,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Kingcroft Shack"
+                "LocationName": "Old Barbyssa's Farm"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 6862,
+                "NameSeed": 7929,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 10821,
-                "BuildingType": 19,
-                "Quality": 3
+                "LocationId": 15117,
+                "BuildingType": "House2",
+                "Quality": 9
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Kingcroft Shack",
-            "MapId": 459000001032,
+            "AnotherName": "Old Barbyssa's Farm",
+            "MapId": 88740,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA06.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

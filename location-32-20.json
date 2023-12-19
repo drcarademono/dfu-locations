@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Red Skull Pub",
+    "Name": "Tower Mastersly",
     "RegionName": "Northmoor",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 756000000426,
-        "Latitude": 22440,
-        "Longitude": 54568,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 20977774,
+        "Latitude": 63144,
+        "Longitude": 32552,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Coven",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13973504,
-                "Y": 24786945,
+                "X": 8337408,
+                "Y": 16168961,
                 "IsExterior": 32768,
-                "Unknown2": 361,
-                "LocationId": 13388,
+                "Unknown2": 20,
+                "LocationId": 10233,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Red Skull Pub"
+                "LocationName": "Tower Mastersly"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 14872,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 13388,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 12311,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 13388,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 26544,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 13388,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 23565,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 13388,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 17579,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 13388,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 8851,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 13388,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 4180,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 13388,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 14258,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 13388,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 6941,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 13388,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 23606,
-                "FactionId": 0,
-                "Sector": 85,
-                "LocationId": 13388,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 26263,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 13388,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 15973,
-                "FactionId": 0,
-                "Sector": 91,
-                "LocationId": 13388,
-                "BuildingType": 18,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "14872",
-            "MapId": 756000000426,
+            "AnotherName": "Tower Mastersly",
+            "MapId": 6254,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS09.RMB"
+                "CASTAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 8337408,
+                "Y": 16168961,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 2,
+                "LocationId": 10234,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10233,
+                "LocationName": "Tower Mastersly"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000029.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 160,
     "RegionIndex": 32,

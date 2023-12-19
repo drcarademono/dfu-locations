@@ -1,66 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Green Scorpion Lodge",
+    "Name": "Rlirm Manor",
     "RegionName": "Alik'r Desert",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 309000000334,
-        "Latitude": 79656,
-        "Longitude": 42792,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 130454792,
+        "Latitude": 8744,
+        "Longitude": 47144,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10958848,
-                "Y": 10139649,
+                "X": 12072960,
+                "Y": 2242561,
                 "IsExterior": 32768,
-                "Unknown2": 333,
-                "LocationId": 29407,
+                "Unknown2": 124,
+                "LocationId": 27542,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Green Scorpion Lodge"
+                "LocationName": "Rlirm Manor"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 14693,
+                "NameSeed": 26318,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 29407,
-                "BuildingType": 18,
-                "Quality": 14
+                "LocationId": 27542,
+                "BuildingType": "House2",
+                "Quality": 15
             },
             {
-                "NameSeed": 23412,
-                "FactionId": 510,
-                "Sector": 11,
-                "LocationId": 29407,
-                "BuildingType": 17,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 24637,
-                "FactionId": 510,
-                "Sector": 24,
-                "LocationId": 29407,
-                "BuildingType": 15,
+                "NameSeed": 20405,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 27542,
+                "BuildingType": "House2",
                 "Quality": 10
+            },
+            {
+                "NameSeed": 28606,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 27542,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 19898,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 27542,
+                "BuildingType": "House1",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "24637",
-            "MapId": 309000000334,
+            "AnotherName": "Rlirm Manor",
+            "MapId": 431368,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNBS03.RMB"
+                "MANRBS00.RMB"
             ]
         }
     },
@@ -84,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

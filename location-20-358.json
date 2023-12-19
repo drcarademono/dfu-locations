@@ -1,104 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Nov Hall",
+    "Name": "The Flercom Tombs",
     "RegionName": "Sentinel",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 421000000329,
-        "Latitude": 65320,
-        "Longitude": 42152,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 375785564,
+        "Latitude": 13352,
+        "Longitude": 45608,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10795008,
-                "Y": 13809665,
+                "X": 11679744,
+                "Y": 3422209,
                 "IsExterior": 32768,
-                "Unknown2": 429,
-                "LocationId": 26645,
+                "Unknown2": 358,
+                "LocationId": 26453,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Nov Hall"
+                "LocationName": "The Flercom Tombs"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 22449,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 26645,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 20774,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 26645,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 18822,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 26645,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 27018,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 26645,
-                "BuildingType": 17,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Nov Hall",
-            "MapId": 421000000329,
+            "AnotherName": "The Flercom Tombs",
+            "MapId": 395356,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "GRVEAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 11679744,
+                "Y": 3422209,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 63,
+                "LocationId": 26454,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26453,
+                "LocationName": "The Flercom Tombs"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

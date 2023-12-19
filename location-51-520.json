@@ -1,138 +1,162 @@
 {
     "Loaded": true,
-    "Name": "Rarpen Tower",
+    "Name": "T'orkun Manor",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 219000000784,
-        "Latitude": 91176,
-        "Longitude": 100392,
-        "LocationType": 7,
-        "DungeonType": 13,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 545617438,
+        "Latitude": 18216,
+        "Longitude": 117544,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25704448,
-                "Y": 7190529,
+                "X": 30095360,
+                "Y": 4667393,
                 "IsExterior": 32768,
-                "Unknown2": 383,
-                "LocationId": 24740,
+                "Unknown2": 520,
+                "LocationId": 25056,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Rarpen Tower"
+                "LocationName": "T'orkun Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 26062,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 25056,
+                "BuildingType": "House1",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 853,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 25056,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 942,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 25056,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 26372,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 25056,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 20584,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 25056,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 15929,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 25056,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 14325,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 25056,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 13013,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 25056,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 22639,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 25056,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 11082,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 25056,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 19144,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 25056,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Rarpen Tower",
-            "MapId": 219000000784,
+            "AnotherName": "T'orkun Manor",
+            "MapId": 357918,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 4,
             "BlockNames": [
-                "CASTAA09.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 26851328,
-                "Y": 4929537,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 98,
-                "LocationId": 24741,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24740,
-                "LocationName": "Rarpen Tower"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000019.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
-    "Politic": 179,
+    "Politic": 64,
     "RegionIndex": 51,
     "LocationIndex": 520
 }

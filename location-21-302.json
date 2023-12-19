@@ -1,69 +1,61 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Woodfield Manor",
+    "Name": "THe Crypts of Wickfield",
     "RegionName": "Anticlere",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 589000000534,
-        "Latitude": 43816,
-        "Longitude": 68392,
-        "LocationType": 10,
-        "DungeonType": 2,
+        "MapId": 316816456,
+        "Latitude": 45224,
+        "Longitude": 64552,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17512448,
-                "Y": 19314689,
+                "X": 16529408,
+                "Y": 11581441,
                 "IsExterior": 32768,
-                "Unknown2": 390,
-                "LocationId": 18938,
+                "Unknown2": 302,
+                "LocationId": 18599,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Woodfield Manor"
+                "LocationName": "THe Crypts of Wickfield"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Woodfield Manor",
-            "MapId": 589000000534,
+            "AnotherName": "THe Crypts of Wickfield",
+            "MapId": 146504,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA08.RMB"
+                "GRVEAS21.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 13711360,
-                "Y": 11352065,
+                "X": 16529408,
+                "Y": 11581441,
                 "IsExterior": 0,
-                "Unknown2": 99,
-                "LocationId": 18939,
+                "Unknown2": 69,
+                "LocationId": 18600,
                 "IsInterior": 1,
-                "ExteriorLocationId": 18938,
-                "LocationName": "Ruins of Woodfield Manor"
+                "ExteriorLocationId": 18599,
+                "LocationName": "THe Crypts of Wickfield"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 5
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": -1,
                 "Z": 0,
@@ -74,17 +66,9 @@
             },
             {
                 "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000024.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000057.RDB",
+                "BlockName": "M0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,63 +84,15 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000059.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
                 "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 3,
-                "Z": -1,
+                "X": 1,
+                "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

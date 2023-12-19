@@ -1,152 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Masterston Palace",
+    "Name": "The Unfortunate Muskrat Pub",
     "RegionName": "Daggerfall",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 682000000279,
-        "Latitude": 31912,
-        "Longitude": 35752,
-        "LocationType": 10,
-        "DungeonType": 14,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 831710882,
+        "Latitude": 39592,
+        "Longitude": 14632,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9156608,
-                "Y": 22362113,
+                "X": 3749888,
+                "Y": 10139649,
                 "IsExterior": 32768,
-                "Unknown2": 993,
-                "LocationId": 21163,
+                "Unknown2": 793,
+                "LocationId": 20693,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Masterston Palace"
+                "LocationName": "The Unfortunate Muskrat Pub"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 19246,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 20693,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 11079,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 20693,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 8017,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 20693,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 30814,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 20693,
+                "BuildingType": "House3",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 30705,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 20693,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 19294,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 20693,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 10439,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 20693,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 7135,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 20693,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 27883,
+                "FactionId": 510,
+                "Sector": 63,
+                "LocationId": 20693,
+                "BuildingType": "HouseForSale",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 21889,
+                "FactionId": 510,
+                "Sector": 67,
+                "LocationId": 20693,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 6552,
+                "FactionId": 510,
+                "Sector": 84,
+                "LocationId": 20693,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Masterston Palace",
-            "MapId": 682000000279,
+            "AnotherName": "21889",
+            "MapId": 190114,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA21.RMB"
+                "TVRNAS08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 4929536,
-                "Y": 9811969,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 193,
-                "LocationId": 21164,
-                "IsInterior": 1,
-                "ExteriorLocationId": 21163,
-                "LocationName": "Ruins of Masterston Palace"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000088.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000046.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000061.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

@@ -1,104 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Crimson Dragon Inn",
+    "Name": "The Barrow of Barimar",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 378000000226,
-        "Latitude": 70824,
-        "Longitude": 28968,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 298281971,
+        "Latitude": 1704,
+        "Longitude": 49576,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Crypt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 7419904,
-                "Y": 12400641,
+                "X": 12695552,
+                "Y": 440321,
                 "IsExterior": 32768,
-                "Unknown2": 299,
-                "LocationId": 29237,
+                "Unknown2": 284,
+                "LocationId": 29127,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Crimson Dragon Inn"
+                "LocationName": "The Barrow of Barimar"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 29358,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 29237,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 21056,
-                "FactionId": 0,
-                "Sector": 11,
-                "LocationId": 29237,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 2906,
-                "FactionId": 510,
-                "Sector": 19,
-                "LocationId": 29237,
-                "BuildingType": 1,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 14545,
-                "FactionId": 510,
-                "Sector": 30,
-                "LocationId": 29237,
-                "BuildingType": 15,
-                "Quality": 3
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "14545",
-            "MapId": 378000000226,
+            "AnotherName": "The Barrow of Barimar",
+            "MapId": 486387,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNBS02.RMB"
+                "DUNGAA02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 12695552,
+                "Y": 440321,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 128,
+                "LocationId": 29128,
+                "IsInterior": 1,
+                "ExteriorLocationId": 29127,
+                "LocationName": "The Barrow of Barimar"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000029.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

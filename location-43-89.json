@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Saochin Farmstead",
+    "Name": "The Cirm Graveyard",
     "RegionName": "Abibon-Gora",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 420000000194,
-        "Latitude": 65448,
-        "Longitude": 24872,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 93799443,
+        "Latitude": 2984,
+        "Longitude": 22952,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 6371328,
-                "Y": 13776897,
+                "X": 5879808,
+                "Y": 768001,
                 "IsExterior": 32768,
-                "Unknown2": 61,
-                "LocationId": 28630,
+                "Unknown2": 89,
+                "LocationId": 28816,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Saochin Farmstead"
+                "LocationName": "The Cirm Graveyard"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 31070,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 28630,
-                "BuildingType": 18,
-                "Quality": 7
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Saochin Farmstead",
-            "MapId": 420000000194,
+            "AnotherName": "The Cirm Graveyard",
+            "MapId": 476179,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA02.RMB"
+                "GRVEAS28.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 5879808,
+                "Y": 768001,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 29,
+                "LocationId": 28817,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28816,
+                "LocationName": "The Cirm Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

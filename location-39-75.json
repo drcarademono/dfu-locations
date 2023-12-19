@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Hearthsly Manor",
+    "Name": "Old Evelabyth's Shack",
     "RegionName": "Urvaius",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 610000000604,
-        "Latitude": 41128,
-        "Longitude": 77352,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 78713685,
+        "Latitude": 54952,
+        "Longitude": 62120,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19806208,
-                "Y": 20002817,
+                "X": 15906816,
+                "Y": 14071809,
                 "IsExterior": 32768,
-                "Unknown2": 174,
-                "LocationId": 15855,
+                "Unknown2": 75,
+                "LocationId": 13822,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hearthsly Manor"
+                "LocationName": "Old Evelabyth's Shack"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 7929,
+                "NameSeed": 9324,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 15855,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 9089,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 15855,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 13232,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 15855,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 24979,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 15855,
-                "BuildingType": 19,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 21889,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 15855,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 15628,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 15855,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 17047,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 15855,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 19799,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 15855,
-                "BuildingType": 15,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 30107,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 15855,
-                "BuildingType": 17,
-                "Quality": 5
+                "LocationId": 13822,
+                "BuildingType": "House3",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Hearthsly Manor",
-            "MapId": 610000000604,
+            "AnotherName": "Old Evelabyth's Shack",
+            "MapId": 70485,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 167,
     "RegionIndex": 39,

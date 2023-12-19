@@ -1,187 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Naroza",
+    "Name": "Groleten",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 261000000529,
-        "Latitude": 85792,
-        "Longitude": 67744,
-        "LocationType": 2,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16777216
+        "MapId": 18223327,
+        "Latitude": 13096,
+        "Longitude": 68520,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "GiantStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17346560,
-                "Y": 8564737,
+                "X": 17545216,
+                "Y": 3356673,
                 "IsExterior": 32768,
-                "Unknown2": 157,
-                "LocationId": 27790,
+                "Unknown2": 17,
+                "LocationId": 26538,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Naroza"
+                "LocationName": "Groleten"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 28712,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27790,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 18806,
-                "FactionId": 0,
-                "Sector": 11,
-                "LocationId": 27790,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 15971,
-                "FactionId": 0,
-                "Sector": 17,
-                "LocationId": 27790,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 2826,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 27790,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 15200,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 27790,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 15749,
-                "FactionId": 510,
-                "Sector": 42,
-                "LocationId": 27790,
-                "BuildingType": 1,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 24073,
-                "FactionId": 0,
-                "Sector": 48,
-                "LocationId": 27790,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 7311,
-                "FactionId": 510,
-                "Sector": 55,
-                "LocationId": 27790,
-                "BuildingType": 1,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 24301,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 27790,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 24528,
-                "FactionId": 0,
-                "Sector": 73,
-                "LocationId": 27790,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 15879,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 27790,
-                "BuildingType": 9,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 20509,
-                "FactionId": 0,
-                "Sector": 99,
-                "LocationId": 27790,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 5881,
-                "FactionId": 0,
-                "Sector": 104,
-                "LocationId": 27790,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 30685,
-                "FactionId": 0,
-                "Sector": 107,
-                "LocationId": 27790,
-                "BuildingType": 18,
-                "Quality": 3
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Naroza",
-            "MapId": 261000000529,
+            "AnotherName": "Groleten",
+            "MapId": 397535,
             "LocationId": 0,
-            "Width": 2,
-            "Height": 2,
+            "Width": 1,
+            "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RESIBS02.RMB",
-                "RESIBS01.RMB",
-                "GENRBS02.RMB",
-                "RESIBS04.RMB"
+                "DUNGAA13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 17545216,
+                "Y": 3356673,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 5,
+                "LocationId": 26539,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26538,
+                "LocationName": "Groleten"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Rat and Rascal Tavern",
+    "Name": "The V'arg Farmstead",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 134000000855,
-        "Latitude": 102056,
-        "Longitude": 109480,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 13951303,
+        "Latitude": 23080,
+        "Longitude": 104360,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28030976,
-                "Y": 4405249,
+                "X": 26720256,
+                "Y": 5912577,
                 "IsExterior": 32768,
-                "Unknown2": 875,
-                "LocationId": 26228,
+                "Unknown2": 13,
+                "LocationId": 23755,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rat and Rascal Tavern"
+                "LocationName": "The V'arg Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 3864,
-                "FactionId": 510,
+                "NameSeed": 21708,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26228,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 3880,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 26228,
-                "BuildingType": 15,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 12736,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 26228,
-                "BuildingType": 15,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 19470,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 26228,
-                "BuildingType": 19,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 12241,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 26228,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 17864,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 26228,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 5226,
-                "FactionId": 0,
-                "Sector": 70,
-                "LocationId": 26228,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 32057,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 26228,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 32034,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 26228,
-                "BuildingType": 19,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 7582,
-                "FactionId": 0,
-                "Sector": 87,
-                "LocationId": 26228,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 21143,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 26228,
-                "BuildingType": 18,
-                "Quality": 15
+                "LocationId": 23755,
+                "BuildingType": "House2",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "3864",
-            "MapId": 134000000855,
+            "AnotherName": "The V'arg Farmstead",
+            "MapId": 319815,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS06.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

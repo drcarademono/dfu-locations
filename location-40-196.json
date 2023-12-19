@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Bat and Badger Tavern",
+    "Name": "Moorcroft Grange",
     "RegionName": "Ykalon",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 721000000594,
-        "Latitude": 26920,
-        "Longitude": 76072,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 205538253,
+        "Latitude": 61736,
+        "Longitude": 45736,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19478528,
-                "Y": 23640065,
+                "X": 11712512,
+                "Y": 15808513,
                 "IsExterior": 32768,
-                "Unknown2": 104,
-                "LocationId": 10377,
+                "Unknown2": 196,
+                "LocationId": 10778,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Bat and Badger Tavern"
+                "LocationName": "Moorcroft Grange"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 26346,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 10377,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 16371,
-                "FactionId": 510,
-                "Sector": 16,
-                "LocationId": 10377,
-                "BuildingType": 15,
+                "NameSeed": 18123,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 10778,
+                "BuildingType": "House2",
                 "Quality": 14
-            },
-            {
-                "NameSeed": 32391,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 10377,
-                "BuildingType": 15,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 20493,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 10377,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 21268,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 10377,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 24148,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 10377,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 5529,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 10377,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 28344,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 10377,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 5418,
-                "FactionId": 0,
-                "Sector": 84,
-                "LocationId": 10377,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 7885,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 10377,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 27469,
-                "FactionId": 0,
-                "Sector": 96,
-                "LocationId": 10377,
-                "BuildingType": 18,
-                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "26346",
-            "MapId": 721000000594,
+            "AnotherName": "Moorcroft Grange",
+            "MapId": 17357,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS04.RMB"
+                "FARMAA00.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
         "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

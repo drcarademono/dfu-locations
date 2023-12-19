@@ -1,96 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Crimson Goblin Pub",
+    "Name": "The Stronghold of Cirden",
     "RegionName": "Pothago",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 440000000252,
-        "Latitude": 62888,
-        "Longitude": 32296,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 7748286,
+        "Latitude": 11688,
+        "Longitude": 32552,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "OrcStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8271872,
-                "Y": 14432257,
+                "X": 8337408,
+                "Y": 2996225,
                 "IsExterior": 32768,
-                "Unknown2": 44,
-                "LocationId": 27302,
+                "Unknown2": 7,
+                "LocationId": 26853,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Crimson Goblin Pub"
+                "LocationName": "The Stronghold of Cirden"
             }
         },
-        "BuildingCount": 3,
-        "Buildings": [
-            {
-                "NameSeed": 10869,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27302,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 2055,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 27302,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 5125,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 27302,
-                "BuildingType": 15,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "5125",
-            "MapId": 440000000252,
+            "AnotherName": "The Stronghold of Cirden",
+            "MapId": 408254,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "CASTAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 8337408,
+                "Y": 2996225,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 3,
+                "LocationId": 26854,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26853,
+                "LocationName": "The Stronghold of Cirden"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000040.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 173,
     "RegionIndex": 45,

@@ -1,136 +1,71 @@
 {
     "Loaded": true,
-    "Name": "The Stronghold of Yeomton",
+    "Name": "Daggerfall Coven",
     "RegionName": "Shalgora",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 681000000477,
-        "Latitude": 32040,
-        "Longitude": 61096,
-        "LocationType": 7,
-        "DungeonType": 0,
+        "MapId": 219347689,
+        "Latitude": 38951,
+        "Longitude": 39096,
+        "LocationType": "Coven",
+        "DungeonType": "NoDungeon",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15644672,
-                "Y": 22329345,
+                "X": 10012672,
+                "Y": 9975553,
                 "IsExterior": 32768,
-                "Unknown2": 1,
-                "LocationId": 15966,
+                "Unknown2": 209,
+                "LocationId": 50100,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Stronghold of Yeomton"
+                "LocationName": "Daggerfall Coven"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Stronghold of Yeomton",
-            "MapId": 681000000477,
-            "LocationId": 0,
+            "AnotherName": "Daggerfall Coven",
+            "MapId": 195305,
+            "LocationId": 50100,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA30.RMB"
+                "WITCAA09.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 10565632,
-                "Y": 13023233,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
                 "Unknown2": 0,
-                "LocationId": 15967,
-                "IsInterior": 1,
-                "ExteriorLocationId": 15966,
-                "LocationName": "The Stronghold of Yeomton"
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000041.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000050.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
-        "NatureArchive": 508,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 170,
     "RegionIndex": 42,

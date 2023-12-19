@@ -1,50 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Old Rafylsa's Shack",
+    "Name": "The Laughing Goblin Inn",
     "RegionName": "Bergama",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 316000000368,
-        "Latitude": 78760,
-        "Longitude": 47144,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 27727383,
+        "Latitude": 4520,
+        "Longitude": 52136,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12072960,
-                "Y": 10369025,
+                "X": 13350912,
+                "Y": 1161217,
                 "IsExterior": 32768,
-                "Unknown2": 44,
-                "LocationId": 28726,
+                "Unknown2": 26,
+                "LocationId": 28463,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Rafylsa's Shack"
+                "LocationName": "The Laughing Goblin Inn"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 5,
         "Buildings": [
             {
-                "NameSeed": 7716,
+                "NameSeed": 314,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28726,
-                "BuildingType": 19,
-                "Quality": 2
+                "LocationId": 28463,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 1411,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 28463,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 14234,
+                "FactionId": 0,
+                "Sector": 14,
+                "LocationId": 28463,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 18352,
+                "FactionId": 0,
+                "Sector": 18,
+                "LocationId": 28463,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 11164,
+                "FactionId": 510,
+                "Sector": 23,
+                "LocationId": 28463,
+                "BuildingType": "Tavern",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Rafylsa's Shack",
-            "MapId": 316000000368,
+            "AnotherName": "11164",
+            "MapId": 464407,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNBS01.RMB"
             ]
         }
     },
@@ -68,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 184,
     "RegionIndex": 56,

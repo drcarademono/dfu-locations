@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Woodston Manor",
+    "Name": "Ruins of Copperhouse Manor",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 495000000839,
-        "Latitude": 55848,
-        "Longitude": 107432,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 1432468605,
+        "Latitude": 49448,
+        "Longitude": 101032,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "OrcStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27506688,
-                "Y": 16234497,
+                "X": 25868288,
+                "Y": 12662785,
                 "IsExterior": 32768,
-                "Unknown2": 1027,
-                "LocationId": 14716,
+                "Unknown2": 1366,
+                "LocationId": 16763,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Woodston Manor"
+                "LocationName": "Ruins of Copperhouse Manor"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 22882,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 14716,
-                "BuildingType": 17,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 8811,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 14716,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 4543,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 14716,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 25836,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 14716,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 26756,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 14716,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 25192,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 14716,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 787,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 14716,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 17600,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 14716,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 31304,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 14716,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 1453,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 14716,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 13567,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 14716,
-                "BuildingType": 15,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Woodston Manor",
-            "MapId": 495000000839,
+            "AnotherName": "Ruins of Copperhouse Manor",
+            "MapId": 113789,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "RUINAA10.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 25868288,
+                "Y": 12662785,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 505,
+                "LocationId": 16764,
+                "IsInterior": 1,
+                "ExteriorLocationId": 16763,
+                "LocationName": "Ruins of Copperhouse Manor"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

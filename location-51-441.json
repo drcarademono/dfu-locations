@@ -1,82 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Nest of Yagdon",
+    "Name": "The Mufylan Graveyard",
     "RegionName": "Totambu",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 205000000832,
-        "Latitude": 92968,
-        "Longitude": 106536,
-        "LocationType": 4,
-        "DungeonType": 12,
+        "MapId": 462774952,
+        "Latitude": 18856,
+        "Longitude": 119848,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27277312,
-                "Y": 6731777,
+                "X": 30685184,
+                "Y": 4831233,
                 "IsExterior": 32768,
-                "Unknown2": 219,
-                "LocationId": 24338,
+                "Unknown2": 441,
+                "LocationId": 24870,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Nest of Yagdon"
+                "LocationName": "The Mufylan Graveyard"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Nest of Yagdon",
-            "MapId": 205000000832,
+            "AnotherName": "The Mufylan Graveyard",
+            "MapId": 352936,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA14.RMB"
+                "GRVEAS41.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 28456960,
-                "Y": 5322753,
+                "X": 30685184,
+                "Y": 4831233,
                 "IsExterior": 0,
-                "Unknown2": 61,
-                "LocationId": 24339,
+                "Unknown2": 116,
+                "LocationId": 24871,
                 "IsInterior": 1,
-                "ExteriorLocationId": 24338,
-                "LocationName": "The Nest of Yagdon"
+                "ExteriorLocationId": 24870,
+                "LocationName": "The Mufylan Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 5
         },
         "Blocks": [
             {
                 "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "N0000060.RDB",
+                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000054.RDB",
+                "BlockName": "M0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -100,15 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

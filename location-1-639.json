@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Shelter of Phen",
+    "Name": "Old Lirnja's Hovel",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 236000000660,
-        "Latitude": 89000,
-        "Longitude": 84520,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 670485772,
+        "Latitude": 6952,
+        "Longitude": 90664,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21641216,
-                "Y": 7747585,
+                "X": 23214080,
+                "Y": 1783809,
                 "IsExterior": 32768,
-                "Unknown2": 327,
-                "LocationId": 26503,
+                "Unknown2": 639,
+                "LocationId": 27917,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shelter of Phen"
+                "LocationName": "Old Lirnja's Hovel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 15667,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 27917,
+                "BuildingType": "House3",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Shelter of Phen",
-            "MapId": 236000000660,
+            "AnotherName": "Old Lirnja's Hovel",
+            "MapId": 445708,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

@@ -1,41 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Reliquary of Sai",
+    "Name": "The Green Castle Pub",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 592000000692,
-        "Latitude": 43432,
-        "Longitude": 88616,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 277920204,
+        "Latitude": 57896,
+        "Longitude": 72232,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22689792,
-                "Y": 19412993,
+                "X": 18495488,
+                "Y": 14825473,
                 "IsExterior": 32768,
-                "Unknown2": 439,
-                "LocationId": 13969,
+                "Unknown2": 265,
+                "LocationId": 12484,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Reliquary of Sai"
+                "LocationName": "The Green Castle Pub"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 12,
+        "Buildings": [
+            {
+                "NameSeed": 22311,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 12484,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 2494,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 12484,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 22262,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 12484,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 10998,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 12484,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 32465,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 12484,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 25231,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 12484,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 423,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 12484,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 6022,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 12484,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 1451,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 12484,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 13871,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 12484,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 6774,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 12484,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 29485,
+                "FactionId": 0,
+                "Sector": 91,
+                "LocationId": 12484,
+                "BuildingType": "House2",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Reliquary of Sai",
-            "MapId": 592000000692,
+            "AnotherName": "22311",
+            "MapId": 47564,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "TVRNAS09.RMB"
             ]
         }
     },
@@ -59,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

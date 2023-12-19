@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Fox and Goblin Tavern",
+    "Name": "The Kragten Graveyard",
     "RegionName": "Mournoth",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 184000000918,
-        "Latitude": 95656,
-        "Longitude": 117544,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 197455271,
+        "Latitude": 22696,
+        "Longitude": 125864,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30095360,
-                "Y": 6043649,
+                "X": 32225280,
+                "Y": 5814273,
                 "IsExterior": 32768,
-                "Unknown2": 138,
-                "LocationId": 23574,
+                "Unknown2": 188,
+                "LocationId": 23851,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Fox and Goblin Tavern"
+                "LocationName": "The Kragten Graveyard"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 5411,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 23574,
-                "BuildingType": 15,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 31576,
-                "FactionId": 0,
-                "Sector": 21,
-                "LocationId": 23574,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 9323,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 23574,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 30513,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 23574,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 659,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 23574,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 13077,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 23574,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 277,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 23574,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 17517,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 23574,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 27319,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 23574,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 20111,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 23574,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 15670,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 23574,
-                "BuildingType": 18,
-                "Quality": 11
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "5411",
-            "MapId": 184000000918,
+            "AnotherName": "The Kragten Graveyard",
+            "MapId": 322983,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS03.RMB"
+                "GRVEAS14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 32225280,
+                "Y": 5814273,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 43,
+                "LocationId": 23852,
+                "IsInterior": 1,
+                "ExteriorLocationId": 23851,
+                "LocationName": "The Kragten Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

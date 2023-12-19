@@ -1,50 +1,154 @@
 {
     "Loaded": true,
-    "Name": "The Kingham Farmstead",
+    "Name": "Holy Prophet of Kynareth",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 429000001011,
-        "Latitude": 64296,
-        "Longitude": 129448,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 822143339,
+        "Latitude": 56360,
+        "Longitude": 96680,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33142784,
-                "Y": 14071809,
+                "X": 24754176,
+                "Y": 14432257,
                 "IsExterior": 32768,
-                "Unknown2": 733,
-                "LocationId": 12864,
+                "Unknown2": 784,
+                "LocationId": 13174,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Kingham Farmstead"
+                "LocationName": "Holy Prophet of Kynareth"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 14,
         "Buildings": [
             {
-                "NameSeed": 23366,
+                "NameSeed": 8237,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 12864,
-                "BuildingType": 17,
-                "Quality": 1
+                "LocationId": 13174,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7186,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 13174,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 30384,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 13174,
+                "BuildingType": "House3",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 3018,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 13174,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 21250,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 13174,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 14197,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 13174,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 24419,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 13174,
+                "BuildingType": "House3",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 16743,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 13174,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 13852,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 13174,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 6862,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 13174,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 18442,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 13174,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 4393,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 13174,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 22579,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 13174,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 15008,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 13174,
+                "BuildingType": "Temple",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Kingham Farmstead",
-            "MapId": 429000001011,
+            "AnotherName": "Holy Prophet of Kynareth",
+            "MapId": 59755,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA09.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
@@ -68,13 +172,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

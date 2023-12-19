@@ -1,112 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Red Mug Lodge",
+    "Name": "Khiz's Guard",
     "RegionName": "Tigonus",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 366000000509,
-        "Latitude": 72360,
-        "Longitude": 65192,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 147135218,
+        "Latitude": 21160,
+        "Longitude": 74024,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "OrcStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16693248,
-                "Y": 12007425,
+                "X": 18954240,
+                "Y": 5421057,
                 "IsExterior": 32768,
-                "Unknown2": 261,
-                "LocationId": 25104,
+                "Unknown2": 140,
+                "LocationId": 24196,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Red Mug Lodge"
+                "LocationName": "Khiz's Guard"
             }
         },
-        "BuildingCount": 5,
-        "Buildings": [
-            {
-                "NameSeed": 20903,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 25104,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 16464,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 25104,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 28883,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 25104,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 21787,
-                "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 25104,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 20709,
-                "FactionId": 510,
-                "Sector": 23,
-                "LocationId": 25104,
-                "BuildingType": 15,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "20709",
-            "MapId": 366000000509,
+            "AnotherName": "Khiz's Guard",
+            "MapId": 334578,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS01.RMB"
+                "CASTAA26.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 18954240,
+                "Y": 5421057,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 31,
+                "LocationId": 24197,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24196,
+                "LocationName": "Khiz's Guard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000043.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

@@ -1,114 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Ruins of T'elpun Hall",
+    "Name": "The Bluldem Cemetery",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 228000000710,
-        "Latitude": 90024,
-        "Longitude": 90920,
-        "LocationType": 10,
-        "DungeonType": 6,
+        "MapId": 650557832,
+        "Latitude": 7592,
+        "Longitude": 91176,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23279616,
-                "Y": 7485441,
+                "X": 23345152,
+                "Y": 1947649,
                 "IsExterior": 32768,
-                "Unknown2": 238,
-                "LocationId": 25912,
+                "Unknown2": 620,
+                "LocationId": 27798,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of T'elpun Hall"
+                "LocationName": "The Bluldem Cemetery"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of T'elpun Hall",
-            "MapId": 228000000710,
+            "AnotherName": "The Bluldem Cemetery",
+            "MapId": 440712,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA01.RMB"
+                "GRVEAS20.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 24623104,
-                "Y": 3979265,
+                "X": 23345152,
+                "Y": 1947649,
                 "IsExterior": 0,
-                "Unknown2": 68,
-                "LocationId": 25913,
+                "Unknown2": 206,
+                "LocationId": 27799,
                 "IsInterior": 1,
-                "ExteriorLocationId": 25912,
-                "LocationName": "Ruins of T'elpun Hall"
+                "ExteriorLocationId": 27798,
+                "LocationName": "The Bluldem Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 11
+            "BlockCount": 5
         },
         "Blocks": [
             {
-                "X": -3,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000023.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000044.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -124,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000017.RDB",
+                "BlockName": "M0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -132,7 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -140,7 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -148,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

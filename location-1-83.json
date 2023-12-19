@@ -1,112 +1,176 @@
 {
     "Loaded": true,
-    "Name": "The B'ast Graveyard",
+    "Name": "Dhugta Manor",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 57000000832,
-        "Latitude": 111912,
-        "Longitude": 106536,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 87358449,
+        "Latitude": 22184,
+        "Longitude": 82088,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27277312,
-                "Y": 1882113,
+                "X": 21018624,
+                "Y": 5683201,
                 "IsExterior": 32768,
-                "Unknown2": 723,
-                "LocationId": 28501,
+                "Unknown2": 83,
+                "LocationId": 23956,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The B'ast Graveyard"
+                "LocationName": "Dhugta Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 20441,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 23956,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 6249,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 23956,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 8316,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 23956,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 22389,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 23956,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 32360,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 23956,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 22430,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 23956,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 8276,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 23956,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 22752,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 23956,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 11170,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 23956,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 2678,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 23956,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 20991,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 23956,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 10796,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 23956,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 22141,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 23956,
+                "BuildingType": "House1",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The B'ast Graveyard",
-            "MapId": 57000000832,
+            "AnotherName": "Dhugta Manor",
+            "MapId": 326641,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS11.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 30881792,
-                "Y": 1128449,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 243,
-                "LocationId": 28502,
-                "IsInterior": 1,
-                "ExteriorLocationId": 28501,
-                "LocationName": "The B'ast Graveyard"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

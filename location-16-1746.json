@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Fearful Altar of Kynareth",
+    "Name": "Ruins of Greensly Orchard",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 584000000772,
-        "Latitude": 44456,
-        "Longitude": 98856,
-        "LocationType": 5,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16
+        "MapId": 1830989616,
+        "Latitude": 41512,
+        "Longitude": 117800,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Mine",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25311232,
-                "Y": 19150849,
+                "X": 30160896,
+                "Y": 10631169,
                 "IsExterior": 32768,
-                "Unknown2": 539,
-                "LocationId": 12018,
+                "Unknown2": 1746,
+                "LocationId": 20131,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Fearful Altar of Kynareth"
+                "LocationName": "Ruins of Greensly Orchard"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 22513,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 12018,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 18595,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 12018,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 30191,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 12018,
-                "BuildingType": 19,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 27189,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 12018,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 25815,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 12018,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 21141,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 12018,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 2786,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 12018,
-                "BuildingType": 19,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 15563,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 12018,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 6640,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 12018,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 3599,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 12018,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 16081,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 12018,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 23285,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 12018,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 20025,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 12018,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 3346,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 12018,
-                "BuildingType": 14,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Fearful Altar of Kynareth",
-            "MapId": 584000000772,
+            "AnotherName": "Ruins of Greensly Orchard",
+            "MapId": 175920,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "RUINAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 30160896,
+                "Y": 10631169,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 657,
+                "LocationId": 20132,
+                "IsInterior": 1,
+                "ExteriorLocationId": 20131,
+                "LocationName": "Ruins of Greensly Orchard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000021.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

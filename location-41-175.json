@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Gaersmith Farmstead",
+    "Name": "Old Chrystara's Farm",
     "RegionName": "Daenia",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 674000000546,
-        "Latitude": 32936,
-        "Longitude": 69928,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 183594148,
+        "Latitude": 52008,
+        "Longitude": 44584,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17905664,
-                "Y": 22099969,
+                "X": 11417600,
+                "Y": 13318145,
                 "IsExterior": 32768,
-                "Unknown2": 114,
-                "LocationId": 14091,
+                "Unknown2": 175,
+                "LocationId": 15395,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Gaersmith Farmstead"
+                "LocationName": "Old Chrystara's Farm"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 30835,
+                "NameSeed": 27359,
                 "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 14091,
-                "BuildingType": 18,
-                "Quality": 14
+                "Sector": 4,
+                "LocationId": 15395,
+                "BuildingType": "House2",
+                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Gaersmith Farmstead",
-            "MapId": 674000000546,
+            "AnotherName": "Old Chrystara's Farm",
+            "MapId": 93348,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA00.RMB"
+                "FARMAA02.RMB"
             ]
         }
     },
@@ -68,15 +68,15 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 169,
+    "Politic": 188,
     "RegionIndex": 41,
     "LocationIndex": 175
 }

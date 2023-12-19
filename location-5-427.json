@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Lion and Mug Hostel",
+    "Name": "Castle Hearthford",
     "RegionName": "Dwynnen",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 611000000685,
-        "Latitude": 41000,
-        "Longitude": 87720,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 447813494,
+        "Latitude": 54824,
+        "Longitude": 69416,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "RuinedCastle",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22460416,
-                "Y": 20035585,
+                "X": 17774592,
+                "Y": 14039041,
                 "IsExterior": 32768,
-                "Unknown2": 360,
-                "LocationId": 13158,
+                "Unknown2": 427,
+                "LocationId": 13882,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Lion and Mug Hostel"
+                "LocationName": "Castle Hearthford"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 11987,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 13158,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 20493,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 13158,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 21268,
-                "FactionId": 0,
-                "Sector": 13,
-                "LocationId": 13158,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 24148,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 13158,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 5529,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 13158,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 28344,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 13158,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 5418,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 13158,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 7885,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 13158,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 27469,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 13158,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 4764,
-                "FactionId": 510,
-                "Sector": 68,
-                "LocationId": 13158,
-                "BuildingType": 15,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31282,
-                "FactionId": 510,
-                "Sector": 80,
-                "LocationId": 13158,
-                "BuildingType": 15,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 10704,
-                "FactionId": 510,
-                "Sector": 93,
-                "LocationId": 13158,
-                "BuildingType": 15,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "4764",
-            "MapId": 611000000685,
+            "AnotherName": "Castle Hearthford",
+            "MapId": 71542,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS00.RMB"
+                "CASTAA24.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 17774592,
+                "Y": 14039041,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 72,
+                "LocationId": 13883,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13882,
+                "LocationName": "Castle Hearthford"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 11
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000088.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

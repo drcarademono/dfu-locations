@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Caargar Tombs",
+    "Name": "Nebuchelon's Tomb",
     "RegionName": "Tigonus",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 395000000533,
-        "Latitude": 68648,
-        "Longitude": 68264,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": true,
+        "MapId": 320185279,
+        "Latitude": 16680,
+        "Longitude": 76712,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Crypt",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17479680,
-                "Y": 12957697,
+                "X": 19642368,
+                "Y": 4274177,
                 "IsExterior": 32768,
-                "Unknown2": 78,
-                "LocationId": 23820,
+                "Unknown2": 305,
+                "LocationId": 25534,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Caargar Tombs"
+                "LocationName": "Nebuchelon's Tomb"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Caargar Tombs",
-            "MapId": 395000000533,
+            "AnotherName": "Nebuchelon's Tomb",
+            "MapId": 369599,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS17.RMB"
+                "DUNGAA10.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16857088,
-                "Y": 5814273,
+                "X": 19642368,
+                "Y": 4274177,
                 "IsExterior": 0,
-                "Unknown2": 16,
-                "LocationId": 23821,
+                "Unknown2": 75,
+                "LocationId": 25535,
                 "IsInterior": 1,
-                "ExteriorLocationId": 23820,
-                "LocationName": "The Caargar Tombs"
+                "ExteriorLocationId": 25534,
+                "LocationName": "Nebuchelon's Tomb"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 13
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "W0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000002.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,21 +84,29 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 228,
-        "ClimateType": 400,
-        "NatureSet": 502,
-        "GroundArchive": 402,
-        "NatureArchive": 502,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
+        "GroundArchive": 2,
+        "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

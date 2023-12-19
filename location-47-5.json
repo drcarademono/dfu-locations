@@ -1,152 +1,96 @@
 {
     "Loaded": true,
-    "Name": "The Asmibloth Shrine",
+    "Name": "The Lion and Scorpion Hostel",
     "RegionName": "Ayasofya",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 330000000514,
-        "Latitude": 76968,
-        "Longitude": 65832,
-        "LocationType": 4,
-        "DungeonType": 4,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 5607405,
+        "Latitude": 17320,
+        "Longitude": 67240,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16857088,
-                "Y": 10827777,
+                "X": 17217536,
+                "Y": 4438017,
                 "IsExterior": 32768,
-                "Unknown2": 97,
-                "LocationId": 26217,
+                "Unknown2": 5,
+                "LocationId": 25311,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Asmibloth Shrine"
+                "LocationName": "The Lion and Scorpion Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 3,
+        "Buildings": [
+            {
+                "NameSeed": 2895,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 25311,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7589,
+                "FactionId": 510,
+                "Sector": 11,
+                "LocationId": 25311,
+                "BuildingType": "House1",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 20021,
+                "FactionId": 510,
+                "Sector": 24,
+                "LocationId": 25311,
+                "BuildingType": "Tavern",
+                "Quality": 11
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Asmibloth Shrine",
-            "MapId": 330000000514,
+            "AnotherName": "20021",
+            "MapId": 364525,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA04.RMB"
+                "TVRNGS03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 17381376,
-                "Y": 3684353,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 34,
-                "LocationId": 26218,
-                "IsInterior": 1,
-                "ExteriorLocationId": 26217,
-                "LocationName": "The Asmibloth Shrine"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000051.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 175,
     "RegionIndex": 47,

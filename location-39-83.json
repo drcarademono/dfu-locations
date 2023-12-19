@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Moorford Palace",
+    "Name": "The Stronghold of Mastersly",
     "RegionName": "Urvaius",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 614000000577,
-        "Latitude": 40616,
-        "Longitude": 73896,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 87104261,
+        "Latitude": 54696,
+        "Longitude": 58024,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Prison",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18921472,
-                "Y": 20133889,
+                "X": 14858240,
+                "Y": 14006273,
                 "IsExterior": 32768,
-                "Unknown2": 210,
-                "LocationId": 16520,
+                "Unknown2": 83,
+                "LocationId": 13951,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Moorford Palace"
+                "LocationName": "The Stronghold of Mastersly"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 17086,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 16520,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 32400,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 16520,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 5228,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 16520,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 4992,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 16520,
-                "BuildingType": 19,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 4738,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 16520,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 27550,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 16520,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 31689,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 16520,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 20909,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 16520,
-                "BuildingType": 15,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 31145,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 16520,
-                "BuildingType": 17,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Moorford Palace",
-            "MapId": 614000000577,
+            "AnotherName": "The Stronghold of Mastersly",
+            "MapId": 72453,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "CASTAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 14858240,
+                "Y": 14006273,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 18,
+                "LocationId": 13952,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13951,
+                "LocationName": "The Stronghold of Mastersly"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 167,
     "RegionIndex": 39,

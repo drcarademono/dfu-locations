@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Buckingsmith Manor",
+    "Name": "The Coppering Graveyard",
     "RegionName": "Dwynnen",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 609000000652,
-        "Latitude": 41256,
-        "Longitude": 83496,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 424741785,
+        "Latitude": 55208,
+        "Longitude": 64680,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21379072,
-                "Y": 19970049,
+                "X": 16562176,
+                "Y": 14137345,
                 "IsExterior": 32768,
-                "Unknown2": 464,
-                "LocationId": 14314,
+                "Unknown2": 405,
+                "LocationId": 13691,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Buckingsmith Manor"
+                "LocationName": "The Coppering Graveyard"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 32367,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 14314,
-                "BuildingType": 17,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 10117,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 14314,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 4242,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 14314,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 12628,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 14314,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 5446,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 14314,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 8429,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 14314,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 15783,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 14314,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 15780,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 14314,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 10077,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 14314,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 4606,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 14314,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 2722,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 14314,
-                "BuildingType": 15,
-                "Quality": 5
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Buckingsmith Manor",
-            "MapId": 609000000652,
+            "AnotherName": "The Coppering Graveyard",
+            "MapId": 68505,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "GRVEAS13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 16562176,
+                "Y": 14137345,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 67,
+                "LocationId": 13692,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13691,
+                "LocationName": "The Coppering Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

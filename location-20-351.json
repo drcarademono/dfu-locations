@@ -1,50 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Old Thush Place",
+    "Name": "The Bat and Scorpion Lodge",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 419000000398,
-        "Latitude": 65576,
-        "Longitude": 50984,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 368444530,
+        "Latitude": 13480,
+        "Longitude": 45352,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13056000,
-                "Y": 13744129,
+                "X": 11614208,
+                "Y": 3454977,
                 "IsExterior": 32768,
-                "Unknown2": 88,
-                "LocationId": 25520,
+                "Unknown2": 351,
+                "LocationId": 26433,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Thush Place"
+                "LocationName": "The Bat and Scorpion Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 29753,
+                "NameSeed": 14502,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25520,
-                "BuildingType": 19,
+                "LocationId": 26433,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 26852,
+                "FactionId": 0,
+                "Sector": 11,
+                "LocationId": 26433,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 31250,
+                "FactionId": 510,
+                "Sector": 19,
+                "LocationId": 26433,
+                "BuildingType": "HouseForSale",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 9912,
+                "FactionId": 510,
+                "Sector": 30,
+                "LocationId": 26433,
+                "BuildingType": "Tavern",
                 "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Thush Place",
-            "MapId": 419000000398,
+            "AnotherName": "9912",
+            "MapId": 394354,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 8,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNGS02.RMB"
             ]
         }
     },
@@ -68,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

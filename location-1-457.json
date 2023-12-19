@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Thirsty Rascal Pub",
+    "Name": "Gerne Tower",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 168000000728,
-        "Latitude": 97704,
-        "Longitude": 93224,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 479614019,
+        "Latitude": 10920,
+        "Longitude": 100776,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "GiantStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23869440,
-                "Y": 5519361,
+                "X": 25802752,
+                "Y": 2799617,
                 "IsExterior": 32768,
-                "Unknown2": 525,
-                "LocationId": 27257,
+                "Unknown2": 457,
+                "LocationId": 27053,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Thirsty Rascal Pub"
+                "LocationName": "Gerne Tower"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 29015,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 27257,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 21519,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 27257,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 27978,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 27257,
-                "BuildingType": 15,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 11516,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 27257,
-                "BuildingType": 19,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 3756,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 27257,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 23863,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 27257,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 12499,
-                "FactionId": 0,
-                "Sector": 70,
-                "LocationId": 27257,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 23734,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 27257,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 14857,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 27257,
-                "BuildingType": 19,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 21868,
-                "FactionId": 0,
-                "Sector": 87,
-                "LocationId": 27257,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 25942,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 27257,
-                "BuildingType": 18,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "29015",
-            "MapId": 168000000728,
+            "AnotherName": "Gerne Tower",
+            "MapId": 414787,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS06.RMB"
+                "CASTAA31.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 25802752,
+                "Y": 2799617,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 150,
+                "LocationId": 27054,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27053,
+                "LocationName": "Gerne Tower"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000045.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

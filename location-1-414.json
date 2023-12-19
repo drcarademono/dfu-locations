@@ -1,146 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Shrargin Court",
+    "Name": "The Maildir Farmstead",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 158000000729,
-        "Latitude": 98984,
-        "Longitude": 93352,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 434519220,
+        "Latitude": 11688,
+        "Longitude": 96808,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23902208,
-                "Y": 5191681,
+                "X": 24786944,
+                "Y": 2996225,
                 "IsExterior": 32768,
-                "Unknown2": 581,
-                "LocationId": 27500,
+                "Unknown2": 414,
+                "LocationId": 26875,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shrargin Court"
+                "LocationName": "The Maildir Farmstead"
             }
         },
-        "BuildingCount": 13,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 8448,
+                "NameSeed": 26546,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27500,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 25734,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 27500,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 12820,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 27500,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 14042,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 27500,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 9756,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 27500,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 31136,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 27500,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31052,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 27500,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 17028,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 27500,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 22812,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 27500,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 19766,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 27500,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 20842,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 27500,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 25090,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 27500,
-                "BuildingType": 15,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 12393,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 27500,
-                "BuildingType": 17,
-                "Quality": 10
+                "LocationId": 26875,
+                "BuildingType": "House1",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Shrargin Court",
-            "MapId": 158000000729,
+            "AnotherName": "The Maildir Farmstead",
+            "MapId": 408756,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "FARMAA09.RMB"
             ]
         }
     },
@@ -164,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

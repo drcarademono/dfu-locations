@@ -1,74 +1,50 @@
 {
     "Loaded": true,
-    "Name": "B'urdte Court",
+    "Name": "The Old Furkum Place",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 369000000435,
-        "Latitude": 71976,
-        "Longitude": 55720,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 44397569,
+        "Latitude": 18216,
+        "Longitude": 48296,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14268416,
-                "Y": 12105729,
+                "X": 12367872,
+                "Y": 4667393,
                 "IsExterior": 32768,
-                "Unknown2": 344,
-                "LocationId": 26410,
+                "Unknown2": 42,
+                "LocationId": 25025,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "B'urdte Court"
+                "LocationName": "The Old Furkum Place"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 26224,
+                "NameSeed": 19555,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26410,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 16336,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 26410,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 7522,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 26410,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 15892,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 26410,
-                "BuildingType": 17,
-                "Quality": 7
+                "LocationId": 25025,
+                "BuildingType": "House3",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "B'urdte Court",
-            "MapId": 369000000435,
+            "AnotherName": "The Old Furkum Place",
+            "MapId": 357377,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRBS00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -91,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
-        "NatureArchive": 503,
-        "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "NatureArchive": 501,
+        "SkyBase": 24,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

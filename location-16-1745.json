@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Ashford Orchard",
+    "Name": "The Lynx and Pit Lodge",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 583000000845,
-        "Latitude": 44584,
-        "Longitude": 108200,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 1829940103,
+        "Latitude": 41640,
+        "Longitude": 125864,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27703296,
-                "Y": 19118081,
+                "X": 32225280,
+                "Y": 10663937,
                 "IsExterior": 32768,
-                "Unknown2": 30,
-                "LocationId": 10131,
+                "Unknown2": 1745,
+                "LocationId": 20095,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ashford Orchard"
+                "LocationName": "The Lynx and Pit Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 18653,
-                "FactionId": 0,
+                "NameSeed": 23457,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 10131,
-                "BuildingType": 18,
-                "Quality": 10
+                "LocationId": 20095,
+                "BuildingType": "Tavern",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 14015,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 20095,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 5867,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 20095,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 19555,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 20095,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 28263,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 20095,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 23974,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 20095,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 6883,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 20095,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 24058,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 20095,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 26798,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 20095,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 30531,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 20095,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 27448,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 20095,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 17753,
+                "FactionId": 0,
+                "Sector": 91,
+                "LocationId": 20095,
+                "BuildingType": "House2",
+                "Quality": 9
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Ashford Orchard",
-            "MapId": 583000000845,
+            "AnotherName": "23457",
+            "MapId": 174983,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA04.RMB"
+                "TVRNAS09.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

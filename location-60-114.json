@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Rat and Fairy Lodge",
+    "Name": "The Masterhart Graveyard",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 699000000502,
-        "Latitude": 29736,
-        "Longitude": 64296,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 119606869,
+        "Latitude": 55080,
+        "Longitude": 26280,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16463872,
-                "Y": 22919169,
+                "X": 6731776,
+                "Y": 14104577,
                 "IsExterior": 32768,
-                "Unknown2": 192,
-                "LocationId": 14088,
+                "Unknown2": 114,
+                "LocationId": 13739,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rat and Fairy Lodge"
+                "LocationName": "The Masterhart Graveyard"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 30601,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 14088,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 16493,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 14088,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 18292,
-                "FactionId": 0,
-                "Sector": 13,
-                "LocationId": 14088,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 23866,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 14088,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 18202,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 14088,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 29205,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 14088,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 12096,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 14088,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 29358,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 14088,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 21056,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 14088,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 28081,
-                "FactionId": 510,
-                "Sector": 68,
-                "LocationId": 14088,
-                "BuildingType": 15,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 15784,
-                "FactionId": 510,
-                "Sector": 80,
-                "LocationId": 14088,
-                "BuildingType": 15,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 19491,
-                "FactionId": 510,
-                "Sector": 93,
-                "LocationId": 14088,
-                "BuildingType": 15,
-                "Quality": 8
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "28081",
-            "MapId": 699000000502,
+            "AnotherName": "The Masterhart Graveyard",
+            "MapId": 69205,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS00.RMB"
+                "GRVEAS13.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 6731776,
+                "Y": 14104577,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 43,
+                "LocationId": 13740,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13739,
+                "LocationName": "The Masterhart Graveyard"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

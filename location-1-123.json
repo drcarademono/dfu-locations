@@ -1,112 +1,168 @@
 {
     "Loaded": true,
-    "Name": "The Graves of Rlafylta",
+    "Name": "The Fox and Barbarian Lodge",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 70000000788,
-        "Latitude": 110248,
-        "Longitude": 100904,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 129318524,
+        "Latitude": 20008,
+        "Longitude": 86568,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25835520,
-                "Y": 2308097,
+                "X": 22165504,
+                "Y": 5126145,
                 "IsExterior": 32768,
-                "Unknown2": 785,
-                "LocationId": 28838,
+                "Unknown2": 123,
+                "LocationId": 24524,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Graves of Rlafylta"
+                "LocationName": "The Fox and Barbarian Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 12,
+        "Buildings": [
+            {
+                "NameSeed": 3951,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 24524,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 28442,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 24524,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 17188,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 24524,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 13568,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 24524,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 449,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 24524,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 10459,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 24524,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 10204,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 24524,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 25967,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 24524,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 30101,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 24524,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 32529,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 24524,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 19708,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 24524,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 21294,
+                "FactionId": 0,
+                "Sector": 91,
+                "LocationId": 24524,
+                "BuildingType": "House2",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Graves of Rlafylta",
-            "MapId": 70000000788,
+            "AnotherName": "3951",
+            "MapId": 343676,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS22.RMB"
+                "TVRNAS09.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 29407232,
-                "Y": 768001,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 261,
-                "LocationId": 28839,
-                "IsInterior": 1,
-                "ExteriorLocationId": 28838,
-                "LocationName": "The Graves of Rlafylta"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

@@ -1,90 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Gaersmith's Hold",
+    "Name": "The Hold of Gaerfield",
     "RegionName": "Glenpoint",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 758000000322,
-        "Latitude": 22184,
-        "Longitude": 41256,
-        "LocationType": 10,
-        "DungeonType": 11,
+        "MapId": 334624902,
+        "Latitude": 47400,
+        "Longitude": 20264,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Coven",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10565632,
-                "Y": 24852481,
+                "X": 5191680,
+                "Y": 12138497,
                 "IsExterior": 32768,
-                "Unknown2": 206,
-                "LocationId": 16717,
+                "Unknown2": 319,
+                "LocationId": 17568,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Gaersmith's Hold"
+                "LocationName": "The Hold of Gaerfield"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Gaersmith's Hold",
-            "MapId": 758000000322,
+            "AnotherName": "The Hold of Gaerfield",
+            "MapId": 129158,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA20.RMB"
+                "CASTAA26.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 4929536,
-                "Y": 12662785,
+                "X": 5191680,
+                "Y": 12138497,
                 "IsExterior": 0,
-                "Unknown2": 67,
-                "LocationId": 16718,
+                "Unknown2": 104,
+                "LocationId": 17569,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16717,
-                "LocationName": "Ruins of Gaersmith's Hold"
+                "ExteriorLocationId": 17568,
+                "LocationName": "The Hold of Gaerfield"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -2,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000077.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -97,18 +73,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000044.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

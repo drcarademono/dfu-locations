@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The White Goat Lodge",
+    "Name": "The Masterwing Plantation",
     "RegionName": "Menevia",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 397000000861,
-        "Latitude": 68392,
-        "Longitude": 110248,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 219368208,
+        "Latitude": 36392,
+        "Longitude": 105512,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28227584,
-                "Y": 13023233,
+                "X": 27015168,
+                "Y": 9320449,
                 "IsExterior": 32768,
-                "Unknown2": 25,
-                "LocationId": 19099,
+                "Unknown2": 209,
+                "LocationId": 21808,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The White Goat Lodge"
+                "LocationName": "The Masterwing Plantation"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 15002,
-                "FactionId": 510,
+                "NameSeed": 20674,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 19099,
-                "BuildingType": 15,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 7805,
-                "FactionId": 0,
-                "Sector": 21,
-                "LocationId": 19099,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 6015,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 19099,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 13765,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 19099,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 1067,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 19099,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 9263,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 19099,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 5078,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 19099,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 7626,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 19099,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 2763,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 19099,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 4245,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 19099,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 18331,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 19099,
-                "BuildingType": 18,
-                "Quality": 7
+                "LocationId": 21808,
+                "BuildingType": "House2",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "15002",
-            "MapId": 397000000861,
+            "AnotherName": "The Masterwing Plantation",
+            "MapId": 215824,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS03.RMB"
+                "FARMAA07.RMB"
             ]
         }
     },
@@ -147,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 161,
     "RegionIndex": 33,

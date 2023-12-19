@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Mouse and Djinn Inn",
+    "Name": "The Quarry of Khegem",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 49000000861,
-        "Latitude": 112936,
-        "Longitude": 110248,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 60087432,
+        "Latitude": 23208,
+        "Longitude": 76840,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28227584,
-                "Y": 1619969,
+                "X": 19675136,
+                "Y": 5945345,
                 "IsExterior": 32768,
-                "Unknown2": 696,
-                "LocationId": 28273,
+                "Unknown2": 57,
+                "LocationId": 23712,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mouse and Djinn Inn"
+                "LocationName": "The Quarry of Khegem"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 16593,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 28273,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 15339,
-                "FactionId": 510,
-                "Sector": 16,
-                "LocationId": 28273,
-                "BuildingType": 15,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 28740,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 28273,
-                "BuildingType": 15,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 24592,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 28273,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 31761,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 28273,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 7503,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 28273,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 21871,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 28273,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 31645,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 28273,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 31136,
-                "FactionId": 0,
-                "Sector": 84,
-                "LocationId": 28273,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 31052,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 28273,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 17028,
-                "FactionId": 0,
-                "Sector": 96,
-                "LocationId": 28273,
-                "BuildingType": 18,
-                "Quality": 8
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "16593",
-            "MapId": 49000000861,
+            "AnotherName": "The Quarry of Khegem",
+            "MapId": 318600,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS04.RMB"
+                "DUNGAA04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 19675136,
+                "Y": 5945345,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 11,
+                "LocationId": 23713,
+                "IsInterior": 1,
+                "ExteriorLocationId": 23712,
+                "LocationName": "The Quarry of Khegem"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000089.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

@@ -1,35 +1,35 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Tofylir Manor",
+    "Name": "Ruins of D'ernta Manor",
     "RegionName": "Dak'fron",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 145000000630,
-        "Latitude": 100648,
-        "Longitude": 80680,
-        "LocationType": 10,
-        "DungeonType": 6,
+        "MapId": 6732098,
+        "Latitude": 7592,
+        "Longitude": 82216,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Crypt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20658176,
-                "Y": 4765697,
+                "X": 21051392,
+                "Y": 1947649,
                 "IsExterior": 32768,
-                "Unknown2": 165,
-                "LocationId": 29256,
+                "Unknown2": 6,
+                "LocationId": 27791,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Tofylir Manor"
+                "LocationName": "Ruins of D'ernta Manor"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Tofylir Manor",
-            "MapId": 145000000630,
+            "AnotherName": "Ruins of D'ernta Manor",
+            "MapId": 440642,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
@@ -42,14 +42,14 @@
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23705600,
-                "Y": 309249,
+                "X": 21051392,
+                "Y": 1947649,
                 "IsExterior": 0,
-                "Unknown2": 112,
-                "LocationId": 29257,
+                "Unknown2": 3,
+                "LocationId": 27792,
                 "IsInterior": 1,
-                "ExteriorLocationId": 29256,
-                "LocationName": "Ruins of Tofylir Manor"
+                "ExteriorLocationId": 27791,
+                "LocationName": "Ruins of D'ernta Manor"
             }
         },
         "Header": {
@@ -57,64 +57,40 @@
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000025.RDB",
+                "BlockName": "W0000023.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
+                "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 1,
                 "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

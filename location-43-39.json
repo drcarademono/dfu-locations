@@ -1,50 +1,74 @@
 {
     "Loaded": true,
-    "Name": "Old Shoght-e's Farm",
+    "Name": "The Dwarf and Mug Lodge",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 409000000184,
-        "Latitude": 66856,
-        "Longitude": 23592,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 41360653,
+        "Latitude": 4264,
+        "Longitude": 24232,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 6043648,
-                "Y": 13416449,
+                "X": 6207488,
+                "Y": 1095681,
                 "IsExterior": 32768,
-                "Unknown2": 131,
-                "LocationId": 29060,
+                "Unknown2": 39,
+                "LocationId": 28506,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Shoght-e's Farm"
+                "LocationName": "The Dwarf and Mug Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 18331,
+                "NameSeed": 901,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 28506,
+                "BuildingType": "Tavern",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 32342,
                 "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 29060,
-                "BuildingType": 18,
-                "Quality": 7
+                "Sector": 18,
+                "LocationId": 28506,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 5680,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 28506,
+                "BuildingType": "House4",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 5527,
+                "FactionId": 0,
+                "Sector": 37,
+                "LocationId": 28506,
+                "BuildingType": "House4",
+                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Shoght-e's Farm",
-            "MapId": 409000000184,
+            "AnotherName": "901",
+            "MapId": 466189,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA00.RMB"
+                "TVRNGS00.RMB"
             ]
         }
     },
@@ -68,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

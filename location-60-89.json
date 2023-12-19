@@ -1,50 +1,41 @@
 {
     "Loaded": true,
-    "Name": "Kinging Orchard",
+    "Name": "Shrine of Mai",
     "RegionName": "Ilessan Hills",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 697000000464,
-        "Latitude": 29992,
-        "Longitude": 59432,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 93390540,
+        "Latitude": 55336,
+        "Longitude": 35368,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15218688,
-                "Y": 22853633,
+                "X": 9058304,
+                "Y": 14170113,
                 "IsExterior": 32768,
-                "Unknown2": 428,
-                "LocationId": 15505,
+                "Unknown2": 89,
+                "LocationId": 13611,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kinging Orchard"
+                "LocationName": "Shrine of Mai"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 28381,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 15505,
-                "BuildingType": 18,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Kinging Orchard",
-            "MapId": 697000000464,
+            "AnotherName": "Shrine of Mai",
+            "MapId": 67276,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA02.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -67,14 +58,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
-        "NatureArchive": 508,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

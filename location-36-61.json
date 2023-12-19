@@ -1,114 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Coppersley Manor",
+    "Name": "The Unfortunate Porcupine HostelThe Yeomsley Cemetery",
     "RegionName": "Bhoriane",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 527000000703,
-        "Latitude": 51752,
-        "Longitude": 90024,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 64069732,
+        "Latitude": 50344,
+        "Longitude": 76328,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23050240,
-                "Y": 17283073,
+                "X": 19544064,
+                "Y": 12892161,
                 "IsExterior": 32768,
-                "Unknown2": 135,
-                "LocationId": 17273,
+                "Unknown2": 61,
+                "LocationId": 16262,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Coppersley Manor"
+                "LocationName": "The Unfortunate Porcupine Hostel"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 6672,
+                "NameSeed": 29117,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 17273,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 5511,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 17273,
-                "BuildingType": 18,
+                "LocationId": 16262,
+                "BuildingType": "House2",
                 "Quality": 2
             },
             {
-                "NameSeed": 28432,
+                "NameSeed": 6300,
                 "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 17273,
-                "BuildingType": 18,
-                "Quality": 10
+                "Sector": 9,
+                "LocationId": 16262,
+                "BuildingType": "House2",
+                "Quality": 11
             },
             {
-                "NameSeed": 11214,
+                "NameSeed": 20178,
                 "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 17273,
-                "BuildingType": 19,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 17065,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 17273,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 16746,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 17273,
-                "BuildingType": 18,
+                "Sector": 13,
+                "LocationId": 16262,
+                "BuildingType": "House2",
                 "Quality": 5
             },
             {
-                "NameSeed": 19555,
+                "NameSeed": 31779,
                 "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 17273,
-                "BuildingType": 18,
-                "Quality": 14
+                "Sector": 20,
+                "LocationId": 16262,
+                "BuildingType": "House2",
+                "Quality": 9
             },
             {
-                "NameSeed": 25956,
+                "NameSeed": 7416,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 16262,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 145,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 16262,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 14172,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 16262,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 4052,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 16262,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 9735,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 16262,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 22619,
                 "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 17273,
-                "BuildingType": 15,
-                "Quality": 3
+                "Sector": 68,
+                "LocationId": 16262,
+                "BuildingType": "Tavern",
+                "Quality": 6
             },
             {
-                "NameSeed": 19071,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 17273,
-                "BuildingType": 17,
+                "NameSeed": 1556,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 16262,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 17205,
+                "FactionId": 510,
+                "Sector": 93,
+                "LocationId": 16262,
+                "BuildingType": "Tavern",
                 "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Coppersley Manor",
-            "MapId": 527000000703,
+            "AnotherName": "22619",
+            "MapId": 106596,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "TVRNAS00.RMB"
             ]
         }
     },
@@ -132,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 164,
     "RegionIndex": 36,

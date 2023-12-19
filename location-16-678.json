@@ -1,50 +1,154 @@
 {
     "Loaded": true,
-    "Name": "Old Carolyvyra's Shack",
+    "Name": "Perpetual Light of Kynareth",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 418000001022,
-        "Latitude": 65704,
-        "Longitude": 130856,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 710985254,
+        "Latitude": 57512,
+        "Longitude": 92968,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33503232,
-                "Y": 13711361,
+                "X": 23803904,
+                "Y": 14727169,
                 "IsExterior": 32768,
-                "Unknown2": 769,
-                "LocationId": 13068,
+                "Unknown2": 678,
+                "LocationId": 12660,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Carolyvyra's Shack"
+                "LocationName": "Perpetual Light of Kynareth"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 14,
         "Buildings": [
             {
-                "NameSeed": 20774,
+                "NameSeed": 6387,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 13068,
-                "BuildingType": 19,
-                "Quality": 3
+                "LocationId": 12660,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 12480,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 12660,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 23821,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 12660,
+                "BuildingType": "House3",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 3814,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 12660,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 23412,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 12660,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 11964,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 12660,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 9175,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 12660,
+                "BuildingType": "House3",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 16121,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 12660,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 22921,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 12660,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 8448,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 12660,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 25734,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 12660,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 12820,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 12660,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 14042,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 12660,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 16719,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 12660,
+                "BuildingType": "Temple",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Carolyvyra's Shack",
-            "MapId": 418000001022,
+            "AnotherName": "Perpetual Light of Kynareth",
+            "MapId": 50726,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
@@ -68,13 +172,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

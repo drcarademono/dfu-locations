@@ -1,146 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Copperwing Hall",
+    "Name": "The Ashham Farmstead",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 623000000389,
-        "Latitude": 39464,
-        "Longitude": 49832,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 107106930,
+        "Latitude": 44456,
+        "Longitude": 22824,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12761088,
-                "Y": 20428801,
+                "X": 5847040,
+                "Y": 11384833,
                 "IsExterior": 32768,
-                "Unknown2": 932,
-                "LocationId": 21007,
+                "Unknown2": 102,
+                "LocationId": 18871,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Copperwing Hall"
+                "LocationName": "The Ashham Farmstead"
             }
         },
-        "BuildingCount": 13,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 30985,
+                "NameSeed": 11358,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 21007,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 918,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 21007,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 5015,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 21007,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 13510,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 21007,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 900,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 21007,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 21033,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 21007,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 10760,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 21007,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 23412,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 21007,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 24549,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 21007,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 26970,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 21007,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 745,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 21007,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 5690,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 21007,
-                "BuildingType": 15,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 22243,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 21007,
-                "BuildingType": 17,
+                "LocationId": 18871,
+                "BuildingType": "House1",
                 "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Copperwing Hall",
-            "MapId": 623000000389,
+            "AnotherName": "The Ashham Farmstead",
+            "MapId": 152178,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "FARMAA09.RMB"
             ]
         }
     },
@@ -163,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

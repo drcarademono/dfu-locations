@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Devil's Goblin Lodge",
+    "Name": "The M'alper Farmstead",
     "RegionName": "Tigonus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 394000000558,
-        "Latitude": 68776,
-        "Longitude": 71464,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 315989968,
+        "Latitude": 16808,
+        "Longitude": 75816,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18298880,
-                "Y": 12924929,
+                "X": 19412992,
+                "Y": 4306945,
                 "IsExterior": 32768,
-                "Unknown2": 36,
-                "LocationId": 23504,
+                "Unknown2": 301,
+                "LocationId": 25481,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Devil's Goblin Lodge"
+                "LocationName": "The M'alper Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 9861,
-                "FactionId": 510,
+                "NameSeed": 15221,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23504,
-                "BuildingType": 15,
+                "LocationId": 25481,
+                "BuildingType": "House2",
                 "Quality": 11
-            },
-            {
-                "NameSeed": 11066,
-                "FactionId": 510,
-                "Sector": 16,
-                "LocationId": 23504,
-                "BuildingType": 15,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 971,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 23504,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 13401,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 23504,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 12219,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 23504,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 26180,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 23504,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 11987,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 23504,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 20493,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 23504,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 21268,
-                "FactionId": 0,
-                "Sector": 84,
-                "LocationId": 23504,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 24148,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 23504,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 5529,
-                "FactionId": 0,
-                "Sector": 96,
-                "LocationId": 23504,
-                "BuildingType": 18,
-                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "9861",
-            "MapId": 394000000558,
+            "AnotherName": "The M'alper Farmstead",
+            "MapId": 368592,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS04.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -147,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 228,
-        "ClimateType": 400,
-        "NatureSet": 502,
-        "GroundArchive": 402,
-        "NatureArchive": 502,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
+        "GroundArchive": 2,
+        "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

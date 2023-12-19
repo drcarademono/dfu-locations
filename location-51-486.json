@@ -1,178 +1,162 @@
 {
     "Loaded": true,
-    "Name": "The Morkiler Rectory",
+    "Name": "Flulpt Manor",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 214000000792,
-        "Latitude": 91816,
-        "Longitude": 101416,
-        "LocationType": 4,
-        "DungeonType": 4,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 509964659,
+        "Latitude": 18344,
+        "Longitude": 92584,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25966592,
-                "Y": 7026689,
+                "X": 23705600,
+                "Y": 4700161,
                 "IsExterior": 32768,
-                "Unknown2": 385,
-                "LocationId": 24743,
+                "Unknown2": 486,
+                "LocationId": 24991,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Morkiler Rectory"
+                "LocationName": "Flulpt Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 25864,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 24991,
+                "BuildingType": "House1",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 26752,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 24991,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 10441,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 24991,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 16183,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 24991,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 4453,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 24991,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 31175,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 24991,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 3812,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 24991,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 17708,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 24991,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 23331,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 24991,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 3643,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 24991,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 28305,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 24991,
+                "BuildingType": "Tavern",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Morkiler Rectory",
-            "MapId": 214000000792,
+            "AnotherName": "Flulpt Manor",
+            "MapId": 356723,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA07.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27146240,
-                "Y": 4929537,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 99,
-                "LocationId": 24744,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24743,
-                "LocationName": "The Morkiler Rectory"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000030.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000050.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
-    "Politic": 179,
+    "Politic": 177,
     "RegionIndex": 51,
     "LocationIndex": 486
 }

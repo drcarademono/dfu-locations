@@ -1,96 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Feather and Priest Lodge",
+    "Name": "Ruins of Castle D'irch'kern",
     "RegionName": "Myrkwasa",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 429000000299,
-        "Latitude": 64296,
-        "Longitude": 38312,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 100046987,
+        "Latitude": 8616,
+        "Longitude": 34216,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "NaturalCave",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9811968,
-                "Y": 14071809,
+                "X": 8763392,
+                "Y": 2209793,
                 "IsExterior": 32768,
-                "Unknown2": 34,
-                "LocationId": 26911,
+                "Unknown2": 95,
+                "LocationId": 27566,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Feather and Priest Lodge"
+                "LocationName": "Ruins of Castle D'irch'kern"
             }
         },
-        "BuildingCount": 3,
-        "Buildings": [
-            {
-                "NameSeed": 10239,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 26911,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 14197,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 26911,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 24230,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 26911,
-                "BuildingType": 15,
-                "Quality": 15
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "24230",
-            "MapId": 429000000299,
+            "AnotherName": "Ruins of Castle D'irch'kern",
+            "MapId": 432267,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "RUINAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 8763392,
+                "Y": 2209793,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 22,
+                "LocationId": 27567,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27566,
+                "LocationName": "Ruins of Castle D'irch'kern"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

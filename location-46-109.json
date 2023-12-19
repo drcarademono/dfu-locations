@@ -1,106 +1,114 @@
 {
     "Loaded": true,
-    "Name": "Bortta Manor",
+    "Name": "The Citadel of Boavim",
     "RegionName": "Myrkwasa",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 433000000251,
-        "Latitude": 63784,
-        "Longitude": 32168,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 114732048,
+        "Latitude": 7976,
+        "Longitude": 33832,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Crypt",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8239104,
-                "Y": 14202881,
+                "X": 8665088,
+                "Y": 2045953,
                 "IsExterior": 32768,
-                "Unknown2": 90,
-                "LocationId": 27516,
+                "Unknown2": 109,
+                "LocationId": 27699,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Bortta Manor"
+                "LocationName": "The Citadel of Boavim"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 6528,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27516,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 16456,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 27516,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 24359,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 27516,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 24076,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 27516,
-                "BuildingType": 17,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Bortta Manor",
-            "MapId": 433000000251,
+            "AnotherName": "The Citadel of Boavim",
+            "MapId": 437264,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRGS00.RMB"
+                "CASTAA14.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 8665088,
+                "Y": 2045953,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 29,
+                "LocationId": 27700,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27699,
+                "LocationName": "The Citadel of Boavim"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000026.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 173,
+    "Politic": 174,
     "RegionIndex": 46,
     "LocationIndex": 109
 }

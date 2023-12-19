@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "THe Crypts of Yeomhouse",
+    "Name": "The Hold of Buckingston",
     "RegionName": "Daggerfall",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 718000000277,
-        "Latitude": 27304,
-        "Longitude": 35496,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 1240675577,
+        "Latitude": 37032,
+        "Longitude": 21672,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Crypt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9091072,
-                "Y": 23541761,
+                "X": 5552128,
+                "Y": 9484289,
                 "IsExterior": 32768,
-                "Unknown2": 433,
-                "LocationId": 19889,
+                "Unknown2": 1183,
+                "LocationId": 21604,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "THe Crypts of Yeomhouse"
+                "LocationName": "The Hold of Buckingston"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "THe Crypts of Yeomhouse",
-            "MapId": 718000000277,
+            "AnotherName": "The Hold of Buckingston",
+            "MapId": 210169,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS07.RMB"
+                "CASTAA22.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 4306944,
-                "Y": 10795009,
+                "X": 5552128,
+                "Y": 9484289,
                 "IsExterior": 0,
-                "Unknown2": 80,
-                "LocationId": 19890,
+                "Unknown2": 233,
+                "LocationId": 21605,
                 "IsInterior": 1,
-                "ExteriorLocationId": 19889,
-                "LocationName": "THe Crypts of Yeomhouse"
+                "ExteriorLocationId": 21604,
+                "LocationName": "The Hold of Buckingston"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 10
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000090.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -95,18 +87,26 @@
                 "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
             }
         ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

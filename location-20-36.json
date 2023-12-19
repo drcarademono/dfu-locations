@@ -1,74 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Vliche Hall",
+    "Name": "The Cyarc Farmstead",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 368000000420,
-        "Latitude": 72104,
-        "Longitude": 53800,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 38105100,
+        "Latitude": 18344,
+        "Longitude": 46632,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13776896,
-                "Y": 12072961,
+                "X": 11941888,
+                "Y": 4700161,
                 "IsExterior": 32768,
-                "Unknown2": 446,
-                "LocationId": 26685,
+                "Unknown2": 36,
+                "LocationId": 24970,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Vliche Hall"
+                "LocationName": "The Cyarc Farmstead"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 21141,
+                "NameSeed": 24296,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26685,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 2786,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 26685,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 15563,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 26685,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 6640,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 26685,
-                "BuildingType": 17,
-                "Quality": 7
+                "LocationId": 24970,
+                "BuildingType": "House2",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Vliche Hall",
-            "MapId": 368000000420,
+            "AnotherName": "The Cyarc Farmstead",
+            "MapId": 356364,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRBS00.RMB"
+                "FARMAA03.RMB"
             ]
         }
     },
@@ -91,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
-        "NatureArchive": 503,
-        "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "NatureArchive": 501,
+        "SkyBase": 24,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

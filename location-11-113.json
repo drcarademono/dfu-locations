@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Kykos Coven",
+    "Name": "The Old Shiv Place",
     "RegionName": "Dak'fron",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 228000000498,
-        "Latitude": 90023,
-        "Longitude": 63800,
-        "LocationType": 13,
-        "DungeonType": 255,
-        "Discovered": false,
+        "MapId": 118967585,
+        "Latitude": 2728,
+        "Longitude": 63656,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16336896,
-                "Y": 7485185,
+                "X": 16300032,
+                "Y": 702465,
                 "IsExterior": 32768,
-                "Unknown2": 133,
-                "LocationId": 50046,
+                "Unknown2": 113,
+                "LocationId": 28901,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kykos Coven"
+                "LocationName": "The Old Shiv Place"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 11533,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 28901,
+                "BuildingType": "House3",
+                "Quality": 7
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Kykos Coven",
-            "MapId": 228000000498,
-            "LocationId": 50046,
+            "AnotherName": "The Old Shiv Place",
+            "MapId": 478497,
+            "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "WITCAA11.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

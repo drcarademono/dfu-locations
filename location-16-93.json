@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Old Carolausa's Place",
+    "Name": "Hawkton Manor",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 306000001004,
-        "Latitude": 80040,
-        "Longitude": 128552,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 97526214,
+        "Latitude": 62888,
+        "Longitude": 82728,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 32913408,
-                "Y": 10041345,
+                "X": 21182464,
+                "Y": 16103425,
                 "IsExterior": 32768,
-                "Unknown2": 1706,
-                "LocationId": 19606,
+                "Unknown2": 93,
+                "LocationId": 10347,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Carolausa's Place"
+                "LocationName": "Hawkton Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 30384,
+                "NameSeed": 12915,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 19606,
-                "BuildingType": 19,
-                "Quality": 11
+                "LocationId": 10347,
+                "BuildingType": "House1",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 23454,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 10347,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 17303,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 10347,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 3069,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 10347,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 16274,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 10347,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 31881,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 10347,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 21352,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 10347,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 28134,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 10347,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 29677,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 10347,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 28284,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 10347,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 15825,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 10347,
+                "BuildingType": "Tavern",
+                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Carolausa's Place",
-            "MapId": 306000001004,
+            "AnotherName": "Hawkton Manor",
+            "MapId": 8646,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

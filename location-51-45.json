@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Shirhter Graveyard",
+    "Name": "The Vault of Lithoghar",
     "RegionName": "Totambu",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 145000000831,
-        "Latitude": 100648,
-        "Longitude": 106408,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 47509790,
+        "Latitude": 22568,
+        "Longitude": 111400,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Crypt",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27244544,
-                "Y": 4765697,
+                "X": 28522496,
+                "Y": 5781505,
                 "IsExterior": 32768,
-                "Unknown2": 883,
-                "LocationId": 26285,
+                "Unknown2": 45,
+                "LocationId": 23871,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Shirhter Graveyard"
+                "LocationName": "The Vault of Lithoghar"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Shirhter Graveyard",
-            "MapId": 145000000831,
+            "AnotherName": "The Vault of Lithoghar",
+            "MapId": 323870,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS29.RMB"
+                "DUNGAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 29407232,
-                "Y": 3618817,
+                "X": 28522496,
+                "Y": 5781505,
                 "IsExterior": 0,
-                "Unknown2": 234,
-                "LocationId": 26286,
+                "Unknown2": 11,
+                "LocationId": 23872,
                 "IsInterior": 1,
-                "ExteriorLocationId": 26285,
-                "LocationName": "The Shirhter Graveyard"
+                "ExteriorLocationId": 23871,
+                "LocationName": "The Vault of Lithoghar"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000072.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

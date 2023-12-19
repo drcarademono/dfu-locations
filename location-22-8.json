@@ -1,50 +1,146 @@
 {
     "Loaded": true,
-    "Name": "The Rlartrn Farmstead",
+    "Name": "Stuld Hall",
     "RegionName": "Lainlyn",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 276000000758,
-        "Latitude": 83880,
-        "Longitude": 97064,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 8669355,
+        "Latitude": 28072,
+        "Longitude": 95656,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24852480,
-                "Y": 9058305,
+                "X": 24492032,
+                "Y": 7190529,
                 "IsExterior": 32768,
-                "Unknown2": 334,
-                "LocationId": 23571,
+                "Unknown2": 8,
+                "LocationId": 22769,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rlartrn Farmstead"
+                "LocationName": "Stuld Hall"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 13,
         "Buildings": [
             {
-                "NameSeed": 25319,
+                "NameSeed": 12022,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23571,
-                "BuildingType": 18,
-                "Quality": 14
+                "LocationId": 22769,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 8723,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 22769,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 15586,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 22769,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 8362,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 22769,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 32441,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 22769,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 13913,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 22769,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 12114,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 22769,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 29270,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 22769,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 32098,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 22769,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 24789,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 22769,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 6411,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 22769,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 1532,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 22769,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 18699,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 22769,
+                "BuildingType": "House1",
+                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Rlartrn Farmstead",
-            "MapId": 276000000758,
+            "AnotherName": "Stuld Hall",
+            "MapId": 280747,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 8,
             "BlockNames": [
-                "FARMAA03.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
@@ -68,13 +164,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

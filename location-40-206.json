@@ -1,152 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Cavern of Homunon",
+    "Name": "The Green Badger Hostel",
     "RegionName": "Ykalon",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 722000000602,
-        "Latitude": 26792,
-        "Longitude": 77096,
-        "LocationType": 4,
-        "DungeonType": 6,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 216025016,
+        "Latitude": 61608,
+        "Longitude": 46120,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19740672,
-                "Y": 23672833,
+                "X": 11810816,
+                "Y": 15775745,
                 "IsExterior": 32768,
-                "Unknown2": 44,
-                "LocationId": 10152,
+                "Unknown2": 206,
+                "LocationId": 10835,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Cavern of Homunon"
+                "LocationName": "The Green Badger Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 20089,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 10835,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 9432,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 10835,
+                "BuildingType": "Tavern",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 7630,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 10835,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 18078,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 10835,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 26132,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 10835,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 12628,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 10835,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 5446,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 10835,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 8429,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 10835,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 15783,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 10835,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 15780,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 10835,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 10077,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 10835,
+                "BuildingType": "House2",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Cavern of Homunon",
-            "MapId": 722000000602,
+            "AnotherName": "20089",
+            "MapId": 18360,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA17.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 13449216,
-                "Y": 16234497,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 19,
-                "LocationId": 10153,
-                "IsInterior": 1,
-                "ExteriorLocationId": 10152,
-                "LocationName": "The Cavern of Homunon"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000075.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
         "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Friary of Geriblither",
+    "Name": "Ruins of The F'igta Farmstead",
     "RegionName": "Alik'r Desert",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 251000000585,
-        "Latitude": 87080,
-        "Longitude": 74920,
-        "LocationType": 4,
-        "DungeonType": 4,
+        "MapId": 6681069,
+        "Latitude": 14120,
+        "Longitude": 78504,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "DesecratedTemple",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19183616,
-                "Y": 8239105,
+                "X": 20101120,
+                "Y": 3618817,
                 "IsExterior": 32768,
-                "Unknown2": 81,
-                "LocationId": 27245,
+                "Unknown2": 6,
+                "LocationId": 26278,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Friary of Geriblither"
+                "LocationName": "Ruins of The F'igta Farmstead"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Friary of Geriblither",
-            "MapId": 251000000585,
+            "AnotherName": "Ruins of The F'igta Farmstead",
+            "MapId": 389613,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA18.RMB"
+                "RUINAA12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 20690944,
-                "Y": 2570241,
+                "X": 20101120,
+                "Y": 3618817,
                 "IsExterior": 0,
-                "Unknown2": 40,
-                "LocationId": 27246,
+                "Unknown2": 1,
+                "LocationId": 26279,
                 "IsInterior": 1,
-                "ExteriorLocationId": 27245,
-                "LocationName": "The Friary of Geriblither"
+                "ExteriorLocationId": 26278,
+                "LocationName": "Ruins of The F'igta Farmstead"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000050.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,61 +68,45 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "W0000011.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": 2,
+                "X": 1,
+                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
+                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
-        "GroundArchive": 2,
-        "NatureArchive": 503,
-        "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

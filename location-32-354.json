@@ -1,170 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Mouse and Goblin Tavern",
+    "Name": "The Elyzolda Assembly",
     "RegionName": "Northmoor",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 815000000439,
-        "Latitude": 14888,
-        "Longitude": 56232,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 371258167,
+        "Latitude": 55976,
+        "Longitude": 33704,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "BarbarianStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14399488,
-                "Y": 26720257,
+                "X": 8632320,
+                "Y": 14333953,
                 "IsExterior": 32768,
-                "Unknown2": 10,
-                "LocationId": 10182,
+                "Unknown2": 354,
+                "LocationId": 13327,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mouse and Goblin Tavern"
+                "LocationName": "The Elyzolda Assembly"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 15766,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 10182,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 5281,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 10182,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 25902,
-                "FactionId": 0,
-                "Sector": 13,
-                "LocationId": 10182,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 10098,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 10182,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 4330,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 10182,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 1585,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 10182,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 22919,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 10182,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 2744,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 10182,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 4332,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 10182,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 21044,
-                "FactionId": 510,
-                "Sector": 68,
-                "LocationId": 10182,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 20390,
-                "FactionId": 510,
-                "Sector": 80,
-                "LocationId": 10182,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 14983,
-                "FactionId": 510,
-                "Sector": 93,
-                "LocationId": 10182,
-                "BuildingType": 15,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "21044",
-            "MapId": 815000000439,
+            "AnotherName": "The Elyzolda Assembly",
+            "MapId": 62263,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 8,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS00.RMB"
+                "DUNGAA07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 8632320,
+                "Y": 14333953,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 75,
+                "LocationId": 13328,
+                "IsInterior": 1,
+                "ExteriorLocationId": 13327,
+                "LocationName": "The Elyzolda Assembly"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000079.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
-    "Politic": 64,
+    "Politic": 160,
     "RegionIndex": 32,
     "LocationIndex": 354
 }

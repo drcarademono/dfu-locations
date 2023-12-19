@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Laughing Mug Hostel",
+    "Name": "Ruins of Boijim Manor",
     "RegionName": "Totambu",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 214000000762,
-        "Latitude": 91816,
-        "Longitude": 97576,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 508915289,
+        "Latitude": 18472,
+        "Longitude": 118952,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "ScorpionNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24983552,
-                "Y": 7026689,
+                "X": 30455808,
+                "Y": 4732929,
                 "IsExterior": 32768,
-                "Unknown2": 626,
-                "LocationId": 25325,
+                "Unknown2": 485,
+                "LocationId": 24964,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Laughing Mug Hostel"
+                "LocationName": "Ruins of Boijim Manor"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 26244,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 25325,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 23891,
-                "FactionId": 510,
-                "Sector": 16,
-                "LocationId": 25325,
-                "BuildingType": 15,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 11796,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 25325,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 14019,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 25325,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 31205,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 25325,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 25988,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 25325,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 12987,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 25325,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 18202,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 25325,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 29205,
-                "FactionId": 0,
-                "Sector": 84,
-                "LocationId": 25325,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 12096,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 25325,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 29358,
-                "FactionId": 0,
-                "Sector": 96,
-                "LocationId": 25325,
-                "BuildingType": 18,
-                "Quality": 2
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "26244",
-            "MapId": 214000000762,
+            "AnotherName": "Ruins of Boijim Manor",
+            "MapId": 355929,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS04.RMB"
+                "RUINAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 30455808,
+                "Y": 4732929,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 126,
+                "LocationId": 24965,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24964,
+                "LocationName": "Ruins of Boijim Manor"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000022.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

@@ -1,74 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Dirty Fawn Pub",
+    "Name": "The Lynx and Muskrat Lodge",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 434000000176,
-        "Latitude": 63656,
-        "Longitude": 22568,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 189235845,
+        "Latitude": 936,
+        "Longitude": 21160,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5781504,
-                "Y": 14235649,
+                "X": 5421056,
+                "Y": 243713,
                 "IsExterior": 32768,
-                "Unknown2": 43,
-                "LocationId": 28534,
+                "Unknown2": 180,
+                "LocationId": 29291,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dirty Fawn Pub"
+                "LocationName": "The Lynx and Muskrat Lodge"
             }
         },
-        "BuildingCount": 4,
+        "BuildingCount": 3,
         "Buildings": [
             {
-                "NameSeed": 22653,
+                "NameSeed": 6022,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28534,
-                "BuildingType": 18,
-                "Quality": 4
+                "LocationId": 29291,
+                "BuildingType": "House2",
+                "Quality": 9
             },
             {
-                "NameSeed": 6282,
+                "NameSeed": 1451,
                 "FactionId": 0,
-                "Sector": 11,
-                "LocationId": 28534,
-                "BuildingType": 18,
-                "Quality": 6
+                "Sector": 14,
+                "LocationId": 29291,
+                "BuildingType": "House2",
+                "Quality": 9
             },
             {
-                "NameSeed": 1428,
+                "NameSeed": 25191,
                 "FactionId": 510,
-                "Sector": 19,
-                "LocationId": 28534,
-                "BuildingType": 1,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 7174,
-                "FactionId": 510,
-                "Sector": 30,
-                "LocationId": 28534,
-                "BuildingType": 15,
-                "Quality": 2
+                "Sector": 20,
+                "LocationId": 29291,
+                "BuildingType": "Tavern",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "7174",
-            "MapId": 434000000176,
+            "AnotherName": "25191",
+            "MapId": 492165,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS02.RMB"
+                "TVRNGS04.RMB"
             ]
         }
     },
@@ -92,13 +84,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

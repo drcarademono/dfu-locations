@@ -1,90 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Maelither Hermitage",
+    "Name": "Woodborne Hall",
     "RegionName": "Wayrest",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 234000000946,
-        "Latitude": 89256,
-        "Longitude": 121128,
-        "LocationType": 4,
-        "DungeonType": 4,
+        "MapId": 83032363,
+        "Latitude": 39079,
+        "Longitude": 110008,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "HumanStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31012864,
-                "Y": 7682049,
+                "X": 28166144,
+                "Y": 10008321,
                 "IsExterior": 32768,
-                "Unknown2": 755,
-                "LocationId": 22576,
+                "Unknown2": 79,
+                "LocationId": 50018,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Maelither Hermitage"
+                "LocationName": "Woodborne Hall"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Maelither Hermitage",
-            "MapId": 234000000946,
-            "LocationId": 0,
+            "AnotherName": "Woodborne Hall",
+            "MapId": 194859,
+            "LocationId": 50018,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA07.RMB"
+                "CUSTAA29.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31209472,
-                "Y": 8009729,
+                "X": 28166144,
+                "Y": 10008321,
                 "IsExterior": 0,
-                "Unknown2": 168,
-                "LocationId": 22577,
+                "Unknown2": 18,
+                "LocationId": 50019,
                 "IsInterior": 1,
-                "ExteriorLocationId": 22576,
-                "LocationName": "The Maelither Hermitage"
+                "ExteriorLocationId": 50018,
+                "LocationName": "Woodborne Hall"
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 11
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000026.RDB",
+                "BlockName": "S0000100.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 3,
+                "IsStartingBlock": false,
+                "BlockName": "S0000101.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,71 +76,71 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "BlockName": "N0000016.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": -3,
+                "X": 0,
+                "Z": 2,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "N0000033.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": -2,
+                "X": 0,
+                "Z": 3,
                 "IsStartingBlock": false,
-                "BlockName": "W0000017.RDB",
+                "BlockName": "W0000023.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000052.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000031.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
+                "X": -1,
                 "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 2,
                 "IsStartingBlock": false,
                 "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 2,
-                "Z": -2,
+                "X": -1,
+                "Z": 3,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 2,
-                "Z": -1,
+                "X": 1,
+                "Z": 2,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 2,
-                "Z": 0,
+                "X": 0,
+                "Z": 4,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000011.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -164,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

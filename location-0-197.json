@@ -1,96 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Dancing Skull Lodge",
+    "Name": "Ruins of Therhtta Court",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 342000000306,
-        "Latitude": 75432,
-        "Longitude": 39208,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 207025856,
+        "Latitude": 5544,
+        "Longitude": 49192,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "DesecratedTemple",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10041344,
-                "Y": 11220993,
+                "X": 12597248,
+                "Y": 1423361,
                 "IsExterior": 32768,
-                "Unknown2": 266,
-                "LocationId": 28975,
+                "Unknown2": 197,
+                "LocationId": 28232,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dancing Skull Lodge"
+                "LocationName": "Ruins of Therhtta Court"
             }
         },
-        "BuildingCount": 3,
-        "Buildings": [
-            {
-                "NameSeed": 32499,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 28975,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 13461,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 28975,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 26939,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 28975,
-                "BuildingType": 15,
-                "Quality": 15
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "26939",
-            "MapId": 342000000306,
+            "AnotherName": "Ruins of Therhtta Court",
+            "MapId": 456384,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNBS04.RMB"
+                "RUINAA26.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 12597248,
+                "Y": 1423361,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 92,
+                "LocationId": 28233,
+                "IsInterior": 1,
+                "ExteriorLocationId": 28232,
+                "LocationName": "Ruins of Therhtta Court"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000026.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

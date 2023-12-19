@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The T'as Farmstead",
+    "Name": "The Nhurnem Plantation",
     "RegionName": "Abibon-Gora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 419000000174,
-        "Latitude": 65576,
-        "Longitude": 22312,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 84361268,
+        "Latitude": 3112,
+        "Longitude": 24104,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 5715968,
-                "Y": 13744129,
+                "X": 6174720,
+                "Y": 800769,
                 "IsExterior": 32768,
-                "Unknown2": 114,
-                "LocationId": 28969,
+                "Unknown2": 80,
+                "LocationId": 28783,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The T'as Farmstead"
+                "LocationName": "The Nhurnem Plantation"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 32057,
+                "NameSeed": 24298,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28969,
-                "BuildingType": 18,
-                "Quality": 12
+                "LocationId": 28783,
+                "BuildingType": "House2",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The T'as Farmstead",
-            "MapId": 419000000174,
+            "AnotherName": "The Nhurnem Plantation",
+            "MapId": 475188,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA05.RMB"
+                "FARMAA02.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 171,
     "RegionIndex": 43,

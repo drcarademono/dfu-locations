@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Nhulpun Farmstead",
+    "Name": "The Bat and Dagger Lodge",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 322000000591,
-        "Latitude": 77992,
-        "Longitude": 75688,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 850875070,
+        "Latitude": 2600,
+        "Longitude": 119592,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19380224,
-                "Y": 10565633,
+                "X": 30619648,
+                "Y": 669697,
                 "IsExterior": 32768,
-                "Unknown2": 157,
-                "LocationId": 24983,
+                "Unknown2": 811,
+                "LocationId": 28938,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Nhulpun Farmstead"
+                "LocationName": "The Bat and Dagger Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 32700,
-                "FactionId": 0,
+                "NameSeed": 14326,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 24983,
-                "BuildingType": 17,
+                "LocationId": 28938,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 15479,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 28938,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 23992,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 28938,
+                "BuildingType": "Tavern",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 29437,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 28938,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 3490,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 28938,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 27400,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 28938,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 28432,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 28938,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 11214,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 28938,
+                "BuildingType": "House2",
                 "Quality": 3
+            },
+            {
+                "NameSeed": 17065,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 28938,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 16746,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 28938,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 19555,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 28938,
+                "BuildingType": "House2",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Nhulpun Farmstead",
-            "MapId": 322000000591,
+            "AnotherName": "14326",
+            "MapId": 479934,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA09.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

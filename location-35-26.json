@@ -1,112 +1,144 @@
 {
     "Loaded": true,
-    "Name": "The Ashwing Cemetery",
+    "Name": "Greening Hall",
     "RegionName": "Koegria",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 503000000827,
-        "Latitude": 54824,
-        "Longitude": 105896,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 27325676,
+        "Latitude": 55976,
+        "Longitude": 89640,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27113472,
-                "Y": 16496641,
+                "X": 22951936,
+                "Y": 14333953,
                 "IsExterior": 32768,
-                "Unknown2": 65,
-                "LocationId": 14637,
+                "Unknown2": 26,
+                "LocationId": 13361,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Ashwing Cemetery"
+                "LocationName": "Greening Hall"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 8337,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 13361,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 28004,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 13361,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 32036,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 13361,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 26419,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 13361,
+                "BuildingType": "House3",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7906,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 13361,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 317,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 13361,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 7114,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 13361,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 8878,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 13361,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 29000,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 13361,
+                "BuildingType": "House1",
+                "Quality": 7
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Ashwing Cemetery",
-            "MapId": 503000000827,
+            "AnotherName": "Greening Hall",
+            "MapId": 62700,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS13.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23410688,
-                "Y": 13711361,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 12,
-                "LocationId": 14638,
-                "IsInterior": 1,
-                "ExteriorLocationId": 14637,
-                "LocationName": "The Ashwing Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 163,
     "RegionIndex": 35,

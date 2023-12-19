@@ -1,112 +1,176 @@
 {
     "Loaded": true,
-    "Name": "The Graves of Voshen",
+    "Name": "Thuche Manor",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 330000000639,
-        "Latitude": 76968,
-        "Longitude": 81832,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 864508514,
+        "Latitude": 2344,
+        "Longitude": 113960,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20953088,
-                "Y": 10827777,
+                "X": 29177856,
+                "Y": 604161,
                 "IsExterior": 32768,
-                "Unknown2": 79,
-                "LocationId": 23924,
+                "Unknown2": 824,
+                "LocationId": 28986,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Graves of Voshen"
+                "LocationName": "Thuche Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 20618,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 28986,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 4159,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 28986,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 8643,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 28986,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 7265,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 28986,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 12818,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 28986,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 20924,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 28986,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 6149,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 28986,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 10227,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 28986,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 1972,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 28986,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 3451,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 28986,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 11834,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 28986,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 16010,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 28986,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 2522,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 28986,
+                "BuildingType": "House1",
+                "Quality": 8
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Graves of Voshen",
-            "MapId": 330000000639,
+            "AnotherName": "Thuche Manor",
+            "MapId": 481890,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS34.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 20920320,
-                "Y": 5715969,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 20,
-                "LocationId": 23925,
-                "IsInterior": 1,
-                "ExteriorLocationId": 23924,
-                "LocationName": "The Graves of Voshen"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

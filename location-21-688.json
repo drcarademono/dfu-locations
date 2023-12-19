@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Moorston Plantation",
+    "Name": "Old Elayne's Farm",
     "RegionName": "Anticlere",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 635000000489,
-        "Latitude": 37928,
-        "Longitude": 62632,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 721601707,
+        "Latitude": 40744,
+        "Longitude": 53672,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16037888,
-                "Y": 20822017,
+                "X": 13744128,
+                "Y": 10434561,
                 "IsExterior": 32768,
-                "Unknown2": 131,
-                "LocationId": 18023,
+                "Unknown2": 688,
+                "LocationId": 20363,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Moorston Plantation"
+                "LocationName": "Old Elayne's Farm"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 18051,
+                "NameSeed": 19123,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 18023,
-                "BuildingType": 18,
-                "Quality": 2
+                "LocationId": 20363,
+                "BuildingType": "House2",
+                "Quality": 1
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Moorston Plantation",
-            "MapId": 635000000489,
+            "AnotherName": "Old Elayne's Farm",
+            "MapId": 181419,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA05.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

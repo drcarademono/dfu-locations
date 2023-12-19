@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Gushom Palace",
+    "Name": "The Dhurim Farmstead",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 85000000846,
-        "Latitude": 108328,
-        "Longitude": 108328,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 173372759,
+        "Latitude": 18216,
+        "Longitude": 92072,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27736064,
-                "Y": 2799617,
+                "X": 23574528,
+                "Y": 4667393,
                 "IsExterior": 32768,
-                "Unknown2": 599,
-                "LocationId": 27654,
+                "Unknown2": 165,
+                "LocationId": 25036,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Gushom Palace"
+                "LocationName": "The Dhurim Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 12758,
+                "NameSeed": 26622,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27654,
-                "BuildingType": 17,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 15672,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 27654,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 28089,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 27654,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 15290,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 27654,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 22491,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 27654,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 29458,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 27654,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 25944,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 27654,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 18782,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 27654,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 27382,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 27654,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 1643,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 27654,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 4882,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 27654,
-                "BuildingType": 15,
-                "Quality": 5
+                "LocationId": 25036,
+                "BuildingType": "House2",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Gushom Palace",
-            "MapId": 85000000846,
+            "AnotherName": "The Dhurim Farmstead",
+            "MapId": 357719,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "FARMAA05.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

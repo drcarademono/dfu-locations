@@ -1,50 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Old Korkca's Farm",
+    "Name": "The Dirty Guard Inn",
     "RegionName": "Ayasofya",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 374000000445,
-        "Latitude": 71336,
-        "Longitude": 57000,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 125178025,
+        "Latitude": 13096,
+        "Longitude": 61608,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14596096,
-                "Y": 12269569,
+                "X": 15775744,
+                "Y": 3356673,
                 "IsExterior": 32768,
-                "Unknown2": 87,
-                "LocationId": 26113,
+                "Unknown2": 119,
+                "LocationId": 26535,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Korkca's Farm"
+                "LocationName": "The Dirty Guard Inn"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 5,
         "Buildings": [
             {
-                "NameSeed": 5335,
+                "NameSeed": 14193,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26113,
-                "BuildingType": 18,
-                "Quality": 9
+                "LocationId": 26535,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 9668,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 26535,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 9410,
+                "FactionId": 0,
+                "Sector": 14,
+                "LocationId": 26535,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 19470,
+                "FactionId": 0,
+                "Sector": 18,
+                "LocationId": 26535,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 28441,
+                "FactionId": 510,
+                "Sector": 23,
+                "LocationId": 26535,
+                "BuildingType": "Tavern",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Korkca's Farm",
-            "MapId": 374000000445,
+            "AnotherName": "28441",
+            "MapId": 397481,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "TVRNBS01.RMB"
             ]
         }
     },
@@ -67,14 +99,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "WorldClimate": 224,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
-        "NatureArchive": 501,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "NatureArchive": 503,
+        "SkyBase": 8,
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 175,
     "RegionIndex": 47,

@@ -1,138 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Devil's Rascal Tavern",
+    "Name": "Mastercroft Hall",
     "RegionName": "Dwynnen",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 557000000664,
-        "Latitude": 47912,
-        "Longitude": 85032,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 70279098,
+        "Latitude": 60840,
+        "Longitude": 64808,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21772288,
-                "Y": 18266113,
+                "X": 16594944,
+                "Y": 15579137,
                 "IsExterior": 32768,
-                "Unknown2": 699,
-                "LocationId": 16909,
+                "Unknown2": 67,
+                "LocationId": 11198,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Devil's Rascal Tavern"
+                "LocationName": "Mastercroft Hall"
             }
         },
-        "BuildingCount": 12,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 32101,
+                "NameSeed": 24747,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 16909,
-                "BuildingType": 18,
-                "Quality": 9
+                "LocationId": 11198,
+                "BuildingType": "House2",
+                "Quality": 5
             },
             {
-                "NameSeed": 13654,
+                "NameSeed": 30495,
                 "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 16909,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 3337,
-                "FactionId": 0,
-                "Sector": 13,
-                "LocationId": 16909,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 18440,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 16909,
-                "BuildingType": 18,
+                "Sector": 10,
+                "LocationId": 11198,
+                "BuildingType": "House2",
                 "Quality": 3
             },
             {
-                "NameSeed": 31458,
+                "NameSeed": 747,
                 "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 16909,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 17107,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 16909,
-                "BuildingType": 18,
+                "Sector": 22,
+                "LocationId": 11198,
+                "BuildingType": "House2",
                 "Quality": 4
             },
             {
-                "NameSeed": 5247,
+                "NameSeed": 2034,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 11198,
+                "BuildingType": "House3",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 17750,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 11198,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 11832,
                 "FactionId": 0,
                 "Sector": 42,
-                "LocationId": 16909,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 4904,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 16909,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 15780,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 16909,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 4892,
-                "FactionId": 510,
-                "Sector": 68,
-                "LocationId": 16909,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 27691,
-                "FactionId": 510,
-                "Sector": 80,
-                "LocationId": 16909,
-                "BuildingType": 15,
+                "LocationId": 11198,
+                "BuildingType": "House2",
                 "Quality": 14
             },
             {
-                "NameSeed": 20712,
+                "NameSeed": 5830,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 11198,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 10010,
                 "FactionId": 510,
-                "Sector": 93,
-                "LocationId": 16909,
-                "BuildingType": 15,
-                "Quality": 5
+                "Sector": 69,
+                "LocationId": 11198,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 28963,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 11198,
+                "BuildingType": "House1",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "4892",
-            "MapId": 557000000664,
+            "AnotherName": "Mastercroft Hall",
+            "MapId": 24506,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS00.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -156,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

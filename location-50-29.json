@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Tombs of Raact",
+    "Name": "The Hezthor Nest",
     "RegionName": "Satakalaam",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 245000000839,
-        "Latitude": 87848,
-        "Longitude": 107432,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 30696533,
+        "Latitude": 27176,
+        "Longitude": 106152,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "ScorpionNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27506688,
-                "Y": 8042497,
+                "X": 27179008,
+                "Y": 6961153,
                 "IsExterior": 32768,
-                "Unknown2": 79,
-                "LocationId": 23216,
+                "Unknown2": 29,
+                "LocationId": 22931,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tombs of Raact"
+                "LocationName": "The Hezthor Nest"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Tombs of Raact",
-            "MapId": 245000000839,
+            "AnotherName": "The Hezthor Nest",
+            "MapId": 287829,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 3,
             "BlockNames": [
-                "GRVEAS41.RMB"
+                "DUNGAA18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27998208,
-                "Y": 6567937,
+                "X": 27179008,
+                "Y": 6961153,
                 "IsExterior": 0,
-                "Unknown2": 22,
-                "LocationId": 23217,
+                "Unknown2": 8,
+                "LocationId": 22932,
                 "IsInterior": 1,
-                "ExteriorLocationId": 23216,
-                "LocationName": "The Tombs of Raact"
+                "ExteriorLocationId": 22931,
+                "LocationName": "The Hezthor Nest"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 10
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000090.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 178,
     "RegionIndex": 50,

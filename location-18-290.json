@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Moorsmith Manor",
+    "Name": "The Mastering Cemetery",
     "RegionName": "Glenpoint",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 753000000388,
-        "Latitude": 22824,
-        "Longitude": 49704,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 304212239,
+        "Latitude": 47912,
+        "Longitude": 25512,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12728320,
-                "Y": 24688641,
+                "X": 6535168,
+                "Y": 12269569,
                 "IsExterior": 32768,
-                "Unknown2": 55,
-                "LocationId": 14816,
+                "Unknown2": 290,
+                "LocationId": 17357,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Moorsmith Manor"
+                "LocationName": "The Mastering Cemetery"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 12156,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 14816,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 17771,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 14816,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 17447,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 14816,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 5506,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 14816,
-                "BuildingType": 19,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 29611,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 14816,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 12174,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 14816,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 11792,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 14816,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 10400,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 14816,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 29816,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 14816,
-                "BuildingType": 17,
-                "Quality": 5
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Moorsmith Manor",
-            "MapId": 753000000388,
+            "AnotherName": "The Mastering Cemetery",
+            "MapId": 125199,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "GRVEAS31.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 6535168,
+                "Y": 12269569,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 96,
+                "LocationId": 17358,
+                "IsInterior": 1,
+                "ExteriorLocationId": 17357,
+                "LocationName": "The Mastering Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

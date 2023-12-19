@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Yeomsley Plantation",
+    "Name": "The Pig and Cat Tavern",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 617000000403,
-        "Latitude": 40232,
-        "Longitude": 51624,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 68305607,
+        "Latitude": 44968,
+        "Longitude": 21416,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13219840,
-                "Y": 20232193,
+                "X": 5486592,
+                "Y": 11515905,
                 "IsExterior": 32768,
-                "Unknown2": 915,
-                "LocationId": 20957,
+                "Unknown2": 65,
+                "LocationId": 18673,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Yeomsley Plantation"
+                "LocationName": "The Pig and Cat Tavern"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 19102,
-                "FactionId": 0,
+                "NameSeed": 8182,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 20957,
-                "BuildingType": 18,
-                "Quality": 11
+                "LocationId": 18673,
+                "BuildingType": "Tavern",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 1722,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 18673,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 27111,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 18673,
+                "BuildingType": "Tavern",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 4100,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 18673,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 19238,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 18673,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 26738,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 18673,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 25280,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 18673,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 6582,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 18673,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 26780,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 18673,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 13781,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 18673,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 24699,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 18673,
+                "BuildingType": "House2",
+                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Yeomsley Plantation",
-            "MapId": 617000000403,
+            "AnotherName": "8182",
+            "MapId": 148167,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
@@ -67,14 +147,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

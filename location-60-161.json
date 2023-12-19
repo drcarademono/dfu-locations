@@ -1,136 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Old Evelolda's Hovel",
+    "Name": "The Mouse and Porcupine Lodge",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 704000000432,
-        "Latitude": 29096,
-        "Longitude": 55336,
-        "LocationType": 10,
-        "DungeonType": 3,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 168893075,
+        "Latitude": 54696,
+        "Longitude": 43432,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14170112,
-                "Y": 23083009,
+                "X": 11122688,
+                "Y": 14006273,
                 "IsExterior": 32768,
-                "Unknown2": 505,
-                "LocationId": 16167,
+                "Unknown2": 161,
+                "LocationId": 13941,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Old Evelolda's Hovel"
+                "LocationName": "The Mouse and Porcupine Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 2675,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 13941,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 15287,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 13941,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 16788,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 13941,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 8057,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 13941,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 30450,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 13941,
+                "BuildingType": "House3",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 19128,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 13941,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 6279,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 13941,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 20454,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 13941,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 25148,
+                "FactionId": 510,
+                "Sector": 63,
+                "LocationId": 13941,
+                "BuildingType": "HouseForSale",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 4260,
+                "FactionId": 510,
+                "Sector": 67,
+                "LocationId": 13941,
+                "BuildingType": "Tavern",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 28861,
+                "FactionId": 510,
+                "Sector": 84,
+                "LocationId": 13941,
+                "BuildingType": "Tavern",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Old Evelolda's Hovel",
-            "MapId": 704000000432,
+            "AnotherName": "4260",
+            "MapId": 72339,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA08.RMB"
+                "TVRNAS08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 8927232,
-                "Y": 12924929,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 190,
-                "LocationId": 16168,
-                "IsInterior": 1,
-                "ExteriorLocationId": 16167,
-                "LocationName": "Ruins of Old Evelolda's Hovel"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000077.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000057.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
-        "NatureArchive": 508,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

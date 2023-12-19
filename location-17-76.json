@@ -1,41 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Altar of I'ric",
+    "Name": "The Dead Helm Inn",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 620000000367,
-        "Latitude": 39848,
-        "Longitude": 47016,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 79841045,
+        "Latitude": 44840,
+        "Longitude": 34472,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12040192,
-                "Y": 20330497,
+                "X": 8828928,
+                "Y": 11483137,
                 "IsExterior": 32768,
-                "Unknown2": 1194,
-                "LocationId": 21618,
+                "Unknown2": 76,
+                "LocationId": 18722,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Altar of I'ric"
+                "LocationName": "The Dead Helm Inn"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 12,
+        "Buildings": [
+            {
+                "NameSeed": 617,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 18722,
+                "BuildingType": "Tavern",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 12965,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 18722,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 29064,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 18722,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 8119,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 18722,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 11982,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 18722,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 25925,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 18722,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 18870,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 18722,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 409,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 18722,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 20861,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 18722,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 7779,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 18722,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 11723,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 18722,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 17149,
+                "FactionId": 0,
+                "Sector": 91,
+                "LocationId": 18722,
+                "BuildingType": "House2",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Altar of I'ric",
-            "MapId": 620000000367,
+            "AnotherName": "617",
+            "MapId": 149269,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "TVRNAS09.RMB"
             ]
         }
     },
@@ -58,14 +155,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

@@ -1,138 +1,146 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Vlerdin Hall",
+    "Name": "Fharm Manor",
     "RegionName": "Satakalaam",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 251000000846,
-        "Latitude": 87080,
-        "Longitude": 108328,
-        "LocationType": 10,
-        "DungeonType": 7,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 48529319,
+        "Latitude": 26280,
+        "Longitude": 105384,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27736064,
-                "Y": 8239105,
+                "X": 26982400,
+                "Y": 6731777,
                 "IsExterior": 32768,
-                "Unknown2": 37,
-                "LocationId": 22999,
+                "Unknown2": 46,
+                "LocationId": 23079,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Vlerdin Hall"
+                "LocationName": "Fharm Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 25643,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 23079,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 18160,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 23079,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 23866,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 23079,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 18202,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 23079,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 29205,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 23079,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 12096,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 23079,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 29358,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 23079,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 4374,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 23079,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 16067,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 23079,
+                "BuildingType": "House1",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Vlerdin Hall",
-            "MapId": 251000000846,
+            "AnotherName": "Fharm Manor",
+            "MapId": 294823,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA15.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 28096512,
-                "Y": 6862849,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 11,
-                "LocationId": 23000,
-                "IsInterior": 1,
-                "ExteriorLocationId": 22999,
-                "LocationName": "Ruins of Vlerdin Hall"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000080.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000056.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
-    "Politic": 64,
+    "Politic": 178,
     "RegionIndex": 50,
     "LocationIndex": 46
 }

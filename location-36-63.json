@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Old Vannyna's Place",
+    "Name": "The Hawkhouse Farmstead",
     "RegionName": "Bhoriane",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 527000000714,
-        "Latitude": 51752,
-        "Longitude": 91432,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 66166896,
+        "Latitude": 50344,
+        "Longitude": 77864,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23410688,
-                "Y": 17283073,
+                "X": 19937280,
+                "Y": 12892161,
                 "IsExterior": 32768,
-                "Unknown2": 112,
-                "LocationId": 16960,
+                "Unknown2": 63,
+                "LocationId": 16265,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Vannyna's Place"
+                "LocationName": "The Hawkhouse Farmstead"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 25923,
+                "NameSeed": 322,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 16960,
-                "BuildingType": 19,
+                "LocationId": 16265,
+                "BuildingType": "House1",
                 "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Vannyna's Place",
-            "MapId": 527000000714,
+            "AnotherName": "The Hawkhouse Farmstead",
+            "MapId": 106608,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA09.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 164,
     "RegionIndex": 36,

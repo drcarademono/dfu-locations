@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Tombs of Buckinging",
+    "Name": "The Woodston Farmstead",
     "RegionName": "Glenpoint",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 753000000316,
-        "Latitude": 22824,
-        "Longitude": 40488,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 301065532,
+        "Latitude": 48040,
+        "Longitude": 28200,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10369024,
-                "Y": 24688641,
+                "X": 7223296,
+                "Y": 12302337,
                 "IsExterior": 32768,
-                "Unknown2": 253,
-                "LocationId": 17094,
+                "Unknown2": 287,
+                "LocationId": 17307,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tombs of Buckinging"
+                "LocationName": "The Woodston Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 23132,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 17307,
+                "BuildingType": "House2",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Tombs of Buckinging",
-            "MapId": 753000000316,
+            "AnotherName": "The Woodston Farmstead",
+            "MapId": 124220,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS08.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 4831232,
-                "Y": 12433409,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 81,
-                "LocationId": 17095,
-                "IsInterior": 1,
-                "ExteriorLocationId": 17094,
-                "LocationName": "The Tombs of Buckinging"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

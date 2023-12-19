@@ -1,136 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Fhurkar Pit",
+    "Name": "The Lion and Skull Hostel",
     "RegionName": "Tigonus",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 377000000563,
-        "Latitude": 70952,
-        "Longitude": 72104,
-        "LocationType": 4,
-        "DungeonType": 5,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 206915950,
+        "Latitude": 19624,
+        "Longitude": 61224,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18462720,
-                "Y": 12367873,
+                "X": 15677440,
+                "Y": 5027841,
                 "IsExterior": 32768,
-                "Unknown2": 80,
-                "LocationId": 23823,
+                "Unknown2": 197,
+                "LocationId": 24617,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Fhurkar Pit"
+                "LocationName": "The Lion and Skull Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 20470,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 24617,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 14031,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 24617,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 10066,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 24617,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 13437,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 24617,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 16739,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 24617,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 15031,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 24617,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 30552,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 24617,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 296,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 24617,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 1499,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 24617,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 3192,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 24617,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 3057,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 24617,
+                "BuildingType": "House2",
+                "Quality": 14
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Fhurkar Pit",
-            "MapId": 377000000563,
+            "AnotherName": "20470",
+            "MapId": 346478,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA10.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18003968,
-                "Y": 5814273,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 17,
-                "LocationId": 23824,
-                "IsInterior": 1,
-                "ExteriorLocationId": 23823,
-                "LocationName": "The Fhurkar Pit"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000057.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 228,
-        "ClimateType": 400,
-        "NatureSet": 502,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_Swamp",
         "GroundArchive": 402,
         "NatureArchive": 502,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

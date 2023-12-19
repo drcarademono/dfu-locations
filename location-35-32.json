@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Yeomsley Plantation",
+    "Name": "Woodwing Grange",
     "RegionName": "Koegria",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 506000000768,
-        "Latitude": 54440,
-        "Longitude": 98344,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 33622100,
+        "Latitude": 55336,
+        "Longitude": 85544,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25180160,
-                "Y": 16594945,
+                "X": 21903360,
+                "Y": 14170113,
                 "IsExterior": 32768,
-                "Unknown2": 113,
-                "LocationId": 16423,
+                "Unknown2": 32,
+                "LocationId": 13637,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Yeomsley Plantation"
+                "LocationName": "Woodwing Grange"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 7905,
+                "NameSeed": 30895,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 16423,
-                "BuildingType": 18,
-                "Quality": 14
+                "LocationId": 13637,
+                "BuildingType": "House2",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Yeomsley Plantation",
-            "MapId": 506000000768,
+            "AnotherName": "Woodwing Grange",
+            "MapId": 67668,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 163,
     "RegionIndex": 35,

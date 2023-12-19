@@ -1,50 +1,146 @@
 {
     "Loaded": true,
-    "Name": "Grarpan Grange",
+    "Name": "Thirkur Manor",
     "RegionName": "Satakalaam",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 278000000794,
-        "Latitude": 83624,
-        "Longitude": 101672,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 135577140,
+        "Latitude": 24232,
+        "Longitude": 107048,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26032128,
-                "Y": 9123841,
+                "X": 27408384,
+                "Y": 6207489,
                 "IsExterior": 32768,
-                "Unknown2": 43,
-                "LocationId": 23059,
+                "Unknown2": 129,
+                "LocationId": 23521,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Grarpan Grange"
+                "LocationName": "Thirkur Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 13,
         "Buildings": [
             {
-                "NameSeed": 9945,
+                "NameSeed": 26428,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23059,
-                "BuildingType": 18,
-                "Quality": 6
+                "LocationId": 23521,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 14429,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 23521,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 32652,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 23521,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 16530,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 23521,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 2187,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 23521,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 20819,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 23521,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 19278,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 23521,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 26374,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 23521,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 13702,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 23521,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 9496,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 23521,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 6429,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 23521,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 20271,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 23521,
+                "BuildingType": "Tavern",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 24335,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 23521,
+                "BuildingType": "House1",
+                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Grarpan Grange",
-            "MapId": 278000000794,
+            "AnotherName": "Thirkur Manor",
+            "MapId": 310836,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
@@ -68,13 +164,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 178,
     "RegionIndex": 50,

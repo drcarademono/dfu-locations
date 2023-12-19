@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Gaerham Graveyard",
+    "Name": "The Tower of Buckingston",
     "RegionName": "Daggerfall",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 686000000290,
-        "Latitude": 31400,
-        "Longitude": 37160,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": true,
+        "MapId": 887287576,
+        "Latitude": 39336,
+        "Longitude": 35880,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "Prison",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9517056,
-                "Y": 22493185,
+                "X": 9189376,
+                "Y": 10074113,
                 "IsExterior": 32768,
-                "Unknown2": 820,
-                "LocationId": 20750,
+                "Unknown2": 846,
+                "LocationId": 20800,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Gaerham Graveyard"
+                "LocationName": "The Tower of Buckingston"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Gaerham Graveyard",
-            "MapId": 686000000290,
+            "AnotherName": "The Tower of Buckingston",
+            "MapId": 192280,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS37.RMB"
+                "CASTAA24.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 5191680,
-                "Y": 10106881,
+                "X": 9189376,
+                "Y": 10074113,
                 "IsExterior": 0,
-                "Unknown2": 158,
-                "LocationId": 20751,
+                "Unknown2": 164,
+                "LocationId": 20801,
                 "IsInterior": 1,
-                "ExteriorLocationId": 20750,
-                "LocationName": "The Gaerham Graveyard"
+                "ExteriorLocationId": 20800,
+                "LocationName": "The Tower of Buckingston"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000040.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

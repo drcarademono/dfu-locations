@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Stronghold of Charchan",
+    "Name": "The Old Blolpke Shack",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 269000000721,
-        "Latitude": 84776,
-        "Longitude": 92328,
-        "LocationType": 7,
-        "DungeonType": 13,
-        "Discovered": false,
+        "MapId": 928379665,
+        "Latitude": 14120,
+        "Longitude": 115880,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23640064,
-                "Y": 8828929,
+                "X": 29669376,
+                "Y": 3618817,
                 "IsExterior": 32768,
-                "Unknown2": 207,
-                "LocationId": 24322,
+                "Unknown2": 885,
+                "LocationId": 26288,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Stronghold of Charchan"
+                "LocationName": "The Old Blolpke Shack"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 1275,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 26288,
+                "BuildingType": "House3",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Stronghold of Charchan",
-            "MapId": 269000000721,
+            "AnotherName": "The Old Blolpke Shack",
+            "MapId": 389905,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA05.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 24262656,
-                "Y": 5322753,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 57,
-                "LocationId": 24323,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24322,
-                "LocationName": "The Stronghold of Charchan"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000060.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

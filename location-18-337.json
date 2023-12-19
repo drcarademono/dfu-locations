@@ -1,176 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Mole and Dragon Hostel",
+    "Name": "Ruins of Tower Yeomcroft",
     "RegionName": "Glenpoint",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 760000000361,
-        "Latitude": 21928,
-        "Longitude": 46248,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 353502262,
+        "Latitude": 47016,
+        "Longitude": 19240,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "GiantStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11843584,
-                "Y": 24918017,
+                "X": 4929536,
+                "Y": 12040193,
                 "IsExterior": 32768,
-                "Unknown2": 86,
-                "LocationId": 15320,
+                "Unknown2": 337,
+                "LocationId": 17718,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mole and Dragon Hostel"
+                "LocationName": "Ruins of Tower Yeomcroft"
             }
         },
-        "BuildingCount": 13,
-        "Buildings": [
-            {
-                "NameSeed": 27282,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 15320,
-                "BuildingType": 15,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 4490,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 15320,
-                "BuildingType": 15,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 30871,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 15320,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 24002,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 15320,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 185,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 15320,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 19699,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 15320,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 30701,
-                "FactionId": 0,
-                "Sector": 73,
-                "LocationId": 15320,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 4543,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 15320,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 25836,
-                "FactionId": 0,
-                "Sector": 83,
-                "LocationId": 15320,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 26756,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 15320,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 25192,
-                "FactionId": 0,
-                "Sector": 94,
-                "LocationId": 15320,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 787,
-                "FactionId": 0,
-                "Sector": 100,
-                "LocationId": 15320,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 17600,
-                "FactionId": 0,
-                "Sector": 110,
-                "LocationId": 15320,
-                "BuildingType": 18,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "27282",
-            "MapId": 760000000361,
+            "AnotherName": "Ruins of Tower Yeomcroft",
+            "MapId": 132150,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS02.RMB"
+                "RUINAA02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 4929536,
+                "Y": 12040193,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 109,
+                "LocationId": 17719,
+                "IsInterior": 1,
+                "ExteriorLocationId": 17718,
+                "LocationName": "Ruins of Tower Yeomcroft"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000050.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 146,
     "RegionIndex": 18,

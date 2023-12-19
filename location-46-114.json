@@ -1,82 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Thirsty Dungeon Lodge",
+    "Name": "The Screaming Fairy Tavern",
     "RegionName": "Myrkwasa",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 433000000291,
-        "Latitude": 63784,
-        "Longitude": 37288,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 119976914,
+        "Latitude": 7720,
+        "Longitude": 32040,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9549824,
-                "Y": 14202881,
+                "X": 8206336,
+                "Y": 1980417,
                 "IsExterior": 32768,
-                "Unknown2": 33,
-                "LocationId": 26910,
+                "Unknown2": 114,
+                "LocationId": 27749,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Thirsty Dungeon Lodge"
+                "LocationName": "The Screaming Fairy Tavern"
             }
         },
-        "BuildingCount": 5,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 4777,
-                "FactionId": 0,
+                "NameSeed": 16658,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 26910,
-                "BuildingType": 18,
-                "Quality": 12
+                "LocationId": 27749,
+                "BuildingType": "Tavern",
+                "Quality": 7
             },
             {
-                "NameSeed": 27187,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 26910,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 20111,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 26910,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 15670,
+                "NameSeed": 17923,
                 "FactionId": 0,
                 "Sector": 18,
-                "LocationId": 26910,
-                "BuildingType": 18,
-                "Quality": 11
+                "LocationId": 27749,
+                "BuildingType": "House2",
+                "Quality": 1
             },
             {
-                "NameSeed": 8478,
-                "FactionId": 510,
-                "Sector": 23,
-                "LocationId": 26910,
-                "BuildingType": 15,
-                "Quality": 7
+                "NameSeed": 881,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 27749,
+                "BuildingType": "House4",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 11082,
+                "FactionId": 0,
+                "Sector": 37,
+                "LocationId": 27749,
+                "BuildingType": "House4",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "8478",
-            "MapId": 433000000291,
+            "AnotherName": "16658",
+            "MapId": 439250,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS01.RMB"
+                "TVRNGS00.RMB"
             ]
         }
     },
@@ -100,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Ashsley Cabin",
+    "Name": "The Greenton Farmstead",
     "RegionName": "Urvaius",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 582000000595,
-        "Latitude": 44712,
-        "Longitude": 76200,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 26264853,
+        "Latitude": 57512,
+        "Longitude": 58024,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19511296,
-                "Y": 19085313,
+                "X": 14858240,
+                "Y": 14727169,
                 "IsExterior": 32768,
-                "Unknown2": 266,
-                "LocationId": 17590,
+                "Unknown2": 25,
+                "LocationId": 12640,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Ashsley Cabin"
+                "LocationName": "The Greenton Farmstead"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 8772,
+                "NameSeed": 4827,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 17590,
-                "BuildingType": 19,
-                "Quality": 4
+                "LocationId": 12640,
+                "BuildingType": "House2",
+                "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Ashsley Cabin",
-            "MapId": 582000000595,
+            "AnotherName": "The Greenton Farmstead",
+            "MapId": 50453,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 167,
     "RegionIndex": 39,

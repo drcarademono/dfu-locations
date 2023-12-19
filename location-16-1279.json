@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Divad Monument",
+    "Name": "The Gaercroft Farmstead",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 483000000866,
-        "Latitude": 57384,
-        "Longitude": 110888,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 1341235466,
+        "Latitude": 50344,
+        "Longitude": 97576,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28391424,
-                "Y": 15841281,
+                "X": 24983552,
+                "Y": 12892161,
                 "IsExterior": 32768,
-                "Unknown2": 986,
-                "LocationId": 14471,
+                "Unknown2": 1279,
+                "LocationId": 16278,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Divad Monument"
+                "LocationName": "The Gaercroft Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 28004,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 16278,
+                "BuildingType": "House2",
+                "Quality": 14
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Divad Monument",
-            "MapId": 483000000866,
+            "AnotherName": "The Gaercroft Farmstead",
+            "MapId": 106762,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "FARMAA06.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

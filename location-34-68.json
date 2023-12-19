@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Silent Omen of Kynareth",
+    "Name": "Dunywyr Laboratory",
     "RegionName": "Alcaire",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 465000000799,
-        "Latitude": 59688,
-        "Longitude": 102312,
-        "LocationType": 5,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16
+        "MapId": 71418891,
+        "Latitude": 49192,
+        "Longitude": 92584,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Laboratory",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26195968,
-                "Y": 15251457,
+                "X": 23705600,
+                "Y": 12597249,
                 "IsExterior": 32768,
-                "Unknown2": 100,
-                "LocationId": 17547,
+                "Unknown2": 68,
+                "LocationId": 16872,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Silent Omen of Kynareth"
+                "LocationName": "Dunywyr Laboratory"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 29740,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 17547,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 9816,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 17547,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 3619,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 17547,
-                "BuildingType": 19,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 9112,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 17547,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 5166,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 17547,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 13422,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 17547,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 11943,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 17547,
-                "BuildingType": 19,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 3559,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 17547,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 16445,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 17547,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 2094,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 17547,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 273,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 17547,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 2765,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 17547,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 9948,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 17547,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 6615,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 17547,
-                "BuildingType": 14,
-                "Quality": 8
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Silent Omen of Kynareth",
-            "MapId": 465000000799,
+            "AnotherName": "Dunywyr Laboratory",
+            "MapId": 115723,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "DUNGAA10.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 23705600,
+                "Y": 12597249,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 17,
+                "LocationId": 16873,
+                "IsInterior": 1,
+                "ExteriorLocationId": 16872,
+                "LocationName": "Dunywyr Laboratory"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000028.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 162,
     "RegionIndex": 34,

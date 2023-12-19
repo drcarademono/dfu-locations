@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Greenston Orchard",
+    "Name": "The Woodfield Plantation",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 392000000972,
-        "Latitude": 69032,
-        "Longitude": 124456,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 504400864,
+        "Latitude": 59432,
+        "Longitude": 103464,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31864832,
-                "Y": 12859393,
+                "X": 26490880,
+                "Y": 15218689,
                 "IsExterior": 32768,
-                "Unknown2": 1271,
-                "LocationId": 16211,
+                "Unknown2": 481,
+                "LocationId": 11813,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Greenston Orchard"
+                "LocationName": "The Woodfield Plantation"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 13207,
+                "NameSeed": 6131,
                 "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 16211,
-                "BuildingType": 18,
-                "Quality": 8
+                "Sector": 10,
+                "LocationId": 11813,
+                "BuildingType": "House2",
+                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Greenston Orchard",
-            "MapId": 392000000972,
+            "AnotherName": "The Woodfield Plantation",
+            "MapId": 35808,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA05.RMB"
+                "FARMAA00.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

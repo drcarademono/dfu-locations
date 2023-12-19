@@ -1,152 +1,104 @@
 {
     "Loaded": true,
-    "Name": "Lufylan Laboratory",
+    "Name": "The Dancing Priest Tavern",
     "RegionName": "Sentinel",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 374000000406,
-        "Latitude": 71336,
-        "Longitude": 52008,
-        "LocationType": 4,
-        "DungeonType": 9,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 65376071,
+        "Latitude": 17320,
+        "Longitude": 45992,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 13318144,
-                "Y": 12269569,
+                "X": 11778048,
+                "Y": 4438017,
                 "IsExterior": 32768,
-                "Unknown2": 462,
-                "LocationId": 26733,
+                "Unknown2": 62,
+                "LocationId": 25302,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Lufylan Laboratory"
+                "LocationName": "The Dancing Priest Tavern"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 4,
+        "Buildings": [
+            {
+                "NameSeed": 16135,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 25302,
+                "BuildingType": "Tavern",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 29243,
+                "FactionId": 0,
+                "Sector": 18,
+                "LocationId": 25302,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 28210,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 25302,
+                "BuildingType": "House4",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 29138,
+                "FactionId": 0,
+                "Sector": 37,
+                "LocationId": 25302,
+                "BuildingType": "House4",
+                "Quality": 6
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Lufylan Laboratory",
-            "MapId": 374000000406,
+            "AnotherName": "16135",
+            "MapId": 364359,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA14.RMB"
+                "TVRNGS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 13580288,
-                "Y": 3127297,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 87,
-                "LocationId": 26734,
-                "IsInterior": 1,
-                "ExteriorLocationId": 26733,
-                "LocationName": "Lufylan Laboratory"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000077.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000024.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
-        "NatureArchive": 503,
-        "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "NatureArchive": 501,
+        "SkyBase": 24,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

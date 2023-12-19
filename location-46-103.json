@@ -1,66 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Dancing Hedgehog Pub",
+    "Name": "Rhegon Manor",
     "RegionName": "Myrkwasa",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 431000000297,
-        "Latitude": 64040,
-        "Longitude": 38056,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 108437617,
+        "Latitude": 8360,
+        "Longitude": 37032,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9746432,
-                "Y": 14137345,
+                "X": 9484288,
+                "Y": 2144257,
                 "IsExterior": 32768,
-                "Unknown2": 30,
-                "LocationId": 26885,
+                "Unknown2": 103,
+                "LocationId": 27633,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dancing Hedgehog Pub"
+                "LocationName": "Rhegon Manor"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 423,
+                "NameSeed": 21436,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26885,
-                "BuildingType": 18,
-                "Quality": 13
+                "LocationId": 27633,
+                "BuildingType": "House2",
+                "Quality": 11
             },
             {
-                "NameSeed": 6022,
-                "FactionId": 510,
-                "Sector": 11,
-                "LocationId": 26885,
-                "BuildingType": 17,
-                "Quality": 9
+                "NameSeed": 21974,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 27633,
+                "BuildingType": "House2",
+                "Quality": 14
             },
             {
-                "NameSeed": 22216,
-                "FactionId": 510,
-                "Sector": 24,
-                "LocationId": 26885,
-                "BuildingType": 15,
-                "Quality": 12
+                "NameSeed": 31650,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 27633,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 13119,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 27633,
+                "BuildingType": "House1",
+                "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "22216",
-            "MapId": 431000000297,
+            "AnotherName": "Rhegon Manor",
+            "MapId": 434289,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS03.RMB"
+                "MANRBS00.RMB"
             ]
         }
     },
@@ -84,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

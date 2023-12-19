@@ -1,115 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Akhuthu-Gora",
+    "Name": "The Green Djinn Inn",
     "RegionName": "Tigonus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 349000000530,
-        "Latitude": 74536,
-        "Longitude": 67872,
-        "LocationType": 2,
-        "DungeonType": 255,
+        "MapId": 91549659,
+        "Latitude": 22568,
+        "Longitude": 70056,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 16777216
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17379328,
-                "Y": 11450369,
+                "X": 17938432,
+                "Y": 5781505,
                 "IsExterior": 32768,
-                "Unknown2": 278,
-                "LocationId": 25251,
+                "Unknown2": 87,
+                "LocationId": 23859,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Akhuthu-Gora"
+                "LocationName": "The Green Djinn Inn"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 26751,
+                "NameSeed": 16962,
                 "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 25251,
-                "BuildingType": 9,
-                "Quality": 15
+                "LocationId": 23859,
+                "BuildingType": "Tavern",
+                "Quality": 13
             },
             {
-                "NameSeed": 15056,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 25251,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 25393,
-                "FactionId": 0,
-                "Sector": 19,
-                "LocationId": 25251,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 10015,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 25251,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 23074,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 25251,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 17408,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 25251,
-                "BuildingType": 18,
+                "NameSeed": 27691,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 23859,
+                "BuildingType": "Tavern",
                 "Quality": 14
             },
             {
-                "NameSeed": 5870,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 25251,
-                "BuildingType": 18,
-                "Quality": 15
+                "NameSeed": 20712,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 23859,
+                "BuildingType": "Tavern",
+                "Quality": 5
             },
             {
-                "NameSeed": 8420,
+                "NameSeed": 20709,
                 "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 25251,
-                "BuildingType": 18,
+                "Sector": 44,
+                "LocationId": 23859,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 8415,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 23859,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 30622,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 23859,
+                "BuildingType": "House2",
                 "Quality": 4
             },
             {
-                "NameSeed": 9260,
+                "NameSeed": 22109,
                 "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 25251,
-                "BuildingType": 18,
-                "Quality": 6
+                "Sector": 63,
+                "LocationId": 23859,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 7929,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 23859,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 9089,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 23859,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 13232,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 23859,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 24979,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 23859,
+                "BuildingType": "House2",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Akhuthu-Gora",
-            "MapId": 349000000530,
+            "AnotherName": "16962",
+            "MapId": 323547,
             "LocationId": 0,
-            "Width": 2,
+            "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GENRGS01.RMB",
-                "RESIGS03.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
@@ -132,14 +147,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
-        "GroundArchive": 2,
-        "NatureArchive": 501,
+        "WorldClimate": 228,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_Swamp",
+        "GroundArchive": 402,
+        "NatureArchive": 502,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

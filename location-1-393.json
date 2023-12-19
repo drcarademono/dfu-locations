@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Kergke Hall",
+    "Name": "The Mhosh Farmstead",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 153000000662,
-        "Latitude": 99624,
-        "Longitude": 84776,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 412496148,
+        "Latitude": 12072,
+        "Longitude": 99880,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21706752,
-                "Y": 5027841,
+                "X": 25573376,
+                "Y": 3094529,
                 "IsExterior": 32768,
-                "Unknown2": 728,
-                "LocationId": 28546,
+                "Unknown2": 393,
+                "LocationId": 26782,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kergke Hall"
+                "LocationName": "The Mhosh Farmstead"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 23431,
+                "NameSeed": 23884,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 28546,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 8531,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 28546,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 29719,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 28546,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 26930,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 28546,
-                "BuildingType": 19,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 1108,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 28546,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 7908,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 28546,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 26203,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 28546,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 14954,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 28546,
-                "BuildingType": 15,
+                "LocationId": 26782,
+                "BuildingType": "House2",
                 "Quality": 6
-            },
-            {
-                "NameSeed": 1859,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 28546,
-                "BuildingType": 17,
-                "Quality": 9
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Kergke Hall",
-            "MapId": 153000000662,
+            "AnotherName": "The Mhosh Farmstead",
+            "MapId": 405780,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "FARMAA05.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

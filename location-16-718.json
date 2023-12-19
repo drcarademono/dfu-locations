@@ -1,168 +1,184 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Old Elolda's Hovel",
+    "Name": "Fearful Tree of Kynareth",
     "RegionName": "Wrothgarian Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 423000001025,
-        "Latitude": 65064,
-        "Longitude": 131240,
-        "LocationType": 10,
-        "DungeonType": 6,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 752930521,
+        "Latitude": 57256,
+        "Longitude": 122024,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 16
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33601536,
-                "Y": 13875201,
+                "X": 31242240,
+                "Y": 14661633,
                 "IsExterior": 32768,
-                "Unknown2": 717,
-                "LocationId": 12799,
+                "Unknown2": 718,
+                "LocationId": 12801,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Old Elolda's Hovel"
+                "LocationName": "Fearful Tree of Kynareth"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 8207,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 12801,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 939,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 12801,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 20669,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 12801,
+                "BuildingType": "House3",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 31951,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 12801,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 10397,
+                "FactionId": 0,
+                "Sector": 23,
+                "LocationId": 12801,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 11834,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 12801,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 11533,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 12801,
+                "BuildingType": "House3",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 14255,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 12801,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 1238,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 12801,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 2205,
+                "FactionId": 0,
+                "Sector": 50,
+                "LocationId": 12801,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 20732,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 12801,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 13482,
+                "FactionId": 0,
+                "Sector": 68,
+                "LocationId": 12801,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 356,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 12801,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 5748,
+                "FactionId": 35,
+                "Sector": 78,
+                "LocationId": 12801,
+                "BuildingType": "Temple",
+                "Quality": 6
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Old Elolda's Hovel",
-            "MapId": 423000001025,
+            "AnotherName": "Fearful Tree of Kynareth",
+            "MapId": 52953,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA26.RMB"
+                "TEMPAAH0.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 30357504,
-                "Y": 14661633,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 250,
-                "LocationId": 12800,
-                "IsInterior": 1,
-                "ExteriorLocationId": 12799,
-                "LocationName": "Ruins of Old Elolda's Hovel"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000082.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000080.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000066.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

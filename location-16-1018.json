@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Woodford Graveyard",
+    "Name": "Ruins of The Gaerston Farmstead",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 451000001059,
-        "Latitude": 61480,
-        "Longitude": 135592,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": true,
+        "MapId": 1067532175,
+        "Latitude": 53544,
+        "Longitude": 103336,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "GiantStronghold",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 34715648,
-                "Y": 14792705,
+                "X": 26458112,
+                "Y": 13711361,
                 "IsExterior": 32768,
-                "Unknown2": 142,
-                "LocationId": 10463,
+                "Unknown2": 1018,
+                "LocationId": 14645,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Woodford Graveyard"
+                "LocationName": "Ruins of The Gaerston Farmstead"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Woodford Graveyard",
-            "MapId": 451000001059,
+            "AnotherName": "Ruins of The Gaerston Farmstead",
+            "MapId": 81807,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS42.RMB"
+                "RUINAA07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 30849024,
-                "Y": 16037889,
+                "X": 26458112,
+                "Y": 13711361,
                 "IsExterior": 0,
-                "Unknown2": 50,
-                "LocationId": 10464,
+                "Unknown2": 368,
+                "LocationId": 14646,
                 "IsInterior": 1,
-                "ExteriorLocationId": 10463,
-                "LocationName": "The Woodford Graveyard"
+                "ExteriorLocationId": 14645,
+                "LocationName": "Ruins of The Gaerston Farmstead"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
                 "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Gaerham Hall",
+    "Name": "Ruins of The Hold of Greenwing",
     "RegionName": "Isle of Balfiera",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 392000000773,
-        "Latitude": 69032,
-        "Longitude": 98984,
-        "LocationType": 10,
-        "DungeonType": 11,
+        "MapId": 18008477,
+        "Latitude": 40616,
+        "Longitude": 87720,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "DesecratedTemple",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25344000,
-                "Y": 12859393,
+                "X": 22460416,
+                "Y": 10401793,
                 "IsExterior": 32768,
-                "Unknown2": 43,
-                "LocationId": 21415,
+                "Unknown2": 17,
+                "LocationId": 20390,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Gaerham Hall"
+                "LocationName": "Ruins of The Hold of Greenwing"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Gaerham Hall",
-            "MapId": 392000000773,
+            "AnotherName": "Ruins of The Hold of Greenwing",
+            "MapId": 182685,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 1,
             "BlockNames": [
-                "RUINAA01.RMB"
+                "RUINAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23705600,
-                "Y": 9648129,
+                "X": 22460416,
+                "Y": 10401793,
                 "IsExterior": 0,
-                "Unknown2": 29,
-                "LocationId": 21416,
+                "Unknown2": 10,
+                "LocationId": 20391,
                 "IsInterior": 1,
-                "ExteriorLocationId": 21415,
-                "LocationName": "Ruins of Gaerham Hall"
+                "ExteriorLocationId": 20390,
+                "LocationName": "Ruins of The Hold of Greenwing"
             }
         },
         "Header": {
@@ -57,58 +57,26 @@
         },
         "Blocks": [
             {
-                "X": -2,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -1,
+                "X": 0,
                 "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 137,
     "RegionIndex": 9,

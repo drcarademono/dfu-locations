@@ -1,136 +1,176 @@
 {
     "Loaded": true,
-    "Name": "Border Laboratory",
+    "Name": "The Rat and Stag Hostel",
     "RegionName": "Mournoth",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 144000000899,
-        "Latitude": 100776,
-        "Longitude": 115112,
-        "LocationType": 4,
-        "DungeonType": 9,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 70550559,
+        "Latitude": 26152,
+        "Longitude": 123816,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29472768,
-                "Y": 4732929,
+                "X": 31700992,
+                "Y": 6699009,
                 "IsExterior": 32768,
-                "Unknown2": 303,
-                "LocationId": 25016,
+                "Unknown2": 67,
+                "LocationId": 23108,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Border Laboratory"
+                "LocationName": "The Rat and Stag Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 8831,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 23108,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 25035,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 23108,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 13746,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 23108,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 23884,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 23108,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 2184,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 23108,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 15116,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 23108,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 13807,
+                "FactionId": 0,
+                "Sector": 73,
+                "LocationId": 23108,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 29136,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 23108,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 23051,
+                "FactionId": 0,
+                "Sector": 83,
+                "LocationId": 23108,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 6089,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 23108,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 17561,
+                "FactionId": 0,
+                "Sector": 94,
+                "LocationId": 23108,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 31668,
+                "FactionId": 0,
+                "Sector": 100,
+                "LocationId": 23108,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 29869,
+                "FactionId": 0,
+                "Sector": 110,
+                "LocationId": 23108,
+                "BuildingType": "House2",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Border Laboratory",
-            "MapId": 144000000899,
+            "AnotherName": "8831",
+            "MapId": 295967,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA02.RMB"
+                "TVRNAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 31340544,
-                "Y": 4700161,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 76,
-                "LocationId": 25017,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25016,
-                "LocationName": "Border Laboratory"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000090.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

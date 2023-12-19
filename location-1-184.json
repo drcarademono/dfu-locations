@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Ghorhtum Hall",
+    "Name": "Vofyler Grange",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 91000000901,
-        "Latitude": 107560,
-        "Longitude": 115368,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 193301694,
+        "Latitude": 17448,
+        "Longitude": 90920,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29538304,
-                "Y": 2996225,
+                "X": 23279616,
+                "Y": 4470785,
                 "IsExterior": 32768,
-                "Unknown2": 367,
-                "LocationId": 26671,
+                "Unknown2": 184,
+                "LocationId": 25269,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ghorhtum Hall"
+                "LocationName": "Vofyler Grange"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 18861,
+                "NameSeed": 32557,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 26671,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 9816,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 26671,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 3619,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 26671,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 9112,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 26671,
-                "BuildingType": 19,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 5166,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 26671,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 13422,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 26671,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 11943,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 26671,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 29508,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 26671,
-                "BuildingType": 15,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 913,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 26671,
-                "BuildingType": 17,
+                "LocationId": 25269,
+                "BuildingType": "House1",
                 "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Ghorhtum Hall",
-            "MapId": 91000000901,
+            "AnotherName": "Vofyler Grange",
+            "MapId": 363710,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "FARMAA09.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

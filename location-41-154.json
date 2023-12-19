@@ -1,50 +1,146 @@
 {
     "Loaded": true,
-    "Name": "The Buckinghouse Plantation",
+    "Name": "Moorsmith Manor",
     "RegionName": "Daenia",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 668000000552,
-        "Latitude": 33704,
-        "Longitude": 70696,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 161566120,
+        "Latitude": 53032,
+        "Longitude": 53288,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18102272,
-                "Y": 21903361,
+                "X": 13645824,
+                "Y": 13580289,
                 "IsExterior": 32768,
-                "Unknown2": 121,
-                "LocationId": 14243,
+                "Unknown2": 154,
+                "LocationId": 14913,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Buckinghouse Plantation"
+                "LocationName": "Moorsmith Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 13,
         "Buildings": [
             {
-                "NameSeed": 9748,
+                "NameSeed": 23414,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 14243,
-                "BuildingType": 18,
+                "LocationId": 14913,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 17667,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 14913,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 14646,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 14913,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 13359,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 14913,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 13573,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 14913,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 11855,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 14913,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 4564,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 14913,
+                "BuildingType": "House2",
                 "Quality": 4
+            },
+            {
+                "NameSeed": 28904,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 14913,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 27403,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 14913,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 1367,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 14913,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 32615,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 14913,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 23383,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 14913,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 6459,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 14913,
+                "BuildingType": "House1",
+                "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Buckinghouse Plantation",
-            "MapId": 668000000552,
+            "AnotherName": "Moorsmith Manor",
+            "MapId": 85416,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
@@ -68,13 +164,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 169,
     "RegionIndex": 41,

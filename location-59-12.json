@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Woodfield Grange",
+    "Name": "The Lucky Barbarian Lodge",
     "RegionName": "Glenumbra Moors",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 783000000310,
-        "Latitude": 18984,
-        "Longitude": 39720,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 12642023,
+        "Latitude": 56360,
+        "Longitude": 14248,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10172416,
-                "Y": 25671681,
+                "X": 3651584,
+                "Y": 14432257,
                 "IsExterior": 32768,
-                "Unknown2": 154,
-                "LocationId": 15622,
+                "Unknown2": 12,
+                "LocationId": 13138,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Woodfield Grange"
+                "LocationName": "The Lucky Barbarian Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 4682,
-                "FactionId": 0,
+                "NameSeed": 30156,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 15622,
-                "BuildingType": 17,
-                "Quality": 10
+                "LocationId": 13138,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 15464,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 13138,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 31175,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 13138,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 3812,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 13138,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 17708,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 13138,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 23331,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 13138,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 3643,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 13138,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 30469,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 13138,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 29078,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 13138,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 3319,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 13138,
+                "BuildingType": "House3",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 24419,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 13138,
+                "BuildingType": "House3",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Woodfield Grange",
-            "MapId": 783000000310,
+            "AnotherName": "30156",
+            "MapId": 59111,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA09.RMB"
+                "TVRNAS05.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 187,
     "RegionIndex": 59,

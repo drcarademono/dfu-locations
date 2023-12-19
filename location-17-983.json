@@ -1,130 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Rusty Helm Tavern",
+    "Name": "Yeomford Court",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 697000000257,
-        "Latitude": 29992,
-        "Longitude": 32936,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 1030949454,
+        "Latitude": 38440,
+        "Longitude": 31528,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8435712,
-                "Y": 22853633,
+                "X": 8075264,
+                "Y": 9844737,
                 "IsExterior": 32768,
-                "Unknown2": 952,
-                "LocationId": 21076,
+                "Unknown2": 983,
+                "LocationId": 21133,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rusty Helm Tavern"
+                "LocationName": "Yeomford Court"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 27726,
+                "NameSeed": 29611,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 21076,
-                "BuildingType": 18,
-                "Quality": 5
+                "LocationId": 21133,
+                "BuildingType": "House2",
+                "Quality": 4
             },
             {
-                "NameSeed": 3712,
+                "NameSeed": 12174,
                 "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 21076,
-                "BuildingType": 18,
-                "Quality": 6
+                "Sector": 10,
+                "LocationId": 21133,
+                "BuildingType": "House2",
+                "Quality": 10
             },
             {
-                "NameSeed": 9475,
+                "NameSeed": 11792,
                 "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 21076,
-                "BuildingType": 18,
+                "Sector": 22,
+                "LocationId": 21133,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 6194,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 21133,
+                "BuildingType": "House3",
                 "Quality": 15
             },
             {
-                "NameSeed": 16744,
+                "NameSeed": 4432,
                 "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 21076,
-                "BuildingType": 19,
-                "Quality": 3
+                "Sector": 36,
+                "LocationId": 21133,
+                "BuildingType": "House2",
+                "Quality": 8
             },
             {
-                "NameSeed": 26437,
+                "NameSeed": 25560,
                 "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 21076,
-                "BuildingType": 19,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 24657,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 21076,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 18996,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 21076,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 2934,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 21076,
-                "BuildingType": 18,
+                "Sector": 42,
+                "LocationId": 21133,
+                "BuildingType": "House2",
                 "Quality": 7
             },
             {
-                "NameSeed": 20428,
-                "FactionId": 510,
-                "Sector": 63,
-                "LocationId": 21076,
-                "BuildingType": 1,
-                "Quality": 15
+                "NameSeed": 14174,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 21133,
+                "BuildingType": "House2",
+                "Quality": 10
             },
             {
-                "NameSeed": 23162,
+                "NameSeed": 16719,
                 "FactionId": 510,
-                "Sector": 67,
-                "LocationId": 21076,
-                "BuildingType": 15,
-                "Quality": 6
+                "Sector": 69,
+                "LocationId": 21133,
+                "BuildingType": "Tavern",
+                "Quality": 7
             },
             {
-                "NameSeed": 7628,
-                "FactionId": 510,
-                "Sector": 84,
-                "LocationId": 21076,
-                "BuildingType": 15,
-                "Quality": 15
+                "NameSeed": 23052,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 21133,
+                "BuildingType": "House1",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "23162",
-            "MapId": 697000000257,
+            "AnotherName": "Yeomford Court",
+            "MapId": 199246,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS08.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -148,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

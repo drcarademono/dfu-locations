@@ -1,136 +1,144 @@
 {
     "Loaded": true,
-    "Name": "The Hold of Nirkem",
+    "Name": "Torch Manor",
     "RegionName": "Lainlyn",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 287000000739,
-        "Latitude": 82472,
-        "Longitude": 94632,
-        "LocationType": 7,
-        "DungeonType": 11,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 39080999,
+        "Latitude": 27688,
+        "Longitude": 87976,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24229888,
-                "Y": 9418753,
+                "X": 22525952,
+                "Y": 7092225,
                 "IsExterior": 32768,
-                "Unknown2": 331,
-                "LocationId": 23567,
+                "Unknown2": 37,
+                "LocationId": 22831,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hold of Nirkem"
+                "LocationName": "Torch Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 2245,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 22831,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 20368,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 22831,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 1905,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 22831,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 20109,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 22831,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 9966,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 22831,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 16915,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 22831,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 29418,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 22831,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 28354,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 22831,
+                "BuildingType": "Tavern",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 19546,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 22831,
+                "BuildingType": "House1",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Hold of Nirkem",
-            "MapId": 287000000739,
+            "AnotherName": "Torch Manor",
+            "MapId": 283687,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 8,
             "BlockNames": [
-                "CASTAA23.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 24459264,
-                "Y": 6141953,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 66,
-                "LocationId": 23568,
-                "IsInterior": 1,
-                "ExteriorLocationId": 23567,
-                "LocationName": "The Hold of Nirkem"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

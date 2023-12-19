@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Ashwing Plantation",
+    "Name": "The Wickwing Farmstead",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 503000000958,
-        "Latitude": 54824,
-        "Longitude": 122664,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 1492243609,
+        "Latitude": 48680,
+        "Longitude": 123048,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31406080,
-                "Y": 16496641,
+                "X": 31504384,
+                "Y": 12466177,
                 "IsExterior": 32768,
-                "Unknown2": 224,
-                "LocationId": 10750,
+                "Unknown2": 1423,
+                "LocationId": 17086,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Ashwing Plantation"
+                "LocationName": "The Wickwing Farmstead"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 1530,
+                "NameSeed": 26132,
                 "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 10750,
-                "BuildingType": 18,
-                "Quality": 13
+                "Sector": 10,
+                "LocationId": 17086,
+                "BuildingType": "House2",
+                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Ashwing Plantation",
-            "MapId": 503000000958,
+            "AnotherName": "The Wickwing Farmstead",
+            "MapId": 119961,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA07.RMB"
+                "FARMAA00.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

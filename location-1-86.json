@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Old Fosca's Place",
+    "Name": "The Lion and Mug Inn",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 58000000783,
-        "Latitude": 111784,
-        "Longitude": 100264,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 90507160,
+        "Latitude": 21800,
+        "Longitude": 79912,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25671680,
-                "Y": 1914881,
+                "X": 20461568,
+                "Y": 5584897,
                 "IsExterior": 32768,
-                "Unknown2": 871,
-                "LocationId": 29229,
+                "Unknown2": 86,
+                "LocationId": 24051,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Fosca's Place"
+                "LocationName": "The Lion and Mug Inn"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 2765,
-                "FactionId": 0,
+                "NameSeed": 14214,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 29229,
-                "BuildingType": 19,
+                "LocationId": 24051,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 198,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 24051,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 2314,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 24051,
+                "BuildingType": "House2",
                 "Quality": 8
+            },
+            {
+                "NameSeed": 9413,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 24051,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 25173,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 24051,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 874,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 24051,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 23396,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 24051,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 7716,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 24051,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 768,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 24051,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 17688,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 24051,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 20262,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 24051,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 2997,
+                "FactionId": 0,
+                "Sector": 91,
+                "LocationId": 24051,
+                "BuildingType": "House2",
+                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Fosca's Place",
-            "MapId": 58000000783,
+            "AnotherName": "14214",
+            "MapId": 329624,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNAS09.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

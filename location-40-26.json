@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Toad and Pit Inn",
+    "Name": "The Gondard Lode",
     "RegionName": "Ykalon",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 690000000619,
-        "Latitude": 30888,
-        "Longitude": 79272,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 27265355,
+        "Latitude": 63656,
+        "Longitude": 48552,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Mine",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20297728,
-                "Y": 22624257,
+                "X": 12433408,
+                "Y": 16300033,
                 "IsExterior": 32768,
-                "Unknown2": 293,
-                "LocationId": 11127,
+                "Unknown2": 26,
+                "LocationId": 10069,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Toad and Pit Inn"
+                "LocationName": "The Gondard Lode"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 23254,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 11127,
-                "BuildingType": 15,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 30938,
-                "FactionId": 0,
-                "Sector": 21,
-                "LocationId": 11127,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 1011,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 11127,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 8723,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 11127,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 15586,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 11127,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 8362,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 11127,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 32441,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 11127,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 13913,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 11127,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 12114,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 11127,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 29270,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 11127,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 32098,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 11127,
-                "BuildingType": 18,
-                "Quality": 1
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "23254",
-            "MapId": 690000000619,
+            "AnotherName": "The Gondard Lode",
+            "MapId": 2379,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS03.RMB"
+                "DUNGAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 12433408,
+                "Y": 16300033,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 11,
+                "LocationId": 10070,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10069,
+                "LocationName": "The Gondard Lode"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000067.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
-        "NatureArchive": 504,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

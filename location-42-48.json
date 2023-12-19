@@ -1,144 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Hawkston Manor",
+    "Name": "Ruins of The Gaering Cabin",
     "RegionName": "Shalgora",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 622000000433,
-        "Latitude": 39592,
-        "Longitude": 55464,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 50453974,
+        "Latitude": 48296,
+        "Longitude": 41768,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Crypt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14202880,
-                "Y": 20396033,
+                "X": 10696704,
+                "Y": 12367873,
                 "IsExterior": 32768,
-                "Unknown2": 187,
-                "LocationId": 20120,
+                "Unknown2": 48,
+                "LocationId": 17199,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hawkston Manor"
+                "LocationName": "Ruins of The Gaering Cabin"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 23995,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 20120,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 12499,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 20120,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 23734,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 20120,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 14857,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 20120,
-                "BuildingType": 19,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 21868,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 20120,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 25942,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 20120,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 25664,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 20120,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 28673,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 20120,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 9966,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 20120,
-                "BuildingType": 17,
-                "Quality": 11
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Hawkston Manor",
-            "MapId": 622000000433,
+            "AnotherName": "Ruins of The Gaering Cabin",
+            "MapId": 122326,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "RUINAA04.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 10696704,
+                "Y": 12367873,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 12,
+                "LocationId": 17200,
+                "IsInterior": 1,
+                "ExteriorLocationId": 17199,
+                "LocationName": "Ruins of The Gaering Cabin"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000088.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 170,
     "RegionIndex": 42,

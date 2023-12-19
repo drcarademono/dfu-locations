@@ -1,112 +1,184 @@
 {
     "Loaded": true,
-    "Name": "The Copperfield Vaults",
+    "Name": "Hal's Tavern",
     "RegionName": "Wayrest",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 333000000913,
-        "Latitude": 76584,
-        "Longitude": 116904,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 872681194,
+        "Latitude": 29992,
+        "Longitude": 123176,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29931520,
-                "Y": 10926081,
+                "X": 31537152,
+                "Y": 7682049,
                 "IsExterior": 32768,
-                "Unknown2": 14,
-                "LocationId": 20515,
+                "Unknown2": 832,
+                "LocationId": 22692,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Copperfield Vaults"
+                "LocationName": "Hal's Tavern"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 27157,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 22692,
+                "BuildingType": "Tavern",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 18388,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 22692,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 16799,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 22692,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 20283,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 22692,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 18651,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 22692,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 24037,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 22692,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 21183,
+                "FactionId": 0,
+                "Sector": 56,
+                "LocationId": 22692,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 30856,
+                "FactionId": 0,
+                "Sector": 64,
+                "LocationId": 22692,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 6622,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 22692,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 26416,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 22692,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 2203,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 22692,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 11684,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 22692,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 11621,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 22692,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 20051,
+                "FactionId": 0,
+                "Sector": 90,
+                "LocationId": 22692,
+                "BuildingType": "House2",
+                "Quality": 11
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Copperfield Vaults",
-            "MapId": 333000000913,
+            "AnotherName": "27157",
+            "MapId": 265962,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS21.RMB"
+                "TVRNAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 28653568,
-                "Y": 10303489,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 1,
-                "LocationId": 20516,
-                "IsInterior": 1,
-                "ExteriorLocationId": 20515,
-                "LocationName": "The Copperfield Vaults"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

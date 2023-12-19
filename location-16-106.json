@@ -1,154 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Burning Redeemer of Kynareth",
+    "Name": "The Old Coppercroft Shack",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 309000001007,
-        "Latitude": 79656,
-        "Longitude": 128936,
-        "LocationType": 5,
-        "DungeonType": 255,
+        "MapId": 111158673,
+        "Latitude": 62760,
+        "Longitude": 79016,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 16
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 33011712,
-                "Y": 10139649,
+                "X": 20232192,
+                "Y": 16070657,
                 "IsExterior": 32768,
-                "Unknown2": 1691,
-                "LocationId": 19298,
+                "Unknown2": 106,
+                "LocationId": 10389,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Burning Redeemer of Kynareth"
+                "LocationName": "The Old Coppercroft Shack"
             }
         },
-        "BuildingCount": 14,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 2583,
+                "NameSeed": 23287,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 19298,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 27509,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 19298,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 275,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 19298,
-                "BuildingType": 19,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 8469,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 19298,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 31349,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 19298,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 12496,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 19298,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 18030,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 19298,
-                "BuildingType": 19,
+                "LocationId": 10389,
+                "BuildingType": "House3",
                 "Quality": 12
-            },
-            {
-                "NameSeed": 26224,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 19298,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 16336,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 19298,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 7522,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 19298,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 15892,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 19298,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 20391,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 19298,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 30062,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 19298,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 11721,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 19298,
-                "BuildingType": 14,
-                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Burning Redeemer of Kynareth",
-            "MapId": 309000001007,
+            "AnotherName": "The Old Coppercroft Shack",
+            "MapId": 9617,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -172,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

@@ -1,104 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Nardir Hall",
+    "Name": "The Tomb of Invereham",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 312000000465,
-        "Latitude": 79272,
-        "Longitude": 59560,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 139894101,
+        "Latitude": 8488,
+        "Longitude": 63144,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Crypt",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15251456,
-                "Y": 10237953,
+                "X": 16168960,
+                "Y": 2177025,
                 "IsExterior": 32768,
-                "Unknown2": 110,
-                "LocationId": 27464,
+                "Unknown2": 133,
+                "LocationId": 27608,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Nardir Hall"
+                "LocationName": "The Tomb of Invereham"
             }
         },
-        "BuildingCount": 4,
-        "Buildings": [
-            {
-                "NameSeed": 6751,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27464,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 20713,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 27464,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 13570,
-                "FactionId": 0,
-                "Sector": 12,
-                "LocationId": 27464,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 6152,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 27464,
-                "BuildingType": 17,
-                "Quality": 5
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Nardir Hall",
-            "MapId": 312000000465,
+            "AnotherName": "The Tomb of Invereham",
+            "MapId": 433493,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRBS00.RMB"
+                "DUNGAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 16168960,
+                "Y": 2177025,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 66,
+                "LocationId": 27609,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27608,
+                "LocationName": "The Tomb of Invereham"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000071.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

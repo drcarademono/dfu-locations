@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "The Gaerwing Crypts",
+    "Name": "The Tombs of Mastercroft",
     "RegionName": "Kambria",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 582000000747,
-        "Latitude": 44712,
-        "Longitude": 95656,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": true,
+        "MapId": 272715381,
+        "Latitude": 53032,
+        "Longitude": 79528,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24492032,
-                "Y": 19085313,
+                "X": 20363264,
+                "Y": 13580289,
                 "IsExterior": 32768,
-                "Unknown2": 54,
-                "LocationId": 12840,
+                "Unknown2": 260,
+                "LocationId": 14931,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Gaerwing Crypts"
+                "LocationName": "The Tombs of Mastercroft"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Gaerwing Crypts",
-            "MapId": 582000000747,
+            "AnotherName": "The Tombs of Mastercroft",
+            "MapId": 85621,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS13.RMB"
+                "GRVEAS12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19871744,
-                "Y": 14628865,
+                "X": 20363264,
+                "Y": 13580289,
                 "IsExterior": 0,
-                "Unknown2": 21,
-                "LocationId": 12841,
+                "Unknown2": 88,
+                "LocationId": 14932,
                 "IsInterior": 1,
-                "ExteriorLocationId": 12840,
-                "LocationName": "The Gaerwing Crypts"
+                "ExteriorLocationId": 14931,
+                "LocationName": "The Tombs of Mastercroft"
             }
         },
         "Header": {
@@ -60,7 +60,7 @@
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -76,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "M0000008.RDB",
+                "BlockName": "M0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,7 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

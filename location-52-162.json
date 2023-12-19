@@ -1,146 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Hal's Tavern",
+    "Name": "The Krerc'kern Farmstead",
     "RegionName": "Mournoth",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 177000000952,
-        "Latitude": 96552,
-        "Longitude": 121896,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 170187249,
+        "Latitude": 23336,
+        "Longitude": 119976,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31209472,
-                "Y": 5814273,
+                "X": 30717952,
+                "Y": 5978113,
                 "IsExterior": 32768,
-                "Unknown2": 92,
-                "LocationId": 23279,
+                "Unknown2": 162,
+                "LocationId": 23706,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Hal's Tavern"
+                "LocationName": "The Krerc'kern Farmstead"
             }
         },
-        "BuildingCount": 13,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 31802,
-                "FactionId": 510,
+                "NameSeed": 5724,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23279,
-                "BuildingType": 15,
+                "LocationId": 23706,
+                "BuildingType": "House2",
                 "Quality": 7
-            },
-            {
-                "NameSeed": 17176,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 23279,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 12916,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 23279,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 20109,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 23279,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 9966,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 23279,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 16915,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 23279,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 29418,
-                "FactionId": 0,
-                "Sector": 73,
-                "LocationId": 23279,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 3578,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 23279,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 16357,
-                "FactionId": 0,
-                "Sector": 83,
-                "LocationId": 23279,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 13137,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 23279,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 5529,
-                "FactionId": 0,
-                "Sector": 94,
-                "LocationId": 23279,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 28344,
-                "FactionId": 0,
-                "Sector": 100,
-                "LocationId": 23279,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 5418,
-                "FactionId": 0,
-                "Sector": 110,
-                "LocationId": 23279,
-                "BuildingType": 18,
-                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "31802",
-            "MapId": 177000000952,
+            "AnotherName": "The Krerc'kern Farmstead",
+            "MapId": 317937,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS02.RMB"
+                "FARMAA07.RMB"
             ]
         }
     },
@@ -164,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

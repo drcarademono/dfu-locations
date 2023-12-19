@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Howling Helm Lodge",
+    "Name": "Ruins of Dirdon Grange",
     "RegionName": "Dak'fron",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 247000000470,
-        "Latitude": 87592,
-        "Longitude": 60200,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 160920704,
+        "Latitude": 1448,
+        "Longitude": 73768,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "DragonsDen",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15415296,
-                "Y": 8108033,
+                "X": 18888704,
+                "Y": 374785,
                 "IsExterior": 32768,
-                "Unknown2": 124,
-                "LocationId": 29008,
+                "Unknown2": 153,
+                "LocationId": 29194,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Howling Helm Lodge"
+                "LocationName": "Ruins of Dirdon Grange"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 21942,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 29008,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 513,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 29008,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 20866,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 29008,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 6601,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 29008,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 20801,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 29008,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 2527,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 29008,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 23625,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 29008,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 26176,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 29008,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 27015,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 29008,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 1201,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 29008,
-                "BuildingType": 19,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 5726,
-                "FactionId": 0,
-                "Sector": 93,
-                "LocationId": 29008,
-                "BuildingType": 19,
-                "Quality": 3
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "21942",
-            "MapId": 247000000470,
+            "AnotherName": "Ruins of Dirdon Grange",
+            "MapId": 488576,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS05.RMB"
+                "RUINAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 18888704,
+                "Y": 374785,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 103,
+                "LocationId": 29195,
+                "IsInterior": 1,
+                "ExteriorLocationId": 29194,
+                "LocationName": "Ruins of Dirdon Grange"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

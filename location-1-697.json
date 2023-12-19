@@ -1,136 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Cerk Court",
+    "Name": "The Howling Huntsman Lodge",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 267000000630,
-        "Latitude": 85032,
-        "Longitude": 80680,
-        "LocationType": 10,
-        "DungeonType": 5,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 731316182,
+        "Latitude": 5288,
+        "Longitude": 90920,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 20658176,
-                "Y": 8763393,
+                "X": 23279616,
+                "Y": 1357825,
                 "IsExterior": 32768,
-                "Unknown2": 267,
-                "LocationId": 26117,
+                "Unknown2": 697,
+                "LocationId": 28295,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Cerk Court"
+                "LocationName": "The Howling Huntsman Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 576,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 28295,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 31821,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 28295,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 16100,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 28295,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 17306,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 28295,
+                "BuildingType": "House3",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 8772,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 28295,
+                "BuildingType": "House3",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 21745,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 28295,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 29120,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 28295,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 12003,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 28295,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 20720,
+                "FactionId": 510,
+                "Sector": 63,
+                "LocationId": 28295,
+                "BuildingType": "HouseForSale",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 9123,
+                "FactionId": 510,
+                "Sector": 67,
+                "LocationId": 28295,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 30985,
+                "FactionId": 510,
+                "Sector": 84,
+                "LocationId": 28295,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of Cerk Court",
-            "MapId": 267000000630,
+            "AnotherName": "9123",
+            "MapId": 458710,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA08.RMB"
+                "TVRNAS08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 21706752,
-                "Y": 3782657,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 76,
-                "LocationId": 26118,
-                "IsInterior": 1,
-                "ExteriorLocationId": 26117,
-                "LocationName": "Ruins of Cerk Court"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000056.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000016.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

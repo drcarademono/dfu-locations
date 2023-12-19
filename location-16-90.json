@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Old Kinghart Hovel",
+    "Name": "Copperford Orchard",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 306000000962,
-        "Latitude": 80040,
-        "Longitude": 123176,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 94379718,
+        "Latitude": 63016,
+        "Longitude": 112424,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 31537152,
-                "Y": 10041345,
+                "X": 28784640,
+                "Y": 16136193,
                 "IsExterior": 32768,
-                "Unknown2": 1779,
-                "LocationId": 20485,
+                "Unknown2": 90,
+                "LocationId": 10312,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Kinghart Hovel"
+                "LocationName": "Copperford Orchard"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 564,
+                "NameSeed": 10331,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 20485,
-                "BuildingType": 19,
-                "Quality": 10
+                "LocationId": 10312,
+                "BuildingType": "House2",
+                "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Kinghart Hovel",
-            "MapId": 306000000962,
+            "AnotherName": "Copperford Orchard",
+            "MapId": 7878,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

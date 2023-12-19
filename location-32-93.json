@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Kinging Orchard",
+    "Name": "Kingfield Palace",
     "RegionName": "Northmoor",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 775000000433,
-        "Latitude": 20008,
-        "Longitude": 55464,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 97539813,
+        "Latitude": 61096,
+        "Longitude": 31400,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14202880,
-                "Y": 25409537,
+                "X": 8042496,
+                "Y": 15644673,
                 "IsExterior": 32768,
-                "Unknown2": 210,
-                "LocationId": 12232,
+                "Unknown2": 93,
+                "LocationId": 11046,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kinging Orchard"
+                "LocationName": "Kingfield Palace"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 31175,
+                "NameSeed": 31756,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 12232,
-                "BuildingType": 18,
+                "LocationId": 11046,
+                "BuildingType": "House1",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 28865,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 11046,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 11836,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 11046,
+                "BuildingType": "House2",
                 "Quality": 1
+            },
+            {
+                "NameSeed": 20581,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 11046,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 10225,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 11046,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 8853,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 11046,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 9883,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 11046,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 19729,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 11046,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 4180,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 11046,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 14258,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 11046,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 27568,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 11046,
+                "BuildingType": "Tavern",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Kinging Orchard",
-            "MapId": 775000000433,
+            "AnotherName": "Kingfield Palace",
+            "MapId": 22245,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 160,
     "RegionIndex": 32,

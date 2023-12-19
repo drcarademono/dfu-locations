@@ -1,106 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Castle V'ogke",
+    "Name": "The Vurcom Burial Ground",
     "RegionName": "Sentinel",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 437000000348,
-        "Latitude": 63272,
-        "Longitude": 44584,
-        "LocationType": 7,
-        "DungeonType": 11,
-        "Discovered": false,
+        "MapId": 508966713,
+        "Latitude": 11816,
+        "Longitude": 45224,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11417600,
-                "Y": 14333953,
+                "X": 11581440,
+                "Y": 3028993,
                 "IsExterior": 32768,
-                "Unknown2": 164,
-                "LocationId": 25887,
+                "Unknown2": 485,
+                "LocationId": 26837,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle V'ogke"
+                "LocationName": "The Vurcom Burial Ground"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Castle V'ogke",
-            "MapId": 437000000348,
+            "AnotherName": "The Vurcom Burial Ground",
+            "MapId": 407353,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA17.RMB"
+                "GRVEAS26.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 10926080,
-                "Y": 3979265,
+                "X": 11581440,
+                "Y": 3028993,
                 "IsExterior": 0,
-                "Unknown2": 30,
-                "LocationId": 25888,
+                "Unknown2": 97,
+                "LocationId": 26838,
                 "IsInterior": 1,
-                "ExteriorLocationId": 25887,
-                "LocationName": "Castle V'ogke"
+                "ExteriorLocationId": 26837,
+                "LocationName": "The Vurcom Burial Ground"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 5
         },
         "Blocks": [
             {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "N0000056.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000019.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -108,7 +68,7 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -116,7 +76,7 @@
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000056.RDB",
+                "BlockName": "M0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -124,7 +84,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -132,7 +92,7 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

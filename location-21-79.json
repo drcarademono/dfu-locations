@@ -1,130 +1,114 @@
 {
     "Loaded": true,
-    "Name": "Masterford Manor",
+    "Name": "Buckinghouse Hall",
     "RegionName": "Anticlere",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 563000000605,
-        "Latitude": 47144,
-        "Longitude": 77480,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 82969867,
+        "Latitude": 47016,
+        "Longitude": 46504,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19838976,
-                "Y": 18462721,
+                "X": 11909120,
+                "Y": 12040193,
                 "IsExterior": 32768,
-                "Unknown2": 224,
-                "LocationId": 18343,
+                "Unknown2": 79,
+                "LocationId": 17740,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Masterford Manor"
+                "LocationName": "Buckinghouse Hall"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 5770,
+                "NameSeed": 18500,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 18343,
-                "BuildingType": 17,
-                "Quality": 15
+                "LocationId": 17740,
+                "BuildingType": "House2",
+                "Quality": 2
             },
             {
-                "NameSeed": 20370,
+                "NameSeed": 3942,
                 "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 18343,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 7608,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 18343,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 8742,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 18343,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 15498,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 18343,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 19405,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 18343,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 30898,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 18343,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 11961,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 18343,
-                "BuildingType": 18,
+                "Sector": 10,
+                "LocationId": 17740,
+                "BuildingType": "House2",
                 "Quality": 3
             },
             {
-                "NameSeed": 3472,
+                "NameSeed": 27935,
                 "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 18343,
-                "BuildingType": 18,
-                "Quality": 13
+                "Sector": 22,
+                "LocationId": 17740,
+                "BuildingType": "House2",
+                "Quality": 4
             },
             {
-                "NameSeed": 27488,
+                "NameSeed": 10223,
                 "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 18343,
-                "BuildingType": 18,
+                "Sector": 30,
+                "LocationId": 17740,
+                "BuildingType": "House3",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 19988,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 17740,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 28886,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 17740,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 27490,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 17740,
+                "BuildingType": "House2",
                 "Quality": 12
             },
             {
-                "NameSeed": 13454,
+                "NameSeed": 13719,
                 "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 18343,
-                "BuildingType": 15,
-                "Quality": 14
+                "Sector": 69,
+                "LocationId": 17740,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 10280,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 17740,
+                "BuildingType": "House1",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Masterford Manor",
-            "MapId": 563000000605,
+            "AnotherName": "Buckinghouse Hall",
+            "MapId": 132363,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -148,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

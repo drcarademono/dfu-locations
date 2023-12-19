@@ -1,50 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Cyujer Farmstead",
+    "Name": "Mhustun Hall",
     "RegionName": "Alik'r Desert",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 293000000492,
-        "Latitude": 81704,
-        "Longitude": 63016,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 90600914,
+        "Latitude": 9768,
+        "Longitude": 48424,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16136192,
-                "Y": 9615361,
+                "X": 12400640,
+                "Y": 2504705,
                 "IsExterior": 32768,
-                "Unknown2": 127,
-                "LocationId": 27550,
+                "Unknown2": 86,
+                "LocationId": 27307,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Cyujer Farmstead"
+                "LocationName": "Mhustun Hall"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 8510,
+                "NameSeed": 6515,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27550,
-                "BuildingType": 18,
-                "Quality": 13
+                "LocationId": 27307,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 20709,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 27307,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 31587,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 27307,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 31587,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 27307,
+                "BuildingType": "House1",
+                "Quality": 7
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Cyujer Farmstead",
-            "MapId": 293000000492,
+            "AnotherName": "Mhustun Hall",
+            "MapId": 423378,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA08.RMB"
+                "MANRBS00.RMB"
             ]
         }
     },
@@ -68,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

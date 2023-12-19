@@ -1,145 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Osopaisa",
+    "Name": "The Baeght Cemetery",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 325000000460,
-        "Latitude": 77600,
-        "Longitude": 58920,
-        "LocationType": 2,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16777216
+        "MapId": 164018199,
+        "Latitude": 7592,
+        "Longitude": 43944,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15087616,
-                "Y": 10661889,
+                "X": 11253760,
+                "Y": 1947649,
                 "IsExterior": 32768,
-                "Unknown2": 71,
-                "LocationId": 27187,
+                "Unknown2": 156,
+                "LocationId": 27786,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Osopaisa"
+                "LocationName": "The Baeght Cemetery"
             }
         },
-        "BuildingCount": 9,
-        "Buildings": [
-            {
-                "NameSeed": 17823,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 27187,
-                "BuildingType": 9,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 16688,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 27187,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 32592,
-                "FactionId": 0,
-                "Sector": 19,
-                "LocationId": 27187,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 13825,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 27187,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 6318,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 27187,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 20090,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 27187,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 10054,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 27187,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 22710,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 27187,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 5830,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 27187,
-                "BuildingType": 18,
-                "Quality": 6
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Osopaisa",
-            "MapId": 325000000460,
+            "AnotherName": "The Baeght Cemetery",
+            "MapId": 440343,
             "LocationId": 0,
             "Width": 1,
-            "Height": 2,
+            "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GENRBS01.RMB",
-                "RESIBS02.RMB"
+                "GRVEAS29.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 11253760,
+                "Y": 1947649,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 80,
+                "LocationId": 27787,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27786,
+                "LocationName": "The Baeght Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

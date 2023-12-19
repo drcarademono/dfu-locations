@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Dwarf and Barbarian Inn",
+    "Name": "The Vojetor Web",
     "RegionName": "Tigonus",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 364000000593,
-        "Latitude": 72616,
-        "Longitude": 75944,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 137697023,
+        "Latitude": 21288,
+        "Longitude": 72616,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "SpiderNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19445760,
-                "Y": 11941889,
+                "X": 18593792,
+                "Y": 5453825,
                 "IsExterior": 32768,
-                "Unknown2": 68,
-                "LocationId": 23742,
+                "Unknown2": 131,
+                "LocationId": 24157,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dwarf and Barbarian Inn"
+                "LocationName": "The Vojetor Web"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 25431,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 23742,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 6615,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 23742,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 25597,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 23742,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 30837,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 23742,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 6709,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 23742,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 15373,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 23742,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 3747,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 23742,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 13635,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 23742,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 3425,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 23742,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 7397,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 23742,
-                "BuildingType": 19,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 233,
-                "FactionId": 0,
-                "Sector": 93,
-                "LocationId": 23742,
-                "BuildingType": 19,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "25431",
-            "MapId": 364000000593,
+            "AnotherName": "The Vojetor Web",
+            "MapId": 333567,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS05.RMB"
+                "DUNGAA16.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 18593792,
+                "Y": 5453825,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 29,
+                "LocationId": 24158,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24157,
+                "LocationName": "The Vojetor Web"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000019.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

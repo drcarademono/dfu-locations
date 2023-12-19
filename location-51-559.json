@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Crimson Porcupine Inn",
+    "Name": "The Kerp Farmstead",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 224000000725,
-        "Latitude": 90536,
-        "Longitude": 92840,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 586514819,
+        "Latitude": 17832,
+        "Longitude": 106920,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23771136,
-                "Y": 7354369,
+                "X": 27375616,
+                "Y": 4569089,
                 "IsExterior": 32768,
-                "Unknown2": 781,
-                "LocationId": 25747,
+                "Unknown2": 559,
+                "LocationId": 25159,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Crimson Porcupine Inn"
+                "LocationName": "The Kerp Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 25107,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 25747,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 9279,
+                "NameSeed": 13510,
                 "FactionId": 0,
-                "Sector": 21,
-                "LocationId": 25747,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 2992,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 25747,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 6774,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 25747,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 29485,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 25747,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 9649,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 25747,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 15389,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 25747,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 30724,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 25747,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 3277,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 25747,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 13188,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 25747,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 10592,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 25747,
-                "BuildingType": 18,
+                "Sector": 10,
+                "LocationId": 25159,
+                "BuildingType": "House2",
                 "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "25107",
-            "MapId": 224000000725,
+            "AnotherName": "The Kerp Farmstead",
+            "MapId": 360835,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS03.RMB"
+                "FARMAA00.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

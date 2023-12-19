@@ -1,161 +1,80 @@
 {
     "Loaded": true,
-    "Name": "Yeomhouse's Guard",
+    "Name": "The Old Mastering Place",
     "RegionName": "Ykalon",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 758000000486,
-        "Latitude": 22184,
-        "Longitude": 62248,
-        "LocationType": 7,
-        "DungeonType": 12,
-        "Discovered": false,
-        "Key": 2048
+        "MapId": 504404394,
+        "Latitude": 58920,
+        "Longitude": 43304,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15939584,
-                "Y": 24852481,
+                "X": 11089920,
+                "Y": 15087617,
                 "IsExterior": 32768,
-                "Unknown2": 379,
-                "LocationId": 11549,
+                "Unknown2": 481,
+                "LocationId": 11996,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Yeomhouse's Guard"
+                "LocationName": "The Old Mastering Place"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 5587,
-                "FactionId": 510,
+                "NameSeed": 7070,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 11549,
-                "BuildingType": 0,
+                "LocationId": 11996,
+                "BuildingType": "House3",
                 "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Yeomhouse's Guard",
-            "MapId": 758000000486,
+            "AnotherName": "The Old Mastering Place",
+            "MapId": 39338,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA02.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 9582592,
-                "Y": 15349761,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 88,
-                "LocationId": 11550,
-                "IsInterior": 1,
-                "ExteriorLocationId": 11549,
-                "LocationName": "Yeomhouse's Guard"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000071.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000027.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000053.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
-        "NatureArchive": 508,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

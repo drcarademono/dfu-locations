@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Kinghart's Hold",
+    "Name": "The Tower of Woodwing",
     "RegionName": "Daggerfall",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 670000000363,
-        "Latitude": 33448,
-        "Longitude": 46504,
-        "LocationType": 7,
-        "DungeonType": 9,
+        "MapId": 653443004,
+        "Latitude": 40872,
+        "Longitude": 20008,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "RuinedCastle",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11909120,
-                "Y": 21968897,
+                "X": 5126144,
+                "Y": 10467329,
                 "IsExterior": 32768,
-                "Unknown2": 423,
-                "LocationId": 19844,
+                "Unknown2": 623,
+                "LocationId": 20307,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kinghart's Hold"
+                "LocationName": "The Tower of Woodwing"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Kinghart's Hold",
-            "MapId": 670000000363,
+            "AnotherName": "The Tower of Woodwing",
+            "MapId": 180156,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA27.RMB"
+                "DUNGAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 7518208,
-                "Y": 10827777,
+                "X": 5126144,
+                "Y": 10467329,
                 "IsExterior": 0,
-                "Unknown2": 77,
-                "LocationId": 19845,
+                "Unknown2": 116,
+                "LocationId": 20308,
                 "IsInterior": 1,
-                "ExteriorLocationId": 19844,
-                "LocationName": "Kinghart's Hold"
+                "ExteriorLocationId": 20307,
+                "LocationName": "The Tower of Woodwing"
             }
         },
         "Header": {
@@ -57,39 +57,15 @@
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "N0000020.RDB",
+                "BlockName": "W0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000006.RDB",
@@ -97,72 +73,40 @@
                 "CastleBlock": false
             },
             {
-                "X": 1,
+                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "W0000009.RDB",
+                "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
                 "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
                 "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000028.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000084.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

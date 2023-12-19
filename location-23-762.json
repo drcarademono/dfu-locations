@@ -1,50 +1,41 @@
 {
     "Loaded": true,
-    "Name": "Old Vannyssa's Hovel",
+    "Name": "Djen Lodge",
     "RegionName": "Wayrest",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 321000000896,
-        "Latitude": 78120,
-        "Longitude": 114728,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 799271812,
+        "Latitude": 31144,
+        "Longitude": 115240,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29374464,
-                "Y": 10532865,
+                "X": 29505536,
+                "Y": 7976961,
                 "IsExterior": 32768,
-                "Unknown2": 153,
-                "LocationId": 21424,
+                "Unknown2": 762,
+                "LocationId": 22588,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Vannyssa's Hovel"
+                "LocationName": "Djen Lodge"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 26479,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 21424,
-                "BuildingType": 19,
-                "Quality": 4
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Vannyssa's Hovel",
-            "MapId": 321000000896,
+            "AnotherName": "Djen Lodge",
+            "MapId": 256900,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 2,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -68,13 +59,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

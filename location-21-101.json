@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Hearthham Plantation",
+    "Name": "Greening Manor",
     "RegionName": "Anticlere",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 566000000559,
+        "MapId": 106040551,
         "Latitude": 46760,
-        "Longitude": 71592,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "Longitude": 48040,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18331648,
-                "Y": 18561025,
+                "X": 12302336,
+                "Y": 11974657,
                 "IsExterior": 32768,
-                "Unknown2": 514,
-                "LocationId": 19405,
+                "Unknown2": 101,
+                "LocationId": 17877,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hearthham Plantation"
+                "LocationName": "Greening Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 23608,
+                "NameSeed": 7416,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 19405,
-                "BuildingType": 18,
-                "Quality": 15
+                "LocationId": 17877,
+                "BuildingType": "House1",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 145,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 17877,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 14172,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 17877,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 4052,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 17877,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 9735,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 17877,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 25520,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 17877,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 14538,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 17877,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 21333,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 17877,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 11383,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 17877,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 10998,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 17877,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 8294,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 17877,
+                "BuildingType": "Tavern",
+                "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Hearthham Plantation",
-            "MapId": 566000000559,
+            "AnotherName": "Greening Manor",
+            "MapId": 134375,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA04.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

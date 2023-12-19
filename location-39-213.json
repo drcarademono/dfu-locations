@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Old Woodsmith Hovel",
+    "Name": "The Hawkhart Farmstead",
     "RegionName": "Urvaius",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 650000000602,
-        "Latitude": 36008,
-        "Longitude": 77096,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 223458105,
+        "Latitude": 49704,
+        "Longitude": 53416,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19740672,
-                "Y": 21313537,
+                "X": 13678592,
+                "Y": 12728321,
                 "IsExterior": 32768,
-                "Unknown2": 65,
-                "LocationId": 13626,
+                "Unknown2": 213,
+                "LocationId": 16590,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Woodsmith Hovel"
+                "LocationName": "The Hawkhart Farmstead"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 2849,
+                "NameSeed": 6249,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 13626,
-                "BuildingType": 19,
-                "Quality": 7
+                "LocationId": 16590,
+                "BuildingType": "House2",
+                "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Woodsmith Hovel",
-            "MapId": 650000000602,
+            "AnotherName": "The Hawkhart Farmstead",
+            "MapId": 111417,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 167,
     "RegionIndex": 39,

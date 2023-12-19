@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Masterton Farmstead",
+    "Name": "The Hearthham Vaults",
     "RegionName": "Bhoriane",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 512000000752,
-        "Latitude": 53672,
-        "Longitude": 96296,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 11625967,
+        "Latitude": 52264,
+        "Longitude": 80808,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24655872,
-                "Y": 16791553,
+                "X": 20690944,
+                "Y": 13383681,
                 "IsExterior": 32768,
-                "Unknown2": 91,
-                "LocationId": 16613,
+                "Unknown2": 11,
+                "LocationId": 15289,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Masterton Farmstead"
+                "LocationName": "The Hearthham Vaults"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 14537,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 16613,
-                "BuildingType": 18,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Masterton Farmstead",
-            "MapId": 512000000752,
+            "AnotherName": "The Hearthham Vaults",
+            "MapId": 91631,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 2,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "GRVEAS10.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 20690944,
+                "Y": 13383681,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 4,
+                "LocationId": 15290,
+                "IsInterior": 1,
+                "ExteriorLocationId": 15289,
+                "LocationName": "The Hearthham Vaults"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 164,
     "RegionIndex": 36,

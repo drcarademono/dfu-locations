@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Old Gaersly Hovel",
+    "Name": "The Moorsley Farmstead",
     "RegionName": "Alcaire",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 482000000819,
-        "Latitude": 57512,
-        "Longitude": 104872,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 122817093,
+        "Latitude": 46888,
+        "Longitude": 89768,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26851328,
-                "Y": 15808513,
+                "X": 22984704,
+                "Y": 12007425,
                 "IsExterior": 32768,
-                "Unknown2": 29,
-                "LocationId": 16054,
+                "Unknown2": 117,
+                "LocationId": 17830,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Gaersly Hovel"
+                "LocationName": "The Moorsley Farmstead"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 24659,
+                "NameSeed": 13709,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 16054,
-                "BuildingType": 19,
+                "LocationId": 17830,
+                "BuildingType": "House2",
                 "Quality": 6
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Gaersly Hovel",
-            "MapId": 482000000819,
+            "AnotherName": "The Moorsley Farmstead",
+            "MapId": 133701,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 0,
+            "PortTownAndUnknown": 2,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 162,
     "RegionIndex": 34,

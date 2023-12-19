@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Black Castle Hostel",
+    "Name": "Ruins of The Vlorcun Farmstead",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 330000000672,
-        "Latitude": 76968,
-        "Longitude": 86056,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 867655111,
+        "Latitude": 2216,
+        "Longitude": 97192,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "Mine",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22034432,
-                "Y": 10827777,
+                "X": 24885248,
+                "Y": 571393,
                 "IsExterior": 32768,
-                "Unknown2": 43,
-                "LocationId": 23478,
+                "Unknown2": 827,
+                "LocationId": 29016,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Black Castle Hostel"
+                "LocationName": "Ruins of The Vlorcun Farmstead"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 22669,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 23478,
-                "BuildingType": 15,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 26179,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 23478,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 12536,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 23478,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 17667,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 23478,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 14646,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 23478,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 13359,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 23478,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 13573,
-                "FactionId": 0,
-                "Sector": 56,
-                "LocationId": 23478,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 11855,
-                "FactionId": 0,
-                "Sector": 64,
-                "LocationId": 23478,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 4564,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 23478,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 28904,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 23478,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 27403,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 23478,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 1367,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 23478,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 32615,
-                "FactionId": 0,
-                "Sector": 85,
-                "LocationId": 23478,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 22597,
-                "FactionId": 0,
-                "Sector": 90,
-                "LocationId": 23478,
-                "BuildingType": 18,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "22669",
-            "MapId": 330000000672,
+            "AnotherName": "Ruins of The Vlorcun Farmstead",
+            "MapId": 482759,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS01.RMB"
+                "RUINAA25.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 24885248,
+                "Y": 571393,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 281,
+                "LocationId": 29017,
+                "IsInterior": 1,
+                "ExteriorLocationId": 29016,
+                "LocationName": "Ruins of The Vlorcun Farmstead"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

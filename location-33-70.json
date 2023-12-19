@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Old Hearthford Place",
+    "Name": "Old Chrystona's Farm",
     "RegionName": "Menevia",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 353000000841,
-        "Latitude": 74024,
-        "Longitude": 107688,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 73571137,
+        "Latitude": 42152,
+        "Longitude": 104616,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 27572224,
-                "Y": 11581441,
+                "X": 26785792,
+                "Y": 10795009,
                 "IsExterior": 32768,
-                "Unknown2": 170,
-                "LocationId": 21372,
+                "Unknown2": 70,
+                "LocationId": 19925,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Hearthford Place"
+                "LocationName": "Old Chrystona's Farm"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 9772,
+                "NameSeed": 24321,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 21372,
-                "BuildingType": 19,
-                "Quality": 8
+                "LocationId": 19925,
+                "BuildingType": "House1",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Hearthford Place",
-            "MapId": 353000000841,
+            "AnotherName": "Old Chrystona's Farm",
+            "MapId": 170817,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA09.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 161,
     "RegionIndex": 33,

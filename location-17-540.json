@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Hold of Buckingston",
+    "Name": "Yeten's Web",
     "RegionName": "Daggerfall",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 664000000290,
-        "Latitude": 34216,
-        "Longitude": 37160,
-        "LocationType": 7,
-        "DungeonType": 0,
+        "MapId": 566407170,
+        "Latitude": 41384,
+        "Longitude": 16680,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "SpiderNest",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 9517056,
-                "Y": 21772289,
+                "X": 4274176,
+                "Y": 10598401,
                 "IsExterior": 32768,
-                "Unknown2": 1183,
-                "LocationId": 21604,
+                "Unknown2": 540,
+                "LocationId": 20139,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hold of Buckingston"
+                "LocationName": "Yeten's Web"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Hold of Buckingston",
-            "MapId": 664000000290,
+            "AnotherName": "Yeten's Web",
+            "MapId": 176130,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA22.RMB"
+                "DUNGAA16.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 5552128,
-                "Y": 9484289,
+                "X": 4274176,
+                "Y": 10598401,
                 "IsExterior": 0,
-                "Unknown2": 233,
-                "LocationId": 21605,
+                "Unknown2": 93,
+                "LocationId": 20140,
                 "IsInterior": 1,
-                "ExteriorLocationId": 21604,
-                "LocationName": "The Hold of Buckingston"
+                "ExteriorLocationId": 20139,
+                "LocationName": "Yeten's Web"
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000040.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": -1,
-                "Z": 0,
+                "X": 0,
+                "Z": -1,
                 "IsStartingBlock": false,
                 "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "W0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
                 "IsStartingBlock": false,
                 "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
@@ -114,14 +82,6 @@
             },
             {
                 "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000090.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000006.RDB",
@@ -129,10 +89,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 2,
-                "Z": -1,
+                "X": 0,
+                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -140,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

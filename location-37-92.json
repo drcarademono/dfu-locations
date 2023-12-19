@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Old Ashhouse Shack",
+    "Name": "The Masterham Plantation",
     "RegionName": "Kambria",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 558000000707,
-        "Latitude": 47784,
-        "Longitude": 90536,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 96531561,
+        "Latitude": 55976,
+        "Longitude": 72872,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23181312,
-                "Y": 18298881,
+                "X": 18659328,
+                "Y": 14333953,
                 "IsExterior": 32768,
-                "Unknown2": 295,
-                "LocationId": 15465,
+                "Unknown2": 92,
+                "LocationId": 13354,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old Ashhouse Shack"
+                "LocationName": "The Masterham Plantation"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 21035,
+                "NameSeed": 22575,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 15465,
-                "BuildingType": 19,
-                "Quality": 3
+                "LocationId": 13354,
+                "BuildingType": "House2",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old Ashhouse Shack",
-            "MapId": 558000000707,
+            "AnotherName": "The Masterham Plantation",
+            "MapId": 62569,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 165,
     "RegionIndex": 37,

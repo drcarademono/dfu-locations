@@ -1,115 +1,82 @@
 {
     "Loaded": true,
-    "Name": "Syruria",
+    "Name": "The Red Giant Tavern",
     "RegionName": "Alik'r Desert",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 319000000342,
-        "Latitude": 78376,
-        "Longitude": 43808,
-        "LocationType": 2,
-        "DungeonType": 255,
+        "MapId": 154578056,
+        "Latitude": 7976,
+        "Longitude": 49192,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 16777472
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11218944,
-                "Y": 10467329,
+                "X": 12597248,
+                "Y": 2045953,
                 "IsExterior": 32768,
-                "Unknown2": 274,
-                "LocationId": 29038,
+                "Unknown2": 147,
+                "LocationId": 27706,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Syruria"
+                "LocationName": "The Red Giant Tavern"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 5,
         "Buildings": [
             {
-                "NameSeed": 22762,
+                "NameSeed": 14479,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 29038,
-                "BuildingType": 18,
-                "Quality": 15
+                "LocationId": 27706,
+                "BuildingType": "House2",
+                "Quality": 7
             },
             {
-                "NameSeed": 4559,
+                "NameSeed": 5495,
                 "FactionId": 0,
-                "Sector": 7,
-                "LocationId": 29038,
-                "BuildingType": 18,
-                "Quality": 9
+                "Sector": 9,
+                "LocationId": 27706,
+                "BuildingType": "House2",
+                "Quality": 12
             },
             {
-                "NameSeed": 14153,
+                "NameSeed": 7346,
                 "FactionId": 0,
                 "Sector": 14,
-                "LocationId": 29038,
-                "BuildingType": 18,
-                "Quality": 5
+                "LocationId": 27706,
+                "BuildingType": "House2",
+                "Quality": 12
             },
             {
-                "NameSeed": 20070,
+                "NameSeed": 11100,
                 "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 29038,
-                "BuildingType": 20,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 8851,
-                "FactionId": 510,
-                "Sector": 39,
-                "LocationId": 29038,
-                "BuildingType": 15,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 23357,
-                "FactionId": 0,
-                "Sector": 53,
-                "LocationId": 29038,
-                "BuildingType": 20,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 7531,
-                "FactionId": 0,
-                "Sector": 74,
-                "LocationId": 29038,
-                "BuildingType": 20,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 9281,
-                "FactionId": 0,
-                "Sector": 95,
-                "LocationId": 29038,
-                "BuildingType": 18,
+                "Sector": 18,
+                "LocationId": 27706,
+                "BuildingType": "House2",
                 "Quality": 11
             },
             {
-                "NameSeed": 3979,
+                "NameSeed": 1634,
                 "FactionId": 510,
-                "Sector": 98,
-                "LocationId": 29038,
-                "BuildingType": 9,
-                "Quality": 12
+                "Sector": 23,
+                "LocationId": 27706,
+                "BuildingType": "Tavern",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Syruria",
-            "MapId": 319000000342,
+            "AnotherName": "1634",
+            "MapId": 437384,
             "LocationId": 0,
-            "Width": 2,
+            "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RESIBS03.RMB",
-                "GENRBS00.RMB"
+                "TVRNBS01.RMB"
             ]
         }
     },
@@ -133,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

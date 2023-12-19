@@ -1,41 +1,178 @@
 {
     "Loaded": true,
-    "Name": "Reliquary of Raen",
+    "Name": "Blessed Rebirth of Zenithar",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 235000000754,
-        "Latitude": 89128,
-        "Longitude": 96552,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 705010823,
+        "Latitude": 16936,
+        "Longitude": 96168,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 128
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24721408,
-                "Y": 7714817,
+                "X": 24623104,
+                "Y": 4339713,
                 "IsExterior": 32768,
-                "Unknown2": 400,
-                "LocationId": 24789,
+                "Unknown2": 672,
+                "LocationId": 25448,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Reliquary of Raen"
+                "LocationName": "Blessed Rebirth of Zenithar"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 17,
+        "Buildings": [
+            {
+                "NameSeed": 29911,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 25448,
+                "BuildingType": "House3",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 12797,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 15308,
+                "FactionId": 0,
+                "Sector": 13,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 16512,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 18204,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 25448,
+                "BuildingType": "House3",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 18070,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 9022,
+                "FactionId": 0,
+                "Sector": 43,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 29890,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 29911,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 12797,
+                "FactionId": 0,
+                "Sector": 65,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 15308,
+                "FactionId": 0,
+                "Sector": 75,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 16512,
+                "FactionId": 0,
+                "Sector": 83,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 18204,
+                "FactionId": 0,
+                "Sector": 87,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 18070,
+                "FactionId": 0,
+                "Sector": 90,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 9022,
+                "FactionId": 0,
+                "Sector": 100,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 29890,
+                "FactionId": 0,
+                "Sector": 113,
+                "LocationId": 25448,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 6377,
+                "FactionId": 22,
+                "Sector": 121,
+                "LocationId": 25448,
+                "BuildingType": "Temple",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Reliquary of Raen",
-            "MapId": 235000000754,
+            "AnotherName": "Blessed Rebirth of Zenithar",
+            "MapId": 367751,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "TEMPAAB0.RMB"
             ]
         }
     },
@@ -59,13 +196,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

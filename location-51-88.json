@@ -1,176 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Glarmer's Hold",
+    "Name": "The White Dagger Pub",
     "RegionName": "Totambu",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 153000000869,
-        "Latitude": 99624,
-        "Longitude": 111272,
-        "LocationType": 7,
-        "DungeonType": 0,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 92603443,
+        "Latitude": 21928,
+        "Longitude": 96680,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28489728,
-                "Y": 5027841,
+                "X": 24754176,
+                "Y": 5617665,
                 "IsExterior": 32768,
-                "Unknown2": 619,
-                "LocationId": 25294,
+                "Unknown2": 88,
+                "LocationId": 24027,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Glarmer's Hold"
+                "LocationName": "The White Dagger Pub"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 10832,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 24027,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 32496,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 24027,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 30930,
+                "FactionId": 0,
+                "Sector": 31,
+                "LocationId": 24027,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 7073,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 24027,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 26951,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 24027,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 16762,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 24027,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 26349,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 24027,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 18861,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 24027,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 9816,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 24027,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 3619,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 24027,
+                "BuildingType": "House3",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 9112,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 24027,
+                "BuildingType": "House3",
+                "Quality": 15
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Glarmer's Hold",
-            "MapId": 153000000869,
+            "AnotherName": "10832",
+            "MapId": 328755,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA27.RMB"
+                "TVRNAS05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 30357504,
-                "Y": 4470785,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 167,
-                "LocationId": 25295,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25294,
-                "LocationName": "Glarmer's Hold"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 13
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -3,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000020.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000088.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000029.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

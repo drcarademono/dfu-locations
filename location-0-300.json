@@ -1,112 +1,96 @@
 {
     "Loaded": true,
-    "Name": "THe Crypts of B'ugten",
+    "Name": "The Rat and Castle Lodge",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 387000000322,
-        "Latitude": 69672,
-        "Longitude": 41256,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 315063105,
+        "Latitude": 1192,
+        "Longitude": 39080,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10565632,
-                "Y": 12695553,
+                "X": 10008576,
+                "Y": 309249,
                 "IsExterior": 32768,
-                "Unknown2": 135,
-                "LocationId": 27635,
+                "Unknown2": 300,
+                "LocationId": 29238,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "THe Crypts of B'ugten"
+                "LocationName": "The Rat and Castle Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 3,
+        "Buildings": [
+            {
+                "NameSeed": 3213,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 29238,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 2781,
+                "FactionId": 510,
+                "Sector": 11,
+                "LocationId": 29238,
+                "BuildingType": "House1",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 9943,
+                "FactionId": 510,
+                "Sector": 24,
+                "LocationId": 29238,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "THe Crypts of B'ugten",
-            "MapId": 387000000322,
+            "AnotherName": "9943",
+            "MapId": 490305,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS20.RMB"
+                "TVRNBS03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 10991616,
-                "Y": 2144257,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 68,
-                "LocationId": 27636,
-                "IsInterior": 1,
-                "ExteriorLocationId": 27635,
-                "LocationName": "THe Crypts of B'ugten"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

@@ -1,55 +1,55 @@
 {
     "Loaded": true,
-    "Name": "Castle Hearthcroft",
+    "Name": "Castle Ashham",
     "RegionName": "Shalgora",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 632000000446,
-        "Latitude": 38312,
-        "Longitude": 57128,
-        "LocationType": 7,
-        "DungeonType": 4,
+        "MapId": 69336290,
+        "Latitude": 47272,
+        "Longitude": 35112,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "NaturalCave",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14628864,
-                "Y": 20723713,
+                "X": 8992768,
+                "Y": 12105729,
                 "IsExterior": 32768,
-                "Unknown2": 162,
-                "LocationId": 19324,
+                "Unknown2": 66,
+                "LocationId": 17635,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle Hearthcroft"
+                "LocationName": "Castle Ashham"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Castle Hearthcroft",
-            "MapId": 632000000446,
+            "AnotherName": "Castle Ashham",
+            "MapId": 130274,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA17.RMB"
+                "CASTAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 10500096,
-                "Y": 11122689,
+                "X": 8992768,
+                "Y": 12105729,
                 "IsExterior": 0,
-                "Unknown2": 38,
-                "LocationId": 19325,
+                "Unknown2": 18,
+                "LocationId": 17636,
                 "IsInterior": 1,
-                "ExteriorLocationId": 19324,
-                "LocationName": "Castle Hearthcroft"
+                "ExteriorLocationId": 17635,
+                "LocationName": "Castle Ashham"
             }
         },
         "Header": {
@@ -57,7 +57,23 @@
         },
         "Blocks": [
             {
-                "X": -2,
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
                 "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000000.RDB",
@@ -65,72 +81,32 @@
                 "CastleBlock": false
             },
             {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000067.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000083.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 170,
     "RegionIndex": 42,

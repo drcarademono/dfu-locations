@@ -1,50 +1,170 @@
 {
     "Loaded": true,
-    "Name": "Old Ysyrrya's Farm",
+    "Name": "Perpetual Soul of Dibella",
     "RegionName": "Koegria",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 496000000767,
-        "Latitude": 55720,
-        "Longitude": 98216,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 9485858,
+        "Latitude": 57768,
+        "Longitude": 86312,
+        "LocationType": "ReligionTemple",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 4
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25147392,
-                "Y": 16267265,
+                "X": 22099968,
+                "Y": 14792705,
                 "IsExterior": 32768,
-                "Unknown2": 119,
-                "LocationId": 16961,
+                "Unknown2": 9,
+                "LocationId": 12541,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Ysyrrya's Farm"
+                "LocationName": "Perpetual Soul of Dibella"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 16,
         "Buildings": [
             {
-                "NameSeed": 25752,
-                "FactionId": 0,
+                "NameSeed": 19588,
+                "FactionId": 29,
                 "Sector": 4,
-                "LocationId": 16961,
-                "BuildingType": 18,
+                "LocationId": 12541,
+                "BuildingType": "Temple",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 24554,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 12541,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 25243,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 12541,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 12649,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 12541,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 11061,
+                "FactionId": 0,
+                "Sector": 43,
+                "LocationId": 12541,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 30835,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 12541,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 1006,
+                "FactionId": 0,
+                "Sector": 67,
+                "LocationId": 12541,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 26740,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 12541,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 30983,
+                "FactionId": 0,
+                "Sector": 93,
+                "LocationId": 12541,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 27983,
+                "FactionId": 0,
+                "Sector": 105,
+                "LocationId": 12541,
+                "BuildingType": "House2",
                 "Quality": 9
+            },
+            {
+                "NameSeed": 10746,
+                "FactionId": 510,
+                "Sector": 111,
+                "LocationId": 12541,
+                "BuildingType": "HouseForSale",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 6438,
+                "FactionId": 0,
+                "Sector": 117,
+                "LocationId": 12541,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 11758,
+                "FactionId": 0,
+                "Sector": 122,
+                "LocationId": 12541,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 5379,
+                "FactionId": 0,
+                "Sector": 126,
+                "LocationId": 12541,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 10303,
+                "FactionId": 0,
+                "Sector": 133,
+                "LocationId": 12541,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 18627,
+                "FactionId": 510,
+                "Sector": 145,
+                "LocationId": 12541,
+                "BuildingType": "HouseForSale",
+                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Ysyrrya's Farm",
-            "MapId": 496000000767,
+            "AnotherName": "Perpetual Soul of Dibella",
+            "MapId": 48674,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA06.RMB"
+                "TEMPAAE0.RMB"
             ]
         }
     },
@@ -67,14 +187,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
-        "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 163,
     "RegionIndex": 35,

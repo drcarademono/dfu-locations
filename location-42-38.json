@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Kinging Court",
+    "Name": "The Hearthsley Farmstead",
     "RegionName": "Shalgora",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 613000000440,
-        "Latitude": 40744,
-        "Longitude": 56360,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 39962191,
+        "Latitude": 49064,
+        "Longitude": 38824,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14432256,
-                "Y": 20101121,
+                "X": 9943040,
+                "Y": 12564481,
                 "IsExterior": 32768,
-                "Unknown2": 191,
-                "LocationId": 20327,
+                "Unknown2": 38,
+                "LocationId": 16891,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kinging Court"
+                "LocationName": "The Hearthsley Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 28126,
+                "NameSeed": 921,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 20327,
-                "BuildingType": 17,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 9223,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 20327,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 22280,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 20327,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 10911,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 20327,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 10739,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 20327,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 7758,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 20327,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 6108,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 20327,
-                "BuildingType": 18,
+                "LocationId": 16891,
+                "BuildingType": "House2",
                 "Quality": 9
-            },
-            {
-                "NameSeed": 27511,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 20327,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 5978,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 20327,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 29870,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 20327,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 19772,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 20327,
-                "BuildingType": 15,
-                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Kinging Court",
-            "MapId": 613000000440,
+            "AnotherName": "The Hearthsley Farmstead",
+            "MapId": 116303,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "FARMAA05.RMB"
             ]
         }
     },
@@ -147,14 +67,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
-        "NatureArchive": 504,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 170,
     "RegionIndex": 42,

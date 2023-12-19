@@ -1,112 +1,176 @@
 {
     "Loaded": true,
-    "Name": "The Wicksley Graveyard",
+    "Name": "The Silver Goat Inn",
     "RegionName": "Daggerfall",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 737000000250,
-        "Latitude": 24872,
-        "Longitude": 32040,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 1369663471,
+        "Latitude": 35368,
+        "Longitude": 27560,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8206336,
-                "Y": 24164353,
+                "X": 7059456,
+                "Y": 9058305,
                 "IsExterior": 32768,
-                "Unknown2": 370,
-                "LocationId": 19719,
+                "Unknown2": 1306,
+                "LocationId": 22031,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Wicksley Graveyard"
+                "LocationName": "The Silver Goat Inn"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 15661,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 22031,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 15155,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 22031,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 26628,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 22031,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 27002,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 22031,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 28624,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 22031,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 29849,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 22031,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 21227,
+                "FactionId": 0,
+                "Sector": 73,
+                "LocationId": 22031,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 12475,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 22031,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 12415,
+                "FactionId": 0,
+                "Sector": 83,
+                "LocationId": 22031,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 26548,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 22031,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 22386,
+                "FactionId": 0,
+                "Sector": 94,
+                "LocationId": 22031,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 26657,
+                "FactionId": 0,
+                "Sector": 100,
+                "LocationId": 22031,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 16959,
+                "FactionId": 0,
+                "Sector": 110,
+                "LocationId": 22031,
+                "BuildingType": "House2",
+                "Quality": 13
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Wicksley Graveyard",
-            "MapId": 737000000250,
+            "AnotherName": "15661",
+            "MapId": 223215,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS28.RMB"
+                "TVRNAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 3225600,
-                "Y": 10893313,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 66,
-                "LocationId": 19720,
-                "IsInterior": 1,
-                "ExteriorLocationId": 19719,
-                "LocationName": "The Wicksley Graveyard"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

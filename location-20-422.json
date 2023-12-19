@@ -1,66 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Thirsty Fawn Pub",
+    "Name": "The T'orkt Cabin",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 429000000390,
-        "Latitude": 64296,
-        "Longitude": 49960,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 442899468,
+        "Latitude": 12712,
+        "Longitude": 50728,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12793856,
-                "Y": 14071809,
+                "X": 12990464,
+                "Y": 3258369,
                 "IsExterior": 32768,
-                "Unknown2": 64,
-                "LocationId": 25305,
+                "Unknown2": 422,
+                "LocationId": 26619,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Thirsty Fawn Pub"
+                "LocationName": "The T'orkt Cabin"
             }
         },
-        "BuildingCount": 3,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 28754,
+                "NameSeed": 27319,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25305,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 27490,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 25305,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 2641,
-                "FactionId": 510,
-                "Sector": 20,
-                "LocationId": 25305,
-                "BuildingType": 15,
-                "Quality": 9
+                "LocationId": 26619,
+                "BuildingType": "House3",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "2641",
-            "MapId": 429000000390,
+            "AnotherName": "The T'orkt Cabin",
+            "MapId": 400396,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS04.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -84,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

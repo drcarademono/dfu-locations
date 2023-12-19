@@ -1,146 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Glevam Hall",
+    "Name": "The Old Therden Hovel",
     "RegionName": "Lainlyn",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 307000000761,
-        "Latitude": 79912,
-        "Longitude": 97448,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 146045776,
+        "Latitude": 26408,
+        "Longitude": 91176,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 24950784,
-                "Y": 10074113,
+                "X": 23345152,
+                "Y": 6764545,
                 "IsExterior": 32768,
-                "Unknown2": 57,
-                "LocationId": 22867,
+                "Unknown2": 139,
+                "LocationId": 23049,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Glevam Hall"
+                "LocationName": "The Old Therden Hovel"
             }
         },
-        "BuildingCount": 13,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 26419,
+                "NameSeed": 16216,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 22867,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 7906,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 22867,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 317,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 22867,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 7114,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 22867,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 2867,
-                "FactionId": 0,
-                "Sector": 28,
-                "LocationId": 22867,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 23884,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 22867,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 2184,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 22867,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 15116,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 22867,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 13807,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 22867,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 29136,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 22867,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 23051,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 22867,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 25799,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 22867,
-                "BuildingType": 15,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 19596,
-                "FactionId": 0,
-                "Sector": 82,
-                "LocationId": 22867,
-                "BuildingType": 17,
-                "Quality": 5
+                "LocationId": 23049,
+                "BuildingType": "House3",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Glevam Hall",
-            "MapId": 307000000761,
+            "AnotherName": "The Old Therden Hovel",
+            "MapId": 293712,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS01.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -164,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

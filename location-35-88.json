@@ -1,114 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Ashston Palace",
+    "Name": "The Greenton Farmstead",
     "RegionName": "Koegria",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 529000000803,
-        "Latitude": 51496,
-        "Longitude": 102824,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 92368354,
+        "Latitude": 52008,
+        "Longitude": 85288,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26327040,
-                "Y": 17348609,
+                "X": 21837824,
+                "Y": 13318145,
                 "IsExterior": 32768,
-                "Unknown2": 40,
-                "LocationId": 13898,
+                "Unknown2": 88,
+                "LocationId": 15413,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ashston Palace"
+                "LocationName": "The Greenton Farmstead"
             }
         },
-        "BuildingCount": 9,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 30360,
+                "NameSeed": 13514,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 13898,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 24467,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 13898,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 16102,
-                "FactionId": 0,
-                "Sector": 22,
-                "LocationId": 13898,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 23009,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 13898,
-                "BuildingType": 19,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 30173,
-                "FactionId": 0,
-                "Sector": 36,
-                "LocationId": 13898,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 10439,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 13898,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 7135,
-                "FactionId": 0,
-                "Sector": 59,
-                "LocationId": 13898,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 27883,
-                "FactionId": 510,
-                "Sector": 69,
-                "LocationId": 13898,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 27921,
-                "FactionId": 0,
-                "Sector": 86,
-                "LocationId": 13898,
-                "BuildingType": 17,
-                "Quality": 13
+                "LocationId": 15413,
+                "BuildingType": "House2",
+                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Ashston Palace",
-            "MapId": 529000000803,
+            "AnotherName": "The Greenton Farmstead",
+            "MapId": 93666,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS02.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -132,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 163,
     "RegionIndex": 35,

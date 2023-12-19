@@ -1,50 +1,41 @@
 {
     "Loaded": true,
-    "Name": "Old Klishba's Shack",
+    "Name": "Shrine of Mai",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 164000000798,
-        "Latitude": 98216,
-        "Longitude": 102184,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 156571624,
+        "Latitude": 21288,
+        "Longitude": 102440,
+        "LocationType": "ReligionCult",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26163200,
-                "Y": 5388289,
+                "X": 26228736,
+                "Y": 5453825,
                 "IsExterior": 32768,
-                "Unknown2": 881,
-                "LocationId": 26283,
+                "Unknown2": 149,
+                "LocationId": 24169,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Klishba's Shack"
+                "LocationName": "Shrine of Mai"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 18753,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 26283,
-                "BuildingType": 19,
-                "Quality": 14
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Old Klishba's Shack",
-            "MapId": 164000000798,
+            "AnotherName": "Shrine of Mai",
+            "MapId": 333800,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "SHRIAA00.RMB"
             ]
         }
     },
@@ -68,13 +59,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

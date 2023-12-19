@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Old M'ullir Shack",
+    "Name": "The Fox and Goblin Tavern",
     "RegionName": "Mournoth",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 169000000942,
-        "Latitude": 97576,
-        "Longitude": 120616,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 145016441,
+        "Latitude": 23976,
+        "Longitude": 122024,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30881792,
-                "Y": 5552129,
+                "X": 31242240,
+                "Y": 6141953,
                 "IsExterior": 32768,
-                "Unknown2": 144,
-                "LocationId": 23600,
+                "Unknown2": 138,
+                "LocationId": 23574,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Old M'ullir Shack"
+                "LocationName": "The Fox and Goblin Tavern"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 5828,
-                "FactionId": 0,
+                "NameSeed": 5411,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 23600,
-                "BuildingType": 19,
+                "LocationId": 23574,
+                "BuildingType": "Tavern",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 31576,
+                "FactionId": 0,
+                "Sector": 21,
+                "LocationId": 23574,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 9323,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 23574,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 30513,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 23574,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 659,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 23574,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 13077,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 23574,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 277,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 23574,
+                "BuildingType": "House2",
                 "Quality": 6
+            },
+            {
+                "NameSeed": 17517,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 23574,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 27319,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 23574,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 20111,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 23574,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 15670,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 23574,
+                "BuildingType": "House2",
+                "Quality": 11
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Old M'ullir Shack",
-            "MapId": 169000000942,
+            "AnotherName": "5411",
+            "MapId": 312953,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNAS03.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

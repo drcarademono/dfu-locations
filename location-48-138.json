@@ -1,74 +1,74 @@
 {
     "Loaded": true,
-    "Name": "The Knave and Barbarian Lodge",
+    "Name": "Fircem Manor",
     "RegionName": "Tigonus",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 365000000591,
-        "Latitude": 72488,
-        "Longitude": 75688,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 145038034,
+        "Latitude": 21160,
+        "Longitude": 69928,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19380224,
-                "Y": 11974657,
+                "X": 17905664,
+                "Y": 5421057,
                 "IsExterior": 32768,
-                "Unknown2": 67,
-                "LocationId": 23741,
+                "Unknown2": 138,
+                "LocationId": 24194,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Knave and Barbarian Lodge"
+                "LocationName": "Fircem Manor"
             }
         },
         "BuildingCount": 4,
         "Buildings": [
             {
-                "NameSeed": 22062,
+                "NameSeed": 21143,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23741,
-                "BuildingType": 18,
-                "Quality": 6
+                "LocationId": 24194,
+                "BuildingType": "House2",
+                "Quality": 15
             },
             {
-                "NameSeed": 30645,
+                "NameSeed": 8490,
                 "FactionId": 0,
-                "Sector": 11,
-                "LocationId": 23741,
-                "BuildingType": 18,
-                "Quality": 9
+                "Sector": 9,
+                "LocationId": 24194,
+                "BuildingType": "House2",
+                "Quality": 14
             },
             {
-                "NameSeed": 3139,
-                "FactionId": 510,
-                "Sector": 19,
-                "LocationId": 23741,
-                "BuildingType": 1,
+                "NameSeed": 21035,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 24194,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 3879,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 24194,
+                "BuildingType": "House1",
                 "Quality": 4
-            },
-            {
-                "NameSeed": 8650,
-                "FactionId": 510,
-                "Sector": 30,
-                "LocationId": 23741,
-                "BuildingType": 15,
-                "Quality": 8
             }
         ],
         "ExteriorData": {
-            "AnotherName": "8650",
-            "MapId": 365000000591,
+            "AnotherName": "Fircem Manor",
+            "MapId": 334546,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS02.RMB"
+                "MANRGS00.RMB"
             ]
         }
     },
@@ -92,13 +92,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

@@ -1,152 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Homuniamul Shrine",
+    "Name": "The White Priest Hostel",
     "RegionName": "Anticlere",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 576000000565,
-        "Latitude": 45480,
-        "Longitude": 72360,
-        "LocationType": 4,
-        "DungeonType": 4,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 201466067,
+        "Latitude": 46120,
+        "Longitude": 60840,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18528256,
-                "Y": 18888705,
+                "X": 15579136,
+                "Y": 11810817,
                 "IsExterior": 32768,
-                "Unknown2": 338,
-                "LocationId": 18743,
+                "Unknown2": 192,
+                "LocationId": 18228,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Homuniamul Shrine"
+                "LocationName": "The White Priest Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 1812,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 18228,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 32330,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 18228,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 16183,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 18228,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 4453,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 18228,
+                "BuildingType": "House3",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 31175,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 18228,
+                "BuildingType": "House3",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 3812,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 18228,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 17708,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 18228,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 23331,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 18228,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 11873,
+                "FactionId": 510,
+                "Sector": 63,
+                "LocationId": 18228,
+                "BuildingType": "HouseForSale",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 17641,
+                "FactionId": 510,
+                "Sector": 67,
+                "LocationId": 18228,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 16780,
+                "FactionId": 510,
+                "Sector": 84,
+                "LocationId": 18228,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Homuniamul Shrine",
-            "MapId": 576000000565,
+            "AnotherName": "17641",
+            "MapId": 139475,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA15.RMB"
+                "TVRNAS08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 14792704,
-                "Y": 11483137,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 77,
-                "LocationId": 18744,
-                "IsInterior": 1,
-                "ExteriorLocationId": 18743,
-                "LocationName": "The Homuniamul Shrine"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 10
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000088.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000079.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

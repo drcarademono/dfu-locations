@@ -1,41 +1,138 @@
 {
     "Loaded": true,
-    "Name": "Shrine of Bandi",
+    "Name": "The Knave and Huntsman Lodge",
     "RegionName": "Northmoor",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 800000000372,
-        "Latitude": 16808,
-        "Longitude": 47656,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 256949323,
+        "Latitude": 57768,
+        "Longitude": 26024,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12204032,
-                "Y": 26228737,
+                "X": 6666240,
+                "Y": 14792705,
                 "IsExterior": 32768,
-                "Unknown2": 266,
-                "LocationId": 12681,
+                "Unknown2": 245,
+                "LocationId": 12516,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shrine of Bandi"
+                "LocationName": "The Knave and Huntsman Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 12,
+        "Buildings": [
+            {
+                "NameSeed": 19627,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 12516,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 14939,
+                "FactionId": 0,
+                "Sector": 27,
+                "LocationId": 12516,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 10006,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 12516,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 16551,
+                "FactionId": 0,
+                "Sector": 35,
+                "LocationId": 12516,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 17841,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 12516,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 6492,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 12516,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 28775,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 12516,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 17176,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 12516,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 14475,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 12516,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 10378,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 12516,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 1884,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 12516,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 14493,
+                "FactionId": 0,
+                "Sector": 91,
+                "LocationId": 12516,
+                "BuildingType": "House2",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Shrine of Bandi",
-            "MapId": 800000000372,
+            "AnotherName": "19627",
+            "MapId": 48203,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "TVRNAS09.RMB"
             ]
         }
     },
@@ -59,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 160,
     "RegionIndex": 32,

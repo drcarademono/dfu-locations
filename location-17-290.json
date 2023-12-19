@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Copperfield Cemetery",
+    "Name": "Trogker",
     "RegionName": "Daggerfall",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 645000000343,
-        "Latitude": 36648,
-        "Longitude": 43944,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 304250183,
+        "Latitude": 43048,
+        "Longitude": 18344,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "GiantStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 11253760,
-                "Y": 21149697,
+                "X": 4700160,
+                "Y": 11024385,
                 "IsExterior": 32768,
-                "Unknown2": 1004,
-                "LocationId": 21178,
+                "Unknown2": 290,
+                "LocationId": 19492,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Copperfield Cemetery"
+                "LocationName": "Trogker"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Copperfield Cemetery",
-            "MapId": 645000000343,
+            "AnotherName": "Trogker",
+            "MapId": 163143,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS29.RMB"
+                "DUNGAA09.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 7354368,
-                "Y": 9811969,
+                "X": 4700160,
+                "Y": 11024385,
                 "IsExterior": 0,
-                "Unknown2": 197,
-                "LocationId": 21179,
+                "Unknown2": 50,
+                "LocationId": 19493,
                 "IsInterior": 1,
-                "ExteriorLocationId": 21178,
-                "LocationName": "The Copperfield Cemetery"
+                "ExteriorLocationId": 19492,
+                "LocationName": "Trogker"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 13
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000005.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000009.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

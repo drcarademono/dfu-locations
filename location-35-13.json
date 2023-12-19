@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "Helker",
+    "Name": "Grolhoth",
     "RegionName": "Koegria",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 499000000767,
-        "Latitude": 55336,
-        "Longitude": 98216,
-        "LocationType": 4,
-        "DungeonType": 1,
+        "MapId": 13686147,
+        "Latitude": 57000,
+        "Longitude": 84392,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "GiantStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25147392,
-                "Y": 16365569,
+                "X": 21608448,
+                "Y": 14596097,
                 "IsExterior": 32768,
-                "Unknown2": 118,
-                "LocationId": 16868,
+                "Unknown2": 13,
+                "LocationId": 12904,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Helker"
+                "LocationName": "Grolhoth"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Helker",
-            "MapId": 499000000767,
+            "AnotherName": "Grolhoth",
+            "MapId": 54659,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA09.RMB"
+                "DUNGAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 21772288,
-                "Y": 12597249,
+                "X": 21608448,
+                "Y": 14596097,
                 "IsExterior": 0,
-                "Unknown2": 19,
-                "LocationId": 16869,
+                "Unknown2": 4,
+                "LocationId": 12905,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16868,
-                "LocationName": "Helker"
+                "ExteriorLocationId": 12904,
+                "LocationName": "Grolhoth"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 12
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000021.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,15 +68,23 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
                 "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": 1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000091.RDB",
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -87,50 +95,18 @@
                 "BlockName": "B0000007.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000044.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
             }
         ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
-        "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 163,
     "RegionIndex": 35,

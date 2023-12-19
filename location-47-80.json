@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Glavan Vaults",
+    "Name": "The Old F'afyl Place",
     "RegionName": "Ayasofya",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 354000000458,
-        "Latitude": 73896,
-        "Longitude": 58664,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 84268577,
+        "Latitude": 15016,
+        "Longitude": 63656,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15022080,
-                "Y": 11614209,
+                "X": 16300032,
+                "Y": 3848193,
                 "IsExterior": 32768,
-                "Unknown2": 114,
-                "LocationId": 26470,
+                "Unknown2": 80,
+                "LocationId": 26047,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Glavan Vaults"
+                "LocationName": "The Old F'afyl Place"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 23817,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 26047,
+                "BuildingType": "House3",
+                "Quality": 4
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Glavan Vaults",
-            "MapId": 354000000458,
+            "AnotherName": "The Old F'afyl Place",
+            "MapId": 382497,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS41.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 15382528,
-                "Y": 3422209,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 39,
-                "LocationId": 26471,
-                "IsInterior": 1,
-                "ExteriorLocationId": 26470,
-                "LocationName": "The Glavan Vaults"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
-        "NatureArchive": 503,
-        "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "NatureArchive": 501,
+        "SkyBase": 24,
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 175,
     "RegionIndex": 47,

@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Fox and Djinn Pub",
+    "Name": "The Citadel of Copperfield",
     "RegionName": "Dwynnen",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 585000000663,
-        "Latitude": 44328,
-        "Longitude": 84904,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 223389183,
+        "Latitude": 58536,
+        "Longitude": 63400,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "RuinedCastle",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21739520,
-                "Y": 19183617,
+                "X": 16234496,
+                "Y": 14989313,
                 "IsExterior": 32768,
-                "Unknown2": 553,
-                "LocationId": 15342,
+                "Unknown2": 213,
+                "LocationId": 12190,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Fox and Djinn Pub"
+                "LocationName": "The Citadel of Copperfield"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 21292,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 15342,
-                "BuildingType": 15,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 17867,
-                "FactionId": 510,
-                "Sector": 16,
-                "LocationId": 15342,
-                "BuildingType": 15,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 11497,
-                "FactionId": 510,
-                "Sector": 32,
-                "LocationId": 15342,
-                "BuildingType": 15,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 21597,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 15342,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 14728,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 15342,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 24227,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 15342,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 24076,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 15342,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 20819,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 15342,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 19278,
-                "FactionId": 0,
-                "Sector": 84,
-                "LocationId": 15342,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 26374,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 15342,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 13702,
-                "FactionId": 0,
-                "Sector": 96,
-                "LocationId": 15342,
-                "BuildingType": 18,
-                "Quality": 5
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "21292",
-            "MapId": 585000000663,
+            "AnotherName": "The Citadel of Copperfield",
+            "MapId": 42495,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS04.RMB"
+                "DUNGAA05.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 16234496,
+                "Y": 14989313,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 35,
+                "LocationId": 12191,
+                "IsInterior": 1,
+                "ExteriorLocationId": 12190,
+                "LocationName": "The Citadel of Copperfield"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

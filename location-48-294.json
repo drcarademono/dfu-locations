@@ -1,136 +1,168 @@
 {
     "Loaded": true,
-    "Name": "Ruins of The Ghuldten Farmstead",
+    "Name": "The Queen's Priest Tavern",
     "RegionName": "Tigonus",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 393000000590,
-        "Latitude": 68904,
-        "Longitude": 75560,
-        "LocationType": 10,
-        "DungeonType": 8,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 308647948,
+        "Latitude": 17064,
+        "Longitude": 77352,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19347456,
-                "Y": 12892161,
+                "X": 19806208,
+                "Y": 4372481,
                 "IsExterior": 32768,
-                "Unknown2": 7,
-                "LocationId": 23088,
+                "Unknown2": 294,
+                "LocationId": 25407,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of The Ghuldten Farmstead"
+                "LocationName": "The Queen's Priest Tavern"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 12,
+        "Buildings": [
+            {
+                "NameSeed": 8337,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 25407,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 28004,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 25407,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 32036,
+                "FactionId": 0,
+                "Sector": 13,
+                "LocationId": 25407,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 26419,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 25407,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 7906,
+                "FactionId": 0,
+                "Sector": 24,
+                "LocationId": 25407,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 317,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 25407,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 7114,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 25407,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 2867,
+                "FactionId": 0,
+                "Sector": 46,
+                "LocationId": 25407,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 23884,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 25407,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 22329,
+                "FactionId": 510,
+                "Sector": 68,
+                "LocationId": 25407,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 15778,
+                "FactionId": 510,
+                "Sector": 80,
+                "LocationId": 25407,
+                "BuildingType": "Tavern",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 26435,
+                "FactionId": 510,
+                "Sector": 93,
+                "LocationId": 25407,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Ruins of The Ghuldten Farmstead",
-            "MapId": 393000000590,
+            "AnotherName": "22329",
+            "MapId": 366604,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 9,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "RUINAA24.RMB"
+                "TVRNAS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18495488,
-                "Y": 6699009,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 1,
-                "LocationId": 23089,
-                "IsInterior": 1,
-                "ExteriorLocationId": 23088,
-                "LocationName": "Ruins of The Ghuldten Farmstead"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000026.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000083.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 228,
-        "ClimateType": 400,
-        "NatureSet": 502,
-        "GroundArchive": 402,
-        "NatureArchive": 502,
-        "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "WorldClimate": 226,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

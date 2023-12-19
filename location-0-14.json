@@ -1,136 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Flor Pit",
+    "Name": "The Bat and Bird Hostel",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 258000000576,
-        "Latitude": 86184,
+        "MapId": 15074640,
+        "Latitude": 13480,
         "Longitude": 73768,
-        "LocationType": 4,
-        "DungeonType": 5,
-        "Discovered": false,
-        "Key": 0
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
                 "X": 18888704,
-                "Y": 8468481,
+                "Y": 3454977,
                 "IsExterior": 32768,
-                "Unknown2": 72,
-                "LocationId": 27188,
+                "Unknown2": 14,
+                "LocationId": 26439,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Flor Pit"
+                "LocationName": "The Bat and Bird Hostel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 5,
+        "Buildings": [
+            {
+                "NameSeed": 1567,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 26439,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 23006,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 26439,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 24470,
+                "FactionId": 0,
+                "Sector": 14,
+                "LocationId": 26439,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 21806,
+                "FactionId": 0,
+                "Sector": 18,
+                "LocationId": 26439,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 32183,
+                "FactionId": 510,
+                "Sector": 23,
+                "LocationId": 26439,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Flor Pit",
-            "MapId": 258000000576,
+            "AnotherName": "32183",
+            "MapId": 394576,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA16.RMB"
+                "TVRNBS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 20330496,
-                "Y": 2635777,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 36,
-                "LocationId": 27189,
-                "IsInterior": 1,
-                "ExteriorLocationId": 27188,
-                "LocationName": "The Flor Pit"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000050.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Yeomsley Farmstead",
+    "Name": "The Gold Dragon Tavern",
     "RegionName": "Wayrest",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 231000000933,
-        "Latitude": 89640,
-        "Longitude": 119464,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 63106479,
+        "Latitude": 39464,
+        "Longitude": 117672,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30586880,
-                "Y": 7583745,
+                "X": 30128128,
+                "Y": 10106881,
                 "IsExterior": 32768,
-                "Unknown2": 827,
-                "LocationId": 22685,
+                "Unknown2": 60,
+                "LocationId": 20777,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Yeomsley Farmstead"
+                "LocationName": "The Gold Dragon Tavern"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 18311,
-                "FactionId": 0,
+                "NameSeed": 26337,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 22685,
-                "BuildingType": 18,
+                "LocationId": 20777,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 29753,
+                "FactionId": 0,
+                "Sector": 21,
+                "LocationId": 20777,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 5564,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 20777,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 29159,
+                "FactionId": 0,
+                "Sector": 40,
+                "LocationId": 20777,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 11640,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 20777,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 30002,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 20777,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 24296,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 20777,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 13121,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 20777,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 27250,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 20777,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 8337,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 20777,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 28004,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 20777,
+                "BuildingType": "House2",
                 "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Yeomsley Farmstead",
-            "MapId": 231000000933,
+            "AnotherName": "26337",
+            "MapId": 191919,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
-            "PortTownAndUnknown": 2,
+            "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA04.RMB"
+                "TVRNAS03.RMB"
             ]
         }
     },
@@ -67,14 +147,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

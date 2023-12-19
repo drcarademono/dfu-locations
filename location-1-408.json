@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "THe Crypts of F'aghtan",
+    "Name": "Ruins of Vlastan Manor",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 157000000667,
-        "Latitude": 99112,
-        "Longitude": 85416,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": true,
+        "MapId": 428226661,
+        "Latitude": 11816,
+        "Longitude": 83624,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "HumanStronghold",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21870592,
-                "Y": 5158913,
+                "X": 21411840,
+                "Y": 3028993,
                 "IsExterior": 32768,
-                "Unknown2": 706,
-                "LocationId": 28392,
+                "Unknown2": 408,
+                "LocationId": 26847,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "THe Crypts of F'aghtan"
+                "LocationName": "Ruins of Vlastan Manor"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "THe Crypts of F'aghtan",
-            "MapId": 157000000667,
+            "AnotherName": "Ruins of Vlastan Manor",
+            "MapId": 407653,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS24.RMB"
+                "RUINAA17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 24557568,
-                "Y": 1259521,
+                "X": 21411840,
+                "Y": 3028993,
                 "IsExterior": 0,
-                "Unknown2": 233,
-                "LocationId": 28393,
+                "Unknown2": 131,
+                "LocationId": 26848,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28392,
-                "LocationName": "THe Crypts of F'aghtan"
+                "ExteriorLocationId": 26847,
+                "LocationName": "Ruins of Vlastan Manor"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 11
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000079.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -73,18 +73,10 @@
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

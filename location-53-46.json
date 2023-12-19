@@ -1,35 +1,35 @@
 {
     "Loaded": true,
-    "Name": "The Circle of Krorba",
+    "Name": "The Cave of Balothiah",
     "RegionName": "Ephesus",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 90000000798,
-        "Latitude": 107688,
-        "Longitude": 102184,
-        "LocationType": 4,
-        "DungeonType": 15,
+        "MapId": 48669364,
+        "Latitude": 8360,
+        "Longitude": 111144,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "VolcanicCaves",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26163200,
-                "Y": 2963457,
+                "X": 28456960,
+                "Y": 2144257,
                 "IsExterior": 32768,
-                "Unknown2": 132,
-                "LocationId": 28159,
+                "Unknown2": 46,
+                "LocationId": 27652,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Circle of Krorba"
+                "LocationName": "The Cave of Balothiah"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Circle of Krorba",
-            "MapId": 90000000798,
+            "AnotherName": "The Cave of Balothiah",
+            "MapId": 434868,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
@@ -42,22 +42,46 @@
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 29374464,
-                "Y": 1521665,
+                "X": 28456960,
+                "Y": 2144257,
                 "IsExterior": 0,
-                "Unknown2": 39,
-                "LocationId": 28160,
+                "Unknown2": 9,
+                "LocationId": 27653,
                 "IsInterior": 1,
-                "ExteriorLocationId": 28159,
-                "LocationName": "The Circle of Krorba"
+                "ExteriorLocationId": 27652,
+                "LocationName": "The Cave of Balothiah"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 10
         },
         "Blocks": [
             {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000021.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
                 "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
                 "BlockName": "B0000014.RDB",
@@ -66,57 +90,9 @@
             },
             {
                 "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 181,
     "RegionIndex": 53,

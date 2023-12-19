@@ -1,50 +1,114 @@
 {
     "Loaded": true,
-    "Name": "Old Mhurdca's Hovel",
+    "Name": "Ghigem Manor",
     "RegionName": "Mournoth",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 177000000930,
-        "Latitude": 96552,
+        "MapId": 168090090,
+        "Latitude": 23336,
         "Longitude": 119080,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
                 "X": 30488576,
-                "Y": 5814273,
+                "Y": 5978113,
                 "IsExterior": 32768,
-                "Unknown2": 140,
-                "LocationId": 23577,
+                "Unknown2": 160,
+                "LocationId": 23704,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Mhurdca's Hovel"
+                "LocationName": "Ghigem Manor"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 22386,
+                "NameSeed": 20167,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23577,
-                "BuildingType": 19,
+                "LocationId": 23704,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 6170,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 23704,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 25881,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 23704,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 4483,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 23704,
+                "BuildingType": "House3",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 4654,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 23704,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 23565,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 23704,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 17579,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 23704,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 21802,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 23704,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 8094,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 23704,
+                "BuildingType": "House1",
                 "Quality": 5
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Mhurdca's Hovel",
-            "MapId": 177000000930,
+            "AnotherName": "Ghigem Manor",
+            "MapId": 317930,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -68,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

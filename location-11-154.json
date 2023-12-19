@@ -1,80 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The M'irger Cabin",
+    "Name": "Ruins of The Khoghtir Farmstead",
     "RegionName": "Dak'fron",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 247000000478,
-        "Latitude": 87592,
-        "Longitude": 61224,
-        "LocationType": 11,
-        "DungeonType": 255,
-        "Discovered": true,
+        "MapId": 161970272,
+        "Latitude": 1320,
+        "Longitude": 72744,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "HarpyNest",
+        "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15677440,
-                "Y": 8108033,
+                "X": 18626560,
+                "Y": 342017,
                 "IsExterior": 32768,
-                "Unknown2": 114,
-                "LocationId": 28902,
+                "Unknown2": 154,
+                "LocationId": 29218,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The M'irger Cabin"
+                "LocationName": "Ruins of The Khoghtir Farmstead"
             }
         },
-        "BuildingCount": 1,
-        "Buildings": [
-            {
-                "NameSeed": 14255,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 28902,
-                "BuildingType": 19,
-                "Quality": 8
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The M'irger Cabin",
-            "MapId": 247000000478,
+            "AnotherName": "Ruins of The Khoghtir Farmstead",
+            "MapId": 489568,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "RUINAA08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 18626560,
+                "Y": 342017,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 104,
+                "LocationId": 29219,
+                "IsInterior": 1,
+                "ExteriorLocationId": 29218,
+                "LocationName": "Ruins of The Khoghtir Farmstead"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 11
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000015.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

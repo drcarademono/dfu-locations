@@ -1,41 +1,146 @@
 {
     "Loaded": true,
-    "Name": "Divad Monument",
+    "Name": "Wickhouse Manor",
     "RegionName": "Wayrest",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 302000000937,
-        "Latitude": 80552,
-        "Longitude": 119976,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 636730544,
+        "Latitude": 32680,
+        "Longitude": 116776,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 30717952,
-                "Y": 9910273,
+                "X": 29898752,
+                "Y": 8370177,
                 "IsExterior": 32768,
-                "Unknown2": 133,
-                "LocationId": 21248,
+                "Unknown2": 607,
+                "LocationId": 22386,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Divad Monument"
+                "LocationName": "Wickhouse Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 12258,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 22386,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 31708,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 22386,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 12667,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 22386,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 21012,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 22386,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 5145,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 22386,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 23736,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 22386,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 20560,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 22386,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 27340,
+                "FactionId": 0,
+                "Sector": 45,
+                "LocationId": 22386,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 23180,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 22386,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 386,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 22386,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 28928,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 22386,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 31960,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 22386,
+                "BuildingType": "Tavern",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 30195,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 22386,
+                "BuildingType": "House1",
+                "Quality": 5
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Divad Monument",
-            "MapId": 302000000937,
+            "AnotherName": "Wickhouse Manor",
+            "MapId": 244912,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "MANRAS01.RMB"
             ]
         }
     },
@@ -58,14 +163,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 151,
     "RegionIndex": 23,

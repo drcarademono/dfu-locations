@@ -1,112 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Bat and Bird Hostel",
+    "Name": "Ruins of Maarp Tower",
     "RegionName": "Alik'r Desert",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 301000000551,
-        "Latitude": 80680,
-        "Longitude": 70568,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 106332587,
+        "Latitude": 9384,
+        "Longitude": 52648,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "ScorpionNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 18069504,
-                "Y": 9877505,
+                "X": 13481984,
+                "Y": 2406401,
                 "IsExterior": 32768,
-                "Unknown2": 14,
-                "LocationId": 26439,
+                "Unknown2": 101,
+                "LocationId": 27404,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Bat and Bird Hostel"
+                "LocationName": "Ruins of Maarp Tower"
             }
         },
-        "BuildingCount": 5,
-        "Buildings": [
-            {
-                "NameSeed": 1567,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 26439,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 23006,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 26439,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 24470,
-                "FactionId": 0,
-                "Sector": 14,
-                "LocationId": 26439,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 21806,
-                "FactionId": 0,
-                "Sector": 18,
-                "LocationId": 26439,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 32183,
-                "FactionId": 510,
-                "Sector": 23,
-                "LocationId": 26439,
-                "BuildingType": 15,
-                "Quality": 3
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "32183",
-            "MapId": 301000000551,
+            "AnotherName": "Ruins of Maarp Tower",
+            "MapId": 426411,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNBS01.RMB"
+                "RUINAA11.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 13481984,
+                "Y": 2406401,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 53,
+                "LocationId": 27405,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27404,
+                "LocationName": "Ruins of Maarp Tower"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000024.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 224,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 128,
     "RegionIndex": 0,

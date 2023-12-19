@@ -1,168 +1,144 @@
 {
     "Loaded": true,
-    "Name": "Tower Greenton",
+    "Name": "Hawkford Manor",
     "RegionName": "Anticlere",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 567000000584,
-        "Latitude": 46632,
-        "Longitude": 74792,
-        "LocationType": 4,
-        "DungeonType": 11,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 116526387,
+        "Latitude": 46760,
+        "Longitude": 57768,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19150848,
-                "Y": 18593793,
+                "X": 14792704,
+                "Y": 11974657,
                 "IsExterior": 32768,
-                "Unknown2": 314,
-                "LocationId": 18646,
+                "Unknown2": 111,
+                "LocationId": 17890,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Tower Greenton"
+                "LocationName": "Hawkford Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 9,
+        "Buildings": [
+            {
+                "NameSeed": 3770,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 17890,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 22407,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 17890,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 32272,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 17890,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 16635,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 17890,
+                "BuildingType": "House3",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 21826,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 17890,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 4673,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 17890,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 7547,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 17890,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 14325,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 17890,
+                "BuildingType": "Tavern",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 24086,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 17890,
+                "BuildingType": "House1",
+                "Quality": 1
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Tower Greenton",
-            "MapId": 567000000584,
+            "AnotherName": "Hawkford Manor",
+            "MapId": 134451,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA04.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 15480832,
-                "Y": 11548673,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 71,
-                "LocationId": 18647,
-                "IsInterior": 1,
-                "ExteriorLocationId": 18646,
-                "LocationName": "Tower Greenton"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000062.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000081.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 3,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

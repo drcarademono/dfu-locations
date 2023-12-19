@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Moorsmith Manor",
+    "Name": "The Buckington Cemetery",
     "RegionName": "Ilessan Hills",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 731000000435,
-        "Latitude": 25640,
-        "Longitude": 55720,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 415327405,
+        "Latitude": 52264,
+        "Longitude": 39592,
+        "LocationType": "Graveyard",
+        "DungeonType": "Cemetery",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 14268416,
-                "Y": 23967745,
+                "X": 10139648,
+                "Y": 13383681,
                 "IsExterior": 32768,
-                "Unknown2": 275,
-                "LocationId": 14505,
+                "Unknown2": 396,
+                "LocationId": 15267,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Moorsmith Manor"
+                "LocationName": "The Buckington Cemetery"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 24768,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 14505,
-                "BuildingType": 17,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 13380,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 14505,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 3258,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 14505,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 19167,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 14505,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 21845,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 14505,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 1240,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 14505,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 11253,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 14505,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 16702,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 14505,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 5168,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 14505,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 22470,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 14505,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 1509,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 14505,
-                "BuildingType": 15,
-                "Quality": 12
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Moorsmith Manor",
-            "MapId": 731000000435,
+            "AnotherName": "The Buckington Cemetery",
+            "MapId": 91309,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "GRVEAS17.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 10139648,
+                "Y": 13383681,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 151,
+                "LocationId": 15268,
+                "IsInterior": 1,
+                "ExteriorLocationId": 15267,
+                "LocationName": "The Buckington Cemetery"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 5
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "WorldClimate": 232,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
-        "NatureArchive": 504,
+        "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

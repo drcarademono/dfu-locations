@@ -1,203 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Lelidai",
+    "Name": "Vorar's Hold",
     "RegionName": "Myrkwasa",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 410000000254,
-        "Latitude": 66720,
-        "Longitude": 32544,
-        "LocationType": 2,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 16777472
+        "MapId": 32915161,
+        "Latitude": 11560,
+        "Longitude": 39080,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "BarbarianStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8335360,
-                "Y": 13447169,
+                "X": 10008576,
+                "Y": 2963457,
                 "IsExterior": 32768,
-                "Unknown2": 135,
-                "LocationId": 27989,
+                "Unknown2": 31,
+                "LocationId": 26886,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Lelidai"
+                "LocationName": "Vorar's Hold"
             }
         },
-        "BuildingCount": 16,
-        "Buildings": [
-            {
-                "NameSeed": 8545,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 27989,
-                "BuildingType": 20,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 25956,
-                "FactionId": 510,
-                "Sector": 21,
-                "LocationId": 27989,
-                "BuildingType": 15,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 16879,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 27989,
-                "BuildingType": 20,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 19007,
-                "FactionId": 0,
-                "Sector": 56,
-                "LocationId": 27989,
-                "BuildingType": 20,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 15160,
-                "FactionId": 0,
-                "Sector": 77,
-                "LocationId": 27989,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 10773,
-                "FactionId": 510,
-                "Sector": 80,
-                "LocationId": 27989,
-                "BuildingType": 9,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 9477,
-                "FactionId": 0,
-                "Sector": 92,
-                "LocationId": 27989,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 22995,
-                "FactionId": 0,
-                "Sector": 99,
-                "LocationId": 27989,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 2349,
-                "FactionId": 510,
-                "Sector": 107,
-                "LocationId": 27989,
-                "BuildingType": 1,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 19313,
-                "FactionId": 510,
-                "Sector": 118,
-                "LocationId": 27989,
-                "BuildingType": 15,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 30240,
-                "FactionId": 0,
-                "Sector": 133,
-                "LocationId": 27989,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 580,
-                "FactionId": 0,
-                "Sector": 140,
-                "LocationId": 27989,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 13804,
-                "FactionId": 0,
-                "Sector": 147,
-                "LocationId": 27989,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 23433,
-                "FactionId": 0,
-                "Sector": 151,
-                "LocationId": 27989,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 17579,
-                "FactionId": 0,
-                "Sector": 159,
-                "LocationId": 27989,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 8851,
-                "FactionId": 0,
-                "Sector": 162,
-                "LocationId": 27989,
-                "BuildingType": 18,
-                "Quality": 15
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Lelidai",
-            "MapId": 410000000254,
+            "AnotherName": "Vorar's Hold",
+            "MapId": 409305,
             "LocationId": 0,
-            "Width": 2,
-            "Height": 2,
+            "Width": 1,
+            "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GENRGS00.RMB",
-                "TVRNGS02.RMB",
-                "RESIGS03.RMB",
-                "RESIGS04.RMB"
+                "CASTAA32.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 10008576,
+                "Y": 2963457,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 8,
+                "LocationId": 26887,
+                "IsInterior": 1,
+                "ExteriorLocationId": 26886,
+                "LocationName": "Vorar's Hold"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000057.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 174,
     "RegionIndex": 46,

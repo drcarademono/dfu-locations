@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "THe Crypts of Mastering",
+    "Name": "The Community of Belladona",
     "RegionName": "Anticlere",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 614000000497,
-        "Latitude": 40616,
-        "Longitude": 63656,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 551713407,
+        "Latitude": 43176,
+        "Longitude": 55208,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "BarbarianStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16300032,
-                "Y": 20133889,
+                "X": 14137344,
+                "Y": 11057153,
                 "IsExterior": 32768,
-                "Unknown2": 347,
-                "LocationId": 18796,
+                "Unknown2": 526,
+                "LocationId": 19462,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "THe Crypts of Mastering"
+                "LocationName": "The Community of Belladona"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "THe Crypts of Mastering",
-            "MapId": 614000000497,
+            "AnotherName": "The Community of Belladona",
+            "MapId": 162431,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS04.RMB"
+                "DUNGAA06.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 12236800,
-                "Y": 11450369,
+                "X": 14137344,
+                "Y": 11057153,
                 "IsExterior": 0,
-                "Unknown2": 82,
-                "LocationId": 18797,
+                "Unknown2": 129,
+                "LocationId": 19463,
                 "IsInterior": 1,
-                "ExteriorLocationId": 18796,
-                "LocationName": "THe Crypts of Mastering"
+                "ExteriorLocationId": 19462,
+                "LocationName": "The Community of Belladona"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 11
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000076.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000013.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
+                "BlockName": "B0000006.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000006.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

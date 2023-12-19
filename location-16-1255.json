@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "Old Carolanna's Shack",
+    "Name": "The King's Dagger Inn",
     "RegionName": "Wrothgarian Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 480000000867,
-        "Latitude": 57768,
-        "Longitude": 111016,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 1316066805,
+        "Latitude": 50728,
+        "Longitude": 118440,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28424192,
-                "Y": 15742977,
+                "X": 30324736,
+                "Y": 12990465,
                 "IsExterior": 32768,
-                "Unknown2": 1016,
-                "LocationId": 14642,
+                "Unknown2": 1255,
+                "LocationId": 16072,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Old Carolanna's Shack"
+                "LocationName": "The King's Dagger Inn"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 2456,
-                "FactionId": 0,
+                "NameSeed": 29311,
+                "FactionId": 510,
                 "Sector": 4,
-                "LocationId": 14642,
-                "BuildingType": 19,
+                "LocationId": 16072,
+                "BuildingType": "Tavern",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 16133,
+                "FactionId": 510,
+                "Sector": 16,
+                "LocationId": 16072,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 23669,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 16072,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 497,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 16072,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 26657,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 16072,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 16959,
+                "FactionId": 0,
+                "Sector": 57,
+                "LocationId": 16072,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 11038,
+                "FactionId": 0,
+                "Sector": 63,
+                "LocationId": 16072,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 32101,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 16072,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 13654,
+                "FactionId": 0,
+                "Sector": 84,
+                "LocationId": 16072,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 3337,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 16072,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 18440,
+                "FactionId": 0,
+                "Sector": 96,
+                "LocationId": 16072,
+                "BuildingType": "House2",
                 "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Old Carolanna's Shack",
-            "MapId": 480000000867,
+            "AnotherName": "29311",
+            "MapId": 103925,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNAS04.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 144,
     "RegionIndex": 16,

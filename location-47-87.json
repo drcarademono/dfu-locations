@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Tombs of Ker",
+    "Name": "Old Korkca's Farm",
     "RegionName": "Ayasofya",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 355000000481,
-        "Latitude": 73768,
-        "Longitude": 61608,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 91610560,
+        "Latitude": 14760,
+        "Longitude": 57384,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15775744,
-                "Y": 11646977,
+                "X": 14694400,
+                "Y": 3782657,
                 "IsExterior": 32768,
-                "Unknown2": 79,
-                "LocationId": 26045,
+                "Unknown2": 87,
+                "LocationId": 26113,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Tombs of Ker"
+                "LocationName": "Old Korkca's Farm"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 5335,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 26113,
+                "BuildingType": "House2",
+                "Quality": 9
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Tombs of Ker",
-            "MapId": 355000000481,
+            "AnotherName": "Old Korkca's Farm",
+            "MapId": 384448,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS20.RMB"
+                "FARMAA07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16037888,
-                "Y": 3848193,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 27,
-                "LocationId": 26046,
-                "IsInterior": 1,
-                "ExteriorLocationId": 26045,
-                "LocationName": "The Tombs of Ker"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 175,
     "RegionIndex": 47,

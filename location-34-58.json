@@ -1,112 +1,184 @@
 {
     "Loaded": true,
-    "Name": "The Gaering Cemetery",
+    "Name": "The Lion and Dagger Lodge",
     "RegionName": "Alcaire",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 461000000799,
-        "Latitude": 60200,
-        "Longitude": 102312,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 60930118,
+        "Latitude": 49576,
+        "Longitude": 90920,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 26195968,
-                "Y": 15120385,
+                "X": 23279616,
+                "Y": 12695553,
                 "IsExterior": 32768,
-                "Unknown2": 113,
-                "LocationId": 17760,
+                "Unknown2": 58,
+                "LocationId": 16688,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Gaering Cemetery"
+                "LocationName": "The Lion and Dagger Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 14,
+        "Buildings": [
+            {
+                "NameSeed": 11886,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 16688,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 25450,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 16688,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 26041,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 16688,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 1129,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 16688,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 23562,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 16688,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 11876,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 16688,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 20218,
+                "FactionId": 0,
+                "Sector": 56,
+                "LocationId": 16688,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 31416,
+                "FactionId": 0,
+                "Sector": 64,
+                "LocationId": 16688,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 28606,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 16688,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 19898,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 16688,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 24187,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 16688,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 8510,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 16688,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 7265,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 16688,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 12818,
+                "FactionId": 0,
+                "Sector": 90,
+                "LocationId": 16688,
+                "BuildingType": "House2",
+                "Quality": 6
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Gaering Cemetery",
-            "MapId": 461000000799,
+            "AnotherName": "11886",
+            "MapId": 112710,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS01.RMB"
+                "TVRNAS01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 23312384,
-                "Y": 12040193,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 29,
-                "LocationId": 17761,
-                "IsInterior": 1,
-                "ExteriorLocationId": 17760,
-                "LocationName": "The Gaering Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 162,
     "RegionIndex": 34,

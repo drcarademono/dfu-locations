@@ -1,136 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Web of Vojgoth",
+    "Name": "The Old Dhightin Place",
     "RegionName": "Tigonus",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 392000000504,
-        "Latitude": 69032,
-        "Longitude": 64552,
-        "LocationType": 4,
-        "DungeonType": 17,
-        "Discovered": false,
+        "MapId": 297110561,
+        "Latitude": 17448,
+        "Longitude": 70824,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16529408,
-                "Y": 12859393,
+                "X": 18135040,
+                "Y": 4470785,
                 "IsExterior": 32768,
-                "Unknown2": 161,
-                "LocationId": 24386,
+                "Unknown2": 283,
+                "LocationId": 25257,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Web of Vojgoth"
+                "LocationName": "The Old Dhightin Place"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 12688,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 25257,
+                "BuildingType": "House3",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Web of Vojgoth",
-            "MapId": 392000000504,
+            "AnotherName": "The Old Dhightin Place",
+            "MapId": 363553,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA09.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 16070656,
-                "Y": 5257217,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 41,
-                "LocationId": 24387,
-                "IsInterior": 1,
-                "ExteriorLocationId": 24386,
-                "LocationName": "The Web of Vojgoth"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 228,
-        "ClimateType": 400,
-        "NatureSet": 502,
-        "GroundArchive": 402,
-        "NatureArchive": 502,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
+        "GroundArchive": 2,
+        "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

@@ -1,50 +1,130 @@
 {
     "Loaded": true,
-    "Name": "The Ashsly Farmstead",
+    "Name": "The Unfortunate Barbarian Lodge",
     "RegionName": "Ilessan Hills",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 692000000508,
-        "Latitude": 30632,
-        "Longitude": 65064,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 57735965,
+        "Latitude": 55720,
+        "Longitude": 36520,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16660480,
-                "Y": 22689793,
+                "X": 9353216,
+                "Y": 14268417,
                 "IsExterior": 32768,
-                "Unknown2": 236,
-                "LocationId": 14303,
+                "Unknown2": 55,
+                "LocationId": 13430,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Ashsly Farmstead"
+                "LocationName": "The Unfortunate Barbarian Lodge"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 11,
         "Buildings": [
             {
-                "NameSeed": 26896,
+                "NameSeed": 4237,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 13430,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 10889,
+                "FactionId": 510,
+                "Sector": 20,
+                "LocationId": 13430,
+                "BuildingType": "Tavern",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 18738,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 13430,
+                "BuildingType": "Tavern",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 25928,
                 "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 14303,
-                "BuildingType": 18,
+                "Sector": 49,
+                "LocationId": 13430,
+                "BuildingType": "House3",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 7735,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 13430,
+                "BuildingType": "House2",
                 "Quality": 4
+            },
+            {
+                "NameSeed": 30104,
+                "FactionId": 0,
+                "Sector": 58,
+                "LocationId": 13430,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 21394,
+                "FactionId": 0,
+                "Sector": 70,
+                "LocationId": 13430,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 16635,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 13430,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 21826,
+                "FactionId": 0,
+                "Sector": 82,
+                "LocationId": 13430,
+                "BuildingType": "House3",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 4673,
+                "FactionId": 0,
+                "Sector": 87,
+                "LocationId": 13430,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 7547,
+                "FactionId": 0,
+                "Sector": 92,
+                "LocationId": 13430,
+                "BuildingType": "House2",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Ashsly Farmstead",
-            "MapId": 692000000508,
+            "AnotherName": "4237",
+            "MapId": 64285,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA00.RMB"
+                "TVRNAS06.RMB"
             ]
         }
     },
@@ -68,13 +148,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 188,
     "RegionIndex": 60,

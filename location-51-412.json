@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Nirnim Hall",
+    "Name": "The Ghalden Farmstead",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 200000000767,
-        "Latitude": 93608,
-        "Longitude": 98216,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 432365060,
+        "Latitude": 18984,
+        "Longitude": 95784,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25147392,
-                "Y": 6567937,
+                "X": 24524800,
+                "Y": 4864001,
                 "IsExterior": 32768,
-                "Unknown2": 784,
-                "LocationId": 25751,
+                "Unknown2": 412,
+                "LocationId": 24818,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Nirnim Hall"
+                "LocationName": "The Ghalden Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 10700,
+                "NameSeed": 28519,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 25751,
-                "BuildingType": 17,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 24960,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 25751,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 9392,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 25751,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 19558,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 25751,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 1199,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 25751,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 12607,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 25751,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 12415,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 25751,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 26548,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 25751,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 22386,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 25751,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 26657,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 25751,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 6637,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 25751,
-                "BuildingType": 15,
-                "Quality": 15
+                "LocationId": 24818,
+                "BuildingType": "House2",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Nirnim Hall",
-            "MapId": 200000000767,
+            "AnotherName": "The Ghalden Farmstead",
+            "MapId": 351748,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "FARMAA08.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

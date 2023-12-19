@@ -1,35 +1,35 @@
 {
     "Loaded": true,
-    "Name": "Ruins of Old Barbara's Hovel",
+    "Name": "Ruins of Mastersmith Tower",
     "RegionName": "Orsinium Area",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 363000000906,
-        "Latitude": 72744,
-        "Longitude": 116008,
-        "LocationType": 10,
-        "DungeonType": 16,
+        "MapId": 51546083,
+        "Latitude": 42792,
+        "Longitude": 109992,
+        "LocationType": "DungeonRuin",
+        "DungeonType": "OrcStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 29702144,
-                "Y": 11909121,
+                "X": 28162048,
+                "Y": 10958849,
                 "IsExterior": 32768,
-                "Unknown2": 46,
-                "LocationId": 19539,
+                "Unknown2": 49,
+                "LocationId": 19656,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Ruins of Old Barbara's Hovel"
+                "LocationName": "Ruins of Mastersmith Tower"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Ruins of Old Barbara's Hovel",
-            "MapId": 363000000906,
+            "AnotherName": "Ruins of Mastersmith Tower",
+            "MapId": 165859,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
@@ -42,41 +42,49 @@
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27965440,
-                "Y": 11024385,
+                "X": 28162048,
+                "Y": 10958849,
                 "IsExterior": 0,
-                "Unknown2": 35,
-                "LocationId": 19540,
+                "Unknown2": 37,
+                "LocationId": 19657,
                 "IsInterior": 1,
-                "ExteriorLocationId": 19539,
-                "LocationName": "Ruins of Old Barbara's Hovel"
+                "ExteriorLocationId": 19656,
+                "LocationName": "Ruins of Mastersmith Tower"
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 11
         },
         "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
             {
                 "X": 0,
                 "Z": 0,
                 "IsStartingBlock": true,
-                "BlockName": "W0000009.RDB",
+                "BlockName": "N0000071.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -84,39 +92,7 @@
                 "X": 0,
                 "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000022.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
+                "BlockName": "B0000001.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -124,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
         "GroundArchive": 102,
         "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 154,
     "RegionIndex": 26,

@@ -1,138 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Bat and Jug Inn",
+    "Name": "The Wicksmith Farmstead",
     "RegionName": "Anticlere",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 637000000499,
-        "Latitude": 37672,
-        "Longitude": 63912,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 733140024,
+        "Latitude": 40232,
+        "Longitude": 51240,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16365568,
-                "Y": 20887553,
+                "X": 13121536,
+                "Y": 10303489,
                 "IsExterior": 32768,
-                "Unknown2": 58,
-                "LocationId": 17579,
+                "Unknown2": 699,
+                "LocationId": 20508,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Bat and Jug Inn"
+                "LocationName": "The Wicksmith Farmstead"
             }
         },
-        "BuildingCount": 12,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 7966,
-                "FactionId": 510,
+                "NameSeed": 14026,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 17579,
-                "BuildingType": 15,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 15046,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 17579,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 2580,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 17579,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 21806,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 17579,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 11642,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 17579,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 2937,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 17579,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 12929,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 17579,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 18653,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 17579,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 29740,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 17579,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 9816,
-                "FactionId": 0,
-                "Sector": 85,
-                "LocationId": 17579,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 3619,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 17579,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 9112,
-                "FactionId": 0,
-                "Sector": 91,
-                "LocationId": 17579,
-                "BuildingType": 18,
-                "Quality": 15
+                "LocationId": 20508,
+                "BuildingType": "House2",
+                "Quality": 4
             }
         ],
         "ExteriorData": {
-            "AnotherName": "7966",
-            "MapId": 637000000499,
+            "AnotherName": "The Wicksmith Farmstead",
+            "MapId": 185400,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS09.RMB"
+                "FARMAA02.RMB"
             ]
         }
     },
@@ -156,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

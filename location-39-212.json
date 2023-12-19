@@ -1,50 +1,114 @@
 {
     "Loaded": true,
-    "Name": "The Hawkston Cabin",
+    "Name": "Wickfield Palace",
     "RegionName": "Urvaius",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 650000000596,
-        "Latitude": 36008,
-        "Longitude": 76328,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 222409524,
+        "Latitude": 49704,
+        "Longitude": 52776,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19544064,
-                "Y": 21313537,
+                "X": 13514752,
+                "Y": 12728321,
                 "IsExterior": 32768,
-                "Unknown2": 73,
-                "LocationId": 13820,
+                "Unknown2": 212,
+                "LocationId": 16589,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hawkston Cabin"
+                "LocationName": "Wickfield Palace"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 9,
         "Buildings": [
             {
-                "NameSeed": 22430,
+                "NameSeed": 26875,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 13820,
-                "BuildingType": 19,
+                "LocationId": 16589,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 7263,
+                "FactionId": 0,
+                "Sector": 10,
+                "LocationId": 16589,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 23953,
+                "FactionId": 0,
+                "Sector": 22,
+                "LocationId": 16589,
+                "BuildingType": "House2",
                 "Quality": 1
+            },
+            {
+                "NameSeed": 23997,
+                "FactionId": 0,
+                "Sector": 30,
+                "LocationId": 16589,
+                "BuildingType": "House3",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 5617,
+                "FactionId": 0,
+                "Sector": 36,
+                "LocationId": 16589,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 11410,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 16589,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 27472,
+                "FactionId": 0,
+                "Sector": 59,
+                "LocationId": 16589,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 27748,
+                "FactionId": 510,
+                "Sector": 69,
+                "LocationId": 16589,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 20573,
+                "FactionId": 0,
+                "Sector": 86,
+                "LocationId": 16589,
+                "BuildingType": "House1",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Hawkston Cabin",
-            "MapId": 650000000596,
+            "AnotherName": "Wickfield Palace",
+            "MapId": 111412,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "MANRAS02.RMB"
             ]
         }
     },
@@ -68,13 +132,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 167,
     "RegionIndex": 39,

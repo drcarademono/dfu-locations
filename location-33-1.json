@@ -1,112 +1,80 @@
 {
     "Loaded": true,
-    "Name": "The Wickton Cemetery",
+    "Name": "The Copperham Farmstead",
     "RegionName": "Menevia",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 324000000882,
-        "Latitude": 77736,
-        "Longitude": 112936,
-        "LocationType": 12,
-        "DungeonType": 18,
-        "Discovered": false,
+        "MapId": 1194422,
+        "Latitude": 45352,
+        "Longitude": 108328,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28915712,
-                "Y": 10631169,
+                "X": 27736064,
+                "Y": 11614209,
                 "IsExterior": 32768,
-                "Unknown2": 194,
-                "LocationId": 21578,
+                "Unknown2": 1,
+                "LocationId": 18568,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Wickton Cemetery"
+                "LocationName": "The Copperham Farmstead"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 17517,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 18568,
+                "BuildingType": "House2",
+                "Quality": 10
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Wickton Cemetery",
-            "MapId": 324000000882,
+            "AnotherName": "The Copperham Farmstead",
+            "MapId": 145846,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS28.RMB"
+                "FARMAA01.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27932672,
-                "Y": 9517057,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 30,
-                "LocationId": 21579,
-                "IsInterior": 1,
-                "ExteriorLocationId": 21578,
-                "LocationName": "The Wickton Cemetery"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 161,
     "RegionIndex": 33,

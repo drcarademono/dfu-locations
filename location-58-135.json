@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Greenhart Manor",
+    "Name": "The Wickhart Farmstead",
     "RegionName": "Tulune",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 805000000257,
-        "Latitude": 16168,
-        "Longitude": 32936,
-        "LocationType": 8,
-        "DungeonType": 255,
+        "MapId": 141719828,
+        "Latitude": 43176,
+        "Longitude": 8744,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 8435712,
-                "Y": 26392577,
+                "X": 2242560,
+                "Y": 11057153,
                 "IsExterior": 32768,
-                "Unknown2": 5,
-                "LocationId": 16151,
+                "Unknown2": 135,
+                "LocationId": 19422,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Greenhart Manor"
+                "LocationName": "The Wickhart Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 394,
+                "NameSeed": 1625,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 16151,
-                "BuildingType": 17,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 16065,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 16151,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 29076,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 16151,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 30384,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 16151,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 3018,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 16151,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 21250,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 16151,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 14197,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 16151,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 24419,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 16151,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 16743,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 16151,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 13852,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 16151,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 25404,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 16151,
-                "BuildingType": 15,
-                "Quality": 11
+                "LocationId": 19422,
+                "BuildingType": "House2",
+                "Quality": 14
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Greenhart Manor",
-            "MapId": 805000000257,
+            "AnotherName": "The Wickhart Farmstead",
+            "MapId": 162068,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "FARMAA02.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 186,
     "RegionIndex": 58,

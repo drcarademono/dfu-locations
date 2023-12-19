@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "Kington Manor",
+    "Name": "The Hold of Yeomston",
     "RegionName": "Daggerfall",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 669000000372,
-        "Latitude": 33576,
-        "Longitude": 47656,
-        "LocationType": 8,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 640859129,
+        "Latitude": 41000,
+        "Longitude": 24744,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "VampireHaunt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 12204032,
-                "Y": 21936129,
+                "X": 6338560,
+                "Y": 10500097,
                 "IsExterior": 32768,
-                "Unknown2": 347,
-                "LocationId": 19628,
+                "Unknown2": 611,
+                "LocationId": 20274,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Kington Manor"
+                "LocationName": "The Hold of Yeomston"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 27015,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 19628,
-                "BuildingType": 17,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 1201,
-                "FactionId": 0,
-                "Sector": 16,
-                "LocationId": 19628,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 5726,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 19628,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 5983,
-                "FactionId": 0,
-                "Sector": 33,
-                "LocationId": 19628,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 11853,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 19628,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 11446,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 19628,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 25298,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 19628,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 16533,
-                "FactionId": 0,
-                "Sector": 61,
-                "LocationId": 19628,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 7890,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 19628,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 9452,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 19628,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 9323,
-                "FactionId": 510,
-                "Sector": 87,
-                "LocationId": 19628,
-                "BuildingType": 15,
-                "Quality": 13
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "Kington Manor",
-            "MapId": 669000000372,
+            "AnotherName": "The Hold of Yeomston",
+            "MapId": 179193,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "MANRAS00.RMB"
+                "CASTAA21.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 6338560,
+                "Y": 10500097,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 115,
+                "LocationId": 20275,
+                "IsInterior": 1,
+                "ExteriorLocationId": 20274,
+                "LocationName": "The Hold of Yeomston"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 230,
-        "ClimateType": 300,
-        "NatureSet": 506,
-        "GroundArchive": 102,
-        "NatureArchive": 506,
+        "WorldClimate": 231,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
+        "GroundArchive": 302,
+        "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

@@ -1,160 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Mouse and Woodchuck Lodge",
+    "Name": "The Lysyssa Coven",
     "RegionName": "Anticlere",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 583000000523,
-        "Latitude": 44584,
-        "Longitude": 66984,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 267530348,
+        "Latitude": 45608,
+        "Longitude": 59944,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Coven",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17152000,
-                "Y": 19118081,
+                "X": 15349760,
+                "Y": 11679745,
                 "IsExterior": 32768,
-                "Unknown2": 546,
-                "LocationId": 19589,
+                "Unknown2": 255,
+                "LocationId": 18445,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Mouse and Woodchuck Lodge"
+                "LocationName": "The Lysyssa Coven"
             }
         },
-        "BuildingCount": 11,
-        "Buildings": [
-            {
-                "NameSeed": 28790,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 19589,
-                "BuildingType": 15,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 17536,
-                "FactionId": 0,
-                "Sector": 21,
-                "LocationId": 19589,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 4059,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 19589,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 30189,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 19589,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 21486,
-                "FactionId": 0,
-                "Sector": 45,
-                "LocationId": 19589,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 4413,
-                "FactionId": 0,
-                "Sector": 49,
-                "LocationId": 19589,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 15609,
-                "FactionId": 0,
-                "Sector": 57,
-                "LocationId": 19589,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 7096,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 19589,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 2955,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 19589,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 12841,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 19589,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 29696,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 19589,
-                "BuildingType": 18,
-                "Quality": 11
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "28790",
-            "MapId": 583000000523,
+            "AnotherName": "The Lysyssa Coven",
+            "MapId": 143468,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS03.RMB"
+                "DUNGAA18.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 15349760,
+                "Y": 11679745,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 56,
+                "LocationId": 18446,
+                "IsInterior": 1,
+                "ExteriorLocationId": 18445,
+                "LocationName": "The Lysyssa Coven"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 12
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000026.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

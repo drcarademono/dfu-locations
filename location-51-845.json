@@ -1,130 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Feather and Rascal Inn",
+    "Name": "The Maacter Farmstead",
     "RegionName": "Totambu",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 262000000723,
-        "Latitude": 85672,
-        "Longitude": 92584,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 886428624,
+        "Latitude": 15144,
+        "Longitude": 115752,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23705600,
-                "Y": 8599553,
+                "X": 29636608,
+                "Y": 3880961,
                 "IsExterior": 32768,
-                "Unknown2": 282,
-                "LocationId": 24504,
+                "Unknown2": 845,
+                "LocationId": 26027,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Feather and Rascal Inn"
+                "LocationName": "The Maacter Farmstead"
             }
         },
-        "BuildingCount": 11,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 26003,
-                "FactionId": 510,
+                "NameSeed": 21424,
+                "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 24504,
-                "BuildingType": 15,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 5124,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 24504,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 8082,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 24504,
-                "BuildingType": 18,
+                "LocationId": 26027,
+                "BuildingType": "House2",
                 "Quality": 2
-            },
-            {
-                "NameSeed": 18049,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 24504,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 3407,
-                "FactionId": 0,
-                "Sector": 44,
-                "LocationId": 24504,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 7485,
-                "FactionId": 0,
-                "Sector": 54,
-                "LocationId": 24504,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 21958,
-                "FactionId": 0,
-                "Sector": 66,
-                "LocationId": 24504,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 20602,
-                "FactionId": 0,
-                "Sector": 78,
-                "LocationId": 24504,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 15841,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 24504,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 25367,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 24504,
-                "BuildingType": 19,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 28307,
-                "FactionId": 0,
-                "Sector": 93,
-                "LocationId": 24504,
-                "BuildingType": 19,
-                "Quality": 15
             }
         ],
         "ExteriorData": {
-            "AnotherName": "26003",
-            "MapId": 262000000723,
+            "AnotherName": "The Maacter Farmstead",
+            "MapId": 381904,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS05.RMB"
+                "FARMAA04.RMB"
             ]
         }
     },
@@ -148,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 179,
     "RegionIndex": 51,

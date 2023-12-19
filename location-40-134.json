@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Greenwing Farmstead",
+    "Name": "Old Barborya's Shack",
     "RegionName": "Ykalon",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 713000000593,
-        "Latitude": 27944,
-        "Longitude": 75944,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 140521542,
+        "Latitude": 62376,
+        "Longitude": 45864,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 19445760,
-                "Y": 23377921,
+                "X": 11745280,
+                "Y": 15972353,
                 "IsExterior": 32768,
-                "Unknown2": 183,
-                "LocationId": 10726,
+                "Unknown2": 134,
+                "LocationId": 10515,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Greenwing Farmstead"
+                "LocationName": "Old Barborya's Shack"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 9011,
+                "NameSeed": 18033,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 10726,
-                "BuildingType": 18,
-                "Quality": 2
+                "LocationId": 10515,
+                "BuildingType": "House3",
+                "Quality": 12
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Greenwing Farmstead",
-            "MapId": 713000000593,
+            "AnotherName": "Old Barborya's Shack",
+            "MapId": 12358,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA03.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 232,
-        "ClimateType": 300,
-        "NatureSet": 508,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_HauntedWoodlands",
         "GroundArchive": 302,
         "NatureArchive": 508,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 168,
     "RegionIndex": 40,

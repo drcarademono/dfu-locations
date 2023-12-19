@@ -1,50 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Doll Farmstead",
+    "Name": "Old Saojfa's Hovel",
     "RegionName": "Satakalaam",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 255000000858,
-        "Latitude": 86568,
-        "Longitude": 109864,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 60065664,
+        "Latitude": 26024,
+        "Longitude": 106536,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28129280,
-                "Y": 8370177,
+                "X": 27277312,
+                "Y": 6666241,
                 "IsExterior": 32768,
-                "Unknown2": 16,
-                "LocationId": 22801,
+                "Unknown2": 57,
+                "LocationId": 23130,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Doll Farmstead"
+                "LocationName": "Old Saojfa's Hovel"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 22127,
+                "NameSeed": 21469,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 22801,
-                "BuildingType": 18,
-                "Quality": 7
+                "LocationId": 23130,
+                "BuildingType": "House3",
+                "Quality": 10
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Doll Farmstead",
-            "MapId": 255000000858,
+            "AnotherName": "Old Saojfa's Hovel",
+            "MapId": 296832,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA01.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 178,
     "RegionIndex": 50,

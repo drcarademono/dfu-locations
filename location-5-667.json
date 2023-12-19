@@ -1,184 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Lion and Goat Tavern",
+    "Name": "The Sepulcher of Balthanus",
     "RegionName": "Dwynnen",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 643000000652,
-        "Latitude": 36904,
-        "Longitude": 83496,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 699511718,
+        "Latitude": 49704,
+        "Longitude": 67368,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Crypt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21379072,
-                "Y": 21084161,
+                "X": 17250304,
+                "Y": 12728321,
                 "IsExterior": 32768,
-                "Unknown2": 259,
-                "LocationId": 12477,
+                "Unknown2": 667,
+                "LocationId": 16596,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Lion and Goat Tavern"
+                "LocationName": "The Sepulcher of Balthanus"
             }
         },
-        "BuildingCount": 14,
-        "Buildings": [
-            {
-                "NameSeed": 14633,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 12477,
-                "BuildingType": 15,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 24314,
-                "FactionId": 0,
-                "Sector": 26,
-                "LocationId": 12477,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 29872,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 12477,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 29999,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 12477,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 18593,
-                "FactionId": 0,
-                "Sector": 38,
-                "LocationId": 12477,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 24488,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 12477,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 21718,
-                "FactionId": 0,
-                "Sector": 56,
-                "LocationId": 12477,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 12646,
-                "FactionId": 0,
-                "Sector": 64,
-                "LocationId": 12477,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 5358,
-                "FactionId": 0,
-                "Sector": 69,
-                "LocationId": 12477,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 2634,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 12477,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 6603,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 12477,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 26504,
-                "FactionId": 0,
-                "Sector": 81,
-                "LocationId": 12477,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 7999,
-                "FactionId": 0,
-                "Sector": 85,
-                "LocationId": 12477,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 20863,
-                "FactionId": 0,
-                "Sector": 90,
-                "LocationId": 12477,
-                "BuildingType": 18,
-                "Quality": 5
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "14633",
-            "MapId": 643000000652,
+            "AnotherName": "The Sepulcher of Balthanus",
+            "MapId": 111526,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS01.RMB"
+                "DUNGAA00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 17250304,
+                "Y": 12728321,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 125,
+                "LocationId": 16597,
+                "IsInterior": 1,
+                "ExteriorLocationId": 16596,
+                "LocationName": "The Sepulcher of Balthanus"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 8
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000025.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 133,
     "RegionIndex": 5,

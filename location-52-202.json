@@ -1,168 +1,160 @@
 {
     "Loaded": true,
-    "Name": "The Vault of Magnehoth",
+    "Name": "Glufylan Manor",
     "RegionName": "Mournoth",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 189000000881,
-        "Latitude": 95016,
-        "Longitude": 112808,
-        "LocationType": 4,
-        "DungeonType": 0,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 212138277,
+        "Latitude": 22312,
+        "Longitude": 118440,
+        "LocationType": "HomeWealthy",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 28882944,
-                "Y": 6207489,
+                "X": 30324736,
+                "Y": 5715969,
                 "IsExterior": 32768,
-                "Unknown2": 211,
-                "LocationId": 23972,
+                "Unknown2": 202,
+                "LocationId": 23938,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Vault of Magnehoth"
+                "LocationName": "Glufylan Manor"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 17149,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 23938,
+                "BuildingType": "House1",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 13931,
+                "FactionId": 0,
+                "Sector": 16,
+                "LocationId": 23938,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 12026,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 23938,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 7545,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 23938,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 14625,
+                "FactionId": 0,
+                "Sector": 41,
+                "LocationId": 23938,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 30474,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 23938,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 27900,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 23938,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 12397,
+                "FactionId": 0,
+                "Sector": 61,
+                "LocationId": 23938,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 9798,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 23938,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 19637,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 23938,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 3404,
+                "FactionId": 510,
+                "Sector": 87,
+                "LocationId": 23938,
+                "BuildingType": "Tavern",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "The Vault of Magnehoth",
-            "MapId": 189000000881,
+            "AnotherName": "Glufylan Manor",
+            "MapId": 325925,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA12.RMB"
+                "MANRAS00.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 30095360,
-                "Y": 5683201,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 53,
-                "LocationId": 23973,
-                "IsInterior": 1,
-                "ExteriorLocationId": 23972,
-                "LocationName": "The Vault of Magnehoth"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000000.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -2,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "W0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000091.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000039.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000012.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 180,
     "RegionIndex": 52,

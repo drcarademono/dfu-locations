@@ -1,168 +1,160 @@
 {
     "Loaded": true,
-    "Name": "Castle T'eze",
+    "Name": "The Knave and Badger Lodge",
     "RegionName": "Dragontail Mountains",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 147000000766,
-        "Latitude": 100392,
-        "Longitude": 98088,
-        "LocationType": 7,
-        "DungeonType": 13,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 387327293,
+        "Latitude": 12456,
+        "Longitude": 95912,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 25114624,
-                "Y": 4831233,
+                "X": 24557568,
+                "Y": 3192833,
                 "IsExterior": 32768,
-                "Unknown2": 512,
-                "LocationId": 27221,
+                "Unknown2": 369,
+                "LocationId": 26691,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle T'eze"
+                "LocationName": "The Knave and Badger Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 11,
+        "Buildings": [
+            {
+                "NameSeed": 808,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 26691,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 17324,
+                "FactionId": 0,
+                "Sector": 12,
+                "LocationId": 26691,
+                "BuildingType": "House2",
+                "Quality": 7
+            },
+            {
+                "NameSeed": 8684,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 26691,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 15950,
+                "FactionId": 0,
+                "Sector": 28,
+                "LocationId": 26691,
+                "BuildingType": "House3",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 19940,
+                "FactionId": 0,
+                "Sector": 33,
+                "LocationId": 26691,
+                "BuildingType": "House3",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 12688,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 26691,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 26627,
+                "FactionId": 0,
+                "Sector": 49,
+                "LocationId": 26691,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 27550,
+                "FactionId": 0,
+                "Sector": 55,
+                "LocationId": 26691,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 5299,
+                "FactionId": 510,
+                "Sector": 63,
+                "LocationId": 26691,
+                "BuildingType": "HouseForSale",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 19072,
+                "FactionId": 510,
+                "Sector": 67,
+                "LocationId": 26691,
+                "BuildingType": "Tavern",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 4895,
+                "FactionId": 510,
+                "Sector": 84,
+                "LocationId": 26691,
+                "BuildingType": "Tavern",
+                "Quality": 3
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Castle T'eze",
-            "MapId": 147000000766,
+            "AnotherName": "19072",
+            "MapId": 402749,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "CASTAA18.RMB"
+                "TVRNAS08.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 27539456,
-                "Y": 2603009,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 168,
-                "LocationId": 27222,
-                "IsInterior": 1,
-                "ExteriorLocationId": 27221,
-                "LocationName": "Castle T'eze"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 12
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000074.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000092.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -3,
-                "IsStartingBlock": false,
-                "BlockName": "B0000002.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "N0000035.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000018.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 2,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

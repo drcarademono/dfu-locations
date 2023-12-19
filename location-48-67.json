@@ -1,136 +1,104 @@
 {
     "Loaded": true,
-    "Name": "Castle M'arhtem",
+    "Name": "The Knave and Barbarian Lodge",
     "RegionName": "Tigonus",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 341000000544,
-        "Latitude": 75560,
-        "Longitude": 69672,
-        "LocationType": 4,
-        "DungeonType": 2,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 70574171,
+        "Latitude": 23080,
+        "Longitude": 74152,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17840128,
-                "Y": 11188225,
+                "X": 18987008,
+                "Y": 5912577,
                 "IsExterior": 32768,
-                "Unknown2": 282,
-                "LocationId": 25255,
+                "Unknown2": 67,
+                "LocationId": 23741,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Castle M'arhtem"
+                "LocationName": "The Knave and Barbarian Lodge"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 4,
+        "Buildings": [
+            {
+                "NameSeed": 22062,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 23741,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 30645,
+                "FactionId": 0,
+                "Sector": 11,
+                "LocationId": 23741,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 3139,
+                "FactionId": 510,
+                "Sector": 19,
+                "LocationId": 23741,
+                "BuildingType": "HouseForSale",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 8650,
+                "FactionId": 510,
+                "Sector": 30,
+                "LocationId": 23741,
+                "BuildingType": "Tavern",
+                "Quality": 8
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Castle M'arhtem",
-            "MapId": 341000000544,
+            "AnotherName": "8650",
+            "MapId": 319579,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA12.RMB"
+                "TVRNGS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 18036736,
-                "Y": 4470785,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 70,
-                "LocationId": 25256,
-                "IsInterior": 1,
-                "ExteriorLocationId": 25255,
-                "LocationName": "Castle M'arhtem"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -2,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000005.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "N0000008.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "W0000009.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000010.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000014.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,

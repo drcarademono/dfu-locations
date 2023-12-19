@@ -1,41 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Shrine of Q'Olwen",
+    "Name": "Old Nefylta's Hovel",
     "RegionName": "Sentinel",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 423000000332,
-        "Latitude": 65064,
-        "Longitude": 42536,
-        "LocationType": 9,
-        "DungeonType": 255,
+        "MapId": 391515173,
+        "Latitude": 13224,
+        "Longitude": 41640,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10893312,
-                "Y": 13875201,
+                "X": 10663936,
+                "Y": 3389441,
                 "IsExterior": 32768,
-                "Unknown2": 394,
-                "LocationId": 26553,
+                "Unknown2": 373,
+                "LocationId": 26490,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Shrine of Q'Olwen"
+                "LocationName": "Old Nefylta's Hovel"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 1,
+        "Buildings": [
+            {
+                "NameSeed": 23800,
+                "FactionId": 0,
+                "Sector": 4,
+                "LocationId": 26490,
+                "BuildingType": "House3",
+                "Quality": 8
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Shrine of Q'Olwen",
-            "MapId": 423000000332,
+            "AnotherName": "Old Nefylta's Hovel",
+            "MapId": 396325,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHRIAA00.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -59,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 148,
     "RegionIndex": 20,

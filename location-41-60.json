@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Bat and Hedgehog Pub",
+    "Name": "The Vault of Necromaneon",
     "RegionName": "Daenia",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 652000000498,
-        "Latitude": 35752,
-        "Longitude": 63784,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 62970962,
+        "Latitude": 56744,
+        "Longitude": 51496,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "Crypt",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 16332800,
-                "Y": 21379073,
+                "X": 13187072,
+                "Y": 14530561,
                 "IsExterior": 32768,
-                "Unknown2": 286,
-                "LocationId": 16947,
+                "Unknown2": 60,
+                "LocationId": 12987,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Bat and Hedgehog Pub"
+                "LocationName": "The Vault of Necromaneon"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 13573,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 16947,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 11855,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 16947,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 4564,
-                "FactionId": 0,
-                "Sector": 13,
-                "LocationId": 16947,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 28904,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 16947,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 27403,
-                "FactionId": 0,
-                "Sector": 24,
-                "LocationId": 16947,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 1367,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 16947,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 32615,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 16947,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 22597,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 16947,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 2398,
-                "FactionId": 0,
-                "Sector": 58,
-                "LocationId": 16947,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 23113,
-                "FactionId": 510,
-                "Sector": 68,
-                "LocationId": 16947,
-                "BuildingType": 15,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 2513,
-                "FactionId": 510,
-                "Sector": 80,
-                "LocationId": 16947,
-                "BuildingType": 15,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 4467,
-                "FactionId": 510,
-                "Sector": 93,
-                "LocationId": 16947,
-                "BuildingType": 15,
-                "Quality": 15
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "23113",
-            "MapId": 652000000498,
+            "AnotherName": "The Vault of Necromaneon",
+            "MapId": 56402,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS00.RMB"
+                "DUNGAA11.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 13187072,
+                "Y": 14530561,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 13,
+                "LocationId": 12988,
+                "IsInterior": 1,
+                "ExteriorLocationId": 12987,
+                "LocationName": "The Vault of Necromaneon"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 13
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 169,
     "RegionIndex": 41,

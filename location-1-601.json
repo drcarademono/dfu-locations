@@ -1,138 +1,50 @@
 {
     "Loaded": true,
-    "Name": "The Rusty Muskrat Tavern",
+    "Name": "The Old Kuldom Shack",
     "RegionName": "Dragontail Mountains",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 218000000652,
-        "Latitude": 91304,
-        "Longitude": 83496,
-        "LocationType": 6,
-        "DungeonType": 255,
+        "MapId": 630629882,
+        "Latitude": 8232,
+        "Longitude": 90408,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 256
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 21379072,
-                "Y": 7157761,
+                "X": 23148544,
+                "Y": 2111489,
                 "IsExterior": 32768,
-                "Unknown2": 471,
-                "LocationId": 27110,
+                "Unknown2": 601,
+                "LocationId": 27673,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Rusty Muskrat Tavern"
+                "LocationName": "The Old Kuldom Shack"
             }
         },
-        "BuildingCount": 12,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 16497,
+                "NameSeed": 28545,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 27110,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 824,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 27110,
-                "BuildingType": 18,
+                "LocationId": 27673,
+                "BuildingType": "House3",
                 "Quality": 8
-            },
-            {
-                "NameSeed": 11533,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 27110,
-                "BuildingType": 18,
-                "Quality": 7
-            },
-            {
-                "NameSeed": 14255,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 27110,
-                "BuildingType": 18,
-                "Quality": 8
-            },
-            {
-                "NameSeed": 1238,
-                "FactionId": 0,
-                "Sector": 29,
-                "LocationId": 27110,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 2205,
-                "FactionId": 0,
-                "Sector": 34,
-                "LocationId": 27110,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 20732,
-                "FactionId": 0,
-                "Sector": 39,
-                "LocationId": 27110,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 13482,
-                "FactionId": 0,
-                "Sector": 42,
-                "LocationId": 27110,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 356,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 27110,
-                "BuildingType": 18,
-                "Quality": 3
-            },
-            {
-                "NameSeed": 22681,
-                "FactionId": 0,
-                "Sector": 51,
-                "LocationId": 27110,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 6380,
-                "FactionId": 510,
-                "Sector": 55,
-                "LocationId": 27110,
-                "BuildingType": 15,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 22340,
-                "FactionId": 510,
-                "Sector": 71,
-                "LocationId": 27110,
-                "BuildingType": 15,
-                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "6380",
-            "MapId": 218000000652,
+            "AnotherName": "The Old Kuldom Shack",
+            "MapId": 435706,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS07.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -156,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 226,
-        "ClimateType": 100,
-        "NatureSet": 510,
+        "ClimateType": "Mountain",
+        "NatureSet": "Nature_Mountains",
         "GroundArchive": 102,
         "NatureArchive": 510,
         "SkyBase": 0,
-        "People": 0,
-        "Names": 0
+        "People": "Nord",
+        "Names": "Nord"
     },
     "Politic": 129,
     "RegionIndex": 1,

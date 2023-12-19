@@ -1,154 +1,50 @@
 {
     "Loaded": true,
-    "Name": "Weeping Tree of Kynareth",
+    "Name": "The Mooring Farmstead",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 686000000318,
-        "Latitude": 31400,
-        "Longitude": 40744,
-        "LocationType": 5,
-        "DungeonType": 255,
+        "MapId": 891481899,
+        "Latitude": 39336,
+        "Longitude": 38312,
+        "LocationType": "HomeFarms",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 16
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10434560,
-                "Y": 22493185,
+                "X": 9811968,
+                "Y": 10074113,
                 "IsExterior": 32768,
-                "Unknown2": 565,
-                "LocationId": 20186,
+                "Unknown2": 850,
+                "LocationId": 20805,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Weeping Tree of Kynareth"
+                "LocationName": "The Mooring Farmstead"
             }
         },
-        "BuildingCount": 14,
+        "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 5189,
+                "NameSeed": 10547,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 20186,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 5356,
-                "FactionId": 0,
-                "Sector": 9,
-                "LocationId": 20186,
-                "BuildingType": 18,
-                "Quality": 14
-            },
-            {
-                "NameSeed": 26354,
-                "FactionId": 0,
-                "Sector": 15,
-                "LocationId": 20186,
-                "BuildingType": 19,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 10633,
-                "FactionId": 0,
-                "Sector": 20,
-                "LocationId": 20186,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 18889,
-                "FactionId": 0,
-                "Sector": 23,
-                "LocationId": 20186,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 10360,
-                "FactionId": 0,
-                "Sector": 31,
-                "LocationId": 20186,
-                "BuildingType": 18,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 1972,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 20186,
-                "BuildingType": 19,
-                "Quality": 4
-            },
-            {
-                "NameSeed": 3451,
-                "FactionId": 0,
-                "Sector": 41,
-                "LocationId": 20186,
-                "BuildingType": 18,
+                "LocationId": 20805,
+                "BuildingType": "House2",
                 "Quality": 8
-            },
-            {
-                "NameSeed": 11834,
-                "FactionId": 0,
-                "Sector": 47,
-                "LocationId": 20186,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 31716,
-                "FactionId": 0,
-                "Sector": 50,
-                "LocationId": 20186,
-                "BuildingType": 18,
-                "Quality": 10
-            },
-            {
-                "NameSeed": 29229,
-                "FactionId": 0,
-                "Sector": 60,
-                "LocationId": 20186,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 23414,
-                "FactionId": 0,
-                "Sector": 68,
-                "LocationId": 20186,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 17667,
-                "FactionId": 0,
-                "Sector": 72,
-                "LocationId": 20186,
-                "BuildingType": 18,
-                "Quality": 11
-            },
-            {
-                "NameSeed": 16297,
-                "FactionId": 35,
-                "Sector": 78,
-                "LocationId": 20186,
-                "BuildingType": 14,
-                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "Weeping Tree of Kynareth",
-            "MapId": 686000000318,
+            "AnotherName": "The Mooring Farmstead",
+            "MapId": 192299,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TEMPAAH0.RMB"
+                "FARMAA05.RMB"
             ]
         }
     },
@@ -172,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

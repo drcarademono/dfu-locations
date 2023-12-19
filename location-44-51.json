@@ -1,96 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Dirty Castle Pub",
+    "Name": "The Nest of Norlotor",
     "RegionName": "Kairou",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 428000000217,
-        "Latitude": 64424,
-        "Longitude": 27816,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 53921619,
+        "Latitude": 7080,
+        "Longitude": 31144,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "HarpyNest",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 7124992,
-                "Y": 14039041,
+                "X": 7976960,
+                "Y": 1816577,
                 "IsExterior": 32768,
-                "Unknown2": 74,
-                "LocationId": 28085,
+                "Unknown2": 51,
+                "LocationId": 27879,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Dirty Castle Pub"
+                "LocationName": "The Nest of Norlotor"
             }
         },
-        "BuildingCount": 3,
-        "Buildings": [
-            {
-                "NameSeed": 28134,
-                "FactionId": 0,
-                "Sector": 4,
-                "LocationId": 28085,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 29677,
-                "FactionId": 510,
-                "Sector": 11,
-                "LocationId": 28085,
-                "BuildingType": 17,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 30037,
-                "FactionId": 510,
-                "Sector": 24,
-                "LocationId": 28085,
-                "BuildingType": 15,
-                "Quality": 10
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "30037",
-            "MapId": 428000000217,
+            "AnotherName": "The Nest of Norlotor",
+            "MapId": 444243,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNGS03.RMB"
+                "DUNGAA07.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 7976960,
+                "Y": 1816577,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 9,
+                "LocationId": 27880,
+                "IsInterior": 1,
+                "ExteriorLocationId": 27879,
+                "LocationName": "The Nest of Norlotor"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 14
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000073.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
         "WorldClimate": 229,
-        "ClimateType": 0,
-        "NatureSet": 501,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
         "GroundArchive": 2,
         "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 172,
     "RegionIndex": 44,

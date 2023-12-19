@@ -1,14 +1,14 @@
 {
     "Loaded": true,
-    "Name": "The Hearthford Farmstead",
+    "Name": "Old Barbara's Hovel",
     "RegionName": "Anticlere",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 617000000463,
-        "Latitude": 40232,
+        "MapId": 577929839,
+        "Latitude": 42920,
         "Longitude": 59304,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "LocationType": "HomePoor",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
         "Key": 0
     },
@@ -16,35 +16,35 @@
         "RecordElement": {
             "Header": {
                 "X": 15185920,
-                "Y": 20232193,
+                "Y": 10991617,
                 "IsExterior": 32768,
-                "Unknown2": 554,
-                "LocationId": 19639,
+                "Unknown2": 551,
+                "LocationId": 19595,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Hearthford Farmstead"
+                "LocationName": "Old Barbara's Hovel"
             }
         },
         "BuildingCount": 1,
         "Buildings": [
             {
-                "NameSeed": 11038,
+                "NameSeed": 8679,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 19639,
-                "BuildingType": 17,
-                "Quality": 10
+                "LocationId": 19595,
+                "BuildingType": "House3",
+                "Quality": 2
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Hearthford Farmstead",
-            "MapId": 617000000463,
+            "AnotherName": "Old Barbara's Hovel",
+            "MapId": 164463,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA09.RMB"
+                "SHCKAA00.RMB"
             ]
         }
     },
@@ -68,13 +68,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 149,
     "RegionIndex": 21,

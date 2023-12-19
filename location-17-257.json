@@ -1,50 +1,154 @@
 {
     "Loaded": true,
-    "Name": "The Buckington Farmstead",
+    "Name": "The Unfortunate Muskrat Inn",
     "RegionName": "Daggerfall",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 642000000335,
-        "Latitude": 37032,
-        "Longitude": 42920,
-        "LocationType": 3,
-        "DungeonType": 255,
+        "MapId": 269645275,
+        "Latitude": 43304,
+        "Longitude": 31144,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 10991616,
-                "Y": 21051393,
+                "X": 7976960,
+                "Y": 11089921,
                 "IsExterior": 32768,
-                "Unknown2": 1131,
-                "LocationId": 21483,
+                "Unknown2": 257,
+                "LocationId": 19380,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Buckington Farmstead"
+                "LocationName": "The Unfortunate Muskrat Inn"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 14,
         "Buildings": [
             {
-                "NameSeed": 24075,
-                "FactionId": 0,
-                "Sector": 10,
-                "LocationId": 21483,
-                "BuildingType": 18,
+                "NameSeed": 29080,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 19380,
+                "BuildingType": "Tavern",
                 "Quality": 5
+            },
+            {
+                "NameSeed": 15280,
+                "FactionId": 0,
+                "Sector": 26,
+                "LocationId": 19380,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 16516,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 19380,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 17026,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 19380,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 17109,
+                "FactionId": 0,
+                "Sector": 38,
+                "LocationId": 19380,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 31133,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 19380,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 25349,
+                "FactionId": 0,
+                "Sector": 56,
+                "LocationId": 19380,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 28395,
+                "FactionId": 0,
+                "Sector": 64,
+                "LocationId": 19380,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 27319,
+                "FactionId": 0,
+                "Sector": 69,
+                "LocationId": 19380,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 20111,
+                "FactionId": 0,
+                "Sector": 72,
+                "LocationId": 19380,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 15670,
+                "FactionId": 0,
+                "Sector": 76,
+                "LocationId": 19380,
+                "BuildingType": "House2",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 22386,
+                "FactionId": 0,
+                "Sector": 81,
+                "LocationId": 19380,
+                "BuildingType": "House2",
+                "Quality": 5
+            },
+            {
+                "NameSeed": 26657,
+                "FactionId": 0,
+                "Sector": 85,
+                "LocationId": 19380,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 16959,
+                "FactionId": 0,
+                "Sector": 90,
+                "LocationId": 19380,
+                "BuildingType": "House2",
+                "Quality": 13
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Buckington Farmstead",
-            "MapId": 642000000335,
+            "AnotherName": "29080",
+            "MapId": 161243,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "FARMAA00.RMB"
+                "TVRNAS01.RMB"
             ]
         }
     },
@@ -67,14 +171,14 @@
         "Blocks": null
     },
     "Climate": {
-        "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
-        "GroundArchive": 302,
-        "NatureArchive": 504,
+        "WorldClimate": 230,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_WoodlandHills",
+        "GroundArchive": 102,
+        "NatureArchive": 506,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 145,
     "RegionIndex": 17,

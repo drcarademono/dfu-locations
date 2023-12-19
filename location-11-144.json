@@ -1,136 +1,176 @@
 {
     "Loaded": true,
-    "Name": "Gripvor's Web",
+    "Name": "The Silver Mug Inn",
     "RegionName": "Dak'fron",
-    "HasDungeon": true,
+    "HasDungeon": false,
     "MapTableData": {
-        "MapId": 244000000472,
-        "Latitude": 87976,
-        "Longitude": 60456,
-        "LocationType": 4,
-        "DungeonType": 17,
-        "Discovered": false,
-        "Key": 0
+        "MapId": 151481625,
+        "Latitude": 1704,
+        "Longitude": 87208,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
+        "Discovered": true,
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 15480832,
-                "Y": 8009729,
+                "X": 22329344,
+                "Y": 440321,
                 "IsExterior": 32768,
-                "Unknown2": 128,
-                "LocationId": 29041,
+                "Unknown2": 144,
+                "LocationId": 29139,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "Gripvor's Web"
+                "LocationName": "The Silver Mug Inn"
             }
         },
-        "BuildingCount": 0,
-        "Buildings": [],
+        "BuildingCount": 13,
+        "Buildings": [
+            {
+                "NameSeed": 7215,
+                "FactionId": 510,
+                "Sector": 4,
+                "LocationId": 29139,
+                "BuildingType": "Tavern",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 185,
+                "FactionId": 510,
+                "Sector": 32,
+                "LocationId": 29139,
+                "BuildingType": "Tavern",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 12117,
+                "FactionId": 0,
+                "Sector": 44,
+                "LocationId": 29139,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 2205,
+                "FactionId": 0,
+                "Sector": 54,
+                "LocationId": 29139,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 20732,
+                "FactionId": 0,
+                "Sector": 60,
+                "LocationId": 29139,
+                "BuildingType": "House2",
+                "Quality": 9
+            },
+            {
+                "NameSeed": 13482,
+                "FactionId": 0,
+                "Sector": 66,
+                "LocationId": 29139,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 356,
+                "FactionId": 0,
+                "Sector": 73,
+                "LocationId": 29139,
+                "BuildingType": "House2",
+                "Quality": 3
+            },
+            {
+                "NameSeed": 22681,
+                "FactionId": 0,
+                "Sector": 78,
+                "LocationId": 29139,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 16422,
+                "FactionId": 0,
+                "Sector": 83,
+                "LocationId": 29139,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 23544,
+                "FactionId": 0,
+                "Sector": 88,
+                "LocationId": 29139,
+                "BuildingType": "House2",
+                "Quality": 10
+            },
+            {
+                "NameSeed": 11964,
+                "FactionId": 0,
+                "Sector": 94,
+                "LocationId": 29139,
+                "BuildingType": "House2",
+                "Quality": 2
+            },
+            {
+                "NameSeed": 9175,
+                "FactionId": 0,
+                "Sector": 100,
+                "LocationId": 29139,
+                "BuildingType": "House2",
+                "Quality": 14
+            },
+            {
+                "NameSeed": 16121,
+                "FactionId": 0,
+                "Sector": 110,
+                "LocationId": 29139,
+                "BuildingType": "House2",
+                "Quality": 12
+            }
+        ],
         "ExteriorData": {
-            "AnotherName": "Gripvor's Web",
-            "MapId": 244000000472,
+            "AnotherName": "7215",
+            "MapId": 486681,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "DUNGAA00.RMB"
+                "TVRNAS02.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 17577984,
-                "Y": 538625,
+                "X": 0,
+                "Y": 0,
                 "IsExterior": 0,
-                "Unknown2": 84,
-                "LocationId": 29042,
-                "IsInterior": 1,
-                "ExteriorLocationId": 29041,
-                "LocationName": "Gripvor's Web"
+                "Unknown2": 0,
+                "LocationId": 0,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": null
             }
         },
         "Header": {
-            "BlockCount": 8
+            "BlockCount": 0
         },
-        "Blocks": [
-            {
-                "X": -1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000007.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": -1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": -1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "N0000073.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "N0000060.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 2,
-                "IsStartingBlock": false,
-                "BlockName": "B0000001.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 1,
-                "Z": 1,
-                "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            }
-        ]
+        "Blocks": null
     },
     "Climate": {
         "WorldClimate": 225,
-        "ClimateType": 0,
-        "NatureSet": 503,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_Desert",
         "GroundArchive": 2,
         "NatureArchive": 503,
         "SkyBase": 8,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 139,
     "RegionIndex": 11,

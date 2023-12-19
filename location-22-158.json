@@ -1,50 +1,138 @@
 {
     "Loaded": true,
-    "Name": "The Caiz Cabin",
+    "Name": "The Screaming Helm Hostel",
     "RegionName": "Lainlyn",
     "HasDungeon": false,
     "MapTableData": {
-        "MapId": 310000000692,
-        "Latitude": 79528,
-        "Longitude": 88616,
-        "LocationType": 11,
-        "DungeonType": 255,
+        "MapId": 165970748,
+        "Latitude": 26152,
+        "Longitude": 94760,
+        "LocationType": "Tavern",
+        "DungeonType": "NoDungeon",
         "Discovered": true,
-        "Key": 0
+        "Key": 256
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 22689792,
-                "Y": 10172417,
+                "X": 24262656,
+                "Y": 6699009,
                 "IsExterior": 32768,
-                "Unknown2": 353,
-                "LocationId": 23663,
+                "Unknown2": 158,
+                "LocationId": 23096,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Caiz Cabin"
+                "LocationName": "The Screaming Helm Hostel"
             }
         },
-        "BuildingCount": 1,
+        "BuildingCount": 12,
         "Buildings": [
             {
-                "NameSeed": 497,
+                "NameSeed": 13140,
                 "FactionId": 0,
                 "Sector": 4,
-                "LocationId": 23663,
-                "BuildingType": 19,
-                "Quality": 9
+                "LocationId": 23096,
+                "BuildingType": "House2",
+                "Quality": 12
+            },
+            {
+                "NameSeed": 11232,
+                "FactionId": 0,
+                "Sector": 9,
+                "LocationId": 23096,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 1048,
+                "FactionId": 0,
+                "Sector": 15,
+                "LocationId": 23096,
+                "BuildingType": "House2",
+                "Quality": 13
+            },
+            {
+                "NameSeed": 2657,
+                "FactionId": 0,
+                "Sector": 20,
+                "LocationId": 23096,
+                "BuildingType": "House2",
+                "Quality": 4
+            },
+            {
+                "NameSeed": 21266,
+                "FactionId": 0,
+                "Sector": 29,
+                "LocationId": 23096,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 28041,
+                "FactionId": 0,
+                "Sector": 34,
+                "LocationId": 23096,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 31860,
+                "FactionId": 0,
+                "Sector": 39,
+                "LocationId": 23096,
+                "BuildingType": "House2",
+                "Quality": 8
+            },
+            {
+                "NameSeed": 15736,
+                "FactionId": 0,
+                "Sector": 42,
+                "LocationId": 23096,
+                "BuildingType": "House2",
+                "Quality": 6
+            },
+            {
+                "NameSeed": 28458,
+                "FactionId": 0,
+                "Sector": 47,
+                "LocationId": 23096,
+                "BuildingType": "House2",
+                "Quality": 1
+            },
+            {
+                "NameSeed": 8851,
+                "FactionId": 0,
+                "Sector": 51,
+                "LocationId": 23096,
+                "BuildingType": "House2",
+                "Quality": 15
+            },
+            {
+                "NameSeed": 13354,
+                "FactionId": 510,
+                "Sector": 55,
+                "LocationId": 23096,
+                "BuildingType": "Tavern",
+                "Quality": 11
+            },
+            {
+                "NameSeed": 32500,
+                "FactionId": 510,
+                "Sector": 71,
+                "LocationId": 23096,
+                "BuildingType": "Tavern",
+                "Quality": 3
             }
         ],
         "ExteriorData": {
-            "AnotherName": "The Caiz Cabin",
-            "MapId": 310000000692,
+            "AnotherName": "13354",
+            "MapId": 295740,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "SHCKAA00.RMB"
+                "TVRNAS07.RMB"
             ]
         }
     },
@@ -68,13 +156,13 @@
     },
     "Climate": {
         "WorldClimate": 227,
-        "ClimateType": 400,
-        "NatureSet": 500,
+        "ClimateType": "Swamp",
+        "NatureSet": "Nature_RainForest",
         "GroundArchive": 402,
         "NatureArchive": 500,
         "SkyBase": 24,
-        "People": 2,
-        "Names": 0
+        "People": "Redguard",
+        "Names": "Nord"
     },
     "Politic": 150,
     "RegionIndex": 22,

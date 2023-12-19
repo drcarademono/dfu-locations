@@ -1,66 +1,66 @@
 {
     "Loaded": true,
-    "Name": "The Yeomsley Cemetery",
+    "Name": "Hearthford Tower",
     "RegionName": "Bhoriane",
     "HasDungeon": true,
     "MapTableData": {
-        "MapId": 536000000720,
-        "Latitude": 50600,
-        "Longitude": 92200,
-        "LocationType": 12,
-        "DungeonType": 18,
+        "MapId": 114412333,
+        "Latitude": 48936,
+        "Longitude": 70312,
+        "LocationType": "DungeonKeep",
+        "DungeonType": "BarbarianStronghold",
         "Discovered": false,
         "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 23607296,
-                "Y": 17577985,
+                "X": 18003968,
+                "Y": 12531713,
                 "IsExterior": 32768,
-                "Unknown2": 62,
-                "LocationId": 16263,
+                "Unknown2": 109,
+                "LocationId": 16955,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Yeomsley Cemetery"
+                "LocationName": "Hearthford Tower"
             }
         },
         "BuildingCount": 0,
         "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "The Yeomsley Cemetery",
-            "MapId": 536000000720,
+            "AnotherName": "Hearthford Tower",
+            "MapId": 117549,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "GRVEAS20.RMB"
+                "CASTAA12.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 19838976,
-                "Y": 12892161,
+                "X": 18003968,
+                "Y": 12531713,
                 "IsExterior": 0,
-                "Unknown2": 16,
-                "LocationId": 16264,
+                "Unknown2": 26,
+                "LocationId": 16956,
                 "IsInterior": 1,
-                "ExteriorLocationId": 16263,
-                "LocationName": "The Yeomsley Cemetery"
+                "ExteriorLocationId": 16955,
+                "LocationName": "Hearthford Tower"
             }
         },
         "Header": {
-            "BlockCount": 5
+            "BlockCount": 8
         },
         "Blocks": [
             {
-                "X": -1,
+                "X": 0,
                 "Z": 0,
-                "IsStartingBlock": false,
-                "BlockName": "B0000011.RDB",
+                "IsStartingBlock": true,
+                "BlockName": "N0000065.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -68,23 +68,15 @@
                 "X": 0,
                 "Z": -1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000006.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
             {
-                "X": 0,
+                "X": -1,
                 "Z": 0,
-                "IsStartingBlock": true,
-                "BlockName": "M0000003.RDB",
-                "WaterLevel": 0,
-                "CastleBlock": false
-            },
-            {
-                "X": 0,
-                "Z": 1,
                 "IsStartingBlock": false,
-                "BlockName": "B0000013.RDB",
+                "BlockName": "B0000012.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             },
@@ -92,7 +84,15 @@
                 "X": 1,
                 "Z": 0,
                 "IsStartingBlock": false,
-                "BlockName": "B0000004.RDB",
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000014.RDB",
                 "WaterLevel": 0,
                 "CastleBlock": false
             }
@@ -100,13 +100,13 @@
     },
     "Climate": {
         "WorldClimate": 231,
-        "ClimateType": 300,
-        "NatureSet": 504,
+        "ClimateType": "Temperate",
+        "NatureSet": "Nature_TemperateWoodland",
         "GroundArchive": 302,
         "NatureArchive": 504,
         "SkyBase": 16,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 164,
     "RegionIndex": 36,

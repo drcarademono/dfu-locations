@@ -1,168 +1,112 @@
 {
     "Loaded": true,
-    "Name": "The Black Giant Pub",
+    "Name": "The Citadel of Blez",
     "RegionName": "Tigonus",
-    "HasDungeon": false,
+    "HasDungeon": true,
     "MapTableData": {
-        "MapId": 378000000538,
-        "Latitude": 70824,
-        "Longitude": 68904,
-        "LocationType": 6,
-        "DungeonType": 255,
-        "Discovered": true,
-        "Key": 256
+        "MapId": 210061729,
+        "Latitude": 19624,
+        "Longitude": 67752,
+        "LocationType": "DungeonLabyrinth",
+        "DungeonType": "HumanStronghold",
+        "Discovered": false,
+        "Key": 0
     },
     "Exterior": {
         "RecordElement": {
             "Header": {
-                "X": 17643520,
-                "Y": 12400641,
+                "X": 17348608,
+                "Y": 5027841,
                 "IsExterior": 32768,
-                "Unknown2": 137,
-                "LocationId": 24193,
+                "Unknown2": 200,
+                "LocationId": 24620,
                 "IsInterior": 0,
                 "ExteriorLocationId": 0,
-                "LocationName": "The Black Giant Pub"
+                "LocationName": "The Citadel of Blez"
             }
         },
-        "BuildingCount": 12,
-        "Buildings": [
-            {
-                "NameSeed": 15305,
-                "FactionId": 510,
-                "Sector": 4,
-                "LocationId": 24193,
-                "BuildingType": 15,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 21633,
-                "FactionId": 0,
-                "Sector": 27,
-                "LocationId": 24193,
-                "BuildingType": 18,
-                "Quality": 6
-            },
-            {
-                "NameSeed": 9209,
-                "FactionId": 0,
-                "Sector": 30,
-                "LocationId": 24193,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 4351,
-                "FactionId": 0,
-                "Sector": 35,
-                "LocationId": 24193,
-                "BuildingType": 18,
-                "Quality": 9
-            },
-            {
-                "NameSeed": 17239,
-                "FactionId": 0,
-                "Sector": 40,
-                "LocationId": 24193,
-                "BuildingType": 18,
-                "Quality": 15
-            },
-            {
-                "NameSeed": 8592,
-                "FactionId": 0,
-                "Sector": 46,
-                "LocationId": 24193,
-                "BuildingType": 18,
-                "Quality": 2
-            },
-            {
-                "NameSeed": 12241,
-                "FactionId": 0,
-                "Sector": 55,
-                "LocationId": 24193,
-                "BuildingType": 18,
-                "Quality": 5
-            },
-            {
-                "NameSeed": 17864,
-                "FactionId": 0,
-                "Sector": 63,
-                "LocationId": 24193,
-                "BuildingType": 18,
-                "Quality": 1
-            },
-            {
-                "NameSeed": 5226,
-                "FactionId": 0,
-                "Sector": 76,
-                "LocationId": 24193,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 32057,
-                "FactionId": 0,
-                "Sector": 85,
-                "LocationId": 24193,
-                "BuildingType": 18,
-                "Quality": 12
-            },
-            {
-                "NameSeed": 32034,
-                "FactionId": 0,
-                "Sector": 88,
-                "LocationId": 24193,
-                "BuildingType": 18,
-                "Quality": 13
-            },
-            {
-                "NameSeed": 7582,
-                "FactionId": 0,
-                "Sector": 91,
-                "LocationId": 24193,
-                "BuildingType": 18,
-                "Quality": 3
-            }
-        ],
+        "BuildingCount": 0,
+        "Buildings": [],
         "ExteriorData": {
-            "AnotherName": "15305",
-            "MapId": 378000000538,
+            "AnotherName": "The Citadel of Blez",
+            "MapId": 346529,
             "LocationId": 0,
             "Width": 1,
             "Height": 1,
             "PortTownAndUnknown": 0,
             "BlockNames": [
-                "TVRNAS09.RMB"
+                "DUNGAA03.RMB"
             ]
         }
     },
     "Dungeon": {
         "RecordElement": {
             "Header": {
-                "X": 0,
-                "Y": 0,
+                "X": 17348608,
+                "Y": 5027841,
                 "IsExterior": 0,
-                "Unknown2": 0,
-                "LocationId": 0,
-                "IsInterior": 0,
-                "ExteriorLocationId": 0,
-                "LocationName": null
+                "Unknown2": 53,
+                "LocationId": 24621,
+                "IsInterior": 1,
+                "ExteriorLocationId": 24620,
+                "LocationName": "The Citadel of Blez"
             }
         },
         "Header": {
-            "BlockCount": 0
+            "BlockCount": 10
         },
-        "Blocks": null
+        "Blocks": [
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "W0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000008.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
     },
     "Climate": {
-        "WorldClimate": 228,
-        "ClimateType": 400,
-        "NatureSet": 502,
-        "GroundArchive": 402,
-        "NatureArchive": 502,
+        "WorldClimate": 229,
+        "ClimateType": "Desert",
+        "NatureSet": "Nature_SubTropical",
+        "GroundArchive": 2,
+        "NatureArchive": 501,
         "SkyBase": 24,
-        "People": 3,
-        "Names": 0
+        "People": "Breton",
+        "Names": "Nord"
     },
     "Politic": 176,
     "RegionIndex": 48,
