@@ -1,0 +1,138 @@
+{
+    "Loaded": true,
+    "Name": "Wickton's Hold",
+    "RegionName": "Ykalon",
+    "HasDungeon": true,
+    "MapTableData": {
+        "MapId": 780000000508,
+        "Latitude": 19368,
+        "Longitude": 65064,
+        "LocationType": 7,
+        "DungeonType": 11,
+        "Discovered": false,
+        "Key": 0
+    },
+    "Exterior": {
+        "RecordElement": {
+            "Header": {
+                "X": 16660480,
+                "Y": 25573377,
+                "IsExterior": 32768,
+                "Unknown2": 1,
+                "LocationId": 10006,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": "Wickton's Hold"
+            }
+        },
+        "BuildingCount": 0,
+        "Buildings": [],
+        "ExteriorData": {
+            "AnotherName": "Wickton's Hold",
+            "MapId": 780000000508,
+            "LocationId": 0,
+            "Width": 1,
+            "Height": 1,
+            "PortTownAndUnknown": 0,
+            "BlockNames": [
+                "CASTAA01.RMB"
+            ]
+        }
+    },
+    "Dungeon": {
+        "RecordElement": {
+            "Header": {
+                "X": 9844736,
+                "Y": 16332801,
+                "IsExterior": 0,
+                "Unknown2": 1,
+                "LocationId": 10007,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10006,
+                "LocationName": "Wickton's Hold"
+            }
+        },
+        "Header": {
+            "BlockCount": 8
+        },
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000011.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -2,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "N0000021.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000083.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000013.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
+    },
+    "Climate": {
+        "WorldClimate": 232,
+        "ClimateType": 300,
+        "NatureSet": 508,
+        "GroundArchive": 302,
+        "NatureArchive": 508,
+        "SkyBase": 16,
+        "People": 3,
+        "Names": 0
+    },
+    "Politic": 168,
+    "RegionIndex": 40,
+    "LocationIndex": 555
+}

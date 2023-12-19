@@ -1,0 +1,138 @@
+{
+    "Loaded": true,
+    "Name": "Castle Coppering",
+    "RegionName": "Tulune",
+    "HasDungeon": true,
+    "MapTableData": {
+        "MapId": 755000000229,
+        "Latitude": 22568,
+        "Longitude": 29352,
+        "LocationType": 7,
+        "DungeonType": 3,
+        "Discovered": false,
+        "Key": 0
+    },
+    "Exterior": {
+        "RecordElement": {
+            "Header": {
+                "X": 7518208,
+                "Y": 24754177,
+                "IsExterior": 32768,
+                "Unknown2": 136,
+                "LocationId": 19423,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": "Castle Coppering"
+            }
+        },
+        "BuildingCount": 0,
+        "Buildings": [],
+        "ExteriorData": {
+            "AnotherName": "Castle Coppering",
+            "MapId": 755000000229,
+            "LocationId": 0,
+            "Width": 1,
+            "Height": 1,
+            "PortTownAndUnknown": 0,
+            "BlockNames": [
+                "CASTAA16.RMB"
+            ]
+        }
+    },
+    "Dungeon": {
+        "RecordElement": {
+            "Header": {
+                "X": 2340864,
+                "Y": 11057153,
+                "IsExterior": 0,
+                "Unknown2": 37,
+                "LocationId": 19424,
+                "IsInterior": 1,
+                "ExteriorLocationId": 19423,
+                "LocationName": "Castle Coppering"
+            }
+        },
+        "Header": {
+            "BlockCount": 8
+        },
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -2,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "W0000023.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "N0000082.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000007.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
+    },
+    "Climate": {
+        "WorldClimate": 231,
+        "ClimateType": 300,
+        "NatureSet": 504,
+        "GroundArchive": 302,
+        "NatureArchive": 504,
+        "SkyBase": 16,
+        "People": 3,
+        "Names": 0
+    },
+    "Politic": 186,
+    "RegionIndex": 58,
+    "LocationIndex": 22
+}

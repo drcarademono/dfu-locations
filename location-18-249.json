@@ -1,0 +1,114 @@
+{
+    "Loaded": true,
+    "Name": "The Moorsley Vaults",
+    "RegionName": "Glenpoint",
+    "HasDungeon": true,
+    "MapTableData": {
+        "MapId": 748000000299,
+        "Latitude": 23464,
+        "Longitude": 38312,
+        "LocationType": 12,
+        "DungeonType": 18,
+        "Discovered": false,
+        "Key": 0
+    },
+    "Exterior": {
+        "RecordElement": {
+            "Header": {
+                "X": 9811968,
+                "Y": 24524801,
+                "IsExterior": 32768,
+                "Unknown2": 347,
+                "LocationId": 17785,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": "The Moorsley Vaults"
+            }
+        },
+        "BuildingCount": 0,
+        "Buildings": [],
+        "ExteriorData": {
+            "AnotherName": "The Moorsley Vaults",
+            "MapId": 748000000299,
+            "LocationId": 0,
+            "Width": 1,
+            "Height": 1,
+            "PortTownAndUnknown": 0,
+            "BlockNames": [
+                "GRVEAS21.RMB"
+            ]
+        }
+    },
+    "Dungeon": {
+        "RecordElement": {
+            "Header": {
+                "X": 4438016,
+                "Y": 12007425,
+                "IsExterior": 0,
+                "Unknown2": 112,
+                "LocationId": 17786,
+                "IsInterior": 1,
+                "ExteriorLocationId": 17785,
+                "LocationName": "The Moorsley Vaults"
+            }
+        },
+        "Header": {
+            "BlockCount": 5
+        },
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000002.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000005.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000004.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000003.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000009.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
+    },
+    "Climate": {
+        "WorldClimate": 230,
+        "ClimateType": 300,
+        "NatureSet": 506,
+        "GroundArchive": 102,
+        "NatureArchive": 506,
+        "SkyBase": 16,
+        "People": 3,
+        "Names": 0
+    },
+    "Politic": 146,
+    "RegionIndex": 18,
+    "LocationIndex": 249
+}

@@ -1,0 +1,114 @@
+{
+    "Loaded": true,
+    "Name": "The Mastersmith Vaults",
+    "RegionName": "Wrothgarian Mountains",
+    "HasDungeon": true,
+    "MapTableData": {
+        "MapId": 448000001052,
+        "Latitude": 61864,
+        "Longitude": 134696,
+        "LocationType": 12,
+        "DungeonType": 18,
+        "Discovered": false,
+        "Key": 0
+    },
+    "Exterior": {
+        "RecordElement": {
+            "Header": {
+                "X": 34486272,
+                "Y": 14694401,
+                "IsExterior": 32768,
+                "Unknown2": 229,
+                "LocationId": 10756,
+                "IsInterior": 0,
+                "ExteriorLocationId": 0,
+                "LocationName": "The Mastersmith Vaults"
+            }
+        },
+        "BuildingCount": 0,
+        "Buildings": [],
+        "ExteriorData": {
+            "AnotherName": "The Mastersmith Vaults",
+            "MapId": 448000001052,
+            "LocationId": 0,
+            "Width": 1,
+            "Height": 1,
+            "PortTownAndUnknown": 0,
+            "BlockNames": [
+                "GRVEAS24.RMB"
+            ]
+        }
+    },
+    "Dungeon": {
+        "RecordElement": {
+            "Header": {
+                "X": 30717952,
+                "Y": 15841281,
+                "IsExterior": 0,
+                "Unknown2": 84,
+                "LocationId": 10757,
+                "IsInterior": 1,
+                "ExteriorLocationId": 10756,
+                "LocationName": "The Mastersmith Vaults"
+            }
+        },
+        "Header": {
+            "BlockCount": 5
+        },
+        "Blocks": [
+            {
+                "X": -1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000001.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": -1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 0,
+                "IsStartingBlock": true,
+                "BlockName": "M0000000.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 0,
+                "Z": 1,
+                "IsStartingBlock": false,
+                "BlockName": "B0000010.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            },
+            {
+                "X": 1,
+                "Z": 0,
+                "IsStartingBlock": false,
+                "BlockName": "B0000012.RDB",
+                "WaterLevel": 0,
+                "CastleBlock": false
+            }
+        ]
+    },
+    "Climate": {
+        "WorldClimate": 226,
+        "ClimateType": 100,
+        "NatureSet": 510,
+        "GroundArchive": 102,
+        "NatureArchive": 510,
+        "SkyBase": 0,
+        "People": 0,
+        "Names": 0
+    },
+    "Politic": 144,
+    "RegionIndex": 16,
+    "LocationIndex": 989
+}
